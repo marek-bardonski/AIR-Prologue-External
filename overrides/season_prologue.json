@@ -1,0 +1,64 @@
+[
+  {
+    "//": "Prologue originals for the seasons (26.09.2026). Snow is gathered from any hex with enough of it on the ground (game-data/interactables.json gather_snow) and melted in a pot over a fire: ten measures of snow make one of water, which is still untreated and wants boiling like any water taken from outside. It is not food and cannot be eaten or drunk as it is."
+  },
+  {
+    "id": "snow",
+    "type": "GENERIC",
+    "//": "Prologue original. One measure is a quarter litre of loose snow, about a tenth of that as water.",
+    "name": {
+      "str_sp": "snow"
+    },
+    "description": "Clean-looking snow, packed into whatever will hold it. Melted in a pot over a fire it gives a little water — about a tenth of what it looks like — and that water still wants boiling before it is safe.",
+    "weight": "25 g",
+    "volume": "250 ml",
+    "material": [
+      "water"
+    ],
+    "symbol": "*",
+    "color": "white",
+    "flags": [
+      "COUNT_BY_CHARGES"
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "water",
+    "id_suffix": "from_snow",
+    "//": "Prologue original: melting snow in a pot over a fire, ten to one.",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "15 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      50,
+      1
+    ],
+    "qualities": [
+      {
+        "id": "BOIL",
+        "level": 1
+      }
+    ],
+    "tools": [
+      [
+        [
+          "water_boiling_heat",
+          1,
+          "LIST"
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "snow",
+          10
+        ]
+      ]
+    ]
+  }
+]

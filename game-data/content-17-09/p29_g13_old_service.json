@@ -1,0 +1,340 @@
+{
+  "group": "p29_g13_old_service",
+  "source": "29.09.2026 firearms import: old service pistols and rifles (9x18mm, 7.62x25mm, .303) with rounds and cases",
+  "items": [
+    {
+      "id": "makarov",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "tokarev",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "smle_mk3",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "number4_mki",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "9x18mm",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.04,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "9x18mmfmj",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_9x18mm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0086,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_9x18mm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0086,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_9x18mm",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "762_25",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.04,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_762_25",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0086,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_762_25",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0086,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_762_25",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "303_sp",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.04,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "303_fmjbt",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.04,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_303",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0086,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_303",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0086,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "9x18mm_casing",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "762_25_casing",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "303_casing",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:bp_303",
+    "recipe:bp_762_25",
+    "recipe:bp_9x18mm",
+    "recipe:matchhead_762_25",
+    "recipe:matchhead_9x18mm",
+    "recipe:reloaded_303",
+    "recipe:reloaded_762_25",
+    "recipe:reloaded_9x18mm"
+  ],
+  "notes": [
+    "These turn up in ruins and caches, not in shops."
+  ]
+}

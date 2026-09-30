@@ -1,0 +1,516 @@
+{
+  "group": "p29_a09_wardrobe",
+  "source": "29.09.2026 second 500: everyday clothing and headgear (hats, helms, face wear, swimwear, robes, skirts)",
+  "items": [
+    {
+      "id": "fedora",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "straw_fedora",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.4
+        },
+        {
+          "table": "shop",
+          "weight": 0.15
+        },
+        {
+          "table": "farm",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "combo_cover",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "helmet_sallet",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.06
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "helmet_armet",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "helmet_riot",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "beekeeping_hood",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.3
+        },
+        {
+          "table": "farm",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "tinfoil_hat",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "nun_wimple",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "kippah",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "chaplet",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "santa_hat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "mask_dust",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "face_veil",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mask_plague",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "goggles_swim",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mouthpiece",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "sunglasses",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.1
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "fitover_sunglasses",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "eclipse_glasses",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "bikini_bottom",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "bikini_top",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "bikini_bottom_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "bikini_top_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "flag_swimsuit",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "bikini_top_fur",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "bikini_top_leather",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "hot_pants",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "hot_pants_fur",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "hot_pants_leather",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "turtleneck_shirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.6
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "antarvasa",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "uttarasanga",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "kasaya",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "samghati",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "cassock",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "nun_habit",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "plaguedoctor_robe",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "trousers_ninja",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "cheerleader_skirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "cheerleader_top_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "nanoskirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "flag_jumpsuit",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:bikini_bottom",
+    "recipe:bikini_top",
+    "recipe:bikini_top_fur",
+    "recipe:bikini_top_leather",
+    "recipe:chaplet",
+    "recipe:helmet_armet",
+    "recipe:helmet_sallet",
+    "recipe:hot_pants",
+    "recipe:hot_pants_fur",
+    "recipe:hot_pants_leather",
+    "recipe:straw_fedora",
+    "recipe:tinfoil_hat",
+    "recipe:turtleneck_shirt"
+  ],
+  "notes": [
+    "Helmet attachments (face shields, nape protectors, aventails) skipped: the game has no helmet-attachment slot and ignores CANT_WEAR.",
+    "Transform states (loose/headwrap scarves, raised visors, rolled necks) skipped; only the base states are imported."
+  ]
+}

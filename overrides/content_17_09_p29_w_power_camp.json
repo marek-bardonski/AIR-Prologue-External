@@ -1,0 +1,15 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p29_w_power_camp. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "UPS_OFF",
+    "name": {
+      "str": "power inverter",
+      "str_pl": "power inverters"
+    },
+    "description": "A unified power supply built around an inverter: it turns a battery's direct current into household current for plug-in tools and appliances.  Set it by the camp's batteries and every corded appliance within reach can run off them.",
+    "//": "Prologue: the camp's inverter (game-data/camp-power.json inverters); CDDA has no stand-alone inverter item, and its UPS is noted as one"
+  }
+]

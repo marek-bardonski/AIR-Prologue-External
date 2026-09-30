@@ -1,0 +1,1610 @@
+{
+  "source": "CDDA 0.I; existing source item and recipe definitions enabled without overrides. Exactly 200 new item IDs and 200 new crafting recipe keys.",
+  "scope": "Passive clothing and armor, general storage, hand tools and melee weapons, food and drink. No new gameplay mechanics. Each ingredient/tool row has an enabled alternative; selected dependency chains are ordered before their consumers.",
+  "baseline": {
+    "items": 627,
+    "recipes": 643
+  },
+  "recipes": [
+    {
+      "id": "popcorn2",
+      "key": "recipe:popcorn2",
+      "name": "salted popcorn",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/raw_grain.json"
+    },
+    {
+      "id": "meat_scrap_cooked",
+      "key": "recipe:meat_scrap_cooked",
+      "name": "cooked scrap of meat",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/carnivore.json"
+    },
+    {
+      "id": "poultry_scrap_cooked",
+      "key": "recipe:poultry_scrap_cooked",
+      "name": "cooked scrap of poultry",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/carnivore.json"
+    },
+    {
+      "id": "mace_pipe_large",
+      "key": "recipe:mace_pipe_large",
+      "name": "great pipe mace",
+      "skill": "fabrication",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "sandwich_sauce",
+      "key": "recipe:sandwich_sauce",
+      "name": "boring sandwich",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/sandwich.json"
+    },
+    {
+      "id": "hardtack",
+      "key": "recipe:hardtack",
+      "name": "hardtack",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/bread.json"
+    },
+    {
+      "id": "staff_pipe",
+      "key": "recipe:staff_pipe",
+      "name": "pipe staff",
+      "skill": "fabrication",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "rehydrated_fish",
+      "key": "recipe:rehydrated_fish",
+      "name": "rehydrated fish",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "rehydrated_fruit",
+      "key": "recipe:rehydrated_fruit",
+      "name": "rehydrated fruit",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/fruit_dishes.json"
+    },
+    {
+      "id": "rehydrated_meat",
+      "key": "recipe:rehydrated_meat",
+      "name": "rehydrated meat",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "sandwich_t",
+      "key": "recipe:sandwich_t",
+      "name": "meat sandwich",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/sandwich.json"
+    },
+    {
+      "id": "sandwich_veggy",
+      "key": "recipe:sandwich_veggy",
+      "name": "vegetable sandwich",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/sandwich.json"
+    },
+    {
+      "id": "bwirebat",
+      "key": "recipe:bwirebat",
+      "name": "barbed wire bat",
+      "skill": "fabrication",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "grass_keffiyeh",
+      "key": "recipe:grass_keffiyeh",
+      "name": "grass keffiyeh",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "keffiyeh",
+      "key": "recipe:keffiyeh",
+      "name": "keffiyeh",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "oatmeal_deluxe",
+      "key": "recipe:oatmeal_deluxe",
+      "name": "deluxe cooked oatmeal",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/wheat.json"
+    },
+    {
+      "id": "sleeveless_duster_fur",
+      "key": "recipe:sleeveless_duster_fur:from_duster_fur",
+      "name": "sleeveless fur duster",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "knuckle_nail",
+      "key": "recipe:knuckle_nail",
+      "name": "pair of nail knuckles",
+      "skill": "fabrication",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "makeshift_sap",
+      "key": "recipe:makeshift_sap",
+      "name": "makeshift sap",
+      "skill": "survival",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "nutboltbat",
+      "key": "recipe:nutboltbat",
+      "name": "bolt studded bat",
+      "skill": "fabrication",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "loincloth_fur",
+      "key": "recipe:loincloth_fur",
+      "name": "fur loincloth",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "loincloth_leather",
+      "key": "recipe:loincloth_leather",
+      "name": "leather loincloth",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "loincloth_wool",
+      "key": "recipe:loincloth_wool",
+      "name": "wool loincloth",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "pan_roasted_corn",
+      "key": "recipe:pan_roasted_corn",
+      "name": "pan roasted corn",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/corn.json"
+    },
+    {
+      "id": "sword_wood",
+      "key": "recipe:sword_wood",
+      "name": "2-by-sword",
+      "skill": "fabrication",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "sword_wood_large",
+      "key": "recipe:sword_wood_large",
+      "name": "zweitimber",
+      "skill": "fabrication",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "bellywrap_fur",
+      "key": "recipe:bellywrap_fur",
+      "name": "fur belly wrap",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "bellywrap_leather",
+      "key": "recipe:bellywrap_leather",
+      "name": "leather belly wrap",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "socks_ankle",
+      "key": "recipe:socks_ankle",
+      "name": "ankle socks (pair)",
+      "skill": "tailor",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/feet.json"
+    },
+    {
+      "id": "deluxe_veggy_rice",
+      "key": "recipe:deluxe_veggy_rice",
+      "name": "fried rice",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/vegetable_dishes.json"
+    },
+    {
+      "id": "seasoning_salt",
+      "key": "recipe:seasoning_salt",
+      "name": "seasoned salt",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/spice.json"
+    },
+    {
+      "id": "chipper",
+      "key": "recipe:chipper",
+      "name": "paint chipper",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/tools/tools_hand.json"
+    },
+    {
+      "id": "dandelion_tea",
+      "key": "recipe:dandelion_tea",
+      "name": "dandelion tea",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/drinks.json"
+    },
+    {
+      "id": "aztec_spear_glass",
+      "key": "recipe:aztec_spear_glass",
+      "name": "glass bladed tepoztopili",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "aztec_spear_stone",
+      "key": "recipe:aztec_spear_stone",
+      "name": "stone bladed tepoztopili",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "bag_canvas_small",
+      "key": "recipe:bag_canvas_small",
+      "name": "canvas bag",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/tools/containers.json"
+    },
+    {
+      "id": "carrot_roasted",
+      "key": "recipe:carrot_roasted",
+      "name": "roasted carrot",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/vegetable_dishes.json"
+    },
+    {
+      "id": "cracklins",
+      "key": "recipe:cracklins",
+      "name": "cracklins",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "glass_macuahuitl",
+      "key": "recipe:glass_macuahuitl",
+      "name": "glass bladed macuahuitl",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "hoodie_cropped",
+      "key": "recipe:hoodie_cropped:cutting",
+      "name": "cropped hoodie",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "meat_fried",
+      "key": "recipe:meat_fried",
+      "name": "fried meat",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/carnivore.json"
+    },
+    {
+      "id": "shed_stick",
+      "key": "recipe:shed_stick",
+      "name": "wooden shed stick",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/tools/tool.json"
+    },
+    {
+      "id": "wallet_duct_tape",
+      "key": "recipe:wallet_duct_tape",
+      "name": "duct tape wallet",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "carrot_glazed",
+      "key": "recipe:carrot_glazed",
+      "name": "glazed carrot",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/vegetable_dishes.json"
+    },
+    {
+      "id": "frybread",
+      "key": "recipe:frybread",
+      "name": "frybread",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/bread.json"
+    },
+    {
+      "id": "heart_cooked",
+      "key": "recipe:heart_cooked",
+      "name": "cooked piece of heart",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/offal_dishes.json"
+    },
+    {
+      "id": "kidney_cooked",
+      "key": "recipe:kidney_cooked",
+      "name": "cooked piece of kidney",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/offal_dishes.json"
+    },
+    {
+      "id": "liver_cooked",
+      "key": "recipe:liver_cooked",
+      "name": "cooked piece of liver",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/offal_dishes.json"
+    },
+    {
+      "id": "lung_cooked",
+      "key": "recipe:lung_cooked",
+      "name": "cooked piece of lung",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/offal_dishes.json"
+    },
+    {
+      "id": "sweetbread_cooked",
+      "key": "recipe:sweetbread_cooked",
+      "name": "cooked piece of sweetbread",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/offal_dishes.json"
+    },
+    {
+      "id": "aztec_spear_scrap",
+      "key": "recipe:aztec_spear_scrap",
+      "name": "makeshift tepoztopili",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "aztec_sword_scrap",
+      "key": "recipe:aztec_sword_scrap",
+      "name": "makeshift macuahuitl",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "hood_rain",
+      "key": "recipe:hood_rain",
+      "name": "rain hood",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "veggy_salad",
+      "key": "recipe:veggy_salad",
+      "name": "vegetable salad",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/vegetable_dishes.json"
+    },
+    {
+      "id": "gloves_fingerless_mod",
+      "key": "recipe:gloves_fingerless_mod",
+      "name": "pair of armored fingerless leather gloves",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/hands.json"
+    },
+    {
+      "id": "jerrycan",
+      "key": "recipe:jerrycan",
+      "name": "plastic jerrycan",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/tools/containers.json"
+    },
+    {
+      "id": "stomach_sealed",
+      "key": "recipe:stomach_sealed",
+      "name": "sealed stomach",
+      "skill": "survival",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/tools/containers.json"
+    },
+    {
+      "id": "large_stomach_sealed",
+      "key": "recipe:large_stomach_sealed",
+      "name": "large sealed stomach",
+      "skill": "survival",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/tools/containers.json"
+    },
+    {
+      "id": "mittens",
+      "key": "recipe:mittens",
+      "name": "pair of mittens",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/hands.json"
+    },
+    {
+      "id": "coat_rain",
+      "key": "recipe:coat_rain",
+      "name": "rain coat",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "suspenders_cloth",
+      "key": "recipe:suspenders_cloth",
+      "name": "suspenders",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "leg_warmers",
+      "key": "recipe:leg_warmers",
+      "name": "pair of leg warmers",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "mocassins",
+      "key": "recipe:mocassins",
+      "name": "moccasins (pair)",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/feet.json"
+    },
+    {
+      "id": "house_coat",
+      "key": "recipe:house_coat",
+      "name": "bathrobe",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "socks_wool",
+      "key": "recipe:socks_wool",
+      "name": "wool socks (pair)",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/feet.json"
+    },
+    {
+      "id": "stockings",
+      "key": "recipe:stockings",
+      "name": "stockings (pair)",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/feet.json"
+    },
+    {
+      "id": "suspenders_leather",
+      "key": "recipe:suspenders_leather",
+      "name": "leather suspenders",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "aztec_sword_stone",
+      "key": "recipe:aztec_sword_stone",
+      "name": "stone lined macuahuitl",
+      "skill": "fabrication",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "shorts",
+      "key": "recipe:shorts",
+      "name": "shorts",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "gloves_wool",
+      "key": "recipe:gloves_wool",
+      "name": "pair of wool gloves",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/hands.json"
+    },
+    {
+      "id": "pine_tea",
+      "key": "recipe:pine_tea",
+      "name": "pine needle tea",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/drinks.json"
+    },
+    {
+      "id": "deluxe_beansnrice",
+      "key": "recipe:deluxe_beansnrice",
+      "name": "deluxe beans and rice",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "deluxe_veggy_beansnrice",
+      "key": "recipe:deluxe_veggy_beansnrice",
+      "name": "deluxe vegetarian beans and rice",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/vegetable_dishes.json"
+    },
+    {
+      "id": "paella_valenciana",
+      "key": "recipe:paella_valenciana",
+      "name": "Valencian paella",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "soup_veggy",
+      "key": "recipe:soup_veggy",
+      "name": "vegetable soup",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/soup.json"
+    },
+    {
+      "id": "box_oversize_wood",
+      "key": "recipe:box_oversize_wood",
+      "name": "oversize wooden box",
+      "skill": "fabrication",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/tools/containers.json"
+    },
+    {
+      "id": "soup_fish",
+      "key": "recipe:soup_fish",
+      "name": "fish soup",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/soup.json"
+    },
+    {
+      "id": "soup_meat",
+      "key": "recipe:soup_meat",
+      "name": "meat soup",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/soup.json"
+    },
+    {
+      "id": "tank_top",
+      "key": "recipe:tank_top",
+      "name": "tank top",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "canvas_pants_padded",
+      "key": "recipe:canvas_pants_padded",
+      "name": "cloth-padded pants",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "undershirt",
+      "key": "recipe:undershirt",
+      "name": "undershirt",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "balclava",
+      "key": "recipe:balclava",
+      "name": "balaclava",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "hijab",
+      "key": "recipe:hijab",
+      "name": "hijab",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "niqab",
+      "key": "recipe:niqab",
+      "name": "niqab",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "sickle_stone",
+      "key": "recipe:sickle_stone",
+      "name": "stone sickle",
+      "skill": "fabrication",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/tools/tools_primitive.json"
+    },
+    {
+      "id": "skirt_grass",
+      "key": "recipe:skirt_grass",
+      "name": "grass skirt",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "flour",
+      "key": "recipe:flour:mortar",
+      "name": "flour",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/milling.json"
+    },
+    {
+      "id": "beret_wool",
+      "key": "recipe:beret_wool",
+      "name": "wool beret",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "hat_cotton",
+      "key": "recipe:hat_cotton",
+      "name": "cotton hat",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "mushroom_ketchup",
+      "key": "recipe:mushroom_ketchup",
+      "name": "mushroom ketchup",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/mushroom.json"
+    },
+    {
+      "id": "long_undertop",
+      "key": "recipe:long_undertop",
+      "name": "long underwear top",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "abaya",
+      "key": "recipe:abaya",
+      "name": "abaya",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "boxer_briefs",
+      "key": "recipe:boxer_briefs",
+      "name": "boxer briefs",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "boxer_shorts",
+      "key": "recipe:boxer_shorts",
+      "name": "boxer shorts",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "briefs",
+      "key": "recipe:briefs",
+      "name": "briefs",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "hat_fur",
+      "key": "recipe:hat_fur",
+      "name": "fur hat",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "hat_hunting",
+      "key": "recipe:hat_hunting",
+      "name": "hunting cap",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "longshirt",
+      "key": "recipe:longshirt",
+      "name": "long-sleeved shirt",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "cloak",
+      "key": "recipe:cloak",
+      "name": "cloak",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/suit.json"
+    },
+    {
+      "id": "leg_warmers_f",
+      "key": "recipe:leg_warmers_f",
+      "name": "pair of fur leggings",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "vambrace_larmor",
+      "key": "recipe:vambrace_larmor",
+      "name": "pair of leather vambraces",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/arms.json"
+    },
+    {
+      "id": "wallet_leather",
+      "key": "recipe:wallet_leather",
+      "name": "leather wallet",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "cloak_fur",
+      "key": "recipe:cloak_fur",
+      "name": "fur cloak",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/suit.json"
+    },
+    {
+      "id": "gauntlets_larmor",
+      "key": "recipe:gauntlets_larmor",
+      "name": "pair of leather armor gauntlets",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/hands.json"
+    },
+    {
+      "id": "long_duffelbag",
+      "key": "recipe:long_duffelbag",
+      "name": "longarm bag",
+      "skill": "tailor",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "dandelion_fried",
+      "key": "recipe:dandelion_fried",
+      "name": "fried dandelions",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/vegetable_dishes.json"
+    },
+    {
+      "id": "wood_smoother",
+      "key": "recipe:wood_smoother",
+      "name": "wooden smoother",
+      "skill": "fabrication",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/tools/tools_hand.json"
+    },
+    {
+      "id": "fish_fried",
+      "key": "recipe:fish_fried",
+      "name": "batter fried fish",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "makeshift_axe",
+      "key": "recipe:makeshift_axe",
+      "name": "metal axe head",
+      "skill": "survival",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/tools/tool.json"
+    },
+    {
+      "id": "cloak_wool",
+      "key": "recipe:cloak_wool",
+      "name": "wool cloak",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/suit.json"
+    },
+    {
+      "id": "sausagegravy",
+      "key": "recipe:sausagegravy",
+      "name": "sausage gravy",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "casting_mold_small",
+      "key": "recipe:casting_mold_small",
+      "name": "small sandcasting mold",
+      "skill": "fabrication",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/tools/tools_hand.json"
+    },
+    {
+      "id": "gloves_studded",
+      "key": "recipe:gloves_studded",
+      "name": "pair of studded gloves",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/hands.json"
+    },
+    {
+      "id": "meat_salted",
+      "key": "recipe:meat_salted",
+      "name": "salted meat slice",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "soup_woods",
+      "key": "recipe:soup_woods",
+      "name": "woods meat soup",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/soup.json"
+    },
+    {
+      "id": "waterskin3",
+      "key": "recipe:waterskin3",
+      "name": "large waterskin",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/tools/containers.json"
+    },
+    {
+      "id": "wastebread",
+      "key": "recipe:wastebread",
+      "name": "wastebread",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/bread.json"
+    },
+    {
+      "id": "legguard_scrap",
+      "key": "recipe:legguard_scrap",
+      "name": "pair of scrap leg guards",
+      "skill": "fabrication",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "pelmeni",
+      "key": "recipe:pelmeni",
+      "name": "pelmeni",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "sauce_red",
+      "key": "recipe:sauce_red",
+      "name": "tomato sauce",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/drink_other.json"
+    },
+    {
+      "id": "sieve_primitive",
+      "key": "recipe:sieve_primitive",
+      "name": "wicker sieve",
+      "skill": "fabrication",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/tools/tool.json"
+    },
+    {
+      "id": "tunic",
+      "key": "recipe:tunic",
+      "name": "tunic",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "survivor_adhoc_leather_sleeves",
+      "key": "recipe:survivor_adhoc_leather_sleeves:sheets",
+      "name": "leather-padded sleeves",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/bespoke_armor/survivor.json"
+    },
+    {
+      "id": "throat_guard_canvas",
+      "key": "recipe:throat_guard_canvas",
+      "name": "canvas throat guard",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "throat_guard_nylon",
+      "key": "recipe:throat_guard_nylon",
+      "name": "nylon throat guard",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "tonfa_wood",
+      "key": "recipe:tonfa_wood",
+      "name": "wooden tonfa",
+      "skill": "fabrication",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "clogs",
+      "key": "recipe:clogs",
+      "name": "wooden clogs (pair)",
+      "skill": "fabrication",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/feet.json"
+    },
+    {
+      "id": "hat_boonie",
+      "key": "recipe:hat_boonie",
+      "name": "boonie hat",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "cowboy_hat",
+      "key": "recipe:cowboy_hat",
+      "name": "cowboy hat",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "cuirass_scrap",
+      "key": "recipe:cuirass_scrap",
+      "name": "scrap cuirass",
+      "skill": "fabrication",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "jacket_windbreaker",
+      "key": "recipe:jacket_windbreaker",
+      "name": "windbreaker",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "survivor_adhoc_leather_shirt",
+      "key": "recipe:survivor_adhoc_leather_shirt:sheets",
+      "name": "leather-padded shirt",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/bespoke_armor/survivor.json"
+    },
+    {
+      "id": "sweatshirt",
+      "key": "recipe:sweatshirt",
+      "name": "sweatshirt",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "sundress",
+      "key": "recipe:sundress",
+      "name": "sundress",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "deployment_bag",
+      "key": "recipe:deployment_bag",
+      "name": "deployment bag",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "shillelagh",
+      "key": "recipe:shillelagh",
+      "name": "shillelagh",
+      "skill": "fabrication",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "sleeveless_trenchcoat",
+      "key": "recipe:sleeveless_trenchcoat",
+      "name": "sleeveless trenchcoat",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "trenchcoat",
+      "key": "recipe:trenchcoat",
+      "name": "trenchcoat",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "sleeveless_duster",
+      "key": "recipe:sleeveless_duster",
+      "name": "sleeveless duster",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "travelpack",
+      "key": "recipe:travelpack",
+      "name": "travelpack",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "sleeveless_trenchcoat_fur",
+      "key": "recipe:sleeveless_trenchcoat_fur",
+      "name": "sleeveless fur trenchcoat",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "duster",
+      "key": "recipe:duster",
+      "name": "duster",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "legguard_larmor",
+      "key": "recipe:legguard_larmor",
+      "name": "pair of leather leg guards",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "trenchcoat_fur",
+      "key": "recipe:trenchcoat_fur",
+      "name": "fur trenchcoat",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "wool_suit",
+      "key": "recipe:wool_suit",
+      "name": "thick wool onesie",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/suit.json"
+    },
+    {
+      "id": "wicker_backpack",
+      "key": "recipe:wicker_backpack",
+      "name": "wicker backpack",
+      "skill": "tailor",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "protein_powder",
+      "key": "recipe:protein_powder",
+      "name": "protein powder",
+      "skill": "cooking",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/food/dry.json"
+    },
+    {
+      "id": "chicken_fried",
+      "key": "recipe:chicken_fried",
+      "name": "fried chicken",
+      "skill": "cooking",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "hand_axe",
+      "key": "recipe:hand_axe",
+      "name": "stone axe head",
+      "skill": "survival",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/tools/tools_primitive.json"
+    },
+    {
+      "id": "armguard_metal_sheets_elbows",
+      "key": "recipe:armguard_metal_sheets_elbows",
+      "name": "pair of mild steel sheet metal elbow guards",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/arms.json"
+    },
+    {
+      "id": "armguard_metal_sheets_shoulders",
+      "key": "recipe:armguard_metal_sheets_shoulders",
+      "name": "pair of mild steel sheet metal pauldrons",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/arms.json"
+    },
+    {
+      "id": "copper_ax",
+      "key": "recipe:copper_ax",
+      "name": "copper hatchet",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/tools/tools_primitive.json"
+    },
+    {
+      "id": "legguard_metal_sheets_knees",
+      "key": "recipe:legguard_metal_sheets_knees",
+      "name": "pair of sheet metal knee guards",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "primitive_axe",
+      "key": "recipe:primitive_axe",
+      "name": "stone axe",
+      "skill": "survival",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/tools/tools_primitive.json"
+    },
+    {
+      "id": "armguard_metal_sheets_bracer",
+      "key": "recipe:armguard_metal_sheets_bracer",
+      "name": "pair of mild steel sheet metal bracers",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/arms.json"
+    },
+    {
+      "id": "legguard_metal_sheets_greaves",
+      "key": "recipe:legguard_metal_sheets_greaves",
+      "name": "pair of sheet metal greaves",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "legguard_metal_sheets_hip",
+      "key": "recipe:legguard_metal_sheets_hip",
+      "name": "sheet metal skirt",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "mitten_gaunt_metal_sheets",
+      "key": "recipe:mitten_gaunt_metal_sheets",
+      "name": "pair of sheet metal gauntlets",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/hands.json"
+    },
+    {
+      "id": "sabaton_metal_sheets",
+      "key": "recipe:sabaton_metal_sheets",
+      "name": "sheet metal sabatons (pair)",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/feet.json"
+    },
+    {
+      "id": "armguard_metal",
+      "key": "recipe:armguard_metal",
+      "name": "pair of sheet metal arm guards",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/arms.json"
+    },
+    {
+      "id": "helmet_larmor",
+      "key": "recipe:helmet_larmor",
+      "name": "leather armor helmet",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "legguard_metal_sheets",
+      "key": "recipe:legguard_metal_sheets",
+      "name": "pair of sheet metal leg guards",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "poncho",
+      "key": "recipe:poncho",
+      "name": "wool poncho",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "vest_leather",
+      "key": "recipe:vest_leather:from_patches",
+      "name": "leather vest",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "chestguard_metal_sheets",
+      "key": "recipe:chestguard_metal_sheets",
+      "name": "sheet metal chest guard",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "chestguard_metal_sheets_light",
+      "key": "recipe:chestguard_metal_sheets_light",
+      "name": "light sheet metal chest guard",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "helmet_skull",
+      "key": "recipe:helmet_skull",
+      "name": "wolf skull helmet",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "sustainment_pouch",
+      "key": "recipe:sustainment_pouch",
+      "name": "sustainment pouch",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "cowl_wool",
+      "key": "recipe:cowl_wool",
+      "name": "knit cowl",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/head.json"
+    },
+    {
+      "id": "leg_bag",
+      "key": "recipe:leg_bag",
+      "name": "drop leg bag",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "coat_fur",
+      "key": "recipe:coat_fur",
+      "name": "fur coat",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "vest",
+      "key": "recipe:vest",
+      "name": "utility vest",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "chestguard_metal_sheets_heavy",
+      "key": "recipe:chestguard_metal_sheets_heavy",
+      "name": "heavy sheet metal chest guard",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "pants_fur",
+      "key": "recipe:pants_fur",
+      "name": "fur pants",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/legs.json"
+    },
+    {
+      "id": "armor_larmor_chest",
+      "key": "recipe:armor_larmor_chest",
+      "name": "leather armor cuirass",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/torso.json"
+    },
+    {
+      "id": "backpack_tactical_large",
+      "key": "recipe:backpack_tactical_large",
+      "name": "large tactical backpack",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "aketon_canvas_vest",
+      "key": "recipe:aketon_canvas_vest",
+      "name": "canvas aketon vest",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/gambeson_crafts.json"
+    },
+    {
+      "id": "gambeson_canvas_vest",
+      "key": "recipe:gambeson_canvas_vest",
+      "name": "sleeveless canvas gambeson",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/gambeson_crafts.json"
+    },
+    {
+      "id": "gambeson_nylon_vest",
+      "key": "recipe:gambeson_nylon_vest",
+      "name": "sleeveless nylon gambeson",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/gambeson_crafts.json"
+    },
+    {
+      "id": "gambeson_pants_canvas",
+      "key": "recipe:gambeson_pants_canvas",
+      "name": "canvas heavy arming pants",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/gambeson_crafts.json"
+    },
+    {
+      "id": "gambeson_pants_nylon",
+      "key": "recipe:gambeson_pants_nylon",
+      "name": "nylon heavy arming pants",
+      "skill": "tailor",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/gambeson_crafts.json"
+    },
+    {
+      "id": "wool_sockmitts",
+      "key": "recipe:wool_sockmitts",
+      "name": "pair of wool sock mitts",
+      "skill": "survival",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/armor/hands.json"
+    },
+    {
+      "id": "protein_drink",
+      "key": "recipe:protein_drink",
+      "name": "protein drink",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/protein.json"
+    },
+    {
+      "id": "protein_shake",
+      "key": "recipe:protein_shake",
+      "name": "protein shake",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/protein.json"
+    },
+    {
+      "id": "soggy_hardtack",
+      "key": "recipe:soggy_hardtack",
+      "name": "soggy hardtack",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/bread.json"
+    },
+    {
+      "id": "fish_sandwich",
+      "key": "recipe:fish_sandwich",
+      "name": "fish sandwich",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/sandwich.json"
+    },
+    {
+      "id": "flatbread",
+      "key": "recipe:flatbread",
+      "name": "flatbread",
+      "skill": "cooking",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/food/bread.json"
+    },
+    {
+      "id": "armor_larmor",
+      "key": "recipe:armor_larmor",
+      "name": "leather body armor",
+      "skill": "tailor",
+      "difficulty": 1,
+      "source": "cdda/data/json/recipes/armor/suit.json"
+    },
+    {
+      "id": "jerrypack",
+      "key": "recipe:jerrypack",
+      "name": "jerrypack",
+      "skill": "fabrication",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/armor/storage.json"
+    },
+    {
+      "id": "sword_nail",
+      "key": "recipe:sword_nail",
+      "name": "nord",
+      "skill": "fabrication",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/weapon/bashing.json"
+    },
+    {
+      "id": "tortilla_flour",
+      "key": "recipe:tortilla_flour",
+      "name": "flour tortilla",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/bread.json"
+    },
+    {
+      "id": "soup_mushroom",
+      "key": "recipe:soup_mushroom",
+      "name": "mushroom soup",
+      "skill": "cooking",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/food/soup.json"
+    },
+    {
+      "id": "sword_crude",
+      "key": "recipe:sword_crude",
+      "name": "scrap sword",
+      "skill": "fabrication",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/weapon/cutting.json"
+    },
+    {
+      "id": "sword_crude_large",
+      "key": "recipe:sword_crude_large",
+      "name": "scrap greatsword",
+      "skill": "fabrication",
+      "difficulty": 2,
+      "source": "cdda/data/json/recipes/weapon/cutting.json"
+    },
+    {
+      "id": "hamburger",
+      "key": "recipe:hamburger",
+      "name": "hamburger",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/meat_dishes.json"
+    },
+    {
+      "id": "armor_metal_sheets",
+      "key": "recipe:armor_metal_sheets:assembly",
+      "name": "sheet metal armor",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/suit.json"
+    },
+    {
+      "id": "armor_metal_sheets_heavy",
+      "key": "recipe:armor_metal_sheets_heavy:assembly",
+      "name": "heavy sheet metal armor",
+      "skill": "fabrication",
+      "difficulty": 4,
+      "source": "cdda/data/json/recipes/armor/suit.json"
+    },
+    {
+      "id": "nachos",
+      "key": "recipe:nachos",
+      "name": "tortilla chips",
+      "skill": "cooking",
+      "difficulty": 3,
+      "source": "cdda/data/json/recipes/food/junkfood.json"
+    },
+    {
+      "id": "nachosm",
+      "key": "recipe:nachosm",
+      "name": "meat nachos",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/junkfood.json"
+    },
+    {
+      "id": "nachosv",
+      "key": "recipe:nachosv",
+      "name": "vegetarian nachos",
+      "skill": "cooking",
+      "difficulty": 0,
+      "source": "cdda/data/json/recipes/food/junkfood.json"
+    }
+  ]
+}

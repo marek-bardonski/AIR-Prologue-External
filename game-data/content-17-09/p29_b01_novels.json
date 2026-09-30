@@ -1,0 +1,649 @@
+{
+  "group": "p29_b01_novels",
+  "source": "29.09.2026 second 500, round 3: novels and leisure reading - genre paperbacks, story collections, poetry and plays, comics and news, and a handful of named titles; every one has a positive fun and lifts the mood while read",
+  "items": [
+    {
+      "id": "novel_adventure",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "novel_buddy",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "novel_crime",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "novel_drama",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "novel_experimental",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "novel_fantasy",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "novel_horror",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "novel_mystery",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "novel_road",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "novel_romance",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "novel_samurai",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "novel_satire",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "novel_spy",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "novel_swash",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "novel_thriller",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        },
+        {
+          "table": "railway_depot",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "novel_tragedy",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "novel_war",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "novel_western",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "novel_scifi",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.4
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "novel_sports",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "novel_pulp",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "novel_coa",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "story_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.35
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "tall_tales",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "poetry_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "plays_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "collector_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "child_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "philosophy_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "mag_comic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.08
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mag_gaming",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.25
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mag_news",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "news_regional",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.12
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_satire_catch",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_satire_mandm",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_scifi_brave",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_scifi_f451",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_scifi_roadp",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_scifi_dune",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_west_gore",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_swash_buccaneer",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "poetic_edda",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "book_anthology_sunvault",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_pulp_squids",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_adrk",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_ya_dark",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_sports_bunt",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "book_newage_horoscopes",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "book_newage_healcrystals",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_rogue",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Leisure books only: no skill, the mood lift comes from their fun value (Reading.enjoy).",
+    "Loot mostly in house_books (0.1-0.4 each, about 20 in all against ~165 of skill books), with light rows in house_common, discovery_luggage and genre-fitting places."
+  ]
+}

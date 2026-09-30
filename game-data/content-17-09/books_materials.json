@@ -1,0 +1,955 @@
+{
+  "group": "books_materials",
+  "source": "TO-DO-17.09.MD, family 6 (books) and family 5 (materials)",
+  "items": [
+    {
+      "id": "glassblowing_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "sole learn source of the glass chain"
+    },
+    {
+      "id": "cookbook_italian",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ]
+    },
+    {
+      "id": "family_cookbook",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "books"
+      ]
+    },
+    {
+      "id": "textbook_survival",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "books"
+      ]
+    },
+    {
+      "id": "polycarbonate_sheet",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "materials",
+        "workshop"
+      ]
+    },
+    {
+      "id": "makeshift_vacuum_mold",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "iodine",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "science"
+      ]
+    },
+    {
+      "id": "can_sealer",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ]
+    },
+    {
+      "id": "cookbook_sushi",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "cookbook; teaches the rice and fish dishes CDDA gates behind it"
+    },
+    {
+      "id": "cookbook_indian",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "cookbook; the only learn path to recipe:ghee, and it teaches the curry/tandoori rows that the yoghurt and curry_powder staged in batch 2 feed"
+    },
+    {
+      "id": "offalcooking",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "cooking to 3; the only learn path to sausage_casings (batch 7), so its unlock lands with that id"
+    },
+    {
+      "id": "sweets_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "cooking to 2; the only enabled learn path to recipe:cookies"
+    },
+    {
+      "id": "baking_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "cooking to 5; exclusive learn path to recipe:cookies and recipe:toastem4, and a second path to bread"
+    },
+    {
+      "id": "dairy_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "cooking to 5; exclusive learn path to raw_butter (both variants) and icecream"
+    },
+    {
+      "id": "vinegar_maker",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "cooking to 3; the only learn path to recipe:vinegar, whose result is already whitelisted"
+    },
+    {
+      "id": "manual_canning",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "cooking (copy-from mag_cooking); exclusive learn path to twelve jarred preserving rows"
+    },
+    {
+      "id": "survival_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "survival to 8, the deepest survival ladder in the game; also a second path to eight enabled recipes"
+    },
+    {
+      "id": "atomic_survival",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "survival to 8; also an alternative learn path for 27 enabled chemistry rows"
+    },
+    {
+      "id": "textbook_fabrication",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 6; exclusive learn path to spiked_plate, hard_plate and recipe:propane_lantern (the batch 1 lantern)"
+    },
+    {
+      "id": "textbook_carpentry",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 6; a second learn path to copper_ax and the ground primitive axe"
+    },
+    {
+      "id": "carpentry_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 8; exclusive learn path to recipe:pilot_light and recipe:water_faucet"
+    },
+    {
+      "id": "recipe_melee",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 6; exclusive learn path to pockknife, battleaxe and bagh_nakha, and to knife_hunting staged with it"
+    },
+    {
+      "id": "textbook_weapwest",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 10, the deepest fabrication ladder; exclusive learn path to recipe:battleaxe"
+    },
+    {
+      "id": "textbook_weapeast",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 10; exclusive learn path to butterfly_swords and bagh_nakha"
+    },
+    {
+      "id": "manual_knives",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "trains the CDDA stabbing skill, which the loader folds into melee (rule 10); exclusive learn path to pockknife and knife_hunting"
+    },
+    {
+      "id": "welding_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 7; exclusive learn path to steel_lump:from_other_steel, spiked_plate and hard_plate"
+    },
+    {
+      "id": "metal_casting_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 7; no exclusive recipe today, but it is a second learn path for all 24 ingot rows"
+    },
+    {
+      "id": "bronze_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 7; a second path to the enabled bronze rows now, and the learn path for the bronze weapons in batch 6"
+    },
+    {
+      "id": "plastics_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "electrical_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "fabrication to 7; exclusive learn path to recipe:knee_pads, plus the plastic-moulding rows opened in batch 0"
+    },
+    {
+      "id": "textbook_botany",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "survival to 5; it teaches no enabled recipe (both its CDDA recipes are drug rows the survey excluded), so it is a skill book only"
+    },
+    {
+      "id": "knife_hunting",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "not part of the 20: survey A melee row whose recipe is learnable only from manual_knives or recipe_melee, so it gives both books a craftable unlock"
+    },
+    {
+      "id": "manual_sealing",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "not part of the 20: the survey names it as the learn path that goes with can_sealer (already staged in this group). Without it every canned* row, including the nine this file already claimed, is obtainable but unlearnable"
+    },
+    {
+      "id": "textbook_tailor",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "house_clothes",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "tailor 3 -> 6, the first book past the current tailor cap of 3; teaches 27 recipes whose results are already enabled"
+    },
+    {
+      "id": "textbook_firstaid",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 2
+        },
+        {
+          "table": "house_books",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "firstaid 3 -> 6; firstaid drives Health.bandageQuality, so the ladder has direct combat value"
+    },
+    {
+      "id": "textbook_mechanics",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 2
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_books",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "books"
+      ],
+      "note": "mechanics 3 -> 6, the first book past the current mechanics cap of 3"
+    },
+    {
+      "id": "material_limestone",
+      "loot": [
+        {
+          "table": "hills",
+          "weight": 2
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "materials"
+      ],
+      "note": "unblocks recipe:chem_baking_soda and feeds chem_acetone, chem_calcium_chloride, chem_washing_soda and welding_rod_steel (quicklime and slaked lime are already enabled)"
+    },
+    {
+      "id": "thread_kevlar",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "materials"
+      ],
+      "note": "loot-only aramid thread; with kevlar_patch it unblocks the sheet_kevlar rows, and it is the single most common missing uncraft output in the game (78 dropped rows)"
+    },
+    {
+      "id": "kevlar_patch",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "materials"
+      ],
+      "note": "recipe:kevlar_patch tailor 3 autolearn; the other half of the sheet_kevlar chain"
+    },
+    {
+      "id": "sheet_nylon",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "materials"
+      ],
+      "note": "synthetic fabric sheet: a second crafting route into the nylon clothing already enabled, and six dropped uncraft rows"
+    },
+    {
+      "id": "button_plastic",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "materials"
+      ],
+      "note": "recipe:button_plastic fabrication 4 autolearn; an alternative fastener in about thirty enabled clothing and bag recipes, and 32 dropped uncraft rows"
+    },
+    {
+      "id": "button_wood",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "materials"
+      ],
+      "note": "recipe:button_wood fabrication 3 autolearn; same fastener slot, 27 dropped uncraft rows"
+    },
+    {
+      "id": "simple_crank",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "recipe:simple_crank fabrication 3 autolearn; the missing input of recipe:oil_press_manual and of the pedal grindstone"
+    },
+    {
+      "id": "giant_wood_screw",
+      "loot": [
+        {
+          "table": "logging_camp_supplies",
+          "weight": 1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "recipe:giant_wood_screw fabrication 5 autolearn; the missing input of recipe:screw_press_tool, which restores a Home station tool"
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [
+    "recipe:toastem4",
+    "recipe:raw_butter",
+    "recipe:raw_butter:shake",
+    "recipe:icecream",
+    "recipe:pilot_light",
+    "recipe:water_faucet",
+    "recipe:battleaxe",
+    "recipe:bagh_nakha",
+    "recipe:butterfly_swords",
+    "recipe:knee_pads",
+    "recipe:soup_mushroom:jarred",
+    "recipe:soup_mushroom:jarred_3l",
+    "recipe:soup_woods:jarred",
+    "recipe:soup_woods:jarred_3l",
+    "recipe:soup_meat:jarred",
+    "recipe:soup_meat:jarred_3l",
+    "recipe:soup_fish:jarred",
+    "recipe:soup_fish:jarred_3l",
+    "recipe:soup_veggy:jarred",
+    "recipe:soup_veggy:jarred_3l",
+    "recipe:can_beans:jarred",
+    "recipe:can_beans:jarred_3l",
+    "recipe:sauce_red:jarred",
+    "recipe:sauce_red:jarred_3l",
+    "recipe:jam_fruit:jarred",
+    "recipe:jam_fruit:jarred_3L",
+    "recipe:con_milk:jarred",
+    "recipe:con_milk:jarred_3l",
+    "recipe:con_milk:canned",
+    "recipe:con_milk:canned_small",
+    "recipe:con_milk:canned_big",
+    "recipe:can_beans",
+    "recipe:can_beans:canned_big",
+    "recipe:sauce_red:canned",
+    "recipe:sauce_red:canned_small",
+    "recipe:sauce_red:canned_big",
+    "recipe:soup_fish:canned",
+    "recipe:soup_fish:canned_big",
+    "recipe:soup_meat:canned",
+    "recipe:soup_meat:canned_big",
+    "recipe:soup_mushroom:canned",
+    "recipe:soup_mushroom:canned_small",
+    "recipe:soup_mushroom:canned_big",
+    "recipe:soup_veggy:canned",
+    "recipe:soup_veggy:canned_big",
+    "recipe:soup_woods:canned",
+    "recipe:soup_woods:canned_big",
+    "recipe:jam_fruit",
+    "recipe:chem_baking_soda",
+    "recipe:magnifying_glass",
+    "recipe:sheet_kevlar",
+    "recipe:sheet_kevlar:electric_spinwheel",
+    "recipe:sheet_kevlar:spinningwheel",
+    "recipe:sheet_kevlar_patchwork",
+    "recipe:oil_press_manual",
+    "recipe:screw_press_tool"
+  ],
+  "recipesExclude": [
+    "recipe:jar_3l_glass_sealed:glassblowers_crucible"
+  ],
+  "recipesExpected": [
+    "recipe:glass_shard",
+    "recipe:jar_glass_sealed",
+    "recipe:bottle_glass",
+    "recipe:jar_3l_glass_sealed",
+    "recipe:bottle_plastic",
+    "recipe:canteen",
+    "recipe:funnel",
+    "recipe:jug_plastic:with_plastic_molding",
+    "recipe:sewing_kit",
+    "recipe:pur_tablets",
+    "recipe:broth:canned",
+    "recipe:broth:canned_big",
+    "recipe:broth:canned_small",
+    "recipe:broth_meat:canned",
+    "recipe:broth_meat:canned_big",
+    "recipe:broth_meat:canned_small",
+    "recipe:juice:canned",
+    "recipe:juice:canned_big",
+    "recipe:juice:canned_small",
+    "recipe:vinegar",
+    "recipe:cookies",
+    "recipe:toastem4",
+    "recipe:icecream",
+    "recipe:propane_lantern",
+    "recipe:spiked_plate",
+    "recipe:hard_plate",
+    "recipe:pilot_light",
+    "recipe:water_faucet",
+    "recipe:pockknife",
+    "recipe:battleaxe",
+    "recipe:bagh_nakha",
+    "recipe:butterfly_swords",
+    "recipe:knee_pads",
+    "recipe:steel_lump:from_other_steel",
+    "recipe:knife_hunting",
+    "recipe:soup_mushroom:jarred",
+    "recipe:soup_mushroom:jarred_3l",
+    "recipe:soup_woods:jarred",
+    "recipe:soup_woods:jarred_3l",
+    "recipe:soup_meat:jarred",
+    "recipe:soup_meat:jarred_3l",
+    "recipe:soup_fish:jarred",
+    "recipe:soup_fish:jarred_3l",
+    "recipe:soup_veggy:jarred",
+    "recipe:soup_veggy:jarred_3l",
+    "recipe:can_beans:jarred",
+    "recipe:can_beans:jarred_3l",
+    "recipe:sauce_red:jarred",
+    "recipe:sauce_red:jarred_3l",
+    "recipe:jam_fruit:jarred",
+    "recipe:jam_fruit:jarred_3L",
+    "recipe:con_milk:jarred",
+    "recipe:con_milk:jarred_3l",
+    "recipe:con_milk:canned",
+    "recipe:con_milk:canned_small",
+    "recipe:con_milk:canned_big",
+    "recipe:can_beans",
+    "recipe:can_beans:canned_big",
+    "recipe:sauce_red:canned",
+    "recipe:sauce_red:canned_small",
+    "recipe:sauce_red:canned_big",
+    "recipe:soup_fish:canned",
+    "recipe:soup_fish:canned_big",
+    "recipe:soup_meat:canned",
+    "recipe:soup_meat:canned_big",
+    "recipe:soup_mushroom:canned",
+    "recipe:soup_mushroom:canned_small",
+    "recipe:soup_mushroom:canned_big",
+    "recipe:soup_veggy:canned",
+    "recipe:soup_veggy:canned_big",
+    "recipe:soup_woods:canned",
+    "recipe:soup_woods:canned_big",
+    "recipe:jam_fruit",
+    "recipe:can_tomato",
+    "recipe:can_tomato:canned_big",
+    "recipe:can_tomato:canned_medium",
+    "recipe:kevlar_patch",
+    "recipe:button_plastic",
+    "recipe:button_wood",
+    "recipe:simple_crank",
+    "recipe:giant_wood_screw:from wooden beams",
+    "recipe:chem_baking_soda",
+    "recipe:sheet_kevlar",
+    "recipe:sheet_kevlar_patchwork",
+    "recipe:oil_press_manual",
+    "recipe:screw_press_tool",
+    "recipe:can_sealer"
+  ],
+  "notes": [
+    "Books: loot in house_books plus one thematic table each, and the `books` discovery pool.",
+    "glassblowing_book is the only learn source for the four already-enabled glass recipes; its `:glassblowers_crucible` jar variant is excluded (needs the unobtainable glassblowers_crucible_tool pseudo-tool).",
+    "polycarbonate_sheet + makeshift_vacuum_mold open the CDDA `plastic_molding` requirement group. makeshift_vacuum_mold is battery powered in CDDA, so it needs an electricity.json `device` profile to be usable as a 4-charge tool (added; same shape as food_processor/electric_spinwheel).",
+    "can_sealer unblocks the nine enabled canned* variants of broth, broth_meat and juice. recipe:can_tomato:canned_big / :canned_medium stay blocked on `tomato`, which belongs to the foods group.",
+    "hat_hard, knee_pads and magnifying_glass have recipes that are on the whitelist exclude list; they need recipesInclude (magnifying_glass also needs `lens`, staged later in this group).",
+    "Held for later (staged then removed on the coordinator's stop-at-8 instruction, no files left behind): material_limestone, lens, thread_kevlar, kevlar_patch, button_plastic, button_wood, simple_crank, giant_wood_screw. Verified while briefly staged: with those ids the currently excluded keys recipe:chem_baking_soda, recipe:magnifying_glass, recipe:sheet_kevlar (+ :electric_spinwheel, :spinningwheel), recipe:sheet_kevlar_patchwork, recipe:oil_press_manual and recipe:screw_press_tool all become obtainable once moved from whitelist/recipes.json `exclude` to `include` via recipesInclude.",
+    "batch 3 added the first two cookbooks of this group (10 staged): cookbook_sushi and cookbook_indian.",
+    "batch 4 added the twenty books of this group plus knife_hunting (31 staged). Every book trains a game skill: cooking (offalcooking, sweets_book, baking_book, dairy_book, vinegar_maker, manual_canning via copy-from mag_cooking), survival (survival_book, atomic_survival, textbook_botany), fabrication (textbook_fabrication, textbook_carpentry, carpentry_book, recipe_melee, textbook_weapwest, textbook_weapeast, welding_book, metal_casting_book, bronze_book, plastics_book) and melee (manual_knives, whose CDDA stabbing skill the loader folds in)",
+    "knife_hunting is staged here rather than in gear because its whole point is to give manual_knives and recipe_melee a recipe the Prologue can actually craft",
+    "textbook_botany, metal_casting_book, textbook_carpentry, survival_book and atomic_survival unlock no exclusive recipe today: they are skill books (survival 8 / fabrication 7 ladders) and alternative learn paths. bronze_book and offalcooking get their exclusives in batches 6 and 7",
+    "recipe:raw_butter and its :shake variant are dairy_book exclusives but stay unclaimed: both need the CHURN 1 quality and milk_cream, and neither is obtainable. They remain enabled through recipesInclude so they light up as soon as a churn or milk_cream is imported; dairy_book already unlocks recipe:icecream, so the book is not dead",
+    "recipe:vinegar is claimed although its batch is 40 L of liquid - right at the container rule. It fits: the wooden_barrel staged in batch 2 holds 100 L, and eight of the plastic buckets from the same batch also cover it",
+    "ten keys needed recipesInclude (toastem4, raw_butter + :shake, icecream, pilot_light, water_faucet, battleaxe, bagh_nakha, butterfly_swords, knee_pads): all are whitelisted results that were excluded while no enabled book taught them",
+    "manual_sealing and manual_canning together open the whole preserving family: 41 jar and can rows for results that were already whitelisted (soups, sauce_red, can_beans, jam_fruit, con_milk, can_tomato). All were obtainable but unlearnable, which is why they sat in whitelist/recipes.json exclude; can_sealer (staged earlier in this group) is the tool they need",
+    "batch 5 finished this group: three skill books (tailor, firstaid and mechanics, each the first book past its current cap) and the eight material ids (43 staged)",
+    "the materials pay off twice: as recipe inputs and as uncraft outputs. thread_kevlar alone was being dropped from 78 uncraft rows, button_plastic from 32, button_wood from 27, sheet_nylon from 6, kevlar_patch from 2",
+    "recipe:magnifying_glass is not claimed for this batch: it was already enabled and obtainable before it (lens plus an earlier recipesInclude entry did that). recipe:can_sealer is claimed instead - simple_crank was its last missing component, so the can sealer that batch 4 made learnable can now also be built",
+    "the eight recipesInclude keys this batch lists were already present in whitelist/recipes.json from the earlier held work; they are recorded here so the staging file documents what the group depends on"
+  ]
+}

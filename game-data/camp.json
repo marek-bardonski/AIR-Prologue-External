@@ -1,0 +1,36 @@
+{
+ "//": "Moving the camp. A station listed in 'fixed' is masonry or dug in and cannot be packed: it is dismantled and built again. Every other station packs into one 'bundle' item holding its own materials (so it weighs what it is made of) and keeps its state. packFactor / unpackFactor are shares of the station's build time. A camp may be made on the listed base terrains, never on a site, a story place, the village, water or a road.",
+ "bundle": "camp_bundle",
+ "fixed": [
+  "stone_fireplace",
+  "clay_oven",
+  "log_hut",
+  "insulated_cabin",
+  "stone_cottage"
+ ],
+ "packFactor": 0.35,
+ "unpackFactor": 0.35,
+ "minPackMinutes": 5,
+ "settleMinutes": 60,
+ "terrains": [
+  "field",
+  "forest",
+  "dense_forest",
+  "hills"
+ ],
+ "//firstShelter": "A new run has no camp. On any hex of the listed terrains with no camp standing anywhere, the survivor may build this shelter; the camp is made on that hex when it is finished, not when it is begun (game src/game/home/Home.js startFirstShelter; its site remembers its hex).",
+ "firstShelter": "simple_hut",
+ "//siteMinutes": "A station that takes this long or longer is built as a site (run.home.site): its materials go in when the work starts, and the work done is kept when it is interrupted, cancelled or the survivor walks away; it is resumed (\"Keep building\") or abandoned with its materials back. 0: every build, the first hour-long hut included (decided 26.09.2026). Only one site stands at a time.",
+ "siteMinutes": 0,
+ "//startSpawns": "What the ground you wake on is sure to hold besides its own, [interactable, count]: enough for the first shelter (the simple wooden hut) within the first hour or two.",
+ "startSpawns": [
+  [
+   "fallen_branch",
+   2
+  ],
+  [
+   "underbrush",
+   1
+  ]
+ ]
+}

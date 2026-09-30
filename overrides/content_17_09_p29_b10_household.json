@@ -1,0 +1,11 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p29_b10_household. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "bath_toy",
+    "weight": "30 g",
+    "//": "CDDA's 55 mg for a hollow rubber duck is far lighter than its volume allows; the Fate density band (tests/fate-calibration) refuses it"
+  }
+]

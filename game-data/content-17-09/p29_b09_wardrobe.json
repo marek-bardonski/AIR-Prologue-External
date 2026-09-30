@@ -1,0 +1,554 @@
+{
+  "group": "p29_b09_wardrobe",
+  "source": "29.09.2026 second 500: wardrobe 2 (wetsuits and diving gear, religious wear, uniforms and dresses, cloaks, flags, crowns, a few costume pieces)",
+  "items": [
+    {
+      "id": "wetsuit_jacket",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.25
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_pants",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_pants_thin",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_shorts",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.25
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_shorts_technical",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_spring_sleeveless",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_top",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.25
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_top_sleeved",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_top_sleeved_thin",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "shark_suit",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "legrig_wetsuit",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "divemask_full_modular",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "tallit_gadol",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "tallit_katan",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "zucchetto",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "tefillin_head",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "maid_hat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "maid_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "id": "maid_dress_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "jacket_ninja",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "hood_ninja",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "ninja_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "ninja_dress_sleeveless",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "cheerleader_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "cheerleader_skirt_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "sinister_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "sinister_gown",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sinister_dress_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "witch_dress_long",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "cloak_vampire",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "cloak_vampire_red",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "cape_fp",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "ghost_robe_sheet",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "american_flag",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "fire_station",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "national_flag",
+      "loot": [
+        {
+          "table": "railway_depot",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "state_flag",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.03
+        },
+        {
+          "table": "fire_station",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "pride_flag",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "hk_briefcase",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "petpack",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "crown_golden",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.01
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.05
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "cardboard_crown",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        },
+        {
+          "table": "house_books",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "zentai",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "santa_belt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        },
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "santa_jacket",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "santa_pants",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "santa_gloves",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "wool_suit_devil",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "robe_wizard",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "jumpsuit_skeleton",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "clownshoes",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:cardboard_crown",
+    "recipe:maid_dress",
+    "recipe:maid_dress_short",
+    "recipe:maid_hat",
+    "recipe:petpack",
+    "recipe:santa_belt",
+    "recipe:zentai"
+  ],
+  "notes": [
+    "Ties, dog tags, obi and clown noses skipped: they cover nothing in CDDA, and a garment must cover something.",
+    "Scarf loose/headwrap states, corset loose states and xs/xl size variants skipped (transform states and size duplicates).",
+    "Go bags skipped: their only purpose is an unpack action the game does not have."
+  ]
+}

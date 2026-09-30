@@ -1,0 +1,562 @@
+{
+  "group": "p28_c01_everyday",
+  "source": "28.09.2026 next-1000 import: everyday shoes, shirts, underwear and jeans",
+  "items": [
+    {
+      "id": "boots_denim",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "boots_faux_fur",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "boots_steel",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "boots_western",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "cleats",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "dance_shoes",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "dress_shoes",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "flip_flops",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "geta",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "golf_shoes",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "heels",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jikatabi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "lowtops",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "motorbike_boots",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "shoes_bowling",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "shoes_denim",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "slippers",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "sneakers_steel",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "thigh_high_boots",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "toecaps",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "footrags_faux_fur",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tabi_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "blazer",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "buttonshirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "combat_shirt",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "denim_shirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "dress_shirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "halter_top",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jersey",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "polo_shirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "postman_shirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "technician_shirt_gray",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "camisole",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bra",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "panties",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "boy_shorts",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "sports_bra",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "under_armor_shorts",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "leggings",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jeans_skinny",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jeans_vintage",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:blazer",
+    "recipe:boots_faux_fur",
+    "recipe:boots_western",
+    "recipe:boy_shorts",
+    "recipe:bra",
+    "recipe:denim_shirt",
+    "recipe:footrags_faux_fur",
+    "recipe:geta",
+    "recipe:jikatabi",
+    "recipe:leggings",
+    "recipe:motorbike_boots",
+    "recipe:panties",
+    "recipe:sports_bra",
+    "recipe:tabi_dress",
+    "recipe:under_armor_shorts"
+  ],
+  "notes": []
+}

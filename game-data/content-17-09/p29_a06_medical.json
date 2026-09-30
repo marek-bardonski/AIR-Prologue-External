@@ -1,0 +1,958 @@
+{
+  "group": "p29_a06_medical",
+  "source": "29.09.2026 second 500, agent 6: medicine (painkillers, stimulants, calming pills, nicotine, cold and stomach remedies, vitamins), a blood draw kit, an inhaler, oxygen bottles, tourniquets, blindfolds, respirators and prescription eyewear",
+  "items": [
+    {
+      "id": "morphine",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.4,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05,
+          "charges": [
+            1,
+            2
+          ]
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1,
+          "charges": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocaine_topical",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.15,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.03,
+          "charges": [
+            1,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adderall",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xanax",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3,
+          "charges": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diazepam",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3,
+          "charges": [
+            4,
+            12
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.1,
+          "charges": [
+            2,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pills_sleep",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            3,
+            15
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3,
+          "charges": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "melatonin_tablet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2,
+          "charges": [
+            5,
+            30
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            10,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antihistamine",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            4,
+            12
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            6,
+            12
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.2,
+          "charges": [
+            6,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homeopathic_pills",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1,
+          "charges": [
+            10,
+            40
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            20,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cig",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 1.5,
+          "charges": [
+            2,
+            20
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.8,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.8,
+          "charges": [
+            2,
+            20
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.3,
+          "charges": [
+            1,
+            10
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3,
+          "charges": [
+            1,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cigar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15,
+          "charges": [
+            1,
+            3
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handrolled_cig",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.2,
+          "charges": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2,
+          "charges": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "campsite",
+          "weight": 0.1,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tobacco",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            5,
+            30
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.3,
+          "charges": [
+            5,
+            30
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chaw",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 0.3,
+          "charges": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.2,
+          "charges": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 0.2,
+          "charges": [
+            1,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecig",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nic_gum",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.5,
+          "charges": [
+            4,
+            10
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "charges": [
+            4,
+            10
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nic_pouch",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 0.4,
+          "charges": [
+            5,
+            15
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            5,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weed",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "campsite",
+          "weight": 0.1,
+          "charges": [
+            1,
+            3
+          ]
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.1,
+          "charges": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vitamins",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.4,
+          "charges": [
+            10,
+            30
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            20,
+            30
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.2,
+          "charges": [
+            10,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gummy_vitamins",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.3,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vitc_tablet",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tums",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.3,
+          "charges": [
+            5,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pepto",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            3,
+            10
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            5,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dayquil",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            2,
+            5
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            3,
+            5
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.1,
+          "charges": [
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nyquil",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            2,
+            5
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vacutainer",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "oxygen_tank",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "smoxygen_tank",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "tourniquet_upper",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "tourniquet_lower",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "blindfold_duct",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "makeshift_blindfold",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.05
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "inhaler",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "eyedrops",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2,
+          "charges": [
+            3,
+            10
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            5,
+            10
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.1,
+          "charges": [
+            5,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mask_gas_half",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.3
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "mask_bunker",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "fire_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "glasses_eye",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "glasses_reading",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        },
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "glasses_bifocal",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "glasses_monocle",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sunglasses_eye",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "sunglasses_reading",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "sunglasses_bifocal",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:cocaine_topical",
+    "recipe:diazepam",
+    "recipe:oxygen_tank",
+    "recipe:smoxygen_tank",
+    "recipe:tobacco"
+  ],
+  "recipesExpected": [
+    "recipe:blindfold_duct",
+    "recipe:chaw",
+    "recipe:handrolled_cig",
+    "recipe:makeshift_blindfold",
+    "recipe:pepto",
+    "recipe:tourniquet_upper",
+    "recipe:tums",
+    "recipe:vacutainer"
+  ],
+  "notes": []
+}

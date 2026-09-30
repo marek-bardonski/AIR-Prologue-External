@@ -1,0 +1,531 @@
+{
+  "group": "p29_g10_gear",
+  "source": "29.09.2026 firearms import: holsters, bandoliers, quivers, slings and scabbards",
+  "items": [
+    {
+      "id": "back_holster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "baldric_holster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "bow_sling",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "single_sling",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "nylon_holster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "western_holster",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "bbholster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "side_double_holster",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "FB_double_holster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "side_nylon_double_holster",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "XL_holster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "XL_nylon_holster",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "XS_holster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "XS_nylon_holster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "suspenders_holster",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "bandolier_pistol",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "bandolier_rifle",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "torso_bandolier_shotgun",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "bandolier_wrist",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "cheap_ammo_pouch_belt223",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "cheap_ammo_pouch_belt308",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "nylon_quiver",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "pipe_quiver",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "quiver_large",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "quiver_large_birchbark",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "pipe_quiver_large",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "quiver_simple_cloth",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "quiver_takedown_bow",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tactical_holster",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "bscabbard",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "scabbard",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "nylon_scabbard",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "javelin_fletched",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:FB_double_holster",
+    "recipe:XL_holster",
+    "recipe:XL_nylon_holster",
+    "recipe:XS_holster",
+    "recipe:XS_nylon_holster",
+    "recipe:back_holster",
+    "recipe:baldric_holster",
+    "recipe:bandolier_pistol",
+    "recipe:bandolier_rifle",
+    "recipe:bandolier_wrist",
+    "recipe:bbholster",
+    "recipe:bow_sling",
+    "recipe:bscabbard",
+    "recipe:javelin_fletched",
+    "recipe:nylon_holster",
+    "recipe:nylon_quiver",
+    "recipe:nylon_scabbard",
+    "recipe:pipe_quiver",
+    "recipe:pipe_quiver_large",
+    "recipe:quiver_large",
+    "recipe:quiver_large_birchbark",
+    "recipe:quiver_simple_cloth",
+    "recipe:quiver_takedown_bow",
+    "recipe:scabbard",
+    "recipe:side_double_holster",
+    "recipe:side_nylon_double_holster",
+    "recipe:single_sling",
+    "recipe:suspenders_holster",
+    "recipe:tactical_holster",
+    "recipe:torso_bandolier_shotgun",
+    "recipe:western_holster"
+  ],
+  "notes": [
+    "A holster keeps one gun in quick-draw reach (Inventory.holster); quivers keep arrows on the hip."
+  ]
+}

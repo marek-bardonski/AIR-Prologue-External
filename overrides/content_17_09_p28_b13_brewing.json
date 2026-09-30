@@ -1,0 +1,17 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_b13_brewing. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "malting_grain",
+    "comestible_type": "INVALID",
+    "//": "a brewing ingredient: it carries barley's calories whatever grain went in, so eating it would turn oats into barley"
+  },
+  {
+    "type": "ITEM",
+    "id": "malted_grain",
+    "comestible_type": "INVALID",
+    "//": "a brewing ingredient (and flour for the mill), not a meal: same calorie leak as malting_grain"
+  }
+]

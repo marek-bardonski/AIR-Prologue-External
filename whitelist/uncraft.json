@@ -1,0 +1,5 @@
+{
+  "//": "Disassembly: every uncraft entry and every reversible recipe whose result is whitelisted; outputs that are not whitelisted are dropped by the loader (reported by the validator).",
+  "include_all_for_whitelisted_items": true,
+  "exclude": []
+}

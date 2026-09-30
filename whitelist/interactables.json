@@ -1,0 +1,32 @@
+{
+  "//": "Terrain and furniture ids whose CDDA harvest / deconstruct data is used by game-data/interactables.json.",
+  "terrain": [
+    "t_tree_birch",
+    "t_tree_pine",
+    "t_tree_dead",
+    "t_shrub_blueberry",
+    "t_shrub_raspberry",
+    "t_shrub_blackberry",
+    "t_underbrush"
+  ],
+  "furniture": [
+    "f_sofa",
+    "f_dresser",
+    "f_cupboard",
+    "f_bed",
+    "f_counter",
+    "f_bookcase",
+    "f_wardrobe",
+    "f_desk",
+    "f_locker",
+    "f_rack",
+    "f_bench",
+    "f_table",
+    "f_chair",
+    "f_fridge",
+    "f_oven",
+    "f_anvil",
+    "f_screw_press",
+    "f_scutch_breaker"
+  ]
+}

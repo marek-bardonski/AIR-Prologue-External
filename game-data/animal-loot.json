@@ -1,0 +1,672 @@
+{
+  "corpses": {
+    "mon_echo": "corpse_mon_echo",
+    "mon_echo_hound": "corpse_mon_echo_hound",
+    "mon_dog": "corpse_mon_dog",
+    "mon_wolf": "corpse_mon_wolf",
+    "mon_draft": "corpse_mon_draft",
+    "mon_rabbit": "corpse_mon_rabbit",
+    "mon_deer": "corpse_mon_deer",
+    "mon_dog_chihuahua": "corpse_mon_dog_chihuahua",
+    "mon_cat": "corpse_mon_cat",
+    "mon_turkey": "corpse_mon_turkey",
+    "mon_boar_wild": "corpse_mon_boar_wild",
+    "mon_chicken": "corpse_mon_chicken",
+    "mon_duck": "corpse_mon_duck",
+    "mon_squirrel": "corpse_mon_squirrel",
+    "mon_muskrat": "corpse_mon_muskrat",
+    "mon_groundhog": "corpse_mon_groundhog",
+    "mon_goose_canadian": "corpse_mon_goose_canadian",
+    "mon_fish_brown_trout": "corpse_mon_fish_brown_trout",
+    "mon_fish_lbass": "corpse_mon_fish_lbass",
+    "mon_fish_perch": "corpse_mon_fish_perch",
+    "mon_coyote": "corpse_mon_coyote",
+    "mon_bobcat": "corpse_mon_bobcat",
+    "mon_raccoon": "corpse_mon_raccoon",
+    "mon_opossum": "corpse_mon_opossum",
+    "mon_wild_rabbit": "corpse_mon_wild_rabbit",
+    "mon_hare": "corpse_mon_hare",
+    "mon_beaver": "corpse_mon_beaver",
+    "mon_otter": "corpse_mon_otter",
+    "mon_black_rat": "corpse_mon_black_rat",
+    "mon_chipmunk": "corpse_mon_chipmunk",
+    "mon_crow": "corpse_mon_crow",
+    "mon_raven": "corpse_mon_raven",
+    "mon_grouse": "corpse_mon_grouse",
+    "mon_pheasant": "corpse_mon_pheasant",
+    "mon_cormorant": "corpse_mon_cormorant",
+    "mon_gartersnake": "corpse_mon_gartersnake",
+    "mon_turtle_painted": "corpse_mon_turtle_painted",
+    "mon_skink_fivelined": "corpse_mon_skink_fivelined",
+    "mon_cougar": "corpse_mon_cougar",
+    "mon_bear": "corpse_mon_bear",
+    "mon_moose": "corpse_mon_moose",
+    "mon_fox_red": "corpse_mon_fox_red",
+    "mon_mink": "corpse_mon_mink",
+    "mon_weasel": "corpse_mon_weasel",
+    "mon_turtle_snapping_common": "corpse_mon_turtle_snapping_common",
+    "mon_fish_brook_trout": "corpse_mon_fish_brook_trout",
+    "mon_fish_rainbow_trout": "corpse_mon_fish_rainbow_trout",
+    "mon_fish_sbass": "corpse_mon_fish_sbass",
+    "mon_fish_pickerel": "corpse_mon_fish_pickerel",
+    "mon_fish_walleye": "corpse_mon_fish_walleye",
+    "mon_fish_white_sucker": "corpse_mon_fish_white_sucker",
+    "mon_fish_bullhead": "corpse_mon_fish_bullhead",
+    "mon_fish_bluegill": "corpse_mon_fish_bluegill",
+    "mon_fish_pumpkinseed": "corpse_mon_fish_pumpkinseed",
+    "mon_fish_eel": "corpse_mon_fish_eel",
+    "mon_fish_crayfish": "corpse_mon_fish_crayfish",
+    "mon_bullfrog_frog": "corpse_mon_bullfrog_frog",
+    "mon_bat": "corpse_mon_bat",
+    "mon_cow": "corpse_mon_cow",
+    "mon_horse": "corpse_mon_horse",
+    "mon_pig": "corpse_mon_pig",
+    "mon_sheep": "corpse_mon_sheep",
+    "mon_goat": "corpse_mon_goat",
+    "mon_fox_gray": "corpse_mon_fox_gray",
+    "mon_skunk": "corpse_mon_skunk",
+    "mon_sewer_rat": "corpse_mon_sewer_rat",
+    "mon_squirrel_red": "corpse_mon_squirrel_red",
+    "mon_ferret": "corpse_mon_ferret",
+    "mon_reindeer": "corpse_mon_reindeer",
+    "mon_llama": "corpse_mon_llama",
+    "mon_dog_bull": "corpse_mon_dog_bull",
+    "mon_dog_beagle": "corpse_mon_dog_beagle",
+    "mon_dog_gshepherd": "corpse_mon_dog_gshepherd",
+    "mon_dog_rottweiler": "corpse_mon_dog_rottweiler",
+    "mon_cat_longhair": "corpse_mon_cat_longhair",
+    "mon_bluejay": "corpse_mon_bluejay",
+    "mon_cardinal": "corpse_mon_cardinal",
+    "mon_robin": "corpse_mon_robin",
+    "mon_sparrow": "corpse_mon_sparrow",
+    "mon_chickadee": "corpse_mon_chickadee",
+    "mon_waxwing": "corpse_mon_waxwing",
+    "mon_pigeon": "corpse_mon_pigeon",
+    "mon_hummingbird": "corpse_mon_hummingbird",
+    "mon_woodpecker": "corpse_mon_woodpecker",
+    "mon_coot": "corpse_mon_coot",
+    "mon_moorhen": "corpse_mon_moorhen",
+    "mon_grebe": "corpse_mon_grebe",
+    "mon_rattlesnake": "corpse_mon_rattlesnake",
+    "mon_wormsnake": "corpse_mon_wormsnake",
+    "mon_leo_frog": "corpse_mon_leo_frog",
+    "mon_fowler_toad": "corpse_mon_fowler_toad",
+    "mon_freedom_toad": "corpse_mon_freedom_toad",
+    "mon_peeper_frog": "corpse_mon_peeper_frog",
+    "mon_gray_frog": "corpse_mon_gray_frog",
+    "mon_mink_frog": "corpse_mon_mink_frog",
+    "mon_green_frog": "corpse_mon_green_frog",
+    "mon_wood_frog": "corpse_mon_wood_frog",
+    "mon_fish_lake_trout": "corpse_mon_fish_lake_trout",
+    "mon_fish_salmon": "corpse_mon_fish_salmon",
+    "mon_fish_whitefish": "corpse_mon_fish_whitefish",
+    "mon_fish_pbass": "corpse_mon_fish_pbass",
+    "mon_fish_rock_bass": "corpse_mon_fish_rock_bass",
+    "mon_fish_calico_bass": "corpse_mon_fish_calico_bass",
+    "mon_fish_channel_catfish": "corpse_mon_fish_channel_catfish",
+    "mon_fish_pike": "corpse_mon_fish_pike",
+    "mon_fish_carp": "corpse_mon_fish_carp",
+    "mon_fish_bowfin": "corpse_mon_fish_bowfin",
+    "mon_fish_gar_longnose": "corpse_mon_fish_gar_longnose",
+    "mon_fish_burbot": "corpse_mon_fish_burbot",
+    "mon_fish_sturgeon_lake": "corpse_mon_fish_sturgeon_lake",
+    "mon_fish_sunfish": "corpse_mon_fish_sunfish"
+  },
+  "source": "Cataclysm-DDA 0.I data/json/monsters/mammal.json, monsterdrops/zombie.json, itemgroups/Monsters_Animals_Lairs/monster_drops_lairs.json, harvest.json, src/butchery.cpp",
+  "animals": {
+    "mon_dog": {
+      "deathGroup": "mon_dog_death_drops",
+      "harvest": "dog_with_skull_fur"
+    },
+    "mon_wolf": {
+      "deathGroup": null,
+      "harvest": "dog_with_skull_fur"
+    },
+    "mon_rabbit": {
+      "deathGroup": null,
+      "harvest": "rabbit_with_skull"
+    },
+    "mon_deer": {
+      "deathGroup": null,
+      "harvest": "deer_with_skull"
+    },
+    "mon_dog_chihuahua": {
+      "deathGroup": "mon_dog_death_drops",
+      "harvest": "dog_tiny_with_skull"
+    },
+    "mon_cat": {
+      "deathGroup": null,
+      "harvest": "cat_small_with_skull"
+    },
+    "mon_turkey": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_boar_wild": {
+      "deathGroup": null,
+      "harvest": "boar_with_skull"
+    },
+    "mon_chicken": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_duck": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_squirrel": {
+      "deathGroup": null,
+      "harvest": "rat_with_skull"
+    },
+    "mon_muskrat": {
+      "deathGroup": null,
+      "harvest": "mammal_small_fur"
+    },
+    "mon_groundhog": {
+      "deathGroup": null,
+      "harvest": "mammal_small_fur"
+    },
+    "mon_goose_canadian": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_fish_brown_trout": {
+      "deathGroup": null,
+      "harvest": "fish_large"
+    },
+    "mon_fish_lbass": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_perch": {
+      "deathGroup": null,
+      "harvest": "fish_tiny"
+    },
+    "mon_coyote": {
+      "deathGroup": null,
+      "harvest": "dog_with_skull_fur"
+    },
+    "mon_bobcat": {
+      "deathGroup": null,
+      "harvest": "cat_medium_with_skull"
+    },
+    "mon_raccoon": {
+      "deathGroup": null,
+      "harvest": "raccoon_with_skull"
+    },
+    "mon_opossum": {
+      "deathGroup": null,
+      "harvest": "opossum_with_skull"
+    },
+    "mon_wild_rabbit": {
+      "deathGroup": null,
+      "harvest": "rabbit_with_skull"
+    },
+    "mon_hare": {
+      "deathGroup": null,
+      "harvest": "rabbit_with_skull"
+    },
+    "mon_beaver": {
+      "deathGroup": null,
+      "harvest": "beaver_with_skull"
+    },
+    "mon_otter": {
+      "deathGroup": null,
+      "harvest": "mammal_small_fur"
+    },
+    "mon_black_rat": {
+      "deathGroup": null,
+      "harvest": "rat_with_skull"
+    },
+    "mon_chipmunk": {
+      "deathGroup": null,
+      "harvest": "rat_with_skull"
+    },
+    "mon_crow": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_raven": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_grouse": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_pheasant": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_cormorant": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_gartersnake": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_turtle_painted": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_skink_fivelined": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_cougar": {
+      "deathGroup": null,
+      "harvest": "cougar_with_skull"
+    },
+    "mon_bear": {
+      "deathGroup": null,
+      "harvest": "bear_with_skull"
+    },
+    "mon_moose": {
+      "deathGroup": null,
+      "harvest": "moose_with_skull"
+    },
+    "mon_fox_red": {
+      "deathGroup": null,
+      "harvest": "dog_small_with_skull_fur"
+    },
+    "mon_mink": {
+      "deathGroup": null,
+      "harvest": "mammal_small_fur"
+    },
+    "mon_weasel": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_turtle_snapping_common": {
+      "deathGroup": null,
+      "harvest": "mammal_small_leather"
+    },
+    "mon_fish_brook_trout": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_rainbow_trout": {
+      "deathGroup": null,
+      "harvest": "fish_large"
+    },
+    "mon_fish_sbass": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_pickerel": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_walleye": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_white_sucker": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_bullhead": {
+      "deathGroup": null,
+      "harvest": "fish_tiny"
+    },
+    "mon_fish_bluegill": {
+      "deathGroup": null,
+      "harvest": "fish_tiny"
+    },
+    "mon_fish_pumpkinseed": {
+      "deathGroup": null,
+      "harvest": "fish_tiny"
+    },
+    "mon_fish_eel": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_crayfish": {
+      "deathGroup": null,
+      "harvest": "shellfish"
+    },
+    "mon_bullfrog_frog": {
+      "deathGroup": null,
+      "harvest": "bullfrog"
+    },
+    "mon_bat": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_cow": {
+      "deathGroup": null,
+      "harvest": "cow_with_skull"
+    },
+    "mon_horse": {
+      "deathGroup": null,
+      "harvest": "horse_with_skull"
+    },
+    "mon_pig": {
+      "deathGroup": null,
+      "harvest": "pig_with_skull"
+    },
+    "mon_sheep": {
+      "deathGroup": null,
+      "harvest": "sheep_with_skull"
+    },
+    "mon_goat": {
+      "deathGroup": null,
+      "harvest": "goat_with_skull"
+    },
+    "mon_fox_gray": {
+      "deathGroup": null,
+      "harvest": "dog_small_with_skull_fur"
+    },
+    "mon_skunk": {
+      "deathGroup": null,
+      "harvest": "skunk_with_skull"
+    },
+    "mon_sewer_rat": {
+      "deathGroup": null,
+      "harvest": "rat_with_skull"
+    },
+    "mon_squirrel_red": {
+      "deathGroup": null,
+      "harvest": "rat_with_skull"
+    },
+    "mon_ferret": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_reindeer": {
+      "deathGroup": null,
+      "harvest": "deer_with_skull"
+    },
+    "mon_llama": {
+      "deathGroup": null,
+      "harvest": "llama_with_skull"
+    },
+    "mon_dog_bull": {
+      "deathGroup": null,
+      "harvest": "dog_with_skull_leather"
+    },
+    "mon_dog_beagle": {
+      "deathGroup": null,
+      "harvest": "dog_small_with_skull_leather"
+    },
+    "mon_dog_gshepherd": {
+      "deathGroup": null,
+      "harvest": "dog_with_skull_fur"
+    },
+    "mon_dog_rottweiler": {
+      "deathGroup": null,
+      "harvest": "dog_with_skull_leather"
+    },
+    "mon_cat_longhair": {
+      "deathGroup": null,
+      "harvest": "cat_small_with_skull"
+    },
+    "mon_bluejay": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_cardinal": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_robin": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_sparrow": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_chickadee": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_waxwing": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_pigeon": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_hummingbird": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_woodpecker": {
+      "deathGroup": null,
+      "harvest": "bird_tiny"
+    },
+    "mon_coot": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_moorhen": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_grebe": {
+      "deathGroup": null,
+      "harvest": "bird_small"
+    },
+    "mon_rattlesnake": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_wormsnake": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_leo_frog": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_fowler_toad": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_freedom_toad": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_peeper_frog": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_gray_frog": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_mink_frog": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_green_frog": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_wood_frog": {
+      "deathGroup": null,
+      "harvest": "mammal_tiny"
+    },
+    "mon_fish_lake_trout": {
+      "deathGroup": null,
+      "harvest": "fish_large"
+    },
+    "mon_fish_salmon": {
+      "deathGroup": null,
+      "harvest": "fish_large"
+    },
+    "mon_fish_whitefish": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_pbass": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_rock_bass": {
+      "deathGroup": null,
+      "harvest": "fish_tiny"
+    },
+    "mon_fish_calico_bass": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_channel_catfish": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_pike": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_carp": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_bowfin": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_gar_longnose": {
+      "deathGroup": null,
+      "harvest": "fish_small"
+    },
+    "mon_fish_burbot": {
+      "deathGroup": null,
+      "harvest": "fish_tiny"
+    },
+    "mon_fish_sturgeon_lake": {
+      "deathGroup": null,
+      "harvest": "fish_large"
+    },
+    "mon_fish_sunfish": {
+      "deathGroup": null,
+      "harvest": "fish_tiny"
+    }
+  },
+  "groups": {
+    "mon_dog_death_drops": {
+      "type": "item_group",
+      "id": "mon_dog_death_drops",
+      "subtype": "collection",
+      "entries": [
+        {
+          "group": "dog_clothes",
+          "damage": [
+            1,
+            4
+          ],
+          "prob": 5
+        },
+        {
+          "item": "dog_tag_dog",
+          "prob": 40,
+          "damage": [
+            0,
+            2
+          ]
+        }
+      ],
+      "source": "cdda/data/json/monsterdrops/zombie.json"
+    },
+    "dog_clothes": {
+      "type": "item_group",
+      "id": "dog_clothes",
+      "subtype": "distribution",
+      "entries": [
+        {
+          "item": "rubber_harness_dog",
+          "prob": 50
+        },
+        {
+          "item": "leather_harness_dog",
+          "prob": 25
+        },
+        {
+          "item": "kevlar_harness",
+          "prob": 1
+        }
+      ],
+      "source": "cdda/data/json/itemgroups/Monsters_Animals_Lairs/monster_drops_lairs.json"
+    }
+  },
+  "butchery": {
+    "practice": {
+      "//": "CDDA butchery.cpp: survival practice of base plus the average butchery roll over the harvest entries, and none once survival is past capBase plus one level for each size step above medium.",
+      "base": 4,
+      "capBase": 4,
+      "sizes": { "tiny": 1, "small": 2, "medium": 3, "large": 4, "huge": 5 }
+    },
+    "requiredQualities": [
+      {
+        "id": "CUT",
+        "level": 2
+      }
+    ],
+    "noSurfaceTimeMultiplier": 1.2,
+    "damageYield": {
+      "2": {
+        "offal": 0.75,
+        "skin": 0.75,
+        "flesh": 0.9
+      },
+      "3": {
+        "offal": 0,
+        "skin": 0.5,
+        "bone": 0.9,
+        "flesh": 0.75
+      },
+      "4": {
+        "offal": 0,
+        "skin": 0,
+        "bone": 0.75,
+        "flesh": 0.5
+      }
+    },
+    "baseSeconds": {
+      "tiny": 150,
+      "small": 300,
+      "medium": 450,
+      "large": 600,
+      "huge": 1800
+    },
+    "fullMultiplier": 6,
+    "quickProficiencyMultiplier": 2.4,
+    "fullProficiencyMultiplier": 1.8,
+    "toolMinimumTimePercent": 25,
+    "baseToolPercent": 100,
+    "skillOffset": 3,
+    "dexOffset": 8,
+    "dexDivisor": 4,
+    "toolCap": 4,
+    "negativeToolDivisor": 5,
+    "skillYieldWeight": 0.5,
+    "skillYieldDivisor": 10,
+    "toolYieldWeight": 0.3,
+    "toolYieldOffset": 50,
+    "toolYieldDivisor": 100,
+    "dexYieldWeight": 0.2,
+    "dexYieldDivisor": 20,
+    "fleshProficiencyDivisor": 1.15,
+    "skinProficiencyDivisor": 3.45,
+    "quickDivisors": {
+      "flesh": 4,
+      "bone": 2,
+      "skin": 2,
+      "offal": 5
+    },
+    "requiredFullQualities": [
+      {
+        "id": "CUT",
+        "level": 2
+      },
+      {
+        "id": "SURFACE",
+        "level": 2
+      }
+    ]
+  }
+}

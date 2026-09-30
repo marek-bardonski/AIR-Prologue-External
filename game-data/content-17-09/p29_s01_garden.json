@@ -1,0 +1,1069 @@
+{
+  "group": "p29_s01_garden",
+  "source": "29.09.2026 second 500: garden seeds for vegetables, berries and herbs the game already has, each a farming crop",
+  "items": [
+    {
+      "id": "seed_tomato",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_carrot",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_cranberries",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_elderberries",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_onion",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_garlic",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_bell_pepper",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_chili_pepper",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_cucumber",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_gherkin",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_zucchini",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_eggplant",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_broccoli",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_spinach",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_radish",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_celery",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_strawberries",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_raspberries",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_blueberries",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_cotton_boll",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_hops",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_jerusalem_artichoke",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_groundnut",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_rhubarb",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_chamomile",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_thyme",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_horseradish",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_wild_herbs",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.4,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.6,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:seed_bell_pepper",
+    "recipe:seed_blueberries",
+    "recipe:seed_chamomile",
+    "recipe:seed_chili_pepper",
+    "recipe:seed_cranberries",
+    "recipe:seed_cucumber",
+    "recipe:seed_eggplant:with_cutting_tool",
+    "recipe:seed_elderberries",
+    "recipe:seed_gherkin",
+    "recipe:seed_groundnut",
+    "recipe:seed_jerusalem_artichoke",
+    "recipe:seed_raspberries",
+    "recipe:seed_rhubarb",
+    "recipe:seed_strawberries",
+    "recipe:seed_thyme",
+    "recipe:seed_tomato",
+    "recipe:seed_wild_herbs",
+    "recipe:seed_zucchini"
+  ],
+  "notes": [
+    "Crops are dials in farming.json crops; packets are found in barns, hardware shops and nurseries."
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "group": "p28_c06_limbs",
+  "source": "28.09.2026 next-1000 import: forged, bronze and scrap-mail armour for arms, legs, hands and feet",
+  "items": [
+    {
+      "id": "armguard_bronze",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armguard_cut_resistant",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "armguard_hard",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "armguard_lightplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_armguard",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_heavyarmguard",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_lightarmguard",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chainmail_junk_arms",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_arms",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armguard_lc_brigandine",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_brigandine",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_brigandine_shoulders",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_coat_brigandine",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_coat_brigandine_shoulders",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_brigandine_hands",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_elbow_guards",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_greaves_brigandine",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_knee_guards",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_vambrace_brigandine",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "legguard_lc_brigandine",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_heavy_leg_guard",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_leg_guard",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_light_leg_guard",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chainmail_junk_legs",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chaps_cut_resistant",
+      "loot": [
+        {
+          "table": "logging_camp_supplies",
+          "weight": 1
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "lc_chainmail_half_legs",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_legs",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "leggings_thessalonian",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "legguard_bronze",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "legguard_hard",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "legguard_lightplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "legguard_metal",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chainmail_junk_feet",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_feet",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_sabaton",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "boots_plate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chainmail_junk_hands",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_hands",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_demi_gaunt",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_mitten_gaunt",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_link_sheet",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_shoulder_guards",
+      "pools": [
+        "workshop"
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:armguard_bronze",
+    "recipe:armguard_hard",
+    "recipe:armguard_lc_brigandine",
+    "recipe:armguard_lightplate",
+    "recipe:armor_lc_armguard",
+    "recipe:armor_lc_brigandine",
+    "recipe:armor_lc_brigandine_shoulders",
+    "recipe:armor_lc_coat_brigandine",
+    "recipe:armor_lc_coat_brigandine_shoulders",
+    "recipe:armor_lc_heavy_leg_guard",
+    "recipe:armor_lc_heavyarmguard",
+    "recipe:armor_lc_leg_guard",
+    "recipe:armor_lc_light_leg_guard",
+    "recipe:armor_lc_lightarmguard",
+    "recipe:boots_plate",
+    "recipe:lc_brigandine_hands",
+    "recipe:lc_chainmail_arms",
+    "recipe:lc_chainmail_feet",
+    "recipe:lc_chainmail_half_legs",
+    "recipe:lc_chainmail_hands",
+    "recipe:lc_chainmail_legs",
+    "recipe:lc_demi_gaunt",
+    "recipe:lc_elbow_guards",
+    "recipe:lc_greaves_brigandine",
+    "recipe:lc_knee_guards",
+    "recipe:lc_link_sheet",
+    "recipe:lc_mitten_gaunt",
+    "recipe:lc_sabaton",
+    "recipe:lc_shoulder_guards",
+    "recipe:lc_vambrace_brigandine",
+    "recipe:legguard_bronze",
+    "recipe:legguard_hard",
+    "recipe:legguard_lc_brigandine",
+    "recipe:legguard_lightplate",
+    "recipe:legguard_metal"
+  ],
+  "notes": [
+    "All forged or made except cut-resistant work gear and plastic sports guards."
+  ]
+}

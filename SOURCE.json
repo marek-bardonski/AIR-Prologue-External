@@ -1,0 +1,15 @@
+{
+  "repo": "https://github.com/CleverRaven/Cataclysm-DDA",
+  "tag": "0.I",
+  "commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+  "licence": "CC-BY-SA 3.0 (see LICENSE.txt)",
+  "adaptedIn": "https://github.com/marek-bardonski/AIR-Prologue-External",
+  "importedAt": "2026-09-12T10:42:20Z",
+  "folders": [
+    "data/json (entire folder)",
+    "data/mods/Magiclysm",
+    "doc/JSON",
+    "data/credits/en.credits",
+    "LICENSE.txt"
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "group": "p28_f07_junk",
+  "source": "28.09.2026 next-1000 import: candy, snacks, junk food and gelatin desserts",
+  "items": [
+    {
+      "id": "candy4",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "candy5",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "candy_bracelet",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "candy_coated_peanuts",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "candycigarette",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "caramel_apple",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "chilidogs",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "chips3",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "choc_pancakes",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "choc_waffles",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "chocolate_military",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "chocpretzels",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "cookies_egg",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "corndogs_homemade",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cow_candy",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "crepe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "crepe_plain",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fchicken",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "freeze_dried_meal",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "freeze_dried_meal_hydrated",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fresh_fries_j",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gelatin_dessert_base",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gelatin_dessert_fruit",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gelatin_dessert_homemade",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gelatin_dessert_powder",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "gelatin_dessert_processed",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "gelatin_dessert_vegan",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gelatin_dessert_vegan_fruit",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "grahmcrackers",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "grahmcrackers_roe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "hotdogs_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "hotdogs_newyork",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "jihelucake",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "junk_burrito",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "licorice",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "maltballs",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "maple_candy",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "marshmallow",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "mintpatties",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "neccowafers",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:candy4",
+    "recipe:caramel_apple",
+    "recipe:chocpretzels",
+    "recipe:gelatin_dessert_base",
+    "recipe:gelatin_dessert_fruit",
+    "recipe:gelatin_dessert_homemade"
+  ],
+  "recipesExpected": [
+    "recipe:candy5",
+    "recipe:chilidogs",
+    "recipe:choc_pancakes",
+    "recipe:choc_waffles",
+    "recipe:corndogs_homemade",
+    "recipe:crepe",
+    "recipe:crepe_plain",
+    "recipe:freeze_dried_meal_hydrated",
+    "recipe:fresh_fries_j",
+    "recipe:gelatin_dessert_processed",
+    "recipe:gelatin_dessert_vegan",
+    "recipe:gelatin_dessert_vegan_fruit",
+    "recipe:hotdogs_cooked",
+    "recipe:hotdogs_newyork",
+    "recipe:maple_candy"
+  ],
+  "notes": []
+}

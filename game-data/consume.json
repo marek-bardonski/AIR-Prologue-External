@@ -1,0 +1,180 @@
+{
+  "//": "Eating and drinking: what auto-consume may reach for, and what it must leave alone. The rules live in src/game/survival/Consume.js; only the ids are here. Picking something by hand from the list is never restricted by any of this — it only decides what the two auto-consume buttons will put in a survivor's mouth unasked.",
+  "edibleDespiteFlag": {
+    "//": "The world marks these inedible because they want soaking or cooking to be pleasant, but a person really does eat them as they are. Everything else carrying that mark is left alone: raw grain, pulses, tea bags, seaweed, straw, fodder.",
+    "ids": [
+      "hardtack",
+      "hardtack_cracker",
+      "soggy_hardtack"
+    ]
+  },
+  "notMeals": {
+    "//": "Pantry stock, seasonings, condiments, pure fats, and the few things the world's own description rules out: uncooked rice (\"virtually inedible when dry\"), water still being treated, a wild mushroom that may poison or derange, a raw egg. Each is safe enough to eat by hand; auto-consume simply never chooses them.",
+    "ids": [
+      "salt",
+      "seasoning_salt",
+      "seasoning_italian",
+      "pepper",
+      "chilly-p",
+      "curry_powder",
+      "sugar",
+      "syrup",
+      "honeycomb",
+      "yeast",
+      "starch",
+      "flour",
+      "flour_wheat_free",
+      "tortilla_flour",
+      "cooking_oil",
+      "cooking_oil2",
+      "vegetable_oil",
+      "lard",
+      "tallow",
+      "raw_butter",
+      "buttercream",
+      "cocoa_powder",
+      "cocoa_powder_milk",
+      "milk_powder",
+      "powder_eggs",
+      "protein_powder",
+      "grapeade_powder",
+      "lemonade_powder",
+      "orangeade_powder",
+      "soup_instant_chicken_noodle_powder",
+      "soup_instant_vegetable_powder",
+      "garlic_powder",
+      "dry_garlic",
+      "wild_herbs",
+      "hot_sauce",
+      "soysauce",
+      "sauce_red",
+      "sauce_pesto",
+      "sandwich_sauce",
+      "vinegar",
+      "meat_salted",
+      "ketchup",
+      "mustard",
+      "mushroom_ketchup",
+      "salsa",
+      "grenadine_syrup",
+      "marshmallow_fluff",
+      "cheese_powder",
+      "coffee_raw",
+      "tea_raw",
+      "instant_coffee",
+      "cornmeal",
+      "grits",
+      "chaff",
+      "straw_pile",
+      "withered",
+      "dogbane",
+      "press_cake",
+      "birdfood",
+      "meal_bone",
+      "dry_rice",
+      "water_purifying",
+      "mushroom",
+      "egg_chicken",
+      "thyme"
+    ]
+  },
+  "notDrinks": {
+    "//": "Liquid in name only: oil, syrup and thick sweet things quench nothing, so they never count towards thirst. They are still food, and still edible by hand.",
+    "ids": [
+      "cooking_oil",
+      "cooking_oil2",
+      "vegetable_oil",
+      "peanutbutter",
+      "honey_bottled",
+      "jam_fruit",
+      "grenadine_syrup",
+      "marshmallow_fluff",
+      "mushroom_ketchup",
+      "ketchup",
+      "mustard",
+      "vinegar",
+      "salt_water",
+      "blood_tainted",
+      "animal_blood",
+      "water_purifying"
+    ]
+  },
+  "drinks": {
+    "//": "Untreated water is never taken by itself: boiling it is a decision, not an accident.",
+    "untreated": [
+      "water"
+    ]
+  },
+  "notFood": {
+    "//": "What is not food by nature. Categories the world already sorts things into, plus the materials a body cannot use: a bone, a hide, a tea bag and a plastic sachet are all comestibles as far as the data is concerned.",
+    "categories": [
+      "seeds",
+      "chems",
+      "spare_parts",
+      "clothing",
+      "other"
+    ],
+    "materials": [
+      "flesh",
+      "veggy",
+      "fruit",
+      "bean",
+      "wheat",
+      "milk",
+      "egg",
+      "honey",
+      "nut",
+      "mushroom",
+      "junk",
+      "water",
+      "tomato",
+      "garlic",
+      "sugar",
+      "salt",
+      "powder",
+      "oil",
+      "yeast"
+    ]
+  },
+  "batch": {
+    "//": "How many units one click of the stepper takes; the last size chosen is remembered per viewer in the browser.",
+    "steps": [
+      1,
+      5
+    ],
+    "maxUnits": 50
+  },
+  "foodSafetyLabels": {
+    "lowParasiteChance": 0.02,
+    "highParasiteChance": 0.1
+  },
+  "rawEdible": [
+    "veggy_wild",
+    "carrot_wild",
+    "raw_dandelion",
+    "corn",
+    "veggy",
+    "bell_pepper",
+    "chicory_raw",
+    "cucumber",
+    "lemon",
+    "lettuce",
+    "onion",
+    "wild_garlic",
+    "young_leaves",
+    "chili_pepper",
+    "chili_pepper_cut",
+    "pumpkin_cut",
+    "cucumber_cut"
+  ],
+  "petFood": {
+    "//": "Prologue rule (29.09.2026): cat, dog and bird food is for animals. A survivor eats it only when starving: from the Starvation stage `fromStage` on (game-data/sustenance.json starvation.stages) or worse. Otherwise it is refused with a plain reason; auto-consume never takes it. Eaten, it leaves a standing mood entry of `mood` (stored units, shown times practice.json morale.scale) for `minutes`, fading from `fadeFromMinutes`, on top of the food's own dislike. Items are found by their CDDA use action (PETFOOD) and by `ids`.",
+    "useAction": "PETFOOD",
+    "ids": ["catfood", "catfood_raw", "catfood_dry", "dogfood", "dogfood_raw", "dogfood_dry", "birdfood"],
+    "fromStage": "underfed",
+    "mood": -6,
+    "minutes": 720,
+    "fadeFromMinutes": 360,
+    "label": "Ate pet food"
+  }
+}

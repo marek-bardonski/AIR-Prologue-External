@@ -1,0 +1,96 @@
+{
+  "group": "p29_w_vehicles_wheels",
+  "source": "29.09.2026 vehicles workstream: every tire and rim becomes a wheel. The CDDA tire changer tool (manual_tire_changer) supplies fake_tire_changer; the missing deflated wheels and motorbike rim close the tire + rim -> deflated wheel -> pumped wheel chain for car, wide and motorbike wheels.",
+  "items": [
+    {
+      "id": "manual_tire_changer",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "deflated_wheel_wide",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "deflated_wheel_wide_or",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "wheel_rim_motorbike",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "deflated_wheel_motorbike",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tire_motorbike_or",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "deflated_wheel_motorbike_or",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.15
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {
+    "fake_tire_changer": {
+      "stations": [],
+      "items": [
+        "manual_tire_changer"
+      ]
+    }
+  },
+  "recipesInclude": [
+    "recipe:deflated_wheel",
+    "recipe:deflated_wheel_slick",
+    "recipe:wheel_wide",
+    "recipe:wheel_wide_or",
+    "recipe:wheel_motorbike",
+    "recipe:wheel_motorbike_or"
+  ],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:wheel_wide",
+    "recipe:wheel_wide_or",
+    "recipe:wheel_motorbike",
+    "recipe:wheel_motorbike_or"
+  ],
+  "notes": [
+    "fake_tire_changer is supplied by the manual tire changer on the ground, as in CDDA, where it is deployed furniture."
+  ]
+}

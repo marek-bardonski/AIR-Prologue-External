@@ -1,0 +1,2665 @@
+{
+  "source": "Cataclysm-DDA 0.I src/crafting.cpp recipe_success_roll_data, handle_craft_failure, complete_disassemble; src/recipe.cpp get_skill_cap",
+  "craft": {
+    "primaryWeight": 2,
+    "intelligenceDivisor": 4,
+    "noSkillLevel": 10,
+    "stddev": 2,
+    "underDivisor": 3,
+    "overDivisor": 4,
+    "minStddev": 1,
+    "difficultyOffset": 1,
+    "failureStddevMultiplier": 0.5,
+    "maxComponentLoss": 0.75,
+    "minProgressLoss": 0.25,
+    "meanProgressLoss": 0.35,
+    "skillCapMultiplier": 1.25,
+    "progressScale": 10000000,
+    "memorizationFactor": 8000,
+    "memorizationExponent": 4,
+    "movesPerMinute": 6000,
+    "xpPerMinute": 0.27
+  },
+  "disassembly": {
+    "baseDice": 2,
+    "skillDiceMultiplier": 4,
+    "baseSides": 16,
+    "difficultySides": 24,
+    "damageRecovery": 0.8,
+    "xpPerDifficulty": 2
+  },
+  "proficiencies": {
+    "prof_parkour": {
+      "name": "Parkour Expert",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_athlete_basic": {
+      "name": "Athlete's Form",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": true
+    },
+    "prof_athlete_expert": {
+      "name": "Athlete's Form (Expert)",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_athlete_basic"
+      ],
+      "ignoreFocus": true
+    },
+    "prof_athlete_master": {
+      "name": "Athlete's Form (Master)",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 960,
+      "canLearn": true,
+      "requires": [
+        "prof_athlete_expert"
+      ],
+      "ignoreFocus": true
+    },
+    "prof_butchering_basic": {
+      "name": "Principles of Butchering",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 120,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_butchering_adv": {
+      "name": "Butchering Expert",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 1500,
+      "canLearn": true,
+      "requires": [
+        "prof_butchering_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_skinning_basic": {
+      "name": "Principles of Skinning",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 120,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_skinning_adv": {
+      "name": "Skinning Expert",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 1500,
+      "canLearn": true,
+      "requires": [
+        "prof_skinning_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_intro_chemistry": {
+      "name": "Principles of Chemistry",
+      "skillPenalty": 0.4,
+      "timeMultiplier": 1.5,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_gross_anatomy": {
+      "name": "Gross Anatomy",
+      "skillPenalty": 0.4,
+      "timeMultiplier": 1.5,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_intro_biology": {
+      "name": "Principles of Biology",
+      "skillPenalty": 0.4,
+      "timeMultiplier": 1.5,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_organic_chemistry": {
+      "name": "Organic Chemistry",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_intro_chemistry"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_inorganic_chemistry": {
+      "name": "Inorganic Chemistry",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_intro_chemistry"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_mycology": {
+      "name": "Mycology",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_intro_biology"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_mycology_advanced": {
+      "name": "Doctorate of Mycology",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 1080,
+      "canLearn": false,
+      "requires": [
+        "prof_mycology"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_biochemistry": {
+      "name": "Biochemistry",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_organic_chemistry",
+        "prof_intro_biology"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_physiology": {
+      "name": "Physiology",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.5,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [
+        "prof_intro_biology"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_xenology": {
+      "name": "Xenology",
+      "skillPenalty": 0.3,
+      "timeMultiplier": 2,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [
+        "prof_intro_biology"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_intro_chem_synth": {
+      "name": "Principles of Chemical Synthesis",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [
+        "prof_intro_chemistry"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_chem_synth": {
+      "name": "Complex Chemical Synthesis",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 960,
+      "canLearn": true,
+      "requires": [
+        "prof_intro_chem_synth"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_distilling": {
+      "name": "Distillation",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.1,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_metallurgy": {
+      "name": "Metallurgy",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_pharmaceutical": {
+      "name": "Pharmaceutical Production",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_intro_chemistry",
+        "prof_intro_biology"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_food_prep": {
+      "name": "Food Preparation",
+      "skillPenalty": 0,
+      "timeMultiplier": 1.1,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_knife_skills": {
+      "name": "Knife Skills",
+      "skillPenalty": 0,
+      "timeMultiplier": 1.25,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_food_prep"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_baking": {
+      "name": "Principles of Baking",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_baking_bread": {
+      "name": "Breadmaking",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.25,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [
+        "prof_baking"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_baking_desserts_1": {
+      "name": "Dessert Baking",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [
+        "prof_baking"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_baking_desserts_2": {
+      "name": "Patisserie Expert",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.25,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_baking_desserts_1"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_frying": {
+      "name": "Principles of Frying",
+      "skillPenalty": 0.1,
+      "timeMultiplier": 1.1,
+      "minutes": 120,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_frying_bread": {
+      "name": "Breading & Battering",
+      "skillPenalty": 0.1,
+      "timeMultiplier": 1.1,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [
+        "prof_frying"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_frying_dessert": {
+      "name": "Fried Desserts",
+      "skillPenalty": 0.1,
+      "timeMultiplier": 1.1,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [
+        "prof_frying",
+        "prof_baking_desserts_1"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_fermenting": {
+      "name": "Culinary Fermentation",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.25,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_beverage_distilling": {
+      "name": "Beverage Distillation",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.1,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_distilling"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_brewing": {
+      "name": "Brewing",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.1,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_fermenting"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_winemaking": {
+      "name": "Winemaking",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.1,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_fermenting"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_lactofermenting": {
+      "name": "Lactofermentation",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_fermenting"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_cheesemaking_1": {
+      "name": "Principles of Cheesemaking",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.1,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_cheesemaking_2": {
+      "name": "Cheesemaking Expert",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_cheesemaking_1"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_preservation": {
+      "name": "Food Preservation",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.1,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_food_curing": {
+      "name": "Curing and Drying Food",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 1.1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_preservation"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_food_canning": {
+      "name": "Canning Food",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_preservation"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_scav_cooking": {
+      "name": "Scavenger Cooking",
+      "skillPenalty": 0.1,
+      "timeMultiplier": 1.1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_forage_cooking": {
+      "name": "Forager Cooking",
+      "skillPenalty": 0.1,
+      "timeMultiplier": 1.1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_elec_soldering": {
+      "name": "Electronics Soldering",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 2,
+      "minutes": 300,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_elec_circuits": {
+      "name": "Electrical Circuits",
+      "skillPenalty": 0.4,
+      "timeMultiplier": 1.5,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_elec_semiconductors": {
+      "name": "Semiconductors",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 2,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [
+        "prof_elec_circuits"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_elec_integrated_circuits": {
+      "name": "Integrated Circuits",
+      "skillPenalty": 0.3,
+      "timeMultiplier": 2,
+      "minutes": 960,
+      "canLearn": true,
+      "requires": [
+        "prof_elec_semiconductors"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_electromagnetics": {
+      "name": "Electromagnetics",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_shock_weapons": {
+      "name": "Electroshock Weapons",
+      "skillPenalty": 0.3,
+      "timeMultiplier": 2.5,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_gunsmithing_basic": {
+      "name": "Principles of Gunsmithing",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_gunsmithing_improv": {
+      "name": "Improvised Gunmaking",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2.5,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_gunsmithing_antique": {
+      "name": "Antique Gunsmithing",
+      "skillPenalty": 0.3,
+      "timeMultiplier": 2.5,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_metalworking",
+        "prof_gunsmithing_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_gunsmithing_spring": {
+      "name": "Spring-powered Guns and Crossbows",
+      "skillPenalty": 0.4,
+      "timeMultiplier": 2,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_gunsmithing_revolver": {
+      "name": "Revolver Gunsmithing",
+      "skillPenalty": 0.3,
+      "timeMultiplier": 2.5,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_gunsmithing_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_gun_cleaning": {
+      "name": "Firearm Cleaning",
+      "skillPenalty": 0.1,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wound_care": {
+      "name": "Wound Care",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 2,
+      "minutes": 120,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wound_care_expert": {
+      "name": "Wound Care Expert",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 840,
+      "canLearn": true,
+      "requires": [
+        "prof_wound_care"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_burn_care": {
+      "name": "Burn Care",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_dissect_humans": {
+      "name": "Human Autopsies",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 60000,
+      "canLearn": false,
+      "requires": [
+        "prof_physiology"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_basic_engines": {
+      "name": "Simple Engines",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_high_pressure_systems": {
+      "name": "High Pressure Systems",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [
+        "prof_plumbing",
+        "prof_basic_engines",
+        "prof_appliance_repair",
+        "prof_pneumatics"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_chemical_engineering": {
+      "name": "Chemical Engineering",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 2.5,
+      "minutes": 1200,
+      "canLearn": true,
+      "requires": [
+        "prof_high_pressure_systems",
+        "prof_chem_synth"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_pneumatics": {
+      "name": "Pneumatics",
+      "skillPenalty": 0.4,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_aircraft_mechanic": {
+      "name": "Airframe and Powerplant Mechanic",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": null,
+      "canLearn": false,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_auto_rifles_familiar": {
+      "name": "Long Gun CQC Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_auto_rifles_pro": {
+      "name": "Long Gun CQC Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_auto_rifles_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_auto_rifles_master": {
+      "name": "Long Gun CQC Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_auto_rifles_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_auto_pistols_familiar": {
+      "name": "Handgun CQC Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_auto_pistols_pro": {
+      "name": "Handgun CQC Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_auto_pistols_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_auto_pistols_master": {
+      "name": "Handgun CQC Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_auto_pistols_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_knives_familiar": {
+      "name": "Knife Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_knives_pro": {
+      "name": "Knife Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_knives_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_knives_master": {
+      "name": "Knife Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_knives_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_shivs_familiar": {
+      "name": "Shiv Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_shivs_pro": {
+      "name": "Shiv Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_shivs_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_shivs_master": {
+      "name": "Shiv Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_shivs_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_batons_familiar": {
+      "name": "Baton Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_batons_pro": {
+      "name": "Baton Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_batons_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_batons_master": {
+      "name": "Baton Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_batons_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_medium_swords_familiar": {
+      "name": "Medium Sword Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_medium_swords_pro": {
+      "name": "Medium Sword Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_medium_swords_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_medium_swords_master": {
+      "name": "Medium Sword Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_medium_swords_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_short_swords_familiar": {
+      "name": "Short Sword Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_short_swords_pro": {
+      "name": "Short Sword Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_short_swords_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_short_swords_master": {
+      "name": "Short Sword Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_short_swords_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_quarterstaves_familiar": {
+      "name": "Quarterstaff Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_quarterstaves_pro": {
+      "name": "Quarterstaff Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_quarterstaves_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_quarterstaves_master": {
+      "name": "Quarterstaff Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_quarterstaves_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_fencing_weapons_familiar": {
+      "name": "Fencing Weapon Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_fencing_weapons_pro": {
+      "name": "Fencing Weapon Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_fencing_weapons_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_fencing_weapons_master": {
+      "name": "Fencing Weapon Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_fencing_weapons_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_claws_familiar": {
+      "name": "Claw Weapon Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_claws_pro": {
+      "name": "Claw Weapon Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_claws_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_claws_master": {
+      "name": "Claw Weapon Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_claws_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_hooking_familiar": {
+      "name": "Hooking Weapon Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_hooking_pro": {
+      "name": "Hooking Weapon Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_hooking_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_hooking_master": {
+      "name": "Hooking Weapon Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_hooking_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_polearms_familiar": {
+      "name": "Polearm Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_polearms_pro": {
+      "name": "Polearm Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_polearms_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_polearms_master": {
+      "name": "Polearm Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_polearms_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_bionics_familiar": {
+      "name": "Bionic Weapon Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_bionics_pro": {
+      "name": "Bionic Weapon Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_bionics_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_bionics_master": {
+      "name": "Bionic Weapon Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_bionics_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_spears_familiar": {
+      "name": "Spear Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_spears_pro": {
+      "name": "Spear Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_spears_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_spears_master": {
+      "name": "Spear Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_spears_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_thrusting_swords_familiar": {
+      "name": "Long Thrusting Sword Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_thrusting_swords_pro": {
+      "name": "Long Thrusting Sword Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_thrusting_swords_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_thrusting_swords_master": {
+      "name": "Long Thrusting Sword Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_thrusting_swords_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_long_swords_familiar": {
+      "name": "Long Sword Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_long_swords_pro": {
+      "name": "Long Sword Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_long_swords_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_long_swords_master": {
+      "name": "Long Sword Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_long_swords_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_bionic_swords_familiar": {
+      "name": "Bionic Sword Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_bionic_swords_pro": {
+      "name": "Bionic Sword Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_bionic_swords_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_bionic_swords_master": {
+      "name": "Bionic Sword Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_bionic_swords_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_flails_familiar": {
+      "name": "Flail Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_flails_pro": {
+      "name": "Flail Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_flails_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_flails_master": {
+      "name": "Flail Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_flails_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_maces_familiar": {
+      "name": "Mace Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_maces_pro": {
+      "name": "Mace Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_maces_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_maces_master": {
+      "name": "Mace Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_maces_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_great_swords_familiar": {
+      "name": "Great Sword Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_great_swords_pro": {
+      "name": "Great Sword Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_great_swords_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_great_swords_master": {
+      "name": "Great Sword Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_great_swords_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_great_hammers_familiar": {
+      "name": "Great Hammer Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_great_hammers_pro": {
+      "name": "Great Hammer Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_great_hammers_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_great_hammers_master": {
+      "name": "Great Hammer Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_great_hammers_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_great_axes_familiar": {
+      "name": "Great Axe Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_great_axes_pro": {
+      "name": "Great Axe Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_great_axes_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_great_axes_master": {
+      "name": "Great Axe Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_great_axes_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_hand_axes_familiar": {
+      "name": "Hand Axe Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_hand_axes_pro": {
+      "name": "Hand Axe Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_hand_axes_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_hand_axes_master": {
+      "name": "Hand Axe Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_hand_axes_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_whips_familiar": {
+      "name": "Whip Familiarity",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 13.333333333333334,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_whips_pro": {
+      "name": "Whip Proficiency",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 26.666666666666668,
+      "canLearn": true,
+      "requires": [
+        "prof_whips_familiar"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_whips_master": {
+      "name": "Whip Mastery",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 53.333333333333336,
+      "canLearn": true,
+      "requires": [
+        "prof_whips_pro"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_metalworking": {
+      "name": "Principles of Metalworking",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 120,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_welding_basic": {
+      "name": "Principles of Welding",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [
+        "prof_metalworking"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_welding": {
+      "name": "Skilled Welding",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_welding_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_blacksmithing": {
+      "name": "Blacksmithing",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_metalworking"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_redsmithing": {
+      "name": "Principles of Redsmithing",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [
+        "prof_metalworking"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_redsmithing_adv": {
+      "name": "Advanced Redsmithing",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [
+        "prof_redsmithing"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_fine_metalsmithing": {
+      "name": "Fine Metalsmithing",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 2,
+      "minutes": 840,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_armorsmithing": {
+      "name": "Armorsmithing",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 2,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [
+        "prof_blacksmithing"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_bladesmith": {
+      "name": "Bladesmithing",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 2,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [
+        "prof_blacksmithing"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_toolsmithing": {
+      "name": "Manual Tooling",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_blacksmithing"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wiremaking": {
+      "name": "Wire Making",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_metalworking"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_case_hardening": {
+      "name": "Case Hardening",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_quenching": {
+      "name": "Quenching & Tempering",
+      "skillPenalty": 1,
+      "timeMultiplier": 1.5,
+      "minutes": 1200,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_knapping": {
+      "name": "Basic Knapping",
+      "skillPenalty": 0.8,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_knapping_speed": {
+      "name": "Speed Knapping",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 5,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [
+        "prof_knapping"
+      ],
+      "ignoreFocus": true
+    },
+    "prof_glassblowing": {
+      "name": "Glassblowing",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_plumbing": {
+      "name": "Plumbing",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_pottery": {
+      "name": "Pottery",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_bowyery": {
+      "name": "Bowyery",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 2.5,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_fletching": {
+      "name": "Fletching",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_basketweaving": {
+      "name": "Basketweaving",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 2.5,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_pottery_glazing": {
+      "name": "Pottery Glazing",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 2,
+      "minutes": 300,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_plasticworking": {
+      "name": "Plastic Working",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_carving": {
+      "name": "Carving",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_gem_setting": {
+      "name": "Gem Setting",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_fine_metalsmithing",
+        "prof_redsmithing"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_handloading": {
+      "name": "Handloading",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_appliance_repair": {
+      "name": "General Appliance Repair",
+      "skillPenalty": 0.1,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_articulation": {
+      "name": "Joint Articulation",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 1.5,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_closures": {
+      "name": "Garment Closures",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_closures_waterproofing": {
+      "name": "Fabric Waterproofing",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_elastics": {
+      "name": "Stretch Fabric",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_cobbling": {
+      "name": "Cobbling",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_closures",
+        "prof_leatherworking_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_spinning": {
+      "name": "Spinning",
+      "skillPenalty": 0.4,
+      "timeMultiplier": 2,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_weaving": {
+      "name": "Weaving",
+      "skillPenalty": 0.4,
+      "timeMultiplier": 2,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_millinery": {
+      "name": "Millinery",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_leatherworking_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_knitting": {
+      "name": "Skilled Knitting",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_knitting_speed": {
+      "name": "Speed Knitting",
+      "skillPenalty": 0,
+      "timeMultiplier": 5,
+      "minutes": 1200,
+      "canLearn": true,
+      "requires": [
+        "prof_knitting"
+      ],
+      "ignoreFocus": true
+    },
+    "prof_leatherworking_basic": {
+      "name": "Principles of Leatherworking",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_leatherworking": {
+      "name": "Skilled Leatherworking",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [
+        "prof_leatherworking_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_furriery": {
+      "name": "Furriery",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_leatherworking_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_chitinworking": {
+      "name": "Chitinworking",
+      "skillPenalty": 0.3,
+      "timeMultiplier": 2,
+      "minutes": 960,
+      "canLearn": true,
+      "requires": [
+        "prof_leatherworking_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_chain_armour": {
+      "name": "Chain Garments",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 3,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_polymerworking": {
+      "name": "Advanced Polymer Sewing",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_quilting": {
+      "name": "Fabric Quilting",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 1.35,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_lockpicking": {
+      "name": "Lockpicking",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 2,
+      "minutes": 120,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_lockpicking_expert": {
+      "name": "Locksmith",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 840,
+      "canLearn": true,
+      "requires": [
+        "prof_lockpicking"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_safecracking": {
+      "name": "Safecracking",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 600,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_traps": {
+      "name": "Principles of Trapping",
+      "skillPenalty": 0.25,
+      "timeMultiplier": 2,
+      "minutes": 180,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_trapsetting": {
+      "name": "Trap Setting",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_traps"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_disarming": {
+      "name": "Trap Disarming",
+      "skillPenalty": 0.3,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_traps"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_spotting": {
+      "name": "Spotting and Awareness",
+      "skillPenalty": 0.3,
+      "timeMultiplier": 2,
+      "minutes": 180,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_helicopter_pilot": {
+      "name": "Helicopter Piloting",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": null,
+      "canLearn": false,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_boat_pilot": {
+      "name": "Boat Piloting",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": true
+    },
+    "prof_driver": {
+      "name": "Driving",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": true
+    },
+    "prof_debug_weakpoint": {
+      "name": "Debug Weakpoint",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_debug_weakpoint_expert": {
+      "name": "Expert Debug Weakpoint",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 60,
+      "canLearn": true,
+      "requires": [
+        "prof_debug_weakpoint"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_zombie": {
+      "name": "Principles of Zombie Biology",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_demihuman": {
+      "name": "Principles of Near Human Biology",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_amalgamation": {
+      "name": "Anatomy of Amalgamations",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wp_syn_armored": {
+      "name": "Synthetic Armors",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 360,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wp_nat_armored": {
+      "name": "Natural Armors",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wp_cyborg": {
+      "name": "Cyborg Anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wp_basic_amphibian": {
+      "name": "Amphibian Biology",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_basic_bird": {
+      "name": "Bird Biology",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_canine": {
+      "name": "Canine Anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_ungulate": {
+      "name": "Ungulate Anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_basic_bug": {
+      "name": "Invertebrate Biology",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_beetle": {
+      "name": "Beetle Anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 60,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_basic_bug"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_centipede": {
+      "name": "Centipede Anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_basic_bug"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_hymenoptera": {
+      "name": "Hymenopteran Anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_basic_bug"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_spider": {
+      "name": "Arachnid Anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_basic_bug"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_flying": {
+      "name": "Creatures of Flight",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wp_skeleton": {
+      "name": "Ossified Exoskeletons",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wp_child": {
+      "name": "Small Humanoids",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_hulk": {
+      "name": "Giant Humanoids",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_netherium_abomination": {
+      "name": "Netherium Abominations",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wp_mi-go_basic": {
+      "name": "Mi-go basic anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_wp_mi-go_advanced": {
+      "name": "Mi-go detailed anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 60,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_mi-go_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_fungaloid_basic": {
+      "name": "Fungaloid basic anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_fungaloid_advanced": {
+      "name": "Fungaloid detailed anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 60,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_fungaloid_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_power_leech_basic": {
+      "name": "Power leech basic anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_power_leech_advanced": {
+      "name": "Power leech detailed anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 60,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_power_leech_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_slime_basic": {
+      "name": "Slime basic weaknesses",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_slime_advanced": {
+      "name": "Slime detailed weaknesses",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 60,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_slime_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_triffid_basic": {
+      "name": "Triffid basic anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 30,
+      "canLearn": true,
+      "requires": [
+        "prof_gross_anatomy"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_wp_triffid_advanced": {
+      "name": "Triffid detailed anatomy",
+      "skillPenalty": 0,
+      "timeMultiplier": 1,
+      "minutes": 60,
+      "canLearn": true,
+      "requires": [
+        "prof_wp_triffid_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_fibers": {
+      "name": "Fiber Twisting",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_fibers_rope": {
+      "name": "Ropemaking",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 3,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_fibers"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_tanning_basic": {
+      "name": "Basic Tanning",
+      "skillPenalty": 0.5,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_tanning": {
+      "name": "Skilled Tanning",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 2,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [
+        "prof_tanning_basic"
+      ],
+      "ignoreFocus": false
+    },
+    "prof_bow_basic": {
+      "name": "Archer's Form",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 480,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": true
+    },
+    "prof_bow_expert": {
+      "name": "Archer's Form (Expert)",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 960,
+      "canLearn": true,
+      "requires": [
+        "prof_bow_basic"
+      ],
+      "ignoreFocus": true
+    },
+    "prof_bow_master": {
+      "name": "Archer's Form (Master)",
+      "skillPenalty": 0.2,
+      "timeMultiplier": 1.5,
+      "minutes": 1920,
+      "canLearn": true,
+      "requires": [
+        "prof_bow_expert"
+      ],
+      "ignoreFocus": true
+    },
+    "prof_carpentry_basic": {
+      "name": "Basic Carpentry",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 1.5,
+      "minutes": 240,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    },
+    "prof_luthier_basic": {
+      "name": "Hobbyist Luthier",
+      "skillPenalty": 0.15,
+      "timeMultiplier": 3.5,
+      "minutes": 720,
+      "canLearn": true,
+      "requires": [],
+      "ignoreFocus": false
+    }
+  },
+  "diseases": {
+    "bad_food": {
+      "minMinutes": 6,
+      "maxMinutes": 60,
+      "minIntensity": 1,
+      "maxIntensity": 1
+    },
+    "highly_contaminated_food": {
+      "minMinutes": 360,
+      "maxMinutes": 1440,
+      "minIntensity": 1,
+      "maxIntensity": 5
+    }
+  },
+  "foodPoison": {
+    "vomitSeconds": 600,
+    "painSeconds": 300
+  },
+  "pain": {
+    "threshold": 10,
+    "statRates": {
+      "str": 0.005,
+      "dex": 0.0075,
+      "int": 0.01,
+      "per": 0.01
+    },
+    "speedExponent": 0.7,
+    "maxSpeedPenalty": 50,
+    "damageDivisor": 2,
+    "decayBase": 0.2,
+    "decayDivisor": 50,
+    "decayMinutes": 5,
+    "hitDexDivisor": 4,
+    "dodgeDexDivisor": 2
+  },
+  "reading": {
+    "speedNumerator": 3,
+    "intBase": 2,
+    "intDivisor": 8,
+    "lowIntTimeDivisor": 60,
+    "minTimeDivisor": 10,
+    "maxTimeDivisor": 5,
+    "minIntDivisor": 4,
+    "maxIntDivisor": 2,
+    "minMaxXp": 2,
+    "maxMaxXp": 10,
+    "xpScale": 100,
+    "levelXp": 10000
+  },
+  "handling": {
+    "//": "Getting something into or out of your hands, in move points. Small things come out fast, a sheath or belt loop faster still, and letting go of what you already hold is nearly free.",
+    "baseCost": 100,
+    "volumeDivisor": 20,
+    "maxBulkCost": 200,
+    "smallVolumeMl": 750,
+    "smallBaseCost": 40,
+    "quickDropCost": 15,
+    "holsterDrawFactor": 0.25
+  },
+  "mending": {
+    "minutes": 14400,
+    "sleepMultiplier": 4,
+    "restMultiplier": 2,
+    "tiredMultiplier": 0.75
+  },
+  "thirst": {
+    "source": "character.cpp thirst_speed_penalty; display.cpp thirst_text_color; death at 1200",
+    "thresholds": [
+      [
+        40,
+        0
+      ],
+      [
+        300,
+        -25
+      ],
+      [
+        600,
+        -50
+      ],
+      [
+        1200,
+        -75
+      ]
+    ],
+    "bands": [
+      [
+        40,
+        "thirsty",
+        "You are thirsty."
+      ],
+      [
+        150.0,
+        "very_thirsty",
+        "You are very thirsty."
+      ],
+      [
+        240,
+        "dehydrated",
+        "You are dehydrated."
+      ],
+      [
+        300,
+        "water_depleted",
+        "Your water bar is empty. Drink soon."
+      ],
+      [
+        520,
+        "parched",
+        "You are parched."
+      ]
+    ],
+    "death": 1200,
+    "perMinute": 0.2,
+    "zeroHydrationThirst": 300
+  },
+  "bandaging": {
+    "defaultScaling": 0.25,
+    "movesPerMinute": 6000,
+    "minutesPerIntensity": 360,
+    "maxIntensity": 16,
+    "maxEffectiveIntensity": 8,
+    "bleedGateMultiplier": 3,
+    "healingPerDayPerIntensity": 2,
+    "headMultiplier": 0.5,
+    "torsoMultiplier": 1.5
+  },
+  "painkillers": {
+    "//": "CDDA 0.I painkiller model (Character::get_perceived_pain, update_needs, effect PKILL mods). Perceived pain is pain minus the painkiller level. While a pkill effect runs it adds pkill_min every pkill_tick seconds (one in pkill_chance of them when given), never past pkill_max_val; an effect's duration is capped at its max_duration. The level itself falls by one every five minutes. Effect definitions copied as-is from data/json/effects.json.",
+    "decayPerFiveMinutes": 1,
+    "effects": {
+      "pkill1_generic": {
+        "type": "effect_type",
+        "id": "pkill1_generic",
+        "max_duration": "4 m",
+        "base_mods": {
+          "pkill_tick": [
+            42
+          ],
+          "pkill_min": [
+            1
+          ],
+          "pkill_max_val": [
+            15
+          ]
+        },
+        "rating": "good",
+        "blood_analysis_description": "Minor Painkiller"
+      },
+      "pkill1_nsaid": {
+        "type": "effect_type",
+        "id": "pkill1_nsaid",
+        "max_duration": "4 m",
+        "base_mods": {
+          "pkill_tick": [
+            42
+          ],
+          "pkill_min": [
+            1
+          ],
+          "pkill_max_val": [
+            15
+          ]
+        },
+        "rating": "good",
+        "blood_analysis_description": "Minor Painkiller (NSAID-based)"
+      },
+      "pkill1_acetaminophen": {
+        "type": "effect_type",
+        "id": "pkill1_acetaminophen",
+        "max_duration": "4 m",
+        "base_mods": {
+          "pkill_tick": [
+            42
+          ],
+          "pkill_min": [
+            1
+          ],
+          "pkill_max_val": [
+            15
+          ]
+        },
+        "rating": "good",
+        "blood_analysis_description": "Minor Painkiller (Acetaminophen)"
+      },
+      "pkill2": {
+        "type": "effect_type",
+        "id": "pkill2",
+        "pkill_addict_reduces": true,
+        "base_mods": {
+          "pkill_tick": [
+            42
+          ],
+          "pkill_min": [
+            2
+          ]
+        },
+        "rating": "good",
+        "blood_analysis_description": "Moderate Painkiller"
+      },
+      "pkill3": {
+        "type": "effect_type",
+        "id": "pkill3",
+        "pkill_addict_reduces": true,
+        "base_mods": {
+          "pkill_tick": [
+            12
+          ],
+          "pkill_min": [
+            1
+          ]
+        },
+        "rating": "good",
+        "blood_analysis_description": "Heavy Painkiller"
+      },
+      "pkill_l": {
+        "type": "effect_type",
+        "id": "pkill_l",
+        "pkill_addict_reduces": true,
+        "base_mods": {
+          "pkill_max_val": [
+            40
+          ],
+          "pkill_tick": [
+            120
+          ],
+          "pkill_min": [
+            1
+          ]
+        },
+        "rating": "good",
+        "blood_analysis_description": "Slow-Release Painkiller"
+      },
+      "pkill_wintergreen": {
+        "type": "effect_type",
+        "id": "pkill_wintergreen",
+        "pkill_addict_reduces": true,
+        "base_mods": {
+          "pkill_max_val": [
+            15
+          ],
+          "pkill_tick": [
+            50
+          ],
+          "pkill_min": [
+            1
+          ],
+          "pkill_chance": [
+            45
+          ]
+        },
+        "rating": "good",
+        "blood_analysis_description": "Ate wintergreen leaves"
+      },
+      "pkill_wintergreen_oil": {
+        "type": "effect_type",
+        "id": "pkill_wintergreen_oil",
+        "pkill_addict_reduces": true,
+        "base_mods": {
+          "pkill_max_val": [
+            30
+          ],
+          "pkill_tick": [
+            42
+          ],
+          "pkill_min": [
+            2
+          ]
+        },
+        "rating": "good",
+        "blood_analysis_description": "Wintergreen Oil"
+      }
+    }
+  }
+}

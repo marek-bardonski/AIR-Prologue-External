@@ -1,0 +1,67 @@
+{
+  "source": "AIR wear balance; repair actor fields and material repair resources from bundled CDDA 0.I. Chance coefficients follow CDDA ITEM repair_item documentation; no CDDA implementation code is imported.",
+  "maxDamage": 5,
+  "minimumEffectiveness": 0.5,
+  "wear": {
+    "weapon": 0.015,
+    "armour": 0.008,
+    "shot": 0.004,
+    "improvisedMultiplier": 3,
+    "fragileMultiplier": 4,
+    "degradationShare": 0.025,
+    "impactScale": 20,
+    "materials": {
+      "glass": 4,
+      "wood": 1.8,
+      "plastic": 2,
+      "bone": 2,
+      "stone": 1.5,
+      "cotton": 1.5,
+      "wool": 1.5
+    }
+  },
+  "condition": [
+    "Sound",
+    "Scratched",
+    "Battered",
+    "Damaged",
+    "Nearly broken",
+    "Broken"
+  ],
+  "repair": {
+    "source": "https://docs.cataclysmdda.org/JSON/ITEM.html#use_action",
+    "baseChance": 10,
+    "skillChance": 2,
+    "difficultyChance": 2,
+    "qualityDivisor": 5,
+    "chanceDivisor": 100,
+    "failureBase": 0.04,
+    "failurePerLevel": 0.01,
+    "minMinutes": 1,
+    "volumeUnitMl": 250,
+    "costScaling": 0.1,
+    "xp": 2,
+    "step": 1,
+    "materialSubstitutions": {
+      "lc_steel_chunk": "steel_chunk"
+    },
+    "toolSupplies": {
+      "repair_fabric": "thread",
+      "repair_wood": "duct_tape"
+    },
+    "gunAction": {
+      "materials": [
+        "steel",
+        "lc_steel",
+        "plastic"
+      ],
+      "skill": "mechanics",
+      "tool_quality": 5,
+      "cost_scaling": 0.1,
+      "move_cost": 6000
+    },
+    "toolSuppliesById": {
+      "misc_repairkit": "duct_tape"
+    }
+  }
+}

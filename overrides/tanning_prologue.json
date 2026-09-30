@@ -1,0 +1,23 @@
+[
+  {
+    "//": "The tanning soak. CDDA 0.I writes transform_age as 28800 with the note '2 days' (a figure from the era of six-second turns; read as seconds it would be eight hours). The Prologue keeps the documented two days. Same-id patches, no copy-from; the use_action object is replaced whole."
+  },
+  {
+    "type": "ITEM",
+    "id": "tanning_hide",
+    "use_action": {
+      "type": "delayed_transform",
+      "target": "tanned_hide",
+      "transform_age": "2 days"
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "tanning_pelt",
+    "use_action": {
+      "type": "delayed_transform",
+      "target": "tanned_pelt",
+      "transform_age": "2 days"
+    }
+  }
+]

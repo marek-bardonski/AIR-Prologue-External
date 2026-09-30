@@ -1,0 +1,1240 @@
+{
+  "group": "p29_b08_farm",
+  "source": "29.09.2026 round 3: farm and forage - the last food seeds as crops (garden, berry bushes, woodland and meadow plants, mushrooms, cattail), manure as fertilizer, adobe, sugar and yeast cultures, garden tools and props",
+  "items": [
+    {
+      "id": "seed_cabbage",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_lettuce",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_melon",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_watermelon",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_blackberries",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_huckleberries",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_mulberries",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_rose",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_wintergreen",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_dahlia",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_bee_balm",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.2,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            10,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_mushroom",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_mushroom_morel",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_cactus",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_cattail",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_raw_bamboo",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_raw_burdock",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_raw_dandelion",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_wild_garlic",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_wild_sarsaparilla",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_maianthemum_stellatum",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_mayapple",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_mugwort",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_dogbane",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            25
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            20
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            10,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sassafras_root",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.4
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.3
+        },
+        {
+          "table": "hills",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "brew_rootbeer",
+      "loot": [
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "coffee_pod",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.3
+        },
+        {
+          "table": "orchard",
+          "weight": 0.1
+        },
+        {
+          "table": "field",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "snail_garden",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 0.3
+        },
+        {
+          "table": "field",
+          "weight": 0.2
+        },
+        {
+          "table": "orchard",
+          "weight": 0.2
+        },
+        {
+          "table": "plant_nursery",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "oat_pulp",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        },
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "feces_manure",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.8
+        },
+        {
+          "table": "farm",
+          "weight": 0.4
+        },
+        {
+          "table": "farm_coop",
+          "weight": 0.5
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "feces_cow",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 0.6
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.4
+        },
+        {
+          "table": "field",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "soft_adobe_brick",
+      "loot": [
+        {
+          "table": "potters_yard_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "farm",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "crystallizing_sugar",
+      "loot": [
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "flask_yeast",
+      "loot": [
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "brew_sake_koji",
+      "loot": [
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "milk_UHT",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 0.3
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.15
+        },
+        {
+          "table": "automated_distribution_food_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "rake_plastic",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.3
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.08
+        },
+        {
+          "table": "farm",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "folding_basket",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.2
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "plastic_pot_flower",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 1.0
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "straw_doll",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 0.08
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "bouquet",
+      "loot": [
+        {
+          "table": "plant_nursery",
+          "weight": 0.2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "salt_lick",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.2
+        },
+        {
+          "table": "farm_field",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lawnmower",
+      "loot": [
+        {
+          "table": "plant_nursery",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.08
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "chicken_cage",
+      "loot": [
+        {
+          "table": "farm_coop",
+          "weight": 0.3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_homemk_plantshome",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_psych_thergar",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.08
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 0.03
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "seed_cabbage",
+      "fruit": "cabbage",
+      "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+    },
+    {
+      "type": "ITEM",
+      "id": "seed_lettuce",
+      "fruit": "lettuce",
+      "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+    },
+    {
+      "type": "ITEM",
+      "id": "seed_melon",
+      "fruit": "melon_chunks",
+      "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+    },
+    {
+      "type": "ITEM",
+      "id": "seed_watermelon",
+      "fruit": "watermelon_wedge",
+      "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+    },
+    {
+      "type": "ITEM",
+      "id": "seed_rose",
+      "fruit": "rose_hips_cut",
+      "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+    },
+    {
+      "type": "ITEM",
+      "id": "milk_UHT",
+      "spoils_in": "270 days",
+      "air_open_spoils_in": "2 days",
+      "//": "sealed long-life milk keeps like other packed rations (food_storage_prologue pattern); opened it goes off like fresh milk"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:brew_rootbeer",
+    "recipe:brew_sake_koji",
+    "recipe:chicken_cage",
+    "recipe:crystallizing_sugar:from_beets",
+    "recipe:crystallizing_sugar:from_sweets",
+    "recipe:flask_yeast",
+    "recipe:folding_basket",
+    "recipe:rake_plastic",
+    "recipe:seed_bee_balm",
+    "recipe:seed_blackberries",
+    "recipe:seed_cattail",
+    "recipe:seed_dogbane",
+    "recipe:seed_huckleberries",
+    "recipe:seed_maianthemum_stellatum",
+    "recipe:seed_mayapple",
+    "recipe:seed_melon",
+    "recipe:seed_mugwort",
+    "recipe:seed_mulberries",
+    "recipe:seed_mushroom",
+    "recipe:seed_mushroom_morel",
+    "recipe:seed_raw_burdock",
+    "recipe:seed_raw_dandelion",
+    "recipe:seed_rose",
+    "recipe:seed_watermelon",
+    "recipe:seed_wild_garlic",
+    "recipe:seed_wild_sarsaparilla",
+    "recipe:seed_wintergreen",
+    "recipe:soft_adobe_brick"
+  ],
+  "notes": [
+    "Crops are dials in farming.json crops; woodland, meadow, wet-ground and mushroom crops are kept off the farm tile.",
+    "Manure and cow pies are fertilizers (farming.json fertilizers.power)."
+  ]
+}

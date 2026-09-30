@@ -1,0 +1,648 @@
+{
+  "group": "p29_g03_9mm",
+  "source": "29.09.2026 firearms import: 9x19mm pistols, carbines and submachine guns with factory and hand-loaded rounds",
+  "items": [
+    {
+      "id": "glock_17",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0446,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "glock_26",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "glock_34",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "glock_43",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "hptc9",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "cz75",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "hi_power_9mm",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "ruins",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "m17",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0669,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "m18",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0669,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "p226_9mm",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0446,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "p365",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "px4",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "sp2022",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0446,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "usp_9mm",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0446,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "walther_ccp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "walther_p38",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "walther_ppq_9mm",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "mauser_c96",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.04,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "ksub2000",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "rugerpcc",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "uzi",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0669,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "tec9",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "minDanger": 4
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "hk_mp5",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0669,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "mp40semi",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "9mmfmj",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.4,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.08,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.08,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "9mmP",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.2,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "9mmP2",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "reloaded_9mm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.043,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_9mmfmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.043,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_9mmP",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0143,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_9mm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0229,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_9mmfmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0229,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_9mm",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.04,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_9mmfmj",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.04,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:bp_9mm",
+    "recipe:bp_9mmfmj",
+    "recipe:matchhead_9mm",
+    "recipe:matchhead_9mmfmj",
+    "recipe:reloaded_9mm",
+    "recipe:reloaded_9mmP",
+    "recipe:reloaded_9mmfmj"
+  ],
+  "notes": [
+    "Service pistols sit at the checkpoint, civilian carry guns in houses and on the dead; wartime pieces in ruins."
+  ]
+}

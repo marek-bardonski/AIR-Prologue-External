@@ -1,0 +1,174 @@
+[
+  {
+    "type": "ITEM",
+    "id": "cookbook_indian",
+    "time": "10 m"
+  },
+  {
+    "type": "ITEM",
+    "id": "birdfood",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "wool_sockmitts",
+    "delete": {
+      "flags": [
+        "SKINTIGHT"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "veggy_wild",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "carrot_wild",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "raw_dandelion",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "corn",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "veggy",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "bell_pepper",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chicory_raw",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "cucumber",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "lemon",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "lettuce",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "onion",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "wild_garlic",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "young_leaves",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chili_pepper",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chili_pepper_cut",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "pumpkin_cut",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "cucumber_cut",
+    "delete": {
+      "flags": [
+        "RAW"
+      ]
+    }
+  }
+]

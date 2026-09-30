@@ -1,0 +1,775 @@
+{
+  "group": "p29_g08_shotguns",
+  "source": "29.09.2026 firearms import: pump, semi-automatic and break-action shotguns, 12 gauge and .410 shells",
+  "items": [
+    {
+      "id": "remington_870",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0108,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "remington_870_express",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0268,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "mossberg_590",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0268,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "mossberg_930",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0268,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "benelli_sa",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0108,
+          "minDanger": 3
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "browning_a5",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0108,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "ithaca37",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0108,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "remington_1100",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0108,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "winchester_1897",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "winchester_1887",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "shotgun_triple",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0108,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "saiga_12",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0268,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "shotgun_410",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0108,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "ksg",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0268,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "shot_00",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.2,
+          "charges": [
+            4,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            4,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.1321,
+          "charges": [
+            4,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "shop",
+          "weight": 0.05,
+          "charges": [
+            4,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.2,
+          "charges": [
+            4,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "shot_bird",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.1321,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "shop",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "shot_slug",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.2,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.1321,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "shop",
+          "weight": 0.05,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "shot_beanbag",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "shot_flechette",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            4,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "reloaded_shot_bird",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0172,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_shot_slug",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0172,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_shot_flechette",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            8
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_shot_bird",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_shot_slug",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_shot_flechette",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            8
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "wax_slug",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02,
+          "charges": [
+            3,
+            8
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "410shot_000",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "410shot_bird",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.12,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "410shot_slug",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "410shot_scrap",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0143,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_410shot_000",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0172,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_410shot_bird",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0172,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_410shot_slug",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0172,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_410shot_000",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_410shot_bird",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_410shot_slug",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_410shot_scrap",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:410shot_scrap",
+    "recipe:bp_410shot_000",
+    "recipe:bp_410shot_000:with_dowel",
+    "recipe:bp_410shot_bird",
+    "recipe:bp_410shot_bird:with_dowel",
+    "recipe:bp_410shot_scrap",
+    "recipe:bp_410shot_scrap:with_dowel",
+    "recipe:bp_410shot_slug",
+    "recipe:bp_410shot_slug:with_dowel",
+    "recipe:bp_shot_bird",
+    "recipe:bp_shot_bird:with dowel",
+    "recipe:bp_shot_flechette",
+    "recipe:bp_shot_slug",
+    "recipe:bp_shot_slug:with dowel",
+    "recipe:reloaded_410shot_000",
+    "recipe:reloaded_410shot_bird",
+    "recipe:reloaded_410shot_slug",
+    "recipe:reloaded_shot_bird",
+    "recipe:reloaded_shot_flechette",
+    "recipe:reloaded_shot_slug",
+    "recipe:wax_slug"
+  ],
+  "notes": [
+    "Birdshot and beanbags hit for less than buckshot, slugs for more (ranged.json launchers.ammoFactor.byId)."
+  ]
+}

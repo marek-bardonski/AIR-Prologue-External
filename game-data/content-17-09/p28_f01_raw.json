@@ -1,0 +1,520 @@
+{
+  "group": "p28_f01_raw",
+  "source": "28.09.2026 next-1000 import: fruit, greens, seaweed and nuts",
+  "items": [
+    {
+      "id": "hobbleberries",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "hills",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "autumn_olive",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 2
+        },
+        {
+          "table": "road",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "tupelo_fruit",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 1
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.5
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "m_stellatum_berries",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "mayapple",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "forest_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "grapefruit",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "guayaba",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "maracuya",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "lulo",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "papaya",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "kiwi",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pineapple",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "coconut",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "watermelon",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "melon",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pineapple_chunks",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "coconut_flesh",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "watermelon_wedge",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "melon_chunks",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "juice_pulp",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "zucchini_cut",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "eggplant_cut",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "bell_pepper_cut",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gherkin_cut",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "grape_leaves",
+      "loot": [
+        {
+          "table": "orchard",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "horseradish_greens",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "plant_stalk",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 1
+        },
+        {
+          "table": "farm_field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "sea_lettuce",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "kelp_sugar",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "bladderwrack",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "popcorn3",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "almond_roasted",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "walnut_roasted",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "acorn_roasted",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cashews",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "spread_peanutbutter",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "soy_nuts",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pistachio_shelled",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "peanut_shelled",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "vegan_butter",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "watermelon",
+      "comestible_type": "INVALID",
+      "//": "INEDIBLE whole fruit: cut it (uncraft) into wedges"
+    },
+    {
+      "type": "ITEM",
+      "id": "melon",
+      "comestible_type": "INVALID",
+      "//": "INEDIBLE whole fruit: cut it into chunks"
+    },
+    {
+      "type": "ITEM",
+      "id": "spread_peanutbutter",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "90 days",
+      "//": "sealed it keeps like other canned food; opened, a jar of peanut butter lasts months"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:peanut_shelled",
+    "recipe:pistachio_shelled"
+  ],
+  "recipesExpected": [
+    "recipe:acorn_roasted",
+    "recipe:almond_roasted",
+    "recipe:popcorn3",
+    "recipe:soy_nuts",
+    "recipe:vegan_butter:from_butternuts",
+    "recipe:walnut_roasted"
+  ],
+  "notes": [
+    "cholla_bud and cactus_pad left out: desert plants in a temperate north-east setting."
+  ]
+}

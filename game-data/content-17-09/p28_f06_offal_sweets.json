@@ -1,0 +1,490 @@
+{
+  "group": "p28_f06_offal_sweets",
+  "source": "28.09.2026 next-1000 import: offal and shellfish dishes, soups, sandwiches, cakes and candy",
+  "items": [
+    {
+      "id": "canned_liver",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "fried_brain",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "homemade_hotdogs",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "humble_pie",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "leverpostej",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "sausage_casings_artificial",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "deviled_kidney",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "foie_gras",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "fried_tripe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "grilled_sweetbread",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lung_provence",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "scrambledeggsandbrain",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "stuffed_heart",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "bacon_uncut",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mollusk",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 1
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "offal_canned",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "offal_pickled",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "gastropod_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gastropod_purged",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lobster_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lobster_smoked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "mollusk_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "mollusk_smoked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "salted_mollusk",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "hellfire_stew",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "soup_blood",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "soup_cullenskink",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "coqauvin",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lobster_roll",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sandwich_deluxe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sandwich_fairy",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sandwich_reuben",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "amatriciana_pasta",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "beet_syrup",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "cake2",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "cake3",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "can_cheese",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "candy2",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "candy3",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "candy3gator",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "canned_liver",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "offal_canned",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "can_cheese",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "96 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:gastropod_purged",
+    "recipe:sandwich_reuben"
+  ],
+  "recipesExpected": [
+    "recipe:amatriciana_pasta",
+    "recipe:beet_syrup",
+    "recipe:cake2",
+    "recipe:canned_liver",
+    "recipe:canned_liver:canned_big",
+    "recipe:canned_liver:canned_medium",
+    "recipe:canned_liver:jarred",
+    "recipe:canned_liver:jarred_3l",
+    "recipe:coqauvin",
+    "recipe:deviled_kidney",
+    "recipe:foie_gras",
+    "recipe:fried_brain",
+    "recipe:fried_tripe",
+    "recipe:gastropod_cooked",
+    "recipe:grilled_sweetbread",
+    "recipe:hellfire_stew",
+    "recipe:homemade_hotdogs",
+    "recipe:humble_pie",
+    "recipe:leverpostej",
+    "recipe:lobster_cooked",
+    "recipe:lobster_roll",
+    "recipe:lobster_smoked",
+    "recipe:lung_provence",
+    "recipe:mollusk_cooked",
+    "recipe:mollusk_smoked",
+    "recipe:offal_canned:canned",
+    "recipe:offal_canned:canned_big",
+    "recipe:offal_canned:canned_small",
+    "recipe:offal_canned:jarred",
+    "recipe:offal_canned:jarred_3l",
+    "recipe:offal_pickled:jarred",
+    "recipe:offal_pickled:jarred_3l",
+    "recipe:salted_mollusk",
+    "recipe:sandwich_deluxe",
+    "recipe:sandwich_fairy",
+    "recipe:sausage_casings_artificial",
+    "recipe:scrambledeggsandbrain",
+    "recipe:soup_blood",
+    "recipe:soup_cullenskink",
+    "recipe:stuffed_heart"
+  ],
+  "notes": []
+}

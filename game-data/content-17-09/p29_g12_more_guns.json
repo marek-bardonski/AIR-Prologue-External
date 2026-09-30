@@ -1,0 +1,529 @@
+{
+  "group": "p29_g12_more_guns",
+  "source": "29.09.2026 firearms import: more pistols, revolvers, lever rifles, shotguns and rifles in the calibres already carried",
+  "items": [
+    {
+      "id": "glock_48",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "glock_43x",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "glock_27",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "glock_36",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "hk_mp5k",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "hk_mp5sd",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "mp40",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "rough_rider_pistol_9",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "colt_anaconda_4",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "colt_anaconda_8",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "rossi_r92_357_20",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "rossi_r92_44_20",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "remington_870_breacher",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "mossberg_590m",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "benelli_tsa",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "dp_12",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "tavor_12",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "srm_1216",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "scar_16s",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "bren2_556",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "steyr_aug",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "m1918",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "sig_assault_rifle",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "hk_g3",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "ar10",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "psl",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "ak47",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "m2carbine",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "bren2_762",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.0223,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "ruger_1022_auto",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0068,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:ruger_1022_auto"
+  ],
+  "notes": []
+}

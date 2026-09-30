@@ -1,0 +1,345 @@
+{
+  "group": "p28_e01_chemistry",
+  "source": "28.09.2026 next-1000 import, applied science (CDDA chemistry) first: reagents, fuels, inks and medical consumables",
+  "items": [
+    {
+      "id": "ammonia_hydroxide",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "ammonia_liquid",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "saline",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "oxy_powder",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "denat_alcohol",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cooking_oil2",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "fungicide",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "insecticide",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "iodine_crystal",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "ether",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "camphine",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "biodiesel",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.5
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "diesel",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "motor_oil",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "coal_lump",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 3
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.5
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "magnesium",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "quill_ink",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "permanent_ink",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "bfipowder",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "medical_tape",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "white_phosphorous",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "strap_cotton",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pyrometer",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "potters_yard_supplies",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:ammonia_liquid",
+    "recipe:fungicide:from_triffids",
+    "recipe:insecticide:nicotine",
+    "recipe:iodine_crystal",
+    "recipe:oxy_powder",
+    "recipe:quill_ink:from_butternut",
+    "recipe:white_phosphorous:with_red_phosphorous"
+  ],
+  "recipesExpected": [
+    "recipe:biodiesel",
+    "recipe:camphine",
+    "recipe:cooking_oil2",
+    "recipe:ether",
+    "recipe:fungicide:from_normal_chemicals",
+    "recipe:insecticide",
+    "recipe:saline"
+  ],
+  "notes": [
+    "Left out: weather_glass (no forecasts, decided 26.09), heatpack (no heat item mechanic), prussian_blue (radiation), mercury (only feeds an explosive), antifungal (no fungal illness), feces_bird."
+  ]
+}

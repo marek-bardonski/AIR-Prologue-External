@@ -1,0 +1,411 @@
+{
+  "group": "p28_medicine",
+  "source": "28.09.2026 first-priority import: pain relief and stimulants for the intoxicant rules (survival/Intoxicants.js)",
+  "items": [
+    {
+      "id": "ibuprofen",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 2,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 3,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 1,
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acetaminophen",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 2,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 3,
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naproxen",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2,
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codeine",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 1,
+          "charges": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 1,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ],
+      "note": "prescription: clinic, the odd house cabinet"
+    },
+    {
+      "id": "tramadol",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 1,
+          "charges": [
+            1,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oxycodone",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 1,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ],
+      "note": "strongest pill; clinic only, few"
+    },
+    {
+      "id": "wintergreen_leaves",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "forest_dense",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "wintergreen_oil",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 1
+        }
+      ],
+      "note": "craft: chemistry 3 autolearn"
+    },
+    {
+      "id": "mugwort",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 2
+        },
+        {
+          "table": "road",
+          "weight": 1
+        },
+        {
+          "table": "forest_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "mugwort_oil",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 1
+        }
+      ],
+      "note": "craft: chemistry 3 autolearn; antiparasitic"
+    },
+    {
+      "id": "tea_willowbark",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 1
+        }
+      ],
+      "note": "craft from willow bark (survival books)"
+    },
+    {
+      "id": "cattail_jelly",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ],
+      "note": "craft from cattail stalks (pocket_survival and other survival books)"
+    },
+    {
+      "id": "poppy_bud",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 1
+        },
+        {
+          "table": "farm_field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "poppy_pain",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 1
+        }
+      ],
+      "note": "craft from poppy buds, chemistry 2"
+    },
+    {
+      "id": "adrenaline_injector",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 2
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ],
+      "note": "the emergency surge (intoxicants.json surges)"
+    },
+    {
+      "id": "caffeine",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 1,
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caff_gum",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "vending",
+          "weight": 1,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy_drink",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 3
+        },
+        {
+          "table": "vending",
+          "weight": 3
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cola",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 3
+        },
+        {
+          "table": "vending",
+          "weight": 4
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "choco_coffee_beans",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:adrenaline_injector",
+    "recipe:caffeine",
+    "recipe:oxycodone"
+  ],
+  "recipesExpected": [
+    "recipe:wintergreen_oil",
+    "recipe:mugwort_oil",
+    "recipe:tea_willowbark",
+    "recipe:cattail_jelly",
+    "recipe:poppy_pain",
+    "recipe:choco_coffee_beans"
+  ],
+  "notes": [
+    "Painkillers work through Pain.takeDrug (pkill effects); stimulants through their CDDA stim; the injector through intoxicants.json surges.",
+    "Lab syntheses of the injector, caffeine and oxycodone need venom, lab qualities or a platinum grille: excluded."
+  ]
+}

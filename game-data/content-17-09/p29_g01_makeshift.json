@@ -1,0 +1,1074 @@
+{
+  "group": "p29_g01_makeshift",
+  "source": "29.09.2026 firearms import: makeshift and black-powder guns, air guns and the rounds they need (factory and hand-loaded)",
+  "items": [
+    {
+      "id": "rifle_22",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0338,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.1,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "rifle_38",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0338,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.1,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "rifle_44",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0338,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.1,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "slamfire_shotgun_d",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0338,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.1,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "revolver_shotgun",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0338,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.1,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "smg_40",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0338,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.1,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "smg_45",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0338,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.1,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "pistol_flintlock",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "rifle_flintlock",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "carbine_flintlock",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "carbine_flintlock_double",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "longrifle_flintlock",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "blunderbuss",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "colt_navy",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "colt_army",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "nailgun",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.3
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "flaregun",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.3
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bbgun",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "varmint_airgun",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.2
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.027
+        }
+      ]
+    },
+    {
+      "id": "flintlock_ammo",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.2,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "flintlock_shot",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.15,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "blun_shot",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "charges": [
+            2,
+            6
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "blun_lead_shot",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "charges": [
+            2,
+            6
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "blun_flechette",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "blun_slug",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "36navy",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "44army",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bb",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.4,
+          "charges": [
+            20,
+            100
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.1,
+          "charges": [
+            20,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airgun_pellet_hunting",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            10,
+            50
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airgun_pellet_target",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            10,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signal_flare",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.5,
+          "charges": [
+            1,
+            3
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.3,
+          "charges": [
+            1,
+            3
+          ]
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.1982,
+          "charges": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combatnail",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.1,
+          "charges": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22_lr",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "shop",
+          "weight": 0.4,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.3303,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_22_lr",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0573,
+          "charges": [
+            5,
+            25
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "charges": [
+            5,
+            25
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_22_lr",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0286,
+          "charges": [
+            5,
+            25
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_22_lr",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.05,
+          "charges": [
+            3,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "38_special",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.1,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_38_special",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.043,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_38_special",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0286,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_38_special",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.05,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "44magnum",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.1982,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_44magnum",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0286,
+          "charges": [
+            6,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_44magnum",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0143,
+          "charges": [
+            6,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "40sw",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.08,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.08,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_40sw",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0286,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_40sw",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0143,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_40sw",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.04,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "45_acp",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.1,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.1,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_45_acp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0286,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_45_acp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0143,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_45_acp",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.04,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_shot_00",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0573,
+          "charges": [
+            2,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            2,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_shot_00",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0286,
+          "charges": [
+            2,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_shot_scrap",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0286,
+          "charges": [
+            2,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.05,
+          "charges": [
+            2,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:carbine_flintlock",
+    "recipe:carbine_flintlock_double",
+    "recipe:longrifle_flintlock",
+    "recipe:pistol_flintlock",
+    "recipe:rifle_flintlock"
+  ],
+  "recipesExpected": [
+    "recipe:36navy",
+    "recipe:44army",
+    "recipe:bb",
+    "recipe:blun_flechette",
+    "recipe:blun_lead_shot",
+    "recipe:blun_shot",
+    "recipe:blun_shot:using_big_scrap",
+    "recipe:blun_slug:using_lead",
+    "recipe:blunderbuss",
+    "recipe:bp_22_lr",
+    "recipe:bp_38_special",
+    "recipe:bp_40sw",
+    "recipe:bp_44magnum",
+    "recipe:bp_45_acp",
+    "recipe:bp_shot_00",
+    "recipe:bp_shot_00:with dowel",
+    "recipe:bp_shot_scrap",
+    "recipe:bp_shot_scrap:with dowel",
+    "recipe:carbine_flintlock_double:from_antiques",
+    "recipe:combatnail",
+    "recipe:flintlock_ammo",
+    "recipe:flintlock_shot",
+    "recipe:matchhead_22_lr",
+    "recipe:matchhead_38_special",
+    "recipe:matchhead_40sw",
+    "recipe:matchhead_45_acp",
+    "recipe:reloaded_22_lr",
+    "recipe:reloaded_38_special",
+    "recipe:reloaded_40sw",
+    "recipe:reloaded_44magnum",
+    "recipe:reloaded_45_acp",
+    "recipe:reloaded_shot_00",
+    "recipe:revolver_shotgun",
+    "recipe:rifle_22",
+    "recipe:rifle_38",
+    "recipe:rifle_44",
+    "recipe:signal_flare",
+    "recipe:slamfire_shotgun_d",
+    "recipe:slamfire_shotgun_d:bolted_and_welded",
+    "recipe:slamfire_shotgun_d:welded_together",
+    "recipe:slamfire_shotgun_d:with_tape"
+  ],
+  "notes": [
+    "Makeshift guns hit and reach less and never hold their aim (accuracy at most -1); flintlocks and percussion revolvers are slow to load.",
+    "Hand-loaded rounds carry ranged.json launchers.ammoFactor.byPrefix of the stated damage."
+  ]
+}

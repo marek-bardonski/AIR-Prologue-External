@@ -1,0 +1,50 @@
+{
+  "//": "The year: four seasons, the sun and the temperature curve. Prologue design values (decided 26.09.2026): 91-day seasons as on Earth, a temperate north-eastern climate, everything derived from the run's seed and the minute so that nothing here is ever saved. Code: src/game/time/Calendar.js, src/game/weather/Climate.js.",
+  "calendar": {
+    "seasonDays": 91,
+    "order": ["spring", "summer", "autumn", "winter"],
+    "labels": { "spring": "Spring", "summer": "Summer", "autumn": "Autumn", "winter": "Winter" },
+    "phaseDays": 30,
+    "//startWindow": "A new run wakes on a seeded day inside this window (season, first day, last day): the second half of summer, so the cold is never far.",
+    "startWindow": { "season": "summer", "fromDay": 46, "toDay": 91 }
+  },
+  "sun": {
+    "//": "Day length is a cosine over the year: `meanHours` +/- `amplitudeHours`, longest on `longestYearDay` (early summer). Solar noon at `noonHour`. Night begins at sunset and ends at sunrise; full day begins `dayAfterSunriseHours` after sunrise; evening is the last `eveningHours` before sunset. Summer therefore keeps roughly the old fixed 20:00-05:00 night and winter has sixteen hours of dark.",
+    "meanHours": 12,
+    "amplitudeHours": 3.6,
+    "longestYearDay": 112,
+    "noonHour": 12.75,
+    "dayAfterSunriseHours": 1.5,
+    "eveningHours": 1,
+    "//dawnLeadMinutes": "The picture brightens this long before sunrise (the rules' night still ends at sunrise): by the time night is over, the land is already in view. Dusk already darkens through the evening hour before sunset.",
+    "dawnLeadMinutes": 30
+  },
+  "climate": {
+    "//": "airC = seasonal mean (sine) + seeded daily anomaly (a persistent random walk) + cold snaps / warm spells + the day's swing + the weather's own delta + the ground's delta.",
+    "meanC": 8.5,
+    "amplitudeC": 13.5,
+    "coldestYearDay": 320,
+    "anomaly": { "maxC": 6, "persistence": 0.72, "stepC": 2.2 },
+    "diurnalSwingC": { "spring": 5, "summer": 6, "autumn": 4.5, "winter": 3 },
+    "coldestHour": 5,
+    "warmestHour": 15,
+    "spells": {
+      "//": "Fronts of several days, seeded by day. chancePerDay is the chance a front begins on a day none is running; days and deltaC are [min, max] ranges.",
+      "spring": { "chancePerDay": 0.03, "days": [2, 4], "deltaC": [-4, -7] },
+      "summer": { "chancePerDay": 0.03, "days": [2, 5], "deltaC": [4, 8] },
+      "autumn": { "chancePerDay": 0.05, "days": [2, 5], "deltaC": [-4, -9] },
+      "winter": { "chancePerDay": 0.08, "days": [2, 6], "deltaC": [-6, -12] },
+      "warmSpell": { "season": "autumn", "untilDay": 35, "chancePerDay": 0.04, "days": [3, 5], "deltaC": [4, 7] }
+    },
+    "terrainDeltaC": { "hills": -2, "dense_forest": 1, "forest": 0.5, "river": -1, "lake": -1, "road": 0, "field": 0 },
+    "clearNightDeltaC": -2,
+    "windChillPerMs": 0.7,
+    "frostC": 0,
+    "growMinC": 5
+  },
+  "signs": {
+    "//": "One-time messages for what the survivor can see, said at sunrise on the first day each is true (never in advance: there is no forecast). The words live in the game repo (src/game/weather/Seasons.js) keyed by these ids; leave an id out to silence it. nights_drawing_in: the first day the sun sets before nightsDrawingInSunsetBefore (minutes of the day; 1110 = 18:30, early autumn). first_frost: the first dawn under climate.frostC. birches_bare: the first day of late autumn. first_snow: the first day with 1 cm or more lying. water_frozen / thaw: the ice forms / the ice goes. a_year: the first day of the run's second year.",
+    "ids": ["nights_drawing_in", "first_frost", "birches_bare", "first_snow", "water_frozen", "thaw", "a_year"],
+    "nightsDrawingInSunsetBefore": 1110
+  }
+}

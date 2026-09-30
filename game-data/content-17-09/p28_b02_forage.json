@@ -1,0 +1,389 @@
+{
+  "group": "p28_b02_forage",
+  "source": "28.09.2026 first-priority import, batch 2: wild forage",
+  "items": [
+    {
+      "id": "crabapple",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "orchard",
+          "weight": 3
+        },
+        {
+          "table": "hills",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "chokeberries",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "hills",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "cranberries",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 2
+        },
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "huckleberries",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 2
+        },
+        {
+          "table": "hills",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "mulberries",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "orchard",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "nannyberries",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "river",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "wintergreen_berry",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 2
+        },
+        {
+          "table": "forest_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "elderberries",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "hills",
+          "weight": 1
+        },
+        {
+          "table": "river",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "rose_hips",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 2
+        },
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "hills",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "rose_hips_cut",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "juniper",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "hills",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "beech_nuts",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "forest_dense",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "spicebush_berries",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "plantain",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "note": "CDDA plantain is the cooking banana: bought, not foraged"
+    },
+    {
+      "id": "bee_balm",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 2
+        },
+        {
+          "table": "plant_nursery",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "chicory_leaves",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 2
+        },
+        {
+          "table": "road",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "jerusalem_artichoke",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 2
+        },
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "river",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "dahlia_root",
+      "loot": [
+        {
+          "table": "plant_nursery",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "wild_sarsaparilla_root",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "forest_dense",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "horseradish_root",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 1
+        },
+        {
+          "table": "field",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "lotus_rhizome",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "tea_green_raw",
+      "loot": [
+        {
+          "table": "plant_nursery",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "rose_hips",
+      "comestible_type": "INVALID",
+      "//": "INEDIBLE is not enforced; cut them open first (uncraft:rose_hips)"
+    },
+    {
+      "type": "ITEM",
+      "id": "spicebush_berries",
+      "comestible_type": "INVALID",
+      "//": "a seasoning (spice abstract is INEDIBLE)"
+    },
+    {
+      "type": "ITEM",
+      "id": "elderberries",
+      "contamination": [
+        {
+          "disease": "bad_food",
+          "probability": 40
+        }
+      ],
+      "//": "raw elderberries are toxic: CDDA's POISON use action is not run here, so they carry a food-poisoning risk instead (survey B-step)"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "hops left out: grade C, its only use is brewing."
+  ]
+}

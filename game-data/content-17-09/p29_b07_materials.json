@@ -1,0 +1,980 @@
+{
+  "group": "p29_b07_materials",
+  "source": "29.09.2026 second 500, round 3: components and raw materials that unblock enabled recipes (fasteners, carpets, primer chemistry, platinum, industrial pipe parts, tobacco and fibre inputs) and salvage outputs of enabled items",
+  "items": [
+    {
+      "id": "touch_fastener",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 0.6,
+          "charges": [
+            2,
+            8
+          ]
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snapfastener_steel",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 0.5,
+          "charges": [
+            4,
+            12
+          ]
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.15,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1,
+          "charges": [
+            4,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zipper_short_plastic",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 0.5,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "g_carpet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "p_carpet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "id": "r_carpet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.06
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "platinum_small",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.2,
+          "charges": [
+            2,
+            8
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.1,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.03,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shrapnel",
+      "loot": [
+        {
+          "table": "ruins_rubble",
+          "weight": 0.5,
+          "charges": [
+            3,
+            10
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.3,
+          "charges": [
+            2,
+            8
+          ]
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.2,
+          "charges": [
+            3,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chem_mercury_fulminate",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05,
+          "charges": [
+            50,
+            200
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02,
+          "charges": [
+            30,
+            120
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "chem_lead_azide",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.04,
+          "charges": [
+            50,
+            200
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "charges": [
+            50,
+            150
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "cottonwood_tree_boll",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.3
+        },
+        {
+          "table": "river",
+          "weight": 0.3
+        },
+        {
+          "table": "field",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "stick_fiber",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 0.5
+        },
+        {
+          "table": "forest_common",
+          "weight": 0.3
+        },
+        {
+          "table": "farm_field",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tobacco_raw",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.2
+        },
+        {
+          "table": "farm_field",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "cig_butt",
+      "loot": [
+        {
+          "table": "road",
+          "weight": 0.4
+        },
+        {
+          "table": "ruins",
+          "weight": 0.3
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.3
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "cigar_butt",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "nicotine_liquid",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            10,
+            30
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.1,
+          "charges": [
+            10,
+            30
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            5,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peanut",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "pistachio",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.15
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "coffee_raw_kentucky",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "meal_chitin_piece",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "feces_bird",
+      "loot": [
+        {
+          "table": "farm_coop",
+          "weight": 0.5
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "meal_bone_tainted",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "torch_done",
+      "loot": [
+        {
+          "table": "campsite",
+          "weight": 0.3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "match",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            3,
+            15
+          ]
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ref_matches",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.4
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jp8",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mirror",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "plastic_six_dice",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "cash_card",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "road",
+          "weight": 0.1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "pipe_glass",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "condom_sealed",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "survival_marker",
+      "loot": [
+        {
+          "table": "campsite",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.1
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "paint_black",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "container": "bucket",
+          "charges": [
+            4,
+            15
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05,
+          "container": "bucket",
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "container": "bucket",
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paint_white",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.3,
+          "container": "bucket",
+          "charges": [
+            4,
+            15
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05,
+          "container": "bucket",
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "container": "bucket",
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hd_pipe",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "hd_compressor",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "hd_pipe_fittings",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "hd_valve",
+      "loot": [
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "nitrogen_membrane_filter",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "spare_tire_carrier",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.3
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "tire_motorbike",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "deflated_wheel_bicycle_or",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "radio_car_wheel",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "1cyl_combustion_small",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "filter_port_40mm",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "inhalation_valve",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "panoramic_eyepiece",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "magnetron",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "memory_card",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "light_detector",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.1
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "survival_marker",
+      "weight": "10 g",
+      "//": "a charcoal stick weighs what charcoal weighs; the Fate density band refuses the heavier source figure"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [
+    "recipe:ammonia_machine_pipework",
+    "recipe:chair_wood_black",
+    "recipe:chair_wood_white",
+    "recipe:chem_potassium_hydroxide",
+    "recipe:chem_saltpetre:from_feces_bird",
+    "recipe:chem_sulphuric_acid:with platinum",
+    "recipe:coffee_substitute",
+    "recipe:coffee_substitute_sweetened",
+    "recipe:fertilizer_liquid",
+    "recipe:h20survivor_jumpsuit",
+    "recipe:h20survivor_jumpsuit_light",
+    "recipe:lgpistol_primer",
+    "recipe:lgrifle_primer",
+    "recipe:mounted_spare_tire",
+    "recipe:nitrogen_generator",
+    "recipe:oxy_powder",
+    "recipe:peanut_shelled",
+    "recipe:pistachio_shelled",
+    "recipe:platinum_grille",
+    "recipe:quikclot",
+    "recipe:radio_car",
+    "recipe:shotgun_primer",
+    "recipe:smpistol_primer",
+    "recipe:smrifle_primer",
+    "recipe:survivor_shavingkit",
+    "recipe:tobacco",
+    "recipe:wheel_bicycle_or"
+  ],
+  "recipesExclude": [
+    "recipe:coffee_raw_kentucky",
+    "recipe:radio_car_wheel"
+  ],
+  "recipesExpected": [
+    "recipe:chem_lead_azide",
+    "recipe:chem_mercury_fulminate",
+    "recipe:deflated_wheel_bicycle_or",
+    "recipe:meal_bone_tainted",
+    "recipe:meal_bone_tainted:mill_1_4",
+    "recipe:meal_bone_tainted:mill_6_1",
+    "recipe:meal_bone_tainted:mortar",
+    "recipe:meal_bone_tainted:with_from_food_processor",
+    "recipe:meal_chitin_piece",
+    "recipe:meal_chitin_piece:mill_1_4",
+    "recipe:meal_chitin_piece:mortar",
+    "recipe:meal_chitin_piece:with_from_food_processor",
+    "recipe:mirror",
+    "recipe:pipe_glass",
+    "recipe:survival_marker"
+  ],
+  "notes": [
+    "Materials chosen from recipes whose result is already in the game: each id is a missing input or an alternative component, or a disassembly output of an enabled item."
+  ]
+}

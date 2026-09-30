@@ -1,0 +1,29 @@
+{
+  "disabled": [
+    "recipe:birdfood",
+    "recipe:cooking_oil:coldpressed",
+    "recipe:milk_choc:from_milk_cococa_powder",
+    "recipe:veggy_salad",
+    "recipe:veggy_salad:with_food_processor"
+  ],
+  "reason": "Bird fodder is not human food. Disabled conversions whose obtainable low-calorie input alternatives multiply calories more than fivefold. Nuts in shells and conversion of wood with strong acid are not equivalent to free food.",
+  "rawEdible": [
+    "veggy_wild",
+    "carrot_wild",
+    "raw_dandelion",
+    "corn",
+    "veggy",
+    "bell_pepper",
+    "chicory_raw",
+    "cucumber",
+    "lemon",
+    "lettuce",
+    "onion",
+    "wild_garlic",
+    "young_leaves",
+    "chili_pepper",
+    "chili_pepper_cut",
+    "pumpkin_cut",
+    "cucumber_cut"
+  ]
+}

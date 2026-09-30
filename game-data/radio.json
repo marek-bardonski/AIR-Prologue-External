@@ -1,0 +1,132 @@
+{
+  "//": "The radio road to other people. Original Prologue numbers; the ids name whitelisted things. A receiver with a charged battery is searched across the bands for searchMinutes in all (the time is kept between sittings); once the frequency is found the broadcast itself only comes at broadcastHours, and hearing it once ends the radio's part in the story. The village is placed once per run, villageDistance hexes from home, on one of villageBiomes.",
+  "receivers": [
+    "radio"
+  ],
+  "searchMinutes": 720,
+  "broadcastHours": [
+    0,
+    12
+  ],
+  "listenWatts": 0.08,
+  "village": {
+    "terrain": "village",
+    "distance": [
+      15,
+      20
+    ],
+    "biomes": [
+      "field",
+      "forest",
+      "hills"
+    ],
+    "population": 12
+  },
+  "//places": "Pinned story places, one of each per run, placed like the village: 'distance' hexes from home (or from the village with around: 'village') on one of 'biomes', on ground the survivor has not seen. placeGap keeps them apart. Names are what the HUD pointer calls them.",
+  "placeGap": 3,
+  "places": {
+    "relay_mast": {
+      "terrain": "relay_mast",
+      "name": "The far mast",
+      "around": "village",
+      "distance": [
+        2,
+        3
+      ],
+      "biomes": [
+        "field",
+        "forest",
+        "hills",
+        "dense_forest"
+      ]
+    },
+    "site_vault": {
+      "terrain": "data_vault",
+      "name": "The data vault",
+      "distance": [
+        12,
+        20
+      ],
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ]
+    },
+    "site_relay": {
+      "terrain": "relay_station",
+      "name": "The relay station",
+      "distance": [
+        14,
+        22
+      ],
+      "biomes": [
+        "hills",
+        "forest",
+        "field"
+      ]
+    },
+    "site_plant": {
+      "terrain": "assembly_plant",
+      "name": "The assembly plant",
+      "distance": [
+        16,
+        24
+      ],
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ]
+    },
+    "secret_lab": {
+      "terrain": "secret_lab",
+      "name": "The laboratory",
+      "distance": [
+        48,
+        55
+      ],
+      "biomes": [
+        "field",
+        "forest",
+        "dense_forest",
+        "hills"
+      ],
+      "region": {
+        "//": "The country around the laboratory. 'dangerFloor' rows are [within hexes, least danger]; 'enemyTables' replace the plain threat tables of wild ground there; each 'lootBonus' row is one more chance of a roll on that table when a hex of the region is first searched.",
+        "radius": 10,
+        "dangerFloor": [
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            10,
+            3
+          ]
+        ],
+        "enemyTables": {
+          "3": "tech_3",
+          "4": "lab_4",
+          "5": "lab_5"
+        },
+        "lootBonus": [
+          {
+            "table": "laboratory_supplies",
+            "chance": 0.3
+          },
+          {
+            "table": "military_checkpoint_supplies",
+            "chance": 0.2
+          }
+        ]
+      }
+    }
+  },
+  "placesVersion": 2,
+  "//placesVersion": "placesVersion 2 (19.09.2026): the laboratory moved from 21-25 to 48-55 hexes out. A save whose laboratory was never found, revealed or seen gets the new one; any other keeps its own."
+}

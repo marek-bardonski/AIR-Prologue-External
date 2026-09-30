@@ -1,0 +1,5260 @@
+{
+  "//": "Per-monster drops rolled independently (chance 0-1). Replaces CDDA death_drops item groups for the Prologue.",
+  "drops": {
+    "mon_echo": [
+      {
+        "item": "tshirt",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "jeans",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "hoodie",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "socks",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sneakers",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "boots",
+        "chance": 0.08,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sheet_cotton",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "scrap_cotton",
+        "chance": 0.3,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "bottle_plastic",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "chips",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "matches",
+        "chance": 0.08,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "pockknife",
+        "chance": 0.03,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "hat_ball",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "gloves_light",
+        "chance": 0.08,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_echo_hound": [
+      {
+        "item": "bone",
+        "chance": 0.6,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "fur",
+        "chance": 0.4,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sinew",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_dog": [
+      {
+        "item": "meat",
+        "chance": 1,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "fur",
+        "chance": 0.8,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "bone",
+        "chance": 0.6,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "sinew",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mon_wolf": [
+      {
+        "item": "meat",
+        "chance": 1,
+        "count": [
+          3,
+          5
+        ]
+      },
+      {
+        "item": "fur",
+        "chance": 0.9,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "bone",
+        "chance": 0.7,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "sinew",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mon_draft": [
+      {
+        "item": "pipe",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "hoodie",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "jacket_light",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "backpack_small",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "rollmat",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "pockknife",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "matches",
+        "chance": 0.4,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          12
+        ]
+      },
+      {
+        "item": "can_beans",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "bandages_makeshift",
+        "chance": 0.3,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "string_36",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "duct_tape",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          20,
+          60
+        ]
+      },
+      {
+        "item": "water_clean",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ],
+        "container": "bottle_plastic"
+      },
+      {
+        "item": "jerky",
+        "chance": 0.2,
+        "count": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mon_stray_hack": [
+      {
+        "item": "scrap",
+        "chance": 0.85,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.6,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.45,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "spike",
+        "chance": 0.3,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "ai_module_basic",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sensor_module",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "identification_module",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "quad_rotors",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "small_storage_battery",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      }
+    ],
+    "mon_watcher": [
+      {
+        "item": "scrap",
+        "chance": 0.59,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.42,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.32,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.24,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "ai_module_basic",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sensor_module",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "identification_module",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "quad_rotors",
+        "chance": 0.14,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "small_storage_battery",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "flashlight",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "medium_battery_cell",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_clearance_drone": [
+      {
+        "item": "scrap",
+        "chance": 0.59,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.42,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.32,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.24,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "ai_module_basic",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sensor_module",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "identification_module",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "quad_rotors",
+        "chance": 0.14,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "small_storage_battery",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "flashlight",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "medium_battery_cell",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_tripper": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          5
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.8,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          8
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "small_storage_battery",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.4,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.2,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "steel_chunk",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mon_porter": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          7
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.8,
+        "count": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.6,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          10
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "sheet_metal",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.5
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_burrower": [
+      {
+        "item": "steel_chunk",
+        "chance": 0.8,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "steel_lump",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          8
+        ]
+      },
+      {
+        "item": "sheet_metal",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "spike",
+        "chance": 0.5,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "motor_tiny",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.4,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "hard_plate",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "spiked_plate",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "robot_controls",
+        "chance": 0.05,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_ward": [
+      {
+        "item": "e_scrap",
+        "chance": 0.7,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.8,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.7,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "bandages",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "disinfectant",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_nurse_unit": [
+      {
+        "item": "e_scrap",
+        "chance": 0.7,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.8,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.7,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "bandages",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "disinfectant",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_sweeper": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          8
+        ]
+      },
+      {
+        "item": "sheet_metal",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.4,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "ceramic_armor",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sheet_kevlar_layered",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_sentinel": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          5,
+          9
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.5,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.4,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.3,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.3,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          5
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.05,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.3,
+        "count": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mon_sentry_post": [
+      {
+        "item": "steel_chunk",
+        "chance": 0.9,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          8
+        ]
+      },
+      {
+        "item": "steel_lump",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "sheet_metal",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          5
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.7,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          6,
+          12
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.4,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "ceramic_armor",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sheet_kevlar_layered",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          5
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_prototype": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.42,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.48,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.48,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.36,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.3,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.06,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_custodian": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.42,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.48,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.48,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.36,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.3,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.06,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_archivist": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.42,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.48,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.48,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.36,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.3,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.06,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_arbiter": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.78,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.55,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.62,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.62,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.47,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.39,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.47,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.31,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.23,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.23,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.16,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.31,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.08,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.47,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_steward_warden": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 1,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.84,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.96,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.96,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.72,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.6,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.72,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.48,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.36,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.36,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.24,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.48,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.72,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_shear_drone": [
+      {
+        "item": "scrap",
+        "chance": 0.85,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.6,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.45,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "spike",
+        "chance": 0.3,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "ai_module_basic",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sensor_module",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "identification_module",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "quad_rotors",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "small_storage_battery",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      }
+    ],
+    "mon_surveyor": [
+      {
+        "item": "scrap",
+        "chance": 0.59,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.42,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.32,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.24,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "ai_module_basic",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sensor_module",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "identification_module",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "quad_rotors",
+        "chance": 0.14,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "small_storage_battery",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "flashlight",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "medium_battery_cell",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_cable_walker": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          5
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.8,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          8
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "small_storage_battery",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.4,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.2,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "steel_chunk",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mon_auger_unit": [
+      {
+        "item": "steel_chunk",
+        "chance": 0.8,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "steel_lump",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          8
+        ]
+      },
+      {
+        "item": "sheet_metal",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "spike",
+        "chance": 0.5,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "motor_tiny",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.4,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "hard_plate",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "spiked_plate",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "robot_controls",
+        "chance": 0.05,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_orderly_unit": [
+      {
+        "item": "e_scrap",
+        "chance": 0.7,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.8,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.7,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "bandages",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "disinfectant",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_compactor": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          8
+        ]
+      },
+      {
+        "item": "sheet_metal",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.4,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "ceramic_armor",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sheet_kevlar_layered",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_web_keeper": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          5,
+          9
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.5,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.4,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.3,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.3,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          5
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.05,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.3,
+        "count": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mon_cordon_unit": [
+      {
+        "item": "scrap",
+        "chance": 0.59,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.42,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.32,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.24,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "ai_module_basic",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sensor_module",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "identification_module",
+        "chance": 0.07,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "quad_rotors",
+        "chance": 0.14,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "small_storage_battery",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "flashlight",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "medium_battery_cell",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_gatewatch": [
+      {
+        "item": "steel_chunk",
+        "chance": 0.9,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          8
+        ]
+      },
+      {
+        "item": "steel_lump",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "sheet_metal",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          5
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.7,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          6,
+          12
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.4,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "ceramic_armor",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "sheet_kevlar_layered",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          5
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_patchwork_unit": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.42,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.48,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.48,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.36,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.3,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.06,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_freight_mule": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          7
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.8,
+        "count": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.6,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          4,
+          10
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "sheet_metal",
+        "chance": 0.3,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.5
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_field_medic": [
+      {
+        "item": "e_scrap",
+        "chance": 0.7,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.8,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.7,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.1,
+          0.6
+        ]
+      },
+      {
+        "item": "bandages",
+        "chance": 0.4,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "disinfectant",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_gantry_keeper": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.42,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.48,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.48,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.36,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.3,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.06,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_lock_keeper": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.78,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.55,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.62,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.62,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.47,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.39,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.47,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.31,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.23,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.23,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.16,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.31,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.08,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.47,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_indexer": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.6,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.42,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.48,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.48,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.36,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.3,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.18,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.12,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.24,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.06,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.36,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_bulkhead_warden": [
+      {
+        "item": "scrap",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          8,
+          14
+        ]
+      },
+      {
+        "item": "e_scrap",
+        "chance": 1,
+        "count": [
+          3,
+          6
+        ]
+      },
+      {
+        "item": "power_supply",
+        "chance": 0.78,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "medium_storage_battery",
+        "chance": 0.55,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.62,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.62,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.47,
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "item": "processor",
+        "chance": 0.39,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "RAM",
+        "chance": 0.47,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "heavy_plus_battery_cell",
+        "chance": 0.31,
+        "count": [
+          2,
+          2
+        ],
+        "energyFraction": [
+          0.3,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.23,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "geiger_off",
+        "chance": 0.23,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "plut_cell",
+        "chance": 0.16,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          2,
+          10
+        ]
+      },
+      {
+        "item": "transponder",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.16,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.31,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "motor",
+        "chance": 0.08,
+        "count": [
+          2,
+          2
+        ]
+      },
+      {
+        "item": "tazer",
+        "chance": 0.47,
+        "count": [
+          2,
+          3
+        ]
+      },
+      {
+        "item": "robofac_test_data",
+        "chance": 1,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_litter_picker": [
+      {
+        "item": "e_scrap",
+        "chance": 0.9,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "element",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "spring",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "motor_tiny",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.05,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_hedge_trimmer": [
+      {
+        "item": "e_scrap",
+        "chance": 0.9,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "element",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "motor_micro",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "light_minus_battery_cell",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.05,
+          0.4
+        ]
+      },
+      {
+        "item": "steel_chunk",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_meter_reader": [
+      {
+        "item": "e_scrap",
+        "chance": 0.9,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "element",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "light_minus_battery_cell",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.05,
+          0.4
+        ]
+      },
+      {
+        "item": "receiver",
+        "chance": 0.04,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_pipe_crawler": [
+      {
+        "item": "e_scrap",
+        "chance": 0.9,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "element",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.12,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "lightstrip_inactive",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "motor_tiny",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_lawn_unit": [
+      {
+        "item": "e_scrap",
+        "chance": 0.9,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "element",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "motor_tiny",
+        "chance": 0.25,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "light_battery_cell",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.05,
+          0.4
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_pollinator": [
+      {
+        "item": "e_scrap",
+        "chance": 0.9,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "element",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "motor_micro",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "solar_cell",
+        "chance": 0.05,
+        "count": [
+          1,
+          1
+        ]
+      }
+    ],
+    "mon_parcel_crawler": [
+      {
+        "item": "e_scrap",
+        "chance": 0.9,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "element",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "motor_tiny",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "light_battery_cell",
+        "chance": 0.15,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.05,
+          0.4
+        ]
+      }
+    ],
+    "mon_nanny_cam": [
+      {
+        "item": "e_scrap",
+        "chance": 0.9,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "scrap",
+        "chance": 0.5,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "plastic_chunk",
+        "chance": 0.5,
+        "count": [
+          1,
+          2
+        ]
+      },
+      {
+        "item": "cable",
+        "chance": 0.35,
+        "count": [
+          1,
+          1
+        ],
+        "charges": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "circuit",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "element",
+        "chance": 0.06,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "lens",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "antenna",
+        "chance": 0.1,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "amplifier",
+        "chance": 0.04,
+        "count": [
+          1,
+          1
+        ]
+      },
+      {
+        "item": "light_minus_battery_cell",
+        "chance": 0.2,
+        "count": [
+          1,
+          1
+        ],
+        "energyFraction": [
+          0.05,
+          0.4
+        ]
+      }
+    ]
+  }
+}

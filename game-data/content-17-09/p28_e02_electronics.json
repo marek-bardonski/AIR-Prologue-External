@@ -1,0 +1,428 @@
+{
+  "group": "p28_e02_electronics",
+  "source": "28.09.2026 next-1000 import, electronics: components and household devices that can be taken apart for parts",
+  "items": [
+    {
+      "id": "small_lcd_screen",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 2
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "large_lcd_screen",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.5
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "camera_pro",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "two_way_radio",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 1
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "motor_large",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "elec_hairtrimmer",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cell_phone",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "smart_phone",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.5
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mp3",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "laptop",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 1
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "eink_tablet_pc",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "alarmclock",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "clock",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "wristwatch",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pocketwatch",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "diving_watch",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "television",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "multi_cooker",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "polisher",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "elec_shears",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "carver_off",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "trimmer_off",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "vac_sealer",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.3
+        },
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "radio_car",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "amplifier_head",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "horn_car",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "lightstrip_inactive",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "jumper_cable",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 2
+        },
+        {
+          "table": "car_wreck",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "extension_cable",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:radio_car"
+  ],
+  "recipesExpected": [
+    "recipe:elec_hairtrimmer",
+    "recipe:extension_cable",
+    "recipe:jumper_cable",
+    "recipe:two_way_radio"
+  ],
+  "notes": [
+    "Devices without a Prologue mechanic are salvage: CDDA uncrafts give circuits, processors, screens, motors, amplifiers and cable (electronics practice).",
+    "microwave left out: its OVEN/HOTPLATE qualities would work without power."
+  ]
+}

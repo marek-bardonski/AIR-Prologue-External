@@ -1,0 +1,2269 @@
+{
+  "//": "One-time tile interactions. kind: harvest (CDDA harvest entry id), search (loot table), deconstruct (CDDA furniture deconstruct.items, or explicit items), fill_water (fills a watertight container with 'water'), gather (explicit items). count=[min,max]; chance 0-1. qualities: required tool qualities [id, level]. clearedByFarming: what turning a hex into a field takes off it for good. seasons: the season specs ('summer', 'autumn:early') a source gives in; out of them it stands bare. An item row may carry its own seasons. regrow: when a used-up seasonal source comes back (defaults to its seasons): the first day of its next such stretch. freezes: nothing to be had while the water is frozen (a hole in the ice opens water_source again). seasonal: offered only while the ground calls for it (frozen water, an open hole, snow).",
+  "interactables": {
+    "birch_tree": {
+      "name": "Birch tree",
+      "kind": "harvest",
+      "harvest": "birch_harv",
+      "terrain": "t_tree_birch",
+      "minutes": 10,
+      "uses": 1,
+      "training": {
+        "skill": "survival",
+        "xp": [
+          3,
+          5
+        ],
+        "maxLevel": 3
+      },
+      "clearedByFarming": true
+    },
+    "pine_tree": {
+      "name": "Pine tree",
+      "kind": "harvest",
+      "harvest": "pine_harv",
+      "terrain": "t_tree_pine",
+      "minutes": 10,
+      "uses": 1,
+      "training": {
+        "skill": "survival",
+        "xp": [
+          3,
+          5
+        ],
+        "maxLevel": 3
+      },
+      "clearedByFarming": true
+    },
+    "dead_tree": {
+      "name": "Dead tree",
+      "kind": "gather",
+      "terrain": "t_tree_dead",
+      "minutes": 20,
+      "uses": 1,
+      "items": [
+        {
+          "item": "stick_long",
+          "count": [
+            2,
+            5
+          ]
+        },
+        {
+          "item": "splinter",
+          "count": [
+            4,
+            10
+          ]
+        },
+        {
+          "item": "stick",
+          "count": [
+            2,
+            4
+          ]
+        }
+      ],
+      "clearedByFarming": true
+    },
+    "berry_bush": {
+      "name": "Berry bush",
+      "kind": "harvest",
+      "harvest": [
+        "shrub_blueberry_harv",
+        "shrub_raspberry_harv",
+        "shrub_blackberry_harv"
+      ],
+      "terrain": "t_shrub_blueberry",
+      "minutes": 10,
+      "uses": 1,
+      "training": {
+        "skill": "survival",
+        "xp": [
+          3,
+          5
+        ],
+        "maxLevel": 3
+      },
+      "clearedByFarming": true,
+      "mapVisual": "berries",
+      "mapPersistence": "while_available",
+      "seasons": [
+        "summer:mid",
+        "summer:late",
+        "autumn:early"
+      ]
+    },
+    "underbrush": {
+      "name": "Underbrush",
+      "kind": "gather",
+      "terrain": "t_underbrush",
+      "minutes": 10,
+      "uses": 1,
+      "items": [
+        {
+          "item": "veggy_wild",
+          "count": [
+            2,
+            4
+          ],
+          "chance": 0.95,
+          "seasons": [
+            "spring:mid",
+            "spring:late",
+            "summer",
+            "autumn:early",
+            "autumn:mid"
+          ]
+        },
+        {
+          "item": "withered",
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "stick",
+          "count": [
+            0,
+            2
+          ]
+        },
+        {
+          "item": "dogbane",
+          "count": [
+            1,
+            3
+          ],
+          "chance": 0.35,
+          "seasons": [
+            "summer",
+            "autumn"
+          ]
+        },
+        {
+          "item": "wild_garlic",
+          "chance": 0.25,
+          "count": [
+            1,
+            3
+          ],
+          "seasons": [
+            "spring"
+          ]
+        },
+        {
+          "item": "groundnut",
+          "chance": 0.2,
+          "count": [
+            2,
+            4
+          ],
+          "seasons": [
+            "spring:early",
+            "autumn"
+          ]
+        },
+        {
+          "item": "egg_chicken",
+          "chance": 0.15,
+          "count": [
+            1,
+            3
+          ],
+          "seasons": [
+            "spring:mid",
+            "spring:late",
+            "summer:early"
+          ]
+        },
+        {
+          "item": "young_leaves",
+          "chance": 0.4,
+          "count": [
+            2,
+            5
+          ],
+          "seasons": [
+            "spring",
+            "summer:early"
+          ]
+        },
+        {
+          "item": "raw_burdock",
+          "chance": 0.2,
+          "count": [
+            1,
+            3
+          ],
+          "seasons": [
+            "spring",
+            "autumn"
+          ]
+        },
+        {
+          "item": "rhubarb",
+          "chance": 0.15,
+          "count": [
+            1,
+            3
+          ],
+          "seasons": [
+            "spring:mid",
+            "spring:late",
+            "summer:early"
+          ]
+        },
+        {
+          "item": "spurge",
+          "chance": 0.15,
+          "count": [
+            1,
+            3
+          ],
+          "seasons": [
+            "spring:late",
+            "summer",
+            "autumn:early"
+          ]
+        }
+      ],
+      "training": {
+        "skill": "survival",
+        "xp": [
+          2,
+          6
+        ],
+        "maxLevel": 3
+      },
+      "clearedByFarming": true,
+      "regrow": [
+        "spring:mid"
+      ]
+    },
+    "fallen_branch": {
+      "name": "Fallen branch",
+      "kind": "gather",
+      "minutes": 5,
+      "uses": 1,
+      "items": [
+        {
+          "item": "stick_long",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "stick",
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "splinter",
+          "count": [
+            1,
+            4
+          ]
+        }
+      ],
+      "clearedByFarming": true,
+      "mapVisual": "branches",
+      "mapPersistence": "while_available"
+    },
+    "rock_outcrop": {
+      "name": "Rock outcrop",
+      "kind": "gather",
+      "minutes": 15,
+      "uses": 1,
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            6
+          ]
+        },
+        {
+          "item": "rock_flaking",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "flint",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.3
+        },
+        {
+          "item": "rock_large",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.2
+        }
+      ],
+      "clearedByFarming": true,
+      "mapVisual": "rocks",
+      "mapPersistence": "while_available"
+    },
+    "river_bank": {
+      "name": "River bank",
+      "kind": "gather",
+      "minutes": 15,
+      "uses": 1,
+      "items": [
+        {
+          "item": "clay_lump",
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "cattail_stalk",
+          "count": [
+            4,
+            8
+          ],
+          "seasons": [
+            "spring:late",
+            "summer",
+            "autumn:early"
+          ]
+        },
+        {
+          "item": "cattail_rhizome",
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "rock",
+          "count": [
+            1,
+            3
+          ]
+        }
+      ],
+      "requires": {},
+      "training": {
+        "skill": "survival",
+        "xp": [
+          3,
+          5
+        ],
+        "maxLevel": 3
+      },
+      "freezes": true,
+      "regrow": [
+        "spring:late"
+      ]
+    },
+    "water_source": {
+      "name": "River water",
+      "kind": "fill_water",
+      "minutes": 2,
+      "uses": 0,
+      "freezes": true
+    },
+    "sofa": {
+      "name": "Sofa",
+      "kind": "deconstruct",
+      "furniture": "f_sofa",
+      "minutes": 30,
+      "uses": 1,
+      "search": "house_clothes",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 20,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              3,
+              6
+            ],
+            "prob": 0.9
+          },
+          {
+            "item": "nail",
+            "charges": [
+              4,
+              12
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.5
+          },
+          {
+            "item": "sheet_cotton",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.5
+          },
+          {
+            "item": "spring",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.3
+          }
+        ]
+      },
+      "sleepQuality": 0.8
+    },
+    "dresser": {
+      "name": "Dresser",
+      "kind": "deconstruct",
+      "furniture": "f_dresser",
+      "minutes": 20,
+      "uses": 1,
+      "search": "house_clothes",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 20,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              2,
+              5
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.7
+          },
+          {
+            "item": "nail",
+            "charges": [
+              6,
+              16
+            ],
+            "prob": 0.7
+          }
+        ]
+      }
+    },
+    "wardrobe": {
+      "name": "Wardrobe",
+      "kind": "deconstruct",
+      "furniture": "f_wardrobe",
+      "minutes": 25,
+      "uses": 1,
+      "search": "house_clothes",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 25,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              3,
+              6
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "2x4",
+            "count": [
+              2,
+              4
+            ],
+            "prob": 0.7
+          },
+          {
+            "item": "nail",
+            "charges": [
+              8,
+              20
+            ],
+            "prob": 0.7
+          }
+        ]
+      }
+    },
+    "cupboard": {
+      "name": "Cupboard",
+      "kind": "deconstruct",
+      "furniture": "f_cupboard",
+      "minutes": 15,
+      "uses": 1,
+      "search": "house_kitchen",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 15,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              2,
+              4
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.7
+          },
+          {
+            "item": "nail",
+            "charges": [
+              5,
+              12
+            ],
+            "prob": 0.6
+          }
+        ]
+      }
+    },
+    "counter": {
+      "name": "Counter",
+      "kind": "deconstruct",
+      "furniture": "f_counter",
+      "minutes": 20,
+      "uses": 1,
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 20,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              2,
+              5
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.7
+          },
+          {
+            "item": "nail",
+            "charges": [
+              6,
+              16
+            ],
+            "prob": 0.6
+          }
+        ]
+      }
+    },
+    "bed": {
+      "name": "Bed",
+      "kind": "deconstruct",
+      "furniture": "f_bed",
+      "minutes": 15,
+      "uses": 1,
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 15,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              2,
+              4
+            ],
+            "prob": 0.8
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "nail",
+            "charges": [
+              5,
+              12
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "sheet_cotton",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.5
+          }
+        ]
+      },
+      "sleepQuality": 1
+    },
+    "bookcase": {
+      "name": "Bookcase",
+      "kind": "deconstruct",
+      "furniture": "f_bookcase",
+      "minutes": 25,
+      "uses": 1,
+      "search": "house_books",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 20,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              2,
+              5
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.7
+          },
+          {
+            "item": "nail",
+            "charges": [
+              6,
+              16
+            ],
+            "prob": 0.7
+          }
+        ]
+      }
+    },
+    "desk": {
+      "name": "Desk",
+      "kind": "deconstruct",
+      "furniture": "f_desk",
+      "minutes": 20,
+      "uses": 1,
+      "search": "house_books",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 20,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              2,
+              5
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.7
+          },
+          {
+            "item": "nail",
+            "charges": [
+              6,
+              16
+            ],
+            "prob": 0.7
+          }
+        ]
+      }
+    },
+    "display_rack": {
+      "name": "Display rack",
+      "kind": "deconstruct",
+      "furniture": "f_rack",
+      "minutes": 20,
+      "uses": 1,
+      "search": "shop_shelves",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 25,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "scrap",
+            "charges": [
+              2,
+              6
+            ],
+            "prob": 0.8
+          },
+          {
+            "item": "sheet_metal_small",
+            "charges": [
+              1,
+              2
+            ],
+            "prob": 0.4
+          },
+          {
+            "item": "lc_wire",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.3
+          },
+          {
+            "item": "steel_chunk",
+            "charges": [
+              1,
+              1
+            ],
+            "prob": 0.25
+          }
+        ]
+      }
+    },
+    "locker": {
+      "name": "Locker",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "shop_locker",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 30,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "scrap",
+            "charges": [
+              4,
+              8
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "steel_chunk",
+            "charges": [
+              1,
+              1
+            ],
+            "prob": 0.5
+          },
+          {
+            "item": "sheet_metal_small",
+            "charges": [
+              1,
+              2
+            ],
+            "prob": 0.5
+          },
+          {
+            "item": "hinge",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.4
+          }
+        ]
+      }
+    },
+    "vending": {
+      "name": "Vending machine",
+      "kind": "search",
+      "search": "vending",
+      "minutes": 10,
+      "uses": 1,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 30,
+        "rounds": 2,
+        "gives": [
+          {
+            "item": "scrap",
+            "charges": [
+              4,
+              8
+            ],
+            "prob": 0.8
+          },
+          {
+            "item": "glass_shard",
+            "count": [
+              2,
+              4
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "sheet_metal_small",
+            "charges": [
+              1,
+              2
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "steel_chunk",
+            "charges": [
+              1,
+              1
+            ],
+            "prob": 0.5
+          },
+          {
+            "item": "cable",
+            "charges": [
+              10,
+              30
+            ],
+            "prob": 0.3
+          },
+          {
+            "item": "spring",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.3
+          }
+        ]
+      }
+    },
+    "car_wreck": {
+      "name": "Wrecked car",
+      "kind": "search",
+      "search": "car_wreck",
+      "minutes": 20,
+      "uses": 1,
+      "bash": {
+        "minutes": 45,
+        "rounds": 4,
+        "gives": [
+          {
+            "item": "scrap",
+            "charges": [
+              2,
+              6
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "steel_chunk",
+            "charges": [
+              1,
+              2
+            ],
+            "prob": 0.7
+          },
+          {
+            "item": "sheet_metal_small",
+            "charges": [
+              1,
+              2
+            ],
+            "prob": 0.5
+          },
+          {
+            "item": "cable",
+            "charges": [
+              20,
+              60
+            ],
+            "prob": 0.45
+          },
+          {
+            "item": "glass_shard",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.4
+          },
+          {
+            "item": "pipe",
+            "count": [
+              1,
+              1
+            ],
+            "prob": 0.35
+          },
+          {
+            "item": "rubber_tire_chunk",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.3
+          },
+          {
+            "item": "lc_wire",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.25
+          },
+          {
+            "item": "spring",
+            "count": [
+              1,
+              1
+            ],
+            "prob": 0.2
+          }
+        ]
+      },
+      "mapVisual": "wreck",
+      "mapPersistence": "until_destroyed"
+    },
+    "barn": {
+      "name": "Barn",
+      "kind": "search",
+      "search": "farm_barn",
+      "minutes": 20,
+      "uses": 1
+    },
+    "coop": {
+      "name": "Chicken coop",
+      "kind": "search",
+      "search": "farm_coop",
+      "minutes": 10,
+      "uses": 1
+    },
+    "rubble": {
+      "name": "Rubble",
+      "kind": "search",
+      "search": "ruins_rubble",
+      "minutes": 20,
+      "uses": 1,
+      "mapVisual": "rubble",
+      "mapPersistence": "while_available"
+    },
+    "collapsed_shelf": {
+      "name": "Collapsed shelf",
+      "kind": "search",
+      "search": "ruins_shelf",
+      "minutes": 15,
+      "uses": 1,
+      "bash": {
+        "minutes": 15,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              2,
+              4
+            ],
+            "prob": 0.75
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.5
+          },
+          {
+            "item": "nail",
+            "charges": [
+              4,
+              10
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "scrap",
+            "charges": [
+              1,
+              3
+            ],
+            "prob": 0.3
+          }
+        ]
+      }
+    },
+    "fridge": {
+      "name": "Refrigerator",
+      "kind": "deconstruct",
+      "furniture": "f_fridge",
+      "minutes": 25,
+      "uses": 1,
+      "searchMinutes": 10,
+      "search": "house_kitchen",
+      "qualities": [
+        [
+          "SCREW",
+          1
+        ]
+      ],
+      "items": [
+        {
+          "item": "apartment_fridge",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "apartment_freezer",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ],
+      "bash": {
+        "minutes": 35,
+        "rounds": 2,
+        "gives": [
+          {
+            "item": "scrap",
+            "charges": [
+              2,
+              6
+            ],
+            "prob": 0.8
+          },
+          {
+            "item": "steel_chunk",
+            "charges": [
+              1,
+              1
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "sheet_metal_small",
+            "charges": [
+              1,
+              2
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "plastic_chunk",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.4
+          },
+          {
+            "item": "cable",
+            "charges": [
+              10,
+              30
+            ],
+            "prob": 0.3
+          },
+          {
+            "item": "motor_micro",
+            "count": [
+              1,
+              1
+            ],
+            "prob": 0.15
+          }
+        ]
+      }
+    },
+    "oven": {
+      "name": "Oven",
+      "kind": "deconstruct",
+      "furniture": "f_oven",
+      "minutes": 25,
+      "uses": 1,
+      "searchMinutes": 5,
+      "search": "house_kitchen",
+      "qualities": [
+        [
+          "SCREW",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 35,
+        "rounds": 2,
+        "gives": [
+          {
+            "item": "scrap",
+            "charges": [
+              2,
+              6
+            ],
+            "prob": 0.8
+          },
+          {
+            "item": "steel_chunk",
+            "charges": [
+              1,
+              1
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "sheet_metal_small",
+            "charges": [
+              1,
+              2
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "glass_shard",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.3
+          },
+          {
+            "item": "cable",
+            "charges": [
+              10,
+              20
+            ],
+            "prob": 0.25
+          },
+          {
+            "item": "element",
+            "count": [
+              1,
+              1
+            ],
+            "prob": 0.2
+          }
+        ]
+      }
+    },
+    "table": {
+      "name": "Table",
+      "kind": "deconstruct",
+      "furniture": "f_table",
+      "minutes": 25,
+      "uses": 1,
+      "searchMinutes": 3,
+      "search": null,
+      "qualities": [
+        [
+          "SCREW",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 20,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              2,
+              5
+            ],
+            "prob": 0.85
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.7
+          },
+          {
+            "item": "nail",
+            "charges": [
+              5,
+              12
+            ],
+            "prob": 0.6
+          }
+        ]
+      }
+    },
+    "chair": {
+      "name": "Chair",
+      "kind": "deconstruct",
+      "furniture": "f_chair",
+      "minutes": 25,
+      "uses": 1,
+      "searchMinutes": 2,
+      "search": null,
+      "qualities": [
+        [
+          "SCREW",
+          1
+        ]
+      ],
+      "bash": {
+        "minutes": 10,
+        "rounds": 1,
+        "gives": [
+          {
+            "item": "splinter",
+            "count": [
+              1,
+              3
+            ],
+            "prob": 0.8
+          },
+          {
+            "item": "2x4",
+            "count": [
+              1,
+              2
+            ],
+            "prob": 0.6
+          },
+          {
+            "item": "nail",
+            "charges": [
+              3,
+              8
+            ],
+            "prob": 0.6
+          }
+        ]
+      }
+    },
+    "campsite_supplies": {
+      "name": "Camp supply chest",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "campsite_supplies",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "orchard_supplies": {
+      "name": "Orchard storage shed",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "orchard_supplies",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "logging_camp_supplies": {
+      "name": "Logging tool locker",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "logging_camp_supplies",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "fishing_dock_supplies": {
+      "name": "Fishing tackle cupboard",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "fishing_dock_supplies",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "ranger_station_supplies": {
+      "name": "Ranger equipment locker",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "ranger_station_supplies",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "roadside_garage_supplies": {
+      "name": "Garage tool cabinet",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "roadside_garage_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "medical_clinic_supplies": {
+      "name": "Medical supply cabinet",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "medical_clinic_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "railway_depot_supplies": {
+      "name": "Depot freight locker",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "railway_depot_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "electrical_workshop_supplies": {
+      "name": "Electrical parts cabinet",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "electrical_workshop_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "military_checkpoint_supplies": {
+      "name": "Checkpoint equipment locker",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "military_checkpoint_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "cattail_patch": {
+      "name": "Shoreline cattails",
+      "kind": "gather",
+      "minutes": 12,
+      "uses": 1,
+      "items": [
+        {
+          "item": "cattail_stalk",
+          "count": [
+            4,
+            8
+          ],
+          "seasons": [
+            "spring:late",
+            "summer",
+            "autumn:early"
+          ]
+        },
+        {
+          "item": "cattail_rhizome",
+          "count": [
+            2,
+            4
+          ]
+        }
+      ],
+      "training": {
+        "skill": "survival",
+        "xp": [
+          3,
+          5
+        ],
+        "maxLevel": 3
+      },
+      "mapVisual": "reeds",
+      "mapPersistence": "while_available",
+      "freezes": true,
+      "regrow": [
+        "spring:late"
+      ]
+    },
+    "lost_suitcase": {
+      "name": "Abandoned suitcase",
+      "kind": "search",
+      "minutes": 8,
+      "uses": 1,
+      "search": "discovery_luggage",
+      "rewardContainer": "suitcase_m",
+      "mapVisual": "suitcase",
+      "mapPersistence": "while_available"
+    },
+    "traveller_remains": {
+      "name": "Weathered traveller remains",
+      "kind": "search",
+      "minutes": 12,
+      "uses": 1,
+      "search": "discovery_remains",
+      "mapVisual": "remains",
+      "mapPersistence": "while_available"
+    },
+    "discarded_toolbox": {
+      "name": "Discarded toolbox",
+      "kind": "search",
+      "minutes": 8,
+      "uses": 1,
+      "search": "discovery_workshop",
+      "mapVisual": "toolbox",
+      "mapPersistence": "while_available"
+    },
+    "lost_backpack": {
+      "name": "Abandoned backpack",
+      "kind": "search",
+      "minutes": 8,
+      "uses": 1,
+      "search": "discovery_backpack",
+      "rewardContainer": "backpack",
+      "mapVisual": "backpack",
+      "mapPersistence": "while_available"
+    },
+    "laboratory_supplies": {
+      "name": "Sealed parts cabinet",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "laboratory_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "server_rack": {
+      "name": "Server rack",
+      "kind": "gather",
+      "minutes": 180,
+      "uses": 1,
+      "qualities": [
+        [
+          "SCREW",
+          1
+        ]
+      ],
+      "items": [
+        {
+          "item": "encrypted_drive_vault",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "relay_cabinet": {
+      "name": "Relay cabinet",
+      "kind": "gather",
+      "minutes": 180,
+      "uses": 1,
+      "qualities": [
+        [
+          "SCREW",
+          1
+        ]
+      ],
+      "items": [
+        {
+          "item": "encrypted_drive_relay",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "line_controller": {
+      "name": "Line controller",
+      "kind": "gather",
+      "minutes": 180,
+      "uses": 1,
+      "qualities": [
+        [
+          "SCREW",
+          1
+        ]
+      ],
+      "items": [
+        {
+          "item": "encrypted_drive_plant",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "traveller_cache": {
+      "name": "Weathered traveller\u2019s cache",
+      "kind": "search",
+      "search": "traveller_cache",
+      "minutes": 15,
+      "uses": 1,
+      "mapVisual": "cache",
+      "mapPersistence": "while_available"
+    },
+    "tailoring_cooperative_supplies": {
+      "name": "Haberdashery drawers",
+      "kind": "deconstruct",
+      "furniture": "f_dresser",
+      "minutes": 20,
+      "uses": 1,
+      "search": "tailoring_cooperative_supplies",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "plant_nursery_supplies": {
+      "name": "Seed cabinet",
+      "kind": "deconstruct",
+      "furniture": "f_cupboard",
+      "minutes": 20,
+      "uses": 1,
+      "search": "plant_nursery_supplies",
+      "searchMinutes": 5,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "preservation_cellar_supplies": {
+      "name": "Preservation pantry",
+      "kind": "deconstruct",
+      "furniture": "f_rack",
+      "minutes": 20,
+      "uses": 1,
+      "search": "preservation_cellar_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "potters_yard_supplies": {
+      "name": "Kiln-side drying racks",
+      "kind": "deconstruct",
+      "furniture": "f_rack",
+      "minutes": 20,
+      "uses": 1,
+      "search": "potters_yard_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "mountaineering_refuge_supplies": {
+      "name": "Expedition locker",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "mountaineering_refuge_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "water_quality_station_supplies": {
+      "name": "Sample-preparation bench",
+      "kind": "deconstruct",
+      "furniture": "f_table",
+      "minutes": 20,
+      "uses": 1,
+      "search": "water_quality_station_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "fire_station_supplies": {
+      "name": "Rescue-equipment cage",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "fire_station_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "machine_tool_shop_supplies": {
+      "name": "Machinist\u2019s tool cabinet",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "machine_tool_shop_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "electronics_reclamation_supplies": {
+      "name": "Sorted component drawers",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "electronics_reclamation_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "automated_distribution_supplies": {
+      "name": "Tool freight cage",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "automated_distribution_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "automated_distribution_food_supplies": {
+      "name": "Food freight cage",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "automated_distribution_food_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "automated_distribution_electrical_supplies": {
+      "name": "Electrical freight cage",
+      "kind": "deconstruct",
+      "furniture": "f_locker",
+      "minutes": 20,
+      "uses": 1,
+      "search": "automated_distribution_electrical_supplies",
+      "searchMinutes": 10,
+      "qualities": [
+        [
+          "PRY",
+          1
+        ]
+      ]
+    },
+    "dig_ice": {
+      "name": "Cut a hole in the ice",
+      "kind": "dig_ice",
+      "seasonal": "frozen",
+      "minutes": 30,
+      "uses": 0,
+      "anyQualities": [
+        [
+          "DIG",
+          1
+        ],
+        [
+          "AXE",
+          1
+        ]
+      ],
+      "holeDays": 2,
+      "//": "Offered while rivers and lakes are frozen, on water or beside it. The hole opens the water to bottles and lines on this hex for holeDays, and every use keeps it open that much longer."
+    },
+    "ice_hole": {
+      "name": "Hole in the ice",
+      "kind": "fill_water",
+      "seasonal": "hole",
+      "minutes": 2,
+      "uses": 0
+    },
+    "gather_snow": {
+      "name": "Snow",
+      "kind": "gather",
+      "seasonal": "snow",
+      "minutes": 10,
+      "uses": 0,
+      "items": [
+        {
+          "item": "snow",
+          "count": [
+            12,
+            20
+          ]
+        }
+      ],
+      "//": "Offered on any hex with at least weather.json snow.gatherMinCm of snow. Snow melts to water at ten to one (overrides/season_prologue.json)."
+    }
+  },
+  "trainingNote": "Prologue display XP per completed foraging/plant-harvest action; focus applies. Empty completed attempts train too. Training stops at Survival 3. These rates use the local skill scale, not raw CDDA XP.",
+  "bashRules": {
+    "//": "Breaking a thing up for what it is made of. Only once it has been picked over, so nothing is lost; whichever of dismantling and bashing is done first takes the thing with it. The pace comes from what is swung: heavier is faster, and a purpose-made hammer helps. Bare hands will not do it.",
+    "minBashDamage": 6,
+    "hammerLevel": 2,
+    "hammerFactor": 0.85,
+    "fallback": {
+      "//": "27.09.2026: anything that can be taken apart can also be bashed apart, for a rough share of the same parts. Each part of the dismantling comes out with `prob`, at `share` of its count (at least one); the time is `minutesFactor` of the dismantling's, then paced by the tool as above.",
+      "prob": 0.7,
+      "share": [0.25, 0.6],
+      "minutesFactor": 0.6
+    },
+    "staminaPerMinute": 1,
+    "tiers": [
+      {
+        "bash": 18,
+        "factor": 0.55
+      },
+      {
+        "bash": 10,
+        "factor": 0.8
+      }
+    ],
+    "//tiers": "Crush damage of the best thing within reach: a crowbar or a sledge is quickest, a pipe or a plank middling, a rock the slowest that works at all. The listed minutes are the time with a rock.",
+    "//gives": "`charges` for anything the world counts by charges (scrap, nails, wire); `count` for whole pieces."
+  },
+  "itemBash": {
+    "apartment_fridge": {
+      "minutes": 90,
+      "gives": [
+        {
+          "item": "scrap",
+          "charges": [
+            2,
+            6
+          ],
+          "prob": 0.8
+        },
+        {
+          "item": "steel_chunk",
+          "charges": [
+            1,
+            1
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "sheet_metal_small",
+          "charges": [
+            1,
+            2
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "plastic_chunk",
+          "count": [
+            1,
+            2
+          ],
+          "prob": 0.4
+        },
+        {
+          "item": "cable",
+          "charges": [
+            10,
+            30
+          ],
+          "prob": 0.3
+        },
+        {
+          "item": "motor_micro",
+          "count": [
+            1,
+            1
+          ],
+          "prob": 0.15
+        },
+        {
+          "item": "e_scrap",
+          "count": [
+            1,
+            3
+          ],
+          "prob": 0.6
+        }
+      ]
+    },
+    "apartment_freezer": {
+      "minutes": 90,
+      "gives": [
+        {
+          "item": "scrap",
+          "charges": [
+            2,
+            6
+          ],
+          "prob": 0.8
+        },
+        {
+          "item": "steel_chunk",
+          "charges": [
+            1,
+            1
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "sheet_metal_small",
+          "charges": [
+            1,
+            2
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "plastic_chunk",
+          "count": [
+            1,
+            2
+          ],
+          "prob": 0.4
+        },
+        {
+          "item": "cable",
+          "charges": [
+            10,
+            30
+          ],
+          "prob": 0.3
+        },
+        {
+          "item": "motor_micro",
+          "count": [
+            1,
+            1
+          ],
+          "prob": 0.15
+        },
+        {
+          "item": "e_scrap",
+          "count": [
+            1,
+            3
+          ],
+          "prob": 0.6
+        }
+      ]
+    },
+    "oven": {
+      "minutes": 90,
+      "gives": [
+        {
+          "item": "scrap",
+          "charges": [
+            2,
+            6
+          ],
+          "prob": 0.8
+        },
+        {
+          "item": "steel_chunk",
+          "charges": [
+            1,
+            1
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "sheet_metal_small",
+          "charges": [
+            1,
+            2
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "glass_shard",
+          "count": [
+            1,
+            2
+          ],
+          "prob": 0.3
+        },
+        {
+          "item": "cable",
+          "charges": [
+            10,
+            20
+          ],
+          "prob": 0.25
+        },
+        {
+          "item": "element",
+          "count": [
+            1,
+            1
+          ],
+          "prob": 0.2
+        },
+        {
+          "item": "e_scrap",
+          "count": [
+            1,
+            3
+          ],
+          "prob": 0.6
+        }
+      ]
+    },
+    "oven_cabinet": {
+      "minutes": 45,
+      "gives": [
+        {
+          "item": "scrap",
+          "charges": [
+            2,
+            6
+          ],
+          "prob": 0.8
+        },
+        {
+          "item": "steel_chunk",
+          "charges": [
+            1,
+            1
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "sheet_metal_small",
+          "charges": [
+            1,
+            2
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "glass_shard",
+          "count": [
+            1,
+            2
+          ],
+          "prob": 0.3
+        },
+        {
+          "item": "cable",
+          "charges": [
+            10,
+            20
+          ],
+          "prob": 0.25
+        },
+        {
+          "item": "element",
+          "count": [
+            1,
+            1
+          ],
+          "prob": 0.2
+        },
+        {
+          "item": "e_scrap",
+          "count": [
+            1,
+            3
+          ],
+          "prob": 0.6
+        }
+      ]
+    },
+    "oven_controls": {
+      "minutes": 45,
+      "gives": [
+        {
+          "item": "scrap",
+          "charges": [
+            2,
+            6
+          ],
+          "prob": 0.8
+        },
+        {
+          "item": "steel_chunk",
+          "charges": [
+            1,
+            1
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "sheet_metal_small",
+          "charges": [
+            1,
+            2
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "glass_shard",
+          "count": [
+            1,
+            2
+          ],
+          "prob": 0.3
+        },
+        {
+          "item": "cable",
+          "charges": [
+            10,
+            20
+          ],
+          "prob": 0.25
+        },
+        {
+          "item": "element",
+          "count": [
+            1,
+            1
+          ],
+          "prob": 0.2
+        },
+        {
+          "item": "e_scrap",
+          "count": [
+            1,
+            3
+          ],
+          "prob": 0.6
+        }
+      ]
+    },
+    "oven_stovetop": {
+      "minutes": 45,
+      "gives": [
+        {
+          "item": "scrap",
+          "charges": [
+            2,
+            6
+          ],
+          "prob": 0.8
+        },
+        {
+          "item": "steel_chunk",
+          "charges": [
+            1,
+            1
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "sheet_metal_small",
+          "charges": [
+            1,
+            2
+          ],
+          "prob": 0.6
+        },
+        {
+          "item": "glass_shard",
+          "count": [
+            1,
+            2
+          ],
+          "prob": 0.3
+        },
+        {
+          "item": "cable",
+          "charges": [
+            10,
+            20
+          ],
+          "prob": 0.25
+        },
+        {
+          "item": "element",
+          "count": [
+            1,
+            1
+          ],
+          "prob": 0.2
+        },
+        {
+          "item": "e_scrap",
+          "count": [
+            1,
+            3
+          ],
+          "prob": 0.6
+        }
+      ]
+    }
+  }
+}

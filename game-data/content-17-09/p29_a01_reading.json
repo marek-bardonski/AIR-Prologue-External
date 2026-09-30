@@ -1,0 +1,190 @@
+{
+  "group": "p29_a01_reading",
+  "source": "29.09.2026 second 500: reading - cookbooks (liver, blood), hobby magazines (swimming, trapping, archery, throwing, computers, cars, celebrity) and beginner guides (firearm safety, ballistics, web)",
+  "items": [
+    {
+      "id": "cookbook_liverforkids",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.08
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "cookbook_bloodforgood",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.06
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mag_swimming",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mag_traps",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.08
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.06
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_archery",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mag_throwing",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mag_computer",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "electrical_workshop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mag_cars",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.08
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_tv",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.12
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pocket_firearms",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.05
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "text_gunsmith",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "howto_computer",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.08
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Books only teach skills and recipes; the game has no reading-for-fun mood, so pure novels were not imported."
+  ]
+}

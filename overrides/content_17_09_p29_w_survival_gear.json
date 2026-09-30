@@ -1,0 +1,40 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p29_w_survival_gear. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "small_lighter",
+    "initial_charges": 50,
+    "max_charges": 50,
+    "//": "CDDA pocket: butane 50; refillable, so it would spawn empty"
+  },
+  {
+    "type": "ITEM",
+    "id": "ref_lighter",
+    "initial_charges": 50,
+    "max_charges": 50,
+    "//": "CDDA pocket: lamp_oil 50; refillable, so it would spawn empty"
+  },
+  {
+    "type": "ITEM",
+    "id": "ref_matches",
+    "initial_charges": 32,
+    "max_charges": 32,
+    "//": "CDDA pocket: match 32; refillable, so it would spawn with one"
+  },
+  {
+    "type": "ITEM",
+    "id": "char_purifier",
+    "initial_charges": 180,
+    "max_charges": 180,
+    "//": "CDDA pocket: charcoal 180 (FULL_MAGAZINE recipe); 12 a unit of water"
+  },
+  {
+    "type": "ITEM",
+    "id": "char_purifier_clay",
+    "initial_charges": 720,
+    "max_charges": 720,
+    "//": "CDDA pocket: charcoal 720 (FULL_MAGAZINE recipe); 12 a unit of water"
+  }
+]

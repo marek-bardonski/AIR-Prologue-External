@@ -1,0 +1,736 @@
+{
+  "source": "Unchanged CDDA 0.I recipes: difficulty 0\u20132; field tool qualities; advanced unsupported recipes excluded",
+  "recipes": [
+    {
+      "id": "pot_helmet",
+      "key": "recipe:pot_helmet",
+      "level": 0,
+      "qualities": {
+        "COOK": 3,
+        "BOIL": 2,
+        "CONTAIN": 1,
+        "CHEM": 1
+      }
+    },
+    {
+      "id": "pot_xlhelmet",
+      "key": "recipe:pot_xlhelmet",
+      "level": 0,
+      "qualities": {
+        "COOK": 3,
+        "BOIL": 2,
+        "CONTAIN": 1,
+        "CHEM": 1
+      }
+    },
+    {
+      "id": "stockpot_helmet",
+      "key": "recipe:stockpot_helmet",
+      "level": 0,
+      "qualities": {
+        "COOK": 2,
+        "BOIL": 1
+      }
+    },
+    {
+      "id": "rope_30",
+      "key": "recipe:rope_30:spinwheel_string",
+      "level": 0,
+      "qualities": {
+        "ROPE": 2
+      }
+    },
+    {
+      "id": "rope_makeshift_30",
+      "key": "recipe:rope_makeshift_30:spinwheel_ropes",
+      "level": 0,
+      "qualities": {
+        "ROPE": 2
+      }
+    },
+    {
+      "id": "cotton_patchwork",
+      "key": "recipe:cotton_patchwork",
+      "level": 0,
+      "qualities": {
+        "SIEVE": 1,
+        "STRAIN": 2
+      }
+    },
+    {
+      "id": "vine_30",
+      "key": "recipe:vine_30",
+      "level": 0,
+      "qualities": {
+        "ROPE": 2
+      }
+    },
+    {
+      "id": "sharp_rock",
+      "key": "recipe:sharp_rock",
+      "level": 0,
+      "qualities": {
+        "CUT": 1,
+        "BUTCHER": -50
+      }
+    },
+    {
+      "id": "rock",
+      "key": "recipe:rock",
+      "level": 0,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "makeshift_hammer",
+      "key": "recipe:makeshift_hammer",
+      "level": 0,
+      "qualities": {
+        "HAMMER": 2
+      }
+    },
+    {
+      "id": "mop",
+      "key": "recipe:mop",
+      "level": 0,
+      "qualities": {
+        "MOP": 1
+      }
+    },
+    {
+      "id": "skewer_bone",
+      "key": "recipe:skewer_bone",
+      "level": 0,
+      "qualities": {
+        "COOK": 1
+      }
+    },
+    {
+      "id": "wrapper_foil",
+      "key": "recipe:wrapper_foil",
+      "level": 0,
+      "qualities": {
+        "COOK": 1
+      }
+    },
+    {
+      "id": "punch_nail",
+      "key": "recipe:punch_nail",
+      "level": 0,
+      "qualities": {
+        "PUNCH": 2
+      }
+    },
+    {
+      "id": "butchering_kit",
+      "key": "recipe:butchering_kit",
+      "level": 0,
+      "qualities": {
+        "CUT": 2,
+        "CUT_FINE": 1,
+        "BUTCHER": 37
+      }
+    },
+    {
+      "id": "emergency_lockpick",
+      "key": "recipe:emergency_lockpick",
+      "level": 0,
+      "qualities": {
+        "LOCKPICK": 1
+      }
+    },
+    {
+      "id": "fishing_rod_basic",
+      "key": "recipe:fishing_rod_basic",
+      "level": 0,
+      "qualities": {
+        "FISHING_ROD": 1
+      }
+    },
+    {
+      "id": "makeshift_crowbar",
+      "key": "recipe:makeshift_crowbar",
+      "level": 0,
+      "qualities": {
+        "PRY": 1,
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "sieve_steel_makeshift",
+      "key": "recipe:sieve_steel_makeshift",
+      "level": 0,
+      "qualities": {
+        "SIEVE": 2,
+        "STRAIN": 1,
+        "WINNOW": 1
+      }
+    },
+    {
+      "id": "billet_bone",
+      "key": "recipe:billet_bone",
+      "level": 0,
+      "qualities": {
+        "HAMMER_SOFT": 1
+      }
+    },
+    {
+      "id": "billet_wood",
+      "key": "recipe:billet_wood",
+      "level": 0,
+      "qualities": {
+        "HAMMER_SOFT": 1
+      }
+    },
+    {
+      "id": "drill_rock_primitive",
+      "key": "recipe:drill_rock_primitive",
+      "level": 0,
+      "qualities": {
+        "DRILL_ROCK": 1
+      }
+    },
+    {
+      "id": "leather_filing",
+      "key": "recipe:leather_filing",
+      "level": 0,
+      "qualities": {
+        "FILE": 1
+      }
+    },
+    {
+      "id": "homemade_polehammer_makeshift",
+      "key": "recipe:homemade_polehammer_makeshift",
+      "level": 0,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "homewrecker",
+      "key": "recipe:homewrecker",
+      "level": 0,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "rock_sock",
+      "key": "recipe:rock_sock",
+      "level": 0,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "mace_simple",
+      "key": "recipe:mace_simple",
+      "level": 0,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "mace_pipe",
+      "key": "recipe:mace_pipe",
+      "level": 0,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "makeshift_machete",
+      "key": "recipe:makeshift_machete",
+      "level": 0,
+      "qualities": {
+        "CUT": 2,
+        "GRASS_CUT": 1,
+        "BUTCHER": -27
+      }
+    },
+    {
+      "id": "makeshift_halberd",
+      "key": "recipe:makeshift_halberd",
+      "level": 0,
+      "qualities": {
+        "CUT": 1,
+        "BUTCHER": -42
+      }
+    },
+    {
+      "id": "makeshift_knife",
+      "key": "recipe:makeshift_knife",
+      "level": 0,
+      "qualities": {
+        "CUT": 2,
+        "BUTCHER": 11
+      }
+    },
+    {
+      "id": "pointy_stick",
+      "key": "recipe:pointy_stick",
+      "level": 0,
+      "qualities": {
+        "COOK": 1
+      }
+    },
+    {
+      "id": "pointy_stick_long",
+      "key": "recipe:pointy_stick_long",
+      "level": 0,
+      "qualities": {
+        "COOK": 1
+      }
+    },
+    {
+      "id": "spear_spike",
+      "key": "recipe:spear_spike",
+      "level": 0,
+      "qualities": {
+        "COOK": 1
+      }
+    },
+    {
+      "id": "spear_knife",
+      "key": "recipe:spear_knife",
+      "level": 0,
+      "qualities": {
+        "CUT": 1,
+        "COOK": 1,
+        "BUTCHER": -42
+      }
+    },
+    {
+      "id": "needle_bone",
+      "key": "recipe:needle_bone",
+      "level": 1,
+      "qualities": {
+        "SEW": 2
+      }
+    },
+    {
+      "id": "needle_wood",
+      "key": "recipe:needle_wood",
+      "level": 1,
+      "qualities": {
+        "SEW": 1
+      }
+    },
+    {
+      "id": "knitting_needles",
+      "key": "recipe:knitting_needles",
+      "level": 1,
+      "qualities": {
+        "KNIT": 1
+      }
+    },
+    {
+      "id": "brazier",
+      "key": "recipe:brazier",
+      "level": 1,
+      "qualities": {
+        "COOK": 1,
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "makeshift_brazier",
+      "key": "recipe:makeshift_brazier",
+      "level": 1,
+      "qualities": {
+        "COOK": 1,
+        "BOIL": 1,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "grapnel",
+      "key": "recipe:grapnel",
+      "level": 1,
+      "qualities": {
+        "COOK": 1,
+        "ROPE": 2
+      }
+    },
+    {
+      "id": "bowl_plastic",
+      "key": "recipe:bowl_plastic",
+      "level": 1,
+      "qualities": {
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "cup_foil",
+      "key": "recipe:cup_foil",
+      "level": 1,
+      "qualities": {
+        "BOIL": 1,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "bowl_wood",
+      "key": "recipe:bowl_wood",
+      "level": 1,
+      "qualities": {
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "bowl_wood_large",
+      "key": "recipe:bowl_wood_large",
+      "level": 1,
+      "qualities": {
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "bowl_skull",
+      "key": "recipe:bowl_skull",
+      "level": 1,
+      "qualities": {
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "clay_cup",
+      "key": "recipe:clay_cup",
+      "level": 1,
+      "qualities": {
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "punch_bone",
+      "key": "recipe:punch_bone",
+      "level": 1,
+      "qualities": {
+        "PUNCH": 1
+      }
+    },
+    {
+      "id": "awl_bone",
+      "key": "recipe:awl_bone",
+      "level": 1,
+      "qualities": {
+        "LEATHER_AWL": 1
+      }
+    },
+    {
+      "id": "awl_steel",
+      "key": "recipe:awl_steel:using_file",
+      "level": 1,
+      "qualities": {
+        "LEATHER_AWL": 2
+      }
+    },
+    {
+      "id": "pot_makeshift",
+      "key": "recipe:pot_makeshift",
+      "level": 1,
+      "qualities": {
+        "COOK": 2,
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "pot_makeshift_copper",
+      "key": "recipe:pot_makeshift_copper",
+      "level": 1,
+      "qualities": {
+        "COOK": 2,
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "improvised_oven",
+      "key": "recipe:improvised_oven",
+      "level": 1,
+      "qualities": {
+        "COOK": 3,
+        "BOIL": 2,
+        "CONTAIN": 1,
+        "CHEM": 1,
+        "OVEN": 1
+      }
+    },
+    {
+      "id": "clay_dutch_oven",
+      "key": "recipe:clay_dutch_oven",
+      "level": 1,
+      "qualities": {
+        "COOK": 3,
+        "BOIL": 2,
+        "CONTAIN": 1,
+        "CHEM": 1,
+        "OVEN": 1
+      }
+    },
+    {
+      "id": "hammer_sledge_short",
+      "key": "recipe:hammer_sledge_short:from_cutting",
+      "level": 1,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "digging_stick",
+      "key": "recipe:digging_stick",
+      "level": 1,
+      "qualities": {
+        "DIG": 1
+      }
+    },
+    {
+      "id": "homemade_polehammer",
+      "key": "recipe:homemade_polehammer",
+      "level": 1,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "mace_trench",
+      "key": "recipe:mace_trench:from simple version",
+      "level": 1,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "makeshift_glaive",
+      "key": "recipe:makeshift_glaive",
+      "level": 1,
+      "qualities": {
+        "CUT": 1,
+        "BUTCHER": -28
+      }
+    },
+    {
+      "id": "sharpened_pipe",
+      "key": "recipe:sharpened_pipe",
+      "level": 1,
+      "qualities": {
+        "COOK": 1
+      }
+    },
+    {
+      "id": "simple_spear_pipe",
+      "key": "recipe:simple_spear_pipe",
+      "level": 1,
+      "qualities": {
+        "COOK": 1
+      }
+    },
+    {
+      "id": "copper_knife",
+      "key": "recipe:copper_knife",
+      "level": 1,
+      "qualities": {
+        "CUT": 2,
+        "BUTCHER": 11
+      }
+    },
+    {
+      "id": "spear_steel_crude",
+      "key": "recipe:spear_steel_crude",
+      "level": 1,
+      "qualities": {
+        "COOK": 1
+      }
+    },
+    {
+      "id": "spear_knife_superior",
+      "key": "recipe:spear_knife_superior:from simple version",
+      "level": 1,
+      "qualities": {
+        "CUT": 1,
+        "COOK": 1,
+        "BUTCHER": -28
+      }
+    },
+    {
+      "id": "spear_knife_proper",
+      "key": "recipe:spear_knife_proper",
+      "level": 1,
+      "qualities": {
+        "CUT": 1,
+        "COOK": 1,
+        "BUTCHER": -28
+      }
+    },
+    {
+      "id": "bone_knife",
+      "key": "recipe:bone_knife",
+      "level": 1,
+      "qualities": {
+        "CUT": 1,
+        "BUTCHER": 12
+      }
+    },
+    {
+      "id": "brick",
+      "key": "recipe:brick",
+      "level": 2,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "fire_brick",
+      "key": "recipe:fire_brick",
+      "level": 2,
+      "qualities": {
+        "HAMMER": 1
+      }
+    },
+    {
+      "id": "makeshift_tree_spile",
+      "key": "recipe:makeshift_tree_spile",
+      "level": 2,
+      "qualities": {
+        "TREE_TAP": 1
+      }
+    },
+    {
+      "id": "crucible_clay",
+      "key": "recipe:crucible_clay",
+      "level": 2,
+      "qualities": {
+        "COOK": 1,
+        "CHEM": 1,
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "pot_copper",
+      "key": "recipe:pot_copper",
+      "level": 2,
+      "qualities": {
+        "COOK": 3,
+        "BOIL": 2,
+        "CONTAIN": 1,
+        "CHEM": 1
+      }
+    },
+    {
+      "id": "anvil_stump",
+      "key": "recipe:anvil_stump",
+      "level": 2,
+      "qualities": {
+        "ANVIL": 2
+      }
+    },
+    {
+      "id": "pot_aluminum",
+      "key": "recipe:pot_aluminum",
+      "level": 2,
+      "qualities": {
+        "COOK": 3,
+        "BOIL": 2,
+        "CONTAIN": 1,
+        "CHEM": 1
+      }
+    },
+    {
+      "id": "leather_bellow",
+      "key": "recipe:leather_bellow:from_sheets",
+      "level": 2,
+      "qualities": {
+        "WINNOW": 1
+      }
+    },
+    {
+      "id": "clay_pot",
+      "key": "recipe:clay_pot",
+      "level": 2,
+      "qualities": {
+        "COOK": 3,
+        "BOIL": 2,
+        "CONTAIN": 1,
+        "CHEM": 1
+      }
+    },
+    {
+      "id": "clay_teapot",
+      "key": "recipe:clay_teapot",
+      "level": 2,
+      "qualities": {
+        "BOIL": 1
+      }
+    },
+    {
+      "id": "clay_urn",
+      "key": "recipe:clay_urn",
+      "level": 2,
+      "qualities": {
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "pot_canning_clay",
+      "key": "recipe:pot_canning_clay",
+      "level": 2,
+      "qualities": {
+        "COOK": 3,
+        "BOIL": 2,
+        "CONTAIN": 1,
+        "CHEM": 1
+      }
+    },
+    {
+      "id": "bowl_clay",
+      "key": "recipe:bowl_clay",
+      "level": 2,
+      "qualities": {
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "clay_canister",
+      "key": "recipe:clay_canister",
+      "level": 2,
+      "qualities": {
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "clay_hydria",
+      "key": "recipe:clay_hydria",
+      "level": 2,
+      "qualities": {
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "clay_watercont",
+      "key": "recipe:clay_watercont",
+      "level": 2,
+      "qualities": {
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    },
+    {
+      "id": "clay_watercont_no_lid",
+      "key": "recipe:clay_watercont_no_lid",
+      "level": 2,
+      "qualities": {
+        "BOIL": 2,
+        "CONTAIN": 1
+      }
+    }
+  ]
+}

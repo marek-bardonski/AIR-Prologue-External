@@ -1,0 +1,58 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_f04_dishes. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "fiddlehead_raw",
+    "contamination": [
+      {
+        "disease": "bad_food",
+        "probability": 30
+      }
+    ],
+    "//": "raw fiddleheads upset the stomach: CDDA's POISON use action is not run here, so a food-poisoning risk instead"
+  },
+  {
+    "type": "ITEM",
+    "id": "can_peach",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "30 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "can_pineapple",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "24 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "can_chicken",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "24 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "can_chowder",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "24 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "can_clams",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "24 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "can_salmon",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "24 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  }
+]

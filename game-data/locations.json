@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "chance": {
+    "field": 0.025,
+    "forest": 0.0275,
+    "dense_forest": 0.025,
+    "hills": 0.0175
+  },
+  "roadChance": 0.06,
+  "shoreChance": 0.05,
+  "sites": {
+    "campsite": {
+      "weight": 4,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "near": null,
+      "minDistance": 2
+    },
+    "orchard": {
+      "weight": 3,
+      "biomes": [
+        "field"
+      ],
+      "near": null,
+      "minDistance": 2
+    },
+    "logging_camp": {
+      "weight": 3,
+      "biomes": [
+        "forest",
+        "dense_forest"
+      ],
+      "near": null,
+      "minDistance": 3
+    },
+    "fishing_dock": {
+      "weight": 4,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "near": "water",
+      "minDistance": 2
+    },
+    "ranger_station": {
+      "weight": 2,
+      "biomes": [
+        "forest",
+        "dense_forest",
+        "hills"
+      ],
+      "near": null,
+      "minDistance": 4
+    },
+    "roadside_garage": {
+      "weight": 4,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "near": "road",
+      "minDistance": 4
+    },
+    "medical_clinic": {
+      "weight": 2,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "near": "road",
+      "minDistance": 5
+    },
+    "railway_depot": {
+      "weight": 2,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "near": "road",
+      "minDistance": 6
+    },
+    "electrical_workshop": {
+      "weight": 1.5,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "near": "road",
+      "minDistance": 6
+    },
+    "military_checkpoint": {
+      "weight": 1,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "near": "road",
+      "minDistance": 9
+    }
+  },
+  "nearWeightMultiplier": 3,
+  "radius": 60,
+  "ensureEach": true,
+  "scatter": {
+    "//": "Rare places rolled hex by hex on dice of their own: 'chance' per eligible hex from 'minDistance' out, on the listed biomes. They never join the weighted 'sites' pick, so adding one does not re-roll the sites of maps that are already known. 'ensure' gives a world that rolled none exactly one.",
+    "laboratory": {
+      "terrain": "laboratory",
+      "chance": 0.02,
+      "minDistance": 12,
+      "biomes": [
+        "field",
+        "forest",
+        "dense_forest",
+        "hills"
+      ],
+      "ensure": true
+    },
+    "//region": "An entry with 'aroundPlace' is rolled only within 'maxDistance' hexes of that pinned place (radio.json places): the country around the laboratory is thick with sealed facilities, checkpoints and research ruins.",
+    "region_facility": {
+      "terrain": "laboratory",
+      "chance": 0.06,
+      "minDistance": 12,
+      "aroundPlace": "secret_lab",
+      "maxDistance": 10,
+      "biomes": [
+        "field",
+        "forest",
+        "dense_forest",
+        "hills"
+      ]
+    },
+    "region_checkpoint": {
+      "terrain": "military_checkpoint",
+      "chance": 0.05,
+      "minDistance": 12,
+      "aroundPlace": "secret_lab",
+      "maxDistance": 10,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ]
+    },
+    "region_ruin": {
+      "terrain": "research_ruin",
+      "chance": 0.07,
+      "minDistance": 12,
+      "aroundPlace": "secret_lab",
+      "maxDistance": 10,
+      "biomes": [
+        "field",
+        "forest",
+        "dense_forest",
+        "hills"
+      ]
+    },
+    "tailoring_cooperative": {
+      "terrain": "tailoring_cooperative",
+      "houseRatio": 0.2,
+      "minDistance": 3,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "roadWeight": 6,
+      "spacing": 2
+    },
+    "plant_nursery": {
+      "terrain": "plant_nursery",
+      "houseRatio": 0.2,
+      "minDistance": 3,
+      "biomes": [
+        "field"
+      ],
+      "spacing": 2
+    },
+    "preservation_cellar": {
+      "terrain": "preservation_cellar",
+      "houseRatio": 0.15,
+      "minDistance": 4,
+      "biomes": [
+        "field",
+        "hills"
+      ],
+      "roadWeight": 6,
+      "spacing": 2
+    },
+    "potters_yard": {
+      "terrain": "potters_yard",
+      "houseRatio": 0.15,
+      "minDistance": 4,
+      "biomes": [
+        "field",
+        "hills"
+      ],
+      "spacing": 2
+    },
+    "mountaineering_refuge": {
+      "terrain": "mountaineering_refuge",
+      "houseRatio": 0.12,
+      "minDistance": 6,
+      "biomes": [
+        "hills"
+      ],
+      "spacing": 2
+    },
+    "water_quality_station": {
+      "terrain": "water_quality_station",
+      "houseRatio": 0.12,
+      "minDistance": 7,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "near": "water",
+      "spacing": 2
+    },
+    "fire_station": {
+      "terrain": "fire_station",
+      "houseRatio": 0.1,
+      "minDistance": 7,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "roadWeight": 6,
+      "spacing": 2
+    },
+    "machine_tool_shop": {
+      "terrain": "machine_tool_shop",
+      "houseRatio": 0.08,
+      "minDistance": 8,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "roadWeight": 6,
+      "spacing": 2
+    },
+    "electronics_reclamation": {
+      "terrain": "electronics_reclamation",
+      "houseRatio": 0.06,
+      "minDistance": 10,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "roadWeight": 6,
+      "spacing": 2
+    },
+    "automated_distribution": {
+      "terrain": "automated_distribution",
+      "houseRatio": 0.05,
+      "minDistance": 12,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "roadWeight": 6,
+      "spacing": 2
+    },
+    "//houseSites": "Specialist sites (26.09.2026): each gets floor(houses x houseRatio) hexes in the old disc and again in the extension. roadWeight makes a hex beside a road that many times likelier than one away from it (it is a preference, never a rule: they stand off the roads too); spacing keeps two specialist sites at least that many hexes apart. Calibrated to about one special place every five or six hexes travelled along a road and every eight to ten off it, counting the older sites."
+  },
+  "legacyRadius": 25,
+  "//radius": "The world is 'radius' hexes from the origin. 'legacyRadius' is the disc older saves knew: the 'ensureEach' fallback and the scattered 'ensure' are decided inside it first, so growing the world never moves a place on ground that was already there."
+}

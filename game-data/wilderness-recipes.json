@@ -1,0 +1,85 @@
+{
+  "source": "Unmodified CDDA 0.I recipes; the accepted 20-recipe wilderness proposal.",
+  "recipes": [
+    {
+      "id": "sharp_rock",
+      "key": "recipe:sharp_rock"
+    },
+    {
+      "id": "cordage_6",
+      "key": "recipe:cordage_6"
+    },
+    {
+      "id": "cordage_36",
+      "key": "recipe:cordage_36"
+    },
+    {
+      "id": "cordage_36",
+      "key": "recipe:cordage_36:from_cordage_6"
+    },
+    {
+      "id": "straw_basket",
+      "key": "recipe:straw_basket"
+    },
+    {
+      "id": "wicker_basket_large",
+      "key": "recipe:wicker_basket_large"
+    },
+    {
+      "id": "stone_chopper",
+      "key": "recipe:stone_chopper"
+    },
+    {
+      "id": "digging_stick",
+      "key": "recipe:digging_stick"
+    },
+    {
+      "id": "needle_wood",
+      "key": "recipe:needle_wood"
+    },
+    {
+      "id": "distaff_spindle",
+      "key": "recipe:distaff_spindle"
+    },
+    {
+      "id": "plant_fibre",
+      "key": "recipe:plant_fibre"
+    },
+    {
+      "id": "grass_yarn",
+      "key": "recipe:grass_yarn"
+    },
+    {
+      "id": "grass_sheet",
+      "key": "recipe:grass_sheet"
+    },
+    {
+      "id": "grass_blanket",
+      "key": "recipe:grass_blanket"
+    },
+    {
+      "id": "grass_blanket",
+      "key": "recipe:grass_blanket:from_sheet"
+    },
+    {
+      "id": "grass_cloak",
+      "key": "recipe:grass_cloak"
+    },
+    {
+      "id": "shoes_birchbark",
+      "key": "recipe:shoes_birchbark"
+    },
+    {
+      "id": "fire_drill",
+      "key": "recipe:fire_drill"
+    },
+    {
+      "id": "clay_pot",
+      "key": "recipe:clay_pot"
+    },
+    {
+      "id": "tinder",
+      "key": "recipe:tinder"
+    }
+  ]
+}

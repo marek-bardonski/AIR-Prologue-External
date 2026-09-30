@@ -1,0 +1,11 @@
+{
+  "//": "Water filters and purifiers (Prologue rule, 29.09.2026). Code: src/game/survival/WaterFilters.js. `drink` filters (a lifestraw) are sucked through: untreated water listed in `treats`, from a river, a lake or a container, goes down as `clean` water while the filter is carried or lies on the ground here, each measure of water (one charge of `water`) spending `chargesPerUnit` of the filter's charges; when it cannot pay a measure it is clogged, and the water is drunk untreated again. `container` purifiers (charcoal jugs, the battery purifier) treat water standing in a container through the crafting recipe `recipe`, which spends the same `chargesPerUnit` a measure; a charcoal purifier that can no longer pay is spent: take it apart and make it again with fresh charcoal. Every number is CDDA's: charges_per_use and the pocket or initial charges.",
+  "source": "CDDA 0.I data/json/items/tool/misc.json lifestraw (initial_charges 4000, charges_per_use 1), items/tool/cooking.json char_purifier (charcoal 180, charges_per_use 12), char_purifier_clay (charcoal 720, charges_per_use 12), water_purifier (charges_per_use 14 battery), recipes/food/drinks.json water_clean using_water_purifier",
+  "clean": "water_clean",
+  "filters": {
+    "lifestraw": { "use": "drink", "chargesPerUnit": 1, "treats": ["water", "water_murky"] },
+    "char_purifier": { "use": "container", "chargesPerUnit": 12, "recipe": "recipe:water_clean:using_water_purifier" },
+    "char_purifier_clay": { "use": "container", "chargesPerUnit": 12, "recipe": "recipe:water_clean:using_water_purifier" },
+    "water_purifier": { "use": "container", "chargesPerUnit": 14, "recipe": "recipe:water_clean:using_water_purifier", "energy": true }
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "group": "p28_f03_baking",
+  "source": "28.09.2026 next-1000 import: baking, pantry staples, seeds and casseroles",
+  "items": [
+    {
+      "id": "soysauce",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "noodles_fast",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "snack_bread",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "oyster_crackers",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "gravy_mix",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "vegan_gravy_mix",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "tea_bag",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "tea_green_bag",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "protein_shake_fortified",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "seed_poppy_bud",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "royal_jelly",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 0.3
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "seed_lotus",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "seed_grapes",
+      "loot": [
+        {
+          "table": "orchard",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hallula",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "donut_holes",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "spicebush_berries_smoked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fruit_pancakes",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "frenchtoast",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lasagne_raw",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pizza_cheese",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sponge_cake",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brownie",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brioche",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pie_maple",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cloutie_dumpling",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "waffles",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fruit_waffles",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "earthworm_dried",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "paste_seed",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gravy_prepared",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "blood_rice_pudding",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "seed_lotus_boiled",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fried_seeds",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "baklava",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "hazelnut_cake",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pumpkin_muffins",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cheesy_spinach_casserole",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "eggplant_parmigiana",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "hot_corn_casserole",
+      "pools": [
+        "food"
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:lasagne_raw",
+    "recipe:noodles_fast",
+    "recipe:soysauce"
+  ],
+  "recipesExpected": [
+    "recipe:baklava",
+    "recipe:blood_rice_pudding",
+    "recipe:brioche",
+    "recipe:brownie",
+    "recipe:cheesy_spinach_casserole",
+    "recipe:cloutie_dumpling",
+    "recipe:donut_holes",
+    "recipe:eggplant_parmigiana",
+    "recipe:frenchtoast",
+    "recipe:fried_seeds",
+    "recipe:fruit_pancakes",
+    "recipe:fruit_waffles",
+    "recipe:granola",
+    "recipe:gravy_prepared",
+    "recipe:hallula",
+    "recipe:hazelnut_cake",
+    "recipe:hot_corn_casserole",
+    "recipe:paste_seed",
+    "recipe:paste_seed:mill_1_1",
+    "recipe:paste_seed:mill_8_1",
+    "recipe:pie_maple",
+    "recipe:pizza_cheese",
+    "recipe:pumpkin_muffins",
+    "recipe:seed_grapes",
+    "recipe:seed_lotus_boiled",
+    "recipe:seed_poppy_bud",
+    "recipe:sponge_cake",
+    "recipe:waffles"
+  ],
+  "notes": [
+    "bread_flour left out (reopens the excluded milling path, survey decision 7); oat_pulp (C) and blood_pancakes (blood cookbook) left out."
+  ]
+}

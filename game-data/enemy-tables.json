@@ -1,0 +1,2123 @@
+{
+  "//": "Weighted enemy presence per tile. 'chance' is the probability of an encounter over one hour of exposure; 'none' is 1 - chance and the entry weights only choose which creature. Weights come from the rarity scale in threat.json (common 100, uncommon 50, rare 20, very_rare 8, exotic 3). 'pack' is the extra companions that turn up with that creature, and is read from the table the tile actually rolls, so the same creature hunts in different numbers on different ground: [min, max] for a flat range, or { \"<extra companions>\": weight } on the same rarity scale when one size should be much rarer than another \u2014 a size left out of that map can never turn up. Absent means it hunts alone. Creatures that can neither hurt you nor feed you carry a reduced weight, so a search is rarely spent on a chipmunk. Site tables (house_N, clinic_N, tech_N, checkpoint_N, lab_N) stand in for threat_N on the terrain types that name them in terrain.json 'enemyTables' and always carry the chance of the tier they replace.",
+  "tables": {
+    "none": {
+      "none": 1,
+      "entries": []
+    },
+    "threat_0": {
+      "chance": 0.07,
+      "none": 0.93,
+      "entries": [
+        {
+          "monster": "mon_wild_rabbit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_squirrel",
+          "weight": 20
+        },
+        {
+          "monster": "mon_chipmunk",
+          "weight": 20
+        },
+        {
+          "monster": "mon_crow",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_rabbit",
+          "weight": 8
+        },
+        {
+          "monster": "mon_hare",
+          "weight": 8
+        },
+        {
+          "monster": "mon_skink_fivelined",
+          "weight": 8
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 50
+        },
+        {
+          "monster": "mon_gartersnake",
+          "weight": 8
+        },
+        {
+          "monster": "mon_dog_chihuahua",
+          "weight": 8
+        },
+        {
+          "monster": "mon_chicken",
+          "weight": 3
+        },
+        {
+          "monster": "mon_duck",
+          "weight": 3
+        },
+        {
+          "monster": "mon_cat",
+          "weight": 20
+        },
+        {
+          "monster": "mon_turtle_painted",
+          "weight": 3
+        },
+        {
+          "monster": "mon_opossum",
+          "weight": 20
+        },
+        {
+          "monster": "mon_groundhog",
+          "weight": 20
+        },
+        {
+          "monster": "mon_cormorant",
+          "weight": 3
+        },
+        {
+          "monster": "mon_bullfrog_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_bat",
+          "weight": 3
+        },
+        {
+          "monster": "mon_sewer_rat",
+          "weight": 3
+        },
+        {
+          "monster": "mon_squirrel_red",
+          "weight": 3
+        },
+        {
+          "monster": "mon_ferret",
+          "weight": 3
+        },
+        {
+          "monster": "mon_cat_longhair",
+          "weight": 3
+        },
+        {
+          "monster": "mon_bluejay",
+          "weight": 3
+        },
+        {
+          "monster": "mon_cardinal",
+          "weight": 3
+        },
+        {
+          "monster": "mon_robin",
+          "weight": 3
+        },
+        {
+          "monster": "mon_sparrow",
+          "weight": 3
+        },
+        {
+          "monster": "mon_chickadee",
+          "weight": 3
+        },
+        {
+          "monster": "mon_waxwing",
+          "weight": 3
+        },
+        {
+          "monster": "mon_pigeon",
+          "weight": 3
+        },
+        {
+          "monster": "mon_hummingbird",
+          "weight": 3
+        },
+        {
+          "monster": "mon_woodpecker",
+          "weight": 3
+        },
+        {
+          "monster": "mon_coot",
+          "weight": 3
+        },
+        {
+          "monster": "mon_moorhen",
+          "weight": 3
+        },
+        {
+          "monster": "mon_grebe",
+          "weight": 3
+        },
+        {
+          "monster": "mon_wormsnake",
+          "weight": 3
+        },
+        {
+          "monster": "mon_leo_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_fowler_toad",
+          "weight": 3
+        },
+        {
+          "monster": "mon_freedom_toad",
+          "weight": 3
+        },
+        {
+          "monster": "mon_peeper_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_gray_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_mink_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_green_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_wood_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_pollinator",
+          "weight": 20,
+          "pack": [
+            0,
+            1
+          ]
+        },
+        {
+          "monster": "mon_meter_reader",
+          "weight": 20
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 20
+        },
+        {
+          "monster": "mon_hedge_trimmer",
+          "weight": 20,
+          "pack": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "threat_1": {
+      "chance": 0.12,
+      "none": 0.88,
+      "entries": [
+        {
+          "monster": "mon_deer",
+          "weight": 50
+        },
+        {
+          "monster": "mon_wild_rabbit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_squirrel",
+          "weight": 8
+        },
+        {
+          "monster": "mon_grouse",
+          "weight": 8
+        },
+        {
+          "monster": "mon_pheasant",
+          "weight": 8
+        },
+        {
+          "monster": "mon_raven",
+          "weight": 8,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_turkey",
+          "weight": 50
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 8,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_fox_red",
+          "weight": 50
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 50
+        },
+        {
+          "monster": "mon_otter",
+          "weight": 20
+        },
+        {
+          "monster": "mon_mink",
+          "weight": 20
+        },
+        {
+          "monster": "mon_weasel",
+          "weight": 3
+        },
+        {
+          "monster": "mon_muskrat",
+          "weight": 20
+        },
+        {
+          "monster": "mon_goose_canadian",
+          "weight": 3
+        },
+        {
+          "monster": "mon_turtle_snapping_common",
+          "weight": 20
+        },
+        {
+          "monster": "mon_opossum",
+          "weight": 20
+        },
+        {
+          "monster": "mon_hare",
+          "weight": 3
+        },
+        {
+          "monster": "mon_gartersnake",
+          "weight": 3
+        },
+        {
+          "monster": "mon_dog_chihuahua",
+          "weight": 3
+        },
+        {
+          "monster": "mon_chicken",
+          "weight": 3
+        },
+        {
+          "monster": "mon_duck",
+          "weight": 3
+        },
+        {
+          "monster": "mon_coyote",
+          "weight": 8
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 8
+        },
+        {
+          "monster": "mon_cow",
+          "weight": 8
+        },
+        {
+          "monster": "mon_horse",
+          "weight": 8
+        },
+        {
+          "monster": "mon_pig",
+          "weight": 8
+        },
+        {
+          "monster": "mon_sheep",
+          "weight": 8
+        },
+        {
+          "monster": "mon_goat",
+          "weight": 8
+        },
+        {
+          "monster": "mon_fox_gray",
+          "weight": 8
+        },
+        {
+          "monster": "mon_skunk",
+          "weight": 8
+        },
+        {
+          "monster": "mon_reindeer",
+          "weight": 8
+        },
+        {
+          "monster": "mon_llama",
+          "weight": 8
+        },
+        {
+          "monster": "mon_dog_bull",
+          "weight": 8
+        },
+        {
+          "monster": "mon_dog_beagle",
+          "weight": 8
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 20
+        },
+        {
+          "monster": "mon_pipe_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_pollinator",
+          "weight": 20,
+          "pack": [
+            0,
+            1
+          ]
+        },
+        {
+          "monster": "mon_meter_reader",
+          "weight": 20
+        },
+        {
+          "monster": "mon_hedge_trimmer",
+          "weight": 20,
+          "pack": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "threat_2": {
+      "chance": 0.2,
+      "none": 0.8,
+      "entries": [
+        {
+          "monster": "mon_deer",
+          "weight": 100
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 100,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_wild_rabbit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_coyote",
+          "weight": 50,
+          "pack": {
+            "0": 100,
+            "1": 3
+          }
+        },
+        {
+          "monster": "mon_boar_wild",
+          "weight": 50
+        },
+        {
+          "monster": "mon_bobcat",
+          "weight": 50
+        },
+        {
+          "monster": "mon_fox_red",
+          "weight": 50
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 8,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_beaver",
+          "weight": 20
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 20
+        },
+        {
+          "monster": "mon_turkey",
+          "weight": 20
+        },
+        {
+          "monster": "mon_raven",
+          "weight": 3,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_muskrat",
+          "weight": 20
+        },
+        {
+          "monster": "mon_otter",
+          "weight": 20
+        },
+        {
+          "monster": "mon_wolf",
+          "weight": 8,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_turtle_snapping_common",
+          "weight": 8
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 8
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 8
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 8
+        },
+        {
+          "monster": "mon_dog_gshepherd",
+          "weight": 8
+        },
+        {
+          "monster": "mon_dog_rottweiler",
+          "weight": 8
+        },
+        {
+          "monster": "mon_rattlesnake",
+          "weight": 8
+        },
+        {
+          "monster": "mon_pipe_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_lawn_unit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_nanny_cam",
+          "weight": 20
+        },
+        {
+          "monster": "mon_hedge_trimmer",
+          "weight": 20,
+          "pack": [
+            0,
+            1
+          ]
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 20
+        }
+      ]
+    },
+    "threat_3": {
+      "chance": 0.28,
+      "none": 0.72,
+      "entries": [
+        {
+          "monster": "mon_wolf",
+          "weight": 100,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_boar_wild",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_coyote",
+          "weight": 50,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 50,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_bobcat",
+          "weight": 50
+        },
+        {
+          "monster": "mon_deer",
+          "weight": 50
+        },
+        {
+          "monster": "mon_beaver",
+          "weight": 20
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 3,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 20
+        },
+        {
+          "monster": "mon_turkey",
+          "weight": 20
+        },
+        {
+          "monster": "mon_fox_red",
+          "weight": 20
+        },
+        {
+          "monster": "mon_moose",
+          "weight": 8
+        },
+        {
+          "monster": "mon_cougar",
+          "weight": 8
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 8
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 20
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 3
+        },
+        {
+          "monster": "mon_burrower",
+          "weight": 3
+        },
+        {
+          "monster": "mon_lawn_unit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_nanny_cam",
+          "weight": 20
+        },
+        {
+          "monster": "mon_pipe_crawler",
+          "weight": 20
+        }
+      ]
+    },
+    "threat_4": {
+      "chance": 0.38,
+      "none": 0.62,
+      "entries": [
+        {
+          "monster": "mon_wolf",
+          "weight": 100,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_cougar",
+          "weight": 50
+        },
+        {
+          "monster": "mon_boar_wild",
+          "weight": 50
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 20
+        },
+        {
+          "monster": "mon_bear",
+          "weight": 20
+        },
+        {
+          "monster": "mon_moose",
+          "weight": 20
+        },
+        {
+          "monster": "mon_coyote",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_deer",
+          "weight": 20
+        },
+        {
+          "monster": "mon_bobcat",
+          "weight": 8
+        },
+        {
+          "monster": "mon_beaver",
+          "weight": 3
+        },
+        {
+          "monster": "mon_raven",
+          "weight": 3,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 8
+        },
+        {
+          "monster": "mon_burrower",
+          "weight": 8
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 3
+        },
+        {
+          "monster": "mon_lawn_unit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_nanny_cam",
+          "weight": 20
+        },
+        {
+          "monster": "mon_pipe_crawler",
+          "weight": 20
+        }
+      ]
+    },
+    "threat_5": {
+      "chance": 0.46,
+      "none": 0.54,
+      "entries": [
+        {
+          "monster": "mon_echo_hound",
+          "weight": 100
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 50
+        },
+        {
+          "monster": "mon_wolf",
+          "weight": 50,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_cougar",
+          "weight": 50
+        },
+        {
+          "monster": "mon_bear",
+          "weight": 20
+        },
+        {
+          "monster": "mon_moose",
+          "weight": 20
+        },
+        {
+          "monster": "mon_boar_wild",
+          "weight": 20
+        },
+        {
+          "monster": "mon_coyote",
+          "weight": 8,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_bobcat",
+          "weight": 8
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 8,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 8
+        },
+        {
+          "monster": "mon_burrower",
+          "weight": 8
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 3
+        },
+        {
+          "monster": "mon_lawn_unit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_nanny_cam",
+          "weight": 20
+        },
+        {
+          "monster": "mon_pipe_crawler",
+          "weight": 20
+        }
+      ]
+    },
+    "house_1": {
+      "chance": 0.12,
+      "none": 0.88,
+      "entries": [
+        {
+          "monster": "mon_cat",
+          "weight": 100
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 50
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 50,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_dog_chihuahua",
+          "weight": 20
+        },
+        {
+          "monster": "mon_opossum",
+          "weight": 20
+        },
+        {
+          "monster": "mon_squirrel",
+          "weight": 20
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 8
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 50
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 20
+        },
+        {
+          "monster": "mon_nanny_cam",
+          "weight": 20
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 20
+        }
+      ]
+    },
+    "house_2": {
+      "chance": 0.2,
+      "none": 0.8,
+      "entries": [
+        {
+          "monster": "mon_dog",
+          "weight": 100,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_cat",
+          "weight": 50
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 50
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 20,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_coyote",
+          "weight": 20,
+          "pack": {
+            "0": 100,
+            "1": 3
+          }
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 8
+        },
+        {
+          "monster": "mon_freight_mule",
+          "weight": 50
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 20
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 20
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 8
+        },
+        {
+          "monster": "mon_nurse_unit",
+          "weight": 3
+        },
+        {
+          "monster": "mon_nanny_cam",
+          "weight": 20
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 20
+        }
+      ]
+    },
+    "house_3": {
+      "chance": 0.28,
+      "none": 0.72,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 50,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_wolf",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 20
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 20
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 8,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 20
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 8
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 8
+        },
+        {
+          "monster": "mon_ward",
+          "weight": 3
+        },
+        {
+          "monster": "mon_nanny_cam",
+          "weight": 20
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 20
+        }
+      ]
+    },
+    "house_4": {
+      "chance": 0.38,
+      "none": 0.62,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 50,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_wolf",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 20
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 20
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 8,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 20
+        },
+        {
+          "monster": "mon_compactor",
+          "weight": 8
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 8
+        },
+        {
+          "monster": "mon_ward",
+          "weight": 3
+        },
+        {
+          "monster": "mon_nanny_cam",
+          "weight": 20
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 20
+        }
+      ]
+    },
+    "clinic_2": {
+      "chance": 0.2,
+      "none": 0.8,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 20
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 20,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 8
+        },
+        {
+          "monster": "mon_ward",
+          "weight": 50
+        },
+        {
+          "monster": "mon_nurse_unit",
+          "weight": 50
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 20
+        },
+        {
+          "monster": "mon_surveyor",
+          "weight": 8
+        }
+      ]
+    },
+    "clinic_3": {
+      "chance": 0.28,
+      "none": 0.72,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 20
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 20,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 8
+        },
+        {
+          "monster": "mon_orderly_unit",
+          "weight": 50
+        },
+        {
+          "monster": "mon_nurse_unit",
+          "weight": 50
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 20
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 8
+        }
+      ]
+    },
+    "clinic_4": {
+      "chance": 0.38,
+      "none": 0.62,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 20
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 20,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 8
+        },
+        {
+          "monster": "mon_ward",
+          "weight": 50
+        },
+        {
+          "monster": "mon_field_medic",
+          "weight": 50
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 20
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 8
+        }
+      ]
+    },
+    "clinic_5": {
+      "chance": 0.46,
+      "none": 0.54,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 20
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 20,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 8
+        },
+        {
+          "monster": "mon_ward",
+          "weight": 50
+        },
+        {
+          "monster": "mon_nurse_unit",
+          "weight": 50
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 20
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 8
+        }
+      ]
+    },
+    "tech_3": {
+      "chance": 0.28,
+      "none": 0.72,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 50
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 8,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_cable_walker",
+          "weight": 100
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 20
+        },
+        {
+          "monster": "mon_burrower",
+          "weight": 20
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 8
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 8
+        }
+      ]
+    },
+    "tech_4": {
+      "chance": 0.38,
+      "none": 0.62,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 50
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 8,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 100
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_shear_drone",
+          "weight": 20
+        },
+        {
+          "monster": "mon_auger_unit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 8
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 8
+        }
+      ]
+    },
+    "tech_5": {
+      "chance": 0.46,
+      "none": 0.54,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 50
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_dog",
+          "weight": 20,
+          "pack": [
+            1,
+            1
+          ]
+        },
+        {
+          "monster": "mon_black_rat",
+          "weight": 8,
+          "pack": [
+            1,
+            3
+          ]
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 100
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 20
+        },
+        {
+          "monster": "mon_burrower",
+          "weight": 20
+        },
+        {
+          "monster": "mon_web_keeper",
+          "weight": 8
+        },
+        {
+          "monster": "mon_porter",
+          "weight": 8
+        }
+      ]
+    },
+    "checkpoint_4": {
+      "chance": 0.38,
+      "none": 0.62,
+      "entries": [
+        {
+          "monster": "mon_draft",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_wolf",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_sentry_post",
+          "weight": 100
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 50
+        },
+        {
+          "monster": "mon_burrower",
+          "weight": 50
+        },
+        {
+          "monster": "mon_cordon_unit",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 8
+        }
+      ]
+    },
+    "checkpoint_5": {
+      "chance": 0.46,
+      "none": 0.54,
+      "entries": [
+        {
+          "monster": "mon_draft",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 50
+        },
+        {
+          "monster": "mon_wolf",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_gatewatch",
+          "weight": 100
+        },
+        {
+          "monster": "mon_stray_hack",
+          "weight": 50
+        },
+        {
+          "monster": "mon_burrower",
+          "weight": 50
+        },
+        {
+          "monster": "mon_clearance_drone",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 8
+        }
+      ]
+    },
+    "lab_4": {
+      "chance": 0.38,
+      "none": 0.62,
+      "entries": [
+        {
+          "monster": "mon_echo",
+          "weight": 50
+        },
+        {
+          "monster": "mon_draft",
+          "weight": 50
+        },
+        {
+          "monster": "mon_echo_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_clearance_drone",
+          "weight": 100,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 100
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 20
+        },
+        {
+          "monster": "mon_sentry_post",
+          "weight": 20
+        },
+        {
+          "monster": "mon_ward",
+          "weight": 8
+        },
+        {
+          "monster": "mon_nurse_unit",
+          "weight": 8
+        }
+      ]
+    },
+    "lab_5": {
+      "chance": 0.46,
+      "none": 0.54,
+      "entries": [
+        {
+          "monster": "mon_draft",
+          "weight": 100
+        },
+        {
+          "monster": "mon_echo",
+          "weight": 50
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 100
+        },
+        {
+          "monster": "mon_clearance_drone",
+          "weight": 100,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_sentry_post",
+          "weight": 50
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 20
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 20
+        },
+        {
+          "monster": "mon_prototype",
+          "weight": 20
+        },
+        {
+          "monster": "mon_ward",
+          "weight": 8
+        }
+      ]
+    },
+    "deep_1": {
+      "chance": 0.3,
+      "none": 0.7,
+      "entries": [
+        {
+          "monster": "mon_watcher",
+          "weight": 50
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_clearance_drone",
+          "weight": 100,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 50
+        },
+        {
+          "monster": "mon_ward",
+          "weight": 20
+        }
+      ]
+    },
+    "deep_2": {
+      "chance": 0.36,
+      "none": 0.64,
+      "entries": [
+        {
+          "monster": "mon_clearance_drone",
+          "weight": 100,
+          "pack": [
+            2,
+            3
+          ]
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 100
+        },
+        {
+          "monster": "mon_sweeper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_sentry_post",
+          "weight": 50
+        },
+        {
+          "monster": "mon_tripper",
+          "weight": 50,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_gantry_keeper",
+          "weight": 20
+        }
+      ]
+    },
+    "deep_3": {
+      "chance": 0.42,
+      "none": 0.58,
+      "entries": [
+        {
+          "monster": "mon_sentinel",
+          "weight": 100,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_sentry_post",
+          "weight": 50
+        },
+        {
+          "monster": "mon_custodian",
+          "weight": 100
+        },
+        {
+          "monster": "mon_clearance_drone",
+          "weight": 50,
+          "pack": [
+            2,
+            4
+          ]
+        },
+        {
+          "monster": "mon_archivist",
+          "weight": 50
+        },
+        {
+          "monster": "mon_patchwork_unit",
+          "weight": 20
+        }
+      ]
+    },
+    "deep_4": {
+      "chance": 0.48,
+      "none": 0.52,
+      "entries": [
+        {
+          "monster": "mon_custodian",
+          "weight": 100,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_prototype",
+          "weight": 50
+        },
+        {
+          "monster": "mon_indexer",
+          "weight": 50
+        },
+        {
+          "monster": "mon_lock_keeper",
+          "weight": 50
+        },
+        {
+          "monster": "mon_sentry_post",
+          "weight": 50,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_clearance_drone",
+          "weight": 50,
+          "pack": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    "deep_5": {
+      "chance": 0.5,
+      "none": 0.5,
+      "entries": [
+        {
+          "monster": "mon_arbiter",
+          "weight": 100,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_prototype",
+          "weight": 50,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_custodian",
+          "weight": 50,
+          "pack": [
+            2,
+            3
+          ]
+        },
+        {
+          "monster": "mon_archivist",
+          "weight": 50
+        },
+        {
+          "monster": "mon_bulkhead_warden",
+          "weight": 8
+        }
+      ]
+    },
+    "quiet_site_0": {
+      "chance": 0.07,
+      "none": 0.93,
+      "entries": [
+        {
+          "monster": "mon_wild_rabbit",
+          "weight": 20
+        },
+        {
+          "monster": "mon_squirrel",
+          "weight": 20
+        },
+        {
+          "monster": "mon_chipmunk",
+          "weight": 20
+        },
+        {
+          "monster": "mon_crow",
+          "weight": 20,
+          "pack": [
+            1,
+            2
+          ]
+        },
+        {
+          "monster": "mon_rabbit",
+          "weight": 8
+        },
+        {
+          "monster": "mon_hare",
+          "weight": 8
+        },
+        {
+          "monster": "mon_skink_fivelined",
+          "weight": 8
+        },
+        {
+          "monster": "mon_raccoon",
+          "weight": 50
+        },
+        {
+          "monster": "mon_gartersnake",
+          "weight": 8
+        },
+        {
+          "monster": "mon_dog_chihuahua",
+          "weight": 8
+        },
+        {
+          "monster": "mon_chicken",
+          "weight": 3
+        },
+        {
+          "monster": "mon_duck",
+          "weight": 3
+        },
+        {
+          "monster": "mon_cat",
+          "weight": 20
+        },
+        {
+          "monster": "mon_turtle_painted",
+          "weight": 3
+        },
+        {
+          "monster": "mon_opossum",
+          "weight": 20
+        },
+        {
+          "monster": "mon_groundhog",
+          "weight": 20
+        },
+        {
+          "monster": "mon_cormorant",
+          "weight": 3
+        },
+        {
+          "monster": "mon_bullfrog_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_bat",
+          "weight": 3
+        },
+        {
+          "monster": "mon_sewer_rat",
+          "weight": 3
+        },
+        {
+          "monster": "mon_squirrel_red",
+          "weight": 3
+        },
+        {
+          "monster": "mon_ferret",
+          "weight": 3
+        },
+        {
+          "monster": "mon_cat_longhair",
+          "weight": 3
+        },
+        {
+          "monster": "mon_bluejay",
+          "weight": 3
+        },
+        {
+          "monster": "mon_cardinal",
+          "weight": 3
+        },
+        {
+          "monster": "mon_robin",
+          "weight": 3
+        },
+        {
+          "monster": "mon_sparrow",
+          "weight": 3
+        },
+        {
+          "monster": "mon_chickadee",
+          "weight": 3
+        },
+        {
+          "monster": "mon_waxwing",
+          "weight": 3
+        },
+        {
+          "monster": "mon_pigeon",
+          "weight": 3
+        },
+        {
+          "monster": "mon_hummingbird",
+          "weight": 3
+        },
+        {
+          "monster": "mon_woodpecker",
+          "weight": 3
+        },
+        {
+          "monster": "mon_coot",
+          "weight": 3
+        },
+        {
+          "monster": "mon_moorhen",
+          "weight": 3
+        },
+        {
+          "monster": "mon_grebe",
+          "weight": 3
+        },
+        {
+          "monster": "mon_wormsnake",
+          "weight": 3
+        },
+        {
+          "monster": "mon_leo_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_fowler_toad",
+          "weight": 3
+        },
+        {
+          "monster": "mon_freedom_toad",
+          "weight": 3
+        },
+        {
+          "monster": "mon_peeper_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_gray_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_mink_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_green_frog",
+          "weight": 3
+        },
+        {
+          "monster": "mon_wood_frog",
+          "weight": 3
+        }
+      ]
+    }
+  }
+}

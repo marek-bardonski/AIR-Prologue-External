@@ -1,0 +1,179 @@
+{
+  "group": "p29_w_survival_gear",
+  "source": "29.09.2026 survival workstream: the common lighters CDDA has and the game lacked (fire starters are data: game-data/firestarters.json)",
+  "items": [
+    {
+      "id": "small_lighter",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 2,
+          "charges": [
+            10,
+            50
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 3,
+          "charges": [
+            30,
+            50
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 5,
+          "charges": [
+            20,
+            50
+          ]
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 3,
+          "charges": [
+            30,
+            50
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 2,
+          "charges": [
+            5,
+            40
+          ]
+        },
+        {
+          "table": "road",
+          "weight": 1,
+          "charges": [
+            5,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ref_lighter",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "charges": [
+            10,
+            50
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 1,
+          "charges": [
+            30,
+            50
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 1,
+          "charges": [
+            20,
+            50
+          ]
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "charges": [
+            30,
+            50
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.5,
+          "charges": [
+            10,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electric_lighter",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            10,
+            30
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "charges": [
+            5,
+            30
+          ]
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.3,
+          "charges": [
+            10,
+            30
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "small_lighter",
+      "initial_charges": 50,
+      "max_charges": 50,
+      "//": "CDDA pocket: butane 50; refillable, so it would spawn empty"
+    },
+    {
+      "type": "ITEM",
+      "id": "ref_lighter",
+      "initial_charges": 50,
+      "max_charges": 50,
+      "//": "CDDA pocket: lamp_oil 50; refillable, so it would spawn empty"
+    },
+    {
+      "type": "ITEM",
+      "id": "ref_matches",
+      "initial_charges": 32,
+      "max_charges": 32,
+      "//": "CDDA pocket: match 32; refillable, so it would spawn with one"
+    },
+    {
+      "type": "ITEM",
+      "id": "char_purifier",
+      "initial_charges": 180,
+      "max_charges": 180,
+      "//": "CDDA pocket: charcoal 180 (FULL_MAGAZINE recipe); 12 a unit of water"
+    },
+    {
+      "type": "ITEM",
+      "id": "char_purifier_clay",
+      "initial_charges": 720,
+      "max_charges": 720,
+      "//": "CDDA pocket: charcoal 720 (FULL_MAGAZINE recipe); 12 a unit of water"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "small_lighter and ref_lighter are refillable in CDDA (no NO_RELOAD), so their magazines would spawn empty: the overrides give them a full load; the loot rows roll a partial one.",
+    "ref_matches: same fix (32 matches, CDDA's pocket).",
+    "char_purifier / char_purifier_clay: CDDA fills them from the recipe (FULL_MAGAZINE, charcoal 180 / 720); the overrides make every one, found or made, start full. Spent ones are taken apart and remade with fresh charcoal."
+  ]
+}

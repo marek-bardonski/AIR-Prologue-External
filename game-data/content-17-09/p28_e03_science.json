@@ -1,0 +1,252 @@
+{
+  "group": "p28_e03_science",
+  "source": "28.09.2026 next-1000 import, electronics and applied science: trainer books and laboratory instruments",
+  "items": [
+    {
+      "id": "textbook_robots",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "recipe_lab_elec",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.5
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "catalytic_cracking_handbook",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "textbook_biodiesel",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.5
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "recipe_labchem",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.5
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "textbook_toxicology",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 0.5
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "analytical_set_basic",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "spectrophotometer",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.5
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "ph_meter",
+      "loot": [
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 2
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "melting_point",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.5
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "microcentrifuge",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.5
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "vac_pump",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.5
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "rotovap",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "closed_loop_extractor_small",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "portable_game",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "hd_tow_cable",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "analytical_set_basic",
+      "name": {
+        "str": "basic chemical analysis kit"
+      },
+      "//": "CDDA calls it a 'laboratory' kit; the word would let the Fate FAQ name the hidden facility before the village (tests/robots, fate-purpose)."
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:analytical_set_basic",
+    "recipe:closed_loop_extractor_small"
+  ],
+  "recipesExpected": [
+    "recipe:hd_tow_cable"
+  ],
+  "notes": [
+    "The lab journals and textbooks train electronics and chemistry to 7-10; recipes they name that need mutagen, bots or augs stay unobtainable and hidden."
+  ]
+}

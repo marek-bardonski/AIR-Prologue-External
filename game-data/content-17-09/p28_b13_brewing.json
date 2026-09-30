@@ -1,0 +1,221 @@
+{
+  "group": "p28_b13_brewing",
+  "source": "28.09.2026: the brewing chain \u2014 musts and worts ferment into drinks (a BREWABLE's brew_time and brew_results, read as a timed transform)",
+  "items": [
+    {
+      "id": "brew_fruit_wine",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_mead",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_hopped_mead",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_spiced_mead",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_dandelion_wine",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_burdock_wine",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_pine_wine",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_hb_beer",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_hb_seltzer",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_moonshine",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "wash_moonshine",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_whiskey",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "wash_whiskey",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_vodka",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "wash_vodka",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_rum",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "wash_rum",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brew_gin",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "gin_mash",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "malting_grain",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "malted_grain",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "soaking_dandelion",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "soaked_dandelion",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "young_yeast",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "hops",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 1
+        },
+        {
+          "table": "field",
+          "weight": 0.5
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "winemaking_beginner",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "malting_grain",
+      "comestible_type": "INVALID",
+      "//": "a brewing ingredient: it carries barley's calories whatever grain went in, so eating it would turn oats into barley"
+    },
+    {
+      "type": "ITEM",
+      "id": "malted_grain",
+      "comestible_type": "INVALID",
+      "//": "a brewing ingredient (and flour for the mill), not a meal: same calorie leak as malting_grain"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:brew_burdock_wine",
+    "recipe:brew_dandelion_wine",
+    "recipe:brew_fruit_wine",
+    "recipe:brew_gin",
+    "recipe:brew_hb_beer",
+    "recipe:brew_hb_seltzer",
+    "recipe:brew_hopped_mead",
+    "recipe:brew_mead",
+    "recipe:brew_moonshine",
+    "recipe:brew_moonshine:pumpkin",
+    "recipe:brew_pine_wine",
+    "recipe:brew_rum",
+    "recipe:brew_spiced_mead",
+    "recipe:brew_vodka",
+    "recipe:brew_whiskey",
+    "recipe:malting_grain",
+    "recipe:soaking_dandelion",
+    "recipe:young_yeast",
+    "recipe:young_yeast:from_honey"
+  ],
+  "notes": [
+    "A must ferments in whatever vessel it sits in: the Prologue has no fermenting vat. Yeast is not returned.",
+    "brew_sake left out: its koji rice does not exist here."
+  ]
+}

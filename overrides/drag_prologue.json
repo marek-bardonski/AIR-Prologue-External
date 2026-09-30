@@ -1,0 +1,240 @@
+[
+ {
+  "//": "Prologue dragging: CDDA models carts as vehicles, which the Prologue does not have. These are original items a survivor loads and pulls from hex to hex (game-data/rules.json drag.carts says what each can take). Components are CDDA ids."
+ },
+ {
+  "id": "drag_travois",
+  "type": "ITEM",
+  "name": {
+   "str": "travois",
+   "str_pl": "travois"
+  },
+  "description": "Two long poles lashed into a narrow frame with cross-pieces between them. One end rides on your shoulders and the other trails along the ground, carrying what your back cannot.",
+  "weight": "4 kg",
+  "volume": "12 L",
+  "longest_side": "250 cm",
+  "material": [
+   "wood"
+  ],
+  "symbol": "/",
+  "color": "brown",
+  "flags": [
+   "DRAG_CART"
+  ]
+ },
+ {
+  "id": "drag_hand_cart",
+  "type": "ITEM",
+  "name": {
+   "str": "hand cart",
+   "str_pl": "hand carts"
+  },
+  "description": "A plank box on two wheels sawn from a log, with a pair of shafts to haul it by. It rattles and it is ugly, and it moves a day of carrying in one trip.",
+  "weight": "28 kg",
+  "volume": "90 L",
+  "longest_side": "180 cm",
+  "material": [
+   "wood"
+  ],
+  "symbol": "#",
+  "color": "brown",
+  "flags": [
+   "DRAG_CART"
+  ]
+ },
+ {
+  "type": "recipe",
+  "result": "drag_travois",
+  "activity_level": "MODERATE_EXERCISE",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "survival",
+  "difficulty": 0,
+  "time": "25 m",
+  "autolearn": true,
+  "qualities": [
+   {
+    "id": "CUT",
+    "level": 1
+   }
+  ],
+  "components": [
+   [
+    [
+     "stick_long",
+     3
+    ]
+   ],
+   [
+    [
+     "cordage_36",
+     1
+    ],
+    [
+     "rope_6",
+     1
+    ]
+   ]
+  ]
+ },
+ {
+  "type": "recipe",
+  "result": "drag_hand_cart",
+  "activity_level": "MODERATE_EXERCISE",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "fabrication",
+  "difficulty": 2,
+  "time": "3 h",
+  "autolearn": true,
+  "qualities": [
+   {
+    "id": "HAMMER",
+    "level": 1
+   },
+   {
+    "id": "SAW_W",
+    "level": 1
+   }
+  ],
+  "components": [
+   [
+    [
+     "log",
+     1
+    ]
+   ],
+   [
+    [
+     "2x4",
+     8
+    ]
+   ],
+   [
+    [
+     "wood_panel",
+     1
+    ]
+   ],
+   [
+    [
+     "nail",
+     30
+    ]
+   ],
+   [
+    [
+     "rope_6",
+     1
+    ],
+    [
+     "cordage_36",
+     2
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "drag_wagon",
+  "type": "ITEM",
+  "name": {
+   "str": "haul wagon",
+   "str_pl": "haul wagons"
+  },
+  "description": "A long plank bed on four log wheels with a pipe for each axle and a drawbar you lean your whole weight into. It is slow to build and slower to turn, and it will carry a whole camp in one go.",
+  "weight": "55 kg",
+  "volume": "220 L",
+  "longest_side": "260 cm",
+  "material": [
+   "wood",
+   "steel"
+  ],
+  "symbol": "#",
+  "color": "brown",
+  "flags": [
+   "DRAG_CART"
+  ]
+ },
+ {
+  "type": "recipe",
+  "result": "drag_wagon",
+  "activity_level": "MODERATE_EXERCISE",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "fabrication",
+  "difficulty": 4,
+  "time": "8 h",
+  "autolearn": true,
+  "qualities": [
+   {
+    "id": "HAMMER",
+    "level": 1
+   },
+   {
+    "id": "SAW_W",
+    "level": 1
+   }
+  ],
+  "components": [
+   [
+    [
+     "log",
+     2
+    ]
+   ],
+   [
+    [
+     "2x4",
+     16
+    ]
+   ],
+   [
+    [
+     "wood_panel",
+     3
+    ]
+   ],
+   [
+    [
+     "pipe",
+     2
+    ]
+   ],
+   [
+    [
+     "nail",
+     80
+    ]
+   ],
+   [
+    [
+     "rope_6",
+     2
+    ],
+    [
+     "rope_30",
+     1
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "camp_bundle",
+  "type": "ITEM",
+  "name": {
+   "str": "packed station",
+   "str_pl": "packed stations"
+  },
+  "description": "A piece of your camp taken apart with care, every part numbered in charcoal and lashed into one load. It weighs what it is made of. Set it up again where you make camp.",
+  "weight": "150 g",
+  "volume": "250 ml",
+  "material": [
+   "cotton"
+  ],
+  "symbol": "&",
+  "color": "brown",
+  "flags": [
+   "CAMP_BUNDLE"
+  ]
+ }
+]

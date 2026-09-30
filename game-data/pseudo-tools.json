@@ -1,0 +1,47 @@
+{
+  "//": "CDDA pseudo tool ids (used in recipe tool lists such as 'fire', or via requirement groups like surface_heat) and what satisfies them in the Prologue. items = whitelisted items that count when carried (Phase 0: deployables count wherever the player is).",
+  "pseudoTools": {
+    "fire": {
+      "stations": [
+        "fire_ring",
+        "stone_fireplace",
+        "clay_oven"
+      ],
+      "items": [
+        "makeshift_brazier",
+        "brazier",
+        "hobo_stove"
+      ]
+    },
+    "char_smoker": {
+      "stations": [
+        "smoking_rack"
+      ],
+      "items": []
+    },
+    "oven": {
+      "stations": [
+        "clay_oven"
+      ],
+      "items": []
+    },
+    "screw_press": {
+      "stations": [
+        "screw_press"
+      ],
+      "items": []
+    },
+    "scutcheritem": {
+      "stations": [
+        "stationary_scutcher"
+      ],
+      "items": []
+    },
+    "fake_tire_changer": {
+      "stations": [],
+      "items": [
+        "manual_tire_changer"
+      ]
+    }
+  }
+}

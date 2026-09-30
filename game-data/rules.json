@@ -1,0 +1,615 @@
+{
+  "//": "Game rules that reference CDDA data. Numbers here are Prologue design values, not CDDA values.",
+  "crafting": {
+    "belowSkillTimeMultiplier": 1,
+    "stationToolsConsumeCharges": false,
+    "wipMinutes": 30
+  },
+  "capacity": {
+    "baseWeightGrams": 13000,
+    "weightPerStrGrams": 4000,
+    "handsHoldOneItem": true,
+    "legEncumbranceTravelPercent": 0.5
+  },
+  "needs": {
+    "kcalMax": 2500,
+    "hydrationMax": 100,
+    "fatigueRisePer5Min": 1,
+    "fatigueExhausted": 575,
+    "sleepRecoveryPerMinute": 1
+  },
+  "sleepQuality": {
+    "large_tent_kit": 0.9,
+    "bodypillow": 0.5,
+    "shark_plushie": 0.45,
+    "sleeping_bag_roll": 0.85,
+    "sleeping_bag_fur": 0.9,
+    "sleeping_bag_fur_roll": 0.9,
+    "ground": 0.4,
+    "camp": 0.6,
+    "rollmat": 0.85,
+    "fur_rollmat": 0.87,
+    "sleeping_bag": 0.85,
+    "sleeping_bag_improvised": 0.75,
+    "cot": 0.9,
+    "straw_bed": 0.8,
+    "makeshift_bed": 1.0,
+    "mattress": 1,
+    "tent_kit": 0.85,
+    "tarp": 0.7,
+    "hammock_net": 0.8,
+    "quilt": 0.55,
+    "quilt_patchwork": 0.55,
+    "emer_blanket": 0.5,
+    "down_mattress": 1
+  },
+  "athletics": {
+    "//": "The one skill a survivor trains simply by living out of doors. It is the CDDA `swimming` skill under a Prologue name, because there is nothing else to swim for here: it is stamina, wind and footwork. Every level is worth this much.",
+    "skill": "swimming",
+    "speedPerLevel": 0.1,
+    "staminaPerLevel": 0.1,
+    "fleePerLevel": 0.05,
+    "maxLevel": 10,
+    "//xp": "Where the practice comes from: walking the map, searching a hex, and every step and every escape made under pressure.",
+    "xp": {
+      "perHex": 2,
+      "perExploreHour": 3,
+      "perRetreatStep": 1,
+      "onEscape": 12,
+      "perBashRound": 1.5
+    },
+    "//perBashRound": "Prologue rule (26.09.2026, evening): every round of breaking something up is hard work with the whole body and trains athletics a little, less than a hex walked."
+  },
+  "combat": {
+    "woundedEnemy": {
+      "//": "An enemy left hurt on the map after a fight (it got away, or the survivor did) heals healPerDay of its full health a day, reckoned from the fight. One that ran from the survivor may also move on for good: goneChancePerDay, rolled once for every full day after it fled. Code: src/game/combat/WoundedEnemies.js.",
+      "healPerDay": 0.12,
+      "goneChancePerDay": 0.1
+    },
+    "//warnHitChance": "The fight box warns before the first move when the chosen attack lands less often than this (presentation only).",
+    "warnHitChance": 0.25,
+    "tickRealMs": 3461.5384615384614,
+    "gameMinutesPerTick": 1,
+    "baseAttackCost": 100,
+    "weightCostPerKg": 30,
+    "referenceStrength": 8,
+    "encumbranceCostPercent": 1,
+    "loadCostFreeShare": 0.5,
+    "loadCostMax": 1.0,
+    "damageRollMin": 0.5,
+    "skillDamagePerLevel": 0.05,
+    "armorChipShare": 0.2,
+    "perks": {
+      "staggerShare": 0.25,
+      "staggerFullHitShare": 0.15,
+      "bleedDivisor": 5,
+      "bleedHpPerMinute": 0.2,
+      "bleedDecayPerMinute": 1.0,
+      "pierceArmorShare": 0.5
+    },
+    "fleeAttemptCost": 50.0,
+    "//bareHands": "Fighting with nothing in your hands. The Prologue has no unarmed skill - melee covers it - so this is only what a fist is worth.",
+    "bareHands": {
+      "bash": [
+        1,
+        3
+      ]
+    },
+    "terrainFleeMod": {
+      "forest": 0.1,
+      "dense_forest": 0.05,
+      "road": -0.05,
+      "ruins": -0.1,
+      "hills": -0.05
+    },
+    "protection": {
+      "//": "How the character screen reads what is worn on a body part: the expected damage stopped from one landed blow, averaged over the three kinds. Bands are [at least, id, label], the highest match winning. Presentation only - nothing here changes a fight.",
+      "//foldShare": "The Prologue tracks six body parts, so feet, hands, eyes and mouth fold into the limb they belong to. A boot covers the whole of a foot but only this share of a leg, and that is what its armour is worth against a blow aimed at the leg.",
+      "foldShare": {
+        "foot": 0.2,
+        "hand": 0.2,
+        "eyes": 0.1,
+        "mouth": 0.15
+      },
+      "//bandCoverageFloor": "A part that is barely covered never reads better than this band, however thick the one scrap of armour on it is.",
+      "bandCoverageFloor": 25,
+      "bandAtCoverageFloor": "token",
+      "bands": [
+        [
+          0,
+          "none",
+          "Unprotected"
+        ],
+        [
+          0.5,
+          "token",
+          "Barely covered"
+        ],
+        [
+          3,
+          "light",
+          "Light"
+        ],
+        [
+          8,
+          "solid",
+          "Solid"
+        ],
+        [
+          15,
+          "heavy",
+          "Heavy"
+        ]
+      ]
+    },
+    "damageByRisk": [
+      1,
+      1,
+      1.05,
+      1.08,
+      1.1,
+      1.12
+    ]
+  },
+  "forestry": {
+    "//": "Original Prologue balance: mature trees available per hex, two hours with a basic axe. CDDA-style extended axe labour, not a port of CDDA code or its formula. Work and the resulting stumps persist.",
+    "terrains": {
+      "forest": 8,
+      "dense_forest": 16
+    },
+    "quality": [
+      "AXE",
+      1
+    ],
+    "minutes": 120,
+    "speedPerToolLevel": 0.5,
+    "minimumStamina": 5,
+    "skill": "survival",
+    "xp": 8,
+    "yields": [
+      {
+        "id": "log",
+        "count": [
+          2,
+          4
+        ]
+      },
+      {
+        "id": "stick_long",
+        "count": [
+          2,
+          5
+        ]
+      }
+    ]
+  },
+  "stamina": {
+    "//": "How hard work and fighting tire the survivor, and how fast they get it back. Physical actions cost at least minimumWorkDrain; light bench work can recover more than it spends. Empty stamina slows all exertion and builds sleepiness until collapse.",
+    "max": 100,
+    "swingBase": 1.0,
+    "swingPerKg": 1.5,
+    "walkPerStep": 1.0,
+    "runPerStep": 6.0,
+    "runMinimum": 10,
+    "lowThreshold": 50,
+    "stopBelowPoints": 1,
+    "overexertBelow": 0.1,
+    "restAfterBelow": 0.5,
+    "//restAfterBelow": "Prologue rule (26.09.2026, evening): any action that ends with stamina under this share of the current maximum (Stamina.reachable: the bar a starving body lowers, times the share an underfed one stops at) is followed by a rest that starts slowly and can be called off. A rest that ends still under the line does not start another; never in the laboratory rooms or with an enemy on the hex. Every stamina line that is a share (overexertBelow, drag.restBelow, lowThreshold scaled from the healthy max) is a share of the current maximum.",
+    "nightRestToSleepMinutes": 120,
+    "//nightRestToSleepMinutes": "Prologue rule (26.09.2026, evening): a rest at night that would run longer than this many minutes becomes sleep (usual sleep quality, a burning hearth kept fed when fuel is within reach); the survivor can always wake.",
+    "//rest": "Prologue rule (26.09.2026): any effort (an action that spends more breath than it gives back) stops by itself when stamina falls under stopBelowPoints (empty); a walk or haul keeps its road (run.player.pendingWalk) and goes on from the very step it stopped at once the survivor chooses to. An effort begun or resumed while stamina is under overexertBelow of the maximum is a conscious choice: it runs to the end without stopping, paying the shortfall in sleepiness and pain (Stamina.spend), and the map shows OVER-EXERTION while it lasts. Any action that ends with stamina under restAfterBelow is followed by a rest. A haul has its own, higher line in drag.restBelow.",
+    "exhaustedDurationPenalty": 3,
+    "moveExhaustedPenalty": 2,
+    "//moveExhaustedPenalty": "Prologue rule (26.09.2026): every move made in a fight (back away, flee, close in, the step of a shot taken giving ground) takes 1 + this times as long on an empty bar, growing from lowThreshold down. Running from something with no wind is a real danger.",
+    "minimumWorkDrain": 0.2,
+    "fatiguePerDeficit": 2,
+    "fatiguePerShortfall": 2,
+    "//fatiguePerShortfall": "Prologue rule (26.09.2026): every effort the breath does not fully cover is one flat hit of sleepiness (times combatFatigueMultiplier in a fight) before the deficit is counted, so a swing made on one point of stamina tires like one made on none.",
+    "combatFatigueMultiplier": 10,
+    "fatiguePenalties": {
+      "//": "Original Prologue balance: current tiredness immediately affects the body, in addition to sustained sleep deprivation. Combat overdrafts build tiredness faster than ordinary work.",
+      "tired": { "speed": -10, "str": -1, "dex": -1, "int": -1, "per": -1 },
+      "dead_tired": { "speed": -20, "str": -2, "dex": -2, "int": -2, "per": -2 },
+      "exhausted": { "speed": -35, "str": -3, "dex": -4, "int": -3, "per": -4 }
+    },
+    "collapseMinutes": 10,
+    "//blackout": "Prologue rule (26.09.2026): a black-out from exhaustion in a fight is not a ten-minute pause. Out cold, the survivor stays down for combatBlackoutMinutes (the whole fight, in practice) unless a blow brings them round (blackoutWakeOnHit, rolled per hit that lands) — and then the body holds off for blackoutGraceMinutes before it can drop them again. A fight that ends while they are out becomes the forced sleep.",
+    "combatBlackoutMinutes": 720,
+    "blackoutWakeOnHit": 0.3,
+    "blackoutGraceMinutes": 15,
+    "heftDivisor": 2.0,
+    "heftMin": 0.25,
+    "heftMax": 2.0,
+    "conditionMin": 0.25,
+    "heavyDrain": 0.3,
+    "regen": {
+      "sleep": 2.0,
+      "rest": 2.5,
+      "light": 0.5,
+      "walk": 0.1,
+      "fight": 0.3,
+      "heavy": 0.0
+    },
+    "walkTypes": [
+      "travel",
+      "explore",
+      "drag_cart"
+    ],
+    "work": {
+      "build_station": [
+        0.8,
+        1.0
+      ],
+      "dismantle_station": [
+        0.8,
+        1.0
+      ],
+      "pack_station": [
+        0.8,
+        1.0
+      ],
+      "unpack_station": [
+        0.8,
+        1.0
+      ],
+      "butcher": [
+        0.5,
+        0.6
+      ],
+      "disassemble": [
+        0.0,
+        0.5
+      ],
+      "travel": [
+        0.0,
+        0.8
+      ],
+      "explore": [
+        0.0,
+        0.6
+      ],
+      "craft": [
+        0.0,
+        0.3
+      ],
+      "fish": [
+        0.0,
+        0.2
+      ],
+      "interact": [
+        0.0,
+        0.5
+      ],
+      "collect_water": [
+        0.0,
+        0.3
+      ],
+      "fell_tree": [1.2, 1.2],
+      "build_road": [
+        0.8,
+        1.0
+      ],
+      "farm_clear": [
+        0.8,
+        1.0
+      ],
+      "farm_till": [
+        0.8,
+        1.0
+      ],
+      "farm_irrigate": [
+        0.8,
+        1.0
+      ],
+      "farm_water": [
+        0.0,
+        0.6
+      ],
+      "farm_harvest": [
+        0.0,
+        0.6
+      ],
+      "farm_uproot": [
+        0.5,
+        0.7
+      ],
+      "farm_plant": [
+        0.0,
+        0.3
+      ],
+      "farm_tend": [
+        0.0,
+        0.3
+      ],
+      "farm_fertilize": [
+        0.0,
+        0.3
+      ],
+      "drag": [
+        0.6,
+        0.8
+      ],
+      "drag_cart": [
+        0.0,
+        0.3
+      ],
+      "cycle": [
+        0.2,
+        0.2
+      ],
+      "vehicle_work": [
+        0.1,
+        0.1
+      ]
+    },
+    "regenKcalPerPoint": 2.5,
+    "//regenKcalPerPoint": "Getting your breath back is not free: every point of stamina recovered is paid for in calories, from the reserve and the food meter alike."
+  },
+  "healing": {
+    "awakePerHourPerPart": 0.25,
+    "asleepPerHourPerPart": 1.0,
+    "bandagedMultiplier": 2.0,
+    "splintDays": 7
+  },
+  "loot": {
+    "clearedTileBonusRolls": 2,
+    "leftoversStayOnTile": true
+  },
+  "time": {
+    "gameHourRealSeconds": 5,
+    "startMinutes": 480,
+    "exploreMinutes": 60,
+    "travelMinutesPerStep": 10,
+    "eatMinutes": 2,
+    "drinkMinutes": 1,
+    "restOptionsMinutes": [
+      15,
+      60,
+      240
+    ],
+    "roadTravelMultiplier": 0.5,
+    "discoveredTravelMultiplier": 0.5,
+    "terrainTravelMultipliers": {
+      "//": "river: wading a ford or working along a bank is twice as slow as a forest (decided 26.09.2026); lake: only ever walked on ice",
+      "forest": 1.5,
+      "dense_forest": 2,
+      "hills": 1.5,
+      "river": 3,
+      "lake": 2.5
+    }
+  },
+  "spoilage": {
+    "//stackToleranceMinutes": "Two stacks of something that spoils merge while their remaining lives differ by less than this; the merged stack keeps the shorter life (inventory/ItemInstance.mergeStack). Things that never spoil ignore age.",
+    "stackToleranceMinutes": 60,
+    "//": "Prologue rule, not CDDA's. Anything past its shelf life turns into units of `item`, one per that item's weight in grams of what rotted; a remainder under one unit is lost. Corpses have no shelf life in the data, so corpseMinutes gives them one. sweepMinutes is how often the world is checked.",
+    "item": "spoilage",
+    "corpseMinutes": 2880,
+    "sweepMinutes": 10
+  },
+  "dayNight": {
+    "eveningHours": 1,
+    "nightHour": 20,
+    "dawnHour": 5,
+    "dayHour": 7,
+    "unlitRiskMultiplier": 5,
+    "darkCraftSpeed": 0.2,
+    "sleepRampMinutes": 20,
+    "boostHoldRealSeconds": 2.5,
+    "//boostHoldRealSeconds": "Prologue rule (26.09.2026, evening): every action, even one begun the instant another ended (the rest after a walk), runs this many real seconds at 1x before the long-action ramp starts from its bottom, so it can still be called off.",
+    "sleepMaxRate": 5,
+    "boostFromMinutes": 15,
+    "boostFullMinutes": 180,
+    "portableLights": {
+      "torch": {
+        "minutesPerCharge": 1,
+        "source": "CDDA 0.I lighting.json torch_lit turns_per_charge 60"
+      },
+      "candle": {
+        "minutesPerCharge": 21,
+        "source": "CDDA 0.I lighting.json candle_lit turns_per_charge 1260"
+      },
+      "candle_small": {
+        "minutesPerCharge": 1,
+        "source": "CDDA 0.I lighting.json candle_small_lit turns_per_charge 63 (about a minute a unit of wax: a thin candle, a hundred minutes in all)"
+      },
+      "oil_lamp_clay": {
+        "minutesPerCharge": 4,
+        "source": "CDDA 0.I lighting.json oil_lamp_clay_on turns_per_charge 240"
+      },
+      "gasoline_lantern": {
+        "minutesPerCharge": 1,
+        "source": "CDDA 0.I lighting.json gasoline_lantern_on turns_per_charge 60"
+      },
+      "propane_lantern": {
+        "minutesPerCharge": 1,
+        "source": "CDDA 0.I lighting.json propane_lantern_on turns_per_charge 60"
+      },
+      "oxylamp": {
+        "minutesPerCharge": 4,
+        "source": "CDDA 0.I lighting.json oxylamp_on turns_per_charge 240"
+      },
+      "oil_lamp": {
+        "minutesPerCharge": 4,
+        "source": "CDDA 0.I lighting.json oil_lamp_on turns_per_charge 240"
+      }
+    }
+  },
+  "lootAvailability": {
+    "backpack": 0.3333333333333333,
+    "backpack_small": 0.3333333333333333,
+    "backpack_leather": 0.3333333333333333,
+    "backpack_tactical_large": 0.3333333333333333,
+    "wicker_backpack": 0.3333333333333333,
+    "net_backpack": 0.3333333333333333,
+    "welder": 0.03804229508616976,
+    "welding_kit": 0.03804229508616976,
+    "sensor_module": 0.0007309292716156891,
+    "identification_module": 0.0007309292716156891,
+    "transponder": 0.0007309292716156891,
+    "advanced_electronics": 0.0014245485544408822,
+    "chemistry_set": 0.0010684114158312137,
+    "hotplate": 0.0014245485544408822,
+    "multimeter": 0.0014245485544408822,
+    "solar_panel": 0.0014245485544408822,
+    "geiger_off": 0.0001461570460713271,
+    "electrohack": 0.0001461570460713271,
+    "water_purifier": 0.005383433027545385,
+    "binoculars": 0.005383433027545385,
+    "soldering_iron_portable": 0.0001424273028744696,
+    "deck_chair": 0.2,
+    "fishing_rod_basic": 0.006,
+    "fishing_rod_2pc_packed": 0.05,
+    "fishing_rod_tele_packed": 0.05,
+    "fishing_rod_2pc": 0.5,
+    "fishing_rod_tele": 0.5,
+    "fishing_rod_professional": 0.5
+  },
+  "fate": {
+    "cap": 100,
+    "perHourPraying": 2,
+    "decayPerDay": 4,
+    "letterChance": 0.5,
+    "wishCosts": {
+      "hint": 20,
+      "recipe": 10,
+      "item": 40
+    },
+    "prayMinutes": {
+      "min": 15,
+      "max": 1440
+    }
+  },
+  "drag": {
+    "//": "Dragging things along the ground from hex to hex. Each hex takes the normal walking time times a factor: base + perKg x kilograms (scaled by referenceStrength / strength) + perLitre x litres + perItem x loose items. A cart in the group takes load up to its kg and litres; what rides on a cart counts at the cart's 'share' of its weight and volume and is no longer a loose item, and the base becomes cartBase. Whatever the carts cannot take is dragged as before.",
+    "restBelow": 0.5,
+    "//restBelow": "Prologue rule: a haul stops on its own when stamina falls below this share of the maximum; the survivor catches their breath and the haul resumes by itself.",
+    "base": 1.5,
+    "cartBase": 1.2,
+    "perKg": 0.03,
+    "perLitre": 0.004,
+    "perItem": 0.02,
+    "referenceStrength": 8,
+    "carts": {
+      "drag_travois": {
+        "kg": 60,
+        "litres": 120,
+        "share": 0.35
+      },
+      "drag_hand_cart": {
+        "kg": 200,
+        "litres": 400,
+        "share": 0.12
+      },
+      "drag_wagon": {
+        "kg": 500,
+        "litres": 1200,
+        "share": 0.08
+      }
+    },
+    "//road": "roadFactor multiplies a drag's per-hex time on a road hex, made or found: wheels like a road.",
+    "roadFactor": 0.75
+  },
+  "pain": {
+    "//": "AIR design, 23.09.2026, after CDDA. Pain is a number from 0 up to `max`; the HUD shows it as a percentage of 100. CDDA's stat and speed penalties (cdda-mechanics pain) and painkillers (cdda-mechanics painkillers) read perceived pain: pain less the painkiller level.",
+    "max": 150,
+    "//hit": "Every landed hit hurts at least `minimum`, and `perDamage` of its damage by type: a blow crushes and bruises, so bash hurts twice what CDDA's damage/2 gives; a cut or a stab stays at CDDA's half.",
+    "hit": {
+      "minimum": 1,
+      "perDamage": {
+        "bash": 1,
+        "cut": 0.5,
+        "stab": 0.5,
+        "default": 0.5
+      }
+    },
+    "//overexertionPerStaminaPoint": "Working or fighting on an empty stamina bar: every point of stamina the body did not have becomes this much pain.",
+    "overexertionPerStaminaPoint": 0.15,
+    "//workTypes": "CDDA's crafting rule: bench work runs at 1 - pain/100 of its speed, never below `workFloor`.",
+    "workTypes": [
+      "craft",
+      "disassemble",
+      "vehicle_work",
+      "build_station",
+      "dismantle_station",
+      "pack_station",
+      "unpack_station",
+      "butcher",
+      "repair"
+    ],
+    "workFloor": 0.1,
+    "//staminaRegenLoss": "At 100 pain, stamina comes back this much slower; less pain, proportionally less.",
+    "staminaRegenLoss": 0.5,
+    "//incapacitatedAt": "At this much perceived pain the survivor collapses and can do nothing until it falls below `recoverBelow`. In a fight the collapse costs `combatCollapseMinutes` of turns once, then they fight on.",
+    "incapacitatedAt": 100,
+    "recoverBelow": 80,
+    "combatCollapseMinutes": 2,
+    "//levels": "Words for the pain readout, from the least perceived pain each starts at.",
+    "levels": [
+      [
+        1,
+        "Minor pain"
+      ],
+      [
+        10,
+        "Distracting pain"
+      ],
+      [
+        25,
+        "Moderate pain"
+      ],
+      [
+        40,
+        "Distressing pain"
+      ],
+      [
+        60,
+        "Severe pain"
+      ],
+      [
+        80,
+        "Excruciating pain"
+      ],
+      [
+        100,
+        "Unbearable pain"
+      ]
+    ]
+  },
+  "instruments": {
+    "minMinutes": 5,
+    "maxMinutes": 60,
+    "perMinute": 0.2,
+    "cap": 4,
+    "decayStartMinutes": 30,
+    "durationMinutes": 360
+  },
+  "games": {
+    "//": "AIR design, 29.09.2026: games, music and e-books lift the mood like an instrument. Each kind has one shared bonus that builds perMinute while it lasts, up to cap; held for decayStartMinutes after the last minute, gone by durationMinutes. A kind is offered by an item carrying one of its CDDA use actions; a battery device draws playWatts[kind] from its electricity.json profile and stops when flat. hands: needs one working arm.",
+    "minMinutes": 5,
+    "maxMinutes": 120,
+    "decayStartMinutes": 30,
+    "durationMinutes": 360,
+    "kinds": {
+      "game": { "label": "Played a game", "verb": "Play", "actions": ["PORTABLE_GAME", "PLAY_GAME"], "perMinute": 0.1, "cap": 3, "hands": true },
+      "music": { "label": "Listened to music", "verb": "Listen", "actions": ["MP3"], "perMinute": 0.08, "cap": 2, "hands": false },
+      "ebook": { "label": "Read an e-book", "verb": "Read", "actions": ["EBOOKSAVE"], "perMinute": 0.06, "cap": 2, "hands": true }
+    }
+  },
+  "qualityTime": {
+    "//": "AIR design, 29.09.2026: the Character screen's Quality time planner. It spends chunkMinutes of a pastime (or one unit of food) at a time on whatever lifts the mood most per minute, until the chosen mood is reached, nothing lifts it further, stallSteps steps pass without a new best (it then ends at its best), or maxMinutes are planned. The slider runs from the mood now to what maxMinutes could reach.",
+    "chunkMinutes": 10,
+    "maxMinutes": 360,
+    "maxFoodUnits": 12,
+    "stallSteps": 4
+  },
+  "reading": {
+    "//": "AIR design, 29.09.2026: a book with a positive fun value lifts the mood while it is read, like an instrument. One shared bonus for all books, building perMinute per point of the book's fun up to capPerFun x fun (never above maxCap); once a title has been read for its chapters' worth of sittings (chapters x its reading time, at least one), a re-read gives rereadFactor of that. Held for decayStartMinutes after the last page, gone by durationMinutes.",
+    "perMinute": 0.02,
+    "capPerFun": 1,
+    "maxCap": 4,
+    "rereadFactor": 0.5,
+    "decayStartMinutes": 60,
+    "durationMinutes": 360
+  }
+}

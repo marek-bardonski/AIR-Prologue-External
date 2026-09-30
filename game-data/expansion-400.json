@@ -1,0 +1,2277 @@
+{
+  "source": "Unmodified CDDA 0.I item and recipe definitions",
+  "baseline": {
+    "items": 827,
+    "recipes": 843
+  },
+  "items": [
+    {
+      "id": "screwdriver_set",
+      "name": "screwdriver set",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "hand_drill",
+      "name": "hand drill",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "goggles_welding",
+      "name": "pair of welding goggles",
+      "file": "cdda/data/json/items/armor/eyewear.json"
+    },
+    {
+      "id": "needle_curved",
+      "name": "curved needle",
+      "file": "cdda/data/json/items/tool/tailoring.json"
+    },
+    {
+      "id": "fanning_mill",
+      "name": "fanning mill",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "light_battery_cell",
+      "name": "light battery",
+      "file": "cdda/data/json/items/battery.json"
+    },
+    {
+      "id": "light_minus_battery_cell",
+      "name": "ultra-light battery (rechargeable)",
+      "file": "cdda/data/json/items/battery.json"
+    },
+    {
+      "id": "medium_battery_cell",
+      "name": "medium battery (rechargeable)",
+      "file": "cdda/data/json/items/battery.json"
+    },
+    {
+      "id": "heavy_battery_cell",
+      "name": "small tool battery",
+      "file": "cdda/data/json/items/battery.json"
+    },
+    {
+      "id": "heavy_plus_battery_cell",
+      "name": "big tool battery",
+      "file": "cdda/data/json/items/battery.json"
+    },
+    {
+      "id": "flashlight",
+      "name": "flashlight (off)",
+      "file": "cdda/data/json/items/tool/lighting.json"
+    },
+    {
+      "id": "electric_lantern",
+      "name": "electric lantern (off)",
+      "file": "cdda/data/json/items/tool/lighting.json"
+    },
+    {
+      "id": "hand_crank_charger",
+      "name": "hand-crank charger",
+      "file": "cdda/data/json/items/tool/electronics.json"
+    },
+    {
+      "id": "battery_charger",
+      "name": "battery charger",
+      "file": "cdda/data/json/items/vehicle/utilities.json"
+    },
+    {
+      "id": "solar_panel",
+      "name": "solar panel",
+      "file": "cdda/data/json/items/vehicle/solar.json"
+    },
+    {
+      "id": "ground_solar_panel",
+      "name": "solar panel array",
+      "file": "cdda/data/json/items/vehicle/solar.json"
+    },
+    {
+      "id": "soldering_iron_portable",
+      "name": "portable soldering iron",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "hotplate",
+      "name": "hotplate",
+      "file": "cdda/data/json/items/tool/cooking.json"
+    },
+    {
+      "id": "welder_crude",
+      "name": "makeshift arc welder",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "multimeter",
+      "name": "multimeter",
+      "file": "cdda/data/json/items/tool/science.json"
+    },
+    {
+      "id": "power_supply",
+      "name": "power converter",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "amplifier",
+      "name": "amplifier circuit",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "antenna",
+      "name": "antenna",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "receiver",
+      "name": "signal receiver",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "transponder",
+      "name": "transponder circuit",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "motor_micro",
+      "name": "micro electric motor",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "motor_small",
+      "name": "small electric motor",
+      "file": "cdda/data/json/items/vehicle/motors.json"
+    },
+    {
+      "id": "motor_tiny",
+      "name": "tiny electric motor",
+      "file": "cdda/data/json/items/vehicle/motors.json"
+    },
+    {
+      "id": "cable",
+      "name": "copper wire",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "copper_wire",
+      "name": "raw copper wire",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "e_scrap",
+      "name": "electronic scrap",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "manual_electronics",
+      "name": "What's a Transistor?",
+      "file": "cdda/data/json/items/book/electronics.json"
+    },
+    {
+      "id": "mag_electronics",
+      "name": "Ham Radio Illustrated",
+      "file": "cdda/data/json/items/book/electronics.json"
+    },
+    {
+      "id": "radio_book",
+      "name": "Amateur Home Radio for Enthusiasts",
+      "file": "cdda/data/json/items/book/electronics.json"
+    },
+    {
+      "id": "advanced_electronics",
+      "name": "Advanced Electronics",
+      "file": "cdda/data/json/items/book/electronics.json"
+    },
+    {
+      "id": "light_bulb",
+      "name": "light bulb",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "circuit",
+      "name": "circuit board",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "element",
+      "name": "heating element",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "crude_heating_element",
+      "name": "crude heating element",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "beeper",
+      "name": "back-up beeper",
+      "file": "cdda/data/json/items/vehicle/noise.json"
+    },
+    {
+      "id": "makeshift_scythe_war",
+      "name": "makeshift war scythe",
+      "file": "cdda/data/json/items/melee/spears_and_polearms.json"
+    },
+    {
+      "id": "blade_scythe",
+      "name": "scythe blade",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "bike_basket",
+      "name": "bike basket",
+      "file": "cdda/data/json/items/vehicle/cargo.json"
+    },
+    {
+      "id": "i_staff",
+      "name": "ironshod quarterstaff",
+      "file": "cdda/data/json/items/melee/bludgeons.json"
+    },
+    {
+      "id": "knuckle_steel",
+      "name": "pair of scrap knuckles",
+      "file": "cdda/data/json/items/melee/unarmed_weapons.json"
+    },
+    {
+      "id": "makeshift_cane",
+      "name": "makeshift walking cane",
+      "file": "cdda/data/json/items/melee/bludgeons.json"
+    },
+    {
+      "id": "makeshift_crutches",
+      "name": "makeshift crutches",
+      "file": "cdda/data/json/items/melee/bludgeons.json"
+    },
+    {
+      "id": "seaweed_pile",
+      "name": "pile of seaweed",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "seaweed",
+      "name": "seaweed",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "loom_frame",
+      "name": "frame loom",
+      "file": "cdda/data/json/items/tool/tailoring.json"
+    },
+    {
+      "id": "paint_brush",
+      "name": "paint brush",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "pipe_tobacco",
+      "name": "tobacco pipe",
+      "file": "cdda/data/json/items/tool/smoking.json"
+    },
+    {
+      "id": "barley",
+      "name": "barley",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "threshed_barley",
+      "name": "threshed barley",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "seed_barley",
+      "name": "barley seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "buckwheat",
+      "name": "buckwheat",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "threshed_buckwheat",
+      "name": "threshed buckwheat",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "seed_buckwheat",
+      "name": "buckwheat seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "dry_beans",
+      "name": "dried beans",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "seed_beans",
+      "name": "bean seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "dry_corn",
+      "name": "dehydrated corn kernels",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "seed_corn",
+      "name": "corn seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "dry_soybean",
+      "name": "dried soybeans",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "soybean_seed",
+      "name": "soybean seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "garlic_clove",
+      "name": "garlic clove",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "seed_garlic_clove",
+      "name": "seed garlic",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "nomex_sockmitts",
+      "name": "pair of Nomex sock mitts",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "nomex_socks",
+      "name": "flame-resistant socks (pair)",
+      "file": "cdda/data/json/items/armor/boots.json"
+    },
+    {
+      "id": "oats",
+      "name": "oats",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "threshed_oats",
+      "name": "threshed oats",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "seed_oats",
+      "name": "oat seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "seed_canola",
+      "name": "canola seeds",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "threshed_canola",
+      "name": "threshed canola",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "seed_lentils",
+      "name": "lentil seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "seed_popcorn",
+      "name": "seed popcorn",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "seed_wheat",
+      "name": "wheat seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "wheat",
+      "name": "wheat",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "seed_wild_rice",
+      "name": "wild rice seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "wild_rice",
+      "name": "wild rice",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "threshed_wheat",
+      "name": "threshed wheat",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "clay_pot_flower",
+      "name": "clay flower pot",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "draw_plate",
+      "name": "draw plate",
+      "file": "cdda/data/json/items/tool/metalworking.json"
+    },
+    {
+      "id": "gasket_plastic",
+      "name": "plastic gasket",
+      "file": "cdda/data/json/items/tool/misc.json"
+    },
+    {
+      "id": "iggaak",
+      "name": "pair of snow goggles",
+      "file": "cdda/data/json/items/armor/eyewear.json"
+    },
+    {
+      "id": "medium_biogas_tank",
+      "name": "medium biogas tank",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "medium_propane_tank",
+      "name": "medium propane tank",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "mortar_lime",
+      "name": "lime mortar",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "scrap_esapi_plate",
+      "name": "scrap ESAPI plate",
+      "file": "cdda/data/json/items/armor/ballistic_armor.json"
+    },
+    {
+      "id": "scrap_esbi_plate",
+      "name": "scrap ESBI plate",
+      "file": "cdda/data/json/items/armor/ballistic_armor.json"
+    },
+    {
+      "id": "small_biogas_tank",
+      "name": "small biogas tank",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "small_propane_tank",
+      "name": "small propane tank",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "towel_hanger",
+      "name": "towel hanger",
+      "file": "cdda/data/json/items/vehicle/utilities.json"
+    },
+    {
+      "id": "cured_hide",
+      "name": "cured hide",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "cured_pelt",
+      "name": "cured pelt",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "tanned_hide",
+      "name": "tanned hide",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "tanned_pelt",
+      "name": "tanned pelt",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "2h_flail_wood",
+      "name": "peasant flail",
+      "file": "cdda/data/json/items/melee/bludgeons.json"
+    },
+    {
+      "id": "armor_xs_scrapsuit",
+      "name": "scrap suit",
+      "file": "cdda/data/json/items/armor/suits_protection.json"
+    },
+    {
+      "id": "block_and_tackle_wood",
+      "name": "wooden block and tackle",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "butterfly_net_makeshift",
+      "name": "butterfly net",
+      "file": "cdda/data/json/items/fluff.json"
+    },
+    {
+      "id": "casting_mold",
+      "name": "sandcasting mold",
+      "file": "cdda/data/json/items/tool/metalworking.json"
+    },
+    {
+      "id": "chair_wood",
+      "name": "wooden chair",
+      "file": "cdda/data/json/items/furniture/seating.json"
+    },
+    {
+      "id": "jacket_jean_mod",
+      "name": "armored jean jacket",
+      "file": "cdda/data/json/items/armor/torso_armor.json"
+    },
+    {
+      "id": "jacket_jean",
+      "name": "jean jacket",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "jacket_leather_mod",
+      "name": "armored motorcycle jacket",
+      "file": "cdda/data/json/items/armor/torso_armor.json"
+    },
+    {
+      "id": "leather_police_jacket",
+      "name": "motorcycle jacket",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "javelin_fletched_bronze",
+      "name": "bronze war dart",
+      "file": "cdda/data/json/items/ranged/throwing.json"
+    },
+    {
+      "id": "scrap_bronze",
+      "name": "chunk of bronze",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "jeans_mod",
+      "name": "armored jeans",
+      "file": "cdda/data/json/items/armor/legs_armor.json"
+    },
+    {
+      "id": "knee_pads",
+      "name": "pair of knee pads",
+      "file": "cdda/data/json/items/armor/legs_armor.json"
+    },
+    {
+      "id": "stool_wood",
+      "name": "wooden stool",
+      "file": "cdda/data/json/items/furniture/seating.json"
+    },
+    {
+      "id": "tireplate",
+      "name": "tireplate",
+      "file": "cdda/data/json/items/armor/torso_armor.json"
+    },
+    {
+      "id": "rubber_tire_chunk",
+      "name": "thick rubber chunk",
+      "file": "cdda/data/json/items/resources/misc.json"
+    },
+    {
+      "id": "vest_jean_mod",
+      "name": "armored jean vest",
+      "file": "cdda/data/json/items/armor/torso_armor.json"
+    },
+    {
+      "id": "vest_leather_mod",
+      "name": "armored leather vest",
+      "file": "cdda/data/json/items/armor/torso_armor.json"
+    },
+    {
+      "id": "bone_glue",
+      "name": "bone glue",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "seed_bottle_gourd",
+      "name": "bottle gourd seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "raw_bottle_gourd",
+      "name": "raw bottle gourd",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "seed_chicory",
+      "name": "chicory seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "chicory_raw",
+      "name": "chicory root",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "seed_japanese_knotweed",
+      "name": "Japanese knotweed stems",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "japanese_knotweed_stem",
+      "name": "Japanese knotweed stems",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "seed_potato_raw",
+      "name": "seed potatoes",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "potato",
+      "name": "raw potato",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "seed_salsify_raw",
+      "name": "salsify seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "salsify_raw",
+      "name": "salsify root",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "seed_sugar_beet",
+      "name": "sugar beet seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "sugar_beet",
+      "name": "sugar beet",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "seed_wildcarrot",
+      "name": "wild root seeds",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "cloth_vest_padded",
+      "name": "cloth-padded sleeveless shirt",
+      "file": "cdda/data/json/items/armor/torso_armor.json"
+    },
+    {
+      "id": "down_pillow",
+      "name": "down-filled pillow",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "gambeson_batting",
+      "name": "gambeson batting",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "gloves_denim_fingerless",
+      "name": "pair of fingerless denim gloves",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "gloves_denim",
+      "name": "pair of denim gloves",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "gloves_lsurvivor_fingerless",
+      "name": "pair of fingerless light survivor gloves",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_gloves.json"
+    },
+    {
+      "id": "gloves_lsurvivor",
+      "name": "pair of light survivor gloves",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_gloves.json"
+    },
+    {
+      "id": "gloves_survivor_fingerless",
+      "name": "pair of fingerless survivor gloves",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_gloves.json"
+    },
+    {
+      "id": "gloves_survivor",
+      "name": "pair of survivor gloves",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_gloves.json"
+    },
+    {
+      "id": "hat_hard_hooded",
+      "name": "summer hard hat",
+      "file": "cdda/data/json/items/armor/hats.json"
+    },
+    {
+      "id": "sun_shield",
+      "name": "sun shield",
+      "file": "cdda/data/json/items/armor/head_attachments.json"
+    },
+    {
+      "id": "hat_hard",
+      "name": "hard hat",
+      "file": "cdda/data/json/items/armor/hats.json"
+    },
+    {
+      "id": "mask_rioter",
+      "name": "rioter mask",
+      "file": "cdda/data/json/items/armor/masks.json"
+    },
+    {
+      "id": "rigid_kevlar_plate",
+      "name": "rigid Kevlar plate",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "sheet_kevlar",
+      "name": "Kevlar sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "sheet_canvas_patchwork",
+      "name": "patchwork canvas sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "sheet_denim_patchwork",
+      "name": "patchwork denim sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "denim_patch",
+      "name": "denim patch",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "sheet_faux_fur_patchwork",
+      "name": "patchwork faux fur sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "faux_fur",
+      "name": "faux fur patch",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "sheet_lycra_patchwork",
+      "name": "patchwork Lycra sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "lycra_patch",
+      "name": "Lycra patch",
+      "file": "cdda/data/json/items/resources/plastic.json"
+    },
+    {
+      "id": "sheet_neoprene_patchwork",
+      "name": "patchwork neoprene sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "neoprene",
+      "name": "neoprene patch",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "shorts_denim",
+      "name": "jorts",
+      "file": "cdda/data/json/items/armor/legs_clothes.json"
+    },
+    {
+      "id": "sleeveless_duster_faux_fur",
+      "name": "sleeveless faux fur duster",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "duster_faux_fur",
+      "name": "faux fur duster",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "sleeveless_duster_leather",
+      "name": "sleeveless leather duster",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "duster_leather",
+      "name": "leather duster",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "sleeveless_duster_survivor",
+      "name": "sleeveless survivor duster",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_overcoats.json"
+    },
+    {
+      "id": "duster_survivor",
+      "name": "survivor duster",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_overcoats.json"
+    },
+    {
+      "id": "sleeveless_trenchcoat_faux_fur",
+      "name": "sleeveless faux fur trenchcoat",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "trenchcoat_faux_fur",
+      "name": "faux fur trenchcoat",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "sleeveless_trenchcoat_leather",
+      "name": "sleeveless leather trenchcoat",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "trenchcoat_leather",
+      "name": "leather trenchcoat",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "sleeveless_trenchcoat_survivor",
+      "name": "sleeveless survivor trenchcoat",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_overcoats.json"
+    },
+    {
+      "id": "trenchcoat_survivor",
+      "name": "survivor trenchcoat",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_overcoats.json"
+    },
+    {
+      "id": "vest_jean",
+      "name": "jean vest",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "eyepatch_leather",
+      "name": "leather eyepatch",
+      "file": "cdda/data/json/items/armor/eyewear.json"
+    },
+    {
+      "id": "garter_belt",
+      "name": "garter belt",
+      "file": "cdda/data/json/items/armor/undergarment.json"
+    },
+    {
+      "id": "glasses_safety",
+      "name": "pair of safety glasses",
+      "file": "cdda/data/json/items/armor/eyewear.json"
+    },
+    {
+      "id": "hat_noise_cancelling",
+      "name": "noise canceling headgear",
+      "file": "cdda/data/json/items/armor/hats.json"
+    },
+    {
+      "id": "storage_line",
+      "name": "storage line",
+      "file": "cdda/data/json/items/generic/storage.json"
+    },
+    {
+      "id": "blt",
+      "name": "BLT",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "bacon",
+      "name": "bacon",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "lettuce",
+      "name": "handful of shredded lettuce",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "cheese_fries",
+      "name": "cheese fries",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "cheese",
+      "name": "cheese",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "fries",
+      "name": "fast-food French fries",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "cheese_grits",
+      "name": "cheese grits",
+      "file": "cdda/data/json/items/comestibles/wheat.json"
+    },
+    {
+      "id": "cornmeal",
+      "name": "cornmeal",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "cheese_rehydrated",
+      "name": "rehydrated cheese",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "cheese_powder",
+      "name": "powdered cheese",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "cooked_bell_pepper",
+      "name": "cooked bell pepper",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "bell_pepper",
+      "name": "bell pepper",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "cooked_dinner",
+      "name": "cooked TV dinner",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "frozen_dinner",
+      "name": "uncooked TV dinner",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "corn_kernels",
+      "name": "corn kernels",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "corndogs_cooked",
+      "name": "cooked corn dog",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "corndogs_frozen",
+      "name": "uncooked corn dog",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "drink_shirleytemple",
+      "name": "Shirley Temple drink",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "lemonlime",
+      "name": "lemon-lime soda",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "grenadine_syrup",
+      "name": "grenadine syrup",
+      "file": "cdda/data/json/items/comestibles/drink_other.json"
+    },
+    {
+      "id": "grapeade",
+      "name": "grapeade",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "grapeade_powder",
+      "name": "grapeade drink mix",
+      "file": "cdda/data/json/items/comestibles/fruit_dishes.json"
+    },
+    {
+      "id": "grits",
+      "name": "grits",
+      "file": "cdda/data/json/items/comestibles/wheat.json"
+    },
+    {
+      "id": "homemade_toasterpastry",
+      "name": "toaster pastry",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "toastem4",
+      "name": "homemade toast-em",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "homemade_toasterpastry2",
+      "name": "toaster pastry with buttercream",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "buttercream",
+      "name": "buttercream icing",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "hot_chocolate",
+      "name": "hot chocolate",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "cocoa_powder",
+      "name": "cocoa powder",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "hotdogs_campfire",
+      "name": "campfire hot dog",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "hotdogs_frozen",
+      "name": "uncooked hot dog",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "icecream_candy",
+      "name": "serving of candy ice cream",
+      "file": "cdda/data/json/items/comestibles/frozen.json"
+    },
+    {
+      "id": "icecream",
+      "name": "serving of ice cream",
+      "file": "cdda/data/json/items/comestibles/frozen.json"
+    },
+    {
+      "id": "sugar",
+      "name": "sugar",
+      "file": "cdda/data/json/items/comestibles/spice.json"
+    },
+    {
+      "id": "icecream_fruit",
+      "name": "serving of fruity ice cream",
+      "file": "cdda/data/json/items/comestibles/frozen.json"
+    },
+    {
+      "id": "insta_salad",
+      "name": "insta-salad",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "dried_salad",
+      "name": "dried salad",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "lemonade",
+      "name": "lemonade",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "lemonade_powder",
+      "name": "lemonade drink mix",
+      "file": "cdda/data/json/items/comestibles/fruit_dishes.json"
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "milk_raw",
+      "name": "raw milk",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "milk_choc",
+      "name": "chocolate milk",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "chocolate",
+      "name": "chocolate bar",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "cocoa_powder_milk",
+      "name": "instant cocoa",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "milk_coffee_substitute",
+      "name": "coffee substitute with milk",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "coffee_substitute",
+      "name": "coffee substitute",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "milk_coffee_substitute_sweetened",
+      "name": "sweetened coffee substitute with milk",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "milk_fortified",
+      "name": "fortified milk",
+      "file": "cdda/data/json/items/comestibles/protein.json"
+    },
+    {
+      "id": "milk_reconstituted",
+      "name": "reconstituted milk",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "con_milk",
+      "name": "condensed milk",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "milk_powder",
+      "name": "powdered milk",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "milkshake_deluxe",
+      "name": "deluxe milkshake",
+      "file": "cdda/data/json/items/comestibles/frozen.json"
+    },
+    {
+      "id": "milkshake_deluxe_choc",
+      "name": "deluxe chocolate milkshake",
+      "file": "cdda/data/json/items/comestibles/frozen.json"
+    },
+    {
+      "id": "nachosc",
+      "name": "cheese nachos",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "nachosmc",
+      "name": "meat nachos with cheese",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "nachosvc",
+      "name": "vegetarian nachos with cheese",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "orangeade",
+      "name": "orangeade",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "orangeade_powder",
+      "name": "orangeade drink mix",
+      "file": "cdda/data/json/items/comestibles/fruit_dishes.json"
+    },
+    {
+      "id": "pepperbone",
+      "name": "roasted pepper bone marrow",
+      "file": "cdda/data/json/items/comestibles/carnivore.json"
+    },
+    {
+      "id": "pepper",
+      "name": "black pepper",
+      "file": "cdda/data/json/items/comestibles/spice.json"
+    },
+    {
+      "id": "pepperfat",
+      "name": "cooked pepper fatty meat",
+      "file": "cdda/data/json/items/comestibles/carnivore.json"
+    },
+    {
+      "id": "peppermeat",
+      "name": "cooked pepper meat",
+      "file": "cdda/data/json/items/comestibles/carnivore.json"
+    },
+    {
+      "id": "pepperscrap",
+      "name": "cooked pepper scrap of meat",
+      "file": "cdda/data/json/items/comestibles/carnivore.json"
+    },
+    {
+      "id": "poultry_pepper",
+      "name": "cooked pepper poultry",
+      "file": "cdda/data/json/items/comestibles/carnivore.json"
+    },
+    {
+      "id": "poultry_scrap_pepper",
+      "name": "cooked pepper scrap of poultry",
+      "file": "cdda/data/json/items/comestibles/carnivore.json"
+    },
+    {
+      "id": "protein_smoothie",
+      "name": "protein smoothie",
+      "file": "cdda/data/json/items/comestibles/protein.json"
+    },
+    {
+      "id": "quesadilla_cheese",
+      "name": "quesadilla",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "rehydrated_chili",
+      "name": "rehydrated chili pepper",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "dry_chili",
+      "name": "dehydrated chili pepper",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "rehydrated_eggs",
+      "name": "rehydrated egg",
+      "file": "cdda/data/json/items/comestibles/egg.json"
+    },
+    {
+      "id": "powder_eggs",
+      "name": "powdered egg",
+      "file": "cdda/data/json/items/comestibles/egg.json"
+    },
+    {
+      "id": "rehydrated_froglegs",
+      "name": "rehydrated frog leg",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "dry_froglegs",
+      "name": "pair of dehydrated frog legs",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "rehydrated_garlic",
+      "name": "rehydrated garlic clove",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "dry_garlic",
+      "name": "dehydrated garlic clove",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "rehydrated_lobster",
+      "name": "rehydrated lobster",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "dry_lobster",
+      "name": "dehydrated lobster",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "rehydrated_mollusk",
+      "name": "rehydrated mollusk",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "dry_mollusk",
+      "name": "dehydrated mollusk",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "sandwich_cheese",
+      "name": "cheese sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "sandwich_cheese_grilled",
+      "name": "grilled cheese sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "sandwich_cucumber",
+      "name": "cucumber sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "cucumber",
+      "name": "salad cucumber",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "sandwich_egg_salad",
+      "name": "egg salad sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "egg_salad",
+      "name": "egg salad",
+      "file": "cdda/data/json/items/comestibles/egg.json"
+    },
+    {
+      "id": "sandwich_honey",
+      "name": "honey sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "honey_bottled",
+      "name": "forest honey",
+      "file": "cdda/data/json/items/comestibles/drink_other.json"
+    },
+    {
+      "id": "sandwich_jam",
+      "name": "jam sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "jam_fruit",
+      "name": "fruit jam",
+      "file": "cdda/data/json/items/comestibles/fruit_dishes.json"
+    },
+    {
+      "id": "sandwich_jam_butter",
+      "name": "jam and butter sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "raw_butter",
+      "name": "raw butter",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "sandwich_jam_cheese",
+      "name": "jam and cheese sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "sandwich_pb",
+      "name": "peanut butter sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "peanutbutter",
+      "name": "nut butter",
+      "file": "cdda/data/json/items/comestibles/nuts.json"
+    },
+    {
+      "id": "sandwich_pbf",
+      "name": "Fluffernutter sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "marshmallow_fluff",
+      "name": "marshmallow fluff",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "sandwich_pbh",
+      "name": "PB&H sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "sandwich_pbj",
+      "name": "PB&J sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "sandwich_pbm",
+      "name": "PB&M sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "syrup",
+      "name": "maple syrup",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "sandwich_veggy_cheese",
+      "name": "vegetable sandwich with cheese",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "small_stomach_boiled",
+      "name": "boiled stomach",
+      "file": "cdda/data/json/items/comestibles/carnivore.json"
+    },
+    {
+      "id": "soup_instant_chicken_noodle_prepared",
+      "name": "instant chicken noodle soup",
+      "file": "cdda/data/json/items/comestibles/soup.json"
+    },
+    {
+      "id": "soup_instant_chicken_noodle_powder",
+      "name": "instant chicken noodle soup powder",
+      "file": "cdda/data/json/items/comestibles/soup.json"
+    },
+    {
+      "id": "soup_instant_vegetable_prepared",
+      "name": "instant spring vegetable soup",
+      "file": "cdda/data/json/items/comestibles/soup.json"
+    },
+    {
+      "id": "soup_instant_vegetable_powder",
+      "name": "instant spring vegetable soup powder",
+      "file": "cdda/data/json/items/comestibles/soup.json"
+    },
+    {
+      "id": "stomach_boiled",
+      "name": "large boiled stomach",
+      "file": "cdda/data/json/items/comestibles/carnivore.json"
+    },
+    {
+      "id": "sweet_water",
+      "name": "sweet water",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "sweet_milk",
+      "name": "sweetened milk",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "sweet_milk_fortified",
+      "name": "sweetened fortified milk",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "tea_fruit",
+      "name": "fruit tea",
+      "file": "cdda/data/json/items/comestibles/drink.json"
+    },
+    {
+      "id": "tea_fruit_bag",
+      "name": "fruit tea bag",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "toasterpastry",
+      "name": "toaster pastry",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "toasterpastryfrozen",
+      "name": "toaster pastry (uncooked)",
+      "file": "cdda/data/json/items/comestibles/junkfood.json"
+    },
+    {
+      "id": "wild_rice_cooked",
+      "name": "cooked wild rice",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "dry_wild_rice",
+      "name": "dry wild rice",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "belt_loop_large",
+      "name": "large belt loop",
+      "file": "cdda/data/json/items/armor/ammo_pouch.json"
+    },
+    {
+      "id": "belt_loop_medium",
+      "name": "medium belt loop",
+      "file": "cdda/data/json/items/armor/ammo_pouch.json"
+    },
+    {
+      "id": "machete",
+      "name": "machete",
+      "file": "cdda/data/json/items/melee/swords_and_blades.json"
+    },
+    {
+      "id": "bag_zipper",
+      "name": "zipper bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "pear",
+      "name": "pear",
+      "file": "cdda/data/json/items/comestibles/raw_fruit.json"
+    },
+    {
+      "id": "gloves_golf",
+      "name": "pair of golfing gloves",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "wire",
+      "name": "wire",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "anvil",
+      "name": "anvil",
+      "file": "cdda/data/json/items/tool/metalworking.json"
+    },
+    {
+      "id": "mre_bag_spread",
+      "name": "MRE spread bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "can_corn",
+      "name": "canned corn",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "gloves_work",
+      "name": "pair of work gloves",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "scrap_cast_iron",
+      "name": "scrap cast iron",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "clamp",
+      "name": "clamp",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "glass_tube_small",
+      "name": "small glass tube",
+      "file": "cdda/data/json/items/tool/science.json"
+    },
+    {
+      "id": "can_spam",
+      "name": "SPAM",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "hat_faux_fur",
+      "name": "faux fur hat",
+      "file": "cdda/data/json/items/armor/hats.json"
+    },
+    {
+      "id": "pearl",
+      "name": "pearl",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "chisel",
+      "name": "metalworking chisel",
+      "file": "cdda/data/json/items/tool/metalworking.json"
+    },
+    {
+      "id": "bottle_plastic_pill_prescription",
+      "name": "plastic prescription bottle",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "can_tuna",
+      "name": "canned tuna fish",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "gloves_fsurvivor",
+      "name": "pair of survivor firegloves",
+      "file": "cdda/data/json/items/armor/bespoke_armor/cuttingroom.json"
+    },
+    {
+      "id": "garlic_press",
+      "name": "garlic press",
+      "file": "cdda/data/json/items/generic/dining_kitchen.json"
+    },
+    {
+      "id": "hammer_sledge_heavy",
+      "name": "heavy sledge hammer",
+      "file": "cdda/data/json/items/melee/bludgeons.json"
+    },
+    {
+      "id": "plastic_bag_vac",
+      "name": "vacuum-packed bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "fish_bagel",
+      "name": "fish and spinach bagel",
+      "file": "cdda/data/json/items/comestibles/sandwich.json"
+    },
+    {
+      "id": "gloves_eod",
+      "name": "pair of EOD overhand protectors",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "almond",
+      "name": "almonds",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "wrench",
+      "name": "adjustable wrench",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "box_retool_large",
+      "name": "large rifle conversion kit",
+      "file": "cdda/data/json/items/containers/conversions.json"
+    },
+    {
+      "id": "fish_pickled",
+      "name": "pickled fish",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "shirt_straw",
+      "name": "grass shirt",
+      "file": "cdda/data/json/items/armor/torso_clothes.json"
+    },
+    {
+      "id": "cable_instrument",
+      "name": "instrument cable",
+      "file": "cdda/data/json/items/generic/music.json"
+    },
+    {
+      "id": "hammer_sledge_engineer",
+      "name": "engineer's hammer",
+      "file": "cdda/data/json/items/melee/bludgeons.json"
+    },
+    {
+      "id": "mre_bag_dessert",
+      "name": "MRE dessert bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "can_sardine",
+      "name": "canned sardine",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "motor_police_boots",
+      "name": "motorcycle police boots (pair)",
+      "file": "cdda/data/json/items/armor/boots.json"
+    },
+    {
+      "id": "sunflower",
+      "name": "sunflower",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "fish_trap_basket",
+      "name": "basket fish trap",
+      "file": "cdda/data/json/items/tool/fishing.json"
+    },
+    {
+      "id": "bag_iv",
+      "name": "IV bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "macaroni_helper",
+      "name": "hamburger helper",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "hat_chef",
+      "name": "toque",
+      "file": "cdda/data/json/items/armor/hats.json"
+    },
+    {
+      "id": "plastic_spoon_kids",
+      "name": "kiddie spoon",
+      "file": "cdda/data/json/items/generic/dining_kitchen.json"
+    },
+    {
+      "id": "glass_plate",
+      "name": "glass plate",
+      "file": "cdda/data/json/items/generic/dining_kitchen.json"
+    },
+    {
+      "id": "carton_milk",
+      "name": "milk carton",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "milkshake_choc",
+      "name": "chocolate milkshake",
+      "file": "cdda/data/json/items/comestibles/frozen.json"
+    },
+    {
+      "id": "hat_golf",
+      "name": "golf cap",
+      "file": "cdda/data/json/items/armor/hats.json"
+    },
+    {
+      "id": "walnut",
+      "name": "walnuts",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "hammer_bronze",
+      "name": "bronze hammer",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "mre_bag",
+      "name": "MRE bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "ravioli",
+      "name": "ravioli",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "hat_navy",
+      "name": "eight point cap",
+      "file": "cdda/data/json/items/armor/hats.json"
+    },
+    {
+      "id": "hand_controls",
+      "name": "hand controls",
+      "file": "cdda/data/json/items/vehicle/controls.json"
+    },
+    {
+      "id": "wrench_48",
+      "name": "heavy-duty pipe wrench",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "box_cigarette",
+      "name": "cigarette pack",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "lemon",
+      "name": "lemon",
+      "file": "cdda/data/json/items/comestibles/raw_fruit.json"
+    },
+    {
+      "id": "gloves_black",
+      "name": "pair of black gloves",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "water_faucet",
+      "name": "water faucet",
+      "file": "cdda/data/json/items/vehicle/utilities.json"
+    },
+    {
+      "id": "anvil_crude",
+      "name": "small anvil",
+      "file": "cdda/data/json/items/tool/metalworking.json"
+    },
+    {
+      "id": "bottle_folding",
+      "name": "foldable plastic bottle",
+      "file": "cdda/data/json/items/tool/container.json"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "file": "cdda/data/json/items/comestibles/raw_veggy.json"
+    },
+    {
+      "id": "gloves_claws",
+      "name": "pair of claw gloves",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "sheet_leather",
+      "name": "leather sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "glass_cutter",
+      "name": "handheld glass cutter",
+      "file": "cdda/data/json/items/tool/misc.json"
+    },
+    {
+      "id": "bottle_plastic_pill_painkiller",
+      "name": "plastic painkiller bottle",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "peach",
+      "name": "peach",
+      "file": "cdda/data/json/items/comestibles/raw_fruit.json"
+    },
+    {
+      "id": "gloves_liner",
+      "name": "pair of glove liners",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "plastic_fork",
+      "name": "plastic fork",
+      "file": "cdda/data/json/items/generic/dining_kitchen.json"
+    },
+    {
+      "id": "saw_bronze",
+      "name": "bronze wood saw",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "mre_package",
+      "name": "MRE package",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "plums",
+      "name": "plum",
+      "file": "cdda/data/json/items/comestibles/raw_fruit.json"
+    },
+    {
+      "id": "gloves_plate",
+      "name": "pair of armored gauntlets",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "sheet_kevlar_patchwork",
+      "name": "patchwork Kevlar sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "brush_axe",
+      "name": "bill",
+      "file": "cdda/data/json/items/tool/landscaping.json"
+    },
+    {
+      "id": "box_retool_sbr",
+      "name": "SBR conversion kit",
+      "file": "cdda/data/json/items/containers/conversions.json"
+    },
+    {
+      "id": "cheeseburger",
+      "name": "cheeseburger",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json"
+    },
+    {
+      "id": "gloves_white",
+      "name": "pair of white gloves",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "breadboard",
+      "name": "breadboard",
+      "file": "cdda/data/json/items/electronics.json"
+    },
+    {
+      "id": "hand_pump",
+      "name": "hand pump",
+      "file": "cdda/data/json/items/tool/misc.json"
+    },
+    {
+      "id": "box_longarm",
+      "name": "longarm cardboard box",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "pistachio_roasted",
+      "name": "roasted pistachios",
+      "file": "cdda/data/json/items/comestibles/nuts.json"
+    },
+    {
+      "id": "boots_bunker",
+      "name": "turnout boots (pair)",
+      "file": "cdda/data/json/items/armor/boots.json"
+    },
+    {
+      "id": "scrap_kevlar",
+      "name": "Kevlar scraps",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "butterfly_swords",
+      "name": "butterfly sword",
+      "file": "cdda/data/json/items/melee/swords_and_blades.json"
+    },
+    {
+      "id": "bottle_plastic_seasoning_small",
+      "name": "small plastic seasoning bottle",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "buttermilk",
+      "name": "buttermilk",
+      "file": "cdda/data/json/items/comestibles/dairy.json"
+    },
+    {
+      "id": "boots_chitin",
+      "name": "chitinous boots (pair)",
+      "file": "cdda/data/json/items/armor/boots.json"
+    },
+    {
+      "id": "cable_xlr",
+      "name": "XLR cable",
+      "file": "cdda/data/json/items/generic/music.json"
+    },
+    {
+      "id": "wrench_large",
+      "name": "large adjustable wrench",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "bucket_5gal",
+      "name": "large plastic bucket",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "mre_ratatouille",
+      "name": "ratatouille entree",
+      "file": "cdda/data/json/items/comestibles/mre.json"
+    },
+    {
+      "id": "boots_combat",
+      "name": "combat boots (pair)",
+      "file": "cdda/data/json/items/armor/boots.json"
+    },
+    {
+      "id": "glass_apple",
+      "name": "withered glass apple",
+      "file": "cdda/data/json/items/fluff.json"
+    },
+    {
+      "id": "pliers_locking",
+      "name": "locking pliers",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "bucket_wood",
+      "name": "wooden bucket",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "acorns",
+      "name": "acorns",
+      "file": "cdda/data/json/items/comestibles/nuts.json"
+    },
+    {
+      "id": "copper_ear",
+      "name": "pair of copper earrings",
+      "file": "cdda/data/json/items/armor/jewelry.json"
+    },
+    {
+      "id": "glass_prism",
+      "name": "glass prism",
+      "file": "cdda/data/json/items/tool/science.json"
+    },
+    {
+      "id": "wrench_small",
+      "name": "small adjustable wrench",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "box_retool_sbr_micro",
+      "name": "micro-carbine conversion kit",
+      "file": "cdda/data/json/items/containers/conversions.json"
+    },
+    {
+      "id": "mre_carrot_cake",
+      "name": "carrot pound cake",
+      "file": "cdda/data/json/items/comestibles/mre.json"
+    },
+    {
+      "id": "coat_faux_fur",
+      "name": "faux fur coat",
+      "file": "cdda/data/json/items/armor/coats.json"
+    },
+    {
+      "id": "sheet_denim",
+      "name": "denim sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "plastic_plate",
+      "name": "plastic plate",
+      "file": "cdda/data/json/items/generic/dining_kitchen.json"
+    },
+    {
+      "id": "bag_plastic_small",
+      "name": "small plastic bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "banana",
+      "name": "banana",
+      "file": "cdda/data/json/items/comestibles/raw_fruit.json"
+    },
+    {
+      "id": "boots_lsurvivor",
+      "name": "pair of light survivor boots",
+      "file": "cdda/data/json/items/armor/bespoke_armor/custom_boots.json"
+    },
+    {
+      "id": "sheet_lycra",
+      "name": "Lycra sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "fish_trap",
+      "name": "plastic fish trap",
+      "file": "cdda/data/json/items/tool/fishing.json"
+    },
+    {
+      "id": "mre_bag_jam",
+      "name": "MRE jam bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "sauce_pesto",
+      "name": "pesto",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json"
+    },
+    {
+      "id": "gloves_rubber",
+      "name": "pair of rubber gloves",
+      "file": "cdda/data/json/items/armor/gloves.json"
+    },
+    {
+      "id": "sheet_nomex",
+      "name": "Nomex sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    }
+  ],
+  "recipes": [
+    "recipe:2h_flail_wood",
+    "recipe:amplifier",
+    "recipe:armor_xs_scrapsuit",
+    "recipe:barley",
+    "recipe:barley:seed_designation",
+    "recipe:barley:win1",
+    "recipe:barley:win2",
+    "recipe:battery_charger",
+    "recipe:beeper",
+    "recipe:belt_loop_large",
+    "recipe:bike_basket",
+    "recipe:block_and_tackle_wood",
+    "recipe:blt",
+    "recipe:bone_glue",
+    "recipe:buckwheat",
+    "recipe:buckwheat:seed_designation",
+    "recipe:buckwheat:win1",
+    "recipe:buckwheat:win2",
+    "recipe:butterfly_net_makeshift",
+    "recipe:cable",
+    "recipe:casting_mold",
+    "recipe:chair_wood",
+    "recipe:cheese_fries",
+    "recipe:cheese_grits",
+    "recipe:cheese_powder",
+    "recipe:cheese_rehydrated:from_powder",
+    "recipe:cheeseburger",
+    "recipe:clay_pot_flower",
+    "recipe:cloth_vest_padded",
+    "recipe:cooked_bell_pepper",
+    "recipe:cooked_dinner",
+    "recipe:corn_kernels",
+    "recipe:corndogs_cooked",
+    "recipe:cornmeal:mortar",
+    "recipe:cured_hide",
+    "recipe:cured_hide:scraped",
+    "recipe:cured_pelt",
+    "recipe:down_pillow",
+    "recipe:draw_plate",
+    "recipe:drink_shirleytemple",
+    "recipe:dry_beans:seed_designation",
+    "recipe:dry_corn",
+    "recipe:dry_corn:frozen_ingredients",
+    "recipe:dry_corn:seed_designation",
+    "recipe:dry_garlic",
+    "recipe:dry_garlic:frozen_ingredients",
+    "recipe:dry_soybean:seed_designation",
+    "recipe:electric_lantern",
+    "recipe:eyepatch_leather",
+    "recipe:flashlight",
+    "recipe:gambeson_batting",
+    "recipe:garlic_clove:seed_designation",
+    "recipe:garter_belt",
+    "recipe:gasket_plastic",
+    "recipe:glasses_safety",
+    "recipe:gloves_denim",
+    "recipe:gloves_denim_fingerless:from_gloves",
+    "recipe:gloves_denim_fingerless:from_patchwork",
+    "recipe:gloves_lsurvivor_fingerless",
+    "recipe:gloves_survivor_fingerless",
+    "recipe:grapeade:from_mix",
+    "recipe:grits",
+    "recipe:ground_solar_panel",
+    "recipe:hat_hard_hooded",
+    "recipe:hat_noise_cancelling",
+    "recipe:heavy_battery_cell",
+    "recipe:heavy_plus_battery_cell",
+    "recipe:homemade_toasterpastry2:with_toaster",
+    "recipe:homemade_toasterpastry2:without_toaster",
+    "recipe:homemade_toasterpastry:with_toaster",
+    "recipe:homemade_toasterpastry:without_toaster",
+    "recipe:hot_chocolate",
+    "recipe:hot_chocolate:from_cocoa_powder",
+    "recipe:hotdogs_campfire",
+    "recipe:hotplate",
+    "recipe:i_staff:with sheet metal",
+    "recipe:icecream_candy",
+    "recipe:icecream_fruit",
+    "recipe:iggaak",
+    "recipe:insta_salad",
+    "recipe:jacket_jean",
+    "recipe:jacket_jean_mod",
+    "recipe:jacket_leather_mod",
+    "recipe:javelin_fletched_bronze",
+    "recipe:jeans_mod",
+    "recipe:knuckle_steel",
+    "recipe:lemonade",
+    "recipe:lemonade:from_mix",
+    "recipe:loom_frame",
+    "recipe:makeshift_cane",
+    "recipe:makeshift_crutches",
+    "recipe:makeshift_scythe_war",
+    "recipe:mask_rioter",
+    "recipe:medium_biogas_tank",
+    "recipe:milk",
+    "recipe:milk_choc",
+    "recipe:milk_choc:from_milk_cococa_powder",
+    "recipe:milk_choc:using_cocoa_powder",
+    "recipe:milk_coffee_substitute",
+    "recipe:milk_coffee_substitute_sweetened",
+    "recipe:milk_fortified",
+    "recipe:milk_powder",
+    "recipe:milk_reconstituted:from_condensed",
+    "recipe:milk_reconstituted:from_powder",
+    "recipe:milkshake_choc",
+    "recipe:milkshake_deluxe",
+    "recipe:milkshake_deluxe_choc",
+    "recipe:mortar_lime",
+    "recipe:motor_micro",
+    "recipe:nachosc",
+    "recipe:nachosmc",
+    "recipe:nachosvc",
+    "recipe:nomex_sockmitts",
+    "recipe:oats",
+    "recipe:oats:seed_designation",
+    "recipe:oats:win1",
+    "recipe:oats:win2",
+    "recipe:orangeade:from_mix",
+    "recipe:paint_brush",
+    "recipe:pepperbone",
+    "recipe:pepperfat",
+    "recipe:peppermeat",
+    "recipe:pepperscrap",
+    "recipe:pipe_tobacco",
+    "recipe:poultry_pepper",
+    "recipe:poultry_scrap_pepper",
+    "recipe:power_supply",
+    "recipe:protein_smoothie:milk",
+    "recipe:protein_smoothie:water",
+    "recipe:quesadilla_cheese",
+    "recipe:receiver",
+    "recipe:rehydrated_chili",
+    "recipe:rehydrated_eggs",
+    "recipe:rehydrated_froglegs",
+    "recipe:rehydrated_garlic",
+    "recipe:rehydrated_lobster",
+    "recipe:rehydrated_mollusk",
+    "recipe:rigid_kevlar_plate",
+    "recipe:sandwich_cheese",
+    "recipe:sandwich_cheese_grilled",
+    "recipe:sandwich_cucumber",
+    "recipe:sandwich_egg_salad",
+    "recipe:sandwich_honey",
+    "recipe:sandwich_jam",
+    "recipe:sandwich_jam_butter",
+    "recipe:sandwich_jam_cheese",
+    "recipe:sandwich_pb",
+    "recipe:sandwich_pbf",
+    "recipe:sandwich_pbh",
+    "recipe:sandwich_pbj",
+    "recipe:sandwich_pbm",
+    "recipe:sandwich_veggy_cheese",
+    "recipe:scrap_esapi_plate",
+    "recipe:scrap_esbi_plate",
+    "recipe:seaweed_pile",
+    "recipe:seed_barley",
+    "recipe:seed_beans",
+    "recipe:seed_bottle_gourd",
+    "recipe:seed_buckwheat",
+    "recipe:seed_canola",
+    "recipe:seed_canola:win1",
+    "recipe:seed_canola:win2",
+    "recipe:seed_chicory",
+    "recipe:seed_corn",
+    "recipe:seed_garlic_clove",
+    "recipe:seed_japanese_knotweed",
+    "recipe:seed_lentils",
+    "recipe:seed_oats",
+    "recipe:seed_popcorn",
+    "recipe:seed_potato_raw",
+    "recipe:seed_salsify_raw",
+    "recipe:seed_sugar_beet",
+    "recipe:seed_wheat",
+    "recipe:seed_wild_rice",
+    "recipe:seed_wildcarrot",
+    "recipe:sheet_canvas_patchwork",
+    "recipe:sheet_denim_patchwork",
+    "recipe:sheet_faux_fur_patchwork",
+    "recipe:sheet_lycra_patchwork",
+    "recipe:sheet_neoprene_patchwork",
+    "recipe:shirt_straw",
+    "recipe:shorts_denim",
+    "recipe:sleeveless_duster_faux_fur:from_duster_faux_fur",
+    "recipe:sleeveless_duster_leather:from_duster_leather",
+    "recipe:sleeveless_duster_survivor:from_duster_survivor",
+    "recipe:sleeveless_trenchcoat_faux_fur:from_trenchcoat_faux_fur",
+    "recipe:sleeveless_trenchcoat_leather:from_trenchcoat_leather",
+    "recipe:sleeveless_trenchcoat_survivor:from_trenchcoat_survivor",
+    "recipe:small_biogas_tank",
+    "recipe:small_stomach_boiled",
+    "recipe:soldering_iron_portable",
+    "recipe:soup_instant_chicken_noodle_prepared",
+    "recipe:soup_instant_vegetable_prepared",
+    "recipe:soybean_seed",
+    "recipe:stomach_boiled",
+    "recipe:stool_wood",
+    "recipe:storage_line",
+    "recipe:sugar",
+    "recipe:sugar:from_processed",
+    "recipe:sweet_milk",
+    "recipe:sweet_milk_fortified",
+    "recipe:sweet_water",
+    "recipe:tanned_hide",
+    "recipe:tanned_hide:from_pieces",
+    "recipe:tea_fruit",
+    "recipe:tireplate",
+    "recipe:toasterpastry:with_toaster",
+    "recipe:toasterpastry:without_toaster",
+    "recipe:towel_hanger",
+    "recipe:transponder",
+    "recipe:vest_jean:from_jacket",
+    "recipe:vest_jean:from_patchwork",
+    "recipe:vest_jean_mod",
+    "recipe:vest_leather_mod",
+    "recipe:welder_crude",
+    "recipe:wheat",
+    "recipe:wheat:seed_designation",
+    "recipe:wheat:win1",
+    "recipe:wheat:win2",
+    "recipe:wild_rice:seed_designation",
+    "recipe:wild_rice_cooked"
+  ],
+  "electricIds": [
+    "screwdriver_set",
+    "hand_drill",
+    "goggles_welding",
+    "needle_curved",
+    "fanning_mill",
+    "light_battery_cell",
+    "light_minus_battery_cell",
+    "medium_battery_cell",
+    "heavy_battery_cell",
+    "heavy_plus_battery_cell",
+    "flashlight",
+    "electric_lantern",
+    "hand_crank_charger",
+    "battery_charger",
+    "solar_panel",
+    "ground_solar_panel",
+    "soldering_iron_portable",
+    "soldering_iron",
+    "hotplate",
+    "welder_crude",
+    "multimeter",
+    "power_supply",
+    "amplifier",
+    "antenna",
+    "receiver",
+    "transponder",
+    "motor_micro",
+    "motor_small",
+    "motor_tiny",
+    "solder_wire",
+    "cable",
+    "copper_wire",
+    "scrap_copper",
+    "e_scrap",
+    "plastic_chunk",
+    "manual_electronics",
+    "mag_electronics",
+    "radio_book",
+    "advanced_electronics",
+    "light_bulb",
+    "circuit",
+    "element",
+    "crude_heating_element"
+  ]
+}

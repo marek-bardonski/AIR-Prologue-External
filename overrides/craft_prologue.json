@@ -1,0 +1,22 @@
+[
+ {
+  "id": "craft_wip",
+  "type": "ITEM",
+  "//": "Prologue original. The carrier of a long making that was started and not finished: what went into it rides inside (so it weighs what it is made of) and the instance remembers the recipe and how far it got. Never found, never made on its own.",
+  "name": {
+   "str": "unfinished work",
+   "str_pl": "unfinished works"
+  },
+  "description": "Something you started making and have not finished. Everything that has gone into it so far is bound up in it. Pick the work up again when you have the time and the tools to hand.",
+  "weight": "1 g",
+  "volume": "250 ml",
+  "material": [
+   "cotton"
+  ],
+  "symbol": "&",
+  "color": "light_gray",
+  "flags": [
+   "CRAFT_WIP"
+  ]
+ }
+]

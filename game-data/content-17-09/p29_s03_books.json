@@ -1,0 +1,361 @@
+{
+  "group": "p29_s03_books",
+  "source": "29.09.2026 second 500: skill books up to levels 3-6 (archery, athletics, throwing, traps, computers, driving, melee manuals, speech) and magazines",
+  "items": [
+    {
+      "id": "manual_archery",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "manual_swimming",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "manual_throw",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "manual_traps",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "manual_traps_mil_basic",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "howto_traps",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "textbook_traps",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.05
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "trappers_companion",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "manual_computer",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        },
+        {
+          "table": "electrical_workshop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "webbasics_computer",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "hackerman_computer",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "textbook_computer",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "manual_driving",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "textbook_anarch",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.05
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "manual_launcher",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "ballista_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "theater_props",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "recipe_dave_manual",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "manual_cutting",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "manual_stabbing",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "manual_bashing",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "house_books",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "manual_swords",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "house_books",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "manual_brawl",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "manual_business",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "manual_speech",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "textbook_speech",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "textbook_business",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "dnd_handbook",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "mag_dude",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "mag_glam",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "mag_beauty",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Old per-weapon melee manuals teach melee (Normalize.foldSkill)."
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "group": "p29_a03_survivor",
+  "source": "29.09.2026 second 500: hand-made survivor gear (Kevlar jumpsuits, hoods, boots, gloves, packs), mercenary kit and nomad clothes",
+  "items": [
+    {
+      "id": "survivor_jumpsuit",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "lsurvivor_jumpsuit",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "fsurvivor_jumpsuit",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "wsurvivor_jumpsuit",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "wsurvivor_jumpsuit_nofur",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "h20survivor_jumpsuit",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "thick_h20survivor_jumpsuit",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "h20survivor_jumpsuit_light",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "hood_survivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "hood_lsurvivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "hood_wsurvivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "hood_wsurvivor_nofur",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "hood_fsurvivor",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "hood_h20survivor",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "boots_survivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "boots_wsurvivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "boots_wsurvivor_nofur",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "boots_hsurvivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "boots_fsurvivor",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "boots_h20survivor",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "gloves_wsurvivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "gloves_wsurvivor_nofur",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "gloves_hsurvivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "gloves_h20survivor",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pants_survivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "lsurvivor_pants",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "survivor_pack",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "survivor_rucksack",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "survivor_runner_pack",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "survivor_dry_bag",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "survivor_duffel_bag",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "survivor_dry_duffelbag",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "survivor_belt_notools",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "armor_mercenary_top",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "armor_mercenary_bottom",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "lsurvivor_armor",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "throat_guard_mercenary",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "helmet_scavenger",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "armor_nomad",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "armor_nomad_light",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "helmet_nomad",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "nomad_bodyglove_1",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "nomad_bodyglove_2",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:boots_h20survivor",
+    "recipe:gloves_h20survivor",
+    "recipe:h20survivor_jumpsuit",
+    "recipe:h20survivor_jumpsuit_light",
+    "recipe:hood_h20survivor",
+    "recipe:thick_h20survivor_jumpsuit",
+    "recipe:throat_guard_mercenary"
+  ],
+  "recipesExpected": [
+    "recipe:armor_mercenary_bottom",
+    "recipe:armor_mercenary_top",
+    "recipe:armor_nomad",
+    "recipe:armor_nomad:upgrade light jumpsuit",
+    "recipe:armor_nomad_light",
+    "recipe:boots_fsurvivor",
+    "recipe:boots_hsurvivor",
+    "recipe:boots_survivor",
+    "recipe:boots_wsurvivor",
+    "recipe:boots_wsurvivor_nofur",
+    "recipe:fsurvivor_jumpsuit",
+    "recipe:gloves_hsurvivor",
+    "recipe:gloves_wsurvivor",
+    "recipe:gloves_wsurvivor_nofur",
+    "recipe:helmet_nomad",
+    "recipe:helmet_scavenger",
+    "recipe:helmet_scavenger:debug",
+    "recipe:hood_fsurvivor",
+    "recipe:hood_lsurvivor",
+    "recipe:hood_survivor",
+    "recipe:hood_wsurvivor",
+    "recipe:hood_wsurvivor_nofur",
+    "recipe:lsurvivor_armor",
+    "recipe:lsurvivor_jumpsuit",
+    "recipe:lsurvivor_pants",
+    "recipe:nomad_bodyglove_1",
+    "recipe:nomad_bodyglove_2",
+    "recipe:pants_survivor",
+    "recipe:survivor_belt_notools",
+    "recipe:survivor_dry_bag",
+    "recipe:survivor_dry_duffelbag",
+    "recipe:survivor_duffel_bag",
+    "recipe:survivor_jumpsuit",
+    "recipe:survivor_pack",
+    "recipe:survivor_rucksack",
+    "recipe:survivor_runner_pack",
+    "recipe:wsurvivor_jumpsuit",
+    "recipe:wsurvivor_jumpsuit_nofur"
+  ],
+  "notes": []
+}

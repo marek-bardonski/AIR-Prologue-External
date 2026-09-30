@@ -1,0 +1,48 @@
+[
+  { "//": "The Prologue's road to a working radio. Same-id patches (no copy-from) let the hands learn the radio and its parts from electronics skill alone, without the book; the id_suffix variants give the two parts CDDA never lets a survivor make from plain stock (an antenna without a second radio to tune against, a circuit board rebuilt from scrap); the practice lets electronics be raised from nothing with a screwdriver and a heap of dead electronics." },
+  { "type": "recipe", "result": "radio", "autolearn": [ [ "electronics", 2 ] ] },
+  { "type": "recipe", "result": "receiver", "autolearn": [ [ "electronics", 2 ] ] },
+  { "type": "recipe", "result": "amplifier", "autolearn": [ [ "electronics", 1 ] ] },
+  { "type": "recipe", "result": "soldering_iron", "autolearn": [ [ "electronics", 1 ] ] },
+  {
+    "type": "recipe",
+    "result": "antenna",
+    "id_suffix": "prologue",
+    "copy-from": "antenna",
+    "time": "40 m",
+    "autolearn": [ [ "electronics", 2 ] ],
+    "book_learn": [  ],
+    "tools": [  ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "cable", 8 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "circuit",
+    "id_suffix": "prologue",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "time": "45 m",
+    "autolearn": [ [ "electronics", 2 ] ],
+    "using": [ [ "soldering_standard", 4 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "e_scrap", 6 ] ], [ [ "cable", 1 ] ] ]
+  },
+  {
+    "id": "prac_elec_salvage_prologue",
+    "type": "practice",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_PRACTICE",
+    "subcategory": "CSC_PRACTICE_ELECTRONICS",
+    "name": "electronics salvage",
+    "description": "Take dead electronics apart piece by piece, tracing what each part was for and how it was joined to the next.",
+    "skill_used": "electronics",
+    "time": "1 h",
+    "practice_data": { "min_difficulty": 0, "max_difficulty": 1, "skill_limit": 2 },
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [ [ [ "e_scrap", 2 ] ] ]
+  }
+]

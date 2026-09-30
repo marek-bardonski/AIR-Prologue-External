@@ -1,0 +1,438 @@
+{
+  "group": "p28_f02_eggs_dairy",
+  "source": "28.09.2026 next-1000 import: nut milks, morels, egg dishes, roe, dairy, cereals and pantry",
+  "items": [
+    {
+      "id": "hickory_nut_ambrosia",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "almond_pulp",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "walnut_pulp",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "hazelnut_pulp",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "morel_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "morel_fried",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "seasoned_scrambled_eggs",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "seasoned_fried_eggs",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "deluxe_fried_eggs",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fried_egg_sandwich",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "deluxe_fried_egg_sandwich",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "supreme_omelet",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "menemen",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "curing_roe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cured_roe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cottage_cheese_with_fruit",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cottage_cheese_with_savory_veg",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fried_mozzarella_sticks",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "milk_cream_whipped",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "tiramisu",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "mushroom_morel",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "forest_common",
+          "weight": 0.5
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "pickled_egg",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "egg_bird_unfert",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "egg_goose_canadian",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 1
+        },
+        {
+          "table": "field",
+          "weight": 0.5
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "egg_guinea_fowl",
+      "loot": [
+        {
+          "table": "farm_coop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "egg_brown_trout",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.5
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "egg_lbass",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.5
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "egg_perch",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.5
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "milk_evap",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pudding",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pecorino_cheese",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mozzarella_cheese",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mascarpone",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cereal",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cereal2",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cereal3",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "garlic_powder",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hot_sauce",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "sprinkles",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "artificial_sweetener",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "mushroom_morel",
+      "contamination": [
+        {
+          "disease": "bad_food",
+          "probability": 40
+        }
+      ],
+      "//": "raw morels are poisonous: CDDA's POISON use action is not run here, so a food-poisoning risk instead (survey B-step)"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:cured_roe:vacuum_packed"
+  ],
+  "recipesExpected": [
+    "recipe:cereal2",
+    "recipe:cereal2:with_food_processor",
+    "recipe:cottage_cheese_with_fruit",
+    "recipe:cottage_cheese_with_savory_veg",
+    "recipe:curing_roe",
+    "recipe:deluxe_fried_egg_sandwich",
+    "recipe:deluxe_fried_eggs",
+    "recipe:fried_egg_sandwich",
+    "recipe:fried_mozzarella_sticks",
+    "recipe:garlic_powder",
+    "recipe:garlic_powder:from_quern",
+    "recipe:garlic_powder:mill_1_50",
+    "recipe:garlic_powder:with_heat",
+    "recipe:hickory_nut_ambrosia",
+    "recipe:mascarpone",
+    "recipe:menemen",
+    "recipe:milk_cream_whipped",
+    "recipe:morel_cooked",
+    "recipe:morel_fried",
+    "recipe:mozzarella_cheese",
+    "recipe:seasoned_fried_eggs",
+    "recipe:seasoned_scrambled_eggs",
+    "recipe:supreme_omelet",
+    "recipe:tiramisu"
+  ],
+  "notes": [
+    "cured_roe comes in: the roe's delayed_transform ripens now. The Foodplace-branded cereals are left out."
+  ]
+}

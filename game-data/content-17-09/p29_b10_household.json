@@ -1,0 +1,708 @@
+{
+  "group": "p29_b10_household",
+  "source": "29.09.2026 second 500 (B10 household & camp): throwing-practice balls and darts, a large tent with its damaged forms, camp stove and table, body pillow, household salvage (pallet, cash register, curling iron, foil, cardboard), bathroom goods, toys and a few trinkets",
+  "items": [
+    {
+      "id": "indoor_volleyball",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "beach_volleyball",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.04
+        },
+        {
+          "table": "campsite",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "lawn_dart",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.03
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "weighted_dart",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "frisbee",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "large_tent_kit",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "largebroketent",
+      "loot": [
+        {
+          "table": "campsite",
+          "weight": 0.08
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "broketent",
+      "loot": [
+        {
+          "table": "campsite",
+          "weight": 0.12
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "forest_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "tarp_raincatcher",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tourist_table",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "toilet_travel",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "toilet_travel_folded",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "popcan_stove",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pallet",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.08
+        },
+        {
+          "table": "railway_depot",
+          "weight": 0.1
+        },
+        {
+          "table": "automated_distribution",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "shrink_wrap",
+      "loot": [
+        {
+          "table": "automated_distribution",
+          "weight": 0.2
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "heavy_punching_bag_sack",
+      "loot": [
+        {
+          "table": "fire_station",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "bodypillow",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "shark_plushie",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "leather_journal",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "file",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.05
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "stand_flyer",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "cash_register",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "rc_car_box",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "stirling_kit_box",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "cardboard_roll",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "wrapper_foil_roll",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "candlestick",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "menorah",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "fish_bowl",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "chalice",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.01
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "guitar_stand",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "spray_can",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.15
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "curling_iron",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "office_holepunch",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "office_letter_opener",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "scythe_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "menstrual_pad",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.1
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "tampon",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "shavingkit",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.08
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "curler_hair",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "bath_toy",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "puck",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "yoyo",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "fidget_spinner",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "toy_figurine",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "talking_doll",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "swimming_kickboard",
+      "loot": [
+        {
+          "table": "fishing_dock",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "silver_locket",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "gold_watch",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "copper_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "bath_toy",
+      "weight": "30 g",
+      "//": "CDDA's 55 mg for a hollow rubber duck is far lighter than its volume allows; the Fate density band (tests/fate-calibration) refuses it"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:bodypillow"
+  ],
+  "recipesExpected": [
+    "recipe:copper_bracelet",
+    "recipe:heavy_punching_bag_sack",
+    "recipe:large_tent_kit",
+    "recipe:lawn_dart",
+    "recipe:leather_journal",
+    "recipe:popcan_stove",
+    "recipe:tarp_raincatcher",
+    "recipe:tourist_table",
+    "recipe:weighted_dart"
+  ],
+  "notes": [
+    "recipe:bodypillow stays hidden: its drawing_tool row wants 20 charges that no pen in the game spawns with (tests/content-2809 finite source tools)",
+    "large_tent_kit, bodypillow and shark_plushie need entries in rules.json sleepQuality (and large_tent_kit in warmth.json shelter.carried) - added in the B10 agent copy."
+  ]
+}

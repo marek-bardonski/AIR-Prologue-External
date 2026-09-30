@@ -1,0 +1,40 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_b06_preserves. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "veggy_canned",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "60 hours",
+    "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "meat_canned",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "40 hours",
+    "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "fish_canned",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "40 hours",
+    "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "apple_canned",
+    "spoils_in": "730 days",
+    "air_open_spoils_in": "7 days",
+    "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "confit_meat",
+    "spoils_in": "365 days",
+    "air_open_spoils_in": "90 days",
+    "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  }
+]

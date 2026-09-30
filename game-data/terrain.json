@@ -1,0 +1,1411 @@
+{
+  "//": "Hex tile types. Each has variants with a loot table, an enemy table, interactable spawns [id, min, max] and a danger level 0-4. Colours/icons are looked up by type id in the game repo.",
+  "water": {
+    "//": "Water on the map by season (26.09.2026): lake hexes cannot be entered until the water freezes (Weather.frozenWater); rivers stay open all year, their hexes are banks and fords. `outdoorTerrains` are the grounds where a storm or a blizzard stops searching and gathering. Code: src/game/world/Ice.js, src/game/actions/world.js.",
+    "impassableUnfrozen": ["lake"],
+    "outdoorTerrains": ["field", "forest", "dense_forest", "hills", "river", "lake", "road", "farm", "orchard", "home", "campsite", "logging_camp"]
+  },
+  "types": {
+    "home": {
+      "name": "Home clearing",
+      "danger": 0,
+      "passable": true,
+      "variants": [
+        {
+          "id": "home",
+          "weight": 1,
+          "loot": null,
+          "enemies": "none",
+          "interactables": []
+        }
+      ]
+    },
+    "forest": {
+      "name": "Forest",
+      "danger": 1,
+      "passable": true,
+      "variants": [
+        {
+          "id": "forest_birch",
+          "weight": 5,
+          "loot": "forest_common",
+          "enemies": "forest_low",
+          "interactables": [
+            [
+              "birch_tree",
+              1,
+              2
+            ],
+            [
+              "underbrush",
+              1,
+              3
+            ],
+            [
+              "fallen_branch",
+              0,
+              1
+            ],
+            [
+              "berry_bush",
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "id": "forest_mixed",
+          "weight": 4,
+          "loot": "forest_common",
+          "enemies": "forest_low",
+          "interactables": [
+            [
+              "birch_tree",
+              0,
+              1
+            ],
+            [
+              "pine_tree",
+              0,
+              1
+            ],
+            [
+              "underbrush",
+              1,
+              3
+            ],
+            [
+              "rock_outcrop",
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "dense_forest": {
+      "name": "Dense forest",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "dense_pine",
+          "weight": 5,
+          "loot": "forest_dense",
+          "enemies": "forest_dense",
+          "interactables": [
+            [
+              "pine_tree",
+              1,
+              2
+            ],
+            [
+              "dead_tree",
+              0,
+              1
+            ],
+            [
+              "underbrush",
+              1,
+              3
+            ],
+            [
+              "fallen_branch",
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "id": "dense_old",
+          "weight": 3,
+          "loot": "forest_dense",
+          "enemies": "forest_dense",
+          "interactables": [
+            [
+              "birch_tree",
+              1,
+              1
+            ],
+            [
+              "pine_tree",
+              1,
+              1
+            ],
+            [
+              "dead_tree",
+              1,
+              1
+            ],
+            [
+              "rock_outcrop",
+              0,
+              1
+            ],
+            [
+              "berry_bush",
+              0,
+              1
+            ],
+            [
+              "underbrush",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "field": {
+      "name": "Field",
+      "danger": 0,
+      "passable": true,
+      "variants": [
+        {
+          "id": "meadow",
+          "weight": 5,
+          "loot": "field",
+          "enemies": "field",
+          "interactables": [
+            [
+              "underbrush",
+              1,
+              4
+            ],
+            [
+              "rock_outcrop",
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "id": "overgrown_lot",
+          "weight": 3,
+          "loot": "field",
+          "enemies": "field",
+          "interactables": [
+            [
+              "underbrush",
+              1,
+              3
+            ],
+            [
+              "car_wreck",
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "road": {
+      "name": "Road",
+      "danger": 1,
+      "passable": true,
+      "variants": [
+        {
+          "id": "road_clear",
+          "weight": 5,
+          "loot": "road",
+          "enemies": "road",
+          "interactables": [
+            [
+              "car_wreck",
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "id": "road_jam",
+          "weight": 3,
+          "loot": "road",
+          "enemies": "road",
+          "interactables": [
+            [
+              "car_wreck",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "house": {
+      "name": "House",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "house_small",
+          "weight": 5,
+          "loot": "house_common",
+          "enemies": "suburb",
+          "interactables": [
+            [
+              "fridge",
+              1,
+              1
+            ],
+            [
+              "oven",
+              1,
+              1
+            ],
+            [
+              "cupboard",
+              1,
+              2
+            ],
+            [
+              "counter",
+              1,
+              1
+            ],
+            [
+              "table",
+              1,
+              1
+            ],
+            [
+              "chair",
+              2,
+              3
+            ],
+            [
+              "bed",
+              1,
+              2
+            ],
+            [
+              "dresser",
+              1,
+              1
+            ],
+            [
+              "sofa",
+              1,
+              1
+            ],
+            [
+              "bookcase",
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "id": "house_large",
+          "weight": 3,
+          "loot": "house_common",
+          "enemies": "suburb",
+          "interactables": [
+            [
+              "fridge",
+              1,
+              1
+            ],
+            [
+              "oven",
+              1,
+              1
+            ],
+            [
+              "cupboard",
+              1,
+              2
+            ],
+            [
+              "counter",
+              1,
+              1
+            ],
+            [
+              "table",
+              1,
+              1
+            ],
+            [
+              "chair",
+              2,
+              3
+            ],
+            [
+              "bed",
+              1,
+              2
+            ],
+            [
+              "dresser",
+              1,
+              1
+            ],
+            [
+              "sofa",
+              1,
+              1
+            ],
+            [
+              "bookcase",
+              0,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "1": "house_1",
+        "2": "house_2",
+        "3": "house_3",
+        "4": "house_4"
+      }
+    },
+    "shop": {
+      "name": "Shop",
+      "danger": 3,
+      "passable": true,
+      "variants": [
+        {
+          "id": "corner_store",
+          "weight": 5,
+          "loot": "shop",
+          "enemies": "shop",
+          "interactables": [
+            [
+              "display_rack",
+              1,
+              3
+            ],
+            [
+              "counter",
+              1,
+              1
+            ],
+            [
+              "vending",
+              0,
+              1
+            ],
+            [
+              "locker",
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "id": "hardware_store",
+          "weight": 3,
+          "loot": "shop_hardware",
+          "enemies": "shop",
+          "interactables": [
+            [
+              "display_rack",
+              2,
+              3
+            ],
+            [
+              "locker",
+              1,
+              1
+            ],
+            [
+              "counter",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "1": "house_1",
+        "2": "house_2",
+        "3": "house_3",
+        "4": "house_4"
+      }
+    },
+    "gas_station": {
+      "name": "Gas station",
+      "danger": 3,
+      "passable": true,
+      "variants": [
+        {
+          "id": "gas_station",
+          "weight": 1,
+          "loot": "gas_station",
+          "enemies": "gas_station",
+          "interactables": [
+            [
+              "vending",
+              1,
+              1
+            ],
+            [
+              "car_wreck",
+              1,
+              2
+            ],
+            [
+              "locker",
+              0,
+              1
+            ],
+            [
+              "counter",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "1": "house_1",
+        "2": "house_2",
+        "3": "house_3",
+        "4": "house_4"
+      }
+    },
+    "farm": {
+      "name": "Farm",
+      "danger": 1,
+      "passable": true,
+      "variants": [
+        {
+          "id": "farm_barn",
+          "weight": 4,
+          "loot": "farm",
+          "enemies": "farm",
+          "interactables": [
+            [
+              "barn",
+              1,
+              1
+            ],
+            [
+              "coop",
+              0,
+              1
+            ],
+            [
+              "underbrush",
+              0,
+              2
+            ],
+            [
+              "fallen_branch",
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "id": "farm_field",
+          "weight": 4,
+          "loot": "farm_field",
+          "enemies": "farm",
+          "interactables": [
+            [
+              "underbrush",
+              1,
+              3
+            ],
+            [
+              "coop",
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "river": {
+      "name": "River",
+      "danger": 0,
+      "passable": true,
+      "variants": [
+        {
+          "id": "river_bank",
+          "weight": 1,
+          "loot": "river",
+          "enemies": "river",
+          "interactables": [
+            [
+              "river_bank",
+              1,
+              1
+            ],
+            [
+              "water_source",
+              1,
+              1
+            ],
+            [
+              "underbrush",
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "hills": {
+      "name": "Hills",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "rocky_hill",
+          "weight": 1,
+          "loot": "hills",
+          "enemies": "hills",
+          "interactables": [
+            [
+              "rock_outcrop",
+              1,
+              3
+            ],
+            [
+              "dead_tree",
+              0,
+              1
+            ],
+            [
+              "underbrush",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "ruins": {
+      "name": "Ruins",
+      "danger": 4,
+      "passable": true,
+      "variants": [
+        {
+          "id": "collapsed_block",
+          "weight": 1,
+          "loot": "ruins",
+          "enemies": "ruins",
+          "interactables": [
+            [
+              "rubble",
+              1,
+              3
+            ],
+            [
+              "collapsed_shelf",
+              0,
+              2
+            ],
+            [
+              "locker",
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "campsite": {
+      "name": "Abandoned campsite",
+      "danger": 1,
+      "passable": true,
+      "variants": [
+        {
+          "id": "campsite",
+          "weight": 1,
+          "loot": "campsite",
+          "enemies": "threat_1",
+          "interactables": [
+            [
+              "campsite_supplies",
+              1,
+              2
+            ],
+            [
+              "fallen_branch",
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "orchard": {
+      "name": "Overgrown orchard",
+      "danger": 1,
+      "passable": true,
+      "variants": [
+        {
+          "id": "orchard",
+          "weight": 1,
+          "loot": "orchard",
+          "enemies": "threat_1",
+          "interactables": [
+            [
+              "orchard_supplies",
+              1,
+              2
+            ],
+            [
+              "underbrush",
+              1,
+              2
+            ],
+            [
+              "berry_bush",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "logging_camp": {
+      "name": "Logging camp",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "logging_camp",
+          "weight": 1,
+          "loot": "logging_camp",
+          "enemies": "threat_2",
+          "interactables": [
+            [
+              "logging_camp_supplies",
+              1,
+              2
+            ],
+            [
+              "fallen_branch",
+              1,
+              2
+            ],
+            [
+              "dead_tree",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "fishing_dock": {
+      "name": "Fishing dock",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "fishing_dock",
+          "weight": 1,
+          "loot": "fishing_dock",
+          "enemies": "threat_2",
+          "interactables": [
+            [
+              "fishing_dock_supplies",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "ranger_station": {
+      "name": "Ranger station",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "ranger_station",
+          "weight": 1,
+          "loot": "ranger_station",
+          "enemies": "threat_2",
+          "interactables": [
+            [
+              "ranger_station_supplies",
+              1,
+              2
+            ],
+            [
+              "bed",
+              1,
+              1
+            ],
+            [
+              "bookcase",
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "roadside_garage": {
+      "name": "Roadside garage",
+      "danger": 3,
+      "passable": true,
+      "variants": [
+        {
+          "id": "roadside_garage",
+          "weight": 1,
+          "loot": "roadside_garage",
+          "enemies": "threat_3",
+          "interactables": [
+            [
+              "roadside_garage_supplies",
+              1,
+              2
+            ],
+            [
+              "car_wreck",
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "medical_clinic": {
+      "name": "Medical clinic",
+      "danger": 3,
+      "passable": true,
+      "variants": [
+        {
+          "id": "medical_clinic",
+          "weight": 1,
+          "loot": "medical_clinic",
+          "enemies": "threat_3",
+          "interactables": [
+            [
+              "medical_clinic_supplies",
+              1,
+              2
+            ],
+            [
+              "table",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "2": "clinic_2",
+        "3": "clinic_3",
+        "4": "clinic_4",
+        "5": "clinic_5"
+      }
+    },
+    "railway_depot": {
+      "name": "Railway depot",
+      "danger": 3,
+      "passable": true,
+      "variants": [
+        {
+          "id": "railway_depot",
+          "weight": 1,
+          "loot": "railway_depot",
+          "enemies": "threat_3",
+          "interactables": [
+            [
+              "railway_depot_supplies",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "electrical_workshop": {
+      "name": "Electrical workshop",
+      "danger": 4,
+      "passable": true,
+      "variants": [
+        {
+          "id": "electrical_workshop",
+          "weight": 1,
+          "loot": "electrical_workshop",
+          "enemies": "threat_4",
+          "interactables": [
+            [
+              "electrical_workshop_supplies",
+              1,
+              2
+            ],
+            [
+              "table",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "3": "tech_3",
+        "4": "tech_4",
+        "5": "tech_5"
+      }
+    },
+    "military_checkpoint": {
+      "name": "Military checkpoint",
+      "danger": 5,
+      "passable": true,
+      "variants": [
+        {
+          "id": "military_checkpoint",
+          "weight": 1,
+          "loot": "military_checkpoint",
+          "enemies": "threat_5",
+          "interactables": [
+            [
+              "military_checkpoint_supplies",
+              1,
+              2
+            ],
+            [
+              "car_wreck",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "4": "checkpoint_4",
+        "5": "checkpoint_5"
+      }
+    },
+    "village": {
+      "name": "Lone hill",
+      "danger": 0,
+      "passable": true,
+      "variants": [
+        {
+          "id": "village",
+          "weight": 1,
+          "loot": null,
+          "enemies": "none",
+          "interactables": []
+        }
+      ]
+    },
+    "laboratory": {
+      "name": "Sealed facility",
+      "danger": 5,
+      "passable": true,
+      "enemyTables": {
+        "4": "lab_4",
+        "5": "lab_5"
+      },
+      "variants": [
+        {
+          "id": "laboratory",
+          "weight": 1,
+          "loot": "laboratory",
+          "enemies": "lab_5",
+          "interactables": [
+            [
+              "laboratory_supplies",
+              1,
+              2
+            ],
+            [
+              "locker",
+              1,
+              2
+            ],
+            [
+              "table",
+              1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "data_vault": {
+      "name": "Data vault",
+      "danger": 5,
+      "passable": true,
+      "exploreFactor": 3,
+      "maxEncounters": 4,
+      "enemyTables": {
+        "4": "lab_4",
+        "5": "lab_5"
+      },
+      "variants": [
+        {
+          "id": "data_vault",
+          "weight": 1,
+          "loot": "laboratory",
+          "enemies": "lab_5",
+          "interactables": [
+            [
+              "server_rack",
+              1,
+              1
+            ],
+            [
+              "laboratory_supplies",
+              2,
+              4
+            ],
+            [
+              "locker",
+              1,
+              3
+            ],
+            [
+              "table",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "relay_station": {
+      "name": "Relay station",
+      "danger": 5,
+      "passable": true,
+      "exploreFactor": 3,
+      "maxEncounters": 4,
+      "enemyTables": {
+        "4": "lab_4",
+        "5": "lab_5"
+      },
+      "variants": [
+        {
+          "id": "relay_station",
+          "weight": 1,
+          "loot": "laboratory",
+          "enemies": "lab_5",
+          "interactables": [
+            [
+              "relay_cabinet",
+              1,
+              1
+            ],
+            [
+              "laboratory_supplies",
+              2,
+              4
+            ],
+            [
+              "locker",
+              1,
+              3
+            ],
+            [
+              "table",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "assembly_plant": {
+      "name": "Assembly plant",
+      "danger": 5,
+      "passable": true,
+      "exploreFactor": 3,
+      "maxEncounters": 4,
+      "enemyTables": {
+        "4": "lab_4",
+        "5": "lab_5"
+      },
+      "variants": [
+        {
+          "id": "assembly_plant",
+          "weight": 1,
+          "loot": "laboratory",
+          "enemies": "lab_5",
+          "interactables": [
+            [
+              "line_controller",
+              1,
+              1
+            ],
+            [
+              "laboratory_supplies",
+              2,
+              4
+            ],
+            [
+              "locker",
+              1,
+              3
+            ],
+            [
+              "table",
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "relay_mast": {
+      "name": "Radio mast",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "relay_mast",
+          "weight": 1,
+          "loot": null,
+          "enemies": "threat_2",
+          "interactables": []
+        }
+      ]
+    },
+    "secret_lab": {
+      "name": "The laboratory",
+      "danger": 5,
+      "passable": true,
+      "enemyTables": {
+        "4": "lab_4",
+        "5": "lab_5"
+      },
+      "variants": [
+        {
+          "id": "secret_lab",
+          "weight": 1,
+          "loot": null,
+          "enemies": "lab_5",
+          "interactables": []
+        }
+      ]
+    },
+    "research_ruin": {
+      "name": "Research ruin",
+      "danger": 4,
+      "passable": true,
+      "enemyTables": {
+        "3": "tech_3",
+        "4": "lab_4",
+        "5": "lab_5"
+      },
+      "variants": [
+        {
+          "id": "research_ruin",
+          "weight": 1,
+          "loot": "research_ruin",
+          "enemies": "lab_4",
+          "interactables": [
+            [
+              "laboratory_supplies",
+              1,
+              2
+            ],
+            [
+              "rubble",
+              1,
+              3
+            ],
+            [
+              "locker",
+              0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    "tailoring_cooperative": {
+      "name": "Tailoring cooperative",
+      "danger": 1,
+      "passable": true,
+      "variants": [
+        {
+          "id": "tailoring_cooperative",
+          "weight": 1,
+          "loot": "tailoring_cooperative",
+          "enemies": "threat_1",
+          "interactables": [
+            [
+              "tailoring_cooperative_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "house_2",
+        "3": "house_3",
+        "4": "house_4",
+        "5": "tech_5"
+      }
+    },
+    "plant_nursery": {
+      "name": "Plant nursery",
+      "danger": 1,
+      "passable": true,
+      "variants": [
+        {
+          "id": "plant_nursery",
+          "weight": 1,
+          "loot": "plant_nursery",
+          "enemies": "threat_1",
+          "interactables": [
+            [
+              "plant_nursery_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "house_2",
+        "3": "house_3",
+        "4": "house_4",
+        "5": "tech_5"
+      }
+    },
+    "preservation_cellar": {
+      "name": "Community preservation cellar",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "preservation_cellar",
+          "weight": 1,
+          "loot": "preservation_cellar",
+          "enemies": "threat_2",
+          "interactables": [
+            [
+              "preservation_cellar_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "house_2",
+        "3": "house_3",
+        "4": "house_4",
+        "5": "tech_5"
+      }
+    },
+    "potters_yard": {
+      "name": "Potter’s yard",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "potters_yard",
+          "weight": 1,
+          "loot": "potters_yard",
+          "enemies": "threat_2",
+          "interactables": [
+            [
+              "potters_yard_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "house_2",
+        "3": "house_3",
+        "4": "house_4",
+        "5": "tech_5"
+      }
+    },
+    "mountaineering_refuge": {
+      "name": "Mountaineering refuge",
+      "danger": 2,
+      "passable": true,
+      "variants": [
+        {
+          "id": "mountaineering_refuge",
+          "weight": 1,
+          "loot": "mountaineering_refuge",
+          "enemies": "threat_2",
+          "interactables": [
+            [
+              "mountaineering_refuge_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "house_2",
+        "3": "house_3",
+        "4": "house_4",
+        "5": "tech_5"
+      }
+    },
+    "water_quality_station": {
+      "name": "Water quality field station",
+      "danger": 3,
+      "passable": true,
+      "variants": [
+        {
+          "id": "water_quality_station",
+          "weight": 1,
+          "loot": "water_quality_station",
+          "enemies": "threat_3",
+          "interactables": [
+            [
+              "water_quality_station_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "clinic_2",
+        "3": "clinic_3",
+        "4": "clinic_4",
+        "5": "clinic_5"
+      }
+    },
+    "fire_station": {
+      "name": "Fire station",
+      "danger": 3,
+      "passable": true,
+      "variants": [
+        {
+          "id": "fire_station",
+          "weight": 1,
+          "loot": "fire_station",
+          "enemies": "threat_3",
+          "interactables": [
+            [
+              "fire_station_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "clinic_2",
+        "3": "clinic_3",
+        "4": "clinic_4",
+        "5": "clinic_5"
+      }
+    },
+    "machine_tool_shop": {
+      "name": "Machine tool shop",
+      "danger": 3,
+      "passable": true,
+      "variants": [
+        {
+          "id": "machine_tool_shop",
+          "weight": 1,
+          "loot": "machine_tool_shop",
+          "enemies": "threat_3",
+          "interactables": [
+            [
+              "machine_tool_shop_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "house_2",
+        "3": "tech_3",
+        "4": "tech_4",
+        "5": "tech_5"
+      }
+    },
+    "electronics_reclamation": {
+      "name": "Electronics reclamation centre",
+      "danger": 4,
+      "passable": true,
+      "variants": [
+        {
+          "id": "electronics_reclamation",
+          "weight": 1,
+          "loot": "electronics_reclamation",
+          "enemies": "threat_4",
+          "interactables": [
+            [
+              "electronics_reclamation_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "house_2",
+        "3": "tech_3",
+        "4": "tech_4",
+        "5": "tech_5"
+      }
+    },
+    "automated_distribution": {
+      "name": "Automated distribution hub",
+      "danger": 5,
+      "passable": true,
+      "variants": [
+        {
+          "id": "automated_distribution",
+          "weight": 1,
+          "loot": "automated_distribution",
+          "enemies": "threat_5",
+          "interactables": [
+            [
+              "automated_distribution_supplies",
+              1,
+              1
+            ],
+            [
+              "automated_distribution_food_supplies",
+              1,
+              1
+            ],
+            [
+              "automated_distribution_electrical_supplies",
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "enemyTables": {
+        "0": "quiet_site_0",
+        "1": "house_1",
+        "2": "house_2",
+        "3": "tech_3",
+        "4": "lab_4",
+        "5": "lab_5"
+      }
+    }
+  }
+}

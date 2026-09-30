@@ -1,0 +1,513 @@
+{
+  "group": "p28_g01_materials",
+  "source": "28.09.2026 next-1000 import: paper, glass, metal and plastic stock, fabrics and containers",
+  "items": [
+    {
+      "id": "envelope",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "greeting_card",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "letter",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.5
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "postcard",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "reinforced_glass_pane",
+      "loot": [
+        {
+          "table": "ruins_rubble",
+          "weight": 0.5
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "reinforced_glass_sheet",
+      "loot": [
+        {
+          "table": "ruins_rubble",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tempered_glass_sheet",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.5
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "10l_iron",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "10l_steel",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "10l_lc_steel",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "5l_iron",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "5l_steel",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "5l_lc_steel",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "lc_steel_lump",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "down_mattress",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "10l_plastic",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "5l_plastic",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "scrap_carpet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "scrap_faux_fur",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "scrap_lycra",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "scrap_neoprene",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 0.5
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "scrap_nomex",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "sheet_faux_fur",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "sheet_neoprene",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "silicone",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "30gal_drum",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "30gal_drum_aluminum",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "55gal_drum_aluminum",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bag_durasack",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "bag_paper_powder",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "bag_paper_powder_bulk",
+      "loot": [
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "bottle_plastic_pill_supplement",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "bottle_plastic_seasoning",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "bottle_plastic_tiny_glue",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "carton_sealed",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "case_cigar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "condiment_bottle_sealed",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cup_plastic_yoghurt",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "large_survival_kit_box",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pencil_case",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "small_squeeze_tube",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "styrofoam_cup",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "wrapper_pr",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "road",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "box_paper_small",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "saline_bag_2000_empty",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "saline_bag_250_empty",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:30gal_drum:from_scratch",
+    "recipe:30gal_drum:welded",
+    "recipe:30gal_drum_aluminum",
+    "recipe:55gal_drum_aluminum",
+    "recipe:down_mattress",
+    "recipe:lc_steel_lump",
+    "recipe:reinforced_glass_sheet",
+    "recipe:tempered_glass_sheet"
+  ],
+  "notes": [
+    "Kit boxes for kits that are not in the game (RC car, robot, Stirling) left out."
+  ]
+}

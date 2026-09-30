@@ -1,0 +1,205 @@
+{
+  "//": "Dirty, torn and tainted cloth (AIR rule, not CDDA's FILTHY flag). A garment or piece of cloth rolled from a loot table may come dirty, torn or tainted; nothing found in a house, a shop, a clinic or the laboratory does, and the wild tables list ragged clothes that always do. Dirty cloth can be worn at a standing cost to the mood (see worn) but goes into no recipe; torn cloth cannot be worn at all; taking either apart gives dirty cloth. Washing clears dirt, never a tear; tainted cloth cannot be washed and its fabric is lost when taken apart. Tables are matched by exact id first, then by the longest listed prefix ending in '*'; unlisted tables leave things clean.",
+  "fabrics": [
+    "cotton",
+    "cotton_quilted",
+    "cotton_quilted_salted",
+    "wool",
+    "wool_quilted",
+    "wool_quilted_2",
+    "denim",
+    "canvas",
+    "canvas_quilted",
+    "canvas_quilted_2",
+    "lycra",
+    "nylon",
+    "nylon_2",
+    "nylon_quilted",
+    "nylon_quilted_2",
+    "neoprene",
+    "nomex",
+    "kevlar",
+    "kevlar_layered",
+    "leather",
+    "fur",
+    "faux_fur",
+    "carpet_pilling"
+  ],
+  "found": {
+    "byTable": {
+      "field": {
+        "dirty": 1,
+        "torn": 1
+      },
+      "forest_common": {
+        "dirty": 1,
+        "torn": 1
+      },
+      "forest_dense": {
+        "dirty": 1,
+        "torn": 1
+      },
+      "hills": {
+        "dirty": 1,
+        "torn": 1
+      },
+      "river": {
+        "dirty": 1,
+        "torn": 1
+      },
+      "road": {
+        "dirty": 0.8,
+        "torn": 0.6
+      },
+      "car_wreck": {
+        "dirty": 0.8,
+        "torn": 0.5
+      },
+      "ruins*": {
+        "dirty": 0.7,
+        "torn": 0.4
+      },
+      "research_ruin": {
+        "dirty": 0.6,
+        "torn": 0.3,
+        "tainted": 0.15
+      },
+      "bonus_wild": {
+        "dirty": 0.6,
+        "torn": 0.3
+      },
+      "bonus_urban": {
+        "dirty": 0.3,
+        "torn": 0.1
+      },
+      "campsite*": {
+        "dirty": 0.5,
+        "torn": 0.2
+      },
+      "farm": {
+        "dirty": 0.5,
+        "torn": 0.2
+      },
+      "farm_barn": {
+        "dirty": 0.5,
+        "torn": 0.2
+      },
+      "farm_field": {
+        "dirty": 0.7,
+        "torn": 0.3
+      },
+      "orchard*": {
+        "dirty": 0.5,
+        "torn": 0.2
+      },
+      "logging_camp*": {
+        "dirty": 0.6,
+        "torn": 0.3
+      },
+      "fishing_dock*": {
+        "dirty": 0.6,
+        "torn": 0.2
+      },
+      "ranger_station*": {
+        "dirty": 0.3,
+        "torn": 0.1
+      },
+      "roadside_garage*": {
+        "dirty": 0.6,
+        "torn": 0.2
+      },
+      "railway_depot*": {
+        "dirty": 0.5,
+        "torn": 0.2
+      },
+      "military_checkpoint*": {
+        "dirty": 0.4,
+        "torn": 0.2
+      },
+      "discovery_luggage": {
+        "dirty": 0.35,
+        "torn": 0.15
+      },
+      "discovery_backpack": {
+        "dirty": 0.5,
+        "torn": 0.2
+      },
+      "discovery_remains": {
+        "dirty": 0.9,
+        "torn": 0.5,
+        "tainted": 0.3
+      },
+      "discovery_workshop": {
+        "dirty": 0.4,
+        "torn": 0.1
+      },
+      "traveller_cache": {
+        "dirty": 0.3,
+        "torn": 0.1
+      },
+      "mountaineering_refuge": {
+        "dirty": 0.5,
+        "torn": 0.15
+      }
+    }
+  },
+  "bedding": {
+    "//": "Found bedding (AIR rule, 26.09.2026 evening): a mattress, sleeping bag, blanket or rollmat found in a house, a shop or a clinic, or taken off a bed there, is rarely perfect. Each rolls dirty (the ordinary laundry flag: washable, a long wash) and damaged (a boolean on the instance: a mattress cannot be mended) on its own; the sleep it gives is multiplied by dirtyQuality and damagedQuality, both when both. A mattress from the village shelf is clean and whole. washLitres: the litres of cloth a wash of this piece counts as, where its own volume would make it absurd.",
+    "items": ["mattress", "sleeping_bag", "sleeping_bag_improvised", "blanket", "down_blanket", "fur_blanket", "quilt", "quilt_patchwork", "rollmat", "cot"],
+    "tables": ["house*", "shop*", "medical_clinic*", "fixture"],
+    "dirtyChance": 0.6,
+    "damagedChance": 0.5,
+    "dirtyQuality": 0.7,
+    "damagedQuality": 0.8,
+    "washLitres": { "mattress": 12 }
+  },
+  "worn": {
+    "//": "Wearing dirty cloth (AIR rule): a standing mood that settles within minutes and stays while any dirty garment is on the body, floorPerGarment for each dirty garment worn down to floorMax (stored units; shown times practice.json morale.scale). Once the last one is off or washed it fades over fadeHours. Torn or tainted cloth is still never worn.",
+    "moralePerHour": -60,
+    "floorPerGarment": -3,
+    "floorMax": -12,
+    "fadeHours": 2
+  },
+  "load": {
+    "//": "A load is measured in litres of cloth (the items' own volume), in half-litre steps, never under the minimum.",
+    "stepLitres": 0.5,
+    "minLitres": 0.5
+  },
+  "wash": {
+    "//": "Cold washing with a board or a kit: water, soap and elbow grease. Water and soap are charges per litre of load; soap flakes are lighter, so twice as many go in.",
+    "kits": [
+      "wash_kit",
+      "washboard"
+    ],
+    "waterPerLitre": 2,
+    "soapPerLitre": 1,
+    "soaps": {
+      "soap": 1,
+      "soap_flakes": 2,
+      "liquid_soap": 1
+    },
+    "minutesPerLitre": 10,
+    "minMinutes": 8
+  },
+  "boil": {
+    "//": "Boiling needs no soap and no board, only a vessel that boils and heat under it, but it eats more water, more time and the fuel that time burns.",
+    "quality": "BOIL",
+    "level": 1,
+    "heat": [
+      "fire",
+      "hotplate",
+      "hotplate_induction",
+      "charcoal_cooker",
+      "esbit_stove",
+      "popcan_stove",
+      "oil_cooker",
+      "gasoline_cooker",
+      "propane_cooker",
+      "multi_cooker",
+      "oven"
+    ],
+    "waterPerLitre": 4,
+    "minutesPerLitre": 25,
+    "minMinutes": 20
+  }
+}

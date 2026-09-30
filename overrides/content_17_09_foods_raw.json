@@ -1,0 +1,61 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group foods_raw. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "raw_beans",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "soybean",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "coffee_bean",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "wheat_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_wheat_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "pumpkin",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "pumpkin_cut",
+    "//": "pumpkin_cut copy-from pumpkin, so the INEDIBLE patch above would make the cut wedge inedible too; put it back to FOOD.",
+    "comestible_type": "FOOD"
+  },
+  {
+    "type": "ITEM",
+    "id": "cinnamon",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "curry_powder",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "seed_mustard",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "mustard_powder",
+    "comestible_type": "INVALID"
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "group": "p29_w_power_camp",
+  "source": "29.09.2026 camp power: an inverter between the camp's batteries and its corded appliances, and a gasoline generator that charges them",
+  "items": [
+    {
+      "id": "UPS_OFF",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "portable_generator",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 0.06
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "UPS_OFF",
+      "name": {
+        "str": "power inverter",
+        "str_pl": "power inverters"
+      },
+      "description": "A unified power supply built around an inverter: it turns a battery's direct current into household current for plug-in tools and appliances.  Set it by the camp's batteries and every corded appliance within reach can run off them.",
+      "//": "Prologue: the camp's inverter (game-data/camp-power.json inverters); CDDA has no stand-alone inverter item, and its UPS is noted as one"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Camp power (electricity/CampPower.js, game-data/camp-power.json): batteries set down at camp are the bank, the inverter runs link_up appliances from it, solar panels and the generator refill it."
+  ]
+}

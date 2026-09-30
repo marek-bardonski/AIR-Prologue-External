@@ -1,0 +1,483 @@
+{
+  "group": "p28_b01_books",
+  "source": "28.09.2026 next-1000 import: the last melee weapons, trainer books and two toys",
+  "items": [
+    {
+      "id": "pike_copper",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "poleaxe",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "qiang",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "scythe_war",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "spear_dory",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "spear_homemade_halfpike",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "spear_rebar",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "cestus",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knuckle_brass",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knuckle_impact",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knuckle_skewer",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "knuckle_steel_forged",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "bullwhip_razor",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "textbook_arthropod",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mag_carpentry",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mag_fabrication",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "alloy_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "reference_fabrication1",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jewelry_book",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "textbook_armeast",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "textbook_armschina",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "textbook_weparabic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "textbook_mesoam",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "textbook_fireman",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 2
+        },
+        {
+          "table": "house_books",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "cookbook_daintydishes",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        },
+        {
+          "table": "house_books",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "cookbook_foodfashions",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        },
+        {
+          "table": "house_books",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "cookbook_eatyrway",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        },
+        {
+          "table": "house_books",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "scots_tailor",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 0.5
+        },
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tailor_japanese",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 0.5
+        },
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "dieselpunk_tailor",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 0.5
+        },
+        {
+          "table": "house_books",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "recipe_fauxfur",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "book_icef",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "mag_mechanics",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "repeater_mod_guide",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mag_melee",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mag_dodge",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "manual_dodge_kid",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_dodge_tlwd",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "teddy_bear",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "deck_of_cards",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:deck_of_cards"
+  ],
+  "recipesExpected": [
+    "recipe:bullwhip_razor",
+    "recipe:cestus",
+    "recipe:knuckle_brass",
+    "recipe:knuckle_impact",
+    "recipe:knuckle_skewer",
+    "recipe:knuckle_steel_forged",
+    "recipe:pike_copper",
+    "recipe:poleaxe",
+    "recipe:qiang",
+    "recipe:scythe_war:forge",
+    "recipe:spear_dory",
+    "recipe:spear_homemade_halfpike:from_knife",
+    "recipe:spear_homemade_halfpike:from_spike",
+    "recipe:spear_rebar"
+  ],
+  "notes": []
+}

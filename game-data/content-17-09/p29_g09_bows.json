@@ -1,0 +1,851 @@
+{
+  "group": "p29_g09_bows",
+  "source": "29.09.2026 firearms import: bows, crossbows, arrows, bolts, spearguns and the atlatl",
+  "items": [
+    {
+      "id": "longbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "recurbow",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "compbow",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "reflexbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "compositebow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reflexrecurvebow",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "woodgreatbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "compgreatbow",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "takedown_recurbow",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "crossbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "hand_crossbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "huge_crossbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "rep_crossbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "compositecrossbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "compcrossbow",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "bullet_crossbow",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "wristrocket",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "atlatl",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "speargun",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "doublespeargun",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "long_speargun",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "arrow_field_point_fletched",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 0.3,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_heavy_field_point_fletched",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            3,
+            8
+          ]
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_heavy_fire_hardened_fletched",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.1,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_metal_sharpened_fletched",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_plastic",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_wood_heavy",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.1,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_metal",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            3,
+            8
+          ]
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.2,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_metal_bodkin",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_metal_target",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.15,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrow_cf",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            3,
+            8
+          ]
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.1,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flamable_arrow",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_makeshift",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_metal",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_wood",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_wood_bodkin",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.08,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_wood_small_game",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_steel",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            3,
+            8
+          ]
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.1,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_steel_bodkin",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_steel_target",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.08,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bolt_cf",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.05,
+          "charges": [
+            3,
+            8
+          ]
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05,
+          "charges": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m_fishspear",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "c_fishspear",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "wood_atlatl_spear",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "forest_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "bronze_atlatl_spear",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "steel_atlatl_spear",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "marble",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pebble_clay",
+      "loot": [
+        {
+          "table": "potters_yard_supplies",
+          "weight": 0.1,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02,
+          "charges": [
+            5,
+            20
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:arrow_field_point_fletched",
+    "recipe:arrow_heavy_field_point_fletched",
+    "recipe:arrow_heavy_fire_hardened_fletched",
+    "recipe:arrow_metal_sharpened_fletched",
+    "recipe:arrow_plastic",
+    "recipe:arrow_wood_heavy",
+    "recipe:atlatl",
+    "recipe:bolt_makeshift",
+    "recipe:bolt_metal",
+    "recipe:bolt_wood",
+    "recipe:bolt_wood_bodkin",
+    "recipe:bolt_wood_small_game",
+    "recipe:bronze_atlatl_spear",
+    "recipe:bullet_crossbow",
+    "recipe:compgreatbow",
+    "recipe:compositebow",
+    "recipe:compositecrossbow",
+    "recipe:crossbow",
+    "recipe:doublespeargun",
+    "recipe:flamable_arrow",
+    "recipe:hand_crossbow",
+    "recipe:huge_crossbow",
+    "recipe:longbow",
+    "recipe:m_fishspear",
+    "recipe:marble",
+    "recipe:pebble_clay",
+    "recipe:reflexbow",
+    "recipe:rep_crossbow",
+    "recipe:speargun",
+    "recipe:steel_atlatl_spear",
+    "recipe:wood_atlatl_spear",
+    "recipe:woodgreatbow"
+  ],
+  "notes": [
+    "Bows and crossbows are launchers (ranged.json launchers.byId), not firearms: they draw from the pack and spent arrows can be picked up. Metal and carbon arrows hit harder, blunts and target points softer."
+  ]
+}

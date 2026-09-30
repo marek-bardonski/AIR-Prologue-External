@@ -1,0 +1,91 @@
+{
+  "//": "Roads the survivor builds, hex by hex. 'minutes' is the work for one hex by the ground it crosses (the base terrain under whatever stands there); 'toolSpeed' divides it by 1 + perLevel x (best DIG level - 1). 'qualities' are asked on every ground, 'groundQualities' on the listed ones as well. A finished road makes the hex travel like a found road: rules.json time.roadTravelMultiplier in place of the ground's own multiplier. 'yields' lie on the hex when the road is done. 'encounterMultiplier' scales the hex's own danger while working.",
+  "types": {
+    "dirt_road": {
+      "name": "Dirt road",
+      "skill": "survival",
+      "xpPerHour": 6,
+      "minutes": {
+        "field": 240,
+        "hills": 480,
+        "forest": 600,
+        "dense_forest": 900
+      },
+      "qualities": [
+        [
+          {
+            "id": "DIG",
+            "level": 1
+          }
+        ]
+      ],
+      "groundQualities": {
+        "forest": [
+          [
+            {
+              "id": "AXE",
+              "level": 1
+            }
+          ]
+        ],
+        "dense_forest": [
+          [
+            {
+              "id": "AXE",
+              "level": 1
+            }
+          ]
+        ]
+      },
+      "toolSpeed": {
+        "quality": "DIG",
+        "perLevel": 0.25
+      },
+      "yields": {
+        "forest": [
+          {
+            "id": "log",
+            "count": [
+              2,
+              4
+            ]
+          },
+          {
+            "id": "stick_long",
+            "count": [
+              2,
+              5
+            ]
+          }
+        ],
+        "dense_forest": [
+          {
+            "id": "log",
+            "count": [
+              4,
+              7
+            ]
+          },
+          {
+            "id": "stick_long",
+            "count": [
+              3,
+              6
+            ]
+          }
+        ],
+        "hills": [
+          {
+            "id": "rock",
+            "count": [
+              4,
+              10
+            ]
+          }
+        ]
+      },
+      "encounterMultiplier": 0.6,
+      "woodlandSpeedPerLevel": 0.1
+    }
+  }
+}

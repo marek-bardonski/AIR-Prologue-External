@@ -1,0 +1,9 @@
+[
+  {"//": "Portable lights that CDDA fuels through magazine pockets (wax, lamp oil, gasoline, propane, welding gas). The Prologue has no refuelling for hand-held lights yet, so each comes with a finite charge budget (initial_charges / max_charges) and burns it at the rate in game-data/rules.json dayNight.portableLights. Same-id patch entries, no copy-from."},
+  {"type": "ITEM", "id": "candle", "initial_charges": 100, "max_charges": 100, "//": "a fresh candle carries its full 100 units of wax (CDDA candle magazine capacity)"},
+  {"type": "ITEM", "id": "candle_small", "initial_charges": 100, "max_charges": 100, "//": "a thin candle: its full 100 units of wax (CDDA candle_small magazine capacity), burnt about a unit a minute"},
+  {"type": "ITEM", "id": "oil_lamp_clay", "initial_charges": 120, "max_charges": 250, "//": "found part-filled; 250 = CDDA lamp_oil capacity of the pocket"},
+  {"type": "ITEM", "id": "gasoline_lantern", "initial_charges": 200, "max_charges": 500, "//": "found part-filled; 500 = CDDA gasoline capacity of the pocket"},
+  {"type": "ITEM", "id": "propane_lantern", "initial_charges": 300, "max_charges": 300, "//": "stands in for one small propane tank; no tank swapping in the Prologue"},
+  {"type": "ITEM", "id": "oxylamp", "initial_charges": 100, "max_charges": 100, "//": "stands in for one tiny welding-gas cylinder; no cylinder swapping in the Prologue"}
+]

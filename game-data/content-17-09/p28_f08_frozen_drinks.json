@@ -1,0 +1,467 @@
+{
+  "group": "p28_f08_frozen_drinks",
+  "source": "28.09.2026 next-1000 import: snacks, ice cream and soft drinks",
+  "items": [
+    {
+      "id": "pasta_carbonara",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "porkstick",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "poutine",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "powder_candy",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pretzels",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "smores",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sugar_fried",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "syrup_corn",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "toastem",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "toastem2",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "toastem3",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "frozen_lemonade",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "icecream_artificial",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "icecream_choc",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "icecream_custard",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "icecream_gelato",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "icecream_sorbet",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "icecream_yogurt",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "milkshake",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "milkshake_fastfood",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sundae_cup",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "ayran",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "can_coconut",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "chai_tea",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "chicory_coffee",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "choc_drink",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "crispycran",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "drink_pinitacolada",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_virgin_mary",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "eggnog",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "hazelnut_milk",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "horchata",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "juice_pasteurized",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "kompot",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "mex_chocolate",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "milk_tea",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "milk_tea_sweetened",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "oat_milk",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "oj",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "oj_fresh",
+      "pools": [
+        "food"
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "can_coconut",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:drink_pinitacolada",
+    "recipe:mex_chocolate"
+  ],
+  "recipesExpected": [
+    "recipe:can_coconut",
+    "recipe:chai_tea",
+    "recipe:chicory_coffee",
+    "recipe:crispycran",
+    "recipe:drink_virgin_mary",
+    "recipe:eggnog",
+    "recipe:frozen_lemonade",
+    "recipe:hazelnut_milk",
+    "recipe:hazelnut_milk:mortar",
+    "recipe:horchata",
+    "recipe:icecream_choc",
+    "recipe:icecream_choc:from_bags",
+    "recipe:icecream_custard",
+    "recipe:icecream_gelato",
+    "recipe:icecream_sorbet",
+    "recipe:icecream_yogurt",
+    "recipe:kompot",
+    "recipe:kompot:jarred",
+    "recipe:kompot:jarred_3l",
+    "recipe:milk_tea",
+    "recipe:milk_tea_sweetened",
+    "recipe:milkshake",
+    "recipe:oat_milk",
+    "recipe:oj_fresh",
+    "recipe:oj_fresh:canned",
+    "recipe:oj_fresh:canned_big",
+    "recipe:oj_fresh:canned_small",
+    "recipe:oj_fresh:jarred",
+    "recipe:oj_fresh:jarred_3l",
+    "recipe:pasta_carbonara",
+    "recipe:poutine",
+    "recipe:smores",
+    "recipe:sugar_fried"
+  ],
+  "notes": []
+}

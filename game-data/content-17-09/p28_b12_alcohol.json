@@ -1,0 +1,1036 @@
+{
+  "group": "p28_b12_alcohol",
+  "source": "28.09.2026: alcoholic drinks for the drink rules (survival/Intoxicants.js)",
+  "items": [
+    {
+      "id": "beer",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "can_drink"
+        }
+      ]
+    },
+    {
+      "id": "belgian_ale",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "can_drink"
+        }
+      ]
+    },
+    {
+      "id": "brandy",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "bristol_sherry",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "bum_wine",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "burdock_wine",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "canadian_whiskey",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "cheap_whiskey",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "dandelion_wine",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "drink_beeknees",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_bloody_mary",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_boozeberry",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_gintonic",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_grog",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_gunfire",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_hard_seltzer",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "can_drink"
+        }
+      ]
+    },
+    {
+      "id": "drink_hobo",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_kalimotxo",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_karsk",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_martini",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_pinacolada",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_queenmary",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_rumcola",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_screwdriver",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_strawberry_surprise",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_tequilasunrise",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_wild_apple",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "drink_wsour",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "eggnog_spiked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "european_pilsner",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "can_drink"
+        }
+      ]
+    },
+    {
+      "id": "fruit_wine",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "gin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "hb_beer",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "hb_seltzer",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "hopped_mead",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "imperial_stout",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "can_drink"
+        }
+      ]
+    },
+    {
+      "id": "india_pale_ale",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "can_drink"
+        }
+      ]
+    },
+    {
+      "id": "irish_coffee",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "long_island",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "madeira",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "mead",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "mixed_alcohol_strong",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "mixed_alcohol_weak",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "moonshine",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "pale_ale",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "can_drink"
+        }
+      ]
+    },
+    {
+      "id": "pine_wine",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "plain_mead",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "rum",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "sake_filtered",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "sake_unfiltered",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "sherry",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "single_malt_whiskey",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "single_pot_whiskey",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "spiced_mead",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "stout",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2,
+          "container": "can_drink"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "can_drink"
+        }
+      ]
+    },
+    {
+      "id": "tequila",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "triple_sec",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "vodka",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "whiskey",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "wine_barley",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "wine_cabernet",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "wine_chardonnay",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "wine_marsala",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "wine_noir",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "wine_riesling",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "wine_vermouth",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1,
+          "container": "bottle_glass"
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:drink_gintonic",
+    "recipe:drink_pinacolada",
+    "recipe:drink_tequilasunrise"
+  ],
+  "recipesExpected": [
+    "recipe:brandy",
+    "recipe:drink_beeknees",
+    "recipe:drink_bloody_mary",
+    "recipe:drink_boozeberry",
+    "recipe:drink_grog",
+    "recipe:drink_gunfire",
+    "recipe:drink_hobo",
+    "recipe:drink_kalimotxo",
+    "recipe:drink_karsk",
+    "recipe:drink_martini",
+    "recipe:drink_queenmary",
+    "recipe:drink_rumcola",
+    "recipe:drink_screwdriver",
+    "recipe:drink_strawberry_surprise",
+    "recipe:drink_wild_apple",
+    "recipe:drink_wsour",
+    "recipe:eggnog_spiked",
+    "recipe:gin:from_mash",
+    "recipe:irish_coffee",
+    "recipe:long_island",
+    "recipe:mixed_alcohol_strong",
+    "recipe:mixed_alcohol_weak",
+    "recipe:moonshine",
+    "recipe:rum",
+    "recipe:sake_filtered",
+    "recipe:vodka:from_ethanol",
+    "recipe:vodka:from_wash",
+    "recipe:whiskey"
+  ],
+  "notes": [
+    "honey_ant, honey_gold (giant-ant honey) and drink_bloody_mary_blood left out.",
+    "Cocktails are mixed, not found: they route through the discovery food pool."
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "group": "p28_c02_outer",
+  "source": "28.09.2026 next-1000 import: coats, robes, trousers, skirts and dresses",
+  "items": [
+    {
+      "id": "bunker_coat",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "coat_lab",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "hakama",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "haori",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jacket_army_modern",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jacket_chef",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jacket_evac",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jacket_varsity",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kimono",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kittel",
+      "loot": [
+        {
+          "table": "medical_clinic",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "robe",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tacjacket",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "thawb",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "trenchcoat_steampunk",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "tux",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "waistcoat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "yukata",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "cloak_black",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "cloak_denim",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "snuggie",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "cape_catholic",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "b_shorts",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "breeches",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kilt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kilt_leather",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kilt_utility",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "pants_checkered",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "pants_faux_fur",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "pants_tactical",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "police_breeches",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "postman_shorts",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "skirt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "skirt_denim",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "skirt_leather",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "skirt_long",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "striped_pants",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bunker_pants",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "motorbike_pants",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "fencing_pants",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "dress_wedding",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bee_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "leotard",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "unitard",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "binder_top",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "corset_waist",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:binder_top",
+    "recipe:breeches",
+    "recipe:cloak_denim",
+    "recipe:hakama",
+    "recipe:haori",
+    "recipe:kilt",
+    "recipe:kilt_leather",
+    "recipe:kimono",
+    "recipe:leotard",
+    "recipe:pants_faux_fur",
+    "recipe:skirt",
+    "recipe:skirt_denim",
+    "recipe:skirt_leather",
+    "recipe:unitard",
+    "recipe:yukata"
+  ],
+  "notes": []
+}

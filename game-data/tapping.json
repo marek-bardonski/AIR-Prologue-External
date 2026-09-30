@@ -1,0 +1,31 @@
+{
+  "//": "Tapping a tree for sap. A spile (TREE_TAP) driven into a trunk where trees stand thick enough to be worth it, with a vessel left hanging under it. Terrain ids are the Prologue's own (terrain.json types); the liquid, the tool quality and the training skill are CDDA ids.",
+  "tapping": {
+    "terrains": [
+      "forest",
+      "dense_forest"
+    ],
+    "quality": [
+      "TREE_TAP",
+      1
+    ],
+    "liquid": "maple_sap",
+    "minutes": 180,
+    "chargesPerSitting": 12,
+    "chargesByTerrain": {
+      "dense_forest": 18
+    },
+    "training": {
+      "skill": "survival",
+      "xp": [
+        3,
+        6
+      ],
+      "maxLevel": 3
+    },
+    "seasons": [
+      "spring:early"
+    ],
+    "//seasons": "When the sap runs (26.09.2026): the first weeks of spring, cold nights and thawing days. Out of it Tapping.evaluate answers out_of_season."
+  }
+}

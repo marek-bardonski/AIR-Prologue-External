@@ -1,0 +1,535 @@
+{
+  "group": "p28_c03_accessories",
+  "source": "28.09.2026 next-1000 import: hats, masks, scarves, gloves and bags",
+  "items": [
+    {
+      "id": "10gal_hat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bandana_head",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "beret",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bowhat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "drinking_hat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "eboshi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "hat_newsboy",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "hat_sombrero",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kufi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "pointed_hat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "porkpie",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "postman_hat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tophat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tricorne",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "glasses_bal",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "balaclava_cut_resistant",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "fencing_mask",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mask_bal",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "mask_hockey",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mask_skull",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "pumpkin_mask",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "veil_wedding",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "scarf_faux_fur",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "scarf_faux_fur_long",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "scarf_long",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "throat_guard_cut_resistant",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "throat_guard_plastic",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "boxing_gloves",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "glove_jackson",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "gloves_airsoft",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "gloves_cut_resistant",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "gloves_tactical",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "long_glove_white",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "fire_gauntlets",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "gauntlet_fencing",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "gauntlet_fencing_l",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "backpack_denim",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.5
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "backpack_giant",
+      "loot": [
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "case_violin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "dry_duffelbag",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "golf_bag",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "duffelbag_gym_l",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "duffelbag_gym_s",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "duffelbag_l_poly",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "duffelbag_xl_nylon",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.3
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:backpack_denim",
+    "recipe:drinking_hat",
+    "recipe:golf_bag",
+    "recipe:scarf_long",
+    "recipe:tricorne"
+  ],
+  "notes": []
+}

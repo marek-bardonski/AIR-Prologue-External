@@ -1,0 +1,676 @@
+{
+  "group": "p29_a04_workshop",
+  "source": "29.09.2026 second 500: workshop - fabrication/chemistry/electronics difficulty 3-5 crafts and their tools",
+  "items": [
+    {
+      "id": "heatpack",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "heatpack_used",
+      "loot": [
+        {
+          "table": "campsite",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "poppysyrup",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            2,
+            5
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.05,
+          "charges": [
+            2,
+            5
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "charges": [
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antifungal",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.1,
+          "charges": [
+            5,
+            15
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flavored_bonemeal_tablet",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "charges": [
+            2,
+            8
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mercury",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.1,
+          "charges": [
+            20,
+            120
+          ]
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.05,
+          "charges": [
+            20,
+            120
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fermented_fertilizer_liquid",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.1,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_powder",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 0.2,
+          "charges": [
+            50,
+            250
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            50,
+            250
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acetylene_machine",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "makeshift_sealer",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "directional_antenna",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "it_handheld_battery_mount",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "it_battery_mount",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "jumper_cable_heavy",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "long_extension_cable",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "char_kiln",
+      "loot": [
+        {
+          "table": "logging_camp_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "brick_kiln",
+      "loot": [
+        {
+          "table": "potters_yard_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "char_forge",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "gas_forge",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "biogas_cooker",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "propane_torch",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.15
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "oil_press_primitive",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "glassblowers_crucible",
+      "loot": [
+        {
+          "table": "potters_yard_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "metal_butcher_rack",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "steel_plate",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.02
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "steel_armor",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "steel_grille",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "link_sheet",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "concrete",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mortar_build",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pressure_tank",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "wheel_wood",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "wheel_wood_b",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "throwing_axe",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "lc_steel_facemask",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "lc_chainmail_face",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "lc_chainmail_aventail",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "lc_esapi_plate",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "lc_esbi_plate",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "burette",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "stand_ring",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "stand_ring_clamps",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "rack_test_tube",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "rack_test_tube_micro",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.05
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:mortar_build"
+  ],
+  "recipesExpected": [
+    "recipe:antifungal",
+    "recipe:biogas_cooker",
+    "recipe:brick_kiln",
+    "recipe:char_forge",
+    "recipe:char_kiln",
+    "recipe:concrete",
+    "recipe:directional_antenna",
+    "recipe:flavored_bonemeal_tablet",
+    "recipe:gas_forge",
+    "recipe:glassblowers_crucible",
+    "recipe:heatpack",
+    "recipe:it_battery_mount",
+    "recipe:it_handheld_battery_mount",
+    "recipe:jumper_cable_heavy",
+    "recipe:lc_chainmail_aventail",
+    "recipe:lc_chainmail_face",
+    "recipe:lc_esapi_plate",
+    "recipe:lc_esbi_plate",
+    "recipe:lc_steel_facemask",
+    "recipe:long_extension_cable",
+    "recipe:makeshift_sealer",
+    "recipe:metal_butcher_rack",
+    "recipe:oil_press_primitive",
+    "recipe:poppysyrup",
+    "recipe:steel_armor",
+    "recipe:steel_grille",
+    "recipe:steel_plate",
+    "recipe:throwing_axe",
+    "recipe:wheel_wood",
+    "recipe:wheel_wood_b"
+  ],
+  "notes": [
+    "29.09 second 500, agent 4 (workshop): fabrication, chemistry and electronics crafts of difficulty 3-5, the tools and stations those recipes need, lc armour pieces and lab glassware.",
+    "Steel: only lc_ and base ids (lc_steel_facemask, lc_chainmail_face/_aventail, lc_esapi/esbi_plate, steel_plate, steel_armor, steel_grille)."
+  ]
+}

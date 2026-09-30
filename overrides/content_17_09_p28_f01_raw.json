@@ -1,0 +1,24 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_f01_raw. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "watermelon",
+    "comestible_type": "INVALID",
+    "//": "INEDIBLE whole fruit: cut it (uncraft) into wedges"
+  },
+  {
+    "type": "ITEM",
+    "id": "melon",
+    "comestible_type": "INVALID",
+    "//": "INEDIBLE whole fruit: cut it into chunks"
+  },
+  {
+    "type": "ITEM",
+    "id": "spread_peanutbutter",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "90 days",
+    "//": "sealed it keeps like other canned food; opened, a jar of peanut butter lasts months"
+  }
+]

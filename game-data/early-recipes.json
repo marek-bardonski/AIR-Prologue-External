@@ -1,0 +1,406 @@
+{
+  "source": "Cataclysm-DDA 0.I, cdda/data/json/recipes; unchanged difficulty-zero autolearn recipes",
+  "recipes": [
+    {
+      "id": "bag_garbage_reinforced",
+      "key": "recipe:bag_garbage_reinforced"
+    },
+    {
+      "id": "bookstrap",
+      "key": "recipe:bookstrap"
+    },
+    {
+      "id": "box_small",
+      "key": "recipe:box_small:assembly"
+    },
+    {
+      "id": "box_medium",
+      "key": "recipe:box_medium:assembly"
+    },
+    {
+      "id": "box_large",
+      "key": "recipe:box_large:assembly"
+    },
+    {
+      "id": "box_small_wood",
+      "key": "recipe:box_small_wood"
+    },
+    {
+      "id": "box_small_metal",
+      "key": "recipe:box_small_metal"
+    },
+    {
+      "id": "rope_loop",
+      "key": "recipe:rope_loop"
+    },
+    {
+      "id": "swag_bag",
+      "key": "recipe:swag_bag"
+    },
+    {
+      "id": "bellywrap",
+      "key": "recipe:bellywrap"
+    },
+    {
+      "id": "chestwrap",
+      "key": "recipe:chestwrap"
+    },
+    {
+      "id": "chestwrap_fur",
+      "key": "recipe:chestwrap_fur"
+    },
+    {
+      "id": "chestwrap_leather",
+      "key": "recipe:chestwrap_leather"
+    },
+    {
+      "id": "chestwrap_wool",
+      "key": "recipe:chestwrap_wool"
+    },
+    {
+      "id": "gloves_wraps",
+      "key": "recipe:gloves_wraps"
+    },
+    {
+      "id": "gloves_wraps_fur",
+      "key": "recipe:gloves_wraps_fur"
+    },
+    {
+      "id": "gloves_wraps_leather",
+      "key": "recipe:gloves_wraps_leather"
+    },
+    {
+      "id": "gloves_wraps_wool",
+      "key": "recipe:gloves_wraps_wool"
+    },
+    {
+      "id": "footrags",
+      "key": "recipe:footrags"
+    },
+    {
+      "id": "footrags_fur",
+      "key": "recipe:footrags_fur"
+    },
+    {
+      "id": "footrags_leather",
+      "key": "recipe:footrags_leather"
+    },
+    {
+      "id": "footrags_wool",
+      "key": "recipe:footrags_wool"
+    },
+    {
+      "id": "sockmitts",
+      "key": "recipe:sockmitts"
+    },
+    {
+      "id": "socks_bag",
+      "key": "recipe:socks_bag"
+    },
+    {
+      "id": "gloves_bag",
+      "key": "recipe:gloves_bag"
+    },
+    {
+      "id": "poncho_makeshift",
+      "key": "recipe:poncho_makeshift"
+    },
+    {
+      "id": "bandana",
+      "key": "recipe:bandana"
+    },
+    {
+      "id": "headscarf",
+      "key": "recipe:headscarf"
+    },
+    {
+      "id": "blindfold",
+      "key": "recipe:blindfold"
+    },
+    {
+      "id": "loincloth",
+      "key": "recipe:loincloth"
+    },
+    {
+      "id": "patchwork_scarf",
+      "key": "recipe:patchwork_scarf"
+    },
+    {
+      "id": "long_patchwork_scarf",
+      "key": "recipe:long_patchwork_scarf"
+    },
+    {
+      "id": "turban",
+      "key": "recipe:turban"
+    },
+    {
+      "id": "leather_belt",
+      "key": "recipe:leather_belt"
+    },
+    {
+      "id": "armguard_paper",
+      "key": "recipe:armguard_paper"
+    },
+    {
+      "id": "legguard_paper",
+      "key": "recipe:legguard_paper"
+    },
+    {
+      "id": "pot_helmet",
+      "key": "recipe:pot_helmet"
+    },
+    {
+      "id": "carpet_bracers",
+      "key": "recipe:carpet_bracers"
+    },
+    {
+      "id": "carpet_greaves",
+      "key": "recipe:carpet_greaves"
+    },
+    {
+      "id": "tunic_rag",
+      "key": "recipe:tunic_rag"
+    },
+    {
+      "id": "canvas_patch",
+      "key": "recipe:canvas_patch"
+    },
+    {
+      "id": "cotton_ball",
+      "key": "recipe:cotton_ball"
+    },
+    {
+      "id": "cordage_6_leather",
+      "key": "recipe:cordage_6_leather"
+    },
+    {
+      "id": "cordage_36_leather",
+      "key": "recipe:cordage_36_leather"
+    },
+    {
+      "id": "grass_yarn",
+      "key": "recipe:grass_yarn:electric_spinwheel"
+    },
+    {
+      "id": "yarn",
+      "key": "recipe:yarn:electric_spinwheel"
+    },
+    {
+      "id": "fiber_mat",
+      "key": "recipe:fiber_mat"
+    },
+    {
+      "id": "vine_30",
+      "key": "recipe:vine_30"
+    },
+    {
+      "id": "rope_30",
+      "key": "recipe:rope_30"
+    },
+    {
+      "id": "wood_block",
+      "key": "recipe:wood_block"
+    },
+    {
+      "id": "plank_short",
+      "key": "recipe:plank_short:from long planks by hand"
+    },
+    {
+      "id": "wooden_post",
+      "key": "recipe:wooden_post:from long posts by hand"
+    },
+    {
+      "id": "wooden_bead",
+      "key": "recipe:wooden_bead"
+    },
+    {
+      "id": "billet_wood",
+      "key": "recipe:billet_wood"
+    },
+    {
+      "id": "billet_bone",
+      "key": "recipe:billet_bone"
+    },
+    {
+      "id": "notched_plank",
+      "key": "recipe:notched_plank"
+    },
+    {
+      "id": "drill_rock_primitive",
+      "key": "recipe:drill_rock_primitive"
+    },
+    {
+      "id": "crude_picklock",
+      "key": "recipe:crude_picklock:from emergency"
+    },
+    {
+      "id": "emergency_lockpick",
+      "key": "recipe:emergency_lockpick"
+    },
+    {
+      "id": "candle",
+      "key": "recipe:candle"
+    },
+    {
+      "id": "mop",
+      "key": "recipe:mop"
+    },
+    {
+      "id": "razor_shaving",
+      "key": "recipe:razor_shaving"
+    },
+    {
+      "id": "rolling_paper",
+      "key": "recipe:rolling_paper"
+    },
+    {
+      "id": "wrapper",
+      "key": "recipe:wrapper"
+    },
+    {
+      "id": "wrapper_foil",
+      "key": "recipe:wrapper_foil"
+    },
+    {
+      "id": "birdfood",
+      "key": "recipe:birdfood"
+    },
+    {
+      "id": "bundle_branch",
+      "key": "recipe:bundle_branch"
+    },
+    {
+      "id": "bundle_cotton",
+      "key": "recipe:bundle_cotton"
+    },
+    {
+      "id": "bundle_leather",
+      "key": "recipe:bundle_leather"
+    },
+    {
+      "id": "bundle_plank",
+      "key": "recipe:bundle_plank"
+    },
+    {
+      "id": "bundle_rag",
+      "key": "recipe:bundle_rag"
+    },
+    {
+      "id": "bundle_wool",
+      "key": "recipe:bundle_wool"
+    },
+    {
+      "id": "towel",
+      "key": "recipe:towel:knitting"
+    },
+    {
+      "id": "pillow",
+      "key": "recipe:pillow"
+    },
+    {
+      "id": "stool_log",
+      "key": "recipe:stool_log"
+    },
+    {
+      "id": "pointy_stick_long",
+      "key": "recipe:pointy_stick_long"
+    },
+    {
+      "id": "club_wooden",
+      "key": "recipe:club_wooden"
+    },
+    {
+      "id": "club_wooden_large",
+      "key": "recipe:club_wooden_large"
+    },
+    {
+      "id": "mace_simple",
+      "key": "recipe:mace_simple"
+    },
+    {
+      "id": "sharp_toothbrush",
+      "key": "recipe:sharp_toothbrush"
+    },
+    {
+      "id": "spear_spike",
+      "key": "recipe:spear_spike"
+    },
+    {
+      "id": "fish_cooked",
+      "key": "recipe:fish_cooked"
+    },
+    {
+      "id": "mushroom_cooked",
+      "key": "recipe:mushroom_cooked"
+    },
+    {
+      "id": "fruit_cooked",
+      "key": "recipe:fruit_cooked"
+    },
+    {
+      "id": "veggy_cooked",
+      "key": "recipe:veggy_cooked"
+    },
+    {
+      "id": "poultry_cooked",
+      "key": "recipe:poultry_cooked"
+    },
+    {
+      "id": "meat_fatty_cooked",
+      "key": "recipe:meat_fatty_cooked"
+    },
+    {
+      "id": "cooked_marrow",
+      "key": "recipe:cooked_marrow"
+    },
+    {
+      "id": "corn_on_cob",
+      "key": "recipe:corn_on_cob"
+    },
+    {
+      "id": "popcorn",
+      "key": "recipe:popcorn"
+    },
+    {
+      "id": "beans_cooked",
+      "key": "recipe:beans_cooked"
+    },
+    {
+      "id": "lentils_cooked",
+      "key": "recipe:lentils_cooked"
+    },
+    {
+      "id": "oatmeal_cooked",
+      "key": "recipe:oatmeal_cooked"
+    },
+    {
+      "id": "rice_cooked",
+      "key": "recipe:rice_cooked"
+    },
+    {
+      "id": "toast",
+      "key": "recipe:toast:with_toaster"
+    },
+    {
+      "id": "tea",
+      "key": "recipe:tea"
+    },
+    {
+      "id": "herbal_tea",
+      "key": "recipe:herbal_tea:from_tea_bag"
+    },
+    {
+      "id": "coffee",
+      "key": "recipe:coffee"
+    },
+    {
+      "id": "water_purifying",
+      "key": "recipe:water_purifying:using_tablets"
+    },
+    {
+      "id": "outfit_storage",
+      "key": "recipe:outfit_storage"
+    }
+  ],
+  "starterGround": []
+}

@@ -1,0 +1,792 @@
+{
+  "source": "CDDA 0.I: character.cpp calc_needs_rates/base_bmr/check_needs_extremes; character_body.cpp update_stomach; stomach.cpp; avatar.cpp reset_stats; game_constants.h. Baseline unmutated human, default settings.",
+  "tickMinutes": 5,
+  "foodTickMinutes": 30,
+  "thirstPerTick": 1,
+  "sleepNeedMultiplier": 0.5,
+  "heightCm": 175,
+  "ageYears": 25,
+  "kcalPerKg": 7716.169999999999,
+  "healthyFatBmi": 5,
+  "leanBmiBase": 12,
+  "normalFatBmi": 3,
+  "underweightFatBmi": 2,
+  "emaciatedFatBmi": 1,
+  "starvationSpeed": [
+    [
+      0,
+      -90
+    ],
+    [
+      1,
+      -50
+    ],
+    [
+      2,
+      -25
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "legacyStarvation": [
+    [
+      0,
+      6000
+    ],
+    [
+      0.8,
+      300
+    ],
+    [
+      0.95,
+      100
+    ]
+  ],
+  "thirstStatDivisor": 200,
+  "starvationDexIntFactor": 3,
+  "bmr": {
+    "weightFactor": 10,
+    "heightFactor": 6.25,
+    "ageFactor": 5,
+    "constant": 5
+  },
+  "stomachCapacityMl": 2500,
+  "waterPerTickMl": 250,
+  "waterPerQuenchMl": 5,
+  "instantThirstDivisorMl": 10,
+  "stomachFraction": 0.16666666666666666,
+  "stomachMinKcal": 5,
+  "gutMinBmrFraction": 0.041666666666666664,
+  "gutFraction": 0.05,
+  "gutSolidsMl": 250,
+  "startingStomachKcal": 800,
+  "startingGutKcal": 300,
+  "startingSolidsMl": 475,
+  "activityLevels": {
+    "SLEEP_EXERCISE": 0.85,
+    "NO_EXERCISE": 1,
+    "LIGHT_EXERCISE": 2,
+    "MODERATE_EXERCISE": 4,
+    "BRISK_EXERCISE": 6,
+    "ACTIVE_EXERCISE": 8,
+    "EXTRA_EXERCISE": 10
+  },
+  "actionActivities": {
+    "incapacitated": "NO_EXERCISE",
+    "travel": "MODERATE_EXERCISE",
+    "explore": "LIGHT_EXERCISE",
+    "interact": "LIGHT_EXERCISE",
+    "butcher": "LIGHT_EXERCISE",
+    "build_station": "MODERATE_EXERCISE",
+    "dismantle_station": "MODERATE_EXERCISE",
+    "pack_station": "MODERATE_EXERCISE",
+    "unpack_station": "MODERATE_EXERCISE",
+    "move_camp": "LIGHT_EXERCISE",
+    "combat": "ACTIVE_EXERCISE",
+    "lab_move": "MODERATE_EXERCISE",
+    "lab_search": "LIGHT_EXERCISE",
+    "lab_unlock": "LIGHT_EXERCISE",
+    "lab_disarm": "LIGHT_EXERCISE",
+    "lab_control": "LIGHT_EXERCISE",
+    "lab_elevator": "NO_EXERCISE",
+    "lab_shutdown": "LIGHT_EXERCISE",
+    "fell_tree": "ACTIVE_EXERCISE",
+    "set_trap": "LIGHT_EXERCISE",
+    "check_traps": "LIGHT_EXERCISE",
+    "take_trap": "LIGHT_EXERCISE",
+    "build_road": "ACTIVE_EXERCISE",
+    "farm_clear": "ACTIVE_EXERCISE",
+    "farm_till": "ACTIVE_EXERCISE",
+    "farm_irrigate": "ACTIVE_EXERCISE",
+    "farm_water": "MODERATE_EXERCISE",
+    "farm_harvest": "MODERATE_EXERCISE",
+    "farm_uproot": "MODERATE_EXERCISE",
+    "farm_plant": "LIGHT_EXERCISE",
+    "farm_tend": "LIGHT_EXERCISE",
+    "farm_fertilize": "LIGHT_EXERCISE",
+    "treat": "LIGHT_EXERCISE",
+    "rest": "NO_EXERCISE",
+    "sleep": "SLEEP_EXERCISE",
+    "eat": "NO_EXERCISE",
+    "drink": "NO_EXERCISE",
+    "drink_source": "LIGHT_EXERCISE",
+    "collect_water": "LIGHT_EXERCISE",
+    "craft": "LIGHT_EXERCISE",
+    "disassemble": "LIGHT_EXERCISE",
+    "read": "NO_EXERCISE",
+    "write_note": "NO_EXERCISE",
+    "charge_battery": "LIGHT_EXERCISE",
+    "fish": "LIGHT_EXERCISE",
+    "pray": "NO_EXERCISE",
+    "consume_batch": "NO_EXERCISE",
+    "drag": "ACTIVE_EXERCISE",
+    "drag_cart": "MODERATE_EXERCISE",
+    "listen_radio": "NO_EXERCISE",
+    "village_visit": "LIGHT_EXERCISE",
+    "village_descend": "NO_EXERCISE",
+    "village_ascend": "NO_EXERCISE",
+    "village_talk": "NO_EXERCISE",
+    "village_install": "LIGHT_EXERCISE",
+    "tap_tree": "LIGHT_EXERCISE",
+    "drive": "NO_EXERCISE",
+    "cycle": "MODERATE_EXERCISE",
+    "vehicle_work": "LIGHT_EXERCISE",
+    "village_priority": "NO_EXERCISE",
+    "village_care": "NO_EXERCISE",
+    "lab_choice": "LIGHT_EXERCISE",
+    "play_instrument": "LIGHT_EXERCISE",
+    "play_game": "NO_EXERCISE",
+    "quality_time": "LIGHT_EXERCISE",
+    "wash": "MODERATE_EXERCISE",
+    "warm_up": "LIGHT_EXERCISE"
+  },
+  "thirstMood": {
+    "//": "Prologue rule: thirst wears the mood only once the body's water reserve (waterReserve) has begun to fall, never while it is full, however empty the water bar. byReserve rows are read from the first whose `below` (share of the reserve) the reserve is under, strongest last; moralePerHour sinks the entry, never below the row's moraleFloor (stored units; shown times practice.json morale.scale). Once the reserve is full again it lingers fadeHours, fading over the second half.",
+    "fadeHours": 6,
+    "byReserve": [
+      { "below": 0.99, "label": "Thirst: drying out", "moralePerHour": -0.5, "moraleFloor": -2 },
+      { "below": 0.75, "label": "Thirst: dehydrated", "moralePerHour": -1, "moraleFloor": -8 },
+      { "below": 0.5, "label": "Thirst: badly dehydrated", "moralePerHour": -2, "moraleFloor": -20 },
+      { "below": 0.25, "label": "Thirst: parched", "moralePerHour": -3, "moraleFloor": -30 }
+    ]
+  },
+  "silentStages": [
+    "thirsty",
+    "hunger_hungry",
+    "hunger_very_hungry"
+  ],
+  "hungerLabels": {
+    "hunger_engorged": "Engorged",
+    "hunger_full": "Full",
+    "hunger_satisfied": "Satisfied",
+    "hunger_hungry": "Peckish",
+    "hunger_very_hungry": "Hungry",
+    "hunger_near_starving": "Near starving",
+    "hunger_starving": "Starving",
+    "hunger_famished": "Famished",
+    "hunger_blank": ""
+  },
+  "effects": {
+    "foodpoison": {
+      "type": "effect_type",
+      "id": "foodpoison",
+      "name": [
+        "Food Poisoning"
+      ],
+      "desc": [
+        "Your stomach is extremely upset, and you are quite nauseated."
+      ],
+      "//": "In formal usage, 'nauseous' technically means 'to cause nausea [in others],' not 'feeling sick.'",
+      "miss_messages": [
+        [
+          "Your stomach bothers you.",
+          1
+        ]
+      ],
+      "rating": "bad",
+      "resist_traits": [
+        "POISRESIST",
+        "VOMITSTOMACH"
+      ],
+      "base_mods": {
+        "per_mod": [
+          -1
+        ],
+        "dex_mod": [
+          -1
+        ],
+        "str_mod": [
+          -3,
+          -1
+        ],
+        "speed_mod": [
+          -20
+        ],
+        "pain_min": [
+          1
+        ],
+        "pain_chance": [
+          300,
+          900
+        ],
+        "vomit_chance": [
+          600,
+          1200
+        ]
+      }
+    },
+    "nausea": {
+      "type": "effect_type",
+      "id": "nausea",
+      "name": [
+        "Slightly Nauseous",
+        "Mildly Nauseous",
+        "Nauseous",
+        "Very Nauseous",
+        "Extremely Nauseous"
+      ],
+      "desc": [
+        "You are nauseous and may lead to vomiting."
+      ],
+      "remove_message": "You no longer feel nauseous.",
+      "rating": "bad",
+      "int_dur_factor": "3 m",
+      "max_intensity": 5,
+      "max_duration": "15 m",
+      "base_mods": {
+        "vomit_chance": [
+          500
+        ]
+      }
+    },
+    "hunger_full": {
+      "type": "effect_type",
+      "id": "hunger_full",
+      "name": [
+        "Full"
+      ],
+      "desc": [
+        "You feel quite full, and a bit sluggish."
+      ],
+      "apply_message": "You feel quite full, and a bit sluggish.",
+      "rating": "bad",
+      "base_mods": {
+        "speed_mod": [
+          -2
+        ],
+        "sleepiness_amount": [
+          1
+        ]
+      }
+    },
+    "hunger_engorged": {
+      "type": "effect_type",
+      "id": "hunger_engorged",
+      "name": [
+        "Engorged"
+      ],
+      "desc": [
+        "Your stomach is full to bursting.  This was a mistake."
+      ],
+      "apply_message": "Your stomach is full to bursting.  This was a mistake.",
+      "rating": "bad",
+      "base_mods": {
+        "speed_mod": [
+          -10
+        ],
+        "sleepiness_amount": [
+          2
+        ],
+        "vomit_chance": [
+          500
+        ],
+        "vomit_tick": [
+          10
+        ],
+        "pain_amount": [
+          3
+        ]
+      }
+    },
+    "lack_sleep": {
+      "type": "effect_type",
+      "id": "lack_sleep",
+      "name": [
+        "Lacking Sleep"
+      ],
+      "desc": [
+        "You haven't slept in a while, and it shows."
+      ],
+      "apply_message": "You are too physically tired to function well.",
+      "rating": "bad",
+      "miss_messages": [
+        [
+          "You don't have energy to fight.",
+          1
+        ]
+      ],
+      "base_mods": {
+        "speed_mod": [
+          -5
+        ],
+        "str_mod": [
+          -1
+        ],
+        "dex_mod": [
+          -1
+        ],
+        "int_mod": [
+          -2
+        ],
+        "per_mod": [
+          -2
+        ]
+      }
+    },
+    "sleep_deprived": {
+      "type": "effect_type",
+      "id": "sleep_deprived",
+      "name": [
+        "Sleep Deprived"
+      ],
+      "desc": [
+        "Your sleep debt has been steadily increasing for a while.  You should get some rest."
+      ],
+      "rating": "bad",
+      "max_intensity": 20160,
+      "int_dur_factor": 240,
+      "base_mods": {
+        "speed_mod": [
+          -5
+        ]
+      },
+      "scaling_mods": {
+        "speed_mod": [
+          -1
+        ],
+        "int_mod": [
+          -0.33
+        ],
+        "per_mod": [
+          -0.33
+        ],
+        "str_mod": [
+          -0.17
+        ],
+        "dex_mod": [
+          -0.17
+        ]
+      },
+      "apply_message": "You feel weary, your body tired from lack of quality sleep.",
+      "remove_message": "You have finally caught up with your lost sleep, and you feel refreshed and awake for a change."
+    },
+    "tapeworm": {
+      "type": "effect_type",
+      "id": "tapeworm",
+      "name": [
+        "Unidentified Illness"
+      ],
+      "desc": [
+        "You aren't sure what's wrong with you but you don't feel well."
+      ],
+      "rating": "bad",
+      "resist_traits": [
+        "VOMITSTOMACH"
+      ],
+      "base_mods": {
+        "hunger_chance": [
+          50
+        ],
+        "hunger_min": [
+          1
+        ]
+      },
+      "blood_analysis_description": "Intestinal Parasite"
+    },
+    "bloodworms": {
+      "type": "effect_type",
+      "id": "bloodworms",
+      "name": [
+        "Unidentified Illness"
+      ],
+      "desc": [
+        "You aren't sure what's wrong with you but you don't feel well."
+      ],
+      "rating": "bad",
+      "base_mods": {
+        "thirst_tick": [
+          600
+        ],
+        "thirst_min": [
+          1
+        ],
+        "h_mod_chance": [
+          512
+        ],
+        "h_mod_min": [
+          -10
+        ],
+        "cough_chance": [
+          300,
+          0
+        ]
+      },
+      "blood_analysis_description": "Hemolytic Parasites"
+    },
+    "brainworms": {
+      "type": "effect_type",
+      "id": "brainworms",
+      "name": [
+        "Unidentified Illness"
+      ],
+      "desc": [
+        "You aren't sure what's wrong with you but you don't feel well."
+      ],
+      "rating": "bad",
+      "base_mods": {
+        "pain_chance": [
+          512
+        ],
+        "pain_min": [
+          2
+        ],
+        "pain_max": [
+          8
+        ],
+        "h_mod_chance": [
+          512
+        ],
+        "h_mod_min": [
+          -10
+        ]
+      },
+      "blood_analysis_description": "Intracranial Parasites",
+      "flags": [
+        "NO_PSIONICS"
+      ]
+    },
+    "paincysts": {
+      "type": "effect_type",
+      "id": "paincysts",
+      "name": [
+        "Unidentified Illness"
+      ],
+      "desc": [
+        "You aren't sure what's wrong with you but you don't feel well."
+      ],
+      "rating": "bad",
+      "base_mods": {
+        "pain_chance": [
+          256
+        ],
+        "pain_min": [
+          1
+        ],
+        "pain_max": [
+          4
+        ],
+        "sleepiness_chance": [
+          256
+        ],
+        "sleepiness_min": [
+          1
+        ]
+      },
+      "blood_analysis_description": "Intramuscular Parasites"
+    }
+  },
+  "diseases": {
+    "bad_food": {
+      "type": "disease_type",
+      "id": "bad_food",
+      "min_duration": "6 m",
+      "max_duration": "1 h",
+      "min_intensity": 1,
+      "max_intensity": 1,
+      "health_threshold": 100,
+      "symptoms": "foodpoison"
+    },
+    "highly_contaminated_food": {
+      "type": "disease_type",
+      "id": "highly_contaminated_food",
+      "min_duration": "6 h",
+      "max_duration": "1 d",
+      "min_intensity": 1,
+      "max_intensity": 5,
+      "health_threshold": 210,
+      "symptoms": "foodpoison"
+    }
+  },
+  "foodPoisoning": {
+    "//": "AIR design, 20.09.2026, revised 23.09.2026 (differs from CDDA). A bout of food poisoning lasts a random span between `minHours` and `maxHours`; catching it again while it runs never shortens what is left. Every full hour of it is one roll of `vomitChancePerHour`, so one bout can bring several vomits, and each empties the stomach of food and water completely; vomiting no longer shortens it. On top of CDDA's cramps it hurts `painPerHour` more, takes `speedPercent` off everything and slows getting your breath back to `staminaRegenMultiplier`. Untreated water (the ids in consume.json drinks.untreated) rolls its source contamination chances times `untreatedWaterMultiplier`. Anything raw that carries no contamination of its own has `rawChancePercent` per serving of the ordinary kind.",
+    "minHours": 18,
+    "maxHours": 48,
+    "vomitChancePerHour": 0.3,
+    "painPerHour": 6,
+    "speedPercent": -15,
+    "staminaRegenMultiplier": 0.5,
+    "vomitShortensMinutes": 0,
+    "untreatedWaterMultiplier": 2,
+    "rawChancePercent": 2,
+    "rawDisease": "bad_food"
+  },
+  "vomitPoisonReductionMinutes": 30,
+  "vomitMoveCost": 100,
+  "nauseaMinutes": 3,
+  "hydrationLabels": [
+    [
+      -60,
+      "turgid",
+      "Turgid"
+    ],
+    [
+      -20,
+      "hydrated",
+      "Hydrated"
+    ],
+    [
+      0,
+      "slaked",
+      "Slaked"
+    ]
+  ],
+  "mendingThirstStart": 80,
+  "mendingThirstRange": 300,
+  "metabolicHunger": [
+    [
+      300,
+      1
+    ],
+    [
+      2000,
+      0.8
+    ],
+    [
+      5000,
+      0.6
+    ],
+    [
+      8000,
+      0.5
+    ]
+  ],
+  "hungerBar": {
+    "hunger_engorged": 1,
+    "hunger_full": 1,
+    "hunger_satisfied": 0.9,
+    "hunger_blank": 0.75,
+    "hunger_hungry": 0.6,
+    "hunger_very_hungry": 0.4,
+    "hunger_famished": 0.2,
+    "hunger_near_starving": 0.1,
+    "hunger_starving": 0
+  },
+  "hungerBarSource": "Presentation mapping of CDDA hunger effects; CDDA displays labels rather than this percentage bar. Ordinary hunger retains bar fill; reserve-related hunger stages are lower. This is not a calories-remaining or time-to-death gauge.",
+  "sleep": {
+    "source": "CDDA 0.I character.h sleepiness_levels; character.cpp update_needs/calc_sleep_recovery_rate/check_needs_extremes; effects.json",
+    "stages": [
+      [
+        191,
+        "tired"
+      ],
+      [
+        383,
+        "dead_tired"
+      ],
+      [
+        575,
+        "exhausted"
+      ]
+    ],
+    "cap": 1050,
+    "collapse": 1000,
+    "awakePerTick": 1,
+    "wakeAt": 0,
+    "restedValue": -25,
+    "maxIntensity": 24,
+    "painDivisor": 60,
+    "debtThreshold": 2880,
+    "debtIntensityDivisor": 240,
+    "debtMax": 20160,
+    "lackSleepMinutes": 30.016666666666666,
+    "debtWakeMultiplier": 5,
+    "debtRecoveryMultiplier": 2,
+    "comfortMultipliers": [
+      [
+        0.9,
+        3
+      ],
+      [
+        0.8,
+        2.5
+      ],
+      [
+        0.7,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "debtRest": {
+      "lightlyTiredBonus": 2,
+      "exhaustedPenalty": 2,
+      "floor": 1
+    },
+    "debtFatigue": [
+      [
+        14400,
+        40
+      ],
+      [
+        10080,
+        10
+      ],
+      [
+        5760,
+        5
+      ],
+      [
+        2880,
+        1
+      ]
+    ],
+    "microsleep": {
+      "thresholds": [
+        [
+          700,
+          50
+        ],
+        [
+          575,
+          100
+        ]
+      ],
+      "minutes": 0.5,
+      "debtChanceFactor": 75
+    }
+  },
+  "hungerLabelsSource": "CDDA 0.I src/display.cpp hunger_text; effect IDs are internal names, not display labels.",
+  "waterReserve": {
+    "//": "The body's water store, in the same units as thirst. Its size is what stands between an empty water bar (cdda-mechanics thirst.zeroHydrationThirst) and dying of thirst (thirst.death), so a survivor who never drinks dies exactly as long after waking as they always did.",
+    "refillShare": 1,
+    "refillNote": "A sitting can only fill the water bar. While the bar has water in it and the store is short, thirst climbs refillShare times faster again and exactly that difference fills the store, so a body that has been dried out is watered again over days of drinking rather than in one sitting.",
+    "drainShare": 1,
+    "drainNote": "Once the bar is dry the store is what the body lives on, spent at drainShare times the ordinary thirst rate; at nothing left, it dies."
+  },
+  "foodMeter": {
+    "daysAtRest": 3,
+    "source": "Prologue presentation balance requested by the player: direct calorie credit and metabolic drain, independent of CDDA stomach sensations.",
+    "reserveShare": 1,
+    "reserveNote": "A sitting can only fill the bar. A body whose reserve is short of the first starvation stage (starvation.stages[0].at) eats for two: the bar drains reserveShare times faster again and exactly that difference is added to the reserve, so what is eaten is kept instead of being burnt where it stands. At an empty bar the transfer stops and the reserve pays for the body itself, which is what starvation is. A fed body pays nothing extra.",
+    "stages": [
+      [
+        0,
+        "hunger_starving"
+      ],
+      [
+        0.05,
+        "hunger_near_starving"
+      ],
+      [
+        0.1,
+        "hunger_famished"
+      ],
+      [
+        0.25,
+        "hunger_very_hungry"
+      ],
+      [
+        0.5,
+        "hunger_hungry"
+      ]
+    ]
+  },
+  "foodSafety": {
+    "rawCalorieMultiplier": 0.75,
+    "tapewormCalorieMultiplier": 0.5,
+    "parasites": [
+      "tapeworm",
+      "bloodworms",
+      "brainworms",
+      "paincysts"
+    ],
+    "coughDelaySeconds": 0.8,
+    "coughSleepMinutes": 5,
+    "treatmentPain": [
+      8,
+      24
+    ],
+    "treatmentPainParasites": [
+      "tapeworm",
+      "brainworms"
+    ],
+    "disruptedSleepRecovery": 0.5,
+    "lifestyleBounds": [
+      -200,
+      200
+    ]
+  },
+  "starvation": {
+    "//": "What a body does as its reserve runs out, by needs.kcal / healthyKcal. moralePerHour sinks the hunger mood, never below the stage's moraleFloor (both stored units; shown times practice.json morale.scale). staminaCapPercent is the highest share of the bar stamina recovers to from that stage on (worse stages inherit it). Each stage is entered once; the effects are set by src/game/survival/Starvation.js and undone when the survivor eats their way back up.",
+    "hysteresis": 0.02,
+    "refeeding": {
+      "//": "Coming back too fast after weeks of nothing is its own illness: a small meal is all a wasted body can take in an hour.",
+      "fromStage": "wasting",
+      "mealKcal": 400,
+      "windowMinutes": 60,
+      "minutes": 1440,
+      "staminaRegenPercent": 60,
+      "nauseaMinutes": 120
+    },
+    "stages": [
+      {
+        "id": "underfed",
+        "at": 0.75,
+        "label": "Underfed",
+        "description": "Your clothes hang looser. Work costs more than it should.",
+        "staminaCapPercent": 75,
+        "moralePerHour": -0.5,
+        "moraleFloor": -4,
+        "focusPercent": 10,
+        "immunityPercent": 10,
+        "infectionPercent": 10
+      },
+      {
+        "id": "malnourished",
+        "at": 0.5,
+        "label": "Malnourished",
+        "description": "You are running on nothing. Cuts turn bad and stay bad, and standing up too fast puts spots in your eyes.",
+        "staminaMaxPercent": 30,
+        "moralePerHour": -1,
+        "moraleFloor": -8,
+        "focusPercent": 20,
+        "immunityPercent": 35,
+        "infectionPercent": 30,
+        "illnessPercent": 50,
+        "dizzyChancePerHour": 0.1,
+        "healingPercent": 40
+      },
+      {
+        "id": "wasting",
+        "at": 0.25,
+        "label": "Wasting",
+        "description": "There is nothing left to burn but you. Wounds do not close, and heavy work puts you on the ground.",
+        "staminaMaxPercent": 50,
+        "moralePerHour": -2,
+        "moraleFloor": -15,
+        "focusPercent": 35,
+        "immunityPercent": 60,
+        "infectionPercent": 60,
+        "illnessPercent": 100,
+        "dizzyChancePerHour": 0.25,
+        "healingPercent": 100,
+        "faintChancePerHour": 0.08,
+        "combatMoveLoss": 25,
+        "sleepQualityPercent": 25
+      },
+      {
+        "id": "critical",
+        "at": 0.1,
+        "label": "Organs failing",
+        "description": "Your body has started taking itself apart. Heart, liver, kidneys: this is what kills before the reserve ever reaches zero.",
+        "staminaMaxPercent": 70,
+        "moralePerHour": -4,
+        "moraleFloor": -25,
+        "focusPercent": 50,
+        "immunityPercent": 80,
+        "infectionPercent": 100,
+        "illnessPercent": 150,
+        "dizzyChancePerHour": 0.4,
+        "healingPercent": 100,
+        "faintChancePerHour": 0.2,
+        "combatMoveLoss": 50,
+        "sleepQualityPercent": 50,
+        "torsoHpPerHour": 1.2
+      }
+    ]
+  }
+}

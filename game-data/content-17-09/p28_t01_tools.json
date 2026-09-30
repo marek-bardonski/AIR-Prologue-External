@@ -1,0 +1,510 @@
+{
+  "group": "p28_t01_tools",
+  "source": "28.09.2026 next-1000 import: small tools, kitchen and bathroom things",
+  "items": [
+    {
+      "id": "scissors_child",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "scissors_wavy",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "ny_hook",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "metal_smoother",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pin_reamer",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "puller",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "crystal_urn",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "porcelain_urn",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "safe_box",
+      "loot": [
+        {
+          "table": "shop_locker",
+          "weight": 1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "picklocks",
+      "loot": [
+        {
+          "table": "shop_locker",
+          "weight": 0.5
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "filter_paper_quantitative",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "liq_bandage_spray",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "welding_mask",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "stopcock",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bottle_opener",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "carving_fork",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "cheese_grater",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "chopsticks",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "icecream_scoop",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pizza_cutter",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "plastic_knife",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "plastic_spoon",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "plastic_straw",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "potato_masher",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "splatter_guard",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "spork",
+      "loot": [
+        {
+          "table": "campsite",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "foon",
+      "loot": [
+        {
+          "table": "campsite",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "comb_pocket",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hairbrush",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "plunger_toilet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "toothbrush_plain",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "bottle_bathroom",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "blanket_weighted",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "pillowcase",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "wallet",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "wallet_large",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "lanyard",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "twig",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "forest_dense",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "natural"
+      ]
+    },
+    {
+      "id": "circsaw_blade",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "railroad_track_small",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:bottle_bathroom",
+    "recipe:circsaw_blade",
+    "recipe:metal_smoother",
+    "recipe:ny_hook",
+    "recipe:picklocks",
+    "recipe:puller",
+    "recipe:railroad_track_small",
+    "recipe:stopcock"
+  ],
+  "notes": [
+    "Diving flashlights, the rechargeable light cell and the ketene lamp left out: no light or battery profile for them here."
+  ]
+}

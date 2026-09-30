@@ -1,0 +1,611 @@
+{
+  "group": "p28_c08_final",
+  "source": "28.09.2026 next-1000 import: pouches, belts, sports and martial-arts wear, uniforms and suits, military packs, MRE entrees and paper odds and ends",
+  "items": [
+    {
+      "id": "gadget_pouch",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "gas_mask_pouch",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "radio_pouch",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "fireman_belt",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "judo_belt_black",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "judo_belt_blue",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "judo_belt_brown",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "judo_belt_green",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "judo_belt_orange",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "judo_belt_white",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "judo_belt_yellow",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jikatabi_sneakers",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "flip_flops_exp",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tabi_gi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "socks_bowling",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "rashguard",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "speedo",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "swim_briefs",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "swim_cap",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "trunks",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "hakama_gi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "judo_gi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "karate_gi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kariginu",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "keikogi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "zubon_gi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mil_flight_suit",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "nomex_suit",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "officer_uniform",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "suit",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "touring_suit",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "bodysuit_lycra",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jumpsuit_pocketless",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "technician_coveralls_h",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "molle_large_rucksack",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "molle_medium_rucksack",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "molle_pack",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "corset",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mre_beef",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mre_chicken",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mre_veggy",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mre_spaghetti",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mre_chilibeans",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mre_beefstew",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mre_macaronimarinara",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "mre_meatball",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "butterfly_net_collapsible",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "character_sheet",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "flyer",
+      "loot": [
+        {
+          "table": "road",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "scorecard",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:fireman_belt",
+    "recipe:gadget_pouch",
+    "recipe:gas_mask_pouch",
+    "recipe:molle_large_rucksack",
+    "recipe:molle_medium_rucksack",
+    "recipe:molle_pack",
+    "recipe:nomex_suit",
+    "recipe:radio_pouch"
+  ],
+  "notes": []
+}

@@ -1,0 +1,755 @@
+{
+  "group": "p29_g11_10mm_32_30c_4570",
+  "source": "29.09.2026 firearms import: 10mm, .32 ACP, .30 Carbine and .45-70 guns with rounds and cases",
+  "items": [
+    {
+      "id": "glock_20",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "glock_29",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "glock_40",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "m1911_10",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "witness_10",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "xd_10",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "p220_10",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "sw_610",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "kp32",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "walther_ppk",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "lws32",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "m1carbine",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "1895sbl",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "sharps",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "bfr",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.0054,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "10mm_fmj",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.0661,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "10mm_jhp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.0661,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "10mmP",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.033,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_10mm_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            6,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_10mm_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            6,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_10mm_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            6,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_10mm_fmj",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "32_acp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.04,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "32_acp_jhp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_32_acp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_32_acp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_32_acp",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "30carbine",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.04,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "30carbine_jsp",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.033,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_30carbine",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_30carbine",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "4570_sp",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.0528,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "4570_low",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.0264,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_4570_sp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_4570_bp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0115,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "10mm_casing",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "32_casing",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "30carbine_casing",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "4570_casing",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_10mm_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "unprimed_32_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "unprimed_30carbine_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "unprimed_4570_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:bp_10mm_fmj",
+    "recipe:bp_30carbine",
+    "recipe:bp_32_acp",
+    "recipe:matchhead_10mm_fmj",
+    "recipe:matchhead_32_acp",
+    "recipe:reloaded_10mm_fmj",
+    "recipe:reloaded_10mm_jhp",
+    "recipe:reloaded_30carbine",
+    "recipe:reloaded_32_acp",
+    "recipe:reloaded_4570_bp",
+    "recipe:reloaded_4570_sp"
+  ],
+  "notes": []
+}

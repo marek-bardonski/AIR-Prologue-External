@@ -1,0 +1,381 @@
+{
+  "group": "p28_b11_materials_books",
+  "source": "28.09.2026 first-priority import, batch 11: materials, containers and books",
+  "items": [
+    {
+      "id": "scrap_fur",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "scrap_denim",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 2
+        },
+        {
+          "table": "house_clothes",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "glass_sheet",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "rigid_plastic_sheet",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "material_cement",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "material_niter",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "detergent",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "fertilizer_liquid",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "30gal_barrel",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "55gal_drum",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.5
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "bag_paper_charcoal",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "manual_carpentry",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 2
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mag_survival",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "isherwood_herbal_remedies",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe_arrows",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.5
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe_bows",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.5
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "preserving_juice",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "scots_cookbook",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mag_cooking",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mag_tailor",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 1
+        },
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "tailor_portfolio",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_books",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "vacuum_sealing",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.5
+        },
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pocket_firstaid",
+      "loot": [
+        {
+          "table": "medical_clinic",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mag_firstaid",
+      "loot": [
+        {
+          "table": "medical_clinic",
+          "weight": 1
+        },
+        {
+          "table": "house_books",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "modern_tanner",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.5
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "mag_fieldrepair",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:fertilizer_liquid",
+    "recipe:fertilizer_liquid:simple"
+  ],
+  "recipesExpected": [
+    "recipe:30gal_barrel",
+    "recipe:55gal_drum:from_scratch",
+    "recipe:55gal_drum:welded",
+    "recipe:glass_sheet",
+    "recipe:material_cement"
+  ],
+  "notes": [
+    "trailmap and roadmap left out: maps reveal nothing in the Prologue."
+  ]
+}

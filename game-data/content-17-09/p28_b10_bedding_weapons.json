@@ -1,0 +1,285 @@
+{
+  "group": "p28_b10_bedding_weapons",
+  "source": "28.09.2026 first-priority import, batch 10: bedding, walking aids, simple weapons",
+  "items": [
+    {
+      "id": "emer_blanket",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "hammock_net",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "broom",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "wax_paraffin",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "cane",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "crutches",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "1st_aid_box",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "spear_wood_simple",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "spear_stone_simple",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "spear_shaft_sharpened",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "spear_pipe",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "spear_copper",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "pike_bronze",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knife_folding",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "knife_swissarmy",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "kukri",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "baton",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "golf_club",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "hockey_stick",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "bullwhip",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:bullwhip",
+    "recipe:hammock_net",
+    "recipe:knife_folding",
+    "recipe:kukri",
+    "recipe:pike_bronze",
+    "recipe:spear_copper",
+    "recipe:spear_pipe",
+    "recipe:spear_shaft_sharpened",
+    "recipe:spear_stone_simple",
+    "recipe:spear_wood_simple"
+  ],
+  "notes": [
+    "hammock, quilts and the emergency blanket join rules.sleepQuality."
+  ]
+}

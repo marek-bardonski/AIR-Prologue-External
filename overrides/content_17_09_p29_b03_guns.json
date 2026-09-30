@@ -1,0 +1,13 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p29_b03_guns. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "modular_deagle",
+    "ammo": [
+      "50ae"
+    ],
+    "//": "AIR has no conversion kits: the pistol is fixed in .50 AE, its best-known calibre"
+  }
+]

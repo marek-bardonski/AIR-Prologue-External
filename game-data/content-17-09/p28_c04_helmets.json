@@ -1,0 +1,419 @@
+{
+  "group": "p28_c04_helmets",
+  "source": "28.09.2026 next-1000 import: helmets and hoods",
+  "items": [
+    {
+      "id": "airsoft_helmet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "firehelmet",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "headgear",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "helmet_army",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "helmet_army_outdated",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_aztec",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_ball",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "helmet_barbute",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_bronze",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_conical",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_corinthian",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_football",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "helmet_galea",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_kabuto",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_kettle",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_liner",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "helmet_metal_sheets",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "helmet_metal_sheets_full",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "helmet_motor",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "helmet_nasal",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_plate",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "helmet_riding",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "helmet_riding_peakless",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "helmet_skid",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "helmet_soviet_tanker",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lc_heavyhelm_close",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_helm_close",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_helmet_nasal",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_helmet_turban",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_lighthelm_close",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "pickelhaube",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "tac_fullhelmet",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tac_helmet",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "helmet_cardboard",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chainmail_junk_hood",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_hood",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "nomex_hood",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "aketon_hood_canvas",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_hood_nylon",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_hood_wool",
+      "pools": [
+        "workshop"
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:aketon_hood_canvas",
+    "recipe:aketon_hood_nylon",
+    "recipe:aketon_hood_wool",
+    "recipe:helmet_aztec",
+    "recipe:helmet_barbute",
+    "recipe:helmet_bronze",
+    "recipe:helmet_cardboard",
+    "recipe:helmet_conical",
+    "recipe:helmet_corinthian",
+    "recipe:helmet_galea",
+    "recipe:helmet_kabuto",
+    "recipe:helmet_kettle",
+    "recipe:helmet_metal_sheets",
+    "recipe:helmet_metal_sheets_full",
+    "recipe:helmet_nasal",
+    "recipe:helmet_plate",
+    "recipe:lc_chainmail_hood",
+    "recipe:lc_heavyhelm_close",
+    "recipe:lc_helm_close",
+    "recipe:lc_helmet_nasal",
+    "recipe:lc_helmet_turban",
+    "recipe:lc_lighthelm_close",
+    "recipe:nomex_hood"
+  ],
+  "notes": [
+    "Period helmets are rare collectors' finds; forged, scrap and padded ones are made."
+  ]
+}

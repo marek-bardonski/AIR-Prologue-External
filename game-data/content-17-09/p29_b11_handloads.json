@@ -1,0 +1,327 @@
+{
+  "group": "p29_b11_handloads",
+  "source": "29.09.2026 firearms import, round 3 top-up: hand-loading chains for the p29_b03_guns calibres",
+  "items": [
+    {
+      "id": "300_casing",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_300_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reloaded_300_winmag",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.03,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "57mm_casing",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_57mm_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reloaded_57mm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            8,
+            25
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            8,
+            25
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "46mm_casing",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_46mm_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reloaded_46mm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            8,
+            25
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            8,
+            25
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "38super_casing",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_38super_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reloaded_38_super",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "460sw_casing",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_460sw_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reloaded_460sw",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "roadside_garage",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "270win_casing",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_270win_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reloaded_270win_jsp",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "roadside_garage",
+          "weight": 0.02,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "unprimed_300blk_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reloaded_300blk",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            6,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            6,
+            20
+          ],
+          "minDanger": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:reloaded_270win_jsp",
+    "recipe:reloaded_300_winmag",
+    "recipe:reloaded_300blk",
+    "recipe:reloaded_38_super",
+    "recipe:reloaded_460sw",
+    "recipe:reloaded_46mm",
+    "recipe:reloaded_57mm",
+    "recipe:unprimed_270win_casing",
+    "recipe:unprimed_300blk_casing"
+  ],
+  "notes": [
+    "Spent case, primerless case and reloaded round for .300 Win Mag, 5.7x28, 4.6x30, .38 Super, .460 S&W and .270 Win; primerless case and reloaded round for .300 BLK (cut down from .223 cases).",
+    ".500 S&W left out: its reloading recipe sits at difficulty 9. Reloaded 5.7 and 4.6 are gated like their factory rounds (3), the rest at 2; cases are ungated."
+  ]
+}

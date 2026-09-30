@@ -1,0 +1,99 @@
+{
+  "//": "What the survivor village's work asks for, keyed by the quest ids of the game's original village content. Original Prologue numbers; the ids name whitelisted things. calories: food handed over, by its calories (never rotten). items: rows of { anyOf, count } (charges for charge-counted things). distinct_food: that many different cooked dishes - food some recipe makes - each worth at least minKcal. distinct_parts: parts from that many different ids of 'from'. install: carried to the place and used up there. retrieve: the one item. decryptMinutes: how long a drive takes to read once handed in. steward: done when the story flag named by 'story' is set (the Steward stopped).",
+  "decryptMinutes": 1440,
+  "quests": {
+    "q_door": {
+      "kcal": 5000
+    },
+    "q_medic": {
+      "items": [
+        {
+          "anyOf": [
+            "antibiotics",
+            "weak_antibiotic",
+            "strong_antibiotic"
+          ],
+          "count": 6
+        },
+        {
+          "anyOf": [
+            "bandages",
+            "bandages_makeshift_boiled",
+            "bandages_makeshift_bleached",
+            "medical_gauze"
+          ],
+          "count": 8
+        }
+      ]
+    },
+    "q_feast": {
+      "distinct": 4,
+      "minKcal": 150,
+      "portions": 3
+    },
+    "q_parts": {
+      "distinct": 3,
+      "from": [
+        "RAM",
+        "processor",
+        "lens",
+        "solar_cell",
+        "motor",
+        "quad_rotors",
+        "sensor_module",
+        "ai_module_basic",
+        "identification_module",
+        "tazer",
+        "hard_plate",
+        "spiked_plate",
+        "robot_controls",
+        "ceramic_armor",
+        "sheet_kevlar_layered"
+      ]
+    },
+    "q_mast": {
+      "items": [
+        {
+          "anyOf": [
+            "amplifier"
+          ],
+          "count": 1
+        },
+        {
+          "anyOf": [
+            "cable"
+          ],
+          "count": 40
+        }
+      ]
+    },
+    "q_vault": {
+      "item": "encrypted_drive_vault"
+    },
+    "q_relay": {
+      "item": "encrypted_drive_relay"
+    },
+    "q_plant": {
+      "item": "encrypted_drive_plant"
+    },
+    "q_council": {
+      "items": [
+        {
+          "anyOf": [
+            "candle"
+          ],
+          "count": 6
+        },
+        {
+          "anyOf": [
+            "lamp_oil"
+          ],
+          "count": 500
+        }
+      ]
+    },
+    "q_steward": {
+      "story": "stewardDown"
+    }
+  }
+}

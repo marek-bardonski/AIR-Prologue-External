@@ -1,0 +1,116 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p29_a02_rigging. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "light_load_bearing_vest",
+    "//": "AIR has no MOLLE attachment: the vest carries a fixed set of general pouches instead",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "load_bearing_vest",
+    "//": "AIR has no MOLLE attachment: the vest carries a fixed set of general pouches instead",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "20 cm",
+        "moves": 80
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "heavy_load_bearing_vest",
+    "//": "AIR has no MOLLE attachment: the vest carries a fixed set of general pouches instead",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "25 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "25 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "25 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "25 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "25 cm",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "3 kg",
+        "max_item_length": "25 cm",
+        "moves": 80
+      }
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "chestpouch_leather",
+    "weight": "340 g",
+    "//": "CDDA's weight packed into its volume is denser than leather can be; the Fate density band (tests/fate-calibration) refuses it"
+  }
+]

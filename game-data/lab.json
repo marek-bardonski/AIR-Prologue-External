@@ -1,0 +1,341 @@
+{
+  "//": "The laboratory under the pinned place 'secret_lab': twenty floors of rooms joined by corridors. A floor is generated from the run's seed and its number. Times are minutes. 'bands' are read by the first row whose 'upTo' is not below the floor. Doors: 'mechanical' is picked (skill + LOCKPICK) or forced (PRY: slow and loud), 'electronic' is bypassed (electronics + SCREW) or hacked (computer) or opened with a keycard found on the floor, 'remote' opens only from the floor's control room, 'keycard' only with the card, 'vault' doors are the hardest of the floor and cannot be forced. A lock of level L can be tried from skill L - 'reach'; at or above L it always opens; below, each try succeeds with chance 'baseChance' + 'perLevel' x (skill - L), costs its time either way and may be heard.",
+  "place": "secret_lab",
+  "levels": 20,
+  "elevatorMinutesPerLevel": 60,
+  "stepMinutes": 12,
+  "walkedStepFactor": 0.5,
+  "corridorSteps": [
+    2,
+    5
+  ],
+  "grid": {
+    "w": 6,
+    "h": 4
+  },
+  "extraLinks": [
+    1,
+    2
+  ],
+  "locks": {
+    "reach": 2,
+    "baseChance": 0.5,
+    "perLevel": 0.2,
+    "minChance": 0.1,
+    "speedPerLevelAbove": 0.1,
+    "failNoise": 0.25,
+    "xpPerMinute": 0.6,
+    "mechanical": {
+      "skill": "traps",
+      "quality": "LOCKPICK",
+      "minutes": [
+        30,
+        10
+      ],
+      "force": {
+        "quality": "PRY",
+        "minutes": [
+          60,
+          20
+        ],
+        "noise": 0.6
+      }
+    },
+    "electronic": {
+      "skill": "electronics",
+      "quality": "SCREW",
+      "altSkill": "computer",
+      "minutes": [
+        40,
+        12
+      ]
+    },
+    "remote": {
+      "minutes": 20
+    },
+    "keycard": {
+      "minutes": 2
+    }
+  },
+  "hazards": {
+    "kinds": {
+      "live_floor": {
+        "name": "live floor",
+        "skill": "electronics",
+        "damageType": "electric"
+      },
+      "gas_leak": {
+        "name": "leaking coolant line",
+        "skill": "mechanics",
+        "damageType": "cold"
+      },
+      "trip_gun": {
+        "name": "tripwire gun",
+        "skill": "traps",
+        "damageType": "stab"
+      }
+    },
+    "disarmMinutes": [
+      25,
+      8
+    ]
+  },
+  "rooms": {
+    "lift": {
+      "name": "Lift lobby",
+      "searchMinutes": 20,
+      "loot": 0
+    },
+    "lift_down": {
+      "name": "Lower lift lobby",
+      "searchMinutes": 20,
+      "loot": 0
+    },
+    "storage": {
+      "name": "Storeroom",
+      "searchMinutes": 110,
+      "loot": 1.4,
+      "weight": 5
+    },
+    "workshop": {
+      "name": "Workshop",
+      "searchMinutes": 100,
+      "loot": 1.2,
+      "weight": 4
+    },
+    "wet_lab": {
+      "name": "Wet laboratory",
+      "searchMinutes": 90,
+      "loot": 1.0,
+      "weight": 5
+    },
+    "quarters": {
+      "name": "Staff quarters",
+      "searchMinutes": 80,
+      "loot": 0.8,
+      "weight": 4,
+      "lore": true
+    },
+    "office": {
+      "name": "Office",
+      "searchMinutes": 70,
+      "loot": 0.6,
+      "weight": 4,
+      "lore": true
+    },
+    "server_hall": {
+      "name": "Server hall",
+      "searchMinutes": 100,
+      "loot": 1.0,
+      "weight": 3,
+      "lore": true
+    },
+    "ward": {
+      "name": "Medical ward",
+      "searchMinutes": 90,
+      "loot": 1.0,
+      "weight": 2,
+      "lore": true
+    },
+    "control": {
+      "name": "Control room",
+      "searchMinutes": 60,
+      "loot": 0.5,
+      "lore": true
+    },
+    "security": {
+      "name": "Security post",
+      "searchMinutes": 60,
+      "loot": 0.8
+    },
+    "vault": {
+      "name": "Sealed store",
+      "searchMinutes": 120,
+      "loot": 0,
+      "vault": true
+    }
+  },
+  "bands": [
+    {
+      "upTo": 4,
+      "rooms": [
+        8,
+        9
+      ],
+      "enemyTable": "deep_1",
+      "encounterPerStep": 0.035,
+      "encounterPerSearchHour": 0.08,
+      "lockLevel": [
+        1,
+        3
+      ],
+      "criticalLocks": 1,
+      "vaults": 1,
+      "vaultLevel": [
+        4,
+        5
+      ],
+      "hazards": 1,
+      "hazardLevel": [
+        1,
+        3
+      ],
+      "hazardDamage": [
+        4,
+        9
+      ],
+      "roomLoot": "deep_room_1",
+      "lore": 2
+    },
+    {
+      "upTo": 9,
+      "rooms": [
+        9,
+        10
+      ],
+      "enemyTable": "deep_2",
+      "encounterPerStep": 0.045,
+      "encounterPerSearchHour": 0.1,
+      "lockLevel": [
+        3,
+        5
+      ],
+      "criticalLocks": 2,
+      "vaults": 1,
+      "vaultLevel": [
+        6,
+        7
+      ],
+      "hazards": 2,
+      "hazardLevel": [
+        3,
+        5
+      ],
+      "hazardDamage": [
+        6,
+        12
+      ],
+      "roomLoot": "deep_room_2",
+      "lore": 3
+    },
+    {
+      "upTo": 14,
+      "rooms": [
+        10,
+        11
+      ],
+      "enemyTable": "deep_3",
+      "encounterPerStep": 0.055,
+      "encounterPerSearchHour": 0.12,
+      "lockLevel": [
+        5,
+        7
+      ],
+      "criticalLocks": 2,
+      "vaults": 2,
+      "vaultLevel": [
+        8,
+        9
+      ],
+      "hazards": 2,
+      "hazardLevel": [
+        5,
+        7
+      ],
+      "hazardDamage": [
+        8,
+        16
+      ],
+      "roomLoot": "deep_room_3",
+      "lore": 3
+    },
+    {
+      "upTo": 19,
+      "rooms": [
+        11,
+        12
+      ],
+      "enemyTable": "deep_4",
+      "encounterPerStep": 0.065,
+      "encounterPerSearchHour": 0.14,
+      "lockLevel": [
+        6,
+        8
+      ],
+      "criticalLocks": 3,
+      "vaults": 2,
+      "vaultLevel": [
+        9,
+        10
+      ],
+      "hazards": 3,
+      "hazardLevel": [
+        7,
+        9
+      ],
+      "hazardDamage": [
+        10,
+        20
+      ],
+      "roomLoot": "deep_room_4",
+      "lore": 3
+    },
+    {
+      "upTo": 20,
+      "rooms": [
+        3,
+        3
+      ],
+      "enemyTable": "deep_5",
+      "encounterPerStep": 0.08,
+      "encounterPerSearchHour": 0.16,
+      "lockLevel": [
+        8,
+        8
+      ],
+      "criticalLocks": 0,
+      "vaults": 0,
+      "vaultLevel": [
+        10,
+        10
+      ],
+      "hazards": 0,
+      "hazardLevel": [
+        9,
+        9
+      ],
+      "hazardDamage": [
+        12,
+        24
+      ],
+      "roomLoot": "deep_room_5",
+      "lore": 3
+    }
+  ],
+  "gatedLevels": [
+    5,
+    10,
+    15,
+    19
+  ],
+  "vaultLoot": "deep_vault",
+  "finale": {
+    "level": 20,
+    "boss": "mon_steward_warden",
+    "corridorSteps": 4,
+    "shutdown": {
+      "minutes": 480,
+      "skills": {
+        "computer": 8,
+        "electronics": 8
+      },
+      "driveBonus": 1,
+      "drives": [
+        "vault",
+        "relay",
+        "plant"
+      ],
+      "xpPerMinute": 0.8
+    }
+  }
+}

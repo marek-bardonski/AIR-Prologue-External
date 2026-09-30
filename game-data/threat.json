@@ -1,0 +1,718 @@
+{
+  "source": "AIR encounter design; enabled monsters retain CDDA stats",
+  "rates": [
+    0.07,
+    0.12,
+    0.2,
+    0.28,
+    0.38,
+    0.46
+  ],
+  "rarityScale": {
+    "common": 100,
+    "uncommon": 50,
+    "rare": 20,
+    "very_rare": 8,
+    "exotic": 3
+  },
+  "labels": [
+    "Very low risk",
+    "Low risk",
+    "Moderate risk",
+    "High risk",
+    "Very high risk",
+    "Extreme risk"
+  ],
+  "base": {
+    "home": 0,
+    "field": 0,
+    "road": 1,
+    "forest": 1,
+    "dense_forest": 2,
+    "river": 0,
+    "lake": 0,
+    "hills": 1,
+    "farm": 1,
+    "house": 2,
+    "shop": 2,
+    "gas_station": 2,
+    "ruins": 3,
+    "campsite": 1,
+    "orchard": 1,
+    "logging_camp": 2,
+    "fishing_dock": 2,
+    "ranger_station": 2,
+    "roadside_garage": 3,
+    "medical_clinic": 3,
+    "railway_depot": 3,
+    "electrical_workshop": 4,
+    "military_checkpoint": 5,
+    "village": 0,
+    "laboratory": 5,
+    "data_vault": 5,
+    "relay_station": 5,
+    "assembly_plant": 5,
+    "relay_mast": 2,
+    "secret_lab": 5,
+    "research_ruin": 4,
+    "tailoring_cooperative": 1,
+    "plant_nursery": 1,
+    "preservation_cellar": 2,
+    "potters_yard": 2,
+    "mountaineering_refuge": 2,
+    "water_quality_station": 3,
+    "fire_station": 3,
+    "machine_tool_shop": 3,
+    "electronics_reclamation": 4,
+    "automated_distribution": 5
+  },
+  "pools": [
+    [
+      "mon_wild_rabbit",
+      "mon_squirrel",
+      "mon_chipmunk",
+      "mon_crow",
+      "mon_rabbit",
+      "mon_hare",
+      "mon_skink_fivelined",
+      "mon_raccoon",
+      "mon_gartersnake",
+      "mon_dog_chihuahua",
+      "mon_chicken",
+      "mon_duck",
+      "mon_cat",
+      "mon_turtle_painted",
+      "mon_opossum",
+      "mon_groundhog",
+      "mon_cormorant",
+      "mon_bat",
+      "mon_sewer_rat",
+      "mon_squirrel_red",
+      "mon_ferret",
+      "mon_cat_longhair",
+      "mon_bluejay",
+      "mon_cardinal",
+      "mon_robin",
+      "mon_sparrow",
+      "mon_chickadee",
+      "mon_waxwing",
+      "mon_pigeon",
+      "mon_hummingbird",
+      "mon_woodpecker",
+      "mon_coot",
+      "mon_moorhen",
+      "mon_grebe",
+      "mon_wormsnake",
+      "mon_leo_frog",
+      "mon_fowler_toad",
+      "mon_freedom_toad",
+      "mon_peeper_frog",
+      "mon_gray_frog",
+      "mon_mink_frog",
+      "mon_green_frog",
+      "mon_wood_frog"
+    ],
+    [
+      "mon_deer",
+      "mon_wild_rabbit",
+      "mon_squirrel",
+      "mon_grouse",
+      "mon_pheasant",
+      "mon_raven",
+      "mon_turkey",
+      "mon_black_rat",
+      "mon_fox_red",
+      "mon_raccoon",
+      "mon_otter",
+      "mon_mink",
+      "mon_weasel",
+      "mon_muskrat",
+      "mon_goose_canadian",
+      "mon_turtle_snapping_common",
+      "mon_opossum",
+      "mon_hare",
+      "mon_gartersnake",
+      "mon_dog_chihuahua",
+      "mon_chicken",
+      "mon_duck",
+      "mon_coyote",
+      "mon_cow",
+      "mon_horse",
+      "mon_pig",
+      "mon_sheep",
+      "mon_goat",
+      "mon_fox_gray",
+      "mon_skunk",
+      "mon_reindeer",
+      "mon_llama",
+      "mon_dog_bull",
+      "mon_dog_beagle"
+    ],
+    [
+      "mon_deer",
+      "mon_dog",
+      "mon_wild_rabbit",
+      "mon_coyote",
+      "mon_boar_wild",
+      "mon_bobcat",
+      "mon_fox_red",
+      "mon_black_rat",
+      "mon_beaver",
+      "mon_raccoon",
+      "mon_turkey",
+      "mon_raven",
+      "mon_muskrat",
+      "mon_otter",
+      "mon_wolf",
+      "mon_turtle_snapping_common",
+      "mon_echo",
+      "mon_dog_gshepherd",
+      "mon_dog_rottweiler",
+      "mon_rattlesnake"
+    ],
+    [
+      "mon_wolf",
+      "mon_boar_wild",
+      "mon_echo",
+      "mon_coyote",
+      "mon_dog",
+      "mon_bobcat",
+      "mon_deer",
+      "mon_beaver",
+      "mon_echo_hound",
+      "mon_black_rat",
+      "mon_raccoon",
+      "mon_turkey",
+      "mon_fox_red",
+      "mon_moose",
+      "mon_cougar",
+      "mon_draft"
+    ],
+    [
+      "mon_wolf",
+      "mon_echo",
+      "mon_echo_hound",
+      "mon_cougar",
+      "mon_boar_wild",
+      "mon_draft",
+      "mon_bear",
+      "mon_moose",
+      "mon_coyote",
+      "mon_dog",
+      "mon_deer",
+      "mon_bobcat",
+      "mon_beaver",
+      "mon_raven"
+    ],
+    [
+      "mon_echo_hound",
+      "mon_draft",
+      "mon_echo",
+      "mon_wolf",
+      "mon_cougar",
+      "mon_bear",
+      "mon_moose",
+      "mon_boar_wild",
+      "mon_coyote",
+      "mon_bobcat",
+      "mon_dog"
+    ]
+  ],
+  "encounterCheckMinutes": 5,
+  "maxEncountersPerExploration": 2,
+  "secondEncounterMultiplier": 0.35,
+  "fallen": {
+    "//": "Prologue rule (26.09.2026): a survivor lying where they fell - down with pain, or passed out from exhaustion - is found. On unsearched ground every check carries unexploredMultiplier times the resting chance; on searched ground, where resting is safe, it carries exploredMultiplier times the searching chance instead. A fight begun that way starts with the survivor down.",
+    "unexploredMultiplier": 3,
+    "exploredMultiplier": 0.5
+  },
+  "//": "undefined rates are per hour of exposure; at most maxEncountersPerExploration turn up in one search and the second is rarer. A search and every step onto unknown ground are checked every encounterCheckMinutes with the danger of that moment; the checks together carry exactly the table's chance.",
+  "rosterExpansion": [
+    {
+      "id": "mon_bat",
+      "kind": "animal",
+      "look": "bat",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_cow",
+      "kind": "animal",
+      "look": "cow",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_horse",
+      "kind": "animal",
+      "look": "horse",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_pig",
+      "kind": "animal",
+      "look": "pig",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_sheep",
+      "kind": "animal",
+      "look": "sheep",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_goat",
+      "kind": "animal",
+      "look": "goat",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_fox_gray",
+      "kind": "animal",
+      "look": "fox_gray",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_skunk",
+      "kind": "animal",
+      "look": "skunk",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_sewer_rat",
+      "kind": "animal",
+      "look": "sewer_rat",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_squirrel_red",
+      "kind": "animal",
+      "look": "squirrel_red",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_ferret",
+      "kind": "animal",
+      "look": "ferret",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_reindeer",
+      "kind": "animal",
+      "look": "reindeer",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_llama",
+      "kind": "animal",
+      "look": "llama",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_dog_bull",
+      "kind": "animal",
+      "look": "dog_bull",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_dog_beagle",
+      "kind": "animal",
+      "look": "dog_beagle",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_dog_gshepherd",
+      "kind": "animal",
+      "look": "dog_gshepherd",
+      "table": "threat_2"
+    },
+    {
+      "id": "mon_dog_rottweiler",
+      "kind": "animal",
+      "look": "dog_rottweiler",
+      "table": "threat_2"
+    },
+    {
+      "id": "mon_cat_longhair",
+      "kind": "animal",
+      "look": "cat_longhair",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_bluejay",
+      "kind": "animal",
+      "look": "bluejay",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_cardinal",
+      "kind": "animal",
+      "look": "cardinal",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_robin",
+      "kind": "animal",
+      "look": "robin",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_sparrow",
+      "kind": "animal",
+      "look": "sparrow",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_chickadee",
+      "kind": "animal",
+      "look": "chickadee",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_waxwing",
+      "kind": "animal",
+      "look": "waxwing",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_pigeon",
+      "kind": "animal",
+      "look": "pigeon",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_hummingbird",
+      "kind": "animal",
+      "look": "hummingbird",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_woodpecker",
+      "kind": "animal",
+      "look": "woodpecker",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_coot",
+      "kind": "animal",
+      "look": "coot",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_moorhen",
+      "kind": "animal",
+      "look": "moorhen",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_grebe",
+      "kind": "animal",
+      "look": "grebe",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_rattlesnake",
+      "kind": "animal",
+      "look": "rattlesnake",
+      "table": "threat_2"
+    },
+    {
+      "id": "mon_wormsnake",
+      "kind": "animal",
+      "look": "wormsnake",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_leo_frog",
+      "kind": "animal",
+      "look": "leo_frog",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_fowler_toad",
+      "kind": "animal",
+      "look": "fowler_toad",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_freedom_toad",
+      "kind": "animal",
+      "look": "freedom_toad",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_peeper_frog",
+      "kind": "animal",
+      "look": "peeper_frog",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_gray_frog",
+      "kind": "animal",
+      "look": "gray_frog",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_mink_frog",
+      "kind": "animal",
+      "look": "mink_frog",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_green_frog",
+      "kind": "animal",
+      "look": "green_frog",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_wood_frog",
+      "kind": "animal",
+      "look": "wood_frog",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_fish_lake_trout",
+      "kind": "fish",
+      "look": "lake_trout"
+    },
+    {
+      "id": "mon_fish_salmon",
+      "kind": "fish",
+      "look": "salmon"
+    },
+    {
+      "id": "mon_fish_whitefish",
+      "kind": "fish",
+      "look": "whitefish"
+    },
+    {
+      "id": "mon_fish_pbass",
+      "kind": "fish",
+      "look": "pbass"
+    },
+    {
+      "id": "mon_fish_rock_bass",
+      "kind": "fish",
+      "look": "rock_bass"
+    },
+    {
+      "id": "mon_fish_calico_bass",
+      "kind": "fish",
+      "look": "calico_bass"
+    },
+    {
+      "id": "mon_fish_channel_catfish",
+      "kind": "fish",
+      "look": "channel_catfish"
+    },
+    {
+      "id": "mon_fish_pike",
+      "kind": "fish",
+      "look": "pike"
+    },
+    {
+      "id": "mon_fish_carp",
+      "kind": "fish",
+      "look": "carp"
+    },
+    {
+      "id": "mon_fish_bowfin",
+      "kind": "fish",
+      "look": "bowfin"
+    },
+    {
+      "id": "mon_fish_gar_longnose",
+      "kind": "fish",
+      "look": "gar_longnose"
+    },
+    {
+      "id": "mon_fish_burbot",
+      "kind": "fish",
+      "look": "burbot"
+    },
+    {
+      "id": "mon_fish_sturgeon_lake",
+      "kind": "fish",
+      "look": "sturgeon_lake"
+    },
+    {
+      "id": "mon_fish_sunfish",
+      "kind": "fish",
+      "look": "sunfish"
+    },
+    {
+      "id": "mon_shear_drone",
+      "base": "mon_stray_hack",
+      "kind": "robot",
+      "look": "shear",
+      "table": "tech_4"
+    },
+    {
+      "id": "mon_surveyor",
+      "base": "mon_watcher",
+      "kind": "robot",
+      "look": "surveyor",
+      "table": "clinic_2"
+    },
+    {
+      "id": "mon_cable_walker",
+      "base": "mon_tripper",
+      "kind": "robot",
+      "look": "cablewalker",
+      "table": "tech_3"
+    },
+    {
+      "id": "mon_auger_unit",
+      "base": "mon_burrower",
+      "kind": "robot",
+      "look": "auger",
+      "table": "tech_4"
+    },
+    {
+      "id": "mon_orderly_unit",
+      "base": "mon_ward",
+      "kind": "robot",
+      "look": "orderly",
+      "table": "clinic_3"
+    },
+    {
+      "id": "mon_compactor",
+      "base": "mon_sweeper",
+      "kind": "robot",
+      "look": "compactor",
+      "table": "house_4"
+    },
+    {
+      "id": "mon_web_keeper",
+      "base": "mon_sentinel",
+      "kind": "robot",
+      "look": "webkeeper",
+      "table": "tech_5"
+    },
+    {
+      "id": "mon_cordon_unit",
+      "base": "mon_clearance_drone",
+      "kind": "robot",
+      "look": "cordon",
+      "table": "checkpoint_4"
+    },
+    {
+      "id": "mon_gatewatch",
+      "base": "mon_sentry_post",
+      "kind": "robot",
+      "look": "gatewatch",
+      "table": "checkpoint_5"
+    },
+    {
+      "id": "mon_patchwork_unit",
+      "base": "mon_prototype",
+      "kind": "robot",
+      "look": "patchwork",
+      "table": "deep_3"
+    },
+    {
+      "id": "mon_freight_mule",
+      "base": "mon_porter",
+      "kind": "robot",
+      "look": "mule",
+      "table": "house_2"
+    },
+    {
+      "id": "mon_field_medic",
+      "base": "mon_nurse_unit",
+      "kind": "robot",
+      "look": "medic",
+      "table": "clinic_4"
+    },
+    {
+      "id": "mon_gantry_keeper",
+      "base": "mon_custodian",
+      "kind": "robot",
+      "look": "gantry",
+      "table": "deep_2"
+    },
+    {
+      "id": "mon_lock_keeper",
+      "base": "mon_arbiter",
+      "kind": "robot",
+      "look": "lockkeeper",
+      "table": "deep_4"
+    },
+    {
+      "id": "mon_indexer",
+      "base": "mon_archivist",
+      "kind": "robot",
+      "look": "indexer",
+      "table": "deep_4"
+    },
+    {
+      "id": "mon_bulkhead_warden",
+      "base": "mon_arbiter",
+      "kind": "robot",
+      "look": "bulkhead",
+      "table": "deep_5"
+    },
+    {
+      "id": "mon_litter_picker",
+      "base": "mon_tripper",
+      "kind": "robot",
+      "look": "litterpicker",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_hedge_trimmer",
+      "base": "mon_stray_hack",
+      "kind": "robot",
+      "look": "trimmer",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_meter_reader",
+      "base": "mon_stray_hack",
+      "kind": "robot",
+      "look": "meterreader",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_pipe_crawler",
+      "base": "mon_tripper",
+      "kind": "robot",
+      "look": "pipecrawler",
+      "table": "threat_1"
+    },
+    {
+      "id": "mon_lawn_unit",
+      "base": "mon_tripper",
+      "kind": "robot",
+      "look": "lawnunit",
+      "table": "threat_2"
+    },
+    {
+      "id": "mon_pollinator",
+      "base": "mon_stray_hack",
+      "kind": "robot",
+      "look": "pollinator",
+      "table": "threat_0"
+    },
+    {
+      "id": "mon_parcel_crawler",
+      "base": "mon_tripper",
+      "kind": "robot",
+      "look": "parcel",
+      "table": "threat_2"
+    },
+    {
+      "id": "mon_nanny_cam",
+      "base": "mon_tripper",
+      "kind": "robot",
+      "look": "nannycam",
+      "table": "threat_2"
+    }
+  ],
+  "rosterHarvest": [
+    "skull_bovine",
+    "skull_equine",
+    "skull_sheep",
+    "skull_goat",
+    "skull_skunk",
+    "skull_llama"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "group": "p28_b05_cooking",
+  "source": "28.09.2026 first-priority import, batch 5: cooked staples, soups, cooked forage",
+  "items": [
+    {
+      "id": "grain_boiled",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pancakes",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "crackers",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "brown_bread",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "sourdough_bread",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "pie",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pie_meat",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pie_veggy",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "broth_bone",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "soup_chicken",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "soup_tomato",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "soup_three_sisters",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "soup_dumplings",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "curry_meat",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "burdock_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "groundnut_prepared",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "groundnut_boiled",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "jerusalem_artichoke_boiled",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "plantain_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "dahlia_baked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lotus_rhizome_boiled",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "raw_bamboo",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 1
+        },
+        {
+          "table": "plant_nursery",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "bamboo_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cooked_pumpkin",
+      "pools": [
+        "food"
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "brown_bread",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "10 days",
+      "//": "canned brown bread keeps like other canned food (food_storage_prologue pattern); opened, the loaf keeps its CDDA ten days"
+    },
+    {
+      "type": "ITEM",
+      "id": "cooked_pumpkin",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "36 hours",
+      "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:brown_bread",
+    "recipe:sourdough_bread"
+  ],
+  "recipesExpected": [
+    "recipe:grain_boiled",
+    "recipe:pancakes",
+    "recipe:crackers",
+    "recipe:pie",
+    "recipe:pie_meat",
+    "recipe:pie_veggy",
+    "recipe:broth_bone",
+    "recipe:soup_three_sisters",
+    "recipe:burdock_cooked",
+    "recipe:groundnut_prepared",
+    "recipe:groundnut_boiled",
+    "recipe:jerusalem_artichoke_boiled",
+    "recipe:plantain_cooked",
+    "recipe:dahlia_baked",
+    "recipe:lotus_rhizome_boiled",
+    "recipe:bamboo_cooked",
+    "recipe:cooked_pumpkin"
+  ],
+  "notes": [
+    "groundnut_prepared and raw_bamboo added: the boiled groundnuts and cooked bamboo are made from them.",
+    "Craft-only dishes route through the discovery food pool (the mashed_potato precedent).",
+    "brown and sourdough bread are shop and kitchen finds: their recipes need bread flour, molasses or a live starter we do not have."
+  ]
+}

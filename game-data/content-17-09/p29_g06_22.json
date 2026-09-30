@@ -1,0 +1,548 @@
+{
+  "group": "p29_g06_22",
+  "source": "29.09.2026 firearms import: .22 rimfire rifles, pistols and revolvers with their rounds",
+  "items": [
+    {
+      "id": "ruger_1022",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.0135,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "marlin_9a",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "marlin60",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "savage_rascal",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "henry_golden_boy",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "rio_bravo",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "rossi_gallery",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "mp_15_22",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.04,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "ruger_mk4",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "sr22",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "walther_p22",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "sig_mosquito",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "sw617",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "ruger_lcr_22",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "rough_rider_pistol",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "1911_22",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "glock_44",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "cp33",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "22_fmj",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.2,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.1,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "22_cb",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "22_ratshot",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.15,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "shop",
+          "weight": 0.1,
+          "charges": [
+            10,
+            50
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_22_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0286,
+          "charges": [
+            5,
+            25
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_22_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.0143,
+          "charges": [
+            5,
+            25
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_22_fmj",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.04,
+          "charges": [
+            3,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:bp_22_fmj",
+    "recipe:matchhead_22_fmj",
+    "recipe:reloaded_22_fmj"
+  ],
+  "notes": [
+    "The .22 is the farm and camp gun: barns, campsites and general shops."
+  ]
+}

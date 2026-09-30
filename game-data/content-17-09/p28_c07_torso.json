@@ -1,0 +1,372 @@
+{
+  "group": "p28_c07_torso",
+  "source": "28.09.2026 next-1000 import: body armour, mail and plate for the torso",
+  "items": [
+    {
+      "id": "armor_junk_lightplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_junk_plate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_heavyplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_lightplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_plate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_metal_sheets_chain",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_metal_sheets_chain_heavy",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_samurai",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "chainmail_junk_hauberk",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chainmail_junk_suit",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_hauberk",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_jumpsuit",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_sjumpsuit",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_chainmail_suit",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_aztec",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_cuirass",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lamellar",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lamellar_lc",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_chestplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_heavy_chestplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lc_light_chestplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_lorica",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_thessalonian",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chainmail_junk_vest",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "chestguard_hard",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "cuirass_bronze",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "cuirass_lightplate",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "football_armor",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kevlar",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "lc_chainmail_vest",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_mirror_armor",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "ballistic_vest_esapi",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ballistic_vest_heavy",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "ballistic_vest_light",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "ballistic_vest_light_operator",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "ballistic_vest_light_pouches",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "fbi_armor_vest",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jacket_eod",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "jacket_eod_light",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "level_3_vest",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "soft_3a_vest",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "stab_vest",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "foot_protectors_eod",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "trousers_eod",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "trousers_eod_light",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:armor_lamellar_lc",
+    "recipe:armor_lamellar_lc:repair"
+  ],
+  "recipesExpected": [
+    "recipe:armor_aztec",
+    "recipe:armor_cuirass",
+    "recipe:armor_lamellar",
+    "recipe:armor_lc_chestplate",
+    "recipe:armor_lc_heavy_chestplate",
+    "recipe:armor_lc_heavyplate",
+    "recipe:armor_lc_heavyplate:assembly",
+    "recipe:armor_lc_light_chestplate",
+    "recipe:armor_lc_lightplate",
+    "recipe:armor_lc_lightplate:assembly",
+    "recipe:armor_lc_plate",
+    "recipe:armor_lc_plate:assembly",
+    "recipe:armor_lorica",
+    "recipe:armor_metal_sheets_chain:assembly",
+    "recipe:armor_metal_sheets_chain_heavy:assembly",
+    "recipe:armor_samurai",
+    "recipe:cuirass_bronze",
+    "recipe:cuirass_lightplate",
+    "recipe:kevlar",
+    "recipe:lc_chainmail_hauberk",
+    "recipe:lc_chainmail_jumpsuit",
+    "recipe:lc_chainmail_jumpsuit:hauberk",
+    "recipe:lc_chainmail_sjumpsuit",
+    "recipe:lc_chainmail_suit",
+    "recipe:lc_chainmail_vest",
+    "recipe:lc_mirror_armor"
+  ],
+  "notes": [
+    "Ballistic and bomb-disposal gear only at the military checkpoint; plate and mail are forged or made."
+  ]
+}

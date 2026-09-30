@@ -1,0 +1,134 @@
+{
+  "//": "Rare finds on the things a survivor works at, beside what the thing itself gives: one roll per operation (a round of gathering or harvesting, a search, a dismantling), at most one find, never on bashing, drawing water, cutting ice or snow. Rows are keyed by a group that names its fixtures (interactables.json ids). `chance` is per operation; `band` is the loot band it must fall in (item-rarity.json lootThresholds: common from 5%, uncommon 1-5%, rare 0.1-1%, epic 0.01-0.1%, legendary under 0.01%). `note` is how the find is told. Only enabled ids are rolled; an item's loot title colour still comes from its best source anywhere (ItemRarity).",
+  "groups": {
+    "stone": {
+      "fixtures": ["rock_outcrop"],
+      "finds": [
+        { "item": "chunk_sulfur", "band": "uncommon", "chance": 0.012, "note": "A yellow crust in a crack of the stone comes away whole." },
+        { "item": "material_zincite", "band": "rare", "chance": 0.004, "note": "A reddish vein in the rock breaks out clean." },
+        { "item": "bone_fossil", "band": "rare", "chance": 0.002, "note": "Something in the split stone has the shape of a bone." },
+        { "item": "garnet", "band": "epic", "chance": 0.0005, "note": "A dark red crystal sits in a pocket of the rock." },
+        { "item": "amethyst", "band": "epic", "chance": 0.0003, "note": "The stone cracks open on a hollow lined with violet crystal." },
+        { "item": "gold_small", "band": "legendary", "chance": 0.00006, "count": [1, 3], "note": "Flecks of gold glint in a seam of quartz." }
+      ]
+    },
+    "deadwood": {
+      "fixtures": ["fallen_branch", "dead_tree"],
+      "finds": [
+        { "item": "feather", "band": "common", "chance": 0.05, "note": "A feather is caught in the twigs." },
+        { "item": "wasp_sting", "band": "uncommon", "chance": 0.015, "note": "An old wasp nest crumbles in the wood; a few stingers are left in it." },
+        { "item": "honeycomb", "band": "rare", "chance": 0.003, "note": "Wild bees once lived in the hollow; some comb is left." },
+        { "item": "bone", "band": "rare", "chance": 0.004, "note": "A bone lies under the leaves." },
+        { "item": "arrow_wood", "band": "epic", "chance": 0.0006, "note": "An arrow from some long-ago hunt is lodged in the wood." },
+        { "item": "slingshot", "band": "epic", "chance": 0.0002, "note": "Someone's slingshot hangs forgotten in the branches." },
+        { "item": "coin_gold", "band": "legendary", "chance": 0.00005, "note": "Under the rotten bark, a heavy gold coin." }
+      ]
+    },
+    "trees": {
+      "fixtures": ["birch_tree", "pine_tree"],
+      "finds": [
+        { "item": "feather", "band": "uncommon", "chance": 0.02, "note": "A feather is caught in the bark." },
+        { "item": "pine_nuts", "band": "uncommon", "chance": 0.01, "count": [2, 5], "note": "A squirrel's cache sits in a hollow of the trunk." },
+        { "item": "acorns", "band": "uncommon", "chance": 0.01, "count": [2, 5], "note": "A squirrel has stuffed a knot-hole with acorns." },
+        { "item": "honeycomb", "band": "rare", "chance": 0.002, "note": "A wild bees' hollow, long abandoned, still holds some comb." },
+        { "item": "arrow_wood", "band": "rare", "chance": 0.002, "note": "A hunting arrow is stuck in the bark." },
+        { "item": "knife_hunting", "band": "epic", "chance": 0.0003, "note": "A hunting knife, driven into the trunk and never pulled out." },
+        { "item": "coin_silver", "band": "legendary", "chance": 0.00006, "note": "A tin box among the roots holds a silver coin." }
+      ]
+    },
+    "berries": {
+      "fixtures": ["berry_bush"],
+      "finds": [
+        { "item": "feather", "band": "uncommon", "chance": 0.02, "note": "A bird left a feather in the bush." },
+        { "item": "corpse_mon_wild_rabbit", "band": "rare", "chance": 0.004, "note": "A rabbit is caught in an old snare under the bush." },
+        { "item": "pockknife", "band": "epic", "chance": 0.0004, "note": "A picker dropped a pocket knife here once." },
+        { "item": "coin_gold", "band": "legendary", "chance": 0.00004, "note": "Something heavy and golden lies among the roots." }
+      ]
+    },
+    "brush": {
+      "fixtures": ["underbrush"],
+      "finds": [
+        { "item": "mushroom", "band": "uncommon", "chance": 0.015, "note": "Mushrooms grow in the shade of the brush." },
+        { "item": "bone", "band": "rare", "chance": 0.004, "note": "A bone lies in the undergrowth." },
+        { "item": "wasp_sting", "band": "rare", "chance": 0.003, "note": "An old wasp nest in the brush still has stingers in it." },
+        { "item": "slingshot", "band": "epic", "chance": 0.0003, "note": "A child's slingshot lies lost in the brush." },
+        { "item": "coin_silver", "band": "legendary", "chance": 0.00006, "note": "A silver coin gleams in the leaf litter." }
+      ]
+    },
+    "shore": {
+      "fixtures": ["river_bank", "cattail_patch"],
+      "finds": [
+        { "item": "coin_dollar", "band": "uncommon", "chance": 0.012, "note": "A coin lies in the shallows." },
+        { "item": "fishing_hook_basic", "band": "rare", "chance": 0.005, "note": "A lost fishing hook is snagged in the reeds." },
+        { "item": "bottle_glass", "band": "rare", "chance": 0.004, "note": "A stoppered glass bottle has washed up in the mud." },
+        { "item": "knife_hunting", "band": "epic", "chance": 0.0004, "note": "Someone lost a knife on this bank." },
+        { "item": "pearl", "band": "legendary", "chance": 0.00008, "note": "An old mussel shell in the mud holds a pearl." }
+      ]
+    },
+    "furniture": {
+      "fixtures": ["sofa", "dresser", "wardrobe", "cupboard", "counter", "bed", "bookcase", "desk", "table", "chair", "fridge", "oven"],
+      "finds": [
+        { "item": "coin_dollar", "band": "uncommon", "chance": 0.02, "count": [1, 4], "note": "Coins have slipped down behind it." },
+        { "item": "lighter", "band": "rare", "chance": 0.004, "note": "A lighter was pushed to the very back." },
+        { "item": "wallet_leather", "band": "rare", "chance": 0.003, "note": "A wallet is hidden underneath." },
+        { "item": "silver_small", "band": "epic", "chance": 0.0005, "count": [1, 3], "note": "A little hoard of silver is wrapped in a cloth and tucked away." },
+        { "item": "coin_silver", "band": "epic", "chance": 0.0003, "note": "A silver coin is taped under a drawer." },
+        { "item": "coin_gold", "band": "legendary", "chance": 0.00006, "note": "A gold coin, hidden where only its owner would look." }
+      ]
+    },
+    "lockers": {
+      "fixtures": ["display_rack", "locker", "campsite_supplies", "orchard_supplies", "logging_camp_supplies", "fishing_dock_supplies", "ranger_station_supplies", "roadside_garage_supplies", "medical_clinic_supplies", "railway_depot_supplies", "electrical_workshop_supplies", "military_checkpoint_supplies", "laboratory_supplies", "tailoring_cooperative_supplies", "plant_nursery_supplies", "preservation_cellar_supplies", "potters_yard_supplies", "mountaineering_refuge_supplies", "water_quality_station_supplies", "fire_station_supplies", "machine_tool_shop_supplies", "electronics_reclamation_supplies", "automated_distribution_supplies", "automated_distribution_food_supplies", "automated_distribution_electrical_supplies"],
+      "finds": [
+        { "item": "coin_dollar", "band": "uncommon", "chance": 0.015, "count": [1, 3], "note": "A few coins rattle in the bottom." },
+        { "item": "wallet_leather", "band": "rare", "chance": 0.002, "note": "Somebody's wallet was left on the top shelf." },
+        { "item": "silver_small", "band": "epic", "chance": 0.0004, "count": [1, 3], "note": "A twist of cloth at the back holds some silver." },
+        { "item": "gold_small", "band": "legendary", "chance": 0.00006, "count": [1, 2], "note": "A tobacco tin behind the shelf holds a little gold." }
+      ]
+    },
+    "wreck": {
+      "fixtures": ["car_wreck"],
+      "finds": [
+        { "item": "coin_dollar", "band": "uncommon", "chance": 0.03, "count": [1, 5], "note": "Coins have rolled under the seats." },
+        { "item": "lighter", "band": "rare", "chance": 0.006, "note": "A lighter is wedged beside the seat." },
+        { "item": "wallet_leather", "band": "rare", "chance": 0.003, "note": "A wallet has fallen down between the seats." },
+        { "item": "pockknife", "band": "rare", "chance": 0.002, "note": "A pocket knife in the door pocket." },
+        { "item": "silver_small", "band": "epic", "chance": 0.0003, "count": [1, 2], "note": "A little silver is taped up behind the dashboard." },
+        { "item": "coin_gold", "band": "legendary", "chance": 0.00005, "note": "A gold coin is hidden in the spare-wheel well." }
+      ]
+    },
+    "farm": {
+      "fixtures": ["barn", "coop"],
+      "finds": [
+        { "item": "feather", "band": "common", "chance": 0.06, "count": [1, 3], "note": "Feathers are everywhere in the straw." },
+        { "item": "egg_chicken", "band": "uncommon", "chance": 0.02, "note": "An egg lies forgotten in the straw." },
+        { "item": "pockknife", "band": "rare", "chance": 0.002, "note": "A pocket knife lies on a beam." },
+        { "item": "coin_silver", "band": "epic", "chance": 0.0003, "note": "A silver coin is pushed into a crack in the boards." },
+        { "item": "coin_gold", "band": "legendary", "chance": 0.00005, "note": "A gold coin, buried in a jar under the floorboards." }
+      ]
+    },
+    "ruins": {
+      "fixtures": ["rubble", "collapsed_shelf"],
+      "finds": [
+        { "item": "coin_dollar", "band": "uncommon", "chance": 0.02, "count": [1, 3], "note": "A few coins among the debris." },
+        { "item": "wallet_leather", "band": "rare", "chance": 0.002, "note": "A wallet, crushed flat under the debris." },
+        { "item": "silver_small", "band": "epic", "chance": 0.0004, "count": [1, 2], "note": "Tarnished silver glints in the dust." },
+        { "item": "gold_small", "band": "legendary", "chance": 0.00006, "count": [1, 2], "note": "Gold, somebody's savings, lies in the rubble." }
+      ]
+    },
+    "lost": {
+      "fixtures": ["lost_suitcase", "traveller_remains", "discarded_toolbox", "lost_backpack", "traveller_cache"],
+      "finds": [
+        { "item": "coin_dollar", "band": "uncommon", "chance": 0.03, "count": [1, 5], "note": "Loose coins at the bottom." },
+        { "item": "wallet_leather", "band": "rare", "chance": 0.005, "note": "A wallet in an inside pocket." },
+        { "item": "silver_small", "band": "epic", "chance": 0.0006, "count": [1, 3], "note": "Silver sewn into the lining." },
+        { "item": "coin_gold", "band": "legendary", "chance": 0.00008, "note": "A gold coin, hidden with care." }
+      ]
+    },
+    "vending": {
+      "fixtures": ["vending"],
+      "finds": [
+        { "item": "coin_dollar", "band": "common", "chance": 0.08, "count": [1, 4], "note": "Coins are left in the return slot." }
+      ]
+    }
+  }
+}

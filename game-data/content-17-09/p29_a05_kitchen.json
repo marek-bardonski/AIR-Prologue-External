@@ -1,0 +1,777 @@
+{
+  "group": "p29_a05_kitchen",
+  "source": "29.09.2026 second 500: cooking 3-5 ferments, brews and cures, sourdough and koji chains, frog legs, desert produce, MRE entrees, cereals",
+  "items": [
+    {
+      "id": "brew_vinegar",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sauerkraut_ferment",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "farm",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "eggs_ferment",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        },
+        {
+          "table": "farm_coop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pickles_ferment",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "farm",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "milk_cream_rising",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.04
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "milk_cream_jar",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "brew_milk_curdled",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "fermenting_yogurt",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "yogurt_starter_culture",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.08
+        },
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "young_koji",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "young_koji_done",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "soy_wheat_dough",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "soy_wheat_dough_done",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "brew_soy_sauce",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "soy_sauce_unstrained",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "brew_sake",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "raw_curing_fatty_meat",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "raw_cured_fatty_meat",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.04
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "froglegs_cooked",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "froglegs_smoked",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "chicken_tandoori",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "V8",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.08
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.06
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "cactus_pad",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "nopalitos",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "cholla_bud",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "sourdough_young_uncovered",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sourdough_split_uncovered",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        },
+        {
+          "table": "farm",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "sourdough_starter_uncovered",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.04
+        },
+        {
+          "table": "farm",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tofu_fried",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "mre_bag_small",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mre_asianbeef",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_bbqbeef",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_beeftaco",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_blackbeans",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_cheesepizza",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_chickennoodle",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_chilimac",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_fried_rice",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_lemontuna",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_mexicanchickenstew",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "mre_chocolate_pudding",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.072
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.09
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "cereal_fp1",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.12
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "cereal_fp7",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.12
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.08
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "V8",
+      "spoils_in": "365 days",
+      "air_open_spoils_in": "10 days",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_asianbeef",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_bbqbeef",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_beeftaco",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_blackbeans",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_cheesepizza",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_chickennoodle",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_chilimac",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_fried_rice",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_lemontuna",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_mexicanchickenstew",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "mre_chocolate_pudding",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "1 day",
+      "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:V8",
+    "recipe:V8:jarred",
+    "recipe:brew_milk_curdled",
+    "recipe:brew_sake",
+    "recipe:brew_soy_sauce",
+    "recipe:brew_vinegar",
+    "recipe:chicken_tandoori",
+    "recipe:eggs_ferment",
+    "recipe:fermenting_yogurt",
+    "recipe:froglegs_cooked",
+    "recipe:froglegs_smoked",
+    "recipe:milk_cream_rising",
+    "recipe:nopalitos",
+    "recipe:pickles_ferment",
+    "recipe:raw_curing_fatty_meat",
+    "recipe:sauerkraut_ferment",
+    "recipe:sourdough_split_uncovered",
+    "recipe:sourdough_young_uncovered",
+    "recipe:soy_wheat_dough",
+    "recipe:tofu_fried",
+    "recipe:young_koji"
+  ],
+  "notes": [
+    "Fermenting jars, musts and curing meat ripen through Ripening (delayed_transform / brew_time).",
+    "MRE entrees and V8 carry the sealed spoil override (food_storage_prologue pattern)."
+  ]
+}

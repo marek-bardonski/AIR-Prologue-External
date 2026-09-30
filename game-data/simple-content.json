@@ -1,0 +1,2323 @@
+{
+  "source": {
+    "repo": "https://github.com/CleverRaven/Cataclysm-DDA",
+    "tag": "0.I",
+    "commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+    "licence": "CC-BY-SA 3.0 (see LICENSE.txt)",
+    "importedAt": "2026-09-12T10:42:20Z",
+    "folders": [
+      "data/json (entire folder)",
+      "data/mods/Magiclysm",
+      "doc/JSON",
+      "LICENSE.txt"
+    ]
+  },
+  "baseline": {
+    "items": 1440,
+    "recipes": 1200
+  },
+  "items": [
+    {
+      "id": "10l_aluminum",
+      "name": "10 L aluminum ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "10l_brass",
+      "name": "10 L brass ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "10l_bronze",
+      "name": "10 L bronze ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "10l_copper",
+      "name": "10 L copper ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "10l_gold",
+      "name": "10 L gold ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "10l_lead",
+      "name": "10 L lead ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "10l_silver",
+      "name": "10 L silver ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "10l_tin",
+      "name": "10 L tin ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "10l_zinc",
+      "name": "10 L zinc ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_aluminum",
+      "name": "1L aluminum ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_brass",
+      "name": "1L brass ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_bronze",
+      "name": "1L bronze ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_copper",
+      "name": "1L copper ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_gold",
+      "name": "1 L gold ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_lead",
+      "name": "1 L lead ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_silver",
+      "name": "1 L silver ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_tin",
+      "name": "1 L tin ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "1l_zinc",
+      "name": "1L zinc ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_aluminum",
+      "name": "5 L aluminum ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_brass",
+      "name": "5 L brass ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_bronze",
+      "name": "5 L bronze ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_copper",
+      "name": "5 L copper ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_gold",
+      "name": "5 L gold ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_lead",
+      "name": "5 L lead ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_silver",
+      "name": "5 L silver ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_tin",
+      "name": "5 L tin ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "5l_zinc",
+      "name": "5 L zinc ingot",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "acetic_anhydride",
+      "name": "acetic anhydride",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "bag_body_bag",
+      "name": "body bag",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "bandages_makeshift_bleached",
+      "name": "bleached makeshift bandage",
+      "file": "cdda/data/json/items/tool/med.json"
+    },
+    {
+      "id": "bleach",
+      "name": "bleach",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "box_large_metal",
+      "name": "large metal box",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "box_medium_metal",
+      "name": "metal box",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "box_oversize",
+      "name": "oversize cardboard box",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "box_oversize_folded",
+      "name": "oversize folded cardboard box",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "box_oversize_metal",
+      "name": "oversize metal box",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "box_oversize_reinforced",
+      "name": "reinforced oversize cardboard box",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "bronze_mag",
+      "name": "Historic Warfare: The Bronze Age",
+      "file": "cdda/data/json/items/book/fabrication.json"
+    },
+    {
+      "id": "bronze_nail",
+      "name": "bronze nail",
+      "file": "cdda/data/json/items/ammo/nail.json"
+    },
+    {
+      "id": "budget_steel_chunk",
+      "name": "chunk of budget steel",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "budget_steel_lump",
+      "name": "lump of budget steel",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "bundle_branch_long",
+      "name": "bundle of long sticks",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "bundle_copper_pipe",
+      "name": "bundle of copper tubing",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "bundle_javelin",
+      "name": "bundle of javelins",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "bundle_nylon",
+      "name": "bundle of synthetic fabric",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "bundle_pipe",
+      "name": "bundle of pipes",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "bundle_rebar",
+      "name": "bundle of rebar",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "button_bronze",
+      "name": "bronze button",
+      "file": "cdda/data/json/items/resources/fasteners.json"
+    },
+    {
+      "id": "button_steel",
+      "name": "steel button",
+      "file": "cdda/data/json/items/resources/fasteners.json"
+    },
+    {
+      "id": "cac2powder",
+      "name": "calcium carbide premix",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "cardboard",
+      "name": "piece of cardboard",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "ch_chain_link",
+      "name": "hardened steel chain link",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "ch_wire",
+      "name": "hardened steel wire",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "chaff",
+      "name": "chaff",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "chem_anfo",
+      "name": "ANFO",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "chunk_rubber",
+      "name": "chunk of rubber",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "chunk_sulfur",
+      "name": "chunk of sulfur",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "circsaw_off",
+      "name": "circular saw (off)",
+      "file": "cdda/data/json/items/tool/woodworking.json"
+    },
+    {
+      "id": "coin_wrapper",
+      "name": "coin wrapper",
+      "file": "cdda/data/json/items/generic/currency.json"
+    },
+    {
+      "id": "crude_bronze_nail",
+      "name": "crude bronze nail",
+      "file": "cdda/data/json/items/tool/metalworking.json"
+    },
+    {
+      "id": "cu_pipe",
+      "name": "copper tubing",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "damaged_shelter_kit",
+      "name": "damaged shelter kit",
+      "file": "cdda/data/json/items/tool/shelters.json"
+    },
+    {
+      "id": "dry_seaweed",
+      "name": "dried seaweed",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "dry_seaweed_pile",
+      "name": "pile of dried seaweed",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "fertilizer_commercial",
+      "name": "commercial fertilizer",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "forge",
+      "name": "electric forge",
+      "file": "cdda/data/json/items/tool/metalworking.json"
+    },
+    {
+      "id": "fuse",
+      "name": "fuse",
+      "file": "cdda/data/json/items/resources/misc.json"
+    },
+    {
+      "id": "gasket_plastic_set",
+      "name": "plastic gasket set",
+      "file": "cdda/data/json/items/tool/science.json"
+    },
+    {
+      "id": "gold_small",
+      "name": "gold",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "gunpowder",
+      "name": "mixed smokeless gunpowder",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "hc_chain_link",
+      "name": "high steel chain link",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "hc_wire",
+      "name": "high steel wire",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "heavy_flashlight",
+      "name": "heavy-duty flashlight (off)",
+      "file": "cdda/data/json/items/tool/lighting.json"
+    },
+    {
+      "id": "hickory_root",
+      "name": "hickory root",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "instant_coffee",
+      "name": "instant coffee mix",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "javelin",
+      "name": "wooden javelin",
+      "file": "cdda/data/json/items/melee/spears_and_polearms.json"
+    },
+    {
+      "id": "lamp_oil",
+      "name": "kerosene",
+      "file": "cdda/data/json/items/fuel.json"
+    },
+    {
+      "id": "large_biogas_tank",
+      "name": "large biogas tank",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "large_propane_tank",
+      "name": "large propane tank",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "lc_chain_link",
+      "name": "mild steel chain link",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "long_pole",
+      "name": "long pole",
+      "file": "cdda/data/json/items/resources/wood.json"
+    },
+    {
+      "id": "makeshift_stethoscope",
+      "name": "makeshift stethoscope",
+      "file": "cdda/data/json/items/tool_armor.json"
+    },
+    {
+      "id": "makeshift_welding_blanket",
+      "name": "makeshift welding blanket",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "material_soil",
+      "name": "soil",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "mc_chain_link",
+      "name": "medium steel chain link",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "mc_wire",
+      "name": "medium steel wire",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "metal_tank",
+      "name": "metal tank (60 L)",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "misc_repairkit",
+      "name": "miscellaneous repair kit",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "mortar_adobe",
+      "name": "adobe mortar",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "nomex",
+      "name": "Nomex patch",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "oil_press_electric",
+      "name": "electric oil press",
+      "file": "cdda/data/json/items/vehicle/utilities.json"
+    },
+    {
+      "id": "oil_press_manual",
+      "name": "manual oil press",
+      "file": "cdda/data/json/items/tool/cooking.json"
+    },
+    {
+      "id": "oven_broiler_pan",
+      "name": "broiler pan",
+      "file": "cdda/data/json/items/resources/appliance_parts.json"
+    },
+    {
+      "id": "oven_cabinet",
+      "name": "stripped oven cabinet",
+      "file": "cdda/data/json/items/resources/appliance_parts.json"
+    },
+    {
+      "id": "oven_controls",
+      "name": "oven control panel",
+      "file": "cdda/data/json/items/resources/appliance_parts.json"
+    },
+    {
+      "id": "oven_door",
+      "name": "oven door",
+      "file": "cdda/data/json/items/resources/appliance_parts.json"
+    },
+    {
+      "id": "oven_stovetop",
+      "name": "dismantled stovetop",
+      "file": "cdda/data/json/items/resources/appliance_parts.json"
+    },
+    {
+      "id": "paste_nut",
+      "name": "nut paste",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "pilot_light",
+      "name": "pilot light",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "popcorn_raw",
+      "name": "raw popcorn",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "press_cake",
+      "name": "press cake",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    },
+    {
+      "id": "qt_chain_link",
+      "name": "tempered steel chain link",
+      "file": "cdda/data/json/items/ammo.json"
+    },
+    {
+      "id": "qt_wire",
+      "name": "tempered steel wire",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "rebar",
+      "name": "rebar",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "red_phosphorous",
+      "name": "red phosphorous",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "red_phosphorous_small",
+      "name": "small portion of red phosphorous",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "roasted_coffee_bean",
+      "name": "roasted coffee beans",
+      "file": "cdda/data/json/items/comestibles/seed.json"
+    },
+    {
+      "id": "rock_quern",
+      "name": "stone quern",
+      "file": "cdda/data/json/items/tool/cooking.json"
+    },
+    {
+      "id": "rock_wool_bat",
+      "name": "fiber insulation batt",
+      "file": "cdda/data/json/items/resources/stone.json"
+    },
+    {
+      "id": "rosin",
+      "name": "rosin",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "scrap_brass",
+      "name": "chunk of brass",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "screw_press_tool",
+      "name": "screw press",
+      "file": "cdda/data/json/items/tool/deployable.json"
+    },
+    {
+      "id": "sheet_nomex_patchwork",
+      "name": "patchwork Nomex sheet",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "shredded_rubber",
+      "name": "shredded rubber",
+      "file": "cdda/data/json/items/chemicals_and_resources.json"
+    },
+    {
+      "id": "silver_small",
+      "name": "silver",
+      "file": "cdda/data/json/items/resources/metal.json"
+    },
+    {
+      "id": "swage",
+      "name": "swage and die set",
+      "file": "cdda/data/json/items/tool/metalworking.json"
+    },
+    {
+      "id": "textbook_armwest",
+      "name": "Studies in Historic Armorsmithing",
+      "file": "cdda/data/json/items/book/fabrication.json"
+    },
+    {
+      "id": "textbook_extraction",
+      "name": "The Essential Oil Enthusiasts Handbook",
+      "file": "cdda/data/json/items/book/chemistry.json"
+    },
+    {
+      "id": "thread_nomex",
+      "name": "Nomex thread",
+      "file": "cdda/data/json/items/resources/tailoring.json"
+    },
+    {
+      "id": "threshed_lentils",
+      "name": "threshed lentils",
+      "file": "cdda/data/json/items/comestibles/raw_grain.json"
+    },
+    {
+      "id": "toolbox_empty",
+      "name": "toolbox",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "wearable_big_light",
+      "name": "heavy-duty headlamp",
+      "file": "cdda/data/json/items/tool_armor.json"
+    },
+    {
+      "id": "wearable_light",
+      "name": "headlamp",
+      "file": "cdda/data/json/items/tool_armor.json"
+    },
+    {
+      "id": "welder",
+      "name": "arc welder",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "welding_kit",
+      "name": "high-temperature welding kit",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "welding_rod_alloy",
+      "name": "aluminum welding rod",
+      "file": "cdda/data/json/items/ammo/weldgas.json"
+    },
+    {
+      "id": "wild_herbs",
+      "name": "wild herbs",
+      "file": "cdda/data/json/items/comestibles/spice.json"
+    },
+    {
+      "id": "willowbark",
+      "name": "piece of willowbark",
+      "file": "cdda/data/json/items/generic.json"
+    },
+    {
+      "id": "wood_beam",
+      "name": "heavy wooden beam",
+      "file": "cdda/data/json/items/resources/wood.json"
+    },
+    {
+      "id": "wood_sheet",
+      "name": "large wooden sheet",
+      "file": "cdda/data/json/items/resources/wood.json"
+    },
+    {
+      "id": "xacto",
+      "name": "X-Acto knife",
+      "file": "cdda/data/json/items/tool/workshop.json"
+    },
+    {
+      "id": "xl_biogas_tank",
+      "name": "extra large biogas tank",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "xl_propane_tank",
+      "name": "extra large propane tank",
+      "file": "cdda/data/json/items/containers/containers.json"
+    },
+    {
+      "id": "yeast",
+      "name": "yeast",
+      "file": "cdda/data/json/items/comestibles/other.json"
+    }
+  ],
+  "recipes": [
+    "recipe:10l_aluminum",
+    "recipe:10l_brass",
+    "recipe:10l_bronze",
+    "recipe:10l_copper",
+    "recipe:10l_gold",
+    "recipe:10l_lead",
+    "recipe:10l_silver",
+    "recipe:10l_tin",
+    "recipe:10l_zinc",
+    "recipe:1l_aluminum",
+    "recipe:1l_brass",
+    "recipe:1l_bronze",
+    "recipe:1l_copper",
+    "recipe:1l_gold",
+    "recipe:1l_lead",
+    "recipe:1l_silver",
+    "recipe:1l_tin",
+    "recipe:1l_zinc",
+    "recipe:2x4:from logs with powertools",
+    "recipe:2x4:from long planks with powertools",
+    "recipe:5l_aluminum",
+    "recipe:5l_brass",
+    "recipe:5l_bronze",
+    "recipe:5l_copper",
+    "recipe:5l_gold",
+    "recipe:5l_lead",
+    "recipe:5l_silver",
+    "recipe:5l_tin",
+    "recipe:5l_zinc",
+    "recipe:bandages_makeshift_bleached",
+    "recipe:box_large_metal",
+    "recipe:box_medium_metal",
+    "recipe:box_oversize:assembly",
+    "recipe:box_oversize:crafted",
+    "recipe:box_oversize_metal",
+    "recipe:box_oversize_reinforced",
+    "recipe:bronze_nail",
+    "recipe:bronze_nail:simple",
+    "recipe:budget_steel_chunk",
+    "recipe:budget_steel_lump",
+    "recipe:budget_steel_lump:from_scrap",
+    "recipe:bundle_branch_long",
+    "recipe:bundle_copper_pipe",
+    "recipe:bundle_javelin",
+    "recipe:bundle_nylon",
+    "recipe:bundle_pipe",
+    "recipe:bundle_rebar",
+    "recipe:button_bronze",
+    "recipe:button_steel",
+    "recipe:cac2powder",
+    "recipe:ceramic_cup",
+    "recipe:ch_chain_link:fabrication",
+    "recipe:char_smoker",
+    "recipe:charcoal_cooker",
+    "recipe:chem_ammonium_nitrate_pellets",
+    "recipe:chem_anfo",
+    "recipe:chem_sulphur",
+    "recipe:coin_wrapper",
+    "recipe:cordage_6:electric_spinwheel_plant",
+    "recipe:cordage_6:spinwheel_plant",
+    "recipe:crude_bronze_nail",
+    "recipe:dry_seaweed_pile",
+    "recipe:esbit_stove",
+    "recipe:fertilizer_commercial:simple",
+    "recipe:fish_trap",
+    "recipe:fuse",
+    "recipe:fuse:with gunpowder",
+    "recipe:fuse:with paper & gunpowder",
+    "recipe:gasket_plastic_set",
+    "recipe:hc_chain_link:fabrication",
+    "recipe:large_biogas_tank",
+    "recipe:lc_chain_link:fabrication",
+    "recipe:makeshift_stethoscope",
+    "recipe:makeshift_welding_blanket",
+    "recipe:material_aluminium_ingot",
+    "recipe:mc_chain_link:fabrication",
+    "recipe:metal_tank",
+    "recipe:misc_repairkit",
+    "recipe:mortar_adobe",
+    "recipe:needle_steel",
+    "recipe:qt_chain_link:fabrication",
+    "recipe:rebar",
+    "recipe:red_phosphorous",
+    "recipe:red_phosphorous_small",
+    "recipe:rubber_tire_chunk",
+    "recipe:scrap_bronze",
+    "recipe:sheet_nomex_patchwork",
+    "recipe:shredded_rubber",
+    "recipe:steel_pan",
+    "recipe:string_36:electric_spinwheel",
+    "recipe:string_36:spinwheel",
+    "recipe:string_6:electric_spinwheel",
+    "recipe:string_6:spinwheel",
+    "recipe:tankard_metal",
+    "recipe:teapot",
+    "recipe:toolbox_empty",
+    "recipe:wearable_big_light",
+    "recipe:wearable_light",
+    "recipe:welding_kit",
+    "recipe:wood_beam:from logs",
+    "recipe:xl_biogas_tank"
+  ],
+  "recoveredRecipes": [
+    "recipe:aspirin",
+    "recipe:blade:from steel",
+    "recipe:bottle_metal",
+    "recipe:box_large:crafted",
+    "recipe:box_medium:crafted",
+    "recipe:box_small:crafted",
+    "recipe:bread",
+    "recipe:coffee:using_instant_coffee",
+    "recipe:coffee_raw",
+    "recipe:cooking_oil",
+    "recipe:cooking_oil:coldpressed",
+    "recipe:cooking_oil:electric",
+    "recipe:dry_lentils",
+    "recipe:dry_lentils:win1",
+    "recipe:dry_lentils:win2",
+    "recipe:flour_wheat_free",
+    "recipe:herbal_tea",
+    "recipe:kernels",
+    "recipe:meal_bone",
+    "recipe:metalworking_tongs",
+    "recipe:nail",
+    "recipe:oatmeal",
+    "recipe:oven",
+    "recipe:plank_long",
+    "recipe:plank_short:from long planks with powertools",
+    "recipe:plank_short:from planks with powertools",
+    "recipe:plant_fibre:s_scutcher",
+    "recipe:pliers",
+    "recipe:pot",
+    "recipe:salt:from_hickory",
+    "recipe:shelter_kit:repair",
+    "recipe:sleeping_bag_improvised",
+    "recipe:solder_wire",
+    "recipe:spear_shaft:from long pole",
+    "recipe:steel_chunk",
+    "recipe:steel_lump",
+    "recipe:wood_panel:from wooden beams",
+    "recipe:wood_panel:from wooden sheets",
+    "recipe:wooden_post:from long posts with powertools",
+    "recipe:wooden_post_long",
+    "recipe:wooden_post_short:from long posts with powertools",
+    "recipe:wooden_post_short:from posts with powertools"
+  ],
+  "deferred": [
+    {
+      "key": "recipe:flour_wheat_free:mill_2_3",
+      "result": "flour_wheat_free",
+      "blocked": true,
+      "reason": "No supported player learning route"
+    },
+    {
+      "key": "recipe:flour_wheat_free:mill_4_5",
+      "result": "flour_wheat_free",
+      "blocked": true,
+      "reason": "No supported player learning route"
+    },
+    {
+      "key": "recipe:nail:npc_drop",
+      "result": "nail",
+      "blocked": true,
+      "reason": "NPC/never-learn recipe"
+    },
+    {
+      "key": "recipe:mutagen_jabberblood",
+      "result": "mutagen_jabberblood",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:plastic_sheet:with_duct_tape",
+      "result": "plastic_sheet",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:plastic_sheet:with_heat",
+      "result": "plastic_sheet",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:tourniquet_upper",
+      "result": "tourniquet_upper",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:cattail_jelly",
+      "result": "cattail_jelly",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:disinrag",
+      "result": "disinrag",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:disincotton_ball",
+      "result": "disincotton_ball",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:arm_xlsplint",
+      "result": "arm_xlsplint",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:arm_xs_splint",
+      "result": "arm_xs_splint",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:leg_xlsplint",
+      "result": "leg_xlsplint",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:leg_xs_splint",
+      "result": "leg_xs_splint",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:vitc_fragment:by hand",
+      "result": "vitc_fragment",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:fish_bait",
+      "result": "fish_bait",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:deck_of_cards:variant:deck_of_cards_makeshift",
+      "result": "deck_of_cards",
+      "blocked": false,
+      "reason": "Variant or recipe not supported by the current source index"
+    },
+    {
+      "key": "recipe:tic_tac",
+      "result": "tic_tac",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:makeshift_dominoes",
+      "result": "makeshift_dominoes",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:makeshift_checkers",
+      "result": "makeshift_checkers",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:money_strap_one",
+      "result": "money_strap_one",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_strap_two",
+      "result": "money_strap_two",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_strap_five",
+      "result": "money_strap_five",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_strap_ten",
+      "result": "money_strap_ten",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_strap_twenty",
+      "result": "money_strap_twenty",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_strap_fifty",
+      "result": "money_strap_fifty",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_strap_hundred",
+      "result": "money_strap_hundred",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_strap_FMCNote",
+      "result": "money_strap_FMCNote",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_bundle_one",
+      "result": "money_bundle_one",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_bundle_two",
+      "result": "money_bundle_two",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_bundle_five",
+      "result": "money_bundle_five",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_bundle_ten",
+      "result": "money_bundle_ten",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_bundle_twenty",
+      "result": "money_bundle_twenty",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_bundle_fifty",
+      "result": "money_bundle_fifty",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_bundle_hundred",
+      "result": "money_bundle_hundred",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:money_bundle_FMCNote",
+      "result": "money_bundle_FMCNote",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:wood_beam:with_planer",
+      "result": "wood_beam",
+      "blocked": false,
+      "reason": "Unsupported or unpowered tool: planer_tool"
+    },
+    {
+      "key": "recipe:soaking_spear_shaft",
+      "result": "soaking_spear_shaft",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:soft_adobe_brick",
+      "result": "soft_adobe_brick",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:adobe_pallet_full",
+      "result": "adobe_pallet_full",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:mortar_build",
+      "result": "mortar_build",
+      "blocked": false,
+      "reason": "Unsupported or unpowered tool: concrete_mix_tool"
+    },
+    {
+      "key": "recipe:antenna",
+      "result": "antenna",
+      "blocked": false,
+      "reason": "Unsupported or unpowered tool: two_way_radio / radiocontrol"
+    },
+    {
+      "key": "recipe:xlframe",
+      "result": "xlframe",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:seat",
+      "result": "seat",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:seat_leather",
+      "result": "seat_leather",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:seat_bench",
+      "result": "seat_bench",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:seat_bench_leather",
+      "result": "seat_bench_leather",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:reinforced_solar_panel",
+      "result": "reinforced_solar_panel",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:reinforced_solar_panel_v2",
+      "result": "reinforced_solar_panel_v2",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:ground_solar_panel_v2",
+      "result": "ground_solar_panel_v2",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:5l_methanol_tank",
+      "result": "5l_methanol_tank",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:10l_methanol_tank",
+      "result": "10l_methanol_tank",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:28l_methanol_tank",
+      "result": "28l_methanol_tank",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:60l_methanol_tank",
+      "result": "60l_methanol_tank",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:cantilever_small",
+      "result": "cantilever_small",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:pallet_lifter",
+      "result": "pallet_lifter",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:drivebelt_makeshift",
+      "result": "drivebelt_makeshift",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:filter_air_makeshift",
+      "result": "filter_air_makeshift",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:filter_liquid_makeshift",
+      "result": "filter_liquid_makeshift",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:cargo_lock",
+      "result": "cargo_lock",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:wall_light",
+      "result": "wall_light",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:standing_lamp",
+      "result": "standing_lamp",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:standing_floodlight",
+      "result": "standing_floodlight",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:standing_directed_floodlight",
+      "result": "standing_directed_floodlight",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:foot_locker_recharge_station",
+      "result": "foot_locker_recharge_station",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:box_battery_charger",
+      "result": "box_battery_charger",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:rebar:npc_drop",
+      "result": "rebar",
+      "blocked": false,
+      "reason": "NPC/never-learn recipe"
+    },
+    {
+      "key": "recipe:memory_card_unread:npc_hack",
+      "result": "memory_card_unread",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:chair_wood_black",
+      "result": "chair_wood_black",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:chair_wood_white",
+      "result": "chair_wood_white",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:saline",
+      "result": "saline",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:tallow_tainted",
+      "result": "tallow_tainted",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:handrolled_cig",
+      "result": "handrolled_cig",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:tobacco",
+      "result": "tobacco",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:joint",
+      "result": "joint",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:crack",
+      "result": "crack",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:poppy_sleep",
+      "result": "poppy_sleep",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:bonemeal_tablet",
+      "result": "bonemeal_tablet",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:tums",
+      "result": "tums",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:poppy_pain",
+      "result": "poppy_pain",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:fungicide:from_normal_chemicals",
+      "result": "fungicide",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:fermentable_liquid_mixture",
+      "result": "fermentable_liquid_mixture",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:fermentable_liquid_mixture:hard",
+      "result": "fermentable_liquid_mixture",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:fermentable_fish_mixture",
+      "result": "fermentable_fish_mixture",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:fertilizer_liquid:simple",
+      "result": "fertilizer_liquid",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:flask_yeast",
+      "result": "flask_yeast",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:skunk_spray_neutralizing_solution",
+      "result": "skunk_spray_neutralizing_solution",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:cocaine_topical",
+      "result": "cocaine_topical",
+      "blocked": false,
+      "reason": "Medicine effect is not implemented"
+    },
+    {
+      "key": "recipe:chem_carbide",
+      "result": "chem_carbide",
+      "blocked": false,
+      "reason": "Unsupported or unpowered tool: fake_arc_furnace"
+    },
+    {
+      "key": "recipe:bodypillow:variant:bodypillow_makeshift",
+      "result": "bodypillow",
+      "blocked": false,
+      "reason": "Variant or recipe not supported by the current source index"
+    },
+    {
+      "key": "recipe:tent_kit",
+      "result": "tent_kit",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:large_tent_kit",
+      "result": "large_tent_kit",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:analytical_set_basic",
+      "result": "analytical_set_basic",
+      "blocked": false,
+      "reason": "Unsupported component: spectrophotometer"
+    },
+    {
+      "key": "recipe:large_shelter_kit:repair",
+      "result": "large_shelter_kit",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:w_table",
+      "result": "w_table",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:v_table",
+      "result": "v_table",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:workbench_with_recharger",
+      "result": "workbench_with_recharger",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:holy_symbol_wood",
+      "result": "holy_symbol_wood",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:tree_spile",
+      "result": "tree_spile",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:55gal_firebarrel",
+      "result": "55gal_firebarrel",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:30gal_firebarrel",
+      "result": "30gal_firebarrel",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:small_repairkit",
+      "result": "small_repairkit",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:pipe_cleaner",
+      "result": "pipe_cleaner",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:popcan_stove",
+      "result": "popcan_stove",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:book_binder",
+      "result": "book_binder",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:crackpipe",
+      "result": "crackpipe",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:char_purifier",
+      "result": "char_purifier",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:char_purifier_clay",
+      "result": "char_purifier_clay",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:survival_marker",
+      "result": "survival_marker",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:tarp_raincatcher",
+      "result": "tarp_raincatcher",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:survivor_mess_kit",
+      "result": "survivor_mess_kit",
+      "blocked": false,
+      "reason": "Unsupported component: oil_cooker"
+    },
+    {
+      "key": "recipe:survivor_shavingkit",
+      "result": "survivor_shavingkit",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:survivor_hairtrimmer",
+      "result": "survivor_hairtrimmer",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:anvil_bronze",
+      "result": "anvil_bronze",
+      "blocked": false,
+      "reason": "Mandatory proficiency unlock requires review"
+    },
+    {
+      "key": "recipe:training_dummy_light",
+      "result": "training_dummy_light",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:training_dummy_heavy",
+      "result": "training_dummy_heavy",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:archery_target_box",
+      "result": "archery_target_box",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:plastic_jack_o_lantern",
+      "result": "plastic_jack_o_lantern",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:decorative_wreath",
+      "result": "decorative_wreath",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:jackolantern",
+      "result": "jackolantern",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:heavy_punching_bag_sack",
+      "result": "heavy_punching_bag_sack",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:floodlight",
+      "result": "floodlight",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:directed_floodlight",
+      "result": "directed_floodlight",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:car_headlight",
+      "result": "car_headlight",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:car_wide_headlight",
+      "result": "car_wide_headlight",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:atomic_light",
+      "result": "atomic_light",
+      "blocked": false,
+      "reason": "Special equipment mechanics"
+    },
+    {
+      "key": "recipe:headlight_reinforced",
+      "result": "headlight_reinforced",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:wide_headlight_reinforced",
+      "result": "wide_headlight_reinforced",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:wearable_camera",
+      "result": "wearable_camera",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:wearable_camera_pro",
+      "result": "wearable_camera_pro",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:jack_makeshift",
+      "result": "jack_makeshift",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:chicken_cage",
+      "result": "chicken_cage",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:mannequin_decoy",
+      "result": "mannequin_decoy",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:magnifying_glass",
+      "result": "magnifying_glass",
+      "blocked": false,
+      "reason": "Unsupported or unpowered tool: makeshift_vacuum_mold / vac_mold"
+    },
+    {
+      "key": "recipe:hair_dye_kit",
+      "result": "hair_dye_kit",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:noise_emitter:radio-mod",
+      "result": "noise_emitter",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:noise_emitter",
+      "result": "noise_emitter",
+      "blocked": false,
+      "reason": "Active item use is not implemented"
+    },
+    {
+      "key": "recipe:metalworking_tongs_bronze",
+      "result": "metalworking_tongs_bronze",
+      "blocked": false,
+      "reason": "Mandatory proficiency unlock requires review"
+    },
+    {
+      "key": "recipe:shovel_snow_plastic",
+      "result": "shovel_snow_plastic",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    },
+    {
+      "key": "recipe:rake_plastic",
+      "result": "rake_plastic",
+      "blocked": false,
+      "reason": "Intended use needs vehicle, deployment, training, trapping or other unsupported interaction"
+    }
+  ],
+  "stations": [
+    "screw_press",
+    "stationary_scutcher"
+  ],
+  "powered": [
+    "forge",
+    "oil_press_manual",
+    "oil_press_electric",
+    "circsaw_off",
+    "welding_kit",
+    "wearable_light",
+    "wearable_big_light",
+    "heavy_flashlight",
+    "welder"
+  ],
+  "notes": [
+    "Unmodified CDDA item and recipe definitions.",
+    "Tool kits/needles are enabled for crafting qualities; repair actions are not added.",
+    "Chemical reagents are crafting materials; no new drug, exposure or explosive-use effects.",
+    "Boxes provide storage; folding is not added.",
+    "Source Home construction requirements preserved: anvil fabrication 0, scutcher 4, screw press 5."
+  ],
+  "lootRoutes": {
+    "10l_aluminum": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "10l_brass": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "10l_bronze": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "10l_copper": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "10l_gold": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "10l_lead": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "10l_silver": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "10l_tin": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "10l_zinc": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "1l_aluminum": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "1l_brass": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "1l_bronze": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "1l_copper": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "1l_gold": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "1l_lead": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "1l_silver": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "1l_tin": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "1l_zinc": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "5l_aluminum": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "5l_brass": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "5l_bronze": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "5l_copper": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "5l_gold": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "5l_lead": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "5l_silver": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "5l_tin": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "5l_zinc": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "acetic_anhydride": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies"
+    ],
+    "bag_body_bag": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "bandages_makeshift_bleached": [
+      "medical_clinic_supplies",
+      "house_common",
+      "discovery_luggage",
+      "house_common"
+    ],
+    "bleach": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies",
+      "house_common"
+    ],
+    "box_large_metal": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "box_medium_metal": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "box_oversize": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "box_oversize_folded": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "box_oversize_metal": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "box_oversize_reinforced": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "bronze_mag": [
+      "house_books",
+      "electrical_workshop_supplies"
+    ],
+    "bronze_nail": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "budget_steel_chunk": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "budget_steel_lump": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "bundle_branch_long": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "bundle_copper_pipe": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "bundle_javelin": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "bundle_nylon": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "bundle_pipe": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "bundle_rebar": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "button_bronze": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "button_steel": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "cac2powder": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies"
+    ],
+    "cardboard": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop",
+      "house_common"
+    ],
+    "ch_chain_link": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "ch_wire": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "chaff": [
+      "house_kitchen",
+      "farm_barn"
+    ],
+    "chem_anfo": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies"
+    ],
+    "chunk_rubber": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "chunk_sulfur": [
+      "hills",
+      "forest_common"
+    ],
+    "circsaw_off": [
+      "roadside_garage_supplies",
+      "electrical_workshop_supplies",
+      "discovery_workshop"
+    ],
+    "coin_wrapper": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "crude_bronze_nail": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "cu_pipe": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "damaged_shelter_kit": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "dry_seaweed": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "dry_seaweed_pile": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "fertilizer_commercial": [
+      "house_kitchen",
+      "farm_barn"
+    ],
+    "forge": [
+      "roadside_garage_supplies",
+      "electrical_workshop_supplies",
+      "discovery_workshop"
+    ],
+    "fuse": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "gasket_plastic_set": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "gold_small": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "gunpowder": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies"
+    ],
+    "hc_chain_link": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "hc_wire": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "heavy_flashlight": [
+      "roadside_garage_supplies",
+      "electrical_workshop_supplies",
+      "discovery_workshop"
+    ],
+    "hickory_root": [
+      "field",
+      "forest_common"
+    ],
+    "instant_coffee": [
+      "house_kitchen",
+      "farm_barn",
+      "house_common"
+    ],
+    "javelin": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "lamp_oil": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "large_biogas_tank": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "large_propane_tank": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "lc_chain_link": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "long_pole": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "makeshift_stethoscope": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "makeshift_welding_blanket": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "material_soil": [
+      "hills",
+      "forest_common"
+    ],
+    "mc_chain_link": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "mc_wire": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "metal_tank": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "misc_repairkit": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "mortar_adobe": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "nomex": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "oil_press_electric": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "oil_press_manual": [
+      "roadside_garage_supplies",
+      "electrical_workshop_supplies",
+      "discovery_workshop"
+    ],
+    "oven_broiler_pan": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "oven_cabinet": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "oven_controls": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "oven_door": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "oven_stovetop": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "paste_nut": [
+      "house_kitchen",
+      "farm_barn"
+    ],
+    "pilot_light": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "popcorn_raw": [
+      "house_kitchen",
+      "farm_barn"
+    ],
+    "press_cake": [
+      "house_kitchen",
+      "farm_barn"
+    ],
+    "qt_chain_link": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "qt_wire": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "rebar": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "red_phosphorous": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies"
+    ],
+    "red_phosphorous_small": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies"
+    ],
+    "roasted_coffee_bean": [
+      "house_kitchen",
+      "farm_barn",
+      "house_common"
+    ],
+    "rock_quern": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "rock_wool_bat": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "rosin": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies"
+    ],
+    "scrap_brass": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "screw_press_tool": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "roadside_garage_supplies"
+    ],
+    "sheet_nomex_patchwork": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "shredded_rubber": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "silver_small": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "swage": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "textbook_armwest": [
+      "house_books",
+      "electrical_workshop_supplies"
+    ],
+    "textbook_extraction": [
+      "house_books",
+      "electrical_workshop_supplies"
+    ],
+    "thread_nomex": [
+      "shop_hardware",
+      "railway_depot_supplies",
+      "discovery_workshop"
+    ],
+    "threshed_lentils": [
+      "house_kitchen",
+      "farm_barn"
+    ],
+    "toolbox_empty": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "wearable_big_light": [
+      "roadside_garage_supplies",
+      "electrical_workshop_supplies",
+      "discovery_workshop"
+    ],
+    "wearable_light": [
+      "roadside_garage_supplies",
+      "electrical_workshop_supplies",
+      "discovery_workshop"
+    ],
+    "welder": [
+      "roadside_garage_supplies",
+      "electrical_workshop_supplies",
+      "discovery_workshop"
+    ],
+    "welding_kit": [
+      "roadside_garage_supplies",
+      "electrical_workshop_supplies",
+      "discovery_workshop"
+    ],
+    "welding_rod_alloy": [
+      "electrical_workshop_supplies",
+      "railway_depot_supplies"
+    ],
+    "wild_herbs": [
+      "field",
+      "forest_common"
+    ],
+    "willowbark": [
+      "field",
+      "forest_common"
+    ],
+    "wood_beam": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "wood_sheet": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "xacto": [
+      "shop_hardware",
+      "roadside_garage_supplies",
+      "discovery_workshop"
+    ],
+    "xl_biogas_tank": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "xl_propane_tank": [
+      "shop_hardware",
+      "railway_depot_supplies"
+    ],
+    "yeast": [
+      "house_kitchen",
+      "farm_barn",
+      "house_common"
+    ],
+    "anvil": [
+      "roadside_garage_supplies"
+    ],
+    "heavy_plus_battery_cell": [
+      "roadside_garage_supplies"
+    ],
+    "battery_car": [
+      "roadside_garage_supplies"
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+[
+  {
+    "//": "Prologue farming: the unidentified seed picked out of wild greens, the recipe that picks it, and the patches that stop whole stalks being eaten as they stand. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [
+      "SEED",
+      "COMESTIBLE"
+    ],
+    "id": "seed_wild_unknown",
+    "copy-from": "seed",
+    "name": {
+      "str_sp": "unidentified wild seeds"
+    },
+    "description": "Seeds picked out of a handful of wild greens. Small, dry and anonymous: what they are will only be clear once they are in the ground and up.",
+    "color": "brown",
+    "flags": [
+      "PLANTABLE_SEED",
+      "NUTRIENT_OVERRIDE",
+      "INEDIBLE"
+    ],
+    "volume": "2 ml",
+    "plant_name": "unknown seedlings",
+    "fruit": "veggy_wild",
+    "byproducts": [
+      "withered"
+    ],
+    "grow": "91 days"
+  },
+  {
+    "type": "recipe",
+    "result": "seed_wild_unknown",
+    "//": "Sorting seed out of wild greens. The result shown is the anonymous seed; what actually comes out is rolled per handful (game-data/farming.json seedSources).",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "1 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      80,
+      5
+    ],
+    "components": [
+      [
+        [
+          "veggy_wild",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "barley_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_barley_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "oat_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_oat_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "buckwheat_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_buckwheat_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "canola_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_canola_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "wild_rice_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_wild_rice_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "id": "dry_lentil_stalks",
+    "comestible_type": "INVALID"
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
+    "id": "hoe_wooden",
+    "copy-from": "digging_stick",
+    "name": {
+      "str": "wooden hoe"
+    },
+    "description": "A forked branch cut down to a flat blade and bound at the angle a back can stand. It turns soil far better than a bare digging stick and costs nothing but an afternoon.",
+    "weight": "820 g",
+    "volume": "2200 ml",
+    "material": [
+      "wood"
+    ],
+    "symbol": "/",
+    "color": "brown",
+    "qualities": [
+      [
+        "DIG",
+        1
+      ]
+    ],
+    "flags": [
+      "NONCONDUCTIVE",
+      "SHEATH_AXE"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
+    "id": "hoe_stone",
+    "copy-from": "digging_stick",
+    "name": {
+      "str": "stone hoe"
+    },
+    "description": "A flat stone lashed across the end of a haft. Heavier than a wooden blade and it bites where the ground is packed; the lashing wants looking at now and then.",
+    "weight": "1450 g",
+    "volume": "2600 ml",
+    "material": [
+      "wood",
+      "stone"
+    ],
+    "symbol": "/",
+    "color": "light_gray",
+    "qualities": [
+      [
+        "DIG",
+        1
+      ]
+    ],
+    "flags": [
+      "NONCONDUCTIVE"
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "hoe_wooden",
+    "//": "An afternoon with a knife and a forked branch: the first real farming tool.",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "40 m",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "CUT",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "stick",
+          2
+        ],
+        [
+          "2x4",
+          1
+        ],
+        [
+          "stick_long",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "hoe_stone",
+    "//": "A knapped blade bound to a haft, the same way the stone axe is put together.",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "1 h",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "HAMMER",
+        "level": 1
+      },
+      {
+        "id": "CUT",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "stick",
+          1
+        ],
+        [
+          "2x4",
+          1
+        ],
+        [
+          "stick_long",
+          1
+        ]
+      ],
+      [
+        [
+          "sharp_rock",
+          1
+        ],
+        [
+          "rock_flaking",
+          1
+        ],
+        [
+          "flint",
+          1
+        ]
+      ]
+    ],
+    "using": [
+      [
+        "cordage",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "hoe",
+    "id_suffix": "prologue",
+    "//": "A hoe is a flat blade and a socket: a scavenged anvil and a steady hammer are enough for one.",
+    "activity_level": "ACTIVE_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "4 h",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "GRIND",
+        "level": 2
+      },
+      {
+        "id": "ANVIL",
+        "level": 2
+      },
+      {
+        "id": "HAMMER",
+        "level": 3
+      }
+    ],
+    "tools": [
+      [
+        [
+          "forge",
+          20
+        ]
+      ],
+      [
+        [
+          "metal_file",
+          1
+        ],
+        [
+          "grindstone",
+          1
+        ]
+      ],
+      [
+        [
+          "metalworking_tongs",
+          1
+        ],
+        [
+          "tongs",
+          1
+        ]
+      ]
+    ],
+    "using": [
+      [
+        "steel_standard",
+        2
+      ]
+    ],
+    "components": [
+      [
+        [
+          "2x4",
+          2
+        ],
+        [
+          "stick",
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "dry_wild_rice",
+    "id_suffix": "prologue",
+    "//": "Parching wild rice over a fire is how it keeps; CDDA only mills it, and the Prologue has no mill.",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "25 m",
+    "autolearn": true,
+    "charges": 1,
+    "qualities": [
+      {
+        "id": "COOK",
+        "level": 1
+      }
+    ],
+    "tools": [
+      [
+        [
+          "surface_heat",
+          6,
+          "LIST"
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "wild_rice",
+          2
+        ]
+      ]
+    ]
+  }
+]

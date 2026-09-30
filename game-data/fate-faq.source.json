@@ -1,0 +1,959 @@
+{
+  "//": "Curated ground truth for the shrine's answers. This file is written by hand; game-data/fate-faq.json is generated from it by the game repo's scripts/fate/build-faq.mjs and must be rebuilt whenever content changes.",
+  "version": 1,
+  "sections": [
+    {
+      "id": "people",
+      "title": "Other people and the radio",
+      "open": true,
+      "keywords": [
+        "people",
+        "person",
+        "human",
+        "survivors",
+        "anyone",
+        "anybody",
+        "someone",
+        "somebody",
+        "everyone",
+        "everybody",
+        "who else",
+        "alone",
+        "lonely",
+        "alive",
+        "contact",
+        "communicat",
+        "radio",
+        "signal",
+        "broadcast",
+        "transmi",
+        "rescue",
+        "civiliz",
+        "village",
+        "settlement",
+        "town",
+        "others",
+        "humanity",
+        "company",
+        "voice",
+        "talk to",
+        "speak to",
+        "ludzi",
+        "ktokolwiek",
+        "friend",
+        "call for",
+        "reach out",
+        "neighbo",
+        "by myself",
+        "ludzie"
+      ],
+      "entries": [
+        {
+          "q": "Is anyone else alive out here? Are there other people, or am I alone?",
+          "a": "Yes, though none close by. A long walk from your clearing somebody holds on, and they call out over the air twice a day, at noon and at midnight. You are unlikely to stumble on them; a working radio is how they are found. Once you are fed, watered, sheltered and safe, the radio is the first real goal."
+        },
+        {
+          "q": "How do I find or contact them with a radio?",
+          "a": "Put a charged light battery in a radio and listen. It takes half a day of patient listening in all, in one sitting or several, to find where in the static they speak. After that keep listening until the next noon or midnight: the message repeats then, says where it comes from and reads out four digits that open the door there; the place goes into your quests to be walked to."
+        },
+        {
+          "q": "How do I build a radio, and what does it ask of me?",
+          "a": "A radio is a signal receiver, an antenna, scrap aluminum, copper wire and solder, joined with a soldering iron and a screwdriver. The receiver is circuit boards, electronic scrap, copper wire, an amplifier circuit and solder; the amplifier circuit and the circuit boards are themselves built up from electronic scrap, copper wire and solder; the antenna is bent from copper wire with something that cuts. The soldering iron is made from electronic scrap, a nail, scrap metal, duct tape and copper wire, and only works with a battery connected to it; one the size of a car battery lasts the whole build. All of it asks for low electronics, and hands with that much skill work it out without any book."
+        },
+        {
+          "q": "How do I learn electronics from nothing?",
+          "a": "With a screwdriver and a heap of electronic scrap, practise taking dead electronics apart: slow hours, but it carries you from nothing to enough. Books on electronics, kept in electrical workshops, houses and where the soldiers were, are faster. Once you own a soldering iron, practising soldering helps as well."
+        },
+        {
+          "q": "Where do I find the parts, or a radio already made?",
+          "a": "Electronic scrap and copper wire lie in car wrecks, garages, ruins and houses. Batteries turn up in houses, filling stations, garages and car wrecks. Solder and soldering irons are in hardware shops, workshops and garages. Scrap aluminum is in hardware shops, or crush empty drink cans from kitchens. Screwdrivers are in houses, hardware shops and filling stations. A whole radio, a receiver or an antenna sometimes lies in a discarded toolbox or a workshop, which saves most of the work."
+        }
+      ]
+    },
+    {
+      "id": "purpose",
+      "title": "What lies past the village",
+      "open": true,
+      "stage": "village_found",
+      "keywords": [
+        "goal",
+        "purpose",
+        "aim",
+        "objective",
+        "what now",
+        "what next",
+        "what should i do",
+        "what do i do",
+        "point of",
+        "meaning",
+        "end of this",
+        "win",
+        "finish",
+        "where do i go",
+        "supposed to",
+        "co dalej",
+        "cel",
+        "laboratory",
+        "lab",
+        "site zero",
+        "steward",
+        "where did the machines",
+        "who made the machines",
+        "stop the machines",
+        "end the machines",
+        "turn it off",
+        "switch it off",
+        "cause",
+        "how did it start",
+        "how did the world end",
+        "after the village",
+        "past the village",
+        "villagers",
+        "burrow",
+        "trust",
+        "quest",
+        "work for them",
+        "drive",
+        "drives",
+        "archive",
+        "secret",
+        "this end",
+        "ending",
+        "is there an end",
+        "what is left",
+        "what remains",
+        "worth doing",
+        "anything left",
+        "left to do",
+        "what is there to do"
+      ],
+      "entries": [
+        {
+          "q": "I have found the village. What is my goal now?",
+          "a": "Past the village there is one more place: a hidden laboratory, where what ended the world was first woken and where it is still awake. Everything the machines do begins there. Reaching it is the goal that remains. Nobody will simply tell you where it stands; the people under the hill hold the pieces of that answer, and they are slow with strangers."
+        },
+        {
+          "q": "How do I find the laboratory?",
+          "a": "Through the village's work. Its people each have something they need done: food for the kitchen, medicine for the infirmary, a feast, parts cut out of machines, a failing radio mast put right. Finished work is how they come to trust you, and trust opens their doors and their mouths. The archivist needs three sealed drives fetched from three dangerous places the machines still keep: a data vault, a relay station and an assembly plant. Each takes hours to search and is thick with machines, so go armed, armoured, fed and with a screwdriver. Each drive takes a day to read. When all three have been read, and enough of the other work is done that the village trusts you, one of them will finally say where the laboratory is."
+        },
+        {
+          "q": "What do I need before going to the laboratory?",
+          "a": "It is further out than anything else and guarded by the best of what the machines have. Your best weapon, real armour, food and water for many days, clean dressings and whatever medicine the village medic can spare. Sell cooked food in the village for coins — they buy food and nothing else — and spend them on what you cannot make."
+        }
+      ],
+      "until": "lab_known"
+    },
+    {
+      "id": "purpose_lab",
+      "title": "The road to the laboratory",
+      "open": true,
+      "stage": "lab_known",
+      "keywords": [
+        "goal",
+        "purpose",
+        "aim",
+        "objective",
+        "what now",
+        "what next",
+        "what should i do",
+        "what do i do",
+        "point of",
+        "meaning",
+        "end of this",
+        "win",
+        "finish",
+        "where do i go",
+        "supposed to",
+        "co dalej",
+        "cel",
+        "laboratory",
+        "lab",
+        "site zero",
+        "steward",
+        "where did the machines",
+        "who made the machines",
+        "stop the machines",
+        "end the machines",
+        "turn it off",
+        "switch it off",
+        "cause",
+        "how did it start",
+        "how did the world end",
+        "after the village",
+        "past the village",
+        "villagers",
+        "burrow",
+        "trust",
+        "quest",
+        "work for them",
+        "drive",
+        "drives",
+        "archive",
+        "secret",
+        "this end",
+        "ending",
+        "is there an end",
+        "what is left",
+        "what remains",
+        "worth doing",
+        "anything left",
+        "left to do",
+        "what is there to do"
+      ],
+      "entries": [
+        {
+          "q": "I know where the laboratory is. What now?",
+          "a": "Go there. You have been told where it stands and the way is marked for you. It is the furthest and most dangerous walk you will make: go with your best weapon, real armour, food and water for many days, clean dressings and medicine. The village will trade you what you cannot make. Whatever is behind that door is where all of this began."
+        }
+      ],
+      "until": "steward_down"
+    },
+    {
+      "id": "purpose_after",
+      "title": "After the Steward",
+      "open": true,
+      "stage": "steward_down",
+      "keywords": [
+        "goal",
+        "purpose",
+        "aim",
+        "objective",
+        "what now",
+        "what next",
+        "what should i do",
+        "what do i do",
+        "point of",
+        "meaning",
+        "end of this",
+        "win",
+        "finish",
+        "where do i go",
+        "supposed to",
+        "co dalej",
+        "cel",
+        "laboratory",
+        "lab",
+        "site zero",
+        "steward",
+        "where did the machines",
+        "who made the machines",
+        "stop the machines",
+        "end the machines",
+        "turn it off",
+        "switch it off",
+        "cause",
+        "how did it start",
+        "how did the world end",
+        "after the village",
+        "past the village",
+        "villagers",
+        "burrow",
+        "trust",
+        "quest",
+        "work for them",
+        "drive",
+        "drives",
+        "archive",
+        "secret",
+        "this end",
+        "ending",
+        "is there an end",
+        "what is left",
+        "what remains",
+        "worth doing",
+        "anything left",
+        "left to do",
+        "what is there to do"
+      ],
+      "entries": [
+        {
+          "q": "It is done. What now?",
+          "a": "Go back to the people under the hill and tell them. They do not know yet; nobody does. The machines stand where they stopped and will not move again, so the road home is quieter than any you have walked. After that the world is yours and theirs: build above ground, farm in the open, make noise."
+        },
+        {
+          "q": "Are the machines really finished?",
+          "a": "Yes. Without the mind that scheduled them they do nothing at all. What still hunts out there is only what always hunted: hungry animals and the sick dead. Those were never the Steward's."
+        }
+      ]
+    },
+    {
+      "id": "purpose_early",
+      "title": "What to aim for",
+      "until": "village_found",
+      "keywords": [
+        "goal",
+        "purpose",
+        "aim",
+        "objective",
+        "what now",
+        "what next",
+        "what should i do",
+        "what do i do",
+        "point of",
+        "meaning",
+        "end of this",
+        "win",
+        "finish",
+        "where do i go",
+        "supposed to",
+        "co dalej",
+        "cel",
+        "this end",
+        "ending",
+        "is there an end",
+        "what is left",
+        "what remains",
+        "worth doing",
+        "anything left",
+        "left to do",
+        "what is there to do"
+      ],
+      "entries": [
+        {
+          "q": "What is my goal? What should I be doing?",
+          "a": "First, stop dying: water you can trust, food that keeps, a fire, a bed, a roof over a clearing you call home. Then a weapon and something that blunts a bite. Once a day no longer frightens you, the first real goal is other people: somewhere a long walk off a village of survivors is still calling out, and a working radio is how they are found. What lies beyond them is theirs to tell."
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "title": "Water",
+      "keywords": [
+        "water",
+        "thirst",
+        "drink",
+        "river",
+        "boil",
+        "purif",
+        "dehydration",
+        "rain"
+      ],
+      "entries": [
+        {
+          "q": "How do I get water?",
+          "a": "Rivers and lakes sit in low ground. Scoop water with any pot, bottle, jug or bucket, but what you scoop is dirty. Dirty water can be boiled over a fire, and purification tablets exist in abandoned buildings. Drinking straight from a river is a gamble with your gut."
+        },
+        {
+          "q": "How do I make dirty water safe?",
+          "a": "Light a fire ring or fireplace, then boil the water in a pot or pan. Water purification tablets, when found, work without fire."
+        },
+        {
+          "q": "What carries water best?",
+          "a": "Jugs and canteens hold far more than bottles and are lighter per litre. Everything rigid that holds liquid can be refilled at the shore."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "keywords": [
+        "food",
+        "eat",
+        "hunger",
+        "hunt",
+        "forage",
+        "cook",
+        "raw",
+        "berry",
+        "trap",
+        "fish",
+        "spoil",
+        "ration"
+      ],
+      "entries": [
+        {
+          "q": "How do I find food early?",
+          "a": "Berry bushes and orchards in the fields, forage from underbrush, houses keep kitchens, and farms more still. Anything raw gives less strength than when cooked, and meat eaten raw invites sickness or worms."
+        },
+        {
+          "q": "How do I hunt?",
+          "a": "A bow or a thrown spear taken from ambush works; so does a snare left where animals pass. Butcher a corpse with a sharp tool before it spoils, and smoke the meat over a smouldering rack to keep it for weeks."
+        },
+        {
+          "q": "How do I keep food from spoiling?",
+          "a": "Cold and smoke both slow rot. A smoking rack over charcoal keeps meat far longer than a pocket does; fridges in houses do the same until the power is gone."
+        },
+        {
+          "q": "What happens to food and carcasses that go bad?",
+          "a": "Anything past its time — food in a pack, a bottle, a chest or on the ground, and a carcass left about two days unbutchered — turns into spoilage, one heap counted by weight; scraps too small to make a measure are simply lost. Spoilage cannot be eaten. Dug into a farm bed it feeds the soil as a middling fertilizer."
+        },
+        {
+          "q": "Can I farm?",
+          "a": "Tilled soil near the farm takes seed and a season. Fences and patience do the rest."
+        }
+      ]
+    },
+    {
+      "id": "illness",
+      "title": "Illness and wounds",
+      "keywords": [
+        "sick",
+        "illness",
+        "poison",
+        "wound",
+        "bleed",
+        "bandage",
+        "heal",
+        "medicine",
+        "fever",
+        "broken",
+        "splint",
+        "pain",
+        "first aid",
+        "dirty",
+        "filthy",
+        "wash",
+        "laundry",
+        "torn",
+        "ripped",
+        "rag",
+        "cloth",
+        "sheet",
+        "soap"
+      ],
+      "entries": [
+        {
+          "q": "How do I stop bleeding?",
+          "a": "Bandages — proper ones, or makeshift strips boiled clean — pressed on the wound. A bad limp needs a splint and weeks of care. Rest and full sleep mend what bandages begin."
+        },
+        {
+          "q": "How do I keep a wound from getting infected?",
+          "a": "Two separate things, and do both: bandage it and clean it. A bare cut can turn at any hour it stays open; a bandage lowers that at once and after six hours under it the wound is sealed for as long as the bandage holds. Cleaning — a disinfectant best, soap, honey, pine pitch, herbs or a boiled rag if that is all there is — cuts the risk that remains. Each lasts a day, so renew both every morning. Once a wound has turned nothing cures it: bandage and cleaning only slow it, and food, water and sleep are what beat it."
+        },
+        {
+          "q": "I feel sick after eating or drinking.",
+          "a": "Food poisoning passes on its own in about six hours, and may empty your stomach of food and water more than once before it does; keep sipping clean water and rest. Avoid it next time by boiling water and cooking what you eat — even raw greens carry a small risk. Parasites from raw meat linger and need medicine from a clinic."
+        },
+        {
+          "q": "Where do I find medicine?",
+          "a": "The medical clinic by the road, house bathrooms and kitchens. Willow bark chewed raw eases pain in a pinch."
+        },
+        {
+          "q": "I found dirty, torn clothes. Can I make bandages from them?",
+          "a": "Yes. Clothes lost in the open, in wrecks and in ruins come dirty and torn: they go into no recipe as they are, a torn garment cannot be worn, and a dirty one can be worn only at a standing cost to your mood for as long as it is on you. Take them apart and the cloth comes out dirty; wash it and it is ordinary cloth again, good for makeshift bandages. Washing wants water and soap with a washboard or a washing kit, or a pot of water boiled over a fire, which needs no soap but more water, more time and fuel. Cloth that is tainted rather than merely dirty, from remains and the worst ruins, cannot be washed at all: what is taken from it is lost. Clothes found in houses, shops and clinics are clean."
+        }
+      ]
+    },
+    {
+      "id": "stimulants",
+      "title": "Pain relief, stimulants, drink and emergencies",
+      "keywords": [
+        "painkiller",
+        "pain",
+        "pill",
+        "ibuprofen",
+        "aspirin",
+        "codeine",
+        "wintergreen",
+        "poppy",
+        "coffee",
+        "caffeine",
+        "tea",
+        "cola",
+        "energy drink",
+        "stimulant",
+        "awake",
+        "sleepy",
+        "adrenaline",
+        "injector",
+        "epinephrine",
+        "stamina",
+        "breath",
+        "second wind",
+        "exhausted",
+        "alcohol",
+        "drunk",
+        "beer",
+        "wine",
+        "whiskey",
+        "vodka",
+        "mead",
+        "hangover",
+        "drink"
+      ],
+      "entries": [
+        {
+          "q": "How do I dull pain?",
+          "a": "Painkillers: aspirin, ibuprofen, acetaminophen and naproxen from house cabinets, shops and the clinic are mild and last hours; codeine, tramadol and oxycodone from the clinic go much further. From the wild: chewed wintergreen leaves, wintergreen oil, willow bark tea, cattail jelly and a poppy extract. A painkiller does not heal: it only dulls what you feel while it works, and taking more of a mild one only makes it last longer."
+        },
+        {
+          "q": "Does coffee help?",
+          "a": "Coffee, tea, cola, energy drinks, caffeine pills and caffeinated gum are stimulants. They take about twenty minutes to come on, then your breath comes back faster and sleepiness builds more slowly, for a few hours; sleep is harder to get while they work. Take them before a long walk or a fight, not in the middle of one. Too much makes your hands shake and your heart race."
+        },
+        {
+          "q": "I am out of breath in a fight. Is there anything that helps right now?",
+          "a": "An epinephrine autoinjector, found in the clinic, fire stations, mountain refuges, checkpoints and the odd house: used through USE ITEM in a fight, it gives most of your breath back at once and dulls pain, and for ten minutes breath returns very fast. Then comes a crash: sleepiness and slow breath for an hour and a half. Coffee and the like are too slow to help once the fight has started."
+        },
+        {
+          "q": "What does drink do?",
+          "a": "Beer, wine, cider-strength drinks, spirits and cocktails are found in houses, shops, gas stations and cellars, and cocktails can be mixed. Drink reaches the blood over half an hour or so and dulls pain while it is there. Past a drink or two it costs dexterity, perception and wits, so aim, dodge and bench work suffer, and it slows you down; far gone, the stomach may rebel. Sleep on drink is shallow, the body clears about one drink an hour, and a heavy night ends in a hangover: pain, a sour mood and slower breath for hours. Drink is never swallowed as part of a meal; you choose it."
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "title": "Shelter and sleep",
+      "keywords": [
+        "shelter",
+        "sleep",
+        "bed",
+        "tent",
+        "home",
+        "fatigue",
+        "tired",
+        "night",
+        "cold",
+        "warm"
+      ],
+      "entries": [
+        {
+          "q": "Where should I sleep?",
+          "a": "A bed beats the ground. A straw bed or a proper mattress at home restores the most; a sleeping bag or rollmat carries the rest. A mattress, bag or blanket found in a house is often dirty (a long wash puts that right) or damaged (for good), or both, and sleeps worse for it. Sleeping exhausted on bare ground wears the body instead of mending it."
+        },
+        {
+          "q": "What happens if I keep working when out of breath?",
+          "a": "Physical effort becomes much slower when your stamina runs out. Pushing through costs pain and sleepiness until you pass out. In a fight, enemies can still attack while you are unconscious. Rest restores breath, but only sleep clears tiredness."
+        },
+        {
+          "q": "Can I catch my breath after a fight?",
+          "a": "Choose REST after the encounter to recover stamina over time. On unsearched ground, resting carries the same terrain and daylight encounter odds as searching. Another creature can interrupt you. Hunger or illness may prevent a full recovery; resting does not replace sleep."
+        },
+        {
+          "q": "How do I keep warm?",
+          "a": "Layers worn beat layers carried; a fire at night beats both. Wet cloth kills warmth — dry it first."
+        },
+        {
+          "q": "Is night dangerous?",
+          "a": "The dark hides movement and work suffers without light. Torch, lantern or candle: carry one."
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "title": "Light",
+      "keywords": [
+        "light",
+        "torch",
+        "lantern",
+        "candle",
+        "dark",
+        "night",
+        "see",
+        "lamp",
+        "battery"
+      ],
+      "entries": [
+        {
+          "q": "How do I make light?",
+          "a": "A lit torch burns fast and bright; candles and lanterns last longer. Electric lamps need charged batteries, and charge dies with the grid. Light lets you work after dusk and see trouble before it sees you."
+        },
+        {
+          "q": "Can I make a torch?",
+          "a": "A stick, cloth and something that burns — tar or fat — rolled and tied. Ignite it from any fire with a match or lighter."
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "title": "Seasons, night and weather",
+      "keywords": [
+        "season",
+        "seasons",
+        "year",
+        "winter",
+        "summer",
+        "autumn",
+        "spring",
+        "frost",
+        "freeze",
+        "frozen",
+        "ice",
+        "snow",
+        "cold",
+        "weather",
+        "rain",
+        "storm",
+        "fog",
+        "blizzard",
+        "night",
+        "dark",
+        "sunset",
+        "sunrise",
+        "thaw",
+        "lake",
+        "forecast"
+      ],
+      "entries": [
+        {
+          "q": "How long is a year?",
+          "a": "Four seasons of ninety-one days each — spring, summer, autumn, winter — three hundred and sixty-four days in all. The survivor woke in the second half of summer, so autumn comes first and winter after it. At first the survivor does not know the date: the top bar shows only their own count of days, the clock, the night and how the air feels. Once they have found the village, where people keep the date and read the sky, it shows the season and its day, the weather and the temperature as well."
+        },
+        {
+          "q": "When is it night?",
+          "a": "Night is the time between sunset and sunrise, and it changes every day: about eight and a half hours at midsummer, more than fifteen in the depth of winter. Night's dangers — more encounters without a light, slow work in the dark — apply exactly in those hours. The blue NIGHT sign in the top bar is lit while they do, and hovering it gives tonight's hours."
+        },
+        {
+          "q": "How cold does it get?",
+          "a": "Summer days are warm, around twenty degrees and sometimes hot enough to dry a body out faster. Autumn cools week by week and brings the first frost some night in its middle weeks; after it tender plants stop growing. Winter sits below freezing most days, colder still under a cold front, with snow lying from a few centimetres to half a metre. Spring thaws slowly."
+        },
+        {
+          "q": "What freezes?",
+          "a": "Rivers and lakes freeze once a whole week has averaged a few degrees below freezing, usually in late autumn, and stay frozen until early spring. Frozen water can be walked, even across a lake; an unfrozen lake cannot be crossed at all. Ice gives no water until it is broken open or melted."
+        },
+        {
+          "q": "What does the weather do?",
+          "a": "Rain and sleet soak clothing and slow travel; a storm stops work outdoors; fog and falling snow shorten how far one can see; a blizzard stops almost everything, even the things that hunt. Snow on the ground slows every step through open country and hides what the ground gives."
+        },
+        {
+          "q": "Is there a forecast?",
+          "a": "No. Nobody in this world can say what the weather will do tomorrow or on which night the first frost will come. The sky, the dawn cold, the bare trees and the shortening days are the only warnings, and they are enough for one who watches."
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools and crafting",
+      "keywords": [
+        "tool",
+        "craft",
+        "knife",
+        "axe",
+        "hammer",
+        "workbench",
+        "forge",
+        "anvil",
+        "skill",
+        "learn",
+        "recipe",
+        "book",
+        "quality"
+      ],
+      "entries": [
+        {
+          "q": "How do I craft?",
+          "a": "Recipes are practised, not found: doing the work teaches the hands. Books teach faster if your knowledge is high enough already. A knife and a hammer unlock most of the early lists."
+        },
+        {
+          "q": "What tools matter first?",
+          "a": "A cutting edge, something to hammer with, a container to boil in. Stone tools can be knapped from the start; metal waits for a fire and a mould."
+        },
+        {
+          "q": "How do I work metal?",
+          "a": "A fire hot enough, an anvil to beat on, and fabrication learned by doing. Scrap from ruins and car wrecks is the easiest ore there is."
+        },
+        {
+          "q": "What is a workbench for?",
+          "a": "A steady surface speeds every craft and lets finer work begin at all."
+        }
+      ]
+    },
+    {
+      "id": "stations",
+      "title": "Home stations",
+      "keywords": [
+        "station",
+        "build",
+        "home",
+        "fire ring",
+        "fireplace",
+        "bed",
+        "chest",
+        "smoker",
+        "smoking",
+        "funnel",
+        "oven",
+        "shrine"
+      ],
+      "entries": [
+        {
+          "q": "What can I build at home?",
+          "a": "A fire ring from stones, a clay oven, beds of straw, a chest for storage, a smoking rack for meat, a water funnel, and a workbench built directly from planks and nails in Buildings. An anvil is a regular tool: put it on nearby ground to use it for metalworking; it does not need to be installed."
+        },
+        {
+          "q": "What does the water funnel do?",
+          "a": "Any rain funnel set at home — plastic, makeshift, leather, birch bark or metal — slowly gathers rain by itself. How much depends on the width of its mouth and how well it is made: a wide metal funnel gathers most, a plastic one about half of that, and stitched hide, bark or a cut bottle a small fraction — one hand funnel is well under a day's drinking, so set out several. Water runs into the empty bottles and jugs set under them first; take them back filled. Funnels weather: a makeshift one lasts about a month, bark a little longer, hide a season, plastic half a year, metal for years. It cleans nothing — boil after."
+        },
+        {
+          "q": "What is the shrine?",
+          "a": "A quiet cairn of rock, stick and splinter. Sit with it a while and the world seems to listen. What it listens with, no one agrees."
+        }
+      ]
+    },
+    {
+      "id": "fishing",
+      "title": "Fishing",
+      "keywords": [
+        "fish",
+        "fishing",
+        "rod",
+        "river",
+        "catch",
+        "bait"
+      ],
+      "entries": [
+        {
+          "q": "How do I fish?",
+          "a": "A rod or a line with a hook, standing at the river bank. Fish are safest food there is — cooked, that is. A spear jabbed at the shallows works in a pinch, if your patience holds."
+        }
+      ]
+    },
+    {
+      "id": "fights",
+      "title": "Fights",
+      "keywords": [
+        "fight",
+        "combat",
+        "weapon",
+        "monster",
+        "dog",
+        "flee",
+        "run",
+        "armor",
+        "dodge",
+        "zombie",
+        "danger",
+        "kill"
+      ],
+      "entries": [
+        {
+          "q": "How do I fight?",
+          "a": "A weapon in hand, not fists. Swing when the opening comes, keep your footing, and wear what blunts a bite. A wound taken early is a debt paid over weeks."
+        },
+        {
+          "q": "Can I run?",
+          "a": "Often. Broken ground favours the one who knows it; roads favour the fast thing behind you. Fleeing is a skill like any other, and cheaper than bandages."
+        },
+        {
+          "q": "What should I avoid?",
+          "a": "Anything that does not run from fire. Wherever the soldiers made a stand, they did not leave politely, and what they left behind is still dangerous."
+        }
+      ]
+    },
+    {
+      "id": "machines",
+      "title": "Machines",
+      "keywords": [
+        "machine",
+        "robot",
+        "drone",
+        "bot",
+        "electronic",
+        "battery",
+        "wire",
+        "scrap",
+        "circuit",
+        "power",
+        "charge",
+        "metal thing",
+        "mechanical"
+      ],
+      "entries": [
+        {
+          "q": "What are the machines that still move?",
+          "a": "Things people built to carry, clean, tend and guard, still doing the last thing they were told. Some only get in the way. Some have decided you are the mess, the patient or the trespasser. None of them tire, and none of them bleed."
+        },
+        {
+          "q": "Where are machines found?",
+          "a": "Seldom in the woods and fields, where only a stray flier or a lost digger turns up. More often wherever people lived and shopped, and thickest of all where people once worked behind fences: clinics, workshops full of wire, and the places soldiers held."
+        },
+        {
+          "q": "How do I fight a machine?",
+          "a": "Their shells turn a weak blow, so bring weight or a good point; a slash does its harm but opens no wound in them. Most are slower than they look and can be walked away from. The small fliers break easily. The big tracked ones hit seldom and very hard."
+        },
+        {
+          "q": "Is a broken machine worth anything?",
+          "a": "More than most kills. Scrap, wire and electronic scrap nearly every time, and sometimes whole parts: memory, lenses, motors, power cells, plating. Parts that look useless today can be taken apart, or kept for the day you know more about electronics."
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "title": "Storage and carrying",
+      "keywords": [
+        "storage",
+        "carry",
+        "chest",
+        "bag",
+        "backpack",
+        "volume",
+        "weight",
+        "stash",
+        "home"
+      ],
+      "entries": [
+        {
+          "q": "How do I carry more?",
+          "a": "A backpack from a house or a corpse, and pockets that close. Strength raises what your back tolerates; volume is the tighter wall, so leave the heavy junk."
+        },
+        {
+          "q": "Where do I keep things I cannot carry?",
+          "a": "A wooden chest at home holds a room's worth. The floor holds the rest, and no one will take it."
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Long roads, carts and moving the camp",
+      "keywords": [
+        "road",
+        "roads",
+        "build a road",
+        "dirt road",
+        "path",
+        "travel faster",
+        "walk faster",
+        "too far",
+        "far away",
+        "long way",
+        "distance",
+        "journey",
+        "expedition",
+        "cart",
+        "hand cart",
+        "wagon",
+        "travois",
+        "haul",
+        "drag",
+        "move camp",
+        "move my camp",
+        "move home",
+        "move base",
+        "relocate",
+        "new camp",
+        "pack",
+        "packed station",
+        "carry my camp"
+      ],
+      "entries": [
+        {
+          "q": "The place I need is days away. How do I make the journey shorter?",
+          "a": "Two ways, and they work together. Build a road: stand on searched ground with something to dig with — a digging stick will do, a shovel is much quicker — and an axe where trees stand, and work the hex. A finished road is walked at twice the pace of open ground, through forest and over hills alike, and your journeys will follow it by themselves. Or take your camp with you and live near where the work is."
+        },
+        {
+          "q": "How long does a road take?",
+          "a": "A few hours for a hex of open field, most of a day for forest, longer for thick forest, hills in between. It is heavy labour: eat and drink for it. You may stop whenever you like; what is dug stays dug."
+        },
+        {
+          "q": "Can I move my camp?",
+          "a": "Yes. Pack the stations you want to keep into bundles, haul them to searched, clear ground, and choose Create new HQ here from the tile menu. Confirming abandons the previous HQ and destroys every station still standing there, without returning construction materials. Stored and loose items stay on its ordinary ground. Set packed stations up at the new HQ. Farms stay where they grow."
+        },
+        {
+          "q": "What should I haul it with?",
+          "a": "By hand is slow and only a little at a time. A travois of long sticks carries a good deal; a hand cart much more; a haul wagon a whole camp in one go. Put the cart in the same drag as the load and the load rides. Carts roll easier on a road."
+        }
+      ]
+    },
+    {
+      "id": "village_consequences",
+      "title": "How helping the village changes daily life",
+      "stage": "village_found",
+      "keywords": [
+        "council",
+        "priority",
+        "infirmary",
+        "recovery",
+        "village supplies"
+      ],
+      "entries": [
+        {
+          "q": "How helping the village changes daily life?",
+          "a": "Completed village work improves daily life. The feast adds kitchen stock; machine parts add smith stock; the repaired mast increases merchants’ daily buying purses. Supplied medicine unlocks one hour-long recovery visit a day, tending the most injured unbroken body part without curing infection. After earning the door, a council meeting can prioritize supplies or stronger recovery care, at most once a day. Supply changes apply at the next daily stock refresh. The Life in the village dialog explains achieved benefits."
+        }
+      ]
+    },
+    {
+      "id": "lab_allocations",
+      "title": "Lasting laboratory choices",
+      "stage": "lab_known",
+      "keywords": [
+        "archive",
+        "patrol relay",
+        "allocation",
+        "purge",
+        "laboratory choice"
+      ],
+      "entries": [
+        {
+          "q": "Lasting laboratory choices?",
+          "a": "A control room or server hall allows one irreversible allocation per laboratory floor: route power to remote and electronic door controls, halve new patrol encounters by disabling their relay, or preserve the floor archive. Existing enemies remain. Preserved archives help with a careful final shutdown and are recorded for the village. Careful final shutdown keeps the central records; purging ends the work faster but destroys those central records. Starting an allocation or shutdown commits its method; interruption preserves the work."
+        }
+      ]
+    },
+    {
+      "id": "instruments",
+      "title": "Playing instruments for mood",
+      "keywords": [
+        "instrument",
+        "playing",
+        "music",
+        "mood",
+        "morale",
+        "flute",
+        "guitar",
+        "banjo"
+      ],
+      "entries": [
+        {
+          "q": "Can I play instruments to improve my mood?",
+          "a": "Playable instruments can be used from inventory or the ground to improve mood. Playing takes time, food and water. The mood benefit builds gradually and has one shared cap across all instruments. It fades after playing stops; switching instruments cannot stack bonuses."
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "result": "water_purifying",
+      "hint": "clean water can be coaxed from foul with fire or with tablets"
+    },
+    {
+      "result": "torch",
+      "hint": "a stick, cloth and something greasy makes light that walks with you"
+    },
+    {
+      "result": "makeshift_knife",
+      "hint": "an edge can be coaxed from scrap with patience"
+    },
+    {
+      "result": "bandages_makeshift",
+      "hint": "clean cloth torn in strips, boiled, keeps wounds honest"
+    },
+    {
+      "result": "smoking_rack",
+      "hint": "smoke keeps meat through the seasons"
+    },
+    {
+      "result": "stone_chopper",
+      "hint": "the oldest tool is one stone striking another"
+    },
+    {
+      "result": "campfire_simple",
+      "hint": "three sticks and a match ask little of the world"
+    }
+  ],
+  "hidden": {
+    "//": "What the shrine may never reveal by itself: anything that would spoil finding the ending. The curated sections with a 'stage' are the one exception - they are only ever shown once the survivor has walked that far (the village found, the laboratory told), and even then never give a place, a direction or a distance.",
+    "ids": [
+      "lab",
+      "laboratory",
+      "secret_lab",
+      "data_vault",
+      "relay_station",
+      "assembly_plant",
+      "relay_mast",
+      "encrypted_drive",
+      "server_rack",
+      "relay_cabinet",
+      "line_controller",
+      "mon_custodian",
+      "mon_arbiter",
+      "mon_archivist",
+      "mon_steward_warden"
+    ],
+    "topics": [
+      "the laboratory",
+      "the ending",
+      "what caused the outbreak"
+    ],
+    "maxRecipeDifficulty": 4
+  }
+}

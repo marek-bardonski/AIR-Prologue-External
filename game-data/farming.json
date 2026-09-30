@@ -1,0 +1,1665 @@
+{
+  "//": "Farming on world tiles: which ground can be worked, what grows on it, how long it takes and what it costs. Crop grow times come from the seeds' own CDDA data and are scaled by growth.scale; everything else is Prologue tuning.",
+  "plantsPerPlot": 25,
+  "growth": {
+    "//": "growDays = seed grow time * scale. Speed = 1 + waterBonus * water coverage + fertilizerBonus * fertilizer power, capped at maxSpeed.",
+    "scale": 0.23,
+    "waterBonus": 0.35,
+    "fertilizerBonus": 0.5,
+    "maxSpeed": 2,
+    "stages": {
+      "seedling": 0.2,
+      "growing": 0.6,
+      "maturing": 1
+    }
+  },
+  "climate": {
+    "//": "The growing season (26.09.2026). Crops grow only on days whose mean air is at least growMinC (Climate.isGrowingDay); planting is refused while the day's mean is under plantMinC. A frost (the air under frostC at any hourly look, or a frosty dawn) kills every bed that is not yet ripe unless its crop is frostHardy (crops.<seed>.frostHardy: roots, brassica-like greens, cereals, garlic); a ripe or overripe tender bed stands frostGraceDays more and then is gone. Code: src/game/farming/Farming.js.",
+    "growMinC": 5,
+    "plantMinC": 5,
+    "frostC": 0,
+    "frostGraceDays": 3
+  },
+  "labour": {
+    "//": "Productive minutes before activitySpeed; per plant unless stated.",
+    "tillPerPlant": 4,
+    "plantPerPlant": 1.5,
+    "waterPerPlant": 0.5,
+    "tendPerPlant": 0.6,
+    "harvestPerPlant": 2,
+    "uprootPerPlant": 0.8,
+    "fertilizePerPlot": 10,
+    "grainHarvestMultiplier": 0.5
+  },
+  "tools": {
+    "//": "Tilling needs DIG 1; better digging tools make it faster. Grain harvests are halved by a GRASS_CUT tool at grassCutLevel.",
+    "tillQuality": "DIG",
+    "tillMinimum": 1,
+    "tillSpeed": {
+      "2": 0.7,
+      "3": 0.5
+    },
+    "grainHarvestQuality": "GRASS_CUT",
+    "grainHarvestLevel": 2,
+    "tillItems": {
+      "hoe": 0.5,
+      "hoe_stone": 0.65,
+      "hoe_wooden": 0.8
+    },
+    "//tillItems": "The right tool for the job, best first: a steel hoe halves the work, a stone one nearly so, a wooden one still beats bare hands and a digging stick."
+  },
+  "terrain": {
+    "farm": {
+      "plots": 4,
+      "soil": 1.15,
+      "clearMinutes": 120,
+      "waterDays": 3,
+      "clearQualities": [
+        [
+          [
+            "GRASS_CUT",
+            1
+          ],
+          [
+            "CUT",
+            1
+          ]
+        ]
+      ],
+      "clearYield": [
+        {
+          "item": "withered",
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "straw_pile",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "field": {
+      "plots": 4,
+      "soil": 1,
+      "clearMinutes": 240,
+      "waterDays": 3,
+      "clearQualities": [
+        [
+          [
+            "GRASS_CUT",
+            1
+          ],
+          [
+            "CUT",
+            1
+          ]
+        ]
+      ],
+      "clearYield": [
+        {
+          "item": "withered",
+          "count": [
+            3,
+            6
+          ]
+        },
+        {
+          "item": "straw_pile",
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    "orchard": {
+      "plots": 2,
+      "soil": 1,
+      "clearMinutes": 300,
+      "waterDays": 3,
+      "clearQualities": [
+        [
+          [
+            "GRASS_CUT",
+            1
+          ],
+          [
+            "CUT",
+            1
+          ]
+        ]
+      ],
+      "clearYield": [
+        {
+          "item": "withered",
+          "count": [
+            2,
+            5
+          ]
+        },
+        {
+          "item": "stick",
+          "count": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    "hills": {
+      "plots": 2,
+      "soil": 0.85,
+      "clearMinutes": 480,
+      "waterDays": 2,
+      "clearQualities": [
+        [
+          [
+            "DIG",
+            1
+          ]
+        ]
+      ],
+      "clearYield": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            6
+          ]
+        },
+        {
+          "item": "withered",
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    "forest": {
+      "plots": 1,
+      "soil": 0.8,
+      "clearMinutes": 900,
+      "waterDays": 3,
+      "clearQualities": [
+        [
+          [
+            "AXE",
+            1
+          ]
+        ],
+        [
+          [
+            "DIG",
+            1
+          ]
+        ]
+      ],
+      "clearYield": [
+        {
+          "item": "stick",
+          "count": [
+            4,
+            8
+          ]
+        },
+        {
+          "item": "log",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "river": {
+      "plots": 2,
+      "soil": 1,
+      "clearMinutes": 300,
+      "waterDays": 3,
+      "irrigated": true,
+      "clearQualities": [
+        [
+          [
+            "GRASS_CUT",
+            1
+          ],
+          [
+            "CUT",
+            1
+          ]
+        ]
+      ],
+      "clearYield": [
+        {
+          "item": "withered",
+          "count": [
+            2,
+            5
+          ]
+        },
+        {
+          "item": "straw_pile",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "lake": {
+      "plots": 2,
+      "soil": 1,
+      "clearMinutes": 300,
+      "waterDays": 3,
+      "irrigated": true,
+      "clearQualities": [
+        [
+          [
+            "GRASS_CUT",
+            1
+          ],
+          [
+            "CUT",
+            1
+          ]
+        ]
+      ],
+      "clearYield": [
+        {
+          "item": "withered",
+          "count": [
+            2,
+            5
+          ]
+        },
+        {
+          "item": "straw_pile",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  "irrigation": {
+    "//": "A ditch from a river or lake waters every plot on the tile for good. The water may be next door, or up to span.maxHexes hexes of any ground away: the ditch is then dug across each of them as well, span.minutes more per hex by its ground (default for anything unlisted), and ground listed in span.qualities needs those tools too (roots to cut). A ditch across other hexes only runs over ground already seen. Code: Farming.irrigationRoute.",
+    "minutes": 360,
+    "span": {
+      "maxHexes": 2,
+      "minutes": {
+        "default": 240,
+        "hills": 420,
+        "forest": 420,
+        "dense_forest": 600
+      },
+      "qualities": {
+        "forest": [
+          [
+            [
+              "AXE",
+              1
+            ]
+          ]
+        ],
+        "dense_forest": [
+          [
+            [
+              "AXE",
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "qualities": [
+      [
+        [
+          "DIG",
+          2
+        ]
+      ]
+    ],
+    "sources": [
+      "river",
+      "lake"
+    ]
+  },
+  "rain": {
+    "//": "Weather that waters every bed on a farm without a ditch, as a full watering that lasts the terrain's waterDays from the last hour it fell. Checked hour by hour as the clock passes (Farming.tick).",
+    "weathers": [
+      "rain",
+      "storm"
+    ]
+  },
+  "water": {
+    "//": "Watering by hand from containers within reach; lasts the terrain's waterDays. items are poured in the order listed (worst water first) and may be mixed. A watering may cover only part of a patch; the harvest roll and the pests count it as watered from caredShare up.",
+    "unitsPerPlant": 0.5,
+    "caredShare": 0.5,
+    "items": [
+      "water_murky",
+      "water",
+      "water_purifying",
+      "water_clean"
+    ]
+  },
+  "fertilizers": {
+    "//": "Power feeds the growth speed and the yield bands; one unit covers plantsPerUnit plants, and it is used up after lastsDays, after which the bed can be fed again.",
+    "plantsPerUnit": 5,
+    "lastsDays": 10,
+    "power": {
+      "fertilizer_commercial": 1,
+      "meal_bone": 0.7,
+      "chem_saltpetre": 0.6,
+      "spoilage": 0.4,
+      "ash": 0.3,
+      "feces_manure": 0.6,
+      "feces_cow": 0.5
+    }
+  },
+  "bands": {
+    "//": "Rolled once when a plot ripens. Bumper needs both water and fertilizer; the shifts move weight when the plot was cared for.",
+    "order": [
+      "poor",
+      "normal",
+      "good",
+      "bumper"
+    ],
+    "yield": {
+      "poor": 0.6,
+      "normal": 1,
+      "good": 1.3,
+      "bumper": 1.6
+    },
+    "weight": {
+      "poor": 25,
+      "normal": 55,
+      "good": 20,
+      "bumper": 0
+    },
+    "requires": {
+      "bumper": [
+        "water",
+        "fertilizer"
+      ]
+    },
+    "shifts": {
+      "water": {
+        "poor": -8,
+        "good": 6,
+        "bumper": 4
+      },
+      "fertilizer": {
+        "poor": -8,
+        "good": 8,
+        "bumper": 6
+      },
+      "soil": {
+        "poor": -5,
+        "good": 4
+      }
+    },
+    "goodSoil": 1.1
+  },
+  "pests": {
+    "//": "Rolled every intervalDays of growth; a watered and fertilized plot is checked at half the chance.",
+    "intervalDays": 3,
+    "chance": 0.06,
+    "caredMultiplier": 0.5,
+    "lossPerDay": 0.04,
+    "maxLoss": 0.5
+  },
+  "overripe": {
+    "//": "After the crop's ripe window closes the harvest rots away; withered is all that is left.",
+    "decayPerDay": 0.1,
+    "warnFraction": 0.5,
+    "witheredPerPlant": 0.2,
+    "seedBonus": 2
+  },
+  "harvest": {
+    "survivalBonusPerLevel": 0.04,
+    "byproductPerPlant": 0.15
+  },
+  "practice": {
+    "skill": "survival",
+    "minutes": 60,
+    "xp": [
+      1,
+      3
+    ]
+  },
+  "encounterMultiplier": 1,
+  "crops": {
+    "seed_potato_raw": {
+      "perPlant": 2.6,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1,
+      "harvestSeedChance": 0,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9,
+        "hills": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_corn": {
+      "perPlant": 1.5,
+      "ripeWindowDays": 5,
+      "pestSusceptibility": 1.2,
+      "harvestSeedChance": 0,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_beans": {
+      "perPlant": 3.4,
+      "ripeWindowDays": 5,
+      "pestSusceptibility": 1.1,
+      "harvestSeedChance": 0,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_wheat": {
+      "perPlant": 1.1,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.8,
+      "harvestSeedChance": 0,
+      "grain": true,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.85
+      },
+      "frostHardy": true
+    },
+    "seed_wildcarrot": {
+      "perPlant": 8,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.7,
+      "harvestSeedChance": 0.5,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.95,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_salsify_raw": {
+      "perPlant": 6,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.6,
+      "harvestSeedChance": 0.5,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.95,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_chicory": {
+      "perPlant": 9,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.6,
+      "harvestSeedChance": 0.5,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.95,
+        "forest": 0.85
+      },
+      "frostHardy": true
+    },
+    "seed_sugar_beet": {
+      "perPlant": 8,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.9,
+      "harvestSeedChance": 0.15,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_bottle_gourd": {
+      "perPlant": 8,
+      "ripeWindowDays": 5,
+      "pestSusceptibility": 1,
+      "harvestSeedChance": 0,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_japanese_knotweed": {
+      "perPlant": 9,
+      "ripeWindowDays": 7,
+      "pestSusceptibility": 0.3,
+      "harvestSeedChance": 0.4,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.9,
+        "forest": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_barley": {
+      "perPlant": 0.27,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.8,
+      "harvestSeedChance": 0,
+      "grain": true,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.95,
+        "hills": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_oats": {
+      "perPlant": 1.9,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.8,
+      "harvestSeedChance": 0,
+      "grain": true,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.95,
+        "hills": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_buckwheat": {
+      "perPlant": 0.57,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.7,
+      "harvestSeedChance": 0,
+      "grain": true,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.95,
+        "hills": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_canola": {
+      "perPlant": 0.8,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.9,
+      "harvestSeedChance": 0,
+      "grain": true,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_lentils": {
+      "perPlant": 1.5,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.8,
+      "harvestSeedChance": 0,
+      "grain": true,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.95,
+        "hills": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_wild_rice": {
+      "perPlant": 1.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.6,
+      "harvestSeedChance": 0.2,
+      "grain": true,
+      "terrain": {
+        "river": 1,
+        "lake": 1
+      },
+      "frostHardy": false
+    },
+    "seed_garlic_clove": {
+      "perPlant": 4,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.3,
+      "harvestSeedChance": 0.4,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.95,
+        "forest": 0.85
+      },
+      "frostHardy": true
+    },
+    "seed_popcorn": {
+      "perPlant": 5.3,
+      "ripeWindowDays": 7,
+      "pestSusceptibility": 1.2,
+      "harvestSeedChance": 0,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "soybean_seed": {
+      "perPlant": 5,
+      "ripeWindowDays": 5,
+      "pestSusceptibility": 1.1,
+      "harvestSeedChance": 0,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_veggy_wild": {
+      "perPlant": 9,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0,
+      "harvestSeedChance": 0.6,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.95,
+        "forest": 0.9,
+        "river": 0.9,
+        "lake": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_tomato": {
+      "perPlant": 12.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_carrot": {
+      "perPlant": 11.3,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_onion": {
+      "perPlant": 9.5,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_garlic": {
+      "perPlant": 3,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_bell_pepper": {
+      "perPlant": 12.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_chili_pepper": {
+      "perPlant": 19.7,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_cucumber": {
+      "perPlant": 9.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_gherkin": {
+      "perPlant": 12.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_zucchini": {
+      "perPlant": 12.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_eggplant": {
+      "perPlant": 4.1,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_broccoli": {
+      "perPlant": 10.9,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_spinach": {
+      "perPlant": 12.2,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_radish": {
+      "perPlant": 12.2,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_celery": {
+      "perPlant": 12.0,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_strawberries": {
+      "perPlant": 4.8,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_raspberries": {
+      "perPlant": 4.8,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_blueberries": {
+      "perPlant": 4.8,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_cotton_boll": {
+      "perPlant": 4,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_hops": {
+      "perPlant": 4,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_jerusalem_artichoke": {
+      "perPlant": 4.0,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_groundnut": {
+      "perPlant": 9.1,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_rhubarb": {
+      "perPlant": 12.2,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_chamomile": {
+      "perPlant": 4,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_thyme": {
+      "perPlant": 4,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_horseradish": {
+      "perPlant": 1,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_wild_herbs": {
+      "perPlant": 4,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_cranberries": {
+      "perPlant": 10.5,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_elderberries": {
+      "perPlant": 4.8,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_cabbage": {
+      "perPlant": 15,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.2,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_lettuce": {
+      "perPlant": 15,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 1.1,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": true
+    },
+    "seed_melon": {
+      "perPlant": 5.2,
+      "ripeWindowDays": 7,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_watermelon": {
+      "perPlant": 5,
+      "ripeWindowDays": 7,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_blackberries": {
+      "perPlant": 5.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.8,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_huckleberries": {
+      "perPlant": 5.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.8,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_mulberries": {
+      "perPlant": 5.2,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.8,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_rose": {
+      "perPlant": 5.2,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.9,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 1,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_wintergreen": {
+      "perPlant": 7,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.5,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "forest": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "field": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_dahlia": {
+      "perPlant": 3.9,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 1.0,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "farm": 1,
+        "field": 1,
+        "orchard": 0.9
+      },
+      "frostHardy": false
+    },
+    "seed_bee_balm": {
+      "perPlant": 4,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.6,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "field": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_mushroom": {
+      "perPlant": 19,
+      "ripeWindowDays": 5,
+      "pestSusceptibility": 0.4,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "forest": 1,
+        "orchard": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_mushroom_morel": {
+      "perPlant": 17,
+      "ripeWindowDays": 5,
+      "pestSusceptibility": 0.4,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "forest": 1,
+        "orchard": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_cactus": {
+      "perPlant": 12,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.3,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "hills": 1,
+        "field": 0.8
+      },
+      "frostHardy": false
+    },
+    "seed_cattail": {
+      "perPlant": 12,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.4,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "river": 1,
+        "lake": 1
+      },
+      "frostHardy": true
+    },
+    "seed_raw_bamboo": {
+      "perPlant": 10,
+      "ripeWindowDays": 10,
+      "pestSusceptibility": 0.3,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "forest": 1,
+        "field": 0.9,
+        "orchard": 0.9,
+        "river": 0.8
+      },
+      "frostHardy": false
+    },
+    "seed_raw_burdock": {
+      "perPlant": 6,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.5,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "field": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_raw_dandelion": {
+      "perPlant": 10,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.3,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "field": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_wild_garlic": {
+      "perPlant": 12,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.3,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "forest": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "field": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_wild_sarsaparilla": {
+      "perPlant": 10,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.4,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "forest": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "field": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_maianthemum_stellatum": {
+      "perPlant": 8.5,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.4,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "forest": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "field": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_mayapple": {
+      "perPlant": 8.5,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.4,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "forest": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "field": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_mugwort": {
+      "perPlant": 4,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.3,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "field": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    },
+    "seed_dogbane": {
+      "perPlant": 4,
+      "ripeWindowDays": 14,
+      "pestSusceptibility": 0.3,
+      "harvestSeedChance": 0.2,
+      "terrain": {
+        "field": 1,
+        "orchard": 0.9,
+        "hills": 0.9,
+        "forest": 0.8
+      },
+      "frostHardy": true
+    }
+  },
+  "mystery": {
+    "//": "Unidentified wild seeds: the crop is rolled when they go into the ground, restricted to what suits that soil, and stays hidden until the seedlings are past. What comes up is rolled in clumps of `clump` plants (27.09.2026), each clump its own crop, and each crop becomes a patch of its own: one handful is several surprises.",
+    "seed": "seed_wild_unknown",
+    "germination": 0.7,
+    "clump": [
+      3,
+      4
+    ],
+    "revealAt": "growing"
+  },
+  "seedSources": {
+    "//": "Keyed by the item a seed recipe consumes. viability is the chance each seed in perUnit is alive; condition multiplies it by how old the source is. Anything not listed here is dead seed: cooked, dried by heat or otherwise processed.",
+    "wheat": {
+      "seed": "seed_wheat",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "barley": {
+      "seed": "seed_barley",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "oats": {
+      "seed": "seed_oats",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "buckwheat": {
+      "seed": "seed_buckwheat",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "dry_lentils": {
+      "seed": "seed_lentils",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "wild_rice": {
+      "seed": "seed_wild_rice",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "dry_beans": {
+      "seed": "seed_beans",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "dry_soybean": {
+      "seed": "soybean_seed",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "dry_corn": {
+      "seed": "seed_corn",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "kernels": {
+      "seed": "seed_popcorn",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "threshed_canola": {
+      "seed": "seed_canola",
+      "perUnit": [
+        10,
+        14
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.3
+      }
+    },
+    "potato": {
+      "seed": "seed_potato_raw",
+      "perUnit": [
+        2,
+        3
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.2
+      }
+    },
+    "garlic_clove": {
+      "seed": "seed_garlic_clove",
+      "perUnit": [
+        1,
+        1
+      ],
+      "viability": 0.9,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.9,
+        "rotten": 0.2
+      }
+    },
+    "raw_bottle_gourd": {
+      "seed": "seed_bottle_gourd",
+      "perUnit": [
+        3,
+        5
+      ],
+      "viability": 0.8,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.8,
+        "rotten": 0.2
+      }
+    },
+    "japanese_knotweed_stem": {
+      "seed": "seed_japanese_knotweed",
+      "perUnit": [
+        1,
+        2
+      ],
+      "viability": 0.6,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.6,
+        "rotten": 0.1
+      }
+    },
+    "carrot_wild": {
+      "seed": "seed_wildcarrot",
+      "perUnit": [
+        1,
+        2
+      ],
+      "viability": 0.15,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.8,
+        "rotten": 0.1
+      },
+      "//": "A biennial root holds no seed in its first year; what little comes out of one is luck."
+    },
+    "chicory_raw": {
+      "seed": "seed_chicory",
+      "perUnit": [
+        1,
+        2
+      ],
+      "viability": 0.15,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.8,
+        "rotten": 0.1
+      },
+      "//": "A biennial root holds no seed in its first year; what little comes out of one is luck."
+    },
+    "salsify_raw": {
+      "seed": "seed_salsify_raw",
+      "perUnit": [
+        1,
+        2
+      ],
+      "viability": 0.15,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.8,
+        "rotten": 0.1
+      },
+      "//": "A biennial root holds no seed in its first year; what little comes out of one is luck."
+    },
+    "sugar_beet": {
+      "seed": "seed_sugar_beet",
+      "perUnit": [
+        1,
+        2
+      ],
+      "viability": 0.15,
+      "condition": {
+        "fresh": 1,
+        "aging": 0.8,
+        "rotten": 0.1
+      },
+      "//": "A biennial root holds no seed in its first year; what little comes out of one is luck."
+    },
+    "veggy_wild": {
+      "//": "Wild greens are the bootstrap: mostly seed nobody can name, now and then something recognisable.",
+      "pool": true,
+      "findChance": {
+        "base": 0.6,
+        "perSurvival": 0.05,
+        "cap": 0.95
+      },
+      "condition": {
+        "fresh": 1,
+        "aging": 0.7,
+        "rotten": 0.2
+      },
+      "unknown": {
+        "seed": "seed_wild_unknown",
+        "chance": 0.8,
+        "count": [
+          1,
+          3
+        ]
+      },
+      "named": {
+        "chance": 0.2,
+        "count": [
+          1,
+          2
+        ]
+      },
+      "weights": {
+        "seed_veggy_wild": 24,
+        "seed_wildcarrot": 14,
+        "seed_chicory": 12,
+        "seed_salsify_raw": 10,
+        "seed_japanese_knotweed": 9,
+        "seed_garlic_clove": 8,
+        "seed_wild_rice": 7,
+        "seed_oats": 4,
+        "seed_barley": 4,
+        "seed_buckwheat": 4,
+        "seed_lentils": 3,
+        "seed_beans": 3,
+        "seed_sugar_beet": 3,
+        "seed_bottle_gourd": 3,
+        "seed_potato_raw": 3,
+        "seed_corn": 2,
+        "seed_wheat": 2,
+        "soybean_seed": 2,
+        "seed_canola": 2,
+        "seed_popcorn": 2
+      }
+    }
+  },
+  "seedRecipe": {
+    "//": "The override recipe that picks seed out of wild greens; the loader keeps its fixed result only as a label.",
+    "key": "recipe:seed_wild_unknown",
+    "source": "veggy_wild"
+  },
+  "//economy": "Tuned by `yarn sim:farm` against a working farmer's day (~4 400 kcal, see `yarn sim:needs`): a full staple bed is about four days of food. Garlic is a seasoning crop and canola an oil crop, so neither is measured against that."
+}

@@ -1,0 +1,527 @@
+{
+  "group": "p29_s02_inputs",
+  "source": "29.09.2026 second 500: missing inputs that unblock existing difficulty 3-5 recipes (handloading cases, gelatin, pasta press, instrument wood, pens) and the last primerless cases",
+  "items": [
+    {
+      "id": "unprimed_410shot_hull",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "410shot_hull",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_762_51_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "762_51_casing",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "unprimed_762_25_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "unprimed_9x18mm_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "unprimed_303_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "angle_grinder",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.3
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "gelatin_powder",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "gelatin_fresh",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "pastaextruder",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "thermostat",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "refrigerant_tank",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "compressor",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "lamellae_lc",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tofu",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "dry_tofu",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "tonewood",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tuning_pegs",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "drum_skin",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "cuvettes",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "methed_alcohol",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pen",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "black_pen",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "blue_pen",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "red_pen",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "green_pen",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pencil",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "permanent_marker",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lotus",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "chilly-p",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.15
+        },
+        {
+          "table": "shop",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "belt_loop_small",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "butane_can",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.15
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "butane_tank",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "acorns_blanched",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "acorns_blanching",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "zipper_long_plastic",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        },
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "plastic_sheet",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "wheel_skate",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "polycarbonate_chunk",
+      "loot": [
+        {
+          "table": "ruins_rubble",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "koji",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sake_koji_rice",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:gelatin_fresh"
+  ],
+  "recipesExpected": [
+    "recipe:acorns_blanching",
+    "recipe:belt_loop_small",
+    "recipe:chilly-p",
+    "recipe:chilly-p:mill_1_50",
+    "recipe:chilly-p:with_from_food_processor",
+    "recipe:chilly-p:with_heat",
+    "recipe:dry_tofu",
+    "recipe:dry_tofu:frozen_ingredients",
+    "recipe:gelatin_powder",
+    "recipe:lamellae_lc:large",
+    "recipe:lamellae_lc:large_fast",
+    "recipe:lamellae_lc:small",
+    "recipe:lamellae_lc:small_fast",
+    "recipe:methed_alcohol",
+    "recipe:pastaextruder",
+    "recipe:plastic_sheet:with_duct_tape",
+    "recipe:plastic_sheet:with_heat",
+    "recipe:tofu"
+  ],
+  "notes": []
+}

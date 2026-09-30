@@ -1,0 +1,19 @@
+{
+  "//": "Notes pinned to map hexes (game src/game/world/MapNotes.js). Prologue design values. `tools` maps the CDDA writing tools (flag WRITE_MESSAGE) to the ink the note is drawn in: black, blue, red, green or graphite; an unlisted tool with the flag writes black. `journals` are carried books that raise the number of notes from `capacity.loose` (the margins of the map) to `capacity.journal`. `inkPerNote` is spent only from tools with a real supply (maxCharges > 0).",
+  "minutes": 1,
+  "maxLength": 160,
+  "capacity": { "loose": 12, "journal": 80 },
+  "journals": ["leather_journal"],
+  "inkPerNote": 1,
+  "flag": "WRITE_MESSAGE",
+  "tools": {
+    "pen": "blue",
+    "black_pen": "black",
+    "blue_pen": "blue",
+    "red_pen": "red",
+    "green_pen": "green",
+    "pencil": "graphite",
+    "permanent_marker": "black",
+    "survival_marker": "black"
+  }
+}

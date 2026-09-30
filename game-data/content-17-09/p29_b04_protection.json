@@ -1,0 +1,758 @@
+{
+  "group": "p29_b04_protection",
+  "source": "CDDA 0.I data/json/items/armor (ballistic_armor, head_attachments, suits_protection, boots, helmets, ammo_pouch, bespoke_armor)",
+  "items": [
+    {
+      "id": "esapi_plate",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.03333333333333333
+        }
+      ]
+    },
+    {
+      "id": "esbi_plate",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.03333333333333333
+        }
+      ]
+    },
+    {
+      "id": "stab_plate",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02666666666666667
+        },
+        {
+          "table": "shop_locker",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "deltoid_plates",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02666666666666667
+        }
+      ]
+    },
+    {
+      "id": "iotv_groin_plate",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02666666666666667
+        }
+      ]
+    },
+    {
+      "id": "iotv_neck_plate",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02666666666666667
+        }
+      ]
+    },
+    {
+      "id": "iotv_shoulder_plate",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02666666666666667
+        }
+      ]
+    },
+    {
+      "id": "face_shield",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "face_shield_plastic",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.15
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "face_shield_eod",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "attachable_ear_muffs",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02666666666666667
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "nape_protector",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "fire_station",
+          "weight": 0.02666666666666667
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.016666666666666666
+        }
+      ]
+    },
+    {
+      "id": "kevlar_nape_protector",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mesh_nape_protector",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "plastic_chin_guard",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "plastic_mandible_guard",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "ballistic_mandible_guard",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.016666666666666666
+        }
+      ]
+    },
+    {
+      "id": "shield_visor",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "fire_station",
+          "weight": 0.016666666666666666
+        }
+      ]
+    },
+    {
+      "id": "outsert_clear",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.016666666666666666
+        }
+      ]
+    },
+    {
+      "id": "outsert_sunlight",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.016666666666666666
+        }
+      ]
+    },
+    {
+      "id": "outsert_breach",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "insert_vision_correction",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.01
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "bite_suit",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "shop_locker",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "cleansuit",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "entry_suit",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "fire_station",
+          "weight": 0.016666666666666666
+        }
+      ]
+    },
+    {
+      "id": "hazmat_suit",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "armor_nomad_advanced",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.012
+        }
+      ]
+    },
+    {
+      "id": "boots_bone",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.012
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "rollerskates",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "roller_blades",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "survivor_suit",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.012
+        }
+      ]
+    },
+    {
+      "id": "lsurvivor_suit",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.012
+        }
+      ]
+    },
+    {
+      "id": "wsurvivor_suit",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.012
+        }
+      ]
+    },
+    {
+      "id": "wsurvivor_suit_nofur",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        }
+      ]
+    },
+    {
+      "id": "fsurvivor_suit",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "fire_station",
+          "weight": 0.0033333333333333335
+        }
+      ]
+    },
+    {
+      "id": "h20survivor_suit",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "hsurvivor_suit",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "survivor_goggles",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.018
+        }
+      ]
+    },
+    {
+      "id": "boots_h20survivor_light",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "boots_h20survivor_thick",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        }
+      ]
+    },
+    {
+      "id": "gloves_h20survivor_light",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        }
+      ]
+    },
+    {
+      "id": "gloves_h20survivor_thick",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        }
+      ]
+    },
+    {
+      "id": "hood_h20survivor_light",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        }
+      ]
+    },
+    {
+      "id": "hood_h20survivor_thick",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        }
+      ]
+    },
+    {
+      "id": "nomad_rig",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.009
+        }
+      ]
+    },
+    {
+      "id": "load_bearing_vest_sling",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02666666666666667
+        }
+      ]
+    },
+    {
+      "id": "heavy_load_bearing_vest_sling",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.016666666666666666
+        }
+      ]
+    },
+    {
+      "id": "heavy_load_bearing_vest_breacher",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "helmet_motor_raised",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.04
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "lc_helm_close_raised",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:armor_nomad_advanced",
+    "recipe:nomad_rig"
+  ],
+  "recipesExpected": [
+    "recipe:boots_h20survivor_light",
+    "recipe:boots_h20survivor_thick",
+    "recipe:entry_suit",
+    "recipe:gloves_h20survivor_light",
+    "recipe:gloves_h20survivor_thick",
+    "recipe:heavy_load_bearing_vest_breacher",
+    "recipe:heavy_load_bearing_vest_sling",
+    "recipe:hood_h20survivor_light",
+    "recipe:hood_h20survivor_thick",
+    "recipe:load_bearing_vest_sling",
+    "recipe:roller_blades",
+    "recipe:rollerskates",
+    "recipe:survivor_goggles"
+  ],
+  "notes": [
+    "Ballistic inserts and helmet add-ons are imported as worn pieces: AIR has no plate carrier or helmet-attachment slot and ignores CANT_WEAR.",
+    "Steel-material plates (steel_ballistic_plate, heavy_steel_ballistic_plate, eod_plate) and nomad plate suits are skipped: their material is qt_steel."
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "group": "foods_raw",
+  "source": "TO-DO-17.09.MD, family 1 (Raw foods and ingredients) + the egg/pasta dishes listed there",
+  "items": [
+    {
+      "id": "honeycomb",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 2
+        },
+        {
+          "table": "bonus_wild",
+          "weight": 2
+        },
+        {
+          "table": "orchard",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage",
+        "natural"
+      ],
+      "note": "wild sugar source; unblocks recipe:honey_bottled"
+    },
+    {
+      "id": "raw_beans",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 3
+        },
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "INEDIBLE ingredient; unblocks recipe:dry_beans"
+    },
+    {
+      "id": "soybean",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 3
+        },
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "INEDIBLE ingredient; unblocks recipe:dry_soybean"
+    },
+    {
+      "id": "coffee_bean",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "INEDIBLE ingredient; unblocks recipe:roasted_coffee_bean"
+    },
+    {
+      "id": "chili_pepper",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food",
+        "forage"
+      ],
+      "note": "unblocks recipe:dry_chili"
+    },
+    {
+      "id": "wheat_stalks",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 3
+        },
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage",
+        "natural"
+      ],
+      "note": "field harvest; head of the wheat chain"
+    },
+    {
+      "id": "dry_wheat_stalks",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 2
+        }
+      ],
+      "note": "smoking rack product; unblocks recipe:threshed_wheat"
+    },
+    {
+      "id": "scrambled_eggs",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "note": "craftable today from the whitelisted egg_chicken"
+    },
+    {
+      "id": "chili_pepper_cut",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "the cut half of the already staged chili_pepper (uncraft:chili_pepper, CUT 1); the dry_chili rows take either form"
+    },
+    {
+      "id": "pumpkin",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 3
+        },
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food",
+        "forage"
+      ],
+      "note": "substitute for the non-existent id \"oat\" (see notes): the whole INEDIBLE field crop, and the only in-game source of pumpkin_cut through uncraft:pumpkin"
+    },
+    {
+      "id": "pumpkin_cut",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "named by 31 enabled recipes (broth, soups, dry_veggy, canning rows) as a veggy alternative; SMOKABLE"
+    },
+    {
+      "id": "cucumber_cut",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "substitute for the non-existent id \"canola\" (see notes): uncraft:cucumber is already enabled, so this closes that uncraft and adds a veggy alternative to 19 enabled recipes"
+    },
+    {
+      "id": "yoghurt",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "plain dairy food; CDDA has no recipe (culturing). Its dishes (icecream_yogurt, chicken_tandoori) wait on dairy_book / cookbook_indian in later batches"
+    },
+    {
+      "id": "cinnamon",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "seasoning component of frenchtoast, oatmeal_deluxe, seasoning_salt; no CDDA recipe"
+    },
+    {
+      "id": "curry_powder",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "seasoning component; also listed in consume.json notMeals, which was warning that it was not whitelisted"
+    },
+    {
+      "id": "spaghetti_raw",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 3
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "dry pasta, 360-day shelf life; an alternative in the enabled soup rows. Its own recipe needs a pastaextruder (excluded), so loot only"
+    },
+    {
+      "id": "almond_shelled",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food",
+        "forage"
+      ],
+      "note": "closes uncraft:almond (almond is already whitelisted); own recipe cooking 1 autolearn, and it feeds recipe:paste_nut"
+    },
+    {
+      "id": "walnut_shelled",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food",
+        "forage"
+      ],
+      "note": "closes uncraft:walnut; own recipe cooking 1 autolearn, and it feeds recipe:paste_nut"
+    },
+    {
+      "id": "acorns_cooked",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "craftable today from the whitelisted acorns (HAMMER 1 + CUT 2 + BOIL 1 + COOK 2 + water + fire)"
+    },
+    {
+      "id": "seed_mustard",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "INEDIBLE ingredient; the sole input of recipe:mustard_powder"
+    },
+    {
+      "id": "mustard_powder",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "INEDIBLE seasoning; ground from seed_mustard on the enabled rock_quern, and half of what recipe:egg_salad needs"
+    },
+    {
+      "id": "honey_glassed",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "candied honey; craftable from honey_bottled and itself a sugar source"
+    },
+    {
+      "id": "boiled_egg",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "egg dish; craftable today from the whitelisted egg_chicken"
+    },
+    {
+      "id": "fried_eggs",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "egg dish; craftable today (copy-from scrambled_eggs, which is already staged)"
+    },
+    {
+      "id": "omelet",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "egg dish; craftable today"
+    },
+    {
+      "id": "vegetable_omelet",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "egg dish; craftable today, and it uses the cut vegetables staged in this batch"
+    },
+    {
+      "id": "spaghetti_cooked",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "boiled from the spaghetti_raw staged in batch 2 (BOIL + fire)"
+    },
+    {
+      "id": "macaroni_cooked",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "mac and cheese; boiled from the spaghetti_raw staged in batch 2 plus the enabled cheese (CDDA macaroni_raw itself is not whitelisted, spaghetti_raw is the enabled alternative in both pasta rows)"
+    },
+    {
+      "id": "tomato",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food",
+        "forage"
+      ],
+      "note": "field crop; uncraft:tomato gives tomato_cut, and the pair unblocks the jarred can_tomato rows"
+    },
+    {
+      "id": "tomato_cut",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "cut half of the above; an alternative in many enabled soup and sauce rows"
+    },
+    {
+      "id": "zucchini",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food",
+        "forage"
+      ],
+      "note": "field crop; uncraft:zucchini gives zucchini_cut (not staged, so the cut form stays out for now)"
+    },
+    {
+      "id": "eggplant",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "farm_field",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "field crop, plain FOOD"
+    },
+    {
+      "id": "orange",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "citrus; feeds the enabled sweet_fruit rows (juice, jam, dry_fruit)"
+    },
+    {
+      "id": "pomegranate",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "orchard",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "unblocks recipe:grenadine_syrup, whose result is already whitelisted"
+    },
+    {
+      "id": "mango",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "tropical fruit; another sweet_fruit alternative"
+    },
+    {
+      "id": "pine_nuts",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food",
+        "forage"
+      ],
+      "note": "forage nut; the missing input of recipe:sauce_pesto (cookbook_italian is already enabled)"
+    },
+    {
+      "id": "cucumber",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food",
+        "forage"
+      ],
+      "note": "not part of the 20: cucumber was whitelisted by an earlier import with no loot row and no pool, so it was unobtainable and uncraft:cucumber was dead. These rows fix that and give the cucumber_cut staged in batch 2 its in-game source"
+    },
+    {
+      "id": "ghee",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "not part of the 20: the survey B row whose only learn path is cookbook_indian. Clarified butter, 90-day shelf life, an alternative in every any_butter_or_oil row"
+    },
+    {
+      "id": "curry_veggy",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "not part of the 20: survey A row, learnable only from cookbook_indian, and it is what the curry_powder of batch 2 plus the tomato of this batch are for"
+    },
+    {
+      "id": "sushi_rice",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "not part of the 20: survey B row, learnable only from cookbook_sushi; vinegar and dry_rice are already enabled"
+    },
+    {
+      "id": "macaroni_raw",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 3
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ],
+      "note": "not part of the 20: survey A raw pasta, the named alternative in the pasta rows staged in batch 3 (its own recipe needs a pastaextruder, so loot only)"
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "raw_beans",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "soybean",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "coffee_bean",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "wheat_stalks",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "dry_wheat_stalks",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "pumpkin",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "pumpkin_cut",
+      "//": "pumpkin_cut copy-from pumpkin, so the INEDIBLE patch above would make the cut wedge inedible too; put it back to FOOD.",
+      "comestible_type": "FOOD"
+    },
+    {
+      "type": "ITEM",
+      "id": "cinnamon",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "curry_powder",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "seed_mustard",
+      "comestible_type": "INVALID"
+    },
+    {
+      "type": "ITEM",
+      "id": "mustard_powder",
+      "comestible_type": "INVALID"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [
+    "recipe:honey_bottled",
+    "recipe:dry_beans",
+    "recipe:dry_beans:frozen_ingredients",
+    "recipe:dry_soybean",
+    "recipe:dry_soybean:frozen_ingredients",
+    "recipe:dry_chili",
+    "recipe:dry_chili:frozen_ingredients",
+    "recipe:roasted_coffee_bean",
+    "recipe:threshed_wheat",
+    "recipe:threshed_wheat:flail",
+    "recipe:paste_nut",
+    "recipe:egg_salad",
+    "recipe:grenadine_syrup",
+    "recipe:honey_bottled:from_honey_glassed",
+    "recipe:sugar:from_candy",
+    "recipe:sauce_pesto"
+  ],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:honey_bottled",
+    "recipe:dry_beans",
+    "recipe:dry_beans:frozen_ingredients",
+    "recipe:dry_soybean",
+    "recipe:dry_soybean:frozen_ingredients",
+    "recipe:dry_chili",
+    "recipe:dry_chili:frozen_ingredients",
+    "recipe:roasted_coffee_bean",
+    "recipe:dry_wheat_stalks",
+    "recipe:dry_wheat_stalks:frozen_ingredients",
+    "recipe:threshed_wheat",
+    "recipe:threshed_wheat:flail",
+    "recipe:scrambled_eggs",
+    "recipe:almond_shelled",
+    "recipe:walnut_shelled",
+    "recipe:paste_nut",
+    "recipe:acorns_cooked",
+    "recipe:boiled_egg",
+    "recipe:fried_eggs",
+    "recipe:omelet",
+    "recipe:vegetable_omelet",
+    "recipe:spaghetti_cooked",
+    "recipe:macaroni_cooked",
+    "recipe:honey_glassed",
+    "recipe:mustard_powder",
+    "recipe:mustard",
+    "recipe:egg_salad",
+    "recipe:grenadine_syrup",
+    "recipe:honey_bottled:from_honey_glassed",
+    "recipe:sugar:from_candy",
+    "recipe:sauce_pesto",
+    "recipe:can_tomato:jarred",
+    "recipe:can_tomato:jarred_3l",
+    "recipe:ghee",
+    "recipe:curry_veggy",
+    "recipe:sushi_rice"
+  ],
+  "notes": [
+    "CHECKPOINT 1 slice: the first 8 ids only, on the coordinator's instruction.",
+    "Many recipe keys this group unblocks sit in whitelist/recipes.json -> exclude (they were excluded while their inputs were unobtainable). CddaLoader.js:101 applies `include` after the exclude filter, so they are re-enabled through recipesInclude instead of by editing the exclude list by hand.",
+    "The brief names the raw grain plants `barley`/`oat`/`canola`/`buckwheat`; those CDDA ids are the already-whitelisted threshed grains (`barley`, `buckwheat`) or do not exist (`oat`, `canola`). The raw plants are `barley_stalks`, `oat_stalks`, `canola_stalks`, `buckwheat_stalks` and those are what this group will stage on resume.",
+    "batch 2 added 10 raw foods (18 staged in this group)",
+    "BATCHES.md asks for \"oat\" and \"canola\": neither id exists in CDDA, and the raw plants behind those names (oat_stalks, canola_stalks) were whitelisted meanwhile by the farming_18_09 group. Substituted with two A-grade rows from the same survey tables: pumpkin (the INEDIBLE whole crop, which is what makes pumpkin_cut obtainable) and cucumber_cut (whose uncraft source cucumber is already enabled)",
+    "pumpkin carries the INEDIBLE comestible_type: INVALID override, the same pattern as raw_beans/soybean/wheat_stalks above; none of the other nine is INEDIBLE",
+    "recipe:paste_nut was in whitelist/recipes.json exclude (its nut inputs were unobtainable); recipesInclude re-enables the autolearn rock_quern variant only - the three mill_* variants stay excluded because the Prologue has no mill",
+    "pumpkin_cut needs an explicit comestible_type: FOOD override: it is copy-from pumpkin, so it inherited the INVALID patch that blocks eating the whole crop",
+    "cinnamon and curry_powder carry CDDA's INEDIBLE flag, which the game does not enforce, so both get the comestible_type INVALID patch (coordinator double check, batch 2): seasonings are recipe components, not snacks.",
+    "batch 3 added 18 raw foods and dishes plus the cucumber loot fix (37 staged in this group)",
+    "INEDIBLE audit of every id staged in this batch (CDDA flags resolved through copy-from): only seed_mustard (from the seed abstract) and mustard_powder (from the spice abstract) carry INEDIBLE, and both got comestible_type INVALID. tomato, tomato_cut, zucchini, eggplant, orange, pomegranate, mango, pine_nuts, acorns_cooked, honey_glassed and the five dishes are all edible in CDDA",
+    "three ids beyond the batch list (ghee, curry_veggy, sushi_rice) give the two cookbooks something to unlock: without them cookbook_indian and cookbook_sushi teach nothing the Prologue can craft, they only train cooking. Each is a survey row (ghee B, curry_veggy A, sushi_rice B) and each is learnable only from its book",
+    "recipesInclude grew by egg_salad, grenadine_syrup, honey_bottled:from_honey_glassed, sugar:from_candy and sauce_pesto: all five are whitelisted results whose keys sat in whitelist/recipes.json exclude while their inputs were unobtainable",
+    "not claimed although they became obtainable: recipe:can_tomato / :canned_big / :canned_medium (only manual_sealing teaches them, which is not enabled - the jarred pair is claimed because cookbook_italian teaches it, and manual_canning in batch 4 will open the rest); recipe:flour_wheat_free:mill_2_3 (acorn flour is obtainable now but neither autolearn nor taught by any enabled book, so it stays invisible); recipe:acorns_cooked:from blanched (needs acorns_blanched); recipe:fish_bagel (bagel is not obtainable - it was briefly added to recipesInclude during the sweep and removed again from whitelist/recipes.json)",
+    "recipe:mustard_powder:with_from_food_processor is enabled as a second route and is obtainable (the food processor has an electricity.json profile), but only the base autolearn recipe is claimed",
+    "batch 4 added macaroni_raw (41 staged): the pasta row that recipe:macaroni_cooked and recipe:spaghetti_cooked name first, so the dish names match the ingredient the player carries"
+  ]
+}

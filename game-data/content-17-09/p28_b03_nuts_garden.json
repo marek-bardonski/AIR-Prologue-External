@@ -1,0 +1,452 @@
+{
+  "group": "p28_b03_nuts_garden",
+  "source": "28.09.2026 first-priority import, batch 3: nuts, worms, garden and orchard",
+  "items": [
+    {
+      "id": "hazelnut",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "hills",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "chestnut",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 2
+        },
+        {
+          "table": "forest_dense",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "hickory_nut",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 2
+        },
+        {
+          "table": "forest_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "pecan",
+      "loot": [
+        {
+          "table": "orchard",
+          "weight": 1
+        },
+        {
+          "table": "forest_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "butternut",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "river",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "hazelnut_shelled",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "chestnut_shelled",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hickory_nut_shelled",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pecan_shelled",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "butternut_shelled",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hazelnut_roasted",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "chestnut_roasted",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hickory_nut_roasted",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pecan_roasted",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "butternut_roasted",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "earthworm",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 2
+        },
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "farm_field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "earthworm_handful",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 1
+        },
+        {
+          "table": "farm_field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "honeydew",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "orchard",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "carrot",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 3
+        },
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cabbage_head",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cabbage",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "broccoli",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "spinach",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "celery",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "lettuce_head",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "radish_taproot",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "gherkin",
+      "loot": [
+        {
+          "table": "farm_field",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cherries",
+      "loot": [
+        {
+          "table": "orchard",
+          "weight": 3
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "grapes",
+      "loot": [
+        {
+          "table": "orchard",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "apricot",
+      "loot": [
+        {
+          "table": "orchard",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:hazelnut_shelled",
+    "recipe:chestnut_shelled",
+    "recipe:hickory_nut_shelled",
+    "recipe:pecan_shelled",
+    "recipe:butternut_shelled",
+    "recipe:hazelnut_roasted",
+    "recipe:chestnut_roasted",
+    "recipe:hickory_nut_roasted",
+    "recipe:pecan_roasted",
+    "recipe:butternut_roasted",
+    "recipe:flour_wheat_free:mill_4_5"
+  ],
+  "notes": [
+    "acorns_blanching/acorns_blanched left out: grade C (a liquid soak with no working step here).",
+    "Whole nuts added: the shelled ones are made from them (survey B-step)."
+  ]
+}

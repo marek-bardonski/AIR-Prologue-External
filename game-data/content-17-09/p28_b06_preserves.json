@@ -1,0 +1,362 @@
+{
+  "group": "p28_b06_preserves",
+  "source": "28.09.2026 first-priority import, batch 6: preserves, sausages, offal",
+  "items": [
+    {
+      "id": "pickle",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "id": "sauerkraut",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "id": "veggy_pickled",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "veggy_salted",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "veggy_canned",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "meat_canned",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "meat_pickled",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "fish_canned",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "salted_fish",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 2
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "confit_meat",
+      "loot": [
+        {
+          "table": "preservation_cellar",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "apple_canned",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "sausage_raw",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sausage",
+      "loot": [
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "sausage_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "meatball_raw",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "meatball",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "stewed_tripe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fried_livers",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "liver_onion",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fried_heart",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "earthworm_fried",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "earthworm_boiled",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pemmican_veggy",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hominy",
+      "pools": [
+        "food"
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "veggy_canned",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "60 hours",
+      "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "meat_canned",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "40 hours",
+      "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "fish_canned",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "40 hours",
+      "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "apple_canned",
+      "spoils_in": "730 days",
+      "air_open_spoils_in": "7 days",
+      "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "confit_meat",
+      "spoils_in": "365 days",
+      "air_open_spoils_in": "90 days",
+      "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:salted_fish:vacuum_packed",
+    "recipe:veggy_salted:vacuum_packed"
+  ],
+  "recipesExpected": [
+    "recipe:apple_canned",
+    "recipe:apple_canned:canned_big",
+    "recipe:apple_canned:canned_medium",
+    "recipe:apple_canned:jarred",
+    "recipe:apple_canned:jarred_3l",
+    "recipe:confit_meat",
+    "recipe:earthworm_boiled",
+    "recipe:earthworm_fried",
+    "recipe:fish_canned",
+    "recipe:fish_canned:canned_big",
+    "recipe:fish_canned:canned_medium",
+    "recipe:fish_canned:jarred",
+    "recipe:fish_canned:jarred_3l",
+    "recipe:fried_heart",
+    "recipe:fried_livers",
+    "recipe:hominy",
+    "recipe:liver_onion",
+    "recipe:meat_canned",
+    "recipe:meat_canned:canned_big",
+    "recipe:meat_canned:canned_medium",
+    "recipe:meat_canned:jarred",
+    "recipe:meat_canned:jarred_3l",
+    "recipe:meat_pickled:jarred",
+    "recipe:meat_pickled:jarred_3l",
+    "recipe:meatball",
+    "recipe:meatball_raw",
+    "recipe:pemmican_veggy",
+    "recipe:salted_fish",
+    "recipe:sausage",
+    "recipe:sausage_cooked",
+    "recipe:sausage_raw",
+    "recipe:stewed_tripe",
+    "recipe:veggy_canned",
+    "recipe:veggy_canned:canned_big",
+    "recipe:veggy_canned:canned_medium",
+    "recipe:veggy_canned:jarred",
+    "recipe:veggy_canned:jarred_3l",
+    "recipe:veggy_pickled:jarred",
+    "recipe:veggy_pickled:jarred_3l"
+  ],
+  "notes": []
+}

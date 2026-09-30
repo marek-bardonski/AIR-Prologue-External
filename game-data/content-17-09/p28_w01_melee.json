@@ -1,0 +1,747 @@
+{
+  "group": "p28_w01_melee",
+  "source": "28.09.2026 next-1000 import: clubs, maces, swords and knives (collectors' pieces and military knives)",
+  "items": [
+    {
+      "id": "2h_club_kanabo_spiked",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "2h_club_kanabo_studded",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "2h_flail_steel",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "bokken",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bowling_pin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "lc_aztec_sword",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lc_battleaxe",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lc_mace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lucern_hammer",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "mace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "morningstar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "pool_cue",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "shillelagh_weighted",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "tonfa",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "warhammer",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "arisaka_bayonet",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "arming_sword",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "broadsword",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "cavalry_sabre",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "cutlass",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "dao",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "enfield_bayonet",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "estoc",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "falx",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "fencing_epee",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "fencing_epee_sharpened",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "fencing_foil",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "fencing_foil_sharpened",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "fencing_sabre",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "fencing_sabre_sharpened",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "hollow_cane",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "jade_nagamaki",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "jian",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "karambit",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "katana",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "khopesh",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "kirpan",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "kirpan_cheap",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "knife_combat",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knife_combat_army",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knife_combat_marine",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knife_rm42",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knife_trench",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "knuckle_katar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "kriegsmesser",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:2h_club_kanabo_spiked",
+    "recipe:2h_club_kanabo_studded",
+    "recipe:2h_flail_steel",
+    "recipe:bokken",
+    "recipe:cutlass",
+    "recipe:dao",
+    "recipe:fencing_epee_sharpened",
+    "recipe:fencing_epee_sharpened:from_scratch",
+    "recipe:fencing_foil_sharpened",
+    "recipe:fencing_foil_sharpened:from_scratch",
+    "recipe:fencing_sabre_sharpened",
+    "recipe:fencing_sabre_sharpened:from_scratch",
+    "recipe:hollow_cane",
+    "recipe:karambit",
+    "recipe:khopesh",
+    "recipe:kirpan",
+    "recipe:knife_combat",
+    "recipe:knife_trench",
+    "recipe:knuckle_katar",
+    "recipe:lc_aztec_sword",
+    "recipe:lc_battleaxe",
+    "recipe:lc_mace",
+    "recipe:lucern_hammer",
+    "recipe:mace",
+    "recipe:morningstar",
+    "recipe:shillelagh_weighted",
+    "recipe:tonfa",
+    "recipe:warhammer"
+  ],
+  "notes": [
+    "Swords and polearms are rare finds: a collector's wall, a ruin, a traveller's cache. Sharpened fencing blades are made from the sport ones."
+  ]
+}

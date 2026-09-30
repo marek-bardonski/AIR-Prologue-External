@@ -1,0 +1,381 @@
+{
+  "group": "p28_f05_meat",
+  "source": "28.09.2026 next-1000 import: meat and fish dishes",
+  "items": [
+    {
+      "id": "chili",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "crab_cakes",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "currywurst",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "deluxe_cheeseburger",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "deluxe_rice",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fried_spam",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "homemade_burrito",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lobster_cakes",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lobster_canned",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "lunchmeat",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "lutefisk",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "meat_aspic",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "ndn_taco",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pizza_meat",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pizza_supreme",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pork_beans",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "scrapple",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sloppyjoe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "stuffed_clams",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "taco",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "blutwurst_sausage",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "bratwurst_sausage",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "chicken_parm",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "chicken_rice_hianese",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "escargot",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "glazed_tenderloin",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "haggis",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "iskender",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "kiymali_pide",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lahmacun",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lasagne",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lobster_platter",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "manti",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "royal_beef",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sashimi",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "spaghetti_bolognese",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sushi_fishroll",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sushi_meatroll",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sweet_sausage",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "canned_heart",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "chili",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "lobster_canned",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "40 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "pork_beans",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "36 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "canned_heart",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:deluxe_cheeseburger",
+    "recipe:escargot"
+  ],
+  "recipesExpected": [
+    "recipe:blutwurst_sausage",
+    "recipe:bratwurst_sausage",
+    "recipe:canned_heart:jarred",
+    "recipe:canned_heart:jarred_3l",
+    "recipe:chicken_parm",
+    "recipe:chicken_rice_hianese",
+    "recipe:chili",
+    "recipe:currywurst",
+    "recipe:deluxe_rice",
+    "recipe:fried_spam",
+    "recipe:glazed_tenderloin",
+    "recipe:haggis",
+    "recipe:haggis:large",
+    "recipe:homemade_burrito",
+    "recipe:iskender",
+    "recipe:kiymali_pide",
+    "recipe:lahmacun",
+    "recipe:lasagne",
+    "recipe:lobster_cakes",
+    "recipe:lobster_canned",
+    "recipe:lobster_canned:canned_big",
+    "recipe:lobster_canned:canned_medium",
+    "recipe:lobster_canned:jarred",
+    "recipe:lobster_canned:jarred_3l",
+    "recipe:lobster_platter",
+    "recipe:lutefisk",
+    "recipe:manti",
+    "recipe:meat_aspic",
+    "recipe:ndn_taco",
+    "recipe:pizza_meat",
+    "recipe:pizza_supreme",
+    "recipe:royal_beef",
+    "recipe:sashimi",
+    "recipe:scrapple",
+    "recipe:sloppyjoe",
+    "recipe:spaghetti_bolognese",
+    "recipe:stuffed_clams",
+    "recipe:sushi_fishroll",
+    "recipe:sushi_meatroll",
+    "recipe:sweet_sausage",
+    "recipe:taco"
+  ],
+  "notes": []
+}

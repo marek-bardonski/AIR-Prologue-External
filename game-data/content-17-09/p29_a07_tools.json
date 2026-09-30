@@ -1,0 +1,741 @@
+{
+  "group": "p29_a07_tools",
+  "source": "29.09.2026 second 500: tools that unblock smithing, pressure cooking, chemistry and instrument recipes, plus everyday survival tools",
+  "items": [
+    {
+      "id": "hotcut_bronze",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "metalworking_tongs_bronze",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "anvil_bronze",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "anvil_heavy",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "small_pressure_vessel",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pressure_gauge",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "magnet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "clockworks",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pipe_cleaner",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.08
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "seatbelt",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.8
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "road",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "kiln",
+      "loot": [
+        {
+          "table": "potters_yard_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "vac_mold",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "hotplate_induction",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.08
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "microwave",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "vac_oven_small",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "platinum_grille",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "electrolyzer_makeshift",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "nitrogen_generator",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "ammonia_machine_pipework",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.005
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "recovery_pump",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "oil_extractor_crude",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "ketene_lamp",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "luthier_toolset",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "shears",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.15
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "farm",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "microscope",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "house_books",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "sextant",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_books",
+          "weight": 0.005
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "weather_glass",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "hygrometer",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "voltmeter",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "lifestraw",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "umbrella",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "stepladder",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "rake",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.08
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "shovel_snow_plastic",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "sm_extinguisher",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.05
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.05
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "dog_whistle",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "farm",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "stapler",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "fire_piston",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "lens_crude",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "whistle_multitool",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "survivor_shavingkit",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sponge",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.08
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "tent_pole",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:ammonia_machine_pipework",
+    "recipe:nitrogen_generator",
+    "recipe:platinum_grille",
+    "recipe:survivor_shavingkit"
+  ],
+  "recipesExpected": [
+    "recipe:anvil_bronze",
+    "recipe:electrolyzer_makeshift",
+    "recipe:fire_piston",
+    "recipe:ketene_lamp",
+    "recipe:kiln",
+    "recipe:lens_crude",
+    "recipe:metalworking_tongs_bronze",
+    "recipe:metalworking_tongs_bronze:casting",
+    "recipe:oil_extractor_crude",
+    "recipe:pipe_cleaner",
+    "recipe:rake",
+    "recipe:recovery_pump",
+    "recipe:shears",
+    "recipe:shovel_snow_plastic",
+    "recipe:stepladder",
+    "recipe:weather_glass"
+  ],
+  "notes": []
+}

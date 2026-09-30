@@ -1,0 +1,1778 @@
+[
+  {
+    "id": "corpse_mon_echo",
+    "type": "ITEM",
+    "name": {
+      "str": "echo corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "81500 g",
+    "volume": "62500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_echo"
+  },
+  {
+    "id": "corpse_mon_echo_hound",
+    "type": "ITEM",
+    "name": {
+      "str": "echo hound corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "40750 g",
+    "volume": "30000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_echo_hound"
+  },
+  {
+    "id": "corpse_mon_dog",
+    "type": "ITEM",
+    "name": {
+      "str": "feral dog corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "30000 g",
+    "volume": "30000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_dog"
+  },
+  {
+    "id": "corpse_mon_wolf",
+    "type": "ITEM",
+    "name": {
+      "str": "wolf corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "26625 g",
+    "volume": "26625 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_wolf"
+  },
+  {
+    "id": "corpse_mon_draft",
+    "type": "ITEM",
+    "name": {
+      "str": "draft corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "81500 g",
+    "volume": "62500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_draft"
+  },
+  {
+    "id": "corpse_mon_rabbit",
+    "type": "ITEM",
+    "name": {
+      "str": "domestic rabbit corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "2000 g",
+    "volume": "5000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_rabbit"
+  },
+  {
+    "id": "corpse_mon_deer",
+    "type": "ITEM",
+    "name": {
+      "str": "deer corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "87000 g",
+    "volume": "108500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_deer"
+  },
+  {
+    "id": "corpse_mon_dog_chihuahua",
+    "type": "ITEM",
+    "name": {
+      "str": "Chihuahua corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "2200 g",
+    "volume": "750 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_dog_chihuahua"
+  },
+  {
+    "id": "corpse_mon_cat",
+    "type": "ITEM",
+    "name": {
+      "str": "shorthair cat corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "4000 g",
+    "volume": "4000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_cat"
+  },
+  {
+    "id": "corpse_mon_turkey",
+    "type": "ITEM",
+    "name": {
+      "str": "wild turkey corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "6000 g",
+    "volume": "8000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_turkey"
+  },
+  {
+    "id": "corpse_mon_boar_wild",
+    "type": "ITEM",
+    "name": {
+      "str": "wild boar corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "100000 g",
+    "volume": "108500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_boar_wild"
+  },
+  {
+    "id": "corpse_mon_chicken",
+    "type": "ITEM",
+    "name": {
+      "str": "chicken corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "2000 g",
+    "volume": "1667 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_chicken"
+  },
+  {
+    "id": "corpse_mon_duck",
+    "type": "ITEM",
+    "name": {
+      "str": "mallard corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "1040 g",
+    "volume": "867 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_duck"
+  },
+  {
+    "id": "corpse_mon_squirrel",
+    "type": "ITEM",
+    "name": {
+      "str": "squirrel corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "624 g",
+    "volume": "520 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_squirrel"
+  },
+  {
+    "id": "corpse_mon_muskrat",
+    "type": "ITEM",
+    "name": {
+      "str": "muskrat corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "1362 g",
+    "volume": "1135 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_muskrat"
+  },
+  {
+    "id": "corpse_mon_groundhog",
+    "type": "ITEM",
+    "name": {
+      "str": "groundhog corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "3628 g",
+    "volume": "3023 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_groundhog"
+  },
+  {
+    "id": "corpse_mon_goose_canadian",
+    "type": "ITEM",
+    "name": {
+      "str": "Canada goose corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "4000 g",
+    "volume": "3333 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_goose_canadian"
+  },
+  {
+    "id": "corpse_mon_fish_brown_trout",
+    "type": "ITEM",
+    "name": {
+      "str": "brown trout corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "3000 g",
+    "volume": "2500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_brown_trout"
+  },
+  {
+    "id": "corpse_mon_fish_lbass",
+    "type": "ITEM",
+    "name": {
+      "str": "largemouth bass corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "4535 g",
+    "volume": "3779 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_lbass"
+  },
+  {
+    "id": "corpse_mon_fish_perch",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow perch corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "150 g",
+    "volume": "125 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_perch"
+  },
+  {
+    "id": "corpse_mon_coyote",
+    "type": "ITEM",
+    "name": {
+      "str": "coyote corpse"
+    },
+    "description": "A rangy dog-shaped body, still warm. Lean work, but it is meat and it is hide.",
+    "weight": "22000 g",
+    "volume": "18333 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_coyote"
+  },
+  {
+    "id": "corpse_mon_bobcat",
+    "type": "ITEM",
+    "name": {
+      "str": "bobcat corpse"
+    },
+    "description": "Short, heavy and spotted, with paws out of all proportion to the rest of it.",
+    "weight": "8600 g",
+    "volume": "7167 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_bobcat"
+  },
+  {
+    "id": "corpse_mon_raccoon",
+    "type": "ITEM",
+    "name": {
+      "str": "raccoon corpse"
+    },
+    "description": "Hands like a small person's, a tail in bands. Fat under the fur, which is what matters.",
+    "weight": "6000 g",
+    "volume": "5000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_raccoon"
+  },
+  {
+    "id": "corpse_mon_opossum",
+    "type": "ITEM",
+    "name": {
+      "str": "opossum corpse"
+    },
+    "description": "Pale, bristled and unlovely. It played dead until it was, and you cannot tell which moment was which.",
+    "weight": "3000 g",
+    "volume": "2500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_opossum"
+  },
+  {
+    "id": "corpse_mon_wild_rabbit",
+    "type": "ITEM",
+    "name": {
+      "str": "cottontail rabbit corpse"
+    },
+    "description": "A small brown body and a white scut. Almost nothing on it, and still worth the hour.",
+    "weight": "1200 g",
+    "volume": "1000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_wild_rabbit"
+  },
+  {
+    "id": "corpse_mon_hare",
+    "type": "ITEM",
+    "name": {
+      "str": "snowshoe hare corpse"
+    },
+    "description": "Longer in the leg than a rabbit and heavier in the foot. Good fur, thin meat.",
+    "weight": "1500 g",
+    "volume": "1250 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_hare"
+  },
+  {
+    "id": "corpse_mon_beaver",
+    "type": "ITEM",
+    "name": {
+      "str": "beaver corpse"
+    },
+    "description": "Dense, oily fur over a barrel of muscle, and a tail like a dropped paddle.",
+    "weight": "20000 g",
+    "volume": "16667 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_beaver"
+  },
+  {
+    "id": "corpse_mon_otter",
+    "type": "ITEM",
+    "name": {
+      "str": "otter corpse"
+    },
+    "description": "Sleek even now, the coat shedding water it will never swim in again.",
+    "weight": "9000 g",
+    "volume": "7500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_otter"
+  },
+  {
+    "id": "corpse_mon_black_rat",
+    "type": "ITEM",
+    "name": {
+      "str": "black rat corpse"
+    },
+    "description": "Two handfuls of rat. Scraps, and a skull worth keeping if you are collecting such things.",
+    "weight": "200 g",
+    "volume": "167 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_black_rat"
+  },
+  {
+    "id": "corpse_mon_chipmunk",
+    "type": "ITEM",
+    "name": {
+      "str": "chipmunk corpse"
+    },
+    "description": "Barely a mouthful, striped along the back. You will feel foolish carrying it and eat it anyway.",
+    "weight": "96 g",
+    "volume": "80 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_chipmunk"
+  },
+  {
+    "id": "corpse_mon_crow",
+    "type": "ITEM",
+    "name": {
+      "str": "crow corpse"
+    },
+    "description": "Black feathers with an oil-slick shine to them. More quill than bird, but the quills are useful.",
+    "weight": "450 g",
+    "volume": "375 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_crow"
+  },
+  {
+    "id": "corpse_mon_raven",
+    "type": "ITEM",
+    "name": {
+      "str": "raven corpse"
+    },
+    "description": "Heavier than a crow and wider in the wing. The feathers alone are worth the plucking.",
+    "weight": "1470 g",
+    "volume": "1225 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_raven"
+  },
+  {
+    "id": "corpse_mon_grouse",
+    "type": "ITEM",
+    "name": {
+      "str": "ruffed grouse corpse"
+    },
+    "description": "A round, barred ground bird that burst out of cover one time too many.",
+    "weight": "645 g",
+    "volume": "538 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_grouse"
+  },
+  {
+    "id": "corpse_mon_pheasant",
+    "type": "ITEM",
+    "name": {
+      "str": "ring-necked pheasant corpse"
+    },
+    "description": "Long-tailed and bright even dead. Good meat for the size of it.",
+    "weight": "1100 g",
+    "volume": "917 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_pheasant"
+  },
+  {
+    "id": "corpse_mon_cormorant",
+    "type": "ITEM",
+    "name": {
+      "str": "cormorant corpse"
+    },
+    "description": "A long-necked water bird, the feathers still sodden. It never did learn to stay dry.",
+    "weight": "1850 g",
+    "volume": "1542 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_cormorant"
+  },
+  {
+    "id": "corpse_mon_gartersnake",
+    "type": "ITEM",
+    "name": {
+      "str": "garter snake corpse"
+    },
+    "description": "A striped length of snake, gone limp. Scraps only, but they cook fast.",
+    "weight": "150 g",
+    "volume": "125 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_gartersnake"
+  },
+  {
+    "id": "corpse_mon_turtle_painted",
+    "type": "ITEM",
+    "name": {
+      "str": "painted turtle corpse"
+    },
+    "description": "A small shell with red edging and very little inside it worth the knife.",
+    "weight": "370 g",
+    "volume": "308 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_turtle_painted"
+  },
+  {
+    "id": "corpse_mon_skink_fivelined",
+    "type": "ITEM",
+    "name": {
+      "str": "five-lined skink corpse"
+    },
+    "description": "A lizard the length of your finger. There is almost nothing here, and you are almost hungry enough.",
+    "weight": "25 g",
+    "volume": "21 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_skink_fivelined"
+  },
+  {
+    "id": "corpse_mon_cougar",
+    "type": "ITEM",
+    "name": {
+      "str": "cougar corpse"
+    },
+    "description": "Longer than you are tall, most of it tail and shoulder. The paws are the part you keep looking at.",
+    "weight": "63000 g",
+    "volume": "52500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_cougar"
+  },
+  {
+    "id": "corpse_mon_bear",
+    "type": "ITEM",
+    "name": {
+      "str": "black bear corpse"
+    },
+    "description": "More animal than you can move without cutting it apart first. The hide alone will take you a day.",
+    "weight": "154250 g",
+    "volume": "128542 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_bear"
+  },
+  {
+    "id": "corpse_mon_moose",
+    "type": "ITEM",
+    "name": {
+      "str": "moose corpse"
+    },
+    "description": "A hill of meat with legs folded under it. You will not carry this home; you will bring the home to it.",
+    "weight": "386000 g",
+    "volume": "321667 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_moose"
+  },
+  {
+    "id": "corpse_mon_fox_red",
+    "type": "ITEM",
+    "name": {
+      "str": "red fox corpse"
+    },
+    "description": "Rust-coloured fur, dark stockings, a tail worth more than the rest of the animal.",
+    "weight": "4132 g",
+    "volume": "3443 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fox_red"
+  },
+  {
+    "id": "corpse_mon_mink",
+    "type": "ITEM",
+    "name": {
+      "str": "mink corpse"
+    },
+    "description": "A dark, narrow body, the pelt close and glossy. Trappers used to cross counties for these.",
+    "weight": "800 g",
+    "volume": "667 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_mink"
+  },
+  {
+    "id": "corpse_mon_weasel",
+    "type": "ITEM",
+    "name": {
+      "str": "weasel corpse"
+    },
+    "description": "Small enough to hold in one hand, and it fought as if it were not.",
+    "weight": "151 g",
+    "volume": "126 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_weasel"
+  },
+  {
+    "id": "corpse_mon_turtle_snapping_common",
+    "type": "ITEM",
+    "name": {
+      "str": "snapping turtle corpse"
+    },
+    "description": "A ridged shell, a tail like a saw blade, and a head that had to be dealt with first.",
+    "weight": "6000 g",
+    "volume": "5000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_turtle_snapping_common"
+  },
+  {
+    "id": "corpse_mon_fish_brook_trout",
+    "type": "ITEM",
+    "name": {
+      "str": "brook trout corpse"
+    },
+    "description": "Speckled and cold, the colours already fading out of the flanks.",
+    "weight": "1650 g",
+    "volume": "1375 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_brook_trout"
+  },
+  {
+    "id": "corpse_mon_fish_rainbow_trout",
+    "type": "ITEM",
+    "name": {
+      "str": "rainbow trout corpse"
+    },
+    "description": "A heavy trout with a band of colour down the side. Enough fillet for two meals.",
+    "weight": "3000 g",
+    "volume": "2500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_rainbow_trout"
+  },
+  {
+    "id": "corpse_mon_fish_sbass",
+    "type": "ITEM",
+    "name": {
+      "str": "smallmouth bass corpse"
+    },
+    "description": "Bronze-sided and thick through the shoulder. It fought the line the whole way in.",
+    "weight": "3000 g",
+    "volume": "2500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_sbass"
+  },
+  {
+    "id": "corpse_mon_fish_pickerel",
+    "type": "ITEM",
+    "name": {
+      "str": "chain pickerel corpse"
+    },
+    "description": "All jaw and no body, marked with a chain pattern down the flank. Bony, but it is fish.",
+    "weight": "1150 g",
+    "volume": "958 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_pickerel"
+  },
+  {
+    "id": "corpse_mon_fish_walleye",
+    "type": "ITEM",
+    "name": {
+      "str": "walleye corpse"
+    },
+    "description": "A pale-eyed fish that feeds in the dark. The flesh is the best of anything in this water.",
+    "weight": "3000 g",
+    "volume": "2500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_walleye"
+  },
+  {
+    "id": "corpse_mon_fish_white_sucker",
+    "type": "ITEM",
+    "name": {
+      "str": "white sucker corpse"
+    },
+    "description": "A bottom feeder with a mouth made for gravel. Muddy, and better smoked than fresh.",
+    "weight": "660 g",
+    "volume": "550 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_white_sucker"
+  },
+  {
+    "id": "corpse_mon_fish_bullhead",
+    "type": "ITEM",
+    "name": {
+      "str": "brown bullhead corpse"
+    },
+    "description": "Whiskered and slick, with spines behind the fins that will find your palm if you are careless.",
+    "weight": "650 g",
+    "volume": "542 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_bullhead"
+  },
+  {
+    "id": "corpse_mon_fish_bluegill",
+    "type": "ITEM",
+    "name": {
+      "str": "bluegill corpse"
+    },
+    "description": "A flat palm-sized panfish. Three of them make a meal, five make a good one.",
+    "weight": "280 g",
+    "volume": "233 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_bluegill"
+  },
+  {
+    "id": "corpse_mon_fish_pumpkinseed",
+    "type": "ITEM",
+    "name": {
+      "str": "pumpkinseed corpse"
+    },
+    "description": "A small round sunfish, edged in orange. More bone than flesh, and still welcome.",
+    "weight": "175 g",
+    "volume": "146 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_pumpkinseed"
+  },
+  {
+    "id": "corpse_mon_fish_eel",
+    "type": "ITEM",
+    "name": {
+      "str": "eel corpse"
+    },
+    "description": "A long muscular rope of a fish, slick past holding. Rich flesh, once you get through the skin.",
+    "weight": "2150 g",
+    "volume": "1792 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_eel"
+  },
+  {
+    "id": "corpse_mon_fish_crayfish",
+    "type": "ITEM",
+    "name": {
+      "str": "crayfish corpse"
+    },
+    "description": "A small armoured thing with claws still half-raised. The tail is the only part worth the trouble.",
+    "weight": "52 g",
+    "volume": "43 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_crayfish"
+  },
+  {
+    "id": "corpse_mon_bullfrog_frog",
+    "type": "ITEM",
+    "name": {
+      "str": "bullfrog corpse"
+    },
+    "description": "A heavy green frog. Only the hind legs are worth taking, and only with time and a sharp edge.",
+    "weight": "750 g",
+    "volume": "625 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_bullfrog_frog"
+  },
+  {
+    "id": "corpse_mon_bat",
+    "type": "ITEM",
+    "name": {
+      "str": "bat corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "1000 g",
+    "volume": "750 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_bat"
+  },
+  {
+    "id": "corpse_mon_cow",
+    "type": "ITEM",
+    "name": {
+      "str": "cow corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "680388 g",
+    "volume": "680388 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_cow"
+  },
+  {
+    "id": "corpse_mon_horse",
+    "type": "ITEM",
+    "name": {
+      "str": "horse corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "550000 g",
+    "volume": "550000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_horse"
+  },
+  {
+    "id": "corpse_mon_pig",
+    "type": "ITEM",
+    "name": {
+      "str": "pig corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "200000 g",
+    "volume": "200000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_pig"
+  },
+  {
+    "id": "corpse_mon_sheep",
+    "type": "ITEM",
+    "name": {
+      "str": "sheep corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "81500 g",
+    "volume": "81500 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_sheep"
+  },
+  {
+    "id": "corpse_mon_goat",
+    "type": "ITEM",
+    "name": {
+      "str": "goat corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "75000 g",
+    "volume": "75000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_goat"
+  },
+  {
+    "id": "corpse_mon_fox_gray",
+    "type": "ITEM",
+    "name": {
+      "str": "fox corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "4750 g",
+    "volume": "4750 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fox_gray"
+  },
+  {
+    "id": "corpse_mon_skunk",
+    "type": "ITEM",
+    "name": {
+      "str": "skunk corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "5000 g",
+    "volume": "4000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_skunk"
+  },
+  {
+    "id": "corpse_mon_sewer_rat",
+    "type": "ITEM",
+    "name": {
+      "str": "brown rat corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "1000 g",
+    "volume": "750 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_sewer_rat"
+  },
+  {
+    "id": "corpse_mon_squirrel_red",
+    "type": "ITEM",
+    "name": {
+      "str": "squirrel corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "663 g",
+    "volume": "663 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_squirrel_red"
+  },
+  {
+    "id": "corpse_mon_ferret",
+    "type": "ITEM",
+    "name": {
+      "str": "ferret corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "120 g",
+    "volume": "120 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_ferret"
+  },
+  {
+    "id": "corpse_mon_reindeer",
+    "type": "ITEM",
+    "name": {
+      "str": "reindeer corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "240000 g",
+    "volume": "889000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_reindeer"
+  },
+  {
+    "id": "corpse_mon_llama",
+    "type": "ITEM",
+    "name": {
+      "str": "llama corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "200000 g",
+    "volume": "200000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_llama"
+  },
+  {
+    "id": "corpse_mon_dog_bull",
+    "type": "ITEM",
+    "name": {
+      "str": "bulldog corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "25000 g",
+    "volume": "25000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_dog_bull"
+  },
+  {
+    "id": "corpse_mon_dog_beagle",
+    "type": "ITEM",
+    "name": {
+      "str": "beagle corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "10000 g",
+    "volume": "10000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_dog_beagle"
+  },
+  {
+    "id": "corpse_mon_dog_gshepherd",
+    "type": "ITEM",
+    "name": {
+      "str": "German shepherd corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "35000 g",
+    "volume": "35000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_dog_gshepherd"
+  },
+  {
+    "id": "corpse_mon_dog_rottweiler",
+    "type": "ITEM",
+    "name": {
+      "str": "rottweiler corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "50000 g",
+    "volume": "50000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_dog_rottweiler"
+  },
+  {
+    "id": "corpse_mon_cat_longhair",
+    "type": "ITEM",
+    "name": {
+      "str": "longhair cat corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "5000 g",
+    "volume": "5000 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_cat_longhair"
+  },
+  {
+    "id": "corpse_mon_bluejay",
+    "type": "ITEM",
+    "name": {
+      "str": "blue jay corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "90 g",
+    "volume": "120 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_bluejay"
+  },
+  {
+    "id": "corpse_mon_cardinal",
+    "type": "ITEM",
+    "name": {
+      "str": "cardinal corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "45 g",
+    "volume": "60 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_cardinal"
+  },
+  {
+    "id": "corpse_mon_robin",
+    "type": "ITEM",
+    "name": {
+      "str": "American robin corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "77 g",
+    "volume": "103 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_robin"
+  },
+  {
+    "id": "corpse_mon_sparrow",
+    "type": "ITEM",
+    "name": {
+      "str": "house sparrow corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "30 g",
+    "volume": "40 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_sparrow"
+  },
+  {
+    "id": "corpse_mon_chickadee",
+    "type": "ITEM",
+    "name": {
+      "str": "black-capped chickadee corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "12 g",
+    "volume": "16 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_chickadee"
+  },
+  {
+    "id": "corpse_mon_waxwing",
+    "type": "ITEM",
+    "name": {
+      "str": "cedar waxwing corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "30 g",
+    "volume": "40 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_waxwing"
+  },
+  {
+    "id": "corpse_mon_pigeon",
+    "type": "ITEM",
+    "name": {
+      "str": "feral pigeon corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "350 g",
+    "volume": "467 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_pigeon"
+  },
+  {
+    "id": "corpse_mon_hummingbird",
+    "type": "ITEM",
+    "name": {
+      "str": "ruby-throated hummingbird corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "4 g",
+    "volume": "5 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_hummingbird"
+  },
+  {
+    "id": "corpse_mon_woodpecker",
+    "type": "ITEM",
+    "name": {
+      "str": "downy woodpecker corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "26 g",
+    "volume": "35 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_woodpecker"
+  },
+  {
+    "id": "corpse_mon_coot",
+    "type": "ITEM",
+    "name": {
+      "str": "American coot corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "550 g",
+    "volume": "733 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_coot"
+  },
+  {
+    "id": "corpse_mon_moorhen",
+    "type": "ITEM",
+    "name": {
+      "str": "common gallinule corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "383 g",
+    "volume": "511 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_moorhen"
+  },
+  {
+    "id": "corpse_mon_grebe",
+    "type": "ITEM",
+    "name": {
+      "str": "horned grebe corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "435 g",
+    "volume": "580 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_grebe"
+  },
+  {
+    "id": "corpse_mon_rattlesnake",
+    "type": "ITEM",
+    "name": {
+      "str": "timber rattlesnake corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "750 g",
+    "volume": "750 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_rattlesnake"
+  },
+  {
+    "id": "corpse_mon_wormsnake",
+    "type": "ITEM",
+    "name": {
+      "str": "worm snake corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "25 g",
+    "volume": "25 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_wormsnake"
+  },
+  {
+    "id": "corpse_mon_leo_frog",
+    "type": "ITEM",
+    "name": {
+      "str": "leopard frog corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "30 g",
+    "volume": "300 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_leo_frog"
+  },
+  {
+    "id": "corpse_mon_fowler_toad",
+    "type": "ITEM",
+    "name": {
+      "str": "Fowler's toad corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "30 g",
+    "volume": "300 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fowler_toad"
+  },
+  {
+    "id": "corpse_mon_freedom_toad",
+    "type": "ITEM",
+    "name": {
+      "str": "American toad corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "30 g",
+    "volume": "300 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_freedom_toad"
+  },
+  {
+    "id": "corpse_mon_peeper_frog",
+    "type": "ITEM",
+    "name": {
+      "str": "spring peeper corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "4 g",
+    "volume": "20 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_peeper_frog"
+  },
+  {
+    "id": "corpse_mon_gray_frog",
+    "type": "ITEM",
+    "name": {
+      "str": "gray treefrog corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "10 g",
+    "volume": "150 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_gray_frog"
+  },
+  {
+    "id": "corpse_mon_mink_frog",
+    "type": "ITEM",
+    "name": {
+      "str": "mink frog corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "10 g",
+    "volume": "150 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_mink_frog"
+  },
+  {
+    "id": "corpse_mon_green_frog",
+    "type": "ITEM",
+    "name": {
+      "str": "green frog corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "10 g",
+    "volume": "150 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_green_frog"
+  },
+  {
+    "id": "corpse_mon_wood_frog",
+    "type": "ITEM",
+    "name": {
+      "str": "wood frog corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "10 g",
+    "volume": "150 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_wood_frog"
+  },
+  {
+    "id": "corpse_mon_fish_lake_trout",
+    "type": "ITEM",
+    "name": {
+      "str": "lake trout corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "4000 g",
+    "volume": "6140 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_lake_trout"
+  },
+  {
+    "id": "corpse_mon_fish_salmon",
+    "type": "ITEM",
+    "name": {
+      "str": "Atlantic salmon corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "4000 g",
+    "volume": "10600 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_salmon"
+  },
+  {
+    "id": "corpse_mon_fish_whitefish",
+    "type": "ITEM",
+    "name": {
+      "str": "lake whitefish corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "2000 g",
+    "volume": "7730 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_whitefish"
+  },
+  {
+    "id": "corpse_mon_fish_pbass",
+    "type": "ITEM",
+    "name": {
+      "str": "striped bass corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "6500 g",
+    "volume": "16080 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_pbass"
+  },
+  {
+    "id": "corpse_mon_fish_rock_bass",
+    "type": "ITEM",
+    "name": {
+      "str": "rock bass corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "350 g",
+    "volume": "750 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_rock_bass"
+  },
+  {
+    "id": "corpse_mon_fish_calico_bass",
+    "type": "ITEM",
+    "name": {
+      "str": "black crappie corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "400 g",
+    "volume": "900 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_calico_bass"
+  },
+  {
+    "id": "corpse_mon_fish_channel_catfish",
+    "type": "ITEM",
+    "name": {
+      "str": "channel catfish corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "7000 g",
+    "volume": "4040 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_channel_catfish"
+  },
+  {
+    "id": "corpse_mon_fish_pike",
+    "type": "ITEM",
+    "name": {
+      "str": "northern pike corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "1750 g",
+    "volume": "3630 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_pike"
+  },
+  {
+    "id": "corpse_mon_fish_carp",
+    "type": "ITEM",
+    "name": {
+      "str": "European carp corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "1000 g",
+    "volume": "2010 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_carp"
+  },
+  {
+    "id": "corpse_mon_fish_bowfin",
+    "type": "ITEM",
+    "name": {
+      "str": "bowfin corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "1300 g",
+    "volume": "4780 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_bowfin"
+  },
+  {
+    "id": "corpse_mon_fish_gar_longnose",
+    "type": "ITEM",
+    "name": {
+      "str": "longnose gar corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "920 g",
+    "volume": "4820 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_gar_longnose"
+  },
+  {
+    "id": "corpse_mon_fish_burbot",
+    "type": "ITEM",
+    "name": {
+      "str": "burbot corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "620 g",
+    "volume": "1400 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_burbot"
+  },
+  {
+    "id": "corpse_mon_fish_sturgeon_lake",
+    "type": "ITEM",
+    "name": {
+      "str": "lake sturgeon corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "14500 g",
+    "volume": "20220 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_sturgeon_lake"
+  },
+  {
+    "id": "corpse_mon_fish_sunfish",
+    "type": "ITEM",
+    "name": {
+      "str": "banded sunfish corpse"
+    },
+    "description": "Remains that can be butchered with a suitable tool.",
+    "weight": "20 g",
+    "volume": "20 ml",
+    "material": [
+      "flesh"
+    ],
+    "symbol": "%",
+    "color": "brown",
+    "corpse_monster": "mon_fish_sunfish"
+  }
+]

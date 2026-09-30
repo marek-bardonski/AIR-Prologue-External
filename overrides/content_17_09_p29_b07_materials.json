@@ -1,0 +1,11 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p29_b07_materials. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "survival_marker",
+    "weight": "10 g",
+    "//": "a charcoal stick weighs what charcoal weighs; the Fate density band refuses the heavier source figure"
+  }
+]

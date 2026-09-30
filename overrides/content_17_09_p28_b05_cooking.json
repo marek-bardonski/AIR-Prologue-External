@@ -1,0 +1,19 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_b05_cooking. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "brown_bread",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "10 days",
+    "//": "canned brown bread keeps like other canned food (food_storage_prologue pattern); opened, the loaf keeps its CDDA ten days"
+  },
+  {
+    "type": "ITEM",
+    "id": "cooked_pumpkin",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "36 hours",
+    "//": "sealed in a can it keeps like other canned food (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  }
+]

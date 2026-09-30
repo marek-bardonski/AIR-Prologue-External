@@ -1,0 +1,1566 @@
+{
+  "//": "Distance in a fight, and what it takes to open or close it. Prologue design values.",
+  "source": "AIR design, 18.09.2026, field widened to 15 steps 20.09.2026. The fight has no map: distance is a single number of steps between the two sides.",
+  "distance": {
+    "//": "The field is 15 steps deep so a bow has somewhere to shoot from. Everything measured per step below was rescaled with it: a longer lane must not quietly multiply the odds of getting away.",
+    "min": 1,
+    "max": 15,
+    "escapeSteps": 16,
+    "nightBias": -3,
+    "terrainBias": {
+      "field": 3,
+      "road": 3,
+      "lake": 3,
+      "river": 3,
+      "farm": 3,
+      "hills": 0,
+      "orchard": 0,
+      "campsite": 0,
+      "forest": -3,
+      "ruins": -3,
+      "logging_camp": -3,
+      "fishing_dock": -3,
+      "dense_forest": -5,
+      "house": -5,
+      "shop": -5,
+      "gas_station": -5,
+      "roadside_garage": -5,
+      "medical_clinic": -5,
+      "railway_depot": -5,
+      "electrical_workshop": -5,
+      "military_checkpoint": -5,
+      "ranger_station": -5,
+      "home": -5
+    }
+  },
+  "movement": {
+    "//": "Move-point cost of one player action, and how many steps it is worth. Steps per action scale with the depth of the field, so crossing it still takes a handful of actions and a melee survivor is not made to walk for minutes.",
+    "walkCost": 60,
+    "walkSteps": 1,
+    "runCost": 100,
+    "runSteps": 3,
+    "closeCost": 60,
+    "closeSteps": 5,
+    "runStepsMin": 1,
+    "runStepsMax": 6,
+    "walkStamina": 1.0,
+    "runStaminaPerStep": 4.0,
+    "//runStaminaPerMove": "Prologue rule (27.09.2026): a move made at a run (BACK AWAY, the old footrace) costs this much stamina whatever the steps it covers; the steps still depend on speed, legs, wounds and load, the cost does not. runStaminaPerStep is kept only for fights saved by older builds.",
+    "runStaminaPerMove": 8.0
+  },
+  "enemy": {
+    "//": "What it costs an enemy to cross one step, and how long its wind holds out.",
+    "closeCost": 100,
+    "stamina": 60,
+    "tiredCloseMultiplier": 2.0,
+    "injurySpeedFloor": 0.5,
+    "meleeSlots": 2,
+    "packDeathMorale": 20,
+    "maxPack": 4,
+    "//flee": "An enemy that wants out (harmless, a skittish animal that bolted, or one routed by its wounds) spends fleeCost move points per attempt at its closing speed: it opens fleeSteps, then gets away with fleeBaseChance + fleePerStep x its distance, and for certain once it stands at distance.escapeSteps.",
+    "fleeCost": 250,
+    "fleeSteps": 3,
+    "fleeBaseChance": 0.15,
+    "fleePerStep": 0.0375
+  },
+  "throwing": {
+    "//": "Throwing a rock or a spear: heavier things fly shorter and cost more to loose. A thrown thing stays a close-quarters answer - past five steps you need a bow.",
+    "baseCost": 80,
+    "costPerKg": 40,
+    "baseRange": 4.0,
+    "rangePerKg": 1.5,
+    "minRange": 1,
+    "maxRange": 5,
+    "stamina": 2.0,
+    "accuracyPerStep": 1.0,
+    "breakChance": 0.15,
+    "alsoThrowable": [
+      "steel_chunk",
+      "lc_steel_chunk",
+      "sharp_rock",
+      "javelin_fletched_bronze"
+    ],
+    "neverThrow": [
+      "log",
+      "wooden_post_long",
+      "plank_long",
+      "anvil",
+      "anvil_crude",
+      "anvil_scavenged",
+      "anvil_stump"
+    ]
+  },
+  "launchers": {
+    "//": "CDDA's ranged damage is on a different scale to its melee damage, so the Prologue states its own here: damage is comparable to a melee weapon's one number, range is in steps. Anything not listed falls back to (ranged_damage + ammo damage) * ammo multiplier * fallbackScale, reaching ranged range / fallbackRangeDivisor steps.",
+    "fallbackScale": 1.6,
+    "fallbackRangeDivisor": 2.5,
+    "baseCost": 78,
+    "costPerKg": 40,
+    "stamina": 1.5,
+    "accuracyPerStep": 0.8,
+    "breakChance": 0.35,
+    "//accuracy": "accuracyPerStep is per weapon: a bow holds its aim across the field, a sling is a close-quarters answer that loses it fast. 15 steps is left for firearms.",
+    "byId": {
+      "sling": {
+        "damage": 10,
+        "range": 8,
+        "accuracy": 0,
+        "accuracyPerStep": 0.6
+      },
+      "staff_sling": {
+        "damage": 18,
+        "range": 10,
+        "accuracy": -1,
+        "accuracyPerStep": 0.55
+      },
+      "selfbow": {
+        "damage": 12,
+        "range": 10,
+        "accuracy": 0,
+        "accuracyPerStep": 0.45
+      },
+      "shortbow": {
+        "damage": 16,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "pipe_shotgun": {
+        "damage": 28,
+        "range": 8,
+        "accuracy": -1,
+        "accuracyPerStep": 0.3
+      },
+      "pipe_double_shotgun": {
+        "damage": 28,
+        "range": 8,
+        "accuracy": -1,
+        "accuracyPerStep": 0.3
+      },
+      "slamfire_shotgun": {
+        "damage": 25,
+        "range": 7,
+        "accuracy": -2,
+        "accuracyPerStep": 0.3
+      },
+      "shotgun_s": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "shotgun_d": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "mossberg_500": {
+        "damage": 38,
+        "range": 12,
+        "accuracy": 2,
+        "accuracyPerStep": 0.3
+      },
+      "glock_19": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 2,
+        "accuracyPerStep": 0.3
+      },
+      "m9": {
+        "damage": 27,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.3
+      },
+      "sten": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "smg_9mm": {
+        "damage": 23,
+        "range": 11,
+        "accuracy": -1,
+        "accuracyPerStep": 0.3
+      },
+      "rifle_22": {
+        "damage": 15,
+        "range": 12,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "rifle_38": {
+        "damage": 23,
+        "range": 12,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "rifle_44": {
+        "damage": 33,
+        "range": 14,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "slamfire_shotgun_d": {
+        "damage": 33,
+        "range": 9,
+        "accuracy": -2,
+        "accuracyPerStep": 0.4
+      },
+      "revolver_shotgun": {
+        "damage": 33,
+        "range": 9,
+        "accuracy": -2,
+        "accuracyPerStep": 0.4
+      },
+      "smg_40": {
+        "damage": 27,
+        "range": 13,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "smg_45": {
+        "damage": 28,
+        "range": 12,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "pistol_flintlock": {
+        "damage": 30,
+        "range": 10,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "rifle_flintlock": {
+        "damage": 30,
+        "range": 10,
+        "accuracy": 2,
+        "accuracyPerStep": 0.4
+      },
+      "carbine_flintlock": {
+        "damage": 30,
+        "range": 10,
+        "accuracy": 2,
+        "accuracyPerStep": 0.4
+      },
+      "carbine_flintlock_double": {
+        "damage": 30,
+        "range": 10,
+        "accuracy": 2,
+        "accuracyPerStep": 0.4
+      },
+      "longrifle_flintlock": {
+        "damage": 30,
+        "range": 10,
+        "accuracy": 2,
+        "accuracyPerStep": 0.4
+      },
+      "blunderbuss": {
+        "damage": 34,
+        "range": 6,
+        "accuracy": -2,
+        "accuracyPerStep": 0.4
+      },
+      "colt_navy": {
+        "damage": 22,
+        "range": 9,
+        "accuracy": 1,
+        "accuracyPerStep": 0.4
+      },
+      "colt_army": {
+        "damage": 25,
+        "range": 9,
+        "accuracy": 1,
+        "accuracyPerStep": 0.4
+      },
+      "nailgun": {
+        "damage": 10,
+        "range": 5,
+        "accuracy": -1,
+        "accuracyPerStep": 0.35
+      },
+      "flaregun": {
+        "damage": 18,
+        "range": 10,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "bbgun": {
+        "damage": 5,
+        "range": 7,
+        "accuracy": 3,
+        "accuracyPerStep": 0.45
+      },
+      "varmint_airgun": {
+        "damage": 9,
+        "range": 10,
+        "accuracy": 3,
+        "accuracyPerStep": 0.45
+      },
+      "glock_17": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_26": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_34": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_43": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "hptc9": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "cz75": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "hi_power_9mm": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "m17": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "m18": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "p226_9mm": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "p365": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "px4": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "sp2022": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "usp_9mm": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "walther_ccp": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "walther_p38": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "walther_ppq_9mm": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "p08": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "mauser_c96": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "ksub2000": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "rugerpcc": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "uzi": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "tec9": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "hk_mp5": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "mp40semi": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_42": {
+        "damage": 21,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "hptcf380": {
+        "damage": 21,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "rugerlcp": {
+        "damage": 21,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "swbodyguard": {
+        "damage": 21,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "hpt3895": {
+        "damage": 23,
+        "range": 13,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "model_10_revolver": {
+        "damage": 24,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "sw_619": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "sw642": {
+        "damage": 24,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "ruger_lcr_38": {
+        "damage": 24,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "colt_python": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "chiappa_rhino": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "rp63": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "rossi_r92_357_16": {
+        "damage": 33,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "uberti_1873": {
+        "damage": 33,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "glock_22": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_23": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "hptjcp": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "px4_40": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "hi_power_40": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "sig_40": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "m1911": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_21": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_30": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "hptjhp": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "usp_45": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "walther_ppq_45": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "tommygun": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "greasegun": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "hk_usc45": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "mac_10": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "sw629": {
+        "damage": 34,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "colt_anaconda_6": {
+        "damage": 34,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "henry_big_boy": {
+        "damage": 36,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "rossi_r92_44_16": {
+        "damage": 36,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "colt_saa": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "taurus_judge": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "ruger_1022": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "marlin_9a": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "marlin60": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "savage_rascal": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "henry_golden_boy": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "rio_bravo": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "rossi_gallery": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "mp_15_22": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "ruger_mk4": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "sr22": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "walther_p22": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "sig_mosquito": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "sw617": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "ruger_lcr_22": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "rough_rider_pistol": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "1911_22": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_44": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "cp33": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "ruger_mini": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "mp_15": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "sl8": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "aksemi": {
+        "damage": 36,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "sks": {
+        "damage": 36,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "mk47": {
+        "damage": 36,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "remington_700_308": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "m1a": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "savage_111f": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "steyr_scout": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "fn_fal_semi": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "remington_700": {
+        "damage": 44,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "garand": {
+        "damage": 44,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "m1903": {
+        "damage": 44,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "ruger_m77": {
+        "damage": 44,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "browning_blr": {
+        "damage": 44,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "mosin91_30": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "mosin44": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "remington_870": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "remington_870_express": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "mossberg_590": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "mossberg_930": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "benelli_sa": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 2,
+        "accuracyPerStep": 0.3
+      },
+      "browning_a5": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "ithaca37": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "remington_1100": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "winchester_1897": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "winchester_1887": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": -2,
+        "accuracyPerStep": 0.3
+      },
+      "shotgun_triple": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 2,
+        "accuracyPerStep": 0.3
+      },
+      "saiga_12": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "shotgun_410": {
+        "damage": 26,
+        "range": 9,
+        "accuracy": 2,
+        "accuracyPerStep": 0.3
+      },
+      "ksg": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "longbow": {
+        "damage": 20,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "recurbow": {
+        "damage": 20,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "compbow": {
+        "damage": 24,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.25
+      },
+      "reflexbow": {
+        "damage": 18,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "compositebow": {
+        "damage": 22,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "reflexrecurvebow": {
+        "damage": 20,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.25
+      },
+      "woodgreatbow": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": -1,
+        "accuracyPerStep": 0.35
+      },
+      "compgreatbow": {
+        "damage": 28,
+        "range": 14,
+        "accuracy": 0,
+        "accuracyPerStep": 0.3
+      },
+      "takedown_recurbow": {
+        "damage": 18,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "crossbow": {
+        "damage": 22,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.25
+      },
+      "hand_crossbow": {
+        "damage": 12,
+        "range": 8,
+        "accuracy": 0,
+        "accuracyPerStep": 0.5
+      },
+      "huge_crossbow": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 0,
+        "accuracyPerStep": 0.25
+      },
+      "rep_crossbow": {
+        "damage": 14,
+        "range": 9,
+        "accuracy": 0,
+        "accuracyPerStep": 0.45
+      },
+      "compositecrossbow": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.25
+      },
+      "compcrossbow": {
+        "damage": 28,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "bullet_crossbow": {
+        "damage": 10,
+        "range": 8,
+        "accuracy": 0,
+        "accuracyPerStep": 0.5
+      },
+      "wristrocket": {
+        "damage": 9,
+        "range": 8,
+        "accuracy": 0,
+        "accuracyPerStep": 0.55
+      },
+      "atlatl": {
+        "damage": 18,
+        "range": 9,
+        "accuracy": 0,
+        "accuracyPerStep": 0.5
+      },
+      "speargun": {
+        "damage": 20,
+        "range": 5,
+        "accuracy": 0,
+        "accuracyPerStep": 0.8
+      },
+      "doublespeargun": {
+        "damage": 24,
+        "range": 5,
+        "accuracy": 0,
+        "accuracyPerStep": 0.8
+      },
+      "long_speargun": {
+        "damage": 24,
+        "range": 6,
+        "accuracy": 1,
+        "accuracyPerStep": 0.7
+      },
+      "glock_20": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_29": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "glock_40": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "m1911_10": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "witness_10": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "xd_10": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "p220_10": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "sw_610": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "kp32": {
+        "damage": 19,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "walther_ppk": {
+        "damage": 19,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "lws32": {
+        "damage": 19,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "m1carbine": {
+        "damage": 30,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "1895sbl": {
+        "damage": 46,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "sharps": {
+        "damage": 46,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "bfr": {
+        "damage": 46,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "glock_48": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_43x": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_27": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "glock_36": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "hk_mp5k": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "hk_mp5sd": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "mp40": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "rough_rider_pistol_9": {
+        "damage": 16,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "colt_anaconda_4": {
+        "damage": 34,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "colt_anaconda_8": {
+        "damage": 34,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "rossi_r92_357_20": {
+        "damage": 33,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "rossi_r92_44_20": {
+        "damage": 36,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "remington_870_breacher": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "mossberg_590m": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "benelli_tsa": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 2,
+        "accuracyPerStep": 0.3
+      },
+      "dp_12": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 0,
+        "accuracyPerStep": 0.3
+      },
+      "tavor_12": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "srm_1216": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "scar_16s": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "bren2_556": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "steyr_aug": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "m1918": {
+        "damage": 44,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "sig_assault_rifle": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "hk_g3": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "ar10": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "psl": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "ak47": {
+        "damage": 36,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "m2carbine": {
+        "damage": 30,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "bren2_762": {
+        "damage": 36,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "ruger_1022_auto": {
+        "damage": 18,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "makarov": {
+        "damage": 23,
+        "range": 12,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "tokarev": {
+        "damage": 26,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "smle_mk3": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.15
+      },
+      "number4_mki": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "ak74_semi": {
+        "damage": 33,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "remington700_270": {
+        "damage": 40,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "win70": {
+        "damage": 46,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "ruger_pr": {
+        "damage": 46,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "sig_mcx_rattler_sbr": {
+        "damage": 32,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "p226_357sig": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "p320_357sig": {
+        "damage": 28,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "m1911a1_38super": {
+        "damage": 27,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "modular_deagle": {
+        "damage": 38,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "raging_bull": {
+        "damage": 40,
+        "range": 13,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "460_xvr": {
+        "damage": 44,
+        "range": 13,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "sw_500": {
+        "damage": 48,
+        "range": 13,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "fn57": {
+        "damage": 26,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "fn_ps90": {
+        "damage": 26,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "hk_mp7": {
+        "damage": 27,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      }
+    },
+    "ammoFactor": {
+      "//": "Prologue rule (29.09.2026): a stated launcher damage is for factory ball. A hand-loaded round carries its prefix's share (reloaded, black powder, matchhead powder); the round itself adds byId (looked up without the prefix): light and less-lethal loads fall short, +P and slugs hit harder. Unlisted rounds and arrows count 1.",
+      "byPrefix": {
+        "reloaded_": 0.95,
+        "bp_": 0.85,
+        "matchhead_": 0.75
+      },
+      "byId": {
+        "22_cb": 0.5,
+        "22_ratshot": 0.6,
+        "9mmP": 1.08,
+        "9mmP2": 1.12,
+        "38_special_p": 1.08,
+        "380_p": 1.08,
+        "45_super": 1.1,
+        "shot_bird": 0.7,
+        "shot_beanbag": 0.4,
+        "shot_slug": 1.1,
+        "shot_flechette": 1.0,
+        "410shot_bird": 0.7,
+        "410shot_slug": 1.1,
+        "wax_slug": 0.5,
+        "blun_lead_shot": 0.9,
+        "flintlock_shot": 0.9,
+        "airgun_pellet_target": 0.7,
+        "arrow_plastic": 0.5,
+        "arrow_metal_target": 0.8,
+        "arrow_heavy_field_point_fletched": 0.8,
+        "bolt_steel_target": 0.8,
+        "bolt_wood_small_game": 0.8,
+        "arrow_metal": 1.15,
+        "arrow_cf": 1.2,
+        "bolt_steel": 1.15,
+        "bolt_cf": 1.2,
+        "45colt_cowboy": 0.85,
+        "10mmP": 1.08,
+        "4570_low": 0.85,
+        "4570_bp": 0.85
+      }
+    }
+  },
+  "breakAway": {
+    "//": "Getting away is not only a footrace: you can also go to ground, put something between you and it, or throw it off. Each attempt to move away carries this chance to break contact outright, better the more ground you already have and the less it cares about you.",
+    "baseChance": 0.03,
+    "perStep": 0.013,
+    "runBonus": 0.03,
+    "maxChance": 0.5,
+    "coverBonus": {
+      "dense_forest": 0.1,
+      "forest": 0.07,
+      "ruins": 0.07,
+      "hills": 0.04,
+      "house": 0.05,
+      "shop": 0.05,
+      "field": 0.0,
+      "road": -0.02
+    },
+    "slowEnemyBonus": 0.08,
+    "nightBonus": 0.04,
+    "//flee": "FLEE rolls this chance after every move away; BACK AWAY never rolls it and never ends the fight, it only holds the gap at distance.escapeSteps. Standing at that furthest distance adds maxDistanceBonus to a FLEE, and lifts the cap to maxChanceAtMaxDistance.",
+    "maxDistanceBonus": 0.45,
+    "maxChanceAtMaxDistance": 0.9,
+    "//split": "What one FLEE is worth is split: escapeShare of it gets you away for good, and the rest of it wins you groundStep more steps instead, so an attempt that does not free you still leaves you better placed. A fight is therefore usually worth a blow or two before the ground is yours.",
+    "escapeShare": 0.5,
+    "groundStep": 1,
+    "//wind": "Getting away is run, scramble and go to ground, and a body with no wind does all three badly: the chance is multiplied by staminaFloor at nothing left, rising to the whole of it at full stamina. A flee also costs fleeStaminaMultiplier times what the same move away costs when it is only BACK AWAY.",
+    "staminaFloor": 0.6,
+    "fleeStaminaMultiplier": 1.15,
+    "//fleeStamina": "Prologue rule (27.09.2026): one FLEE attempt costs between min (fit, fed, rested, unhurt) and max stamina (at the worst of hunger, thirst, tiredness and wounds), so it stays about the same through a fight. Each level of the listed skills (dodge, athletics = swimming) takes perSkillLevel of it off, down to floorShare. Run or walk, whatever is held or carried: the weapon and the load change the steps an attempt covers, never its price. fleeStaminaMultiplier is no longer read.",
+    "fleeStamina": {
+      "min": 5,
+      "max": 15,
+      "skills": [
+        "dodge",
+        "swimming"
+      ],
+      "perSkillLevel": 0.03,
+      "floorShare": 0.5
+    }
+  },
+  "giveGround": {
+    "//": "Loosing a shot or a throw while giving ground: the same action also walks a step back and then looses, so a survivor with a bow can hold the gap open instead of choosing between shooting and keeping away. It costs extra move points and some accuracy, and it is always a walk - nobody runs and looses at once. With no room left to give, the shot is taken standing and costs nothing extra.",
+    "extraCost": 45,
+    "steps": 1,
+    "stamina": 1.0,
+    "accuracyPenalty": 1.5
+  }
+}

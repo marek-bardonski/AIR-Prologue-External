@@ -1,0 +1,13 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_e03_science. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "analytical_set_basic",
+    "name": {
+      "str": "basic chemical analysis kit"
+    },
+    "//": "CDDA calls it a 'laboratory' kit; the word would let the Fate FAQ name the hidden facility before the village (tests/robots, fate-purpose)."
+  }
+]

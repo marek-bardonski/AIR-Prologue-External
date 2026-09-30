@@ -1,0 +1,734 @@
+{
+  "group": "tools_containers",
+  "source": "TO-DO-17.09.MD, family \"Tools\" + the containers rows of \"Melee weapons, generic items, materials, containers\"",
+  "items": [
+    {
+      "id": "drift",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "named by id in many CDDA recipes; unblocks recipe:hammer and the scythe/sickle rows"
+    },
+    {
+      "id": "kevlar_shears",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "FABRIC_CUT 2; unblocks recipe:tailors_kit"
+    },
+    {
+      "id": "thermometer",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "science"
+      ],
+      "note": "named tool; unblocks makeshift_pressure_cooker and the chem rows"
+    },
+    {
+      "id": "heavy_crowbar",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 1
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "PRY 3"
+    },
+    {
+      "id": "shovel",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "DIG 3"
+    },
+    {
+      "id": "scythe",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 2
+        }
+      ],
+      "note": "recipe becomes craftable with drift"
+    },
+    {
+      "id": "2lcanteen",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "watertight 2.5 L"
+    },
+    {
+      "id": "thermos",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "watertight 1 L"
+    },
+    {
+      "id": "casting_mold_large",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "named tool; unblocks recipe:metalworking_tongs:casting. Craft route is the main one, thin loot rows keep it findable"
+    },
+    {
+      "id": "casting_mold_long",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "OR-alternative of casting_mold_large in the same tool rows"
+    },
+    {
+      "id": "wire_draw_machine",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "named tool; unblocks recipe:copper_wire:wire_draw_machine and recipe:lc_wire:wire_draw_machine; link_up use_action is inert"
+    },
+    {
+      "id": "gasoline_lantern",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "roadside_garage",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "component of recipe:gasoline_cooker; the transform light half is inert, it is not a portableLights entry"
+    },
+    {
+      "id": "propane_lantern",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "component of recipe:propane_cooker; own recipe is book-locked (textbook_fabrication not enabled) so loot is the route"
+    },
+    {
+      "id": "oxylamp",
+      "loot": [
+        {
+          "table": "electrical_workshop",
+          "weight": 1
+        },
+        {
+          "table": "railway_depot",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "component of recipe:acetylene_cooker; no CDDA recipe, loot only"
+    },
+    {
+      "id": "syringe",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "science"
+      ],
+      "note": "named component/tool in 12 CDDA recipes; unblocks chem_potassium and chem_sodium"
+    },
+    {
+      "id": "mask_filter",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 2
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 1
+        },
+        {
+          "table": "electrical_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "named tool; unblocks rubber_cement and chem_methanol:from wood; GASMASK_ACTIVATE inert, still covers the mouth as armour"
+    },
+    {
+      "id": "funnel_separation",
+      "loot": [
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "science"
+      ],
+      "note": "the only SEPARATE 1 source in CDDA; unblocks chem_chloroform and chem_citric_acid. Own recipe needs stopcock (not enabled) so loot only"
+    },
+    {
+      "id": "still_lab",
+      "loot": [
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "science"
+      ],
+      "note": "the only FINE_DISTILL 1 source; with thermometer it unblocks recipe:formic_acid:from_oxalic_acid. No CDDA recipe, loot only"
+    },
+    {
+      "id": "claw_bar",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 2
+        },
+        {
+          "table": "roadside_garage",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "PRY 2 / HAMMER 1 / PRYING_NAIL 1; own recipe fab 3 autolearn"
+    },
+    {
+      "id": "sickle",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "CUT 1 / GRASS_CUT 2 / BUTCHER 7; recipe needs the already-enabled drift as its tool"
+    },
+    {
+      "id": "e_tool",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "DIG 3 in a packable tool; own recipe fab 7 autolearn (hotcut)"
+    },
+    {
+      "id": "g_shovel",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "DIG 1 / CUT 2; own recipe fab 4 autolearn"
+    },
+    {
+      "id": "iceaxe",
+      "loot": [
+        {
+          "table": "hills",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "HAMMER 2 / HAMMER_FINE 1 / PRY 1; own recipe fab 5 autolearn"
+    },
+    {
+      "id": "diveknife",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "CUT 2 / PRY 1 / BUTCHER 15; CROWBAR use_action inert"
+    },
+    {
+      "id": "bronze_knife",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "CUT 2 / CUT_FINE 1 / BUTCHER 19; craft route via casting_mold + metalworking_tongs, both already enabled"
+    },
+    {
+      "id": "bronze_axe",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "CUT 1 / AXE 2; same bronze casting route"
+    },
+    {
+      "id": "scraper_steel",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "second GRIND 2 source after metal_file; own recipe fab 4 autolearn"
+    },
+    {
+      "id": "socket_screwdriver_set",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 2
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "SCREW 1 / WRENCH 1 / WRENCH_FINE 1; own recipe fab 7 autolearn (hotcut)"
+    },
+    {
+      "id": "socket_wrench_set",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 2
+        },
+        {
+          "table": "car_wreck",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "WRENCH 2 / WRENCH_FINE 1 in one pocketable set; no CDDA recipe"
+    },
+    {
+      "id": "multitool",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 2
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "CUT 2, SAW_W 1, SAW_M 1, WRENCH 1, SCREW 1, BUTCHER 7 in a pocket item; no CDDA recipe"
+    },
+    {
+      "id": "camping_multitool",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        },
+        {
+          "table": "ranger_station",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "as multitool plus HAMMER 1 and LEATHER_AWL 2; the FIRESTARTER flag is inert (fire starting is hard-coded)"
+    },
+    {
+      "id": "makeshift_hose",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "HOSE 1, the alternative many recipes accept; own recipe is autolearn fab 4"
+    },
+    {
+      "id": "toolbox_workshop_empty",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "34 L of rigid storage pockets; own recipe is autolearn fab 3"
+    },
+    {
+      "id": "honey_scraper",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "CUT 1 / BUTCHER 3; no CDDA recipe"
+    },
+    {
+      "id": "scalpel",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "science"
+      ],
+      "note": "first CUT_FINE 3 in the game (ceiling was 2), plus CUT 2 / BUTCHER 8 / FABRIC_CUT 1; no CDDA recipe"
+    },
+    {
+      "id": "plastic_bucket",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ],
+      "note": "watertight tub for the water system; no CDDA recipe"
+    },
+    {
+      "id": "wooden_barrel",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 2
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "workshop"
+      ],
+      "note": "large watertight store; own recipe is autolearn fab 3 (ANVIL 3 from the Home anvil station)"
+    },
+    {
+      "id": "camelbak",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "wearable watertight hydration pack: storage and drinking water in one worn item; no CDDA recipe"
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "mask_filter",
+      "//": "The Prologue has no magazines or reloading, so the mask ships with the charge budget of the filter cartridge CDDA gives it as its default magazine; recipe tool rows spend those charges.",
+      "initial_charges": 100
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [
+    "recipe:makeshift_pressure_cooker",
+    "recipe:tailors_kit",
+    "recipe:gasoline_cooker",
+    "recipe:propane_cooker",
+    "recipe:acetylene_cooker"
+  ],
+  "recipesExclude": [
+    "recipe:chem_potassium",
+    "recipe:chem_sodium"
+  ],
+  "recipesExpected": [
+    "recipe:drift",
+    "recipe:hammer",
+    "recipe:scythe",
+    "recipe:kevlar_shears",
+    "recipe:tailors_kit",
+    "recipe:makeshift_pressure_cooker",
+    "recipe:heavy_crowbar",
+    "recipe:shovel",
+    "recipe:casting_mold_large",
+    "recipe:casting_mold_long",
+    "recipe:metalworking_tongs:casting",
+    "recipe:wire_draw_machine",
+    "recipe:copper_wire:wire_draw_machine",
+    "recipe:gasoline_lantern",
+    "recipe:gasoline_cooker",
+    "recipe:propane_cooker",
+    "recipe:acetylene_cooker",
+    "recipe:mask_filter",
+    "recipe:rubber_cement",
+    "recipe:chem_methanol:from wood",
+    "recipe:chem_chloroform",
+    "recipe:chem_citric_acid",
+    "recipe:formic_acid:from_oxalic_acid",
+    "recipe:claw_bar",
+    "recipe:sickle",
+    "recipe:e_tool",
+    "recipe:g_shovel",
+    "recipe:iceaxe",
+    "recipe:diveknife",
+    "recipe:bronze_knife",
+    "recipe:bronze_axe",
+    "recipe:scraper_steel",
+    "recipe:socket_screwdriver_set",
+    "recipe:makeshift_hose:DIY_hose_from_leather",
+    "recipe:toolbox_workshop_empty",
+    "recipe:wooden_barrel"
+  ],
+  "notes": [
+    "recipesInclude is required for the survey's \"unblocks\" rows: tailors_kit and makeshift_pressure_cooker were both in whitelist/recipes.json exclude, so whitelisting the item alone does not enable them",
+    "recipe:pickaxe dropped from drift's unblocks (pickaxe is not whitelisted and sits in the Tools family's Excluded list); recipe:thermometer does not exist in CDDA",
+    "none of the first eight ids (drift .. thermos) is a battery tool; of batch 1 only wire_draw_machine needed an electricity.json profile (see below)",
+    "batch 1 of the resumed import: 20 tool ids added (28 staged in this group so far); none was enabled before staging",
+    "recipesInclude grew by gasoline_cooker / propane_cooker / acetylene_cooker: all three results were already whitelisted but their recipe keys sat in whitelist/recipes.json exclude, so whitelisting the lantern alone does not enable them",
+    "recipe:propane_lantern is deliberately not in recipesExpected: its only book is textbook_fabrication, which is not enabled, so the lantern stays loot-only (survey agrees)",
+    "recipe:funnel_separation is not expected either: it needs stopcock (uncraftable, plastic_molding) plus glassblowing_book, so the funnel is loot-only",
+    "recipe:qt_wire:wire_draw_machine stays in whitelist/recipes.json exclude per steel rule 9; of the wire variants only recipe:copper_wire:wire_draw_machine is claimed",
+    "none of the 20 is a battery tool: the three lanterns burn gasoline/propane/weldgas charges and are imported as recipe components, not as light sources (no electricity.json or portableLights row needed)",
+    "recipe:lc_wire:wire_draw_machine dropped from recipesExpected: with the machine enabled it still misses lc_steel_lump (a loot-only B row outside this batch); recipe:copper_wire:wire_draw_machine is the claimed one",
+    "recipe:propane_lantern is enabled and its components are obtainable, but it stays unclaimed because its only book (textbook_fabrication) arrives in a later batch; until then the lantern is loot-only",
+    "mask_filter override (initial_charges): its recipe tool rows spend filter charges, and the Prologue does not model the magazine CDDA fills it from, so the mask would be a dead tool at 0 charges. The override gives it the cartridge budget once; there is no reload, so a spent mask stays spent (same shape as the char_purifier B-step in the survey)",
+    "wire_draw_machine needed one game-data/electricity.json device profile (BATTERY_HEAVY, external, no passive qualities): its only recipe row asks for 100 tool charges and the machine is a battery tool in CDDA, so without a profile it could never satisfy the row (the angle_grinder B-step pattern). It has no qualities, so the un-powered fallthrough in Crafting.js hands out nothing",
+    "chem_potassium and chem_sodium stay hidden (coordinator decision 19.09): the syringe unblocks them, but one batch is 87.5 L / 175 L of liquid, far beyond any container the Prologue player owns.",
+    "batch 2 added 10 tools and containers (38 staged in this group); none was enabled before staging and none is a battery tool",
+    "socket_wrench_set, multitool, camping_multitool, honey_scraper, scalpel, plastic_bucket and camelbak have no CDDA recipe at all: they are loot-only by design, which is why they carry two loot rows each plus a discovery pool",
+    "recipe:toolbox_workshop_empty is the one claimed recipe with a charge-hungry tool row (welder 3600 / welder_crude 7200 / oxy_torch 180, and oxy_torch is not enabled). It is genuinely reachable: welder is loot in three tables and medium_storage_battery (10000 kJ) is both laboratory loot and craftable from the enabled manual_electronics / mag_electronics. A welder on the smaller enabled cells (heavy_plus 503 kJ, battery_car 3000 kJ) is not enough, so the toolbox is a late-game craft and stays loot-first"
+  ]
+}

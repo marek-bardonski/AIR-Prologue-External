@@ -1,0 +1,205 @@
+{
+  "//": "Kinds of place a wished thing may be found in. Each names the loot tables it covers; the label is the everyday wording a letter uses. No place is withheld from the shrine.",
+  "version": 1,
+  "places": [
+    {
+      "id": "workshop",
+      "label": "workshops and hardware shops",
+      "tables": [
+        "shop_hardware",
+        "discovery_workshop",
+        "electrical_workshop",
+        "electrical_workshop_supplies",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "garage",
+      "label": "garages and car wrecks",
+      "tables": [
+        "roadside_garage",
+        "roadside_garage_supplies",
+        "car_wreck",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "industrial",
+      "label": "depots, ruins and store rooms",
+      "tables": [
+        "railway_depot",
+        "railway_depot_supplies",
+        "ruins_shelf",
+        "ruins_rubble",
+        "shop_shelves",
+        "shop_locker",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "homes",
+      "label": "houses and kitchens",
+      "tables": [
+        "house_common",
+        "house_kitchen",
+        "house_clothes",
+        "house_books",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "medical",
+      "label": "clinics and bathrooms",
+      "tables": [
+        "medical_clinic",
+        "medical_clinic_supplies",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "wild",
+      "label": "campsites and the wilds",
+      "tables": [
+        "campsite",
+        "campsite_supplies",
+        "bonus_wild",
+        "logging_camp",
+        "logging_camp_supplies",
+        "ranger_station",
+        "ranger_station_supplies",
+        "forest_common",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "farm",
+      "label": "farms and orchards",
+      "tables": [
+        "farm",
+        "farm_barn",
+        "farm_coop",
+        "farm_field",
+        "orchard",
+        "orchard_supplies",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "water",
+      "label": "docks and river banks",
+      "tables": [
+        "fishing_dock",
+        "fishing_dock_supplies",
+        "river",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "roadside",
+      "label": "roads, filling stations and vending machines",
+      "tables": [
+        "road",
+        "gas_station",
+        "vending",
+        "bonus_urban",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "military",
+      "label": "the checkpoints where the soldiers were",
+      "tables": [
+        "military_checkpoint",
+        "military_checkpoint_supplies",
+        "traveller_cache"
+      ]
+    },
+    {
+      "id": "tailoring_cooperative",
+      "label": "tailoring cooperative",
+      "tables": [
+        "tailoring_cooperative",
+        "tailoring_cooperative_supplies"
+      ]
+    },
+    {
+      "id": "plant_nursery",
+      "label": "plant nursery",
+      "tables": [
+        "plant_nursery",
+        "plant_nursery_supplies"
+      ]
+    },
+    {
+      "id": "preservation_cellar",
+      "label": "community preservation cellar",
+      "tables": [
+        "preservation_cellar",
+        "preservation_cellar_supplies"
+      ]
+    },
+    {
+      "id": "potters_yard",
+      "label": "potter’s yard",
+      "tables": [
+        "potters_yard",
+        "potters_yard_supplies"
+      ]
+    },
+    {
+      "id": "mountaineering_refuge",
+      "label": "mountaineering refuge",
+      "tables": [
+        "mountaineering_refuge",
+        "mountaineering_refuge_supplies"
+      ]
+    },
+    {
+      "id": "water_quality_station",
+      "label": "water quality field station",
+      "tables": [
+        "water_quality_station",
+        "water_quality_station_supplies"
+      ]
+    },
+    {
+      "id": "fire_station",
+      "label": "fire station",
+      "tables": [
+        "fire_station",
+        "fire_station_supplies"
+      ]
+    },
+    {
+      "id": "machine_tool_shop",
+      "label": "machine tool shop",
+      "tables": [
+        "machine_tool_shop",
+        "machine_tool_shop_supplies"
+      ]
+    },
+    {
+      "id": "electronics_reclamation",
+      "label": "electronics reclamation centre",
+      "tables": [
+        "electronics_reclamation",
+        "electronics_reclamation_supplies"
+      ]
+    },
+    {
+      "id": "automated_distribution",
+      "label": "automated distribution hub",
+      "tables": [
+        "automated_distribution",
+        "automated_distribution_supplies",
+        "automated_distribution_food_supplies",
+        "automated_distribution_electrical_supplies"
+      ]
+    }
+  ],
+  "rarity": {
+    "rare": 1,
+    "uncommon": 2,
+    "common": 4
+  }
+}

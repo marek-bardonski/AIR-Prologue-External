@@ -1,0 +1,752 @@
+{
+  "group": "p29_b06_medical",
+  "source": "29.09.2026 round 3, agent 6: opiates, cannabis concentrates, cocaine, amphetamines, strong coffee, herbal teas and a crack pipe; pharmacy leftovers; survivor gas masks and diving cylinders",
+  "items": [
+    {
+      "id": "heroin",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.05,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02,
+          "charges": [
+            1,
+            3
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi_q_distillate",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            2,
+            10
+          ]
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.03,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi_q_shatter",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            1,
+            2
+          ]
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.03,
+          "charges": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi_q_wax",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            1,
+            2
+          ]
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.03,
+          "charges": [
+            1,
+            2
+          ]
+        },
+        {
+          "table": "campsite",
+          "weight": 0.02,
+          "charges": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "joint",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05,
+          "charges": [
+            1,
+            3
+          ]
+        },
+        {
+          "table": "campsite",
+          "weight": 0.08,
+          "charges": [
+            1,
+            2
+          ]
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.08,
+          "charges": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "joint_roach",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "campsite",
+          "weight": 0.15,
+          "charges": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.05,
+          "charges": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coke",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.02,
+          "charges": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crack",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02,
+          "charges": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.03,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crackpipe",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "meth",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02,
+          "charges": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "charges": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.02,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pure_meth",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.01,
+          "charges": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cola_meth",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.01,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lsd",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02,
+          "charges": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy_drink_atomic",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 0.4,
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.3,
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.1,
+          "charges": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atomic_coffee",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03,
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.03,
+          "charges": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spurge_tea",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05,
+          "charges": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bee_balm_tea",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05,
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.02,
+          "charges": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prozac",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2,
+          "charges": [
+            4,
+            15
+          ]
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.2,
+          "charges": [
+            10,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thorazine",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.15,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05,
+          "charges": [
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calcium_tablet",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.2,
+          "charges": [
+            5,
+            20
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "charges": [
+            10,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bonemeal_tablet",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03,
+          "charges": [
+            2,
+            8
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03,
+          "charges": [
+            2,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flu_shot",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "charges": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophylactic_antivenom",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.15,
+          "charges": [
+            1,
+            2
+          ]
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.1,
+          "charges": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steroid_eyedrops",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.2,
+          "charges": [
+            3,
+            10
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05,
+          "charges": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saline_bag_500",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "nic_pouch_can",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.1
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "mask_survivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "mask_hsurvivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "mask_lsurvivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "mask_fsurvivor",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mask_h20survivor",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "scuba_tank",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "small_scuba_tank",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.02
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:hi_q_distillate",
+    "recipe:hi_q_distillate:crude_extraction",
+    "recipe:hi_q_distillate:improvised_extraction",
+    "recipe:hi_q_distillate:large_extraction",
+    "recipe:hi_q_shatter",
+    "recipe:hi_q_shatter:improvised_extraction",
+    "recipe:hi_q_wax",
+    "recipe:hi_q_wax:improvised_extraction",
+    "recipe:mask_h20survivor"
+  ],
+  "recipesExpected": [
+    "recipe:atomic_coffee",
+    "recipe:bee_balm_tea",
+    "recipe:bonemeal_tablet",
+    "recipe:cola_meth",
+    "recipe:crack",
+    "recipe:crackpipe",
+    "recipe:heroin",
+    "recipe:joint",
+    "recipe:mask_fsurvivor",
+    "recipe:mask_hsurvivor",
+    "recipe:mask_lsurvivor",
+    "recipe:mask_survivor",
+    "recipe:pure_meth:from_phosporous_iodine",
+    "recipe:spurge_tea"
+  ],
+  "notes": [
+    "Cannabis concentrate recipes (hi_q_*) need a lab extractor, a vacuum oven and filter papers by charge: hidden; the concentrates come from loot only."
+  ]
+}

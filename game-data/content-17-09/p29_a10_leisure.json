@@ -1,0 +1,766 @@
+{
+  "group": "p29_a10_leisure",
+  "source": "29.09.2026 second 500: collector and budget melee pieces, switchblade, skull cane, wallets, musical instruments, sports balls and bathroom items",
+  "items": [
+    {
+      "id": "katana_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "rapier_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "cavalry_sabre_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "halberd_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "kris_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "shillelagh_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "lucern_hammerfake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mace_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "katana_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "longsword_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "broadsword_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "cutlass_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tanto_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "battleaxe_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mace_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "naginata_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "switchblade",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sinister_cane",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "wallet_stylish",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "wallet_travel",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.06
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "bagpipes",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.016
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "clarinet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.04000000000000001
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "drum_percussion",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.04000000000000001
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "guitar_electric",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.024
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "harmonica_holder",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.032
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "kantele",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.016
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "krar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "saxophone",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.024
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "trumpet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.032
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tuba",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "ukulele",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.032
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "violin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.024
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "baseball",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.08000000000000002
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "basketball",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.08000000000000002
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.08000000000000002
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "bowling_ball",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "golf_ball",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.08
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.064
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "pool_ball",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.06
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.048
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "toilet_paper",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.4
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "string_floss",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "comb_lice",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.08
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "soap_holder",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "brush_toilet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.075
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:drum_percussion",
+    "recipe:kantele",
+    "recipe:krar"
+  ],
+  "recipesExpected": [
+    "recipe:bagpipes",
+    "recipe:baseball",
+    "recipe:switchblade"
+  ],
+  "notes": [
+    "Instruments play through Instruments.js (shared mood cap).",
+    "Collector (fake) melee pieces are fragile; budget (inferior) pieces are dull stamped steel."
+  ]
+}

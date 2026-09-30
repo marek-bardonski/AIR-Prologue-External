@@ -1,0 +1,352 @@
+{
+  "group": "p28_b09_tools",
+  "source": "28.09.2026 first-priority import, batch 9: tools and kitchenware",
+  "items": [
+    {
+      "id": "scissors_medical",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "halligan",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 3
+        },
+        {
+          "table": "ruins",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pike_pole",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "shovel_snow",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "sieve_steel",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hose_garden",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "oil_lamp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "oil_cooker",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "metal_smoking_rack",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "char_purifier_clay",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "filter_paper_qualitative",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 2
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "mop_folded",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pedal_grindstone",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "nail_puller_bronze",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "tree_spile",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "ladle",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "peeler",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "rolling_pin",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "spatula",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "whisk",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "colander_steel",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "mess_tray",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "spoon",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "fork",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:char_purifier_clay",
+    "recipe:halligan",
+    "recipe:metal_smoking_rack",
+    "recipe:nail_puller_bronze",
+    "recipe:oil_cooker",
+    "recipe:oil_lamp",
+    "recipe:pedal_grindstone",
+    "recipe:shovel_snow",
+    "recipe:tree_spile"
+  ],
+  "notes": [
+    "oil_lamp burns lamp oil as a portable light (rules.dayNight.portableLights); metal_smoking_rack is set up at camp as a smoking station (stations.json)."
+  ]
+}

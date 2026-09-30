@@ -1,0 +1,60 @@
+{
+  "group": "p29_w_traps_kits",
+  "source": "29.09.2026 traps workstream: the light snare kit and the bear trap, set on a tile to catch small game (src/game/world/Traps.js, game-data/traps.json)",
+  "items": [
+    {
+      "id": "light_snare_kit",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "beartrap",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.03
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 0.04
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Set from the pack or the tile menu; catches roll per hour from the tile's own animals of the trap's sizes."
+  ]
+}

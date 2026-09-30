@@ -1,0 +1,789 @@
+{
+  "source": {
+    "repo": "https://github.com/CleverRaven/Cataclysm-DDA",
+    "tag": "0.I",
+    "commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+    "licence": "CC-BY-SA 3.0 (see LICENSE.txt)",
+    "importedAt": "2026-09-12T10:42:20Z",
+    "folders": [
+      "data/json (entire folder)",
+      "data/mods/Magiclysm",
+      "doc/JSON",
+      "LICENSE.txt"
+    ]
+  },
+  "recipes": [
+    {
+      "id": "prac_athletics_beg",
+      "file": "cdda/data/json/recipes/practice/athletics.json"
+    },
+    {
+      "id": "prac_lockpicking_crude",
+      "file": "cdda/data/json/recipes/practice/devices.json"
+    },
+    {
+      "id": "prac_elec_salvage_prologue",
+      "file": "overrides/electronics_prologue.json"
+    },
+    {
+      "id": "prac_soldering",
+      "file": "cdda/data/json/recipes/practice/electronics.json"
+    },
+    {
+      "id": "prac_elec_circuit",
+      "file": "cdda/data/json/recipes/practice/electronics.json"
+    },
+    {
+      "id": "prac_elec_semiconductors",
+      "file": "cdda/data/json/recipes/practice/electronics.json"
+    },
+    {
+      "id": "prac_fletching",
+      "file": "cdda/data/json/recipes/practice/fabrication.json"
+    },
+    {
+      "id": "prac_carving",
+      "file": "cdda/data/json/recipes/practice/fabrication.json"
+    },
+    {
+      "id": "prac_carpentry_basic",
+      "file": "cdda/data/json/recipes/practice/fabrication.json"
+    },
+    {
+      "id": "prac_welding_beg",
+      "file": "cdda/data/json/recipes/practice/fabrication.json"
+    },
+    {
+      "id": "prac_redsmithing",
+      "file": "cdda/data/json/recipes/practice/fabrication.json"
+    },
+    {
+      "id": "prac_health_care_beg",
+      "file": "cdda/data/json/recipes/practice/health.json"
+    },
+    {
+      "id": "prac_health_care_int",
+      "file": "cdda/data/json/recipes/practice/health.json"
+    },
+    {
+      "id": "prac_mechanics_basic_hydraulics",
+      "file": "cdda/data/json/recipes/practice/mechanics.json"
+    },
+    {
+      "id": "prac_melee_beg",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_melee_int",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_int",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_bashing_beg",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_dancing",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_dodge_beg",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg_long_sword",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg_great_sword",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg_great_axe",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg_hand_axe",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_bashing_beg_great_hammer",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_bashing_beg_flail",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_bashing_beg_mace",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_stabbing_beg_spear",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_stabbing_beg_thrust",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_stabbing_beg_knife",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_stabbing_beg_shiv",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_bashing_beg_baton",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg_med_sword",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg_short_sword",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_int_short_sword",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_bashing_beg_staff",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_stabbing_beg_fencing",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg_claw",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_cutting_beg_hooking",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_stabbing_beg_polearm",
+      "file": "cdda/data/json/recipes/practice/melee.json"
+    },
+    {
+      "id": "prac_throw_beg",
+      "file": "cdda/data/json/recipes/practice/ranged.json"
+    },
+    {
+      "id": "prac_archery_beg",
+      "file": "cdda/data/json/recipes/practice/ranged.json"
+    },
+    {
+      "id": "prac_unmute_bird",
+      "file": "cdda/data/json/recipes/practice/social.json"
+    },
+    {
+      "id": "prac_unmute_ceph",
+      "file": "cdda/data/json/recipes/practice/social.json"
+    },
+    {
+      "id": "prac_unmute_gastropod",
+      "file": "cdda/data/json/recipes/practice/social.json"
+    },
+    {
+      "id": "prac_unmute_insect",
+      "file": "cdda/data/json/recipes/practice/social.json"
+    },
+    {
+      "id": "prac_unmute_slime",
+      "file": "cdda/data/json/recipes/practice/social.json"
+    },
+    {
+      "id": "prac_knapping",
+      "file": "cdda/data/json/recipes/practice/survival.json"
+    },
+    {
+      "id": "prac_knapping_speed",
+      "file": "cdda/data/json/recipes/practice/survival.json"
+    },
+    {
+      "id": "prac_knitting",
+      "file": "cdda/data/json/recipes/practice/tailoring.json"
+    },
+    {
+      "id": "prac_closures",
+      "file": "cdda/data/json/recipes/practice/tailoring.json"
+    },
+    {
+      "id": "prac_closures_waterproofing",
+      "file": "cdda/data/json/recipes/practice/tailoring.json"
+    },
+    {
+      "id": "prac_polymerworking",
+      "file": "cdda/data/json/recipes/practice/tailoring.json"
+    },
+    {
+      "id": "prac_elastics",
+      "file": "cdda/data/json/recipes/practice/tailoring.json"
+    },
+    {
+      "id": "prac_quilting",
+      "file": "cdda/data/json/recipes/practice/tailoring.json"
+    },
+    {
+      "id": "prac_leather_beg",
+      "file": "cdda/data/json/recipes/practice/tailoring.json"
+    },
+    {
+      "id": "prac_leather_adv",
+      "file": "cdda/data/json/recipes/practice/tailoring.json"
+    }
+  ],
+  "training": {
+    "ticksPerMinute": 1,
+    "rawXpPerTick": 54,
+    "levelXp": 10000,
+    "catchupStatDivisor": 24,
+    "knowledgeIntDivisor": 40,
+    "knowledgeFraction": 0.9,
+    "focusInitial": 100000,
+    "focusScale": 1000,
+    "focusRecovery": 10,
+    "focusDrainDivisor": 1000,
+    "focusDrainLinearAt": 1000,
+    "maxLevel": 10,
+    "fatigueCaps": [
+      [
+        1000,
+        20
+      ],
+      [
+        575,
+        40
+      ],
+      [
+        383,
+        60
+      ],
+      [
+        191,
+        80
+      ]
+    ],
+    "focusMinimum": 1,
+    "focusMaximum": 400,
+    "focusPercent": 100,
+    "focusDrainPercentDivisor": 100,
+    "focusIntBase": 8,
+    "focusIntAdjustment": 5,
+    "focusReadingPenalty": 50,
+    "focusMoraleBlock": 50,
+    "skillTrainingSpeed": 1
+  },
+  "starterItems": [
+    {
+      "recipe": "recipe:needle_wood",
+      "use": "Start sewing without a metal needle."
+    },
+    {
+      "recipe": "recipe:knitting_needles",
+      "use": "Make knitted equipment and practice knitting."
+    },
+    {
+      "recipe": "recipe:tinder",
+      "use": "Prepare dry material for lighting fires."
+    },
+    {
+      "recipe": "recipe:plant_fibre",
+      "use": "Turn plants into material for cordage and weaving."
+    },
+    {
+      "recipe": "recipe:digging_stick",
+      "use": "Get a basic digging tool from wood."
+    },
+    {
+      "recipe": "recipe:straw_basket",
+      "use": "Carry supplies without cotton fabric."
+    },
+    {
+      "recipe": "recipe:net_backpack",
+      "use": "Add wearable carrying space using cordage."
+    },
+    {
+      "recipe": "recipe:grass_yarn",
+      "use": "Make yarn from wilderness plant material."
+    },
+    {
+      "recipe": "recipe:arm_splint",
+      "use": "Support a broken arm while it heals."
+    },
+    {
+      "recipe": "recipe:bandages_makeshift_boiled",
+      "use": "Improve wound care by boiling makeshift bandages."
+    }
+  ],
+  "icons": {
+    "fabrication": "pockknife",
+    "survival": "rock",
+    "tailor": "needle_wood",
+    "firstaid": "bandages",
+    "melee": "stick",
+    "dodge": "sneakers",
+    "swimming": "sneakers",
+    "throw": "rock",
+    "electronics": "soldering_iron",
+    "mechanics": "wrench",
+    "speech": "practice_book",
+    "computer": "practice_computer",
+    "chemistry": "chemistry_set",
+    "gun": "practice_target",
+    "pistol": "practice_target",
+    "rifle": "practice_target",
+    "shotgun": "practice_target",
+    "smg": "practice_target",
+    "launcher": "practice_target",
+    "archery": "practice_target"
+  },
+  "skillTips": {
+    "//": "Required primary skill levels, checked against the live normalized recipes. Level-zero makings are intentionally omitted; secondary skills, knowledge, tools and materials still apply.",
+    "fabrication": {
+      "1": [
+        {
+          "recipe": "recipe:pot_makeshift",
+          "use": "Boil water and cook without finding a real pot."
+        },
+        {
+          "recipe": "recipe:makeshift_funnel",
+          "use": "Build the water funnel at camp: rain becomes drinking water."
+        },
+        {
+          "recipe": "recipe:nail",
+          "use": "Nails from scrap open the workbench, chests and most building."
+        },
+        {
+          "recipe": "recipe:2x4:from logs",
+          "use": "Cut logs into planks for furniture and camp construction."
+        },
+        {
+          "recipe": "recipe:awl_bone",
+          "use": "Pierce leather using a tool made from bone."
+        },
+        {
+          "recipe": "recipe:charcoal_cooker",
+          "use": "Turn wood into charcoal for fuel and metalworking."
+        }
+      ],
+      "2": [
+        {
+          "recipe": "recipe:primitive_shovel",
+          "use": "Digging: farm beds, clay, and roads that halve your journeys."
+        },
+        {
+          "recipe": "recipe:fishspear",
+          "use": "Steady food from any lake or river."
+        },
+        {
+          "recipe": "recipe:anvil_stump",
+          "use": "The first step into metalworking."
+        },
+        {
+          "recipe": "recipe:pot",
+          "use": "A real pot cooks and boils better than the makeshift one."
+        },
+        {
+          "recipe": "recipe:pliers",
+          "use": "A wrench in the hand: many repairs and takings-apart need one."
+        },
+        {
+          "recipe": "recipe:drag_hand_cart",
+          "use": "A hand cart drags far more between hexes than a back can carry."
+        }
+      ],
+      "3": [
+        {
+          "recipe": "recipe:screwdriver",
+          "use": "Turns screws: electronics and most taking-apart begin here."
+        },
+        {
+          "recipe": "recipe:crowbar",
+          "use": "A proper crowbar pries what the makeshift one cannot."
+        },
+        {
+          "recipe": "recipe:bucket",
+          "use": "Carries and boils water in bulk."
+        },
+        {
+          "recipe": "recipe:scissors",
+          "use": "Cuts cloth cleanly: the tailor's first tool."
+        },
+        {
+          "recipe": "recipe:knife_small",
+          "use": "A fine blade for careful cutting and quick butchery."
+        }
+      ]
+    },
+    "survival": {
+      "1": [
+        {
+          "recipe": "recipe:tinder",
+          "use": "No fire starts without it; keep a few spare."
+        },
+        {
+          "recipe": "recipe:digging_stick",
+          "use": "Dig roots and start a field before you own a shovel."
+        },
+        {
+          "recipe": "recipe:disinfectant_makeshift:pitch_and_honey",
+          "use": "Clean a wound before it turns: infection is what kills."
+        },
+        {
+          "recipe": "recipe:hoe_wooden",
+          "use": "Breaks ground for a first field."
+        },
+        {
+          "recipe": "recipe:bone_knife",
+          "use": "Make a cutting and butchering tool from bone."
+        },
+        {
+          "recipe": "recipe:cured_hide",
+          "use": "Preserve a fresh hide before turning it into leather."
+        },
+        {
+          "recipe": "recipe:makeshift_brazier",
+          "use": "Keep a portable fire for cooking and warmth."
+        },
+        {
+          "recipe": "recipe:needle_bone",
+          "use": "Make a sewing needle from butchered bones."
+        }
+      ],
+      "2": [
+        {
+          "recipe": "recipe:fire_drill",
+          "use": "Fire for good, once matches and lighters run out."
+        },
+        {
+          "recipe": "recipe:water_filter_sand",
+          "use": "Clean water without burning fuel on every pot."
+        },
+        {
+          "recipe": "recipe:sleeping_bag_improvised",
+          "use": "Warm sleep away from camp, so long trips stop costing you rest."
+        },
+        {
+          "recipe": "recipe:makeshift_tree_spile",
+          "use": "Taps a tree for its sap."
+        },
+        {
+          "recipe": "recipe:tanning_hide:prologue_single",
+          "use": "Cured hide into leather, one piece at a time."
+        },
+        {
+          "recipe": "recipe:seed_potato_raw",
+          "use": "Cut a potato into seed: one meal becomes a field."
+        }
+      ]
+    },
+    "tailor": {
+      "1": [
+        {
+          "recipe": "recipe:net_backpack",
+          "use": "Worn storage from cordage alone: carry far more."
+        },
+        {
+          "recipe": "recipe:straw_basket",
+          "use": "A basket in the hand adds carrying room on top of a pack."
+        },
+        {
+          "recipe": "recipe:mocassins",
+          "use": "Cover bare feet; even thin leather stops scratches."
+        },
+        {
+          "recipe": "recipe:armor_larmor",
+          "use": "Make leather armour for protection in fights."
+        },
+        {
+          "recipe": "recipe:bag_canvas_small",
+          "use": "Sew a small bag to carry more supplies."
+        },
+        {
+          "recipe": "recipe:arm_warmers",
+          "use": "Keep your arms warmer with knitted clothing."
+        }
+      ],
+      "2": [
+        {
+          "recipe": "recipe:trapper_pack",
+          "use": "A real pack you can make yourself."
+        },
+        {
+          "recipe": "recipe:boots",
+          "use": "Sturdy boots protect the feet animals go for."
+        },
+        {
+          "recipe": "recipe:gloves_leather",
+          "use": "Protected hands keep working after a fight."
+        },
+        {
+          "recipe": "recipe:frame_pack",
+          "use": "A framed pack carries a great deal without the ache."
+        },
+        {
+          "recipe": "recipe:cloak",
+          "use": "A cloak over everything else keeps the cold out."
+        },
+        {
+          "recipe": "recipe:long_underpants",
+          "use": "A warm layer under your clothes for the cold months."
+        }
+      ],
+      "3": [
+        {
+          "recipe": "recipe:backpack",
+          "use": "The ordinary backpack, made rather than found."
+        },
+        {
+          "recipe": "recipe:backpack_leather",
+          "use": "A leather pack that outlasts cloth ones."
+        },
+        {
+          "recipe": "recipe:tailors_kit",
+          "use": "One kit that sews, knits, cuts and pierces leather."
+        },
+        {
+          "recipe": "recipe:tool_belt",
+          "use": "A belt that keeps your tools at hand."
+        },
+        {
+          "recipe": "recipe:sweater",
+          "use": "Real warmth for the torso and arms."
+        },
+        {
+          "recipe": "recipe:duster",
+          "use": "A long coat with room in its pockets."
+        }
+      ]
+    },
+    "firstaid": {
+      "1": [
+        {
+          "recipe": "recipe:bandages_makeshift_boiled",
+          "use": "Boiled rags: the cheapest dressing that does not invite infection."
+        },
+        {
+          "recipe": "recipe:bandages",
+          "use": "Proper bandages stop bleeding faster and hold longer."
+        },
+        {
+          "recipe": "recipe:adhesive_bandages",
+          "use": "Quick cover for the scratches small animals leave."
+        },
+        {
+          "recipe": "recipe:bandages_makeshift_bleached",
+          "use": "Bleached rags: a clean dressing when there is no fire to boil on."
+        },
+        {
+          "recipe": "recipe:leg_splint",
+          "use": "Support a broken leg while it heals."
+        },
+        {
+          "recipe": "recipe:arm_splint",
+          "use": "Support a broken arm while it heals."
+        }
+      ]
+    },
+    "cooking": {
+      "1": [
+        {
+          "recipe": "recipe:meat_fried",
+          "use": "Cooked meat is safe meat, and lifts the mood."
+        },
+        {
+          "recipe": "recipe:flatbread",
+          "use": "Flour into filling food that travels well."
+        },
+        {
+          "recipe": "recipe:herbal_tea",
+          "use": "A safe warm drink from foraged herbs, good for morale."
+        },
+        {
+          "recipe": "recipe:beansnrice",
+          "use": "Prepare a filling meal from beans and rice."
+        },
+        {
+          "recipe": "recipe:boiled_egg",
+          "use": "Cook gathered eggs into a safe meal."
+        },
+        {
+          "recipe": "recipe:carrot_roasted",
+          "use": "Cook carrots into a meal without eating them raw."
+        }
+      ],
+      "2": [
+        {
+          "recipe": "recipe:dry_meat",
+          "use": "Dried meat keeps where fresh meat rots."
+        },
+        {
+          "recipe": "recipe:dry_fish",
+          "use": "The same for a good day's fishing."
+        },
+        {
+          "recipe": "recipe:dry_veggy",
+          "use": "Dried vegetables carry a harvest through the winter."
+        },
+        {
+          "recipe": "recipe:soup_meat",
+          "use": "Soup feeds and waters you at once."
+        },
+        {
+          "recipe": "recipe:soup_veggy",
+          "use": "A filling pot from what the forest gives."
+        },
+        {
+          "recipe": "recipe:tortilla_corn",
+          "use": "Turn cornmeal into portable flatbread for meals and fillings."
+        }
+      ],
+      "3": [
+        {
+          "recipe": "recipe:jerky",
+          "use": "Salted dried meat: light, lasting travel food."
+        },
+        {
+          "recipe": "recipe:meat_smoked",
+          "use": "Smoking keeps meat far longer than cooking."
+        },
+        {
+          "recipe": "recipe:fish_smoked",
+          "use": "Smoked fish keeps the same way."
+        },
+        {
+          "recipe": "recipe:meat_salted",
+          "use": "Salt alone will preserve meat."
+        },
+        {
+          "recipe": "recipe:lard",
+          "use": "Rendered fat, for candles, soap and tanning."
+        }
+      ]
+    },
+    "chemistry": {
+      "1": [
+        {
+          "recipe": "recipe:lye:from_lye_powder",
+          "use": "Lye is the root of soap and of most later chemistry."
+        },
+        {
+          "recipe": "recipe:lye_potassium:from_lye_powder",
+          "use": "The wood-ash road to the same place."
+        },
+        {
+          "recipe": "recipe:fuse",
+          "use": "Fuses, for when something must burn later rather than now."
+        }
+      ],
+      "2": [
+        {
+          "recipe": "recipe:soap",
+          "use": "Soap cleans a wound when there is no disinfectant."
+        },
+        {
+          "recipe": "recipe:tallow",
+          "use": "Tallow from fat: candles and lamp oil start here."
+        },
+        {
+          "recipe": "recipe:crude_lamp_oil",
+          "use": "Fuel for a lamp from rendered fat."
+        },
+        {
+          "recipe": "recipe:lye_powder:from_lye",
+          "use": "Lye dried to a powder: soap and tanning need it."
+        },
+        {
+          "recipe": "recipe:liquid_soap",
+          "use": "Soap in a bottle, made from lard."
+        },
+        {
+          "recipe": "recipe:chem_slaked_lime",
+          "use": "Slaked lime, on the way to lye and quicklime."
+        },
+        {
+          "recipe": "recipe:chem_turpentine",
+          "use": "Process resin into useful chemical solvent."
+        },
+        {
+          "recipe": "recipe:cathod_mix",
+          "use": "Prepare electrolyte paste for electrical crafting."
+        }
+      ],
+      "3": [
+        {
+          "recipe": "recipe:chem_hydrogen_peroxide",
+          "use": "Make an antiseptic for cleaning wounds."
+        }
+      ]
+    },
+    "electronics": {
+      "1": [
+        {
+          "recipe": "recipe:soldering_iron",
+          "use": "Nothing electronic is built without one: make it first."
+        },
+        {
+          "recipe": "recipe:amplifier",
+          "use": "A part of the radio that finds other people."
+        },
+        {
+          "recipe": "recipe:crude_firestarter",
+          "use": "Fire from a battery when there is nothing else to strike."
+        }
+      ],
+      "2": [
+        {
+          "recipe": "recipe:radio",
+          "use": "The radio itself: how other people are found."
+        },
+        {
+          "recipe": "recipe:receiver",
+          "use": "A part the radio cannot be built without."
+        },
+        {
+          "recipe": "recipe:antenna:prologue",
+          "use": "An antenna, so the radio can hear."
+        },
+        {
+          "recipe": "recipe:circuit:prologue",
+          "use": "A circuit board, the heart of most devices."
+        },
+        {
+          "recipe": "recipe:soldering_iron_portable",
+          "use": "A soldering iron that works away from camp."
+        },
+        {
+          "recipe": "recipe:ground_solar_panel",
+          "use": "Power from the sun, for as long as there is day."
+        }
+      ]
+    }
+  },
+  "morale": {
+    "//food": "AIR design, 23.09.2026: a meal's mood lasts foodMinutes after eating, at full strength until foodDecayMinutes, then fades over the last hour.",
+    "foodMinutes": 360,
+    "foodDecayMinutes": 300,
+    "scale": 3,
+    "positiveCap": 6,
+    "negativeCap": 10,
+    "starvationHours": 24,
+    "historyMinutes": 2880,
+    "monotonyPenalty": 2,
+    "decayCutoff": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "//": "Home stations (ids from game-data/stations.json).",
+  "ids": [
+    "fire_ring",
+    "stone_fireplace",
+    "straw_bed",
+    "makeshift_bed",
+    "workbench",
+    "wooden_chest",
+    "smoking_rack",
+    "water_funnel",
+    "clay_oven",
+    "screw_press",
+    "stationary_scutcher",
+    "shrine",
+    "solar_array",
+    "simple_hut",
+    "lean_to",
+    "log_hut",
+    "insulated_cabin",
+    "stone_cottage"
+  ]
+}

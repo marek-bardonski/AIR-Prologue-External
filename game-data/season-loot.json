@@ -1,0 +1,82 @@
+{
+  "//": "What the wild gives by season. Prologue design values (26.09.2026), temperate north-east as the model; the base loot tables describe late summer, which is when a run wakes, so late summer has no rules at all. Code: src/game/loot/Seasonal.js (LootRoller.rollTable applies it through opts.season / opts.phase from LootRoller.worldOpts). Each rule names tables (exact ids, 'prefix*', or '@group' from tableGroups) and then, in order: `remove` (weight 0), `weight` (multipliers by item id or '@group'), `add` (new entries). A season's `all` rules run first, then its phase's (early = days 1-30, mid = 31-60, late = 61-91). House, shop, clinic, workshop and laboratory tables are never named: what people stored does not care what month it is.",
+  "tableGroups": {
+    "wild": ["field", "forest_common", "forest_dense", "river", "hills", "farm_field", "orchard"],
+    "woods": ["forest_common", "forest_dense"],
+    "fields": ["field", "farm_field", "farm"]
+  },
+  "groups": {
+    "greens": ["veggy_wild", "carrot_wild", "raw_dandelion", "wild_herbs", "thyme", "wild_garlic", "raw_burdock", "chicory_raw", "cattail_stalk", "bee_balm", "chicory_leaves", "mugwort", "grape_leaves", "horseradish_greens", "plant_stalk"],
+    "berries": ["blueberries", "raspberries", "blackberries", "strawberries", "chokeberries", "cranberries", "huckleberries", "mulberries", "nannyberries", "elderberries", "rose_hips", "hobbleberries", "autumn_olive", "tupelo_fruit", "m_stellatum_berries"],
+    "orchardFruit": ["apple", "pear", "peach", "plums", "pomegranate", "crabapple", "cherries", "grapes", "apricot"],
+    "garden": ["tomato", "tomato_cut", "zucchini", "eggplant", "cucumber", "cucumber_cut", "pumpkin", "pumpkin_cut", "chili_pepper", "chili_pepper_cut", "raw_beans", "soybean", "carrot", "cabbage_head", "broccoli", "spinach", "celery", "lettuce_head", "radish_taproot", "gherkin"],
+    "nuts": ["acorns", "acorns_cooked", "walnut", "walnut_shelled", "almond_shelled", "pine_nuts", "beech_nuts", "hazelnut", "chestnut", "hickory_nut", "pecan", "butternut"],
+    "mushrooms": ["mushroom"],
+    "honey": ["honeycomb"],
+    "fallenWood": ["stick", "stick_long", "splinter", "log"],
+    "dryTinder": ["withered", "straw_pile", "leaves"]
+  },
+  "freshPlantFood": ["@greens", "@berries", "@orchardFruit", "@garden", "@mushrooms"],
+  "overlays": {
+    "spring": {
+      "all": [
+        { "tables": ["@wild", "farm"], "remove": ["@berries", "@orchardFruit", "@garden", "@mushrooms"], "weight": { "@nuts": 0.3, "@honey": 0.3 } }
+      ],
+      "early": [
+        { "tables": ["@wild"], "weight": { "@greens": 0.4, "@dryTinder": 0.6 } }
+      ],
+      "mid": [
+        { "tables": ["@wild"], "weight": { "@greens": 1.5 } },
+        { "tables": ["@woods"], "add": [{ "item": "wild_garlic", "weight": 4, "count": [1, 3] }] },
+        { "tables": ["field"], "weight": { "raw_dandelion": 2 } }
+      ],
+      "late": [
+        { "tables": ["@wild"], "weight": { "@greens": 1.5 } },
+        { "tables": ["field", "farm_field"], "add": [{ "item": "strawberries", "weight": 4, "count": [2, 6] }] }
+      ]
+    },
+    "summer": {
+      "early": [
+        { "tables": ["@wild", "farm"], "remove": ["@orchardFruit"], "weight": { "@berries": 0.5, "@garden": 0.3, "@nuts": 0.3 } },
+        { "tables": ["field", "farm_field"], "add": [{ "item": "strawberries", "weight": 5, "count": [2, 6] }] }
+      ],
+      "mid": [
+        { "tables": ["@wild", "farm"], "weight": { "@orchardFruit": 0.3, "@garden": 0.7, "@nuts": 0.3 } }
+      ]
+    },
+    "autumn": {
+      "all": [
+        { "tables": ["@wild"], "weight": { "@dryTinder": 1.3 } }
+      ],
+      "early": [
+        { "tables": ["@wild", "farm"], "weight": { "@berries": 0.6, "@orchardFruit": 1.5, "@nuts": 2 } },
+        { "tables": ["forest_common"], "add": [{ "item": "mushroom", "weight": 5, "count": [1, 4] }, { "item": "acorns", "weight": 4, "count": [4, 12] }, { "item": "walnut", "weight": 2, "count": [2, 6] }] },
+        { "tables": ["forest_dense"], "add": [{ "item": "mushroom", "weight": 6, "count": [1, 4] }] }
+      ],
+      "mid": [
+        { "tables": ["@wild", "farm"], "remove": ["@berries"], "weight": { "@garden": 0.5, "pumpkin": 2, "@greens": 0.6, "@nuts": 3 } },
+        { "tables": ["forest_common"], "add": [{ "item": "mushroom", "weight": 6, "count": [1, 5] }, { "item": "acorns", "weight": 6, "count": [4, 12] }, { "item": "walnut", "weight": 3, "count": [2, 6] }] },
+        { "tables": ["forest_dense"], "add": [{ "item": "mushroom", "weight": 7, "count": [1, 5] }] }
+      ],
+      "late": [
+        { "tables": ["@wild", "farm"], "remove": ["@berries", "tomato", "tomato_cut", "zucchini", "eggplant", "cucumber", "cucumber_cut", "chili_pepper", "chili_pepper_cut"], "weight": { "@orchardFruit": 0.3, "@greens": 0.2, "@nuts": 1.5, "@fallenWood": 1.2 } },
+        { "tables": ["@woods"], "add": [{ "item": "mushroom", "weight": 2, "count": [1, 3] }, { "item": "acorns", "weight": 3, "count": [2, 8] }] }
+      ]
+    },
+    "winter": {
+      "all": [
+        { "tables": ["@wild", "farm"], "remove": ["@greens", "@berries", "@orchardFruit", "@garden", "@mushrooms", "@honey"], "weight": { "@nuts": 0.2, "@fallenWood": 1.5, "bone": 1.5, "withered": 0.5, "straw_pile": 0.5, "leaves": 0.3 } },
+        { "tables": ["@woods"], "add": [{ "item": "log", "weight": 3, "count": [1, 1] }, { "item": "stick_long", "weight": 8, "count": [1, 3] }] }
+      ]
+    }
+  },
+  "preservation": {
+    "//": "Cold keeps food. Food and carcasses age at the rate for the temperature of the place they lie (points in between are read on the line between the two nearest): the ground or a store takes the hex's air, the pack is kept warm by the body (never under packMinC). Below freezeBelowC for freezeMinutes, food freezes and must thaw (thawAboveC for thawMinutes, or a burning hearth on the hex) before it can be eaten. Water in a vessel freezes too.",
+    "rateByC": [[0, 0], [4, 0.25], [10, 0.5], [20, 1]],
+    "packMinC": 10,
+    "freezeBelowC": 0,
+    "freezeMinutes": 60,
+    "thawAboveC": 5,
+    "thawMinutes": 60
+  }
+}

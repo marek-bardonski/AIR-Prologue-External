@@ -1,0 +1,345 @@
+{
+  "group": "p28_b07_clothing",
+  "source": "28.09.2026 first-priority import, batch 7: winter and work clothing",
+  "items": [
+    {
+      "id": "winter_jacket_army",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "winter_pants_army",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "winter_gloves_army",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "ski_jacket",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "goggles_ski",
+      "loot": [
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "knit_scarf",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "long_knit_scarf",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "scarf_fur",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "scarf_fur_long",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "gloves_faux_fur",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "boots_fur",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "knee_high_boots",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "pants_hiking",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "denim_overalls",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "jumpsuit",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "technician_coveralls",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 2
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 2
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "beekeeping_suit",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "beekeeping_gloves",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "fishing_waders",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 2
+        },
+        {
+          "table": "house_clothes",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "hat_field",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "wool_hoodie",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "greatcoat",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "coat_straw",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "folding_poncho",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:boots_fur",
+    "recipe:coat_straw",
+    "recipe:denim_overalls",
+    "recipe:gloves_faux_fur",
+    "recipe:greatcoat",
+    "recipe:jumpsuit",
+    "recipe:knit_scarf",
+    "recipe:long_knit_scarf",
+    "recipe:scarf_fur",
+    "recipe:scarf_fur_long",
+    "recipe:scarf_fur_long:merge_scarves",
+    "recipe:wool_hoodie"
+  ],
+  "notes": []
+}

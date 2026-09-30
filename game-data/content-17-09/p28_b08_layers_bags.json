@@ -1,0 +1,339 @@
+{
+  "group": "p28_b08_layers_bags",
+  "source": "28.09.2026 first-priority import, batch 8: primitive and under layers, padded armour, quilts, bags",
+  "items": [
+    {
+      "id": "hood_gut",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "coat_gut",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "helmet_bike",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        },
+        {
+          "table": "road",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "under_armor",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "tights",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "bellywrap_wool",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "quilt",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 2
+        },
+        {
+          "table": "house_clothes",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "quilt_patchwork",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "tailoring_cooperative",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "gambeson_wool",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "aketon_wool",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "daypack",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "backpack_hiking",
+      "loot": [
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "backpack_hunting",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 1
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "bigback",
+      "loot": [
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 1
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "dry_bag",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "runner_bag",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "duffelbag_gym_m",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "leg_small_bag",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "camera_bag",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "legrig",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "armrig",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "bigtrapper_pack",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "sheet_felt",
+      "loot": [
+        {
+          "table": "tailoring_cooperative_supplies",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "scrap_felt",
+      "loot": [
+        {
+          "table": "tailoring_cooperative",
+          "weight": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:aketon_wool",
+    "recipe:armrig",
+    "recipe:backpack_hiking",
+    "recipe:bellywrap_wool",
+    "recipe:bigback",
+    "recipe:bigtrapper_pack",
+    "recipe:camera_bag",
+    "recipe:coat_gut",
+    "recipe:daypack",
+    "recipe:dry_bag",
+    "recipe:gambeson_wool",
+    "recipe:hood_gut",
+    "recipe:leg_small_bag",
+    "recipe:legrig",
+    "recipe:quilt",
+    "recipe:quilt_patchwork",
+    "recipe:runner_bag",
+    "recipe:under_armor"
+  ],
+  "notes": [
+    "boots_bone left out: CDDA's 'occult boots' do not fit the Prologue.",
+    "quilt and quilt_patchwork pulled forward from the bedding batch: the wool gambeson and aketon are sewn from them.",
+    "sheet_felt and scrap_felt pulled forward: the quilt is sewn from felt."
+  ]
+}

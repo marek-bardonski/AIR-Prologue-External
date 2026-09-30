@@ -1,0 +1,405 @@
+{
+  "source": "Unchanged CDDA 0.I recipes using already enabled components and tools; food preservation, storage, clothing, protection and field equipment",
+  "recipes": [
+    {
+      "id": "cordage_36",
+      "key": "recipe:cordage_36"
+    },
+    {
+      "id": "cordage_36",
+      "key": "recipe:cordage_36:electric_spinwheel_plant"
+    },
+    {
+      "id": "cordage_36",
+      "key": "recipe:cordage_36:electric_spinwheel_ropes"
+    },
+    {
+      "id": "cordage_36",
+      "key": "recipe:cordage_36:from_cordage_6"
+    },
+    {
+      "id": "cordage_36",
+      "key": "recipe:cordage_36:spinwheel_plant"
+    },
+    {
+      "id": "cordage_36",
+      "key": "recipe:cordage_36:spinwheel_ropes"
+    },
+    {
+      "id": "sheet_canvas",
+      "key": "recipe:sheet_canvas:electric_spinwheel"
+    },
+    {
+      "id": "sheet_canvas",
+      "key": "recipe:sheet_canvas:spinningwheel"
+    },
+    {
+      "id": "sheet_canvas",
+      "key": "recipe:sheet_canvas:hand_weaving"
+    },
+    {
+      "id": "thread_canvas",
+      "key": "recipe:thread_canvas:from_thread"
+    },
+    {
+      "id": "thread_canvas",
+      "key": "recipe:thread_canvas:with_electric_spinwheel"
+    },
+    {
+      "id": "thread_canvas",
+      "key": "recipe:thread_canvas:with_spinningwheel"
+    },
+    {
+      "id": "survivor_adhoc_leather_torso",
+      "key": "recipe:survivor_adhoc_leather_torso:sheets"
+    },
+    {
+      "id": "armor_scrapsuit",
+      "key": "recipe:armor_scrapsuit"
+    },
+    {
+      "id": "bo",
+      "key": "recipe:bo:from long stick"
+    },
+    {
+      "id": "bo",
+      "key": "recipe:bo:from quarterstaff"
+    },
+    {
+      "id": "dry_fish",
+      "key": "recipe:dry_fish"
+    },
+    {
+      "id": "dry_fish",
+      "key": "recipe:dry_fish:frozen_ingredients"
+    },
+    {
+      "id": "dry_fruit",
+      "key": "recipe:dry_fruit"
+    },
+    {
+      "id": "dry_fruit",
+      "key": "recipe:dry_fruit:frozen_ingredients"
+    },
+    {
+      "id": "dry_mushroom",
+      "key": "recipe:dry_mushroom"
+    },
+    {
+      "id": "dry_mushroom",
+      "key": "recipe:dry_mushroom:frozen_ingredients"
+    },
+    {
+      "id": "dry_poultry",
+      "key": "recipe:dry_poultry"
+    },
+    {
+      "id": "dry_poultry",
+      "key": "recipe:dry_poultry:frozen_ingredients"
+    },
+    {
+      "id": "dry_veggy",
+      "key": "recipe:dry_veggy"
+    },
+    {
+      "id": "dry_veggy",
+      "key": "recipe:dry_veggy:frozen_ingredients"
+    },
+    {
+      "id": "espadrilles",
+      "key": "recipe:espadrilles"
+    },
+    {
+      "id": "espadrilles",
+      "key": "recipe:espadrilles:from_rope"
+    },
+    {
+      "id": "flour_wheat_free",
+      "key": "recipe:flour_wheat_free:mortar"
+    },
+    {
+      "id": "gloves_fingerless",
+      "key": "recipe:gloves_fingerless"
+    },
+    {
+      "id": "gloves_fingerless",
+      "key": "recipe:gloves_fingerless:from patches"
+    },
+    {
+      "id": "gloves_wool_fingerless",
+      "key": "recipe:gloves_wool_fingerless"
+    },
+    {
+      "id": "grass_blanket",
+      "key": "recipe:grass_blanket"
+    },
+    {
+      "id": "juice",
+      "key": "recipe:juice"
+    },
+    {
+      "id": "juice",
+      "key": "recipe:juice:fresh"
+    },
+    {
+      "id": "leather_funnel",
+      "key": "recipe:leather_funnel"
+    },
+    {
+      "id": "leather_funnel",
+      "key": "recipe:leather_funnel:from_sheets"
+    },
+    {
+      "id": "leather_tarp",
+      "key": "recipe:leather_tarp"
+    },
+    {
+      "id": "leather_tarp",
+      "key": "recipe:leather_tarp:from_pelts"
+    },
+    {
+      "id": "long_undertop_sleeveless",
+      "key": "recipe:long_undertop_sleeveless"
+    },
+    {
+      "id": "meal_bone",
+      "key": "recipe:meal_bone:mortar"
+    },
+    {
+      "id": "primitive_shovel",
+      "key": "recipe:primitive_shovel"
+    },
+    {
+      "id": "primitive_shovel",
+      "key": "recipe:primitive_shovel:blade_from_log"
+    },
+    {
+      "id": "salsa",
+      "key": "recipe:salsa:with_knife"
+    },
+    {
+      "id": "shorts_cargo",
+      "key": "recipe:shorts_cargo"
+    },
+    {
+      "id": "shorts_cargo",
+      "key": "recipe:shorts_cargo:from_pants"
+    },
+    {
+      "id": "sleeveless_tunic",
+      "key": "recipe:sleeveless_tunic"
+    },
+    {
+      "id": "starch",
+      "key": "recipe:starch:from_fibrous_stuff"
+    },
+    {
+      "id": "stockings_tent_arms",
+      "key": "recipe:stockings_tent_arms"
+    },
+    {
+      "id": "stockings_tent_legs",
+      "key": "recipe:stockings_tent_legs"
+    },
+    {
+      "id": "tshirt_cropped",
+      "key": "recipe:tshirt_cropped"
+    },
+    {
+      "id": "tshirt_cropped",
+      "key": "recipe:tshirt_cropped:cutting"
+    },
+    {
+      "id": "backpack_leather",
+      "key": "recipe:backpack_leather"
+    },
+    {
+      "id": "bandages_makeshift_boiled",
+      "key": "recipe:bandages_makeshift_boiled"
+    },
+    {
+      "id": "bastsandals",
+      "key": "recipe:bastsandals"
+    },
+    {
+      "id": "beansnrice",
+      "key": "recipe:beansnrice"
+    },
+    {
+      "id": "bellyband",
+      "key": "recipe:bellyband"
+    },
+    {
+      "id": "bigframe_pack",
+      "key": "recipe:bigframe_pack"
+    },
+    {
+      "id": "bindle",
+      "key": "recipe:bindle"
+    },
+    {
+      "id": "birchbark_funnel",
+      "key": "recipe:birchbark_funnel"
+    },
+    {
+      "id": "bookplate",
+      "key": "recipe:bookplate"
+    },
+    {
+      "id": "boots_larmor",
+      "key": "recipe:boots_larmor"
+    },
+    {
+      "id": "boots_scrap",
+      "key": "recipe:boots_scrap"
+    },
+    {
+      "id": "bootsheath",
+      "key": "recipe:bootsheath"
+    },
+    {
+      "id": "bootsheath_birchbark",
+      "key": "recipe:bootsheath_birchbark"
+    },
+    {
+      "id": "box_large_reinforced",
+      "key": "recipe:box_large_reinforced"
+    },
+    {
+      "id": "box_large_wood",
+      "key": "recipe:box_large_wood"
+    },
+    {
+      "id": "box_medium_wood",
+      "key": "recipe:box_medium_wood"
+    },
+    {
+      "id": "boxpack",
+      "key": "recipe:boxpack"
+    },
+    {
+      "id": "broth",
+      "key": "recipe:broth"
+    },
+    {
+      "id": "broth_meat",
+      "key": "recipe:broth_meat"
+    },
+    {
+      "id": "canteen_wood",
+      "key": "recipe:canteen_wood"
+    },
+    {
+      "id": "carpet_cuirass",
+      "key": "recipe:carpet_cuirass"
+    },
+    {
+      "id": "carpet_legguards",
+      "key": "recipe:carpet_legguards"
+    },
+    {
+      "id": "apron_cotton",
+      "key": "recipe:apron_cotton"
+    },
+    {
+      "id": "apron_leather",
+      "key": "recipe:apron_leather"
+    },
+    {
+      "id": "arm_warmers",
+      "key": "recipe:arm_warmers"
+    },
+    {
+      "id": "armguard_larmor",
+      "key": "recipe:armguard_larmor"
+    },
+    {
+      "id": "arrow_fire_hardened_fletched",
+      "key": "recipe:arrow_fire_hardened_fletched"
+    },
+    {
+      "id": "arrow_small_game_fletched",
+      "key": "recipe:arrow_small_game_fletched"
+    },
+    {
+      "id": "bolt_crude",
+      "key": "recipe:bolt_crude"
+    },
+    {
+      "id": "bolt_simple_small_game",
+      "key": "recipe:bolt_simple_small_game"
+    },
+    {
+      "id": "bolt_simple_wood",
+      "key": "recipe:bolt_simple_wood"
+    },
+    {
+      "id": "brain_cooked",
+      "key": "recipe:brain_cooked"
+    },
+    {
+      "id": "cloak_leather",
+      "key": "recipe:cloak_leather"
+    },
+    {
+      "id": "cloth_shirt_padded",
+      "key": "recipe:cloth_shirt_padded"
+    },
+    {
+      "id": "duster_fur",
+      "key": "recipe:duster_fur"
+    },
+    {
+      "id": "fur_rollmat",
+      "key": "recipe:fur_rollmat"
+    },
+    {
+      "id": "gloves_fur",
+      "key": "recipe:gloves_fur"
+    },
+    {
+      "id": "gloves_leather",
+      "key": "recipe:gloves_leather"
+    },
+    {
+      "id": "helmet_scrap",
+      "key": "recipe:helmet_scrap"
+    },
+    {
+      "id": "lard",
+      "key": "recipe:lard"
+    },
+    {
+      "id": "leather_pouch",
+      "key": "recipe:leather_pouch"
+    },
+    {
+      "id": "leathersandals",
+      "key": "recipe:leathersandals"
+    },
+    {
+      "id": "long_underpants",
+      "key": "recipe:long_underpants"
+    },
+    {
+      "id": "makeshift_knapsack",
+      "key": "recipe:makeshift_knapsack"
+    },
+    {
+      "id": "pants_cargo",
+      "key": "recipe:pants_cargo"
+    },
+    {
+      "id": "shoes_birchbark",
+      "key": "recipe:shoes_birchbark"
+    },
+    {
+      "id": "straw_hat",
+      "key": "recipe:straw_hat"
+    },
+    {
+      "id": "straw_sandals",
+      "key": "recipe:straw_sandals"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "group": "p28_f04_dishes",
+  "source": "28.09.2026 next-1000 import: casseroles, fruit and vegetable dishes, canned meat and fish",
+  "items": [
+    {
+      "id": "lazy_lobster_casserole",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "tuna_noodle_casserole",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "apple_sugar",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "blueberries_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "can_peach",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "can_pineapple",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "hardtack_pudding",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "strawberries_cooked",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "brandied_fruit",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "jerusalem_artichoke_fruitmash",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pumpkin_yeast_bread",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "burdock_fried",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "dandelionburdock_fried",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "pizza_veggy",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "rehydrated_corn_kernels",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "rehydrated_veggy",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "samosa_veggy",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "succotash_deluxe",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "veggy_aspic",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "veggy_pickled_fried",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "bamboo_fried",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "cooked_burdock_stalk",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fiddlehead_boiled",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fiddlehead_sauteed",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "jerusalem_artichoke_sauteed",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "kombu",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "melitzanosalata",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "onigiri",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sauerkraut_onions",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "spaghetti_pesto",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "sushi_veggyroll",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "tofu_rice",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "tofu_stirfry",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "bologna",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "can_chicken",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "can_chowder",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "can_clams",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "can_herring",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "can_salmon",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "chicken_fried_buttermilk",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "fiddlehead_raw",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "river",
+          "weight": 0.5
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "fiddlehead_raw",
+      "contamination": [
+        {
+          "disease": "bad_food",
+          "probability": 30
+        }
+      ],
+      "//": "raw fiddleheads upset the stomach: CDDA's POISON use action is not run here, so a food-poisoning risk instead"
+    },
+    {
+      "type": "ITEM",
+      "id": "can_peach",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "30 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "can_pineapple",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "can_chicken",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "can_chowder",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "can_clams",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "can_salmon",
+      "spoils_in": "540 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:apple_sugar:vacuum_packed",
+    "recipe:tofu_rice",
+    "recipe:tofu_stirfry"
+  ],
+  "recipesExpected": [
+    "recipe:bamboo_fried",
+    "recipe:bologna",
+    "recipe:brandied_fruit",
+    "recipe:brandied_fruit:jarred",
+    "recipe:brandied_fruit:jarred_3l",
+    "recipe:burdock_fried",
+    "recipe:can_chicken",
+    "recipe:can_chicken:canned_big",
+    "recipe:can_chicken:canned_medium",
+    "recipe:can_chicken:jarred",
+    "recipe:can_chicken:jarred_3l",
+    "recipe:can_chowder",
+    "recipe:chicken_fried_buttermilk",
+    "recipe:cooked_burdock_stalk",
+    "recipe:dandelionburdock_fried",
+    "recipe:fiddlehead_boiled",
+    "recipe:fiddlehead_sauteed:from_boiled",
+    "recipe:fiddlehead_sauteed:from_raw",
+    "recipe:hardtack_pudding",
+    "recipe:jerusalem_artichoke_fruitmash",
+    "recipe:jerusalem_artichoke_sauteed",
+    "recipe:kombu",
+    "recipe:kombu:frozen_ingredients",
+    "recipe:lazy_lobster_casserole",
+    "recipe:melitzanosalata:with_food_processor",
+    "recipe:melitzanosalata:with_knife",
+    "recipe:onigiri",
+    "recipe:pizza_veggy",
+    "recipe:pumpkin_yeast_bread",
+    "recipe:rehydrated_corn_kernels",
+    "recipe:rehydrated_veggy",
+    "recipe:samosa_veggy",
+    "recipe:sauerkraut_onions",
+    "recipe:spaghetti_pesto",
+    "recipe:succotash_deluxe",
+    "recipe:sushi_veggyroll",
+    "recipe:tuna_noodle_casserole",
+    "recipe:veggy_aspic",
+    "recipe:veggy_pickled_fried"
+  ],
+  "notes": []
+}

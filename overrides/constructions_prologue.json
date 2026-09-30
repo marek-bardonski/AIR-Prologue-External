@@ -1,0 +1,218 @@
+[
+  {
+    "//": "Same-id patches: fields replace the CDDA fields (no copy-from). Simplified station requirements for the Prologue."
+  },
+  {
+    "type": "construction",
+    "id": "constr_firering",
+    "qualities": [],
+    "components": [
+      [
+        [
+          "rock",
+          12
+        ]
+      ]
+    ],
+    "time": "15 m"
+  },
+  {
+    "type": "construction",
+    "id": "constr_stone_fireplace",
+    "qualities": [
+      [
+        {
+          "id": "HAMMER",
+          "level": 2
+        }
+      ]
+    ],
+    "components": [
+      [
+        [
+          "rock",
+          30
+        ]
+      ]
+    ],
+    "time": "120 m"
+  },
+  {
+    "type": "construction",
+    "id": "constr_makeshift_bed",
+    "qualities": [
+      [
+        {
+          "id": "HAMMER",
+          "level": 1
+        }
+      ]
+    ]
+  },
+  {
+    "type": "construction",
+    "id": "constr_chest",
+    "qualities": [
+      [
+        {
+          "id": "HAMMER",
+          "level": 1
+        }
+      ]
+    ],
+    "components": [
+      [
+        [
+          "wood_panel",
+          4
+        ],
+        [
+          "2x4",
+          8
+        ]
+      ],
+      [
+        [
+          "hinge",
+          2
+        ]
+      ],
+      [
+        [
+          "nails",
+          10,
+          "LIST"
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "construction",
+    "id": "constr_smoking_rack",
+    "qualities": [
+      [
+        {
+          "id": "HAMMER",
+          "level": 1
+        }
+      ],
+      [
+        {
+          "id": "CUT",
+          "level": 1
+        }
+      ]
+    ],
+    "components": [
+      [
+        [
+          "stick",
+          16
+        ],
+        [
+          "stick_long",
+          8
+        ],
+        [
+          "2x4",
+          8
+        ]
+      ],
+      [
+        [
+          "rock",
+          8
+        ]
+      ]
+    ],
+    "required_skills": [
+      [
+        "fabrication",
+        2
+      ],
+      [
+        "cooking",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "construction",
+    "id": "constr_clayoven",
+    "qualities": [
+      [
+        {
+          "id": "HAMMER",
+          "level": 1
+        }
+      ]
+    ],
+    "components": [
+      [
+        [
+          "rock",
+          30
+        ]
+      ],
+      [
+        [
+          "clay_lump",
+          15
+        ]
+      ],
+      [
+        [
+          "water",
+          2
+        ],
+        [
+          "water_clean",
+          2
+        ]
+      ]
+    ],
+    "required_skills": [
+      [
+        "fabrication",
+        3
+      ],
+      [
+        "survival",
+        1
+      ]
+    ]
+  },
+  {
+    "type": "construction",
+    "id": "constr_place_workbench",
+    "required_skills": [
+      [
+        "fabrication",
+        1
+      ]
+    ],
+    "time": "60 m",
+    "qualities": [
+      [
+        {
+          "id": "HAMMER",
+          "level": 1
+        }
+      ]
+    ],
+    "components": [
+      [
+        [
+          "2x4",
+          6
+        ]
+      ],
+      [
+        [
+          "nail",
+          12
+        ]
+      ]
+    ]
+  }
+]

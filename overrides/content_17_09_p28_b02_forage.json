@@ -1,0 +1,28 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_b02_forage. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "rose_hips",
+    "comestible_type": "INVALID",
+    "//": "INEDIBLE is not enforced; cut them open first (uncraft:rose_hips)"
+  },
+  {
+    "type": "ITEM",
+    "id": "spicebush_berries",
+    "comestible_type": "INVALID",
+    "//": "a seasoning (spice abstract is INEDIBLE)"
+  },
+  {
+    "type": "ITEM",
+    "id": "elderberries",
+    "contamination": [
+      {
+        "disease": "bad_food",
+        "probability": 40
+      }
+    ],
+    "//": "raw elderberries are toxic: CDDA's POISON use action is not run here, so they carry a food-poisoning risk instead (survey B-step)"
+  }
+]

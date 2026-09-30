@@ -1,0 +1,748 @@
+{
+  "group": "p29_b02_animal_foods",
+  "source": "29.09.2026 second 500 round 3: wild bird, reptile and frog eggs, freshwater roe, offal and wasteland sausage, egg and meat dishes, pet food and the remaining meat MRE entrees",
+  "items": [
+    {
+      "id": "egg_bluejay",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.15
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.105
+        }
+      ]
+    },
+    {
+      "id": "egg_cardinal",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.12
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.08399999999999999
+        },
+        {
+          "table": "field",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "egg_chickadee",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.12
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.08399999999999999
+        }
+      ]
+    },
+    {
+      "id": "egg_coot",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.2
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "egg_cormorant",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.075
+        }
+      ]
+    },
+    {
+      "id": "egg_crow",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.15
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.105
+        },
+        {
+          "table": "field",
+          "weight": 0.1
+        },
+        {
+          "table": "hills",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "egg_grebe",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.12
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "id": "egg_moorhen",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.14
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.07
+        }
+      ]
+    },
+    {
+      "id": "egg_pigeon",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.12
+        },
+        {
+          "table": "railway_depot",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "egg_raven",
+      "loot": [
+        {
+          "table": "hills",
+          "weight": 0.12
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.08
+        },
+        {
+          "table": "mountaineering_refuge",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "egg_robin",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.2
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.13999999999999999
+        },
+        {
+          "table": "field",
+          "weight": 0.1
+        },
+        {
+          "table": "orchard",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "egg_sparrow",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.15
+        },
+        {
+          "table": "farm_field",
+          "weight": 0.1
+        },
+        {
+          "table": "field",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "egg_waxwing",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.08
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.055999999999999994
+        },
+        {
+          "table": "orchard",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "egg_woodpecker",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.1
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.06999999999999999
+        }
+      ]
+    },
+    {
+      "id": "egg_turtle_painted",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.15
+        },
+        {
+          "table": "field",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "egg_turtle_snapping_common",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.12
+        }
+      ]
+    },
+    {
+      "id": "egg_skink_fivelined",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.06
+        },
+        {
+          "table": "field",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "egg_wormsnake",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 0.05
+        },
+        {
+          "table": "hills",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "egg_bullfrog_frog",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "egg_salmon",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.1
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "egg_rainbow_trout",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.12
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.4
+        }
+      ]
+    },
+    {
+      "id": "egg_brook_trout",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.12
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "egg_pike",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "egg_walleye",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.1
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "egg_carp",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "egg_channel_catfish",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.12
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "egg_sturgeon_lake",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 0.03
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "caviar_egg_sandwich",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "fried_froglegs",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sarma",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sausage_wasteland_raw",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "sausage_wasteland",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.06
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "offal",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "offal_cooked",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "t\u00d6ttchen",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "blood_pancakes",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "catfood",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.15
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "catfood_raw",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "catfood_dry",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "id": "dogfood",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.15
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.25
+        },
+        {
+          "table": "farm",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "dogfood_raw",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "dogfood_dry",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.25
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "mre_hotdog",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.6
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mre_chickenpesto",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.6
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mre_chickenburritobowl",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.6
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mre_hashbrownbacon",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.6
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mre_lobstermedley",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.6
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mre_maplesausage",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.6
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mre_pepperjackbeef",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.6
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mre_southwestbeef",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.6
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.2
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "catfood",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    },
+    {
+      "type": "ITEM",
+      "id": "dogfood",
+      "spoils_in": "1095 days",
+      "air_open_spoils_in": "24 hours",
+      "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:blood_pancakes",
+    "recipe:catfood:canned",
+    "recipe:catfood:canned_big",
+    "recipe:catfood:canned_medium",
+    "recipe:catfood:from_ingredients",
+    "recipe:catfood:from_raw_catfood",
+    "recipe:catfood:jarred",
+    "recipe:catfood:jarred_3l",
+    "recipe:catfood_raw",
+    "recipe:caviar_egg_sandwich",
+    "recipe:dogfood:canned",
+    "recipe:dogfood:canned_big",
+    "recipe:dogfood:from_ingredients",
+    "recipe:dogfood:from_raw_dogfood",
+    "recipe:dogfood:jarred",
+    "recipe:dogfood:jarred_3l",
+    "recipe:dogfood_raw",
+    "recipe:fried_froglegs",
+    "recipe:sarma",
+    "recipe:sausage_wasteland",
+    "recipe:sausage_wasteland:smoke",
+    "recipe:sausage_wasteland_raw",
+    "recipe:t\u00d6ttchen"
+  ],
+  "notes": [
+    "bird and reptile eggs join CDDA's eggs_bird / eggs_reptile lists and roe joins eggs_roe, so every egg dish and curing roe accepts them",
+    "cat and dog food tins keep like other canned food while sealed (same override pattern as meat_canned)"
+  ]
+}

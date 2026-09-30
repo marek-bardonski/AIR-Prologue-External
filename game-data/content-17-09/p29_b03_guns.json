@@ -1,0 +1,1089 @@
+{
+  "group": "p29_b03_guns",
+  "source": "29.09.2026 firearms import, round 3: new calibres (5.45x39, .270 Win, .300 Win Mag, .300 BLK, .357 SIG, .38 Super, .50 AE, .454/.460/.500, 5.7x28, 4.6x30) with guns, rounds, hand-load chains, cases and filled boxes",
+  "items": [
+    {
+      "id": "ak74_semi",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.08,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "remington700_270",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "win70",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.05,
+          "minDanger": 3
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "ruger_pr",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "sig_mcx_rattler_sbr",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.08,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "p226_357sig",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.06,
+          "minDanger": 4
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "p320_357sig",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "m1911a1_38super",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "modular_deagle",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "raging_bull",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "460_xvr",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "sw_500",
+      "loot": [
+        {
+          "table": "ranger_station",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "fn57",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "minDanger": 3
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "fn_ps90",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "hk_mp7",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.08,
+          "minDanger": 4
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "545",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.3,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "270win_jsp",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.25,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "300_winmag",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.15,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "300blk",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "300blk_ss",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "charges": [
+            10,
+            30
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "357sig_fmj",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.15,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "357sig_jhp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "38_super",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01,
+          "charges": [
+            6,
+            24
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "50ae_jhp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "charges": [
+            5,
+            14
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            5,
+            14
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "50ae_fmj",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            5,
+            14
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02,
+          "charges": [
+            5,
+            14
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "454_Casull",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "460sw",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "500_Magnum",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "charges": [
+            5,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "57mm",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1,
+          "charges": [
+            10,
+            40
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            10,
+            40
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "46mm",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1,
+          "charges": [
+            10,
+            40
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "reloaded_545",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_545",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_357sig_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            6,
+            18
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_50ae_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            4,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            4,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_50ae_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            4,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            4,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_454_Casull",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.04,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "545_casing",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_545_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "357sig_casing",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_357sig_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "50ae_casing",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_50ae_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "454_casing",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "unprimed_454_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "357sig_ammo_box_50",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "fill": [
+            {
+              "item": "357sig_fmj",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "fill": [
+            {
+              "item": "357sig_fmj",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "38super_ammo_box_50",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.015,
+          "fill": [
+            {
+              "item": "38_super",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01,
+          "fill": [
+            {
+              "item": "38_super",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "454_ammo_box_20",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05,
+          "fill": [
+            {
+              "item": "454_Casull",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "460_ammo_box_20",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03,
+          "fill": [
+            {
+              "item": "460sw",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "57_ammo_box_50",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "fill": [
+            {
+              "item": "57mm",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "fill": [
+            {
+              "item": "57mm",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "300_ammo_box_20",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.06,
+          "fill": [
+            {
+              "item": "300_winmag",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005,
+          "fill": [
+            {
+              "item": "300_winmag",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ],
+          "minDanger": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "modular_deagle",
+      "ammo": [
+        "50ae"
+      ],
+      "//": "AIR has no conversion kits: the pistol is fixed in .50 AE, its best-known calibre"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:unprimed_50ae_casing"
+  ],
+  "recipesExpected": [
+    "recipe:bp_50ae_jhp",
+    "recipe:bp_545",
+    "recipe:reloaded_357sig_fmj",
+    "recipe:reloaded_454_Casull",
+    "recipe:reloaded_50ae_jhp",
+    "recipe:reloaded_545",
+    "recipe:unprimed_357sig_casing"
+  ],
+  "notes": [
+    "Big-bore revolvers and magnum rifles live at the ranger station, the AK-74, short .300 BLK rifle and MP7 at the checkpoint, the rest in houses and on the dead.",
+    "Hand-loading chains (case, primerless case, reloaded round) for 5.45x39, .357 SIG, .50 AE and .454; the other new calibres drop cases only once their case ids are added.",
+    "Every gun, round and full box row carries minDanger (29.09 policy)."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "//": "AIR acquisition colors only; never changes actual drops. Best supported route wins. Adjust per-source probability by location difficulty before applying thresholds. Creature evidence includes the weighted species mix per defeated encounter and full butchery; search evidence includes all rolls, zero-count outcomes and availability gates. Crafting inherits the hardest required ingredient using the easiest loaded alternative; skill and item-specific tier overrides never promote rarity. Unknown acquisition remains neutral.",
+  "thresholds": [
+    0.03,
+    0.01,
+    0.003,
+    0.001
+  ],
+  "difficultyMultipliers": [
+    1,
+    3,
+    10,
+    30,
+    100,
+    300
+  ],
+  "lootThresholds": [
+    0.05,
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "//loot": "Loot title colors use the greatest baseline find probability across loot sources, with no crafting, trade or danger bonus. Below 0.1% is epic; below 0.01% is legendary. Actual availability gates, not labels, keep selected finds scarce."
+}

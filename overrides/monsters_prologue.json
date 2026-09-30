@@ -1,0 +1,1733 @@
+[
+  {
+    "//": "Prologue reskins. New ids copy CDDA stat blocks unchanged; names and descriptions are Prologue text (CC-BY-SA, derived)."
+  },
+  {
+    "id": "mon_echo",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie",
+    "name": {
+      "str": "echo",
+      "str_pl": "echoes"
+    },
+    "description": "Someone you never really looked at, still going through the last thirty seconds their body remembers. It stops when you get close. Then it comes for you.",
+    "color": "light_gray"
+  },
+  {
+    "id": "mon_echo_hound",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_dog",
+    "name": {
+      "str": "echo hound"
+    },
+    "description": "A dog kept looping by an owner who no longer exists. It circles the same stretch of pavement and lunges at anything that breaks the pattern.",
+    "color": "light_gray"
+  },
+  {
+    "id": "mon_draft",
+    "type": "MONSTER",
+    "copy-from": "mon_feral_human_pipe",
+    "name": {
+      "str": "draft"
+    },
+    "description": "Someone wearing your face and your habits, holding a length of pipe. Whatever was tried before you was not kept, and it did not take that well.",
+    "color": "magenta"
+  },
+  {
+    "id": "mon_dog",
+    "type": "MONSTER",
+    "name": {
+      "str": "feral dog"
+    },
+    "description": "A dog that gave up on people some time ago. It wants your food, and it is not fussy about the difference between you and your food."
+  },
+  {
+    "id": "mon_wolf",
+    "type": "MONSTER",
+    "description": "A wolf. The woods filled up with them faster than made sense, or you remember more of them than there ever were. Either way it is faster than you.",
+    "size": "large"
+  },
+  {
+    "id": "mon_deer",
+    "type": "MONSTER",
+    "size": "large"
+  },
+  {
+    "id": "mon_boar_wild",
+    "type": "MONSTER",
+    "size": "large"
+  },
+  {
+    "id": "mon_rabbit",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_cat",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_turkey",
+    "type": "MONSTER",
+    "//": "Prologue balance: a turkey pecks twice as hard as the source's single die.",
+    "melee_dice": 2,
+    "size": "small"
+  },
+  {
+    "id": "mon_chicken",
+    "type": "MONSTER",
+    "description": "A domesticated descendant of junglefowl, probably the most numerous bird in the world. Kept for meat, eggs and early morning wake-up calls, and loud about all three.",
+    "size": "small"
+  },
+  {
+    "id": "mon_dog_chihuahua",
+    "type": "MONSTER",
+    "description": "A tiny Chihuahua with a very large opinion of itself. What it lacks in size it makes up for in noise and temper.",
+    "size": "small"
+  },
+  {
+    "id": "mon_groundhog",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_goose_canadian",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_duck",
+    "type": "MONSTER",
+    "description": "A common duck of rivers and ponds. It feeds on insects, seeds, roots and whatever else floats past.",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_squirrel",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_muskrat",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_fish_brown_trout",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_fish_lbass",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_fish_perch",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_bobcat",
+    "type": "MONSTER",
+    "size": "small",
+    "description": "A short cat built entirely out of shoulders, with tufted ears and no tail to speak of. It will trade a wound for a meal, but only one."
+  },
+  {
+    "id": "mon_raccoon",
+    "type": "MONSTER",
+    "size": "small",
+    "description": "Small, clever hands and a face that has already worked out where your food is. Cornered, it is worse than it looks."
+  },
+  {
+    "id": "mon_opossum",
+    "type": "MONSTER",
+    "size": "small",
+    "description": "Grey, bristled, and appalled to have met you. It will fall over and pretend to be finished before it will fight."
+  },
+  {
+    "id": "mon_wild_rabbit",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_hare",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_otter",
+    "type": "MONSTER",
+    "size": "small",
+    "description": "Low and fluid along the bank, all spine and whiskers. Curious enough to come close and quick enough to regret nothing."
+  },
+  {
+    "id": "mon_black_rat",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_chipmunk",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_crow",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_raven",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_grouse",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_pheasant",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_cormorant",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_gartersnake",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_turtle_painted",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_skink_fivelined",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_cougar",
+    "type": "MONSTER",
+    "size": "large",
+    "description": "A long cat the colour of dead grass. You hear nothing, and then the grass is much closer than it was."
+  },
+  {
+    "id": "mon_bear",
+    "type": "MONSTER",
+    "size": "large",
+    "hp": 85,
+    "melee_dice_sides": 5,
+    "description": "Bigger than the word had ever meant to you. It looks up, decides you are not worth hurrying for, and comes anyway."
+  },
+  {
+    "id": "mon_moose",
+    "type": "MONSTER",
+    "size": "huge",
+    "hp": 150,
+    "morale": 40,
+    "description": "A dark hill on four legs. It does not charge so much as arrive, and the ground tells you first."
+  },
+  {
+    "id": "mon_fox_red",
+    "type": "MONSTER",
+    "size": "small",
+    "hp": 14,
+    "aggression": -60,
+    "name": {
+      "str": "red fox",
+      "str_pl": "red foxes"
+    },
+    "description": "Rust and smoke, thin as a rumour, always already leaving. It watches from the treeline as if it knows how your winter ends."
+  },
+  {
+    "id": "mon_mink",
+    "type": "MONSTER",
+    "size": "tiny",
+    "hp": 8,
+    "description": "A dark ribbon of muscle that lives along the water. Small enough to ignore, fast enough to make you regret it."
+  },
+  {
+    "id": "mon_weasel",
+    "type": "MONSTER",
+    "size": "tiny",
+    "hp": 5,
+    "description": "Barely a handful of animal, and every gram of it teeth and bad temper."
+  },
+  {
+    "id": "mon_turtle_snapping_common",
+    "type": "MONSTER",
+    "size": "small",
+    "harvest": "mammal_small_leather",
+    "description": "Old, armoured and entirely out of patience. The neck comes out much further than anything with a shell should manage."
+  },
+  {
+    "id": "mon_fish_brook_trout",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_fish_rainbow_trout",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_fish_sbass",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_fish_pickerel",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_fish_walleye",
+    "type": "MONSTER",
+    "size": "small"
+  },
+  {
+    "id": "mon_fish_white_sucker",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_fish_bullhead",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_fish_bluegill",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_fish_pumpkinseed",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_fish_eel",
+    "type": "MONSTER",
+    "description": "An American eel, long and slippery. It keeps to the mud and silt by day and comes out to feed at night.",
+    "size": "small"
+  },
+  {
+    "id": "mon_fish_crayfish",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_bullfrog_frog",
+    "type": "MONSTER",
+    "size": "tiny"
+  },
+  {
+    "id": "mon_coyote",
+    "type": "MONSTER",
+    "description": "Thin, grey-brown and always in threes somewhere behind the first one. It has decided you are slow."
+  },
+  {
+    "id": "mon_beaver",
+    "type": "MONSTER",
+    "description": "Twenty kilos of muscle behind a pair of chisels. It would rather be in the water, and it will make that point with its teeth."
+  },
+  {
+    "id": "mon_stray_hack",
+    "type": "MONSTER",
+    "copy-from": "mon_manhack",
+    "name": {
+      "str": "stray cutter",
+      "str_pl": "stray cutters"
+    },
+    "description": "A palm-sized rotor frame ringed with blades, flying a patrol nobody has asked for in a long time. It finds you interesting the way a saw finds wood.",
+    "size": "tiny",
+    "speed": 150,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 4
+      }
+    ],
+    "armor": {
+      "bash": 1,
+      "cut": 6
+    },
+    "morale": 20
+  },
+  {
+    "id": "mon_watcher",
+    "type": "MONSTER",
+    "copy-from": "mon_lab_security_drone_GM",
+    "name": {
+      "str": "watcher drone",
+      "str_pl": "watcher drones"
+    },
+    "description": "A small quadcopter with one glass eye and a speaker that still asks for a badge you never had. It shoves more than it hurts, and it leaves when it is hit.",
+    "size": "tiny",
+    "melee_skill": 2,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "armor": {
+      "bash": 1,
+      "cut": 5
+    },
+    "aggression": 20,
+    "morale": 0,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_tripper",
+    "type": "MONSTER",
+    "copy-from": "mon_skitterbot",
+    "name": {
+      "str": "tripper",
+      "str_pl": "trippers"
+    },
+    "description": "A low six-legged inspection machine the size of a small dog, skating over the floor faster than it should. Two prongs at the front click blue whenever it gets near your ankles.",
+    "size": "small",
+    "melee_skill": 3,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "melee_damage": [
+      {
+        "damage_type": "electric",
+        "amount": 3
+      }
+    ],
+    "armor": {
+      "bash": 5,
+      "cut": 6
+    },
+    "dodge": 1,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_porter",
+    "type": "MONSTER",
+    "copy-from": "mon_grocerybot_busted",
+    "name": {
+      "str": "stalled porter",
+      "str_pl": "stalled porters"
+    },
+    "description": "A shop carrier with its arms hanging wrong, still holding them out for a bag. The painted smile has outlived the shop, the customers and the point.",
+    "special_attacks": []
+  },
+  {
+    "id": "mon_burrower",
+    "type": "MONSTER",
+    "copy-from": "mon_molebot",
+    "name": {
+      "str": "burrower",
+      "str_pl": "burrowers"
+    },
+    "description": "A segmented steel worm built to dig toward buried things and set them off. It moves slowly, surfaces without warning, and treats your feet as part of the ground.",
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 6
+      }
+    ],
+    "armor": {
+      "cut": 6
+    }
+  },
+  {
+    "id": "mon_ward",
+    "type": "MONSTER",
+    "copy-from": "mon_nursebot_defective",
+    "name": {
+      "str": "care unit",
+      "str_pl": "care units"
+    },
+    "description": "A tall four-armed attendant with a gentle moulded face, still keeping an appointment at a bedside nobody lies in. It reaches for you kindly. Whether the kindness is safe is not something you can tell from here.",
+    "hp": 60,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2
+      }
+    ],
+    "armor": {
+      "bash": 5,
+      "cut": 6
+    },
+    "dodge": 2,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_nurse_unit",
+    "type": "MONSTER",
+    "copy-from": "mon_nursebot",
+    "name": {
+      "str": "care unit",
+      "str_pl": "care units"
+    },
+    "description": "A tall four-armed attendant with a gentle moulded face, still keeping an appointment at a bedside nobody lies in. It reaches for you kindly. Whether the kindness is safe is not something you can tell from here.",
+    "hp": 60,
+    "melee_dice": 0,
+    "melee_dice_sides": 0,
+    "armor": {
+      "bash": 5,
+      "cut": 6
+    },
+    "dodge": 2,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_sweeper",
+    "type": "MONSTER",
+    "copy-from": "mon_hazmatbot",
+    "name": {
+      "str": "sweeper",
+      "str_pl": "sweepers"
+    },
+    "description": "A squat clean-up machine on wide treads, built to push hazardous waste into a hopper. It has reclassified you, and it is thorough.",
+    "size": "large",
+    "hp": 90,
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 5,
+    "melee_damage": [],
+    "armor": {
+      "bash": 6,
+      "cut": 7
+    }
+  },
+  {
+    "id": "mon_sentinel",
+    "type": "MONSTER",
+    "copy-from": "mon_science_bot",
+    "name": {
+      "str": "sentinel",
+      "str_pl": "sentinels"
+    },
+    "description": "A steel spider a little bigger than a person, its body pitted with small dark ports that hum. It places each leg carefully, like something told to keep the floor clear of visitors.",
+    "size": "large",
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 2
+      },
+      {
+        "damage_type": "electric",
+        "amount": 4
+      }
+    ],
+    "armor": {
+      "bash": 8,
+      "cut": 8
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_clearance_drone",
+    "type": "MONSTER",
+    "copy-from": "mon_lab_security_drone_BS",
+    "name": {
+      "str": "clearance drone",
+      "str_pl": "clearance drones"
+    },
+    "description": "A dark quadcopter that reads you once, finds no clearance, and stops asking. Wherever these fly, somebody once decided who was allowed to be here.",
+    "size": "tiny",
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 2
+      }
+    ],
+    "armor": {
+      "bash": 2,
+      "cut": 6
+    },
+    "aggression": 100,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_sentry_post",
+    "type": "MONSTER",
+    "copy-from": "mon_secubot",
+    "name": {
+      "str": "sentry post",
+      "str_pl": "sentry posts"
+    },
+    "description": "A tracked weapons mount, slow and heavy, turning its housing toward you with an old patience. It announces a hostile to an empty corridor and then comes to deal with it itself.",
+    "size": "large",
+    "hp": 120,
+    "melee_skill": 6,
+    "melee_dice": 4,
+    "melee_dice_sides": 6,
+    "attack_cost": 150,
+    "armor": {
+      "bash": 10,
+      "cut": 12
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_prototype",
+    "type": "MONSTER",
+    "copy-from": "mon_robofac_prototype",
+    "name": {
+      "str": "prototype",
+      "str_pl": "prototypes"
+    },
+    "description": "Half plated, cables showing between the panels, one lit eye sweeping the room. Someone built it to do one thing well and never got the chance to tell it when to stop.",
+    "speed": 110,
+    "melee_dice": 2,
+    "melee_dice_sides": 8,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 6
+      }
+    ],
+    "armor": {
+      "bash": 12,
+      "cut": 14
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_custodian",
+    "type": "MONSTER",
+    "copy-from": "mon_secubot",
+    "name": {
+      "str": "custodian",
+      "str_pl": "custodians"
+    },
+    "description": "A squat grey keeper on four rubber feet, built to walk the same corridors for ever and to notice what does not belong in them. It has noticed you. Its arms end in the tools it was given to tidy with.",
+    "hp": 160,
+    "speed": 95,
+    "melee_skill": 6,
+    "melee_dice": 3,
+    "melee_dice_sides": 7,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 7
+      }
+    ],
+    "armor": {
+      "bash": 12,
+      "cut": 14
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_arbiter",
+    "type": "MONSTER",
+    "copy-from": "mon_robofac_prototype",
+    "name": {
+      "str": "arbiter",
+      "str_pl": "arbiters"
+    },
+    "description": "Taller than a man and narrow as a door, plated in white that has never been outside. It moves without hurry and without sound, and it was made after the Recall, by something that had stopped needing people to build for it.",
+    "hp": 220,
+    "speed": 115,
+    "melee_skill": 8,
+    "melee_dice": 3,
+    "melee_dice_sides": 9,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 9
+      }
+    ],
+    "armor": {
+      "bash": 16,
+      "cut": 18
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_archivist",
+    "type": "MONSTER",
+    "copy-from": "mon_science_bot",
+    "name": {
+      "str": "archivist",
+      "str_pl": "archivists"
+    },
+    "description": "A rack of arms around a column of cold drives, gliding on a rail it lays for itself. It carries what the Steward remembers from room to room. It does not like to be interrupted, and it has a great many arms.",
+    "hp": 140,
+    "speed": 100,
+    "melee_skill": 7,
+    "melee_dice": 4,
+    "melee_dice_sides": 5,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 6
+      }
+    ],
+    "armor": {
+      "bash": 10,
+      "cut": 12
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_steward_warden",
+    "type": "MONSTER",
+    "copy-from": "mon_robofac_prototype",
+    "name": {
+      "str": "Warden",
+      "str_pl": "Wardens"
+    },
+    "description": "The last door has a keeper. It fills the corridor wall to wall, a white carapace over something that was once a loading frame, every joint doubled, one lens the size of a plate. The Steward has never needed anything else down here.",
+    "hp": 520,
+    "speed": 105,
+    "melee_skill": 10,
+    "melee_dice": 4,
+    "melee_dice_sides": 10,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 12
+      }
+    ],
+    "armor": {
+      "bash": 20,
+      "cut": 22
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_bat",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_cow",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "huge",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_horse",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "huge",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_pig",
+    "type": "MONSTER",
+    "description": "A domesticated omnivore descended from the wild boar, intelligent and inquisitive. Loose in the countryside, it has grown half wild and has the temper to show for it.",
+    "special_attacks": [],
+    "size": "large",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_sheep",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "large",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_goat",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "large",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fox_gray",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_skunk",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_sewer_rat",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_squirrel_red",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_ferret",
+    "type": "MONSTER",
+    "description": "A sleek, restless relative of the polecat, long kept as a pet and a ratter. Quick, curious and all teeth when cornered.",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_reindeer",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "large",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_llama",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "large",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_bull",
+    "type": "MONSTER",
+    "description": "An American bulldog: broad chest, heavy jaw and a stubborn streak. Hardy and well built, and it does not back down easily.",
+    "special_attacks": [],
+    "size": "medium",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_beagle",
+    "type": "MONSTER",
+    "description": "A beagle, all ears and nose. Small and agile, but not especially tough. Where there is one, there are usually others.",
+    "special_attacks": [],
+    "size": "medium",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_gshepherd",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "medium",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_dog_rottweiler",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "large",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_cat_longhair",
+    "type": "MONSTER",
+    "description": "This fluffy feline has longer hair than most. It looks beautiful and warm; you want to bury your face in its soft fur and forget everything else.",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_bluejay",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_cardinal",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_robin",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_sparrow",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_chickadee",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_waxwing",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_pigeon",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_hummingbird",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_woodpecker",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_coot",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "harvest": "bird_small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_moorhen",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "harvest": "bird_small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_grebe",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "harvest": "bird_small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_rattlesnake",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_wormsnake",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_leo_frog",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fowler_toad",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_freedom_toad",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_peeper_frog",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_gray_frog",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_mink_frog",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_green_frog",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_wood_frog",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_lake_trout",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_salmon",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_whitefish",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_pbass",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_rock_bass",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_calico_bass",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_channel_catfish",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_pike",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_carp",
+    "type": "MONSTER",
+    "description": "A golden-yellow common carp. Some people say they don't taste great, but out here you can't afford to be choosy.",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_bowfin",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "small",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_gar_longnose",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_burbot",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_sturgeon_lake",
+    "type": "MONSTER",
+    "description": "A very large armored bottom-feeder, the lake sturgeon is one of the biggest fish in the region's fresh water.",
+    "special_attacks": [],
+    "size": "medium",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_fish_sunfish",
+    "type": "MONSTER",
+    "special_attacks": [],
+    "size": "tiny",
+    "extend": {
+      "flags": [
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "id": "mon_shear_drone",
+    "type": "MONSTER",
+    "copy-from": "mon_stray_hack",
+    "name": {
+      "str": "shear drone",
+      "str_pl": "shear drones"
+    },
+    "description": "Two counter-rotating cutting discs hang below a small rotor frame. It trims a precise line through hanging cables and anything else in its path.",
+    "hp": 10,
+    "speed": 146,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_surveyor",
+    "type": "MONSTER",
+    "copy-from": "mon_watcher",
+    "name": {
+      "str": "surveyor",
+      "str_pl": "surveyors"
+    },
+    "description": "A twin-lens surveying drone rocks above the ground. Its measuring arms snap shut whenever something crosses the line between its lamps.",
+    "hp": 10,
+    "speed": 196,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_cable_walker",
+    "type": "MONSTER",
+    "copy-from": "mon_tripper",
+    "name": {
+      "str": "cable walker",
+      "str_pl": "cable walkers"
+    },
+    "description": "Six insulated feet carry a spool of trailing cable. It keeps trying to connect the live ends to anything warm enough to register on its sensor.",
+    "hp": 42,
+    "speed": 126,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_auger_unit",
+    "type": "MONSTER",
+    "copy-from": "mon_burrower",
+    "name": {
+      "str": "auger unit",
+      "str_pl": "auger units"
+    },
+    "description": "A squat tracked boring rig carries a scarred spiral drill. The damaged depth gauge never tells it to stop pushing.",
+    "hp": 88,
+    "speed": 38,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_orderly_unit",
+    "type": "MONSTER",
+    "copy-from": "mon_ward",
+    "name": {
+      "str": "orderly unit",
+      "str_pl": "orderly units"
+    },
+    "description": "A narrow attendant on three wheels unfolds two padded restraint arms. Its chest light blinks patiently while the arms keep closing.",
+    "hp": 58,
+    "speed": 104,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_compactor",
+    "type": "MONSTER",
+    "copy-from": "mon_sweeper",
+    "name": {
+      "str": "compactor",
+      "str_pl": "compactors"
+    },
+    "description": "A boxy refuse machine drags a dented compression jaw along the ground. It pauses over every obstruction, then tries to fold it into the hopper.",
+    "hp": 99,
+    "speed": 64,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_web_keeper",
+    "type": "MONSTER",
+    "copy-from": "mon_sentinel",
+    "name": {
+      "str": "web keeper",
+      "str_pl": "web keepers"
+    },
+    "description": "A low radial chassis tests the ground with eight fine legs. Loose wire trails between them, tightening as the machine draws closer.",
+    "hp": 76,
+    "speed": 104,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_cordon_unit",
+    "type": "MONSTER",
+    "copy-from": "mon_clearance_drone",
+    "name": {
+      "str": "cordon unit",
+      "str_pl": "cordon units"
+    },
+    "description": "A broad barrier plate hangs beneath a heavy rotor assembly. The plate advances first, pushing a shrinking circle around whatever the camera has marked.",
+    "hp": 10,
+    "speed": 184,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_gatewatch",
+    "type": "MONSTER",
+    "copy-from": "mon_sentry_post",
+    "name": {
+      "str": "gatewatch",
+      "str_pl": "gatewatchs"
+    },
+    "description": "An armoured post crawls on short treads beneath a swivel lamp. Its bent entry barrier sweeps the ground in short, forceful arcs.",
+    "hp": 130,
+    "speed": 38,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_patchwork_unit",
+    "type": "MONSTER",
+    "copy-from": "mon_prototype",
+    "name": {
+      "str": "patchwork unit",
+      "str_pl": "patchwork units"
+    },
+    "description": "Mismatched shell panels cover a frame repaired too many times. One long manipulator moves smoothly; the other jerks forward half a beat later.",
+    "hp": 48,
+    "speed": 113,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_freight_mule",
+    "type": "MONSTER",
+    "copy-from": "mon_porter",
+    "name": {
+      "str": "freight mule",
+      "str_pl": "freight mules"
+    },
+    "description": "A load platform balances on four broad wheels. Its lifting fork is locked down and its bent steering arm follows the nearest movement. When something crosses its path, it surges forward, driving the heavy frame into it.",
+    "hp": 86,
+    "speed": 95,
+    "//": "This damaged freight variant rams intruders; the stalled shop porter and medical service units remain passive.",
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 5,
+    "aggression": 50,
+    "delete": { "flags": ["PACIFIST", "PAY_BOT"] },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_field_medic",
+    "type": "MONSTER",
+    "copy-from": "mon_nurse_unit",
+    "name": {
+      "str": "field medic",
+      "str_pl": "field medics"
+    },
+    "description": "A wheeled medical trolley extends an empty tray and flashes a green cross. Its tools are gone, but it keeps waiting for somebody to take the dressing.",
+    "hp": 58,
+    "speed": 103,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_gantry_keeper",
+    "type": "MONSTER",
+    "copy-from": "mon_custodian",
+    "name": {
+      "str": "gantry keeper",
+      "str_pl": "gantry keepers"
+    },
+    "description": "An overhead lifting frame walks on two heavy stabilisers. The central grab swings with every step, searching for the next load to secure.",
+    "hp": 168,
+    "speed": 92,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_lock_keeper",
+    "type": "MONSTER",
+    "copy-from": "mon_arbiter",
+    "name": {
+      "str": "lock keeper",
+      "str_pl": "lock keepers"
+    },
+    "description": "Two thick shield panels protect a short hydraulic frame. Its locking arms slam shut with the precision of a door bolt.",
+    "hp": 229,
+    "speed": 113,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_indexer",
+    "type": "MONSTER",
+    "copy-from": "mon_archivist",
+    "name": {
+      "str": "indexer",
+      "str_pl": "indexers"
+    },
+    "description": "A narrow retrieval machine carries a fan of articulated probes. Each probe checks a different height as it advances along an aisle that no longer exists.",
+    "hp": 134,
+    "speed": 104,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_bulkhead_warden",
+    "type": "MONSTER",
+    "copy-from": "mon_arbiter",
+    "name": {
+      "str": "bulkhead warden",
+      "str_pl": "bulkhead wardens"
+    },
+    "description": "A broad service chassis wears a salvaged pressure door as its front plate. Behind it, exposed pistons drive a pair of heavy clamping arms.",
+    "hp": 230,
+    "speed": 110,
+    "special_attacks": []
+  },
+  {
+    "id": "mon_litter_picker",
+    "type": "MONSTER",
+    "copy-from": "mon_tripper",
+    "name": {
+      "str": "litter picker",
+      "str_pl": "litter pickers"
+    },
+    "description": "A knee-high park cleaner with a grabber claw on a long arm and a bin for a belly. It still clears the grass of anything that does not belong there, and it has decided that includes you.",
+    "size": "small",
+    "hp": 22,
+    "speed": 90,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 2
+      }
+    ],
+    "armor": {
+      "bash": 3,
+      "cut": 4
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_hedge_trimmer",
+    "type": "MONSTER",
+    "copy-from": "mon_stray_hack",
+    "name": {
+      "str": "hedge trimmer",
+      "str_pl": "hedge trimmers"
+    },
+    "description": "A garden drone with a toothed bar slung under its rotors, built to square off hedges. It squares off everything else as well, badly.",
+    "size": "tiny",
+    "hp": 8,
+    "speed": 130,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 3
+      }
+    ],
+    "armor": {
+      "bash": 1,
+      "cut": 4
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_meter_reader",
+    "type": "MONSTER",
+    "copy-from": "mon_stray_hack",
+    "name": {
+      "str": "meter reader",
+      "str_pl": "meter readers"
+    },
+    "description": "A utility company's flying meter reader, its orange paint gone chalky. It hovers far too close, trying to read a number off you that is not there, and bumps you when it gets no answer.",
+    "size": "tiny",
+    "hp": 8,
+    "speed": 150,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 1
+      }
+    ],
+    "armor": {
+      "bash": 1,
+      "cut": 3
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_pipe_crawler",
+    "type": "MONSTER",
+    "copy-from": "mon_tripper",
+    "name": {
+      "str": "pipe crawler",
+      "str_pl": "pipe crawlers"
+    },
+    "description": "A drain-inspection crawler on rubber tracks, a camera on a bendy neck and a lamp that still works. It came up out of a culvert and has not found the way back down.",
+    "size": "small",
+    "hp": 18,
+    "speed": 100,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 2
+      }
+    ],
+    "armor": {
+      "bash": 4,
+      "cut": 4
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_lawn_unit",
+    "type": "MONSTER",
+    "copy-from": "mon_tripper",
+    "name": {
+      "str": "lawn unit",
+      "str_pl": "lawn units"
+    },
+    "description": "A robot mower, low and wide, the blade guard long since knocked off. It keeps its lines straight, and you are standing in one of them.",
+    "size": "small",
+    "hp": 30,
+    "speed": 80,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 3
+      }
+    ],
+    "armor": {
+      "bash": 6,
+      "cut": 6
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_pollinator",
+    "type": "MONSTER",
+    "copy-from": "mon_stray_hack",
+    "name": {
+      "str": "pollinator drone",
+      "str_pl": "pollinator drones"
+    },
+    "description": "An orchard drone no bigger than a fist, its brush arms worn down to bristly stubs. It darts at anything bright and jabs with what is left.",
+    "size": "tiny",
+    "hp": 6,
+    "speed": 160,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2
+      }
+    ],
+    "armor": {
+      "bash": 0,
+      "cut": 2
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_parcel_crawler",
+    "type": "MONSTER",
+    "copy-from": "mon_tripper",
+    "name": {
+      "str": "parcel crawler",
+      "str_pl": "parcel crawlers"
+    },
+    "description": "A six-wheeled pavement courier with its lid locked on a delivery nobody ever signed for. It rams ankles until somebody takes the parcel.",
+    "size": "small",
+    "hp": 26,
+    "speed": 110,
+    "melee_dice": 1,
+    "melee_dice_sides": 5,
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 3
+      }
+    ],
+    "armor": {
+      "bash": 5,
+      "cut": 5
+    },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_nanny_cam",
+    "type": "MONSTER",
+    "copy-from": "mon_tripper",
+    "name": {
+      "str": "nanny cam",
+      "str_pl": "nanny cams"
+    },
+    "description": "A toy-sized home sentry: a camera on a pole on two fat wheels, with a baby monitor's speaker. It hums a lullaby between the shocks.",
+    "size": "small",
+    "hp": 14,
+    "speed": 120,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "melee_damage": [
+      {
+        "damage_type": "electric",
+        "amount": 2
+      }
+    ],
+    "armor": {
+      "bash": 2,
+      "cut": 3
+    },
+    "special_attacks": []
+  }
+]

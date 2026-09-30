@@ -1,0 +1,89 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p29_a05_kitchen. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "V8",
+    "spoils_in": "365 days",
+    "air_open_spoils_in": "10 days",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_asianbeef",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_bbqbeef",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_beeftaco",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_blackbeans",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_cheesepizza",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_chickennoodle",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_chilimac",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_fried_rice",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_lemontuna",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_mexicanchickenstew",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_chocolate_pudding",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "//": "sealed it keeps like other packed rations (food_storage_prologue pattern); once opened it keeps its CDDA shelf life"
+  }
+]

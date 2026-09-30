@@ -1,0 +1,11 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group tools_containers. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "mask_filter",
+    "//": "The Prologue has no magazines or reloading, so the mask ships with the charge budget of the filter cartridge CDDA gives it as its default magazine; recipe tool rows spend those charges.",
+    "initial_charges": 100
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "//": "Traps set on a hex (29.09.2026, game src/game/world/Traps.js). Keys of `kinds` are CDDA item ids; `cddaTrap` names the CDDA trap the item places (data/json/traps.json), `cddaPractice` is the item's place_trap `practice` and `radiusMm` a trap's `funnel_radius`. Everything else is a Prologue dial: CDDA traps catch whatever walks onto one square, the Prologue rolls a hex's worth of passing game once an hour.",
+  "traps": {
+    "maxPerTile": 6,
+    "maxHoursPerSettle": 2160,
+    "//maxHoursPerSettle": "A trap left for longer than this (90 days) is rolled for the first 90 days only; the rest of the time passes quietly.",
+    "practiceScale": 3,
+    "catchXp": [2, 4],
+    "checkMinutes": 5,
+    "takeMinutes": 5,
+    "skillCatchBonus": 0.1,
+    "//skillCatchBonus": "Each level of traps adds this share to every hourly catch chance (a better spot, a better set).",
+    "skillEscapeCut": 0.05,
+    "//skillEscapeCut": "Each level of traps takes this off the chance a visitor slips the trap, down to minEscape.",
+    "minEscape": 0.05,
+    "scavenge": { "afterHours": 24, "perHour": 0.02 },
+    "//scavenge": "A catch left longer than afterHours may be taken by something else, perHour each hour after that: the trap is found sprung and empty.",
+    "seasonFactor": { "spring": 1, "summer": 1, "autumn": 1.1, "winter": 0.6 },
+    "noGameTerrains": ["village", "secret_lab"],
+    "kinds": {
+      "light_snare_kit": {
+        "kind": "snare", "cddaTrap": "tr_light_snare", "cddaPractice": 2,
+        "setMinutes": 20, "resetMinutes": 10,
+        "sizes": ["tiny", "small"],
+        "catchPerHour": 0.02, "escape": 0.25, "breakChance": 0.06
+      },
+      "beartrap": {
+        "kind": "jaw", "cddaTrap": "tr_beartrap", "cddaPractice": 4,
+        "setMinutes": 30, "resetMinutes": 15,
+        "sizes": ["small", "medium", "large"],
+        "escapeBySize": { "large": 0.35 },
+        "catchPerHour": 0.008, "escape": 0.15, "breakChance": 0.02
+      },
+      "fish_trap": {
+        "kind": "fish", "setMinutes": 15, "resetMinutes": 5,
+        "catchPerHour": 0.05, "holds": 3, "breakChance": 0.01, "cddaPractice": 1
+      },
+      "fish_trap_basket": {
+        "kind": "fish", "setMinutes": 20, "resetMinutes": 5,
+        "catchPerHour": 0.07, "holds": 5, "breakChance": 0.01, "cddaPractice": 1
+      },
+      "funnel": { "kind": "rain", "cddaTrap": "tr_funnel", "radiusMm": 300, "efficiency": 0.9, "setMinutes": 5 },
+      "metal_funnel": { "kind": "rain", "cddaTrap": "tr_metal_funnel", "radiusMm": 400, "efficiency": 0.9, "setMinutes": 10 },
+      "leather_funnel": { "kind": "rain", "cddaTrap": "tr_leather_funnel", "radiusMm": 200, "efficiency": 0.75, "setMinutes": 5 },
+      "birchbark_funnel": { "kind": "rain", "cddaTrap": "tr_birchbark_funnel", "radiusMm": 200, "efficiency": 0.7, "setMinutes": 5 },
+      "makeshift_funnel": { "kind": "rain", "cddaTrap": "tr_makeshift_funnel", "radiusMm": 200, "efficiency": 0.65, "setMinutes": 5 },
+      "tarp_raincatcher": { "kind": "rain", "cddaTrap": "tr_raincatcher", "radiusMm": 342, "efficiency": 0.85, "setMinutes": 15 }
+    },
+    "//kinds": "snare and jaw: rolled from the hex's own enemy table (its seasonal entries), animals only, of the listed CDDA sizes, that leave a corpse; the chance scales by the square root of that game's share of the table. fish: needs a river or lake on or beside the hex, draws the same fish as a line (wilderness-science wildlife.fish) from the water's own stock, and sleeps while the water is frozen; holds up to `holds` fish. rain: a vessel from the pack stands under it; every hour of rain or snow adds precipitation x mouth area x efficiency, filled until the vessel is full. breakChance is rolled each time something triggers the trap; a broken trap is lost.",
+    "water": "water"
+  }
+}

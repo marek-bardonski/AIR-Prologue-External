@@ -1,0 +1,634 @@
+{
+  "source": "CDDA 0.I verbatim item definitions. First 53 items recovered from the prior Claude selection; 47 useful remaining gaps.",
+  "items": [
+    {
+      "id": "jacket_army",
+      "file": "cdda/data/json/items/armor/coats.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "jacket_flannel",
+      "file": "cdda/data/json/items/armor/coats.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "jacket_leather",
+      "file": "cdda/data/json/items/armor/coats.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "peacoat",
+      "file": "cdda/data/json/items/armor/coats.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "chaps_leather",
+      "file": "cdda/data/json/items/armor/legs_armor.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "pants_army",
+      "file": "cdda/data/json/items/armor/legs_clothes.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "scarf",
+      "file": "cdda/data/json/items/armor/scarfs.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "dump_pouch",
+      "file": "cdda/data/json/items/armor/storage.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "fanny",
+      "file": "cdda/data/json/items/armor/storage.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "mbag",
+      "file": "cdda/data/json/items/armor/storage.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "purse",
+      "file": "cdda/data/json/items/armor/storage.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "slingpack",
+      "file": "cdda/data/json/items/armor/storage.json",
+      "category": "clothing",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "lc_steel_staff",
+      "file": "cdda/data/json/items/melee/bludgeons.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "mace_bronze",
+      "file": "cdda/data/json/items/melee/bludgeons.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "knife_baselard",
+      "file": "cdda/data/json/items/melee/swords_and_blades.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "lc_knife_rambo",
+      "file": "cdda/data/json/items/melee/swords_and_blades.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "survivor_machete",
+      "file": "cdda/data/json/items/melee/swords_and_blades.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "javelin_iron",
+      "file": "cdda/data/json/items/melee/spears_and_polearms.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "pike_wood",
+      "file": "cdda/data/json/items/melee/spears_and_polearms.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "pitchfork",
+      "file": "cdda/data/json/items/melee/spears_and_polearms.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "pointed_rebar",
+      "file": "cdda/data/json/items/melee/spears_and_polearms.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "sharp_rebar",
+      "file": "cdda/data/json/items/melee/spears_and_polearms.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "spear_bronze",
+      "file": "cdda/data/json/items/melee/spears_and_polearms.json",
+      "category": "weapon",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "sausage_casings",
+      "file": "cdda/data/json/items/comestibles/offal_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "bread_garlic",
+      "file": "cdda/data/json/items/comestibles/bread.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "buttered_toast",
+      "file": "cdda/data/json/items/comestibles/bread.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "jam_toast",
+      "file": "cdda/data/json/items/comestibles/bread.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "johnnycake",
+      "file": "cdda/data/json/items/comestibles/bread.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "peanut_butter_toast",
+      "file": "cdda/data/json/items/comestibles/bread.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "toad_in_a_hole",
+      "file": "cdda/data/json/items/comestibles/bread.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "tortilla_corn",
+      "file": "cdda/data/json/items/comestibles/bread.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "fruit_leather",
+      "file": "cdda/data/json/items/comestibles/fruit_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "chili_pepper_roasted",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "cooked_cattail_stalk",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "dandelion_cooked",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "deluxe_veggy_beans",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "onion_sauteed",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "potato_baked",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "potato_boiled",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "salsify_baked",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "succotash",
+      "file": "cdda/data/json/items/comestibles/veggy_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "deluxe_beans",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "deluxe_eggs",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "pemmican",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "pemmican_meat",
+      "file": "cdda/data/json/items/comestibles/meat_dishes.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "poultry_smoked",
+      "file": "cdda/data/json/items/comestibles/carnivore.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "soup_lobsterstew",
+      "file": "cdda/data/json/items/comestibles/soup.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "soup_woods_egg",
+      "file": "cdda/data/json/items/comestibles/soup.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "chicken_sandwich",
+      "file": "cdda/data/json/items/comestibles/sandwich.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "chips2",
+      "file": "cdda/data/json/items/comestibles/junkfood.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "fresh_fries",
+      "file": "cdda/data/json/items/comestibles/junkfood.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "onion_rings",
+      "file": "cdda/data/json/items/comestibles/junkfood.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "syrup_simple",
+      "file": "cdda/data/json/items/comestibles/junkfood.json",
+      "category": "food",
+      "selection": "previous Claude plan"
+    },
+    {
+      "id": "small_repairkit",
+      "file": "cdda/data/json/items/tool/workshop.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "large_repairkit",
+      "file": "cdda/data/json/items/tool/workshop.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "gunpowder_pistol",
+      "file": "cdda/data/json/items/ammo.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "gunpowder_shotgun",
+      "file": "cdda/data/json/items/ammo.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "shot_hull",
+      "file": "cdda/data/json/items/generic/casing.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "shotgun_primer",
+      "file": "cdda/data/json/items/ammo.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "9mm_casing",
+      "file": "cdda/data/json/items/generic/casing.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "welding_wire_steel",
+      "file": "cdda/data/json/items/ammo/weldgas.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "welding_blanket",
+      "file": "cdda/data/json/items/tool/workshop.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "ear_plugs",
+      "file": "cdda/data/json/items/tool_armor.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "scissors",
+      "file": "cdda/data/json/items/tool/stationery.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "stethoscope",
+      "file": "cdda/data/json/items/tool_armor.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "manual_shotgun",
+      "file": "cdda/data/json/items/book/shotgun.json",
+      "category": "book",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "manual_pistol",
+      "file": "cdda/data/json/items/book/pistol.json",
+      "category": "book",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "manual_gun",
+      "file": "cdda/data/json/items/book/gun.json",
+      "category": "book",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "can_opener",
+      "file": "cdda/data/json/items/generic/dining_kitchen.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "corkscrew",
+      "file": "cdda/data/json/items/generic/dining_kitchen.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "waterskin",
+      "file": "cdda/data/json/items/containers/containers.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "water_purifier",
+      "file": "cdda/data/json/items/tool/cooking.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "binoculars",
+      "file": "cdda/data/json/items/tool_armor.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "pickaxe",
+      "file": "cdda/data/json/items/tool/workshop.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "boltcutters",
+      "file": "cdda/data/json/items/tool/metalworking.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "sandpaper",
+      "file": "cdda/data/json/items/tool/metalworking.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "pliers",
+      "file": "cdda/data/json/items/tool/workshop.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "tent_kit",
+      "file": "cdda/data/json/items/tool/shelters.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "tarp",
+      "file": "cdda/data/json/items/armor/misc.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "chain",
+      "file": "cdda/data/json/items/generic.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "holster",
+      "file": "cdda/data/json/items/armor/holster.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "shoulder_holster",
+      "file": "cdda/data/json/items/armor/holster.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "bandolier_shotgun",
+      "file": "cdda/data/json/items/armor/bandolier.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "apron_cut_resistant",
+      "file": "cdda/data/json/items/armor/torso_clothes.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "apron_plastic",
+      "file": "cdda/data/json/items/armor/torso_clothes.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "gambeson",
+      "file": "cdda/data/json/items/armor/gambesons.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "gambeson_canvas",
+      "file": "cdda/data/json/items/armor/gambesons.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "gambeson_hood",
+      "file": "cdda/data/json/items/armor/gambesons.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "gambeson_pants",
+      "file": "cdda/data/json/items/armor/gambesons.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "gambeson_wool_vest",
+      "file": "cdda/data/json/items/armor/gambesons.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "thermal_shirt",
+      "file": "cdda/data/json/items/armor/undergarment.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "ammo_pouch",
+      "file": "cdda/data/json/items/armor/ammo_pouch.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "cheap_ammo_pouch",
+      "file": "cdda/data/json/items/armor/bandolier.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "chestpouch",
+      "file": "cdda/data/json/items/armor/ammo_pouch.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "h2o_pouch",
+      "file": "cdda/data/json/items/armor/ammo_pouch.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "ifak_pouch",
+      "file": "cdda/data/json/items/containers/containers.json",
+      "category": "supplies",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "legpouch",
+      "file": "cdda/data/json/items/armor/ammo_pouch.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "ragpouch",
+      "file": "cdda/data/json/items/armor/storage.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "tool_pouch",
+      "file": "cdda/data/json/items/armor/ammo_pouch.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "flashlight_pouch",
+      "file": "cdda/data/json/items/armor/ammo_pouch.json",
+      "category": "clothing",
+      "selection": "survival and maintenance gap"
+    },
+    {
+      "id": "survivor_scope",
+      "file": "cdda/data/json/items/tool/misc.json",
+      "category": "tools",
+      "selection": "Long-range scouting optic: carried retractable telescope."
+    },
+    {
+      "id": "rifle_scope",
+      "file": "cdda/data/json/items/gunmod/sights.json",
+      "category": "tools",
+      "selection": "ZOOM optic adapted for handheld scouting; does not add firearm combat."
+    }
+  ],
+  "exploration": {
+    "binoculars": {
+      "sightRadius": 3
+    },
+    "survivor_scope": {
+      "sightRadius": 4
+    },
+    "rifle_scope": {
+      "sightRadius": 5
+    }
+  },
+  "disabledRecipes": {
+    "recipe:soup_woods_egg": "Lowest supported ingredient alternative gives about 65 kcal for 304 kcal output.",
+    "recipe:succotash": "Lowest supported ingredient alternative gives about 138 kcal for 440 kcal output.",
+    "recipe:cooking_oil": "Canola alternative converts 5 seed servings (about 860 effective kcal) into 16 oil servings (2032 kcal), before press-cake byproducts.",
+    "recipe:cooking_oil:electric": "Canola alternative converts 5 seed servings (about 860 effective kcal) into 16 oil servings (2032 kcal), before press-cake byproducts."
+  }
+}

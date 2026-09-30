@@ -1,0 +1,521 @@
+[
+  {
+    "type": "ITEM",
+    "id": "can_beans",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "quench": 33
+  },
+  {
+    "type": "ITEM",
+    "id": "can_tomato",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "1 day",
+    "quench": 22
+  },
+  {
+    "type": "ITEM",
+    "id": "salsa",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "pelmeni",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "sauce_red",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "can_corn",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "quench": 27
+  },
+  {
+    "type": "ITEM",
+    "id": "can_sardine",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "quench": 20
+  },
+  {
+    "type": "ITEM",
+    "id": "can_spam",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "quench": 4
+  },
+  {
+    "type": "ITEM",
+    "id": "can_tuna",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day",
+    "quench": 20
+  },
+  {
+    "type": "ITEM",
+    "id": "fish_pickled",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_carrot_cake",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "mre_ratatouille",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "ravioli",
+    "spoils_in": "1095 days",
+    "air_open_spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "sauce_pesto",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "beans_cooked",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "lentils_cooked",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "oatmeal_cooked",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "rice_cooked",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "wild_rice_cooked",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "buckwheat_cooked",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "beansnrice",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "deluxe_beansnrice",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "deluxe_veggy_beansnrice",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "deluxe_veggy_rice",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "oatmeal_deluxe",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "paella_valenciana",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "grits",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "cheese_grits",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "rehydrated_chili",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "rehydrated_eggs",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "hotdogs_campfire",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "boiled_egg",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "quesadilla_cheese",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "acorns_cooked",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "garlic_roasted",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "veggy_salad",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "insta_salad",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "chicken_fried",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "soggy_hardtack",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "roasted_cattail_rhizome",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "corndogs_frozen",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "hotdogs_frozen",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "frozen_dinner",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "toasterpastryfrozen",
+    "spoils_in": "1 day"
+  },
+  {
+    "type": "ITEM",
+    "id": "raw_burdock",
+    "spoils_in": "5 days",
+    "quench": 12
+  },
+  {
+    "type": "ITEM",
+    "id": "carrot_wild",
+    "spoils_in": "7 days",
+    "quench": 13
+  },
+  {
+    "type": "ITEM",
+    "id": "raw_dandelion",
+    "spoils_in": "2 days",
+    "quench": 12
+  },
+  {
+    "type": "ITEM",
+    "id": "lettuce",
+    "spoils_in": "3 days",
+    "quench": 13
+  },
+  {
+    "type": "ITEM",
+    "id": "eggplant",
+    "spoils_in": "5 days",
+    "quench": 99
+  },
+  {
+    "type": "ITEM",
+    "id": "chili_pepper",
+    "spoils_in": "7 days",
+    "quench": 8
+  },
+  {
+    "type": "ITEM",
+    "id": "garlic_clove",
+    "spoils_in": "30 days"
+  },
+  {
+    "type": "ITEM",
+    "id": "garlic",
+    "spoils_in": "30 days"
+  },
+  {
+    "type": "ITEM",
+    "id": "seed_garlic_clove",
+    "spoils_in": "30 days"
+  },
+  {
+    "type": "ITEM",
+    "id": "sugar_beet",
+    "spoils_in": "30 days",
+    "quench": 15
+  },
+  {
+    "type": "ITEM",
+    "id": "salsify_raw",
+    "spoils_in": "7 days",
+    "quench": 21
+  },
+  {
+    "type": "ITEM",
+    "id": "chicory_raw",
+    "spoils_in": "7 days",
+    "quench": 10
+  },
+  {
+    "type": "ITEM",
+    "id": "cornbread",
+    "spoils_in": "5 days"
+  },
+  {
+    "type": "ITEM",
+    "id": "tortilla_flour",
+    "spoils_in": "7 days"
+  },
+  {
+    "type": "ITEM",
+    "id": "bread",
+    "spoils_in": "5 days"
+  },
+  {
+    "type": "ITEM",
+    "id": "toast",
+    "spoils_in": "5 days"
+  },
+  {
+    "type": "ITEM",
+    "id": "flatbread",
+    "spoils_in": "5 days"
+  },
+  {
+    "type": "ITEM",
+    "id": "apple",
+    "quench": 31
+  },
+  {
+    "type": "ITEM",
+    "id": "blueberries",
+    "quench": 25
+  },
+  {
+    "type": "ITEM",
+    "id": "raspberries",
+    "quench": 21
+  },
+  {
+    "type": "ITEM",
+    "id": "blackberries",
+    "quench": 24
+  },
+  {
+    "type": "ITEM",
+    "id": "strawberries",
+    "quench": 24
+  },
+  {
+    "type": "ITEM",
+    "id": "peach",
+    "quench": 26
+  },
+  {
+    "type": "ITEM",
+    "id": "pear",
+    "quench": 30
+  },
+  {
+    "type": "ITEM",
+    "id": "plums",
+    "quench": 11
+  },
+  {
+    "type": "ITEM",
+    "id": "orange",
+    "quench": 22
+  },
+  {
+    "type": "ITEM",
+    "id": "pomegranate",
+    "quench": 48
+  },
+  {
+    "type": "ITEM",
+    "id": "mango",
+    "quench": 35
+  },
+  {
+    "type": "ITEM",
+    "id": "veggy_wild",
+    "quench": 21
+  },
+  {
+    "type": "ITEM",
+    "id": "veggy",
+    "quench": 21
+  },
+  {
+    "type": "ITEM",
+    "id": "cattail_stalk",
+    "quench": 18
+  },
+  {
+    "type": "ITEM",
+    "id": "corn",
+    "quench": 25
+  },
+  {
+    "type": "ITEM",
+    "id": "bell_pepper",
+    "quench": 21
+  },
+  {
+    "type": "ITEM",
+    "id": "cooked_bell_pepper",
+    "quench": 21
+  },
+  {
+    "type": "ITEM",
+    "id": "onion",
+    "quench": 20
+  },
+  {
+    "type": "ITEM",
+    "id": "seaweed",
+    "quench": 5
+  },
+  {
+    "type": "ITEM",
+    "id": "seaweed_pile",
+    "quench": 108
+  },
+  {
+    "type": "ITEM",
+    "id": "wild_garlic",
+    "quench": 5
+  },
+  {
+    "type": "ITEM",
+    "id": "young_leaves",
+    "quench": 4
+  },
+  {
+    "type": "ITEM",
+    "id": "rhubarb",
+    "quench": 9
+  },
+  {
+    "type": "ITEM",
+    "id": "zucchini",
+    "quench": 35
+  },
+  {
+    "type": "ITEM",
+    "id": "chili_pepper_cut",
+    "quench": 8
+  },
+  {
+    "type": "ITEM",
+    "id": "pumpkin_cut",
+    "quench": 51
+  },
+  {
+    "type": "ITEM",
+    "id": "raw_edamame",
+    "quench": 4
+  },
+  {
+    "type": "ITEM",
+    "id": "banana",
+    "quench": 18
+  },
+  {
+    "type": "ITEM",
+    "id": "lemon",
+    "quench": 19
+  },
+  {
+    "type": "ITEM",
+    "id": "cucumber",
+    "quench": 58
+  },
+  {
+    "type": "ITEM",
+    "id": "cucumber_cut",
+    "quench": 58
+  },
+  {
+    "type": "ITEM",
+    "id": "tomato",
+    "quench": 23
+  },
+  {
+    "type": "ITEM",
+    "id": "tomato_cut",
+    "quench": 23
+  },
+  {
+    "type": "ITEM",
+    "id": "cattail_rhizome",
+    "quench": 31
+  },
+  {
+    "type": "ITEM",
+    "id": "potato",
+    "quench": 33
+  },
+  {
+    "type": "ITEM",
+    "id": "raw_bottle_gourd",
+    "quench": 152
+  },
+  {
+    "type": "ITEM",
+    "id": "rehydrated_fruit",
+    "quench": 24
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "//": "Alcohol, stimulants and emergency surges (Prologue rules, 28.09.2026; CDDA inspired, not CDDA's model). Code: src/game/survival/Intoxicants.js. A drink's strength comes from its CDDA use action (ALCOHOL_WEAK / ALCOHOL / ALCOHOL_STRONG); a stimulant's from the comestible's CDDA `stim` value (positive only; alcohol's negative stim is ignored, the alcohol rule covers it). Surges are listed by item id.",
+  "alcohol": {
+    "//unitsByUseAction": "Units of alcohol one serving carries. A unit is about one ordinary drink.",
+    "unitsByUseAction": { "ALCOHOL_WEAK": 1, "ALCOHOL": 1.5, "ALCOHOL_STRONG": 2.5 },
+    "//absorbPerMinute": "Share of what is still in the stomach that reaches the blood each minute (about half in the first twenty minutes). Bringing the stomach up loses what has not gone through.",
+    "absorbPerMinute": 0.035,
+    "//clearPerHour": "Units the body clears from the blood per hour, whatever the level.",
+    "clearPerHour": 0.8,
+    "//painkiller": "Alcohol dulls pain: each unit that reaches the blood raises the painkiller level (the same level painkillers raise) by perUnit, never past cap.",
+    "painkiller": { "perUnit": 5, "cap": 25 },
+    "//levels": "[units in the blood, word]; below the first nothing shows.",
+    "levels": [[0.5, "Tipsy"], [2.5, "Drunk"], [5, "Very drunk"], [8, "Blind drunk"]],
+    "//penalties": "Per unit in the blood above `from`, truncated: dexterity, perception and intelligence lost, and speed in percent (never past maxSpeed).",
+    "penalties": { "from": 1.5, "dex": 0.6, "per": 0.6, "int": 0.8, "speed": 3, "maxSpeed": 30 },
+    "//vomit": "At or above `from` units the stomach may rebel: chance per hour is (units - from + 1) * chancePerHourPerUnit.",
+    "vomit": { "from": 6, "chancePerHourPerUnit": 0.12 },
+    "//sleep": "Sleep on drink is shallow: quality falls by perUnit for each unit in the blood, never below floor (as a share of what the bedding gives).",
+    "sleep": { "perUnit": 0.05, "floor": 0.6 },
+    "//hangover": "When the blood runs dry after a peak of at least minPeak units: hoursPerUnit hours per unit of that peak (at most maxHours), a flat pain, a mood entry and slower breath.",
+    "hangover": { "minPeak": 3, "hoursPerUnit": 1.2, "maxHours": 12, "pain": 12, "mood": -12, "staminaRegen": 0.8 }
+  },
+  "stimulants": {
+    "//onsetMinutes": "A stimulant works its way in: its stim reaches the body evenly over this many minutes. Coffee before a fight helps; coffee in one does not, yet.",
+    "onsetMinutes": 20,
+    "//clearPerHour": "Stim points the body clears per hour.",
+    "clearPerHour": 3,
+    "cap": 60,
+    "//regen": "Faster breath: stamina recovery is multiplied by 1 + perPoint * stim, up to 1 + max.",
+    "regen": { "perPoint": 0.02, "max": 0.3 },
+    "//fatigue": "Less sleepiness: the sleepiness a waking hour and an effort short of breath add is cut by perPoint * stim, up to max.",
+    "fatigue": { "perPoint": 0.025, "max": 0.5 },
+    "//sleep": "Hard to sleep on it: sleep quality falls by perPoint per stim point, never below floor.",
+    "sleep": { "perPoint": 0.012, "floor": 0.5 },
+    "//jitters": "Too much: from `from` stim points, dexterity lost per 10 points over, and pain per hour.",
+    "jitters": { "from": 25, "dexPer10": 1, "painPerHour": 3 },
+    "//overdose": "Far too much: from `from`, a racing heart hurts and the stomach may rebel (chance per hour).",
+    "overdose": { "from": 45, "painPerHour": 8, "vomitChancePerHour": 0.25 },
+    "levels": [[4, "Alert"], [15, "Wired"], [25, "Jittery"], [45, "Heart racing"]]
+  },
+  "surges": {
+    "//": "Emergency surges by item id: at once, staminaShare of the current maximum comes back and pain is dulled by painkiller (added to the level, never past its cap); for `minutes` breath comes back regenMultiplier times as fast; then the crash: sleepiness, and breath at crash.regenMultiplier for crash.minutes.",
+    "adrenaline_injector": {
+      "label": "Adrenaline",
+      "staminaShare": 0.6,
+      "painkiller": 30,
+      "minutes": 10,
+      "regenMultiplier": 3,
+      "crash": { "label": "Adrenaline crash", "fatigue": 60, "minutes": 90, "regenMultiplier": 0.6 }
+    }
+  }
+}

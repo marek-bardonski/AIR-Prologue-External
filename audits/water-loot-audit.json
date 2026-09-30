@@ -1,0 +1,70 @@
+{
+  "note": "Expected bottled-water finds per loot roll doubled by solving the new normalized weight. Farms and barns gain the same per-roll probability as houses; previously they contained no bottled water.",
+  "tables": [
+    {
+      "table": "house_common",
+      "before": 0.025396825396825397,
+      "after": 0.050793650793650794
+    },
+    {
+      "table": "house_kitchen",
+      "before": 0.02976190476190476,
+      "after": 0.05952380952380952
+    },
+    {
+      "table": "shop",
+      "before": 0.05825242718446602,
+      "after": 0.11650485436893204
+    },
+    {
+      "table": "gas_station",
+      "before": 0.062111801242236024,
+      "after": 0.12422360248447205
+    },
+    {
+      "table": "bonus_urban",
+      "before": 0.0761904761904762,
+      "after": 0.1523809523809524
+    },
+    {
+      "table": "shop_shelves",
+      "before": 0.055865921787709494,
+      "after": 0.11173184357541899
+    },
+    {
+      "table": "shop_locker",
+      "before": 0.08955223880597014,
+      "after": 0.1791044776119403
+    },
+    {
+      "table": "vending",
+      "before": 0.2222222222222222,
+      "after": 0.4444444444444444
+    },
+    {
+      "table": "discovery_luggage",
+      "before": 0.0047169811320754715,
+      "after": 0.009433962264150943
+    },
+    {
+      "table": "discovery_remains",
+      "before": 0.0011185682326621924,
+      "after": 0.0022371364653243847
+    },
+    {
+      "table": "discovery_backpack",
+      "before": 0.028169014084507043,
+      "after": 0.056338028169014086
+    },
+    {
+      "table": "farm",
+      "before": 0,
+      "after": 0.050793650793650794
+    },
+    {
+      "table": "farm_barn",
+      "before": 0,
+      "after": 0.050793650793650794
+    }
+  ]
+}

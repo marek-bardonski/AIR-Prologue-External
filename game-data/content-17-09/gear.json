@@ -1,0 +1,360 @@
+{
+  "group": "gear",
+  "source": "TO-DO-17.09.MD, family 4 (Armor and clothing) and family 5 (Melee weapons)",
+  "items": [
+    {
+      "id": "nomex_gloves",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 2
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "unblocks recipe:gloves_fsurvivor"
+    },
+    {
+      "id": "rucksack",
+      "loot": [
+        {
+          "table": "discovery_backpack",
+          "weight": 2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 2
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ]
+    },
+    {
+      "id": "boots_hiking",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 4
+        },
+        {
+          "table": "shop",
+          "weight": 3
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "clothing"
+      ]
+    },
+    {
+      "id": "coat_winter",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 5
+        },
+        {
+          "table": "shop",
+          "weight": 3
+        }
+      ],
+      "pools": [
+        "clothing"
+      ]
+    },
+    {
+      "id": "tool_belt",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 3
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 3
+        },
+        {
+          "table": "house_clothes",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ]
+    },
+    {
+      "id": "blackjack",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "tools"
+      ]
+    },
+    {
+      "id": "spear_steel",
+      "loot": [
+        {
+          "table": "ruins_shelf",
+          "weight": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 2
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "sword_metal",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 2
+        }
+      ],
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "turtleneck",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "torso + arms + mouth at 100 percent coverage, encumbrance 3; recipe:turtleneck tailor 2 autolearn. The roll-collar transform is inert"
+    },
+    {
+      "id": "mask_ski",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "head and mouth at 100 percent; recipe:mask_ski tailor 6 autolearn"
+    },
+    {
+      "id": "welding_mask_crude",
+      "loot": [
+        {
+          "table": "electrical_workshop",
+          "weight": 2
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "GLARE 1 plus steel head and eye cover; recipe:welding_mask_crude fabrication 5 autolearn"
+    },
+    {
+      "id": "boots_rubber",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "foot armour, 100 percent coverage; no CDDA recipe, so loot only. The CDDA environmental protection is dropped, it is a plain garment"
+    },
+    {
+      "id": "boots_winter",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "foot armour with the heaviest warmth value in the group; recipe tailor 6 autolearn through the plastic_molding group that polycarbonate_sheet and makeshift_vacuum_mold opened"
+    },
+    {
+      "id": "elbow_pads",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "ruins",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "arm armour, 90 percent coverage, no encumbrance; recipe fabrication 4 autolearn, also through the plastic_molding group"
+    },
+    {
+      "id": "armguard_tire",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 1
+        },
+        {
+          "table": "roadside_garage",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "arm armour cut from tire rubber: heavy encumbrance for real resistance; recipe:armguard_tire fabrication 3 autolearn"
+    },
+    {
+      "id": "canteen_pouch",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "worn pouch, torso 100 percent, encumbrance 1. Its single pocket is holster-shaped but carries no flag or item restriction, so the loader does count it: 1.75 L of real carry volume"
+    },
+    {
+      "id": "police_belt",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 1
+        },
+        {
+          "table": "shop",
+          "weight": 1
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "clothing"
+      ],
+      "note": "duty belt: torso 50 percent, encumbrance 0, and real unrestricted storage; the holster use_action is inert"
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [
+    "recipe:gloves_fsurvivor"
+  ],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:tool_belt",
+    "recipe:blackjack",
+    "recipe:spear_steel",
+    "recipe:sword_metal",
+    "recipe:rucksack",
+    "recipe:gloves_fsurvivor",
+    "recipe:turtleneck",
+    "recipe:mask_ski",
+    "recipe:welding_mask_crude",
+    "recipe:armguard_tire",
+    "recipe:canteen_pouch",
+    "recipe:police_belt",
+    "recipe:elbow_pads",
+    "recipe:boots_winter"
+  ],
+  "notes": [
+    "Checkpoint-1 slice: 8 of 40 ids staged so far.",
+    "recipe:gloves_fsurvivor was in the pre-existing whitelist/recipes.json exclude list (both of its input alternatives, nomex_gloves and fire_gauntlets, were unobtainable). nomex_gloves unblocks it, so it is forced back on through recipesInclude; the coordinator may want to drop the stale exclude row from the base file. recipe:knee_pads and recipe:hat_hard are excluded the same way and will need the same treatment once polycarbonate_sheet lands.",
+    "Every CDDA `plastic_molding` recipe (rucksack, dump_pouch, fanny, mbag, slingpack, boots_winter, elbow_pads) needs 16 charges of makeshift_vacuum_mold. That only works because another group gave makeshift_vacuum_mold an entry in game-data/electricity.json during this batch - without it the tool can hold no charges and the recipes are 'obtainable' to the validator but uncraftable in game.",
+    "The `holster` use_action and pocket flag restrictions are dropped by the loader, so tool_belt is plain storage. Accepted for this batch per the coordinator.",
+    "batch 5 added the first nine gear ids (17 staged): five worn garments, two arm guards and two belt items",
+    "boots_rubber has no CDDA recipe and stays loot-only; every other id here is autolearn",
+    "elbow_pads and boots_winter craft through the CDDA plastic_molding requirement group, which only works because polycarbonate_sheet and makeshift_vacuum_mold were staged in this batch series",
+    "pocket audit after the 17.09 restricted-pocket fix: canteen_pouch gives 1.75 L (one open pocket), police_belt gives 2.0 L (four 500 ml pockets; its three BELT_CLIP holster pockets add nothing). The seven garments carry no pockets at all"
+  ]
+}

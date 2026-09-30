@@ -1,0 +1,194 @@
+{
+  "//": "Open wounds and infection. Prologue design values; the ids listed are CDDA ids used as wound cleaners.",
+  "source": "AIR design, 18.09.2026. Severity bands, chances and stage lengths are original balance, not CDDA numbers.",
+  "severities": [
+    {
+      "id": "scratch",
+      "atShare": 0,
+      "label": "Scratch"
+    },
+    {
+      "id": "gash",
+      "atShare": 0.1,
+      "label": "Gash"
+    },
+    {
+      "id": "deep",
+      "atShare": 0.25,
+      "label": "Deep wound"
+    }
+  ],
+  "//scratchDeepenChance": "Skin already torn takes a second cut worse than the first: this is the chance a scratch across an existing scratch opens into a gash.",
+  "scratchDeepenChance": 0.0625,
+  "infection": {
+    "//exposure": "An open wound is rolled every hour it is exposed. Bare, it is exposed for as long as it is open; under a dressing it is exposed at the bandaged rate for `bandageGraceHours` more and then not at all while the dressing holds. A wound kept clean is rolled at the cleaned rate. A dressing and a cleaning each last `careHours`; doing it again starts the clock again. The survivor is told when a wound wants care, and again every `remindHours` while it still does.",
+    "chancePerHour": {
+      "scratch": 0.003,
+      "gash": 0.0075,
+      "deep": 0.015
+    },
+    "animalMultiplier": 2,
+    "bandagedMultiplier": 0.5,
+    "cleanedMultiplier": 0.2,
+    "bandageGraceHours": 6,
+    "careHours": 24,
+    "remindHours": 12,
+    "//": "Original AIR stochastic race: every step advances severity or immunity, or naturally clears infection. Food, water and rest support immunity; treatment slows severity. Forecast uses the exact absorbing probability at current conditions. Historical population balance benchmarks are measured by scripts/calibrate-infection.mjs, not substituted for individual risk.",
+    "deathChanceTargets": {
+      "minorUntreated": 0.1,
+      "minorSurvival": 0.01,
+      "minorHospital": 0.001
+    },
+    "immunityPerHour": 0.00833,
+    "severityPerHour": 0.0029,
+    "virulenceSigma": 0.46,
+    "restingImmunity": 1.25,
+    "sleepingImmunity": 1.5,
+    "startSeverity": {
+      "scratch": 0.04,
+      "gash": 0.08,
+      "deep": 0.16
+    },
+    "earlyBurst": {
+      "scratch": 0,
+      "gash": 0.5,
+      "deep": 1.5
+    },
+    "burstSpan": 0.4,
+    "bands": [
+      {
+        "id": "infected",
+        "at": 0
+      },
+      {
+        "id": "festering",
+        "at": 0.4
+      },
+      {
+        "id": "septic",
+        "at": 0.75
+      }
+    ],
+    "progressionSteps": 100,
+    "naturalRecoveryChance": 0.002,
+    "feverHpFloor": 1,
+    "chanceBands": [
+      0.001,
+      0.005,
+      0.01,
+      0.02
+    ]
+  },
+  "woundPenalties": {
+    "armSwingPercent": {
+      "scratch": 0,
+      "gash": 10,
+      "deep": 20
+    },
+    "legDodge": {
+      "scratch": 0,
+      "gash": 1,
+      "deep": 2
+    },
+    "legRunSteps": {
+      "scratch": 0,
+      "gash": 0,
+      "deep": 1
+    },
+    "torsoStaminaRegenPercent": {
+      "scratch": 0,
+      "gash": 25,
+      "deep": 50
+    },
+    "headToHit": {
+      "scratch": 0,
+      "gash": 1,
+      "deep": 2
+    }
+  },
+  "stagePenalties": {
+    "infected": {
+      "painPerHour": 6,
+      "staminaRegenPercent": 25,
+      "blocksHealing": true
+    },
+    "festering": {
+      "painPerHour": 12,
+      "staminaRegenPercent": 40,
+      "blocksHealing": true,
+      "speedPercent": 10,
+      "str": 1,
+      "thirstPerHour": 2
+    },
+    "septic": {
+      "painPerHour": 20,
+      "staminaRegenPercent": 60,
+      "blocksHealing": true,
+      "speedPercent": 20,
+      "str": 2,
+      "thirstPerHour": 4,
+      "torsoHpPerHour": 0.5
+    }
+  },
+  "cleaners": {
+    "//": "Anything that can be put on a wound. How much it helps is in `treatments`.",
+    "willowbark": 1,
+    "chamomile": 1,
+    "wild_herbs": 1,
+    "bandages_makeshift_boiled": 1,
+    "bandages_makeshift_bleached": 1,
+    "soap": 1,
+    "liquid_soap": 1,
+    "honey_bottled": 1,
+    "pine_resin": 1,
+    "disinfectant_makeshift": 1,
+    "disinfectant": 1,
+    "iodine": 1,
+    "weak_antibiotic": 1,
+    "antibiotics": 1,
+    "strong_antibiotic": 1,
+    "quikclot": 1
+  },
+  "treatments": {
+    "//": "Multiplier on how fast the sickness gains ground while the treatment is fresh. Lower is better, none of them cure.",
+    "none": 1,
+    "bandaged": 0.85,
+    "byId": {
+      "willowbark": 0.8,
+      "chamomile": 0.8,
+      "wild_herbs": 0.75,
+      "bandages_makeshift_boiled": 0.8,
+      "bandages_makeshift_bleached": 0.8,
+      "soap": 0.7,
+      "liquid_soap": 0.7,
+      "honey_bottled": 0.65,
+      "pine_resin": 0.65,
+      "disinfectant_makeshift": 0.55,
+      "disinfectant": 0.5,
+      "iodine": 0.5,
+      "weak_antibiotic": 0.4,
+      "antibiotics": 0.3,
+      "strong_antibiotic": 0.22,
+      "quikclot": 0.6
+    }
+  },
+  "naturalClosureHours": {
+    "scratch": 24,
+    "gash": 48
+  },
+  "scratchChance": 0.5,
+  "training": {
+    "//": "First-aid practice for treating a wound: XP per bandaging (plus perQuality for each grade of the dressing) and per cleaning. Care is the way the skill is meant to be learned.",
+    "bandage": 5,
+    "bandagePerQuality": 2,
+    "clean": 8
+  },
+  "healing": {
+    "normalCondition": 0.75,
+    "minimumRate": 0.2,
+    "maximumRate": 1.25,
+    "sleepMultiplier": 1.15,
+    "careMultiplier": 1.1
+  },
+  "bashScratchChance": 0.1
+}

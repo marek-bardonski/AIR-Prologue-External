@@ -1,0 +1,860 @@
+{
+  "group": "p29_a02_rigging",
+  "source": "29.09.2026 second 500 (agent 2): tailoring difficulty 3-5 rigging, weapon carriage, wetsuits and bedding",
+  "items": [
+    {
+      "id": "light_load_bearing_vest",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "load_bearing_vest",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "heavy_load_bearing_vest",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tacvest",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "survivor_vest",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "survivor_rig",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "chestrig",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "webbing_belt",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "shoulder_strap",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "chestpouch_leather",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "ammo_satchel",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "ammo_satchel_leather",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "legpouch_large",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "triple_stacker_pouch",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "tactical_shotshell_pouch",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "flintlock_pouch",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "house_books",
+          "weight": 0.005
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "stone_pouch",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "leather_stone_pouch",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "rifle_case_soft_leather",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "rifle_case_soft_leather_2",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "rifle_case_xl_soft_leather",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "axe_ring",
+      "loot": [
+        {
+          "table": "logging_camp_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "baldric",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "house_common",
+          "weight": 0.005
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "gartersheath1",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "leg_sheath6",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "spearsling",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "saddlebag",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.06
+        },
+        {
+          "table": "ranger_station",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mask_gas",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "sleeping_bag_roll",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "sleeping_bag_fur",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "sleeping_bag_fur_roll",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "logging_camp_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "flotation_vest",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "flotation_vest_ms",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "wetsuit",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_spring",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_thick",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_hood",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_hood_thick",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_gloves",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_gloves_thick",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_booties",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "wetsuit_booties_thick",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "id": "swim_fins",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "light_load_bearing_vest",
+      "//": "AIR has no MOLLE attachment: the vest carries a fixed set of general pouches instead",
+      "pocket_data": [
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1 L",
+          "max_contains_weight": "2 kg",
+          "max_item_length": "20 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1 L",
+          "max_contains_weight": "2 kg",
+          "max_item_length": "20 cm",
+          "moves": 80
+        }
+      ]
+    },
+    {
+      "type": "ITEM",
+      "id": "load_bearing_vest",
+      "//": "AIR has no MOLLE attachment: the vest carries a fixed set of general pouches instead",
+      "pocket_data": [
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1 L",
+          "max_contains_weight": "2 kg",
+          "max_item_length": "20 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1 L",
+          "max_contains_weight": "2 kg",
+          "max_item_length": "20 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1 L",
+          "max_contains_weight": "2 kg",
+          "max_item_length": "20 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1 L",
+          "max_contains_weight": "2 kg",
+          "max_item_length": "20 cm",
+          "moves": 80
+        }
+      ]
+    },
+    {
+      "type": "ITEM",
+      "id": "heavy_load_bearing_vest",
+      "//": "AIR has no MOLLE attachment: the vest carries a fixed set of general pouches instead",
+      "pocket_data": [
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1500 ml",
+          "max_contains_weight": "3 kg",
+          "max_item_length": "25 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1500 ml",
+          "max_contains_weight": "3 kg",
+          "max_item_length": "25 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1500 ml",
+          "max_contains_weight": "3 kg",
+          "max_item_length": "25 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1500 ml",
+          "max_contains_weight": "3 kg",
+          "max_item_length": "25 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1500 ml",
+          "max_contains_weight": "3 kg",
+          "max_item_length": "25 cm",
+          "moves": 80
+        },
+        {
+          "pocket_type": "CONTAINER",
+          "max_contains_volume": "1500 ml",
+          "max_contains_weight": "3 kg",
+          "max_item_length": "25 cm",
+          "moves": 80
+        }
+      ]
+    },
+    {
+      "type": "ITEM",
+      "id": "chestpouch_leather",
+      "weight": "340 g",
+      "//": "CDDA's weight packed into its volume is denser than leather can be; the Fate density band (tests/fate-calibration) refuses it"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:ammo_satchel",
+    "recipe:ammo_satchel_leather",
+    "recipe:axe_ring",
+    "recipe:baldric",
+    "recipe:chestpouch_leather",
+    "recipe:chestrig",
+    "recipe:flintlock_pouch",
+    "recipe:flotation_vest_ms",
+    "recipe:gartersheath1",
+    "recipe:heavy_load_bearing_vest",
+    "recipe:leather_stone_pouch",
+    "recipe:leg_sheath6",
+    "recipe:legpouch_large",
+    "recipe:light_load_bearing_vest",
+    "recipe:load_bearing_vest",
+    "recipe:mask_gas",
+    "recipe:rifle_case_soft_leather",
+    "recipe:rifle_case_soft_leather_2",
+    "recipe:rifle_case_xl_soft_leather",
+    "recipe:saddlebag",
+    "recipe:shoulder_strap",
+    "recipe:sleeping_bag_fur_roll",
+    "recipe:sleeping_bag_roll",
+    "recipe:spearsling",
+    "recipe:stone_pouch",
+    "recipe:survivor_rig",
+    "recipe:survivor_vest",
+    "recipe:swim_fins",
+    "recipe:tactical_shotshell_pouch",
+    "recipe:tacvest",
+    "recipe:triple_stacker_pouch",
+    "recipe:webbing_belt",
+    "recipe:wetsuit",
+    "recipe:wetsuit_booties",
+    "recipe:wetsuit_booties_thick",
+    "recipe:wetsuit_gloves",
+    "recipe:wetsuit_gloves_thick",
+    "recipe:wetsuit_hood",
+    "recipe:wetsuit_hood_thick",
+    "recipe:wetsuit_spring",
+    "recipe:wetsuit_thick"
+  ],
+  "notes": [
+    "load bearing vests: AIR has no MOLLE attachment, so each carries a fixed set of general pouches through an override",
+    "sleeping bags (rolled, fur, rolled fur) are carried bedding: sleep quality in rules.json sleepQuality, warmth in warmth.json bedding (the roll/unroll transform is not modelled; a rolled bag serves as it is)"
+  ]
+}

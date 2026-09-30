@@ -1,0 +1,352 @@
+{
+  "group": "p28_c05_padded",
+  "source": "28.09.2026 next-1000 import: padded, leather, tyre, cardboard and riot armour",
+  "items": [
+    {
+      "id": "aketon_canvas",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_gloves_canvas",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_gloves_nylon",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_gloves_wool",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_nylon",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_nylon_vest",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_pants_canvas",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_pants_nylon",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_pants_wool",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "aketon_wool_vest",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_canvas_thinsleeved",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_gloves_canvas",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_gloves_nylon",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_gloves_wool",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_nylon",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_nylon_thinsleeved",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_pants_wool",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_vest",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_wool_thinsleeved",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "cloth_arms_padded",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "gambeson_sleeve",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "k_gambeson_sleeve",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "plastron_cotton",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "plastron_plastic",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "fencing_jacket",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "lame_foil",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lame_saber",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "armor_blarmor",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_farmor",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_faux_farmor",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_plarmor",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "jacket_leather_bone",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "jacket_leather_tire",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_tiresuit",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "cuirass_tire",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "improvised_armguard_tire",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "improvised_legguard_tire",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "legguard_tire",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_cardboard",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_cardboard_cuirass",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "armor_riot",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "armor_riot_arm",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "armor_riot_leg",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "armor_riot_torso",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "motorbike_armor",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:aketon_canvas",
+    "recipe:aketon_gloves_canvas",
+    "recipe:aketon_gloves_nylon",
+    "recipe:aketon_gloves_wool",
+    "recipe:aketon_nylon",
+    "recipe:aketon_nylon_vest",
+    "recipe:aketon_pants_canvas",
+    "recipe:aketon_pants_nylon",
+    "recipe:aketon_pants_wool",
+    "recipe:aketon_wool_vest",
+    "recipe:armor_blarmor",
+    "recipe:armor_cardboard",
+    "recipe:armor_cardboard_cuirass",
+    "recipe:armor_farmor",
+    "recipe:armor_faux_farmor",
+    "recipe:armor_plarmor",
+    "recipe:armor_riot:assembly",
+    "recipe:armor_tiresuit",
+    "recipe:armor_tiresuit:assembly",
+    "recipe:cuirass_tire",
+    "recipe:gambeson_canvas_thinsleeved",
+    "recipe:gambeson_gloves_canvas",
+    "recipe:gambeson_gloves_nylon",
+    "recipe:gambeson_gloves_wool",
+    "recipe:gambeson_nylon",
+    "recipe:gambeson_nylon_thinsleeved",
+    "recipe:gambeson_pants_wool",
+    "recipe:gambeson_vest",
+    "recipe:gambeson_wool_thinsleeved",
+    "recipe:improvised_armguard_tire",
+    "recipe:improvised_legguard_tire",
+    "recipe:jacket_leather_tire",
+    "recipe:legguard_tire"
+  ],
+  "notes": [
+    "Home-made armour is made, not found; sport fencing and riot gear are rare finds."
+  ]
+}

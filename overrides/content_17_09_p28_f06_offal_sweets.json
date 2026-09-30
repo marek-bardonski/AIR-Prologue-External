@@ -1,0 +1,26 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_f06_offal_sweets. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "canned_liver",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "24 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "offal_canned",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "24 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  },
+  {
+    "type": "ITEM",
+    "id": "can_cheese",
+    "spoils_in": "540 days",
+    "air_open_spoils_in": "96 hours",
+    "//": "sealed in its can it keeps like other canned food (food_storage_prologue pattern); opened, its CDDA shelf life"
+  }
+]

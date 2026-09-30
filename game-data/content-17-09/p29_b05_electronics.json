@@ -1,0 +1,854 @@
+{
+  "group": "p29_b05_electronics",
+  "source": "29.09.2026 second 500, round 3: electronics and light - dive lights, lamps and floodlights, solar panels, battery cells, cordless saw, heated clothing, meters and gadgets (power profiles in electricity.json)",
+  "items": [
+    {
+      "id": "light_cell_rechargeable",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15
+        },
+        {
+          "table": "shop",
+          "weight": 0.2
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "light_minus_disposable_cell",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.15
+        },
+        {
+          "table": "shop",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.1
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "diving_flashlight_small",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "diving_flashlight_small_hipower",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "diving_flashlight_variable",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "smart_lamp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.08
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "lightstrip",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "plastic_jack_o_lantern",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "standing_lamp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.08
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "wall_light",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.02
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "standing_floodlight",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "standing_directed_floodlight",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "floodlight",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.05
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "directed_floodlight",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.03
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "light_emergency_red",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.03
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "light_emergency_blue",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "solar_panel_v2",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reinforced_solar_panel",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "reinforced_solar_panel_v2",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "ground_solar_panel_v2",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "folding_solar_panel",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "mountaineering_refuge_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "folding_solar_panel_v2",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "solar_cell_v2",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "box_battery_charger",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "reciprocating_saw",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.1
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "hair_dryer",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "goggles_nv",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "powered_earmuffs",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "game_watch",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "smart_watch",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "electric_blanket",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "thermal_socks",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "thermal_gloves",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "thermal_mask",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "thermal_suit",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "thermal_outfit",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.005
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "weather_reader",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "lux_meter",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "emf_detector",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "noise_emitter",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "hygroscope",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "farm",
+          "weight": 0.02
+        },
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "microscope_dissecting",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "usb_drive",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "portable_hard_drive",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "headphones_circumaural",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "microphone_xlr_generic",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "mixer_music",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "airhorn",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.03
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "house_common",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "horn_bicycle",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "road",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "toothbrush_electric",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "noise_emitter_super",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:plastic_jack_o_lantern"
+  ],
+  "recipesExpected": [
+    "recipe:box_battery_charger",
+    "recipe:directed_floodlight",
+    "recipe:electric_blanket",
+    "recipe:floodlight",
+    "recipe:ground_solar_panel_v2",
+    "recipe:light_minus_disposable_cell",
+    "recipe:noise_emitter",
+    "recipe:noise_emitter:radio-mod",
+    "recipe:noise_emitter_super",
+    "recipe:reinforced_solar_panel",
+    "recipe:reinforced_solar_panel_v2",
+    "recipe:solar_panel_v2",
+    "recipe:standing_directed_floodlight",
+    "recipe:standing_floodlight",
+    "recipe:standing_lamp",
+    "recipe:thermal_gloves",
+    "recipe:thermal_mask",
+    "recipe:thermal_outfit",
+    "recipe:thermal_outfit:thermal_outfit_from_bits",
+    "recipe:thermal_socks",
+    "recipe:thermal_suit",
+    "recipe:wall_light"
+  ],
+  "notes": [
+    "Battery devices, lights, solar panels and the box charger carry electricity.json profiles; floodlights, lamps and beacons take an external battery like the electric lantern."
+  ]
+}

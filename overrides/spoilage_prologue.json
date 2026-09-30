@@ -1,0 +1,20 @@
+[
+  {
+    "//": "Original Prologue content, not CDDA's: what anything that rots turns into. One stack, counted by weight — one unit is the item's own weight; what is left under a unit is lost. rules.json 'spoilage' holds the dials, farming.json its worth as fertilizer."
+  },
+  {
+    "type": "ITEM",
+    "id": "spoilage",
+    "category": "other",
+    "name": { "str_sp": "spoilage" },
+    "description": "Whatever this was, it has gone over: a dark, sour heap no one should eat. Dug into a bed it still feeds the soil.",
+    "symbol": "%",
+    "color": "brown",
+    "material": [ "veggy" ],
+    "weight": "250 g",
+    "volume": "250 ml",
+    "price": "0 cent",
+    "price_postapoc": "0 cent",
+    "flags": [ "COUNT_BY_CHARGES", "TRADER_AVOID" ]
+  }
+]

@@ -1,0 +1,3146 @@
+{
+  "//": "The survivor village's small economy. Seven shelves (29.09.2026): Ilse's watch post keeps a little of everything, Mara the stores, Bex the kitchen, Dr. Sokol the infirmary, Anselm tools, metal and the chemistry of the forge, Piotr electronics, Juno the archive's rarest instruments and books; each sells from its own pool, and the rarer the thing is to come by otherwise, the higher its tier. Original Prologue numbers; the ids name whitelisted things. Every offer has a 'tier' (common, uncommon, rare, epic, legendary). A merchant fills 'slots' places a day from 'pool' and 'rareSlots' from 'rare': each place first rolls a tier by 'tiers' weight (among the tiers that list holds), then an offer of that tier by its own 'weight' - seeded by run, merchant and day, so a reload cannot re-roll it. 'price' is in dollar coins per unit ('unit' charges of a charge-counted item, else one piece), never below the tier's 'minPrice'; 'count' is how many units are on the shelf. What is sold stays sold until the next day. Buying from the survivor (decided 29.09.2026): the village buys FOOD only, and only in the kitchen (Bex) - nothing that has no calories, no medicine, no parts. Never rotten food, never more than a merchant's 'purse' a day, never more than 'dailyCap' coins a day across the whole village, and each further helping of the same thing that day is worth 'appetiteFalloff' of the one before, down to 'appetiteFloor'.",
+  "currency": "coin_dollar",
+  "restockHour": 6,
+  "food": {
+    "//": "What food is worth when sold: kcal / kcalPerDollar, times complexity, enjoyment and freshness. Complexity: 'found' for food no recipe makes, else base + perDifficulty x recipe difficulty + perComponent x component rows, capped. Enjoyment: 1 + fun x perFun, clamped. Freshness: full price down to 'freshFrom' of shelf life left, then falling to 'staleFactor' just before it turns. Drinks with no calories are not food. 'findValue' (29.09.2026): food that was found rather than made is worth at most this many coins for everything one find of it holds (the most generous loot entry or carcass), by how rare the find is - a common find is worth nothing four times in five and a coin the fifth, only an epic or legendary one about two.",
+    "kcalPerDollar": 400,
+    "complexity": {
+      "found": 0.6,
+      "base": 0.9,
+      "perDifficulty": 0.12,
+      "perComponent": 0.08,
+      "max": 2
+    },
+    "enjoyment": {
+      "perFun": 0.04,
+      "min": 0.6,
+      "max": 1.6
+    },
+    "freshness": {
+      "freshFrom": 0.5,
+      "staleFactor": 0.4
+    },
+    "minKcal": 25,
+    "refuse": [
+      "spoilage",
+      "seed_potato_raw"
+    ],
+    "findValue": {
+      "common": 0.2,
+      "uncommon": 0.3,
+      "rare": 0.6,
+      "epic": 1.5,
+      "legendary": 2
+    }
+  },
+  "appetiteFalloff": 0.85,
+  "appetiteFloor": 0.3,
+  "seasons": {
+    "//": "The shelf by season (26.09.2026): in winter what burns, what keeps and what is warm costs more at the shelf, and the village pays more for what burns and for fresh food it cannot grow; in autumn it lays in fuel and food that keeps. 'sell' multiplies the shelf's price, 'buy' what a merchant pays. '@fuel' is the list below; '@keepingFood' is food that keeps keepingFoodDays or more (or never spoils), '@freshFood' food that turns within freshFoodDays, '@warmClothes' a garment of warmClothesMin warmth or more. Code: src/game/village/Trade.js seasonFactor.",
+    "fuel": [
+      "candle",
+      "lamp_oil",
+      "matches",
+      "charcoal",
+      "log",
+      "splinter",
+      "2x4",
+      "stick_long"
+    ],
+    "keepingFoodDays": 30,
+    "freshFoodDays": 7,
+    "warmClothesMin": 20,
+    "spring": {
+      "sell": {
+        "@keepingFood": 1.1
+      },
+      "buy": {
+        "@freshFood": 1.2
+      }
+    },
+    "summer": {},
+    "autumn": {
+      "sell": {
+        "@fuel": 1.15
+      },
+      "buy": {
+        "@fuel": 1.3,
+        "@keepingFood": 1.2
+      }
+    },
+    "winter": {
+      "sell": {
+        "@fuel": 1.5,
+        "@keepingFood": 1.3,
+        "@warmClothes": 1.5,
+        "sleeping_bag": 1.4
+      },
+      "buy": {
+        "@fuel": 1.5,
+        "@freshFood": 1.4,
+        "@keepingFood": 1.2
+      }
+    }
+  },
+  "merchants": {
+    "mara": {
+      "service": "trade_mara",
+      "slots": 14,
+      "rareSlots": 2,
+      "purse": 0,
+      "pool": [
+        {
+          "item": "matches",
+          "price": 3,
+          "tier": "common",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 6
+        },
+        {
+          "item": "candle",
+          "price": 4,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 6
+        },
+        {
+          "item": "salt",
+          "price": 2,
+          "tier": "common",
+          "unit": 10,
+          "count": [
+            2,
+            6
+          ],
+          "weight": 6
+        },
+        {
+          "item": "thread",
+          "price": 4,
+          "tier": "common",
+          "unit": 50,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 5
+        },
+        {
+          "item": "bottle_plastic",
+          "price": 3,
+          "tier": "common",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 5
+        },
+        {
+          "item": "jerky",
+          "price": 6,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            2,
+            8
+          ],
+          "weight": 5
+        },
+        {
+          "item": "flour",
+          "price": 2,
+          "tier": "common",
+          "unit": 2,
+          "count": [
+            5,
+            20
+          ],
+          "weight": 4
+        },
+        {
+          "item": "seed_corn",
+          "price": 3,
+          "tier": "common",
+          "unit": 4,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "seed_barley",
+          "price": 3,
+          "tier": "common",
+          "unit": 4,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "seed_beans",
+          "price": 3,
+          "tier": "common",
+          "unit": 4,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "can_beans",
+          "price": 5,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 4
+        },
+        {
+          "item": "can_corn",
+          "price": 5,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 4
+        },
+        {
+          "item": "socks_wool",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "gloves_work",
+          "price": 8,
+          "tier": "common",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "lighter",
+          "price": 10,
+          "tier": "uncommon",
+          "count": [
+            1,
+            2
+          ],
+          "weight": 4
+        },
+        {
+          "item": "lamp_oil",
+          "price": 8,
+          "tier": "uncommon",
+          "unit": 250,
+          "count": [
+            1,
+            2
+          ],
+          "weight": 4
+        },
+        {
+          "item": "soap",
+          "price": 6,
+          "tier": "uncommon",
+          "unit": 10,
+          "count": [
+            1,
+            2
+          ],
+          "weight": 4
+        },
+        {
+          "item": "rope_30",
+          "price": 16,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "sewing_kit",
+          "price": 20,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "dry_mushroom",
+          "price": 3,
+          "tier": "uncommon",
+          "unit": 2,
+          "count": [
+            4,
+            12
+          ],
+          "weight": 4
+        },
+        {
+          "item": "pur_tablets",
+          "price": 4,
+          "tier": "uncommon",
+          "unit": 1,
+          "count": [
+            2,
+            8
+          ],
+          "weight": 4
+        },
+        {
+          "item": "blanket",
+          "price": 18,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "hat_knit",
+          "price": 14,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "thermos",
+          "price": 18,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "pot",
+          "price": 16,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "flashlight",
+          "price": 25,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "sleeping_bag",
+          "price": 45,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "backpack",
+          "price": 55,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "tarp",
+          "price": 30,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "duct_tape",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "rope_6",
+          "price": 3,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "bucket",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "jerrycan",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "jar_glass_sealed",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "bag_canvas",
+          "price": 8,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "poncho",
+          "price": 18,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "boots_hiking",
+          "price": 11,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "socks",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "towel",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "bleach",
+          "price": 4,
+          "tier": "common",
+          "unit": 2,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "cordage_36",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "string_36",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "paper",
+          "price": 4,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "charcoal",
+          "price": 8,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "flint",
+          "price": 4,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "tinderbox",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        }
+      ],
+      "rare": [
+        {
+          "item": "medium_battery_cell",
+          "price": 35,
+          "tier": "rare",
+          "count": [
+            1,
+            2
+          ],
+          "weight": 3
+        },
+        {
+          "item": "manual_survival",
+          "price": 45,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "manual_canning",
+          "price": 50,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "honeycomb",
+          "price": 12,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "seed_garlic_clove",
+          "price": 10,
+          "tier": "rare",
+          "unit": 4,
+          "count": [
+            1,
+            2
+          ],
+          "weight": 2
+        },
+        {
+          "item": "rucksack",
+          "price": 120,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "textbook_survival",
+          "price": 80,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "coat_winter",
+          "price": 70,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "tent_kit",
+          "price": 90,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "binoculars",
+          "price": 150,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "water_purifier",
+          "price": 160,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "goggles_ski",
+          "price": 54,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "multitool",
+          "price": 155,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "canteen",
+          "price": 156,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "hand_crank_charger",
+          "price": 46,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ]
+    },
+    "bex": {
+      "service": "trade_bex",
+      "slots": 9,
+      "rareSlots": 2,
+      "purse": 20,
+      "buys": {
+        "food": 1.15
+      },
+      "foodFilter": "any",
+      "pool": [
+        {
+          "item": "jerky",
+          "price": 6,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            2,
+            6
+          ],
+          "weight": 4
+        },
+        {
+          "item": "flour",
+          "price": 2,
+          "tier": "common",
+          "unit": 2,
+          "count": [
+            5,
+            20
+          ],
+          "weight": 4
+        },
+        {
+          "item": "cornmeal",
+          "price": 2,
+          "tier": "common",
+          "unit": 2,
+          "count": [
+            5,
+            20
+          ],
+          "weight": 4
+        },
+        {
+          "item": "salt",
+          "price": 2,
+          "tier": "common",
+          "unit": 10,
+          "count": [
+            1,
+            5
+          ],
+          "weight": 4
+        },
+        {
+          "item": "charcoal",
+          "price": 3,
+          "tier": "common",
+          "unit": 10,
+          "count": [
+            2,
+            6
+          ],
+          "weight": 4
+        },
+        {
+          "item": "can_beans",
+          "price": 5,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "can_corn",
+          "price": 5,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "candy",
+          "price": 3,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            2,
+            6
+          ],
+          "weight": 3
+        },
+        {
+          "item": "meat_smoked",
+          "price": 8,
+          "tier": "uncommon",
+          "unit": 1,
+          "count": [
+            1,
+            5
+          ],
+          "weight": 4
+        },
+        {
+          "item": "dry_mushroom",
+          "price": 3,
+          "tier": "uncommon",
+          "unit": 2,
+          "count": [
+            4,
+            16
+          ],
+          "weight": 5
+        },
+        {
+          "item": "crackers",
+          "price": 3,
+          "tier": "uncommon",
+          "unit": 1,
+          "count": [
+            4,
+            10
+          ],
+          "weight": 3
+        },
+        {
+          "item": "peanutbutter",
+          "price": 10,
+          "tier": "uncommon",
+          "unit": 8,
+          "count": [
+            1,
+            2
+          ],
+          "weight": 2
+        },
+        {
+          "item": "mre_beef",
+          "price": 12,
+          "tier": "uncommon",
+          "unit": 1,
+          "count": [
+            1,
+            2
+          ],
+          "weight": 2
+        },
+        {
+          "item": "oatmeal",
+          "price": 10,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "coffee_raw",
+          "price": 12,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "tea_raw",
+          "price": 10,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "can_tuna",
+          "price": 73,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ],
+      "rare": [
+        {
+          "item": "sugar",
+          "price": 3,
+          "tier": "uncommon",
+          "unit": 5,
+          "count": [
+            2,
+            8
+          ],
+          "weight": 3
+        },
+        {
+          "item": "pan",
+          "price": 20,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "honeycomb",
+          "price": 12,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "cookbook",
+          "price": 35,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "hot_chocolate",
+          "price": 10,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "family_cookbook",
+          "price": 55,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "chocolate",
+          "price": 25,
+          "tier": "epic",
+          "unit": 1,
+          "count": [
+            1,
+            2
+          ],
+          "weight": 2
+        },
+        {
+          "item": "honey_bottled",
+          "price": 40,
+          "tier": "epic",
+          "unit": 16,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "hana": {
+      "service": "trade_hana",
+      "slots": 8,
+      "rareSlots": 2,
+      "purse": 0,
+      "pool": [
+        {
+          "item": "bandages_makeshift_boiled",
+          "price": 3,
+          "tier": "common",
+          "count": [
+            2,
+            6
+          ],
+          "weight": 6
+        },
+        {
+          "item": "disinfectant_makeshift",
+          "price": 2,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            5,
+            15
+          ],
+          "weight": 5
+        },
+        {
+          "item": "chamomile",
+          "price": 2,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            3,
+            8
+          ],
+          "weight": 3
+        },
+        {
+          "item": "adhesive_bandages",
+          "price": 3,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            2,
+            6
+          ],
+          "weight": 4
+        },
+        {
+          "item": "bandages",
+          "price": 6,
+          "tier": "uncommon",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 4
+        },
+        {
+          "item": "aspirin",
+          "price": 4,
+          "tier": "uncommon",
+          "unit": 1,
+          "count": [
+            4,
+            12
+          ],
+          "weight": 4
+        },
+        {
+          "item": "medical_tape",
+          "price": 3,
+          "tier": "uncommon",
+          "unit": 1,
+          "count": [
+            2,
+            6
+          ],
+          "weight": 3
+        },
+        {
+          "item": "arm_splint",
+          "price": 12,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "leg_splint",
+          "price": 12,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "saline",
+          "price": 6,
+          "tier": "uncommon",
+          "unit": 5,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "iodine",
+          "price": 10,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 2
+        },
+        {
+          "item": "quikclot",
+          "price": 15,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "codeine",
+          "price": 12,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 2
+        },
+        {
+          "item": "bleach",
+          "price": 4,
+          "tier": "common",
+          "unit": 2,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "soap",
+          "price": 10,
+          "tier": "common",
+          "unit": 10,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "pur_tablets",
+          "price": 8,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        }
+      ],
+      "rare": [
+        {
+          "item": "disinfectant",
+          "price": 3,
+          "tier": "uncommon",
+          "unit": 1,
+          "count": [
+            5,
+            10
+          ],
+          "weight": 3
+        },
+        {
+          "item": "thermometer",
+          "price": 12,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "weak_antibiotic",
+          "price": 14,
+          "tier": "rare",
+          "unit": 1,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 4
+        },
+        {
+          "item": "manual_first_aid",
+          "price": 45,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "antibiotics",
+          "price": 28,
+          "tier": "epic",
+          "unit": 1,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "textbook_firstaid",
+          "price": 80,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "textbook_toxicology",
+          "price": 41,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "glass_thermometer",
+          "price": 152,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ]
+    },
+    "anselm": {
+      "service": "trade_anselm",
+      "slots": 10,
+      "rareSlots": 2,
+      "purse": 0,
+      "pool": [
+        {
+          "item": "hammer",
+          "price": 16,
+          "tier": "common",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 4
+        },
+        {
+          "item": "screwdriver",
+          "price": 12,
+          "tier": "common",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 4
+        },
+        {
+          "item": "nail",
+          "price": 2,
+          "tier": "common",
+          "unit": 10,
+          "count": [
+            3,
+            10
+          ],
+          "weight": 5
+        },
+        {
+          "item": "steel_chunk",
+          "price": 3,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            2,
+            6
+          ],
+          "weight": 4
+        },
+        {
+          "item": "cable",
+          "price": 5,
+          "tier": "common",
+          "unit": 20,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 4
+        },
+        {
+          "item": "arrow_wood",
+          "price": 2,
+          "tier": "common",
+          "unit": 1,
+          "count": [
+            4,
+            10
+          ],
+          "weight": 3
+        },
+        {
+          "item": "pliers",
+          "price": 12,
+          "tier": "common",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "wrench",
+          "price": 14,
+          "tier": "common",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "saw",
+          "price": 28,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "hacksaw",
+          "price": 30,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "crowbar",
+          "price": 32,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "sling",
+          "price": 10,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "shovel",
+          "price": 30,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "tool_belt",
+          "price": 22,
+          "tier": "uncommon",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "hatchet",
+          "price": 40,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "knife_hunting",
+          "price": 45,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "pickaxe",
+          "price": 55,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "knife_combat",
+          "price": 50,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "chem_sulphuric_acid",
+          "price": 11,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_muriatic_acid",
+          "price": 72,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_baking_soda",
+          "price": 74,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_washing_soda",
+          "price": 48,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_citric_acid",
+          "price": 50,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_acetone",
+          "price": 44,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_hydrogen_peroxide_conc",
+          "price": 76,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_zinc_powder",
+          "price": 69,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_aluminium_powder",
+          "price": 56,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_saltpetre",
+          "price": 68,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_sulphur",
+          "price": 18,
+          "tier": "uncommon",
+          "unit": 50,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_calcium_chloride",
+          "price": 74,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_ethanol",
+          "price": 35,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_slaked_lime",
+          "price": 16,
+          "tier": "uncommon",
+          "unit": 50,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "material_quicklime",
+          "price": 14,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chemistry_set_basic",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "welding_wire_steel",
+          "price": 10,
+          "tier": "uncommon",
+          "unit": 50,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "grinder_cutoff_disc",
+          "price": 38,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "drivebelt",
+          "price": 41,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "filter_liquid",
+          "price": 76,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "copper_rod",
+          "price": 132,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "zinc_metal",
+          "price": 151,
+          "tier": "legendary",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "lead",
+          "price": 21,
+          "tier": "rare",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "tin",
+          "price": 68,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "glass_tube_small",
+          "price": 22,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "wax_paraffin",
+          "price": 25,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ],
+      "rare": [
+        {
+          "item": "screwdriver_set",
+          "price": 45,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "solder_wire",
+          "price": 12,
+          "tier": "rare",
+          "unit": 20,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "amplifier",
+          "price": 40,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "manual_mechanics",
+          "price": 45,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "bow_saw",
+          "price": 45,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "battery_charger",
+          "price": 40,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "goggles_welding",
+          "price": 30,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "soldering_iron",
+          "price": 55,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 2
+        },
+        {
+          "item": "welding_book",
+          "price": 70,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "multimeter",
+          "price": 60,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "machete",
+          "price": 70,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "chem_nitric_acid",
+          "price": 158,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_ferric_chloride",
+          "price": 144,
+          "tier": "legendary",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_manganese_dioxide",
+          "price": 104,
+          "tier": "legendary",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_potassium_alum",
+          "price": 123,
+          "tier": "legendary",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_chloroform",
+          "price": 89,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chem_formaldehyde",
+          "price": 119,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "chemistry_set",
+          "price": 11,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "magnesium",
+          "price": 60,
+          "tier": "epic",
+          "unit": 50,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "pyrometer",
+          "price": 52,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "brazing_rod_bronze",
+          "price": 72,
+          "tier": "legendary",
+          "unit": 10,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "polycarbonate_sheet",
+          "price": 145,
+          "tier": "legendary",
+          "unit": 20,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "sheet_kevlar_layered",
+          "price": 127,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "multitool",
+          "price": 155,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ]
+    },
+    "ilse": {
+      "slots": 12,
+      "rareSlots": 2,
+      "purse": 0,
+      "pool": [
+        {
+          "item": "duct_tape",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "needle_bone",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "sewing_kit",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "rope_6",
+          "price": 3,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "candle",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "matches",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "lighter",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "pot",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "knife_folding",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "pockknife",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "bag_canvas",
+          "price": 8,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "jerrycan",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "bottle_plastic",
+          "price": 3,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "socks",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "gloves_work",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "gloves_fingerless",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "soap",
+          "price": 10,
+          "tier": "common",
+          "unit": 10,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "bleach",
+          "price": 4,
+          "tier": "common",
+          "unit": 2,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "tarp",
+          "price": 3,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "hammer",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "string_36",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "blanket",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "towel",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "paper",
+          "price": 4,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "bucket",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "jar_glass_sealed",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "tinderbox",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "flint",
+          "price": 4,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "thread",
+          "price": 7,
+          "tier": "common",
+          "unit": 50,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "cordage_36",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "poncho",
+          "price": 18,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "hat_hunting",
+          "price": 13,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "boots_hiking",
+          "price": 11,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "pur_tablets",
+          "price": 8,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "charcoal",
+          "price": 8,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "lamp_oil",
+          "price": 4,
+          "tier": "common",
+          "unit": 50,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "flashlight",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "light_battery_cell",
+          "price": 29,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ],
+      "rare": [
+        {
+          "item": "whistle",
+          "price": 20,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "goggles_ski",
+          "price": 54,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "multitool",
+          "price": 155,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "canteen",
+          "price": 156,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "water_purifier",
+          "price": 13,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "bag_plastic",
+          "price": 159,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "wax",
+          "price": 81,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "machete",
+          "price": 9,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "hand_crank_charger",
+          "price": 46,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "two_way_radio",
+          "price": 19,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        }
+      ]
+    },
+    "piotr": {
+      "slots": 10,
+      "rareSlots": 2,
+      "purse": 0,
+      "pool": [
+        {
+          "item": "e_scrap",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "circuit",
+          "price": 4,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "amplifier",
+          "price": 10,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "power_supply",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "antenna",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "receiver",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "transponder",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "element",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "motor_micro",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "motor_tiny",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "lens",
+          "price": 4,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "cable",
+          "price": 7,
+          "tier": "common",
+          "unit": 50,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "solder_wire",
+          "price": 9,
+          "tier": "common",
+          "unit": 50,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "copper_wire",
+          "price": 4,
+          "tier": "common",
+          "unit": 50,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "lightstrip_inactive",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "light_minus_battery_cell",
+          "price": 22,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "light_battery_cell",
+          "price": 29,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "medium_battery_cell",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "heavy_battery_cell",
+          "price": 6,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "battery_charger",
+          "price": 5,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "small_storage_battery",
+          "price": 34,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "multimeter",
+          "price": 4,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "soldering_iron",
+          "price": 7,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "two_way_radio",
+          "price": 9,
+          "tier": "common",
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "manual_electronics",
+          "price": 39,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "mag_electronics",
+          "price": 128,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ],
+      "rare": [
+        {
+          "item": "processor",
+          "price": 66,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "RAM",
+          "price": 60,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "storage_battery",
+          "price": 58,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "cell_phone",
+          "price": 70,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "sensor_module",
+          "price": 157,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "solar_panel",
+          "price": 106,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "tazer",
+          "price": 121,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "textbook_electronics",
+          "price": 133,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "advanced_electronics",
+          "price": 158,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "electronics_controls",
+          "price": 17,
+          "tier": "uncommon",
+          "count": [
+            1,
+            3
+          ],
+          "weight": 3
+        },
+        {
+          "item": "laptop",
+          "price": 102,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "plut_cell",
+          "price": 125,
+          "tier": "legendary",
+          "unit": 5,
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ]
+    },
+    "juno": {
+      "slots": 6,
+      "rareSlots": 2,
+      "purse": 0,
+      "pool": [
+        {
+          "item": "basic_chemistry",
+          "price": 20,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "textbook_chemistry",
+          "price": 81,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "textbook_fabrication",
+          "price": 154,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "textbook_mechanics",
+          "price": 112,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "textbook_robots",
+          "price": 100,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "textbook_toxicology",
+          "price": 41,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "textbook_botany",
+          "price": 30,
+          "tier": "rare",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "recipe_lab_elec",
+          "price": 103,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "recipe_labchem",
+          "price": 87,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "glass_thermometer",
+          "price": 152,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "balance_small",
+          "price": 82,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "barometer",
+          "price": 142,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "ph_meter",
+          "price": 55,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "funnel_separation",
+          "price": 50,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ],
+      "rare": [
+        {
+          "item": "adv_chemistry",
+          "price": 117,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "analytical_set_basic",
+          "price": 105,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "still_lab",
+          "price": 145,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "spectrophotometer",
+          "price": 73,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "microcentrifuge",
+          "price": 146,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "rotovap",
+          "price": 80,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "melting_point",
+          "price": 107,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "electrohack",
+          "price": 132,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "ai_module_basic",
+          "price": 95,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        },
+        {
+          "item": "identification_module",
+          "price": 96,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 3
+        }
+      ]
+    }
+  },
+  "dailyCap": 20,
+  "tiers": {
+    "//": "Shelf tiers: 'weight' is how often a place on the shelf rolls that tier, 'minPrice' the least one unit of it costs.",
+    "common": {
+      "weight": 50,
+      "minPrice": 1
+    },
+    "uncommon": {
+      "weight": 30,
+      "minPrice": 3
+    },
+    "rare": {
+      "weight": 14,
+      "minPrice": 10
+    },
+    "epic": {
+      "weight": 5,
+      "minPrice": 25
+    },
+    "legendary": {
+      "weight": 1,
+      "minPrice": 60
+    }
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "//": "Fate system (Prologue): the letter that carries a wish home; granted content is generated at runtime and never shipped."
+  },
+  {
+    "id": "fate_letter",
+    "type": "ITEM",
+    "name": {
+      "str": "folded letter",
+      "str_pl": "folded letters"
+    },
+    "description": "A letter folded from scrap paper and sealed with a dab of pine pitch. The hand that wrote it is careful, and not yours.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "material": [
+      "paper"
+    ],
+    "symbol": "?",
+    "color": "white",
+    "flags": [
+      "FATE_LETTER"
+    ]
+  }
+]

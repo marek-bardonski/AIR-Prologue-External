@@ -1,0 +1,532 @@
+{
+  "group": "p28_w02_blades",
+  "source": "28.09.2026 next-1000 import: swords, daggers and polearms (collectors' pieces and forged mild-steel ones)",
+  "items": [
+    {
+      "id": "kris",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lajatang",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lc_arming_sword",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_broadsword",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_cavalry_sabre",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_cutlass",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_estoc",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_falx",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_jian",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_katana",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_kilij",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_knife_trench",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_kriegsmesser",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_kukri",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_longsword",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_nodachi",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_rapier",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_scimitar",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_talwar",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_wakizashi",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "lc_zweihander",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "longsword",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "machete_gimmick",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "nodachi",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "punch_dagger",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "rapier",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "scimitar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "sword_bayonet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "sword_bronze",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "sword_cane",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "sword_metal_fencing",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "sword_metal_large",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "sword_sheets_welded",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "sword_sheets_welded_large",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "sword_xiphos",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "tanto",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "utility_knife_folding",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "wakizashi",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "zweihander",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "glaive",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "halberd",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "ji",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lc_aztec_spear",
+      "pools": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "naginata",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "pike",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins",
+          "weight": 0.2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:sword_sheets_welded",
+    "recipe:sword_sheets_welded_large"
+  ],
+  "recipesExpected": [
+    "recipe:glaive",
+    "recipe:halberd",
+    "recipe:ji",
+    "recipe:kris",
+    "recipe:lajatang",
+    "recipe:lc_arming_sword",
+    "recipe:lc_aztec_spear",
+    "recipe:lc_broadsword",
+    "recipe:lc_cavalry_sabre",
+    "recipe:lc_cutlass",
+    "recipe:lc_estoc",
+    "recipe:lc_falx",
+    "recipe:lc_jian",
+    "recipe:lc_katana",
+    "recipe:lc_kilij",
+    "recipe:lc_knife_trench",
+    "recipe:lc_kriegsmesser",
+    "recipe:lc_kukri",
+    "recipe:lc_longsword",
+    "recipe:lc_nodachi",
+    "recipe:lc_rapier",
+    "recipe:lc_scimitar",
+    "recipe:lc_talwar",
+    "recipe:lc_wakizashi",
+    "recipe:lc_zweihander",
+    "recipe:naginata",
+    "recipe:naginata:reforged",
+    "recipe:pike",
+    "recipe:punch_dagger",
+    "recipe:sword_bayonet",
+    "recipe:sword_bronze",
+    "recipe:sword_cane",
+    "recipe:sword_metal_fencing",
+    "recipe:sword_metal_large",
+    "recipe:sword_xiphos",
+    "recipe:tanto"
+  ],
+  "notes": [
+    "Mild-steel (lc_) and scrap-welded blades are forged, not found."
+  ]
+}

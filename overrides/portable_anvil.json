@@ -1,0 +1,13 @@
+[
+  {
+    "type": "ITEM",
+    "id": "anvil",
+    "qualities": [
+      [
+        "ANVIL",
+        3
+      ]
+    ],
+    "description": "A heavy steel anvil. Set it on the ground within reach to support metalworking; no installation is needed."
+  }
+]

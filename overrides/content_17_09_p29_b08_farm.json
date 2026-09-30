@@ -1,0 +1,42 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p29_b08_farm. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "seed_cabbage",
+    "fruit": "cabbage",
+    "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+  },
+  {
+    "type": "ITEM",
+    "id": "seed_lettuce",
+    "fruit": "lettuce",
+    "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+  },
+  {
+    "type": "ITEM",
+    "id": "seed_melon",
+    "fruit": "melon_chunks",
+    "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+  },
+  {
+    "type": "ITEM",
+    "id": "seed_watermelon",
+    "fruit": "watermelon_wedge",
+    "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+  },
+  {
+    "type": "ITEM",
+    "id": "seed_rose",
+    "fruit": "rose_hips_cut",
+    "//": "the bed is harvested as the cut produce: the whole head or melon only reaches the table by being cut up, which the farm economy cannot follow"
+  },
+  {
+    "type": "ITEM",
+    "id": "milk_UHT",
+    "spoils_in": "270 days",
+    "air_open_spoils_in": "2 days",
+    "//": "sealed long-life milk keeps like other packed rations (food_storage_prologue pattern); opened it goes off like fresh milk"
+  }
+]

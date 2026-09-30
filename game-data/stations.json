@@ -1,0 +1,887 @@
+{
+  "//": "Home stations. construction = CDDA construction whose requirements/time are used (patched in overrides/ where needed); consumes = explicit alternative (item, count). provides.pseudoTools are CDDA pseudo tool ids satisfied while the station exists on the tile; provides.qualities are tool qualities. effects are Prologue rules.",
+  "stations": {
+    "fire_ring": {
+      "name": "Fire ring",
+      "construction": "constr_firering",
+      "furniture": "f_firering",
+      "provides": {
+        "pseudoTools": [
+          "fire"
+        ],
+        "qualities": []
+      },
+      "effects": {
+        "light": true
+      }
+    },
+    "stone_fireplace": {
+      "name": "Stone fireplace",
+      "construction": "constr_stone_fireplace",
+      "furniture": "f_fireplace_stone",
+      "provides": {
+        "pseudoTools": [
+          "fire"
+        ],
+        "qualities": []
+      },
+      "effects": {
+        "light": true,
+        "craftSpeed": {
+          "cooking": 0.9
+        }
+      }
+    },
+    "straw_bed": {
+      "name": "Straw bed",
+      "construction": "constr_straw_bed",
+      "furniture": "f_straw_bed",
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "sleepQuality": 0.8
+      }
+    },
+    "makeshift_bed": {
+      "name": "Makeshift bed",
+      "construction": "constr_makeshift_bed",
+      "furniture": "f_makeshift_bed",
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "sleepQuality": 1
+      }
+    },
+    "workbench": {
+      "name": "Workbench",
+      "construction": "constr_place_workbench",
+      "furniture": "f_workbench",
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "craftSpeed": {
+          "all": 0.9
+        }
+      }
+    },
+    "wooden_chest": {
+      "name": "Wooden chest",
+      "construction": "constr_chest",
+      "furniture": "f_chest",
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "storageVolumeMl": 250000
+      }
+    },
+    "smoking_rack": {
+      "name": "Smoking rack",
+      "construction": "constr_smoking_rack",
+      "furniture": "f_smoking_rack",
+      "provides": {
+        "pseudoTools": [
+          "char_smoker"
+        ],
+        "qualities": []
+      },
+      "effects": {}
+    },
+    "metal_smoking_rack": {
+      "name": "Metal smoking rack",
+      "//": "Prologue: a found or forged metal smoking rack set up over the camp fire pit; smokes like the built rack (CDDA deploys it as f_metal_smoking_rack). minutes is a Prologue dial.",
+      "consumes": [
+        [
+          [
+            "metal_smoking_rack",
+            1
+          ]
+        ]
+      ],
+      "minutes": 20,
+      "deploys": "metal_smoking_rack",
+      "provides": {
+        "pseudoTools": [
+          "char_smoker"
+        ],
+        "qualities": []
+      },
+      "effects": {}
+    },
+    "metal_butcher_rack": {
+      "name": "Metal butchering rack",
+      "//": "Prologue (29.09.2026): the folding metal butchering rack (CDDA deploys it as f_metal_butcher_rack, BUTCHER_EQ) set up at camp. A carcass hung on it is worked as on a table (butchery.asSurface) and a little faster (timeMultiplier). deploys: the item's own 'Deploy at camp' button builds it; dismantling gives the rack back. minutes and the butchery dials are Prologue's.",
+      "consumes": [
+        [
+          [
+            "metal_butcher_rack",
+            1
+          ]
+        ]
+      ],
+      "minutes": 15,
+      "deploys": "metal_butcher_rack",
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "butchery": {
+          "asSurface": true,
+          "timeMultiplier": 0.85
+        }
+      }
+    },
+    "water_funnel": {
+      "name": "Water funnel",
+      "//": "One row of alternatives: any rain funnel starts the station. produces.funnels lists what may stand here. Yield is physical: rainMmPerDay (a temperate north-east average, about 1100 mm a year) x the funnel's mouth (radiusMm, the source's funnel_radius) x efficiency (Prologue: how much of what lands reaches the vessel - smooth rigid mouths lose little, stitched hide and bark seep and sag). lifeDays is Prologue too: how long one lasts out in the weather before it is past use. Water runs into the vessels set under the funnels first; baseCharges is the station's own small catch that fills after them.",
+      "consumes": [
+        [
+          [
+            "funnel",
+            1
+          ],
+          [
+            "makeshift_funnel",
+            1
+          ],
+          [
+            "leather_funnel",
+            1
+          ],
+          [
+            "birchbark_funnel",
+            1
+          ],
+          [
+            "metal_funnel",
+            1
+          ]
+        ]
+      ],
+      "minutes": 5,
+      "requiredSkills": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "produces": {
+          "item": "water",
+          "rainMmPerDay": 3.0,
+          "baseCharges": 8,
+          "funnels": {
+            "funnel": {
+              "radiusMm": 300,
+              "efficiency": 0.9,
+              "lifeDays": 180
+            },
+            "metal_funnel": {
+              "radiusMm": 400,
+              "efficiency": 0.9,
+              "lifeDays": 720
+            },
+            "leather_funnel": {
+              "radiusMm": 200,
+              "efficiency": 0.75,
+              "lifeDays": 90
+            },
+            "birchbark_funnel": {
+              "radiusMm": 200,
+              "efficiency": 0.7,
+              "lifeDays": 45
+            },
+            "makeshift_funnel": {
+              "radiusMm": 200,
+              "efficiency": 0.65,
+              "lifeDays": 30
+            }
+          }
+        }
+      }
+    },
+    "clay_oven": {
+      "name": "Clay oven",
+      "construction": "constr_clayoven",
+      "furniture": "f_clay_oven",
+      "provides": {
+        "pseudoTools": [
+          "fire",
+          "oven"
+        ],
+        "qualities": []
+      },
+      "effects": {
+        "craftSpeed": {
+          "cooking": 0.8
+        }
+      }
+    },
+    "screw_press": {
+      "name": "Screw press",
+      "construction": "constr_place_screw_press",
+      "furniture": "f_screw_press",
+      "provides": {
+        "pseudoTools": [
+          "screw_press"
+        ],
+        "qualities": []
+      },
+      "effects": {}
+    },
+    "stationary_scutcher": {
+      "name": "Stationary scutcher",
+      "construction": "constr_scutch_breaker",
+      "furniture": "f_scutch_breaker",
+      "provides": {
+        "pseudoTools": [
+          "scutcheritem"
+        ],
+        "qualities": []
+      },
+      "effects": {}
+    },
+    "solar_array": {
+      "name": "Solar array",
+      "//": "Prologue: a found panel wired up at camp. One row of alternatives - any one panel that has an electricity.json solar profile (plain, v2, reinforced, folding) or a whole ground array. What it gives is the watts of whatever was built into it (electricity.json profiles), counted by solar charging at camp exactly like a panel lying on the tile. minutes and the skill are Prologue dials.",
+      "consumes": [
+        [
+          [
+            "solar_panel",
+            1
+          ],
+          [
+            "solar_panel_v2",
+            1
+          ],
+          [
+            "reinforced_solar_panel",
+            1
+          ],
+          [
+            "reinforced_solar_panel_v2",
+            1
+          ],
+          [
+            "folding_solar_panel",
+            1
+          ],
+          [
+            "folding_solar_panel_v2",
+            1
+          ],
+          [
+            "ground_solar_panel",
+            1
+          ],
+          [
+            "ground_solar_panel_v2",
+            1
+          ]
+        ]
+      ],
+      "minutes": 60,
+      "requiredSkills": [
+        [
+          "electronics",
+          1
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "solar": true
+      }
+    },
+    "electric_heater": {
+      "name": "Electric heater",
+      "//": "Prologue: a space heater (or two heating elements in a sheet-metal box) wired to the batteries kept at camp. It warms the room like a hearth (effects.heat: fireC radiant, roomC the air a closed room is held at, reached in proportion to the shelter's insulation) and draws watts from the camp's batteries while on (electricity/Heating.js). Prologue dials.",
+      "consumes": [
+        [
+          [
+            "small_space_heater",
+            1
+          ],
+          [
+            "large_space_heater",
+            1
+          ],
+          [
+            "element",
+            2
+          ]
+        ],
+        [
+          [
+            "cable",
+            4
+          ]
+        ]
+      ],
+      "minutes": 45,
+      "requiredSkills": [
+        [
+          "electronics",
+          1
+        ]
+      ],
+      "qualities": [
+        [
+          {
+            "id": "SCREW",
+            "level": 1
+          }
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "heat": {
+          "watts": 500,
+          "fireC": 2,
+          "roomC": 21
+        }
+      }
+    },
+    "electric_fan": {
+      "name": "Electric fan",
+      "//": "Prologue: a desk fan, or a small motor with a blade, wired to the camp's batteries. It takes deltaC off warm air (never below warmth.json heat.coolFromC) and draws little.",
+      "consumes": [
+        [
+          [
+            "fan",
+            1
+          ],
+          [
+            "motor_tiny",
+            1
+          ],
+          [
+            "motor_small",
+            1
+          ]
+        ],
+        [
+          [
+            "cable",
+            2
+          ]
+        ]
+      ],
+      "minutes": 30,
+      "requiredSkills": [
+        [
+          "electronics",
+          1
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "cool": {
+          "watts": 35,
+          "deltaC": -3
+        }
+      }
+    },
+    "air_conditioner": {
+      "name": "Air conditioner",
+      "//": "Prologue: a salvaged cooling unit (or a condenser coil) with a motor and a housing. It pulls the room toward roomC in proportion to the shelter's insulation, so it is for a hut, not the open air, and it needs a lot of power.",
+      "consumes": [
+        [
+          [
+            "mountable_cooler",
+            1
+          ],
+          [
+            "condensor_coil",
+            1
+          ]
+        ],
+        [
+          [
+            "motor_small",
+            1
+          ]
+        ],
+        [
+          [
+            "cable",
+            8
+          ]
+        ],
+        [
+          [
+            "sheet_metal_small",
+            4
+          ]
+        ]
+      ],
+      "minutes": 240,
+      "requiredSkills": [
+        [
+          "electronics",
+          3
+        ],
+        [
+          "mechanics",
+          2
+        ]
+      ],
+      "qualities": [
+        [
+          {
+            "id": "SCREW",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "WRENCH",
+            "level": 1
+          }
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "cool": {
+          "watts": 900,
+          "roomC": 20
+        }
+      }
+    },
+    "shrine": {
+      "name": "Shrine",
+      "consumes": [
+        [
+          "rock",
+          8
+        ],
+        [
+          "stick",
+          4
+        ],
+        [
+          "splinter",
+          6
+        ]
+      ],
+      "minutes": 30,
+      "requiredSkills": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {}
+    },
+    "simple_hut": {
+      "name": "Simple wooden hut",
+      "//": "A frame of poles and sticks lashed where they cross, roofed with whatever keeps the rain out. The start hex and its neighbours give it in the first hour or two (camp.json startSpawns); no tools, no cordage.",
+      "minutes": 60,
+      "consumes": [
+        [
+          [
+            "stick_long",
+            2
+          ],
+          [
+            "stick",
+            6
+          ]
+        ],
+        [
+          [
+            "withered",
+            3
+          ],
+          [
+            "straw_pile",
+            2
+          ],
+          [
+            "pine_bough",
+            4
+          ],
+          [
+            "willowbark",
+            4
+          ],
+          [
+            "birchbark",
+            4
+          ],
+          [
+            "leaves",
+            8
+          ]
+        ]
+      ],
+      "requiredSkills": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 1,
+        "windShelter": 0.5,
+        "insulation": 0.1,
+        "rainCover": 0.8,
+        "sleepQuality": 0.65
+      }
+    },
+    "lean_to": {
+      "name": "Lean-to",
+      "minutes": 300,
+      "consumes": [
+        [
+          [
+            "stick_long",
+            10
+          ],
+          [
+            "log",
+            3
+          ]
+        ],
+        [
+          [
+            "pine_bough",
+            24
+          ],
+          [
+            "straw_pile",
+            30
+          ],
+          [
+            "willowbark",
+            20
+          ],
+          [
+            "leaves",
+            40
+          ]
+        ],
+        [
+          [
+            "cordage_6",
+            4
+          ],
+          [
+            "string_6",
+            4
+          ],
+          [
+            "cordage_36",
+            1
+          ],
+          [
+            "string_36",
+            1
+          ],
+          [
+            "rope_6",
+            1
+          ],
+          [
+            "dogbane",
+            8
+          ]
+        ]
+      ],
+      "requiredSkills": [
+        [
+          "survival",
+          1
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 2,
+        "windShelter": 0.9,
+        "insulation": 0.3,
+        "rainCover": 1,
+        "sleepQuality": 0.7
+      },
+      "qualities": [
+        [
+          {
+            "id": "CUT",
+            "level": 1
+          }
+        ]
+      ],
+      "upgradesFrom": "simple_hut"
+    },
+    "log_hut": {
+      "name": "Log hut",
+      "minutes": 2880,
+      "consumes": [
+        [
+          [
+            "log",
+            24
+          ]
+        ],
+        [
+          [
+            "nail",
+            120
+          ],
+          [
+            "cordage_36",
+            8
+          ],
+          [
+            "rope_30",
+            3
+          ]
+        ],
+        [
+          [
+            "clay_lump",
+            30
+          ],
+          [
+            "mortar_adobe",
+            10
+          ]
+        ]
+      ],
+      "requiredSkills": [
+        [
+          "fabrication",
+          2
+        ],
+        [
+          "survival",
+          2
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 3,
+        "windShelter": 1,
+        "insulation": 0.6,
+        "rainCover": 1,
+        "sleepQuality": 0.85,
+        "storageVolumeMl": 50000
+      },
+      "qualities": [
+        [
+          {
+            "id": "AXE",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "HAMMER",
+            "level": 1
+          }
+        ]
+      ],
+      "upgradesFrom": "lean_to"
+    },
+    "insulated_cabin": {
+      "name": "Insulated cabin",
+      "minutes": 4320,
+      "consumes": [
+        [
+          [
+            "wood_panel",
+            10
+          ],
+          [
+            "2x4",
+            60
+          ]
+        ],
+        [
+          [
+            "clay_lump",
+            40
+          ],
+          [
+            "mortar_adobe",
+            15
+          ]
+        ],
+        [
+          [
+            "straw_pile",
+            80
+          ],
+          [
+            "pine_bough",
+            40
+          ],
+          [
+            "withered",
+            80
+          ]
+        ],
+        [
+          [
+            "hinge",
+            2
+          ]
+        ]
+      ],
+      "requiredSkills": [
+        [
+          "fabrication",
+          3
+        ],
+        [
+          "survival",
+          3
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 4,
+        "windShelter": 1,
+        "insulation": 0.8,
+        "rainCover": 1,
+        "sleepQuality": 0.95,
+        "storageVolumeMl": 150000
+      },
+      "qualities": [
+        [
+          {
+            "id": "AXE",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "HAMMER",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "SAW_W",
+            "level": 1
+          }
+        ]
+      ],
+      "upgradesFrom": "log_hut"
+    },
+    "stone_cottage": {
+      "name": "Stone cottage",
+      "minutes": 7200,
+      "consumes": [
+        [
+          [
+            "rock",
+            200
+          ],
+          [
+            "rock_large",
+            20
+          ]
+        ],
+        [
+          [
+            "mortar_adobe",
+            40
+          ],
+          [
+            "clay_lump",
+            100
+          ]
+        ],
+        [
+          [
+            "log",
+            12
+          ],
+          [
+            "2x4",
+            40
+          ]
+        ],
+        [
+          [
+            "hinge",
+            2
+          ]
+        ]
+      ],
+      "requiredSkills": [
+        [
+          "fabrication",
+          4
+        ],
+        [
+          "survival",
+          3
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 5,
+        "windShelter": 1,
+        "insulation": 0.9,
+        "rainCover": 1,
+        "sleepQuality": 1,
+        "storageVolumeMl": 250000,
+        "hearthBonusC": 4
+      },
+      "qualities": [
+        [
+          {
+            "id": "HAMMER",
+            "level": 2
+          }
+        ],
+        [
+          {
+            "id": "DIG",
+            "level": 1
+          }
+        ]
+      ],
+      "upgradesFrom": "insulated_cabin"
+    }
+  },
+  "portableStations": {
+    "anvil": "anvil",
+    "mattress_bed": "mattress"
+  },
+  "//portableStations": "A station that is really a thing: a save that has one built gets the item back on the camp's ground (Home.migratePortableStations). A mattress is dropped and slept on (rules.json sleepQuality), never built.",
+  "renamedStations": {
+    "grass_tent": "simple_hut"
+  },
+  "//renamedStations": "Old station ids and what they are now: a save's built station, site or packed bundle is renamed when it loads.",
+  "//shelters": "Five shelters, each replacing the one before (upgradesFrom: that one must stand on the camp and is taken down into the new one, its materials counted as part of it). effects.windShelter keeps the wind off (0..1), effects.insulation holds a fire's heat indoors (0..1; game-data/warmth.json), rainCover keeps the rain off, shelterLevel orders them. The first, a simple wooden hut, is what the ground of a field or a wood gives in an hour or two; building it where there is no camp makes the camp there. Every build is worked on as a site (camp.json siteMinutes 0): the materials go in at the start and the work is kept between sittings, to be resumed or abandoned (materials back)."
+}

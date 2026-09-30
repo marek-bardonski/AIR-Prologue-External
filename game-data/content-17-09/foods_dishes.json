@@ -1,0 +1,152 @@
+{
+  "group": "foods_dishes",
+  "source": "TO-DO-17.09.MD, family 2 (Prepared dishes and drinks)",
+  "items": [
+    {
+      "id": "ketchup",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 3
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ],
+      "note": "condiment liquid; CDDA condiment_bottle_sealed is not enabled, falls back to bottle_plastic. Unblocks recipe:ketchup once vinegar is in."
+    },
+    {
+      "id": "mustard",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 3
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ],
+      "note": "condiment liquid; recipe:mustard still blocked by mustard_powder (raw-foods group)."
+    },
+    {
+      "id": "vinegar",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ],
+      "note": "12-recipe lever; CDDA jug_plastic is enabled and watertight."
+    },
+    {
+      "id": "lobster",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 3
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ],
+      "note": "loot-only (no CDDA recipe); unblocks recipe:dry_lobster and recipe:soup_lobsterstew."
+    },
+    {
+      "id": "biscuit",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cornbread",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        }
+      ],
+      "note": "recipe needs OVEN 1 (improvised_oven / clay_dutch_oven)."
+    },
+    {
+      "id": "mashed_potato",
+      "pools": [
+        "food"
+      ],
+      "note": "craft-only in the survey; reachable through the food discovery pool."
+    },
+    {
+      "id": "fish_smoked",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [
+    "recipe:dry_lobster",
+    "recipe:dry_lobster:frozen_ingredients",
+    "recipe:fish_pickled:jarred",
+    "recipe:fish_pickled:jarred_3l"
+  ],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:biscuit",
+    "recipe:cornbread",
+    "recipe:mashed_potato",
+    "recipe:fish_smoked",
+    "recipe:ketchup",
+    "recipe:vinegar",
+    "recipe:dry_lobster",
+    "recipe:dry_lobster:frozen_ingredients",
+    "recipe:fish_pickled:jarred",
+    "recipe:fish_pickled:jarred_3l"
+  ],
+  "notes": [
+    "Checkpoint 1: the first 8 ids of the group (40 planned).",
+    "recipe:dry_lobster(+:frozen_ingredients) and recipe:fish_pickled:jarred(+_3l) were on whitelist/recipes.json's exclude list because their inputs (lobster, vinegar) were missing; re-enabled through recipesInclude, which the loader applies after the exclude set.",
+    "Cross-group dependencies: recipe:mustard still needs mustard_powder (raw-foods group) and stays not obtainable; recipe:vinegar has obtainable inputs but no learn path until the vinegar_maker book is imported (books group). Re-check after the final merge.",
+    "Craft-only dishes (no loot row in the survey) are made reachable through the 'food' discovery pool, which already holds comparable cooked dishes."
+  ]
+}

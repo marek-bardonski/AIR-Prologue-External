@@ -1,0 +1,16 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p28_f02_eggs_dairy. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "mushroom_morel",
+    "contamination": [
+      {
+        "disease": "bad_food",
+        "probability": 40
+      }
+    ],
+    "//": "raw morels are poisonous: CDDA's POISON use action is not run here, so a food-poisoning risk instead (survey B-step)"
+  }
+]

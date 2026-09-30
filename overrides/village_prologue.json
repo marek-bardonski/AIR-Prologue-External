@@ -1,0 +1,14 @@
+[
+  {
+    "//": "The survivor village's money. A same-id patch: dollar coins stack, so a purse is one line in the pack rather than a hundred."
+  },
+  {
+    "type": "ITEM",
+    "id": "coin_dollar",
+    "extend": {
+      "flags": [
+        "COUNT_BY_CHARGES"
+      ]
+    }
+  }
+]

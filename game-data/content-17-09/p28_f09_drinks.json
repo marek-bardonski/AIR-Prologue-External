@@ -1,0 +1,667 @@
+{
+  "group": "p28_f09_drinks",
+  "source": "28.09.2026 next-1000 import: sodas, juices, teas, coffees and sauces; the waffle iron and charcoal purifier",
+  "items": [
+    {
+      "id": "orangesoda",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pineapple_juice",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "purple_drink",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "rootbeer",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "rootbeer_brewed",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "soy_milk",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "sparkling",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "sparkling_peach",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "sparkling_pomegranate",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "sports_drink",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "tonic_water",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "walnut_milk",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "water_mineral",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "zerocola",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "zeroorange",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "zerotropical",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "coffee_sweetened",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "colamdew",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "creamsoda",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "drink_royrogers",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "lotus_tea",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "milk_coffee",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "milk_coffee_sweetened",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "spezi",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "tea_bark",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "tea_green",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "tea_sweetened",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "tea_wild_sarsaparilla",
+      "pools": [
+        "food"
+      ]
+    },
+    {
+      "id": "zeromdew",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "barbecue_sauce",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "coconut_water",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "honey_mustard",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "horseradish",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "mayonnaise",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "molasses",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pekmez",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1,
+          "container": "bottle_glass"
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5,
+          "container": "bottle_glass"
+        }
+      ]
+    },
+    {
+      "id": "salca",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "coffee_syrup",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "id": "waffleiron",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.5
+        },
+        {
+          "table": "shop",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "id": "char_purifier",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.5
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:lotus_tea"
+  ],
+  "recipesExpected": [
+    "recipe:barbecue_sauce",
+    "recipe:char_purifier",
+    "recipe:coffee_sweetened",
+    "recipe:coffee_syrup",
+    "recipe:drink_royrogers",
+    "recipe:honey_mustard",
+    "recipe:horseradish",
+    "recipe:mayonnaise",
+    "recipe:milk_coffee",
+    "recipe:milk_coffee_sweetened",
+    "recipe:molasses",
+    "recipe:pineapple_juice",
+    "recipe:soy_milk",
+    "recipe:spezi",
+    "recipe:tea_bark",
+    "recipe:tea_green",
+    "recipe:tea_sweetened",
+    "recipe:tea_wild_sarsaparilla",
+    "recipe:waffleiron",
+    "recipe:walnut_milk",
+    "recipe:walnut_milk:mortar"
+  ],
+  "notes": [
+    "waffleiron makes the waffle recipes staged in batch F3 craftable."
+  ]
+}

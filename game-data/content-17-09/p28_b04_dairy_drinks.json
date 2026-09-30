@@ -1,0 +1,393 @@
+{
+  "group": "p28_b04_dairy_drinks",
+  "source": "28.09.2026 first-priority import, batch 4: seeds, eggs, dairy and drinks",
+  "items": [
+    {
+      "id": "seed_sunflower",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 1
+        },
+        {
+          "table": "farm",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "seed_pumpkin",
+      "loot": [
+        {
+          "table": "farm",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "egg_duck",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 2
+        },
+        {
+          "table": "fishing_dock",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "egg_duck_domestic",
+      "loot": [
+        {
+          "table": "farm_coop",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "id": "egg_goose",
+      "loot": [
+        {
+          "table": "river",
+          "weight": 1
+        },
+        {
+          "table": "field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "egg_turkey",
+      "loot": [
+        {
+          "table": "forest_common",
+          "weight": 1
+        },
+        {
+          "table": "field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "egg_turkey_domestic",
+      "loot": [
+        {
+          "table": "farm_coop",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "egg_grouse",
+      "loot": [
+        {
+          "table": "forest_dense",
+          "weight": 1
+        },
+        {
+          "table": "hills",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "egg_pheasant",
+      "loot": [
+        {
+          "table": "field",
+          "weight": 1
+        },
+        {
+          "table": "farm_field",
+          "weight": 1
+        }
+      ],
+      "pools": [
+        "forage"
+      ]
+    },
+    {
+      "id": "butter",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "cheese_hard",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "preservation_cellar",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "cottage_cheese",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "milk_cream",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "milk_curdled",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "farm_barn",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "water_spring",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "gas_station",
+          "weight": 2
+        },
+        {
+          "table": "vending",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "chamomile_tea",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "dandelionburdock_tea",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "tea_bag_dandelion",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "tea_bag_chamomile",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "coffee_substitute_sweetened",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "cranberry_juice",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        },
+        {
+          "table": "vending",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "tomato_juice",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 2
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "apple_cider",
+      "loot": [
+        {
+          "table": "orchard_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "rehydration_drink",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 2
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "almond_milk",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 1
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:coffee_substitute_sweetened",
+    "recipe:milk_cream"
+  ],
+  "recipesExpected": [
+    "recipe:seed_sunflower",
+    "recipe:seed_pumpkin",
+    "recipe:cheese_hard",
+    "recipe:cottage_cheese",
+    "recipe:chamomile_tea:from_tea_bag",
+    "recipe:cranberry_juice",
+    "recipe:tomato_juice",
+    "recipe:dandelionburdock_tea",
+    "recipe:apple_cider",
+    "recipe:rehydration_drink"
+  ],
+  "notes": [
+    "milk_cream enters as a shop and kitchen find only: its CDDA recipe skims a cream jar we do not have.",
+    "recipe:coffee_substitute_sweetened (Kentucky coffee tree beans) and recipe:milk_cream (cream jar) excluded: their inputs do not exist here. buttercream is not whitelisted."
+  ]
+}
