@@ -373,13 +373,12 @@
     }
   },
   "recipesInclude": [],
-  "recipesExclude": [
-    "recipe:ammonia_machine_reactor"
-  ],
+  "recipesExclude": [],
   "recipesExpected": [
     "recipe:30gal_firebarrel",
     "recipe:55gal_firebarrel",
     "recipe:adobe_pallet_full",
+    "recipe:ammonia_machine_reactor",
     "recipe:closed_loop_extractor_large",
     "recipe:drum_percussion_primitive",
     "recipe:radiocontrol"

@@ -1,0 +1,851 @@
+{
+  "group": "p01_m01_blades_parts",
+  "source": "01.10.2026 import: display and rough copies of swords and polearms, a few odd weapons, machine modules and limbs to strip, rail, and wood set to soak",
+  "items": [
+    {
+      "id": "jian_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "jian_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.008
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "scimitar_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "scimitar_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.008
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "estoc_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "estoc_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.008
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "longsword_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "arming_sword_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "arming_sword_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.008
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "tanto_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "wakizashi_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "wakizashi_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.008
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "zweihander_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.006
+        },
+        {
+          "table": "shop",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "zweihander_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.005
+        },
+        {
+          "table": "ruins",
+          "weight": 0.005
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "nodachi_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.006
+        },
+        {
+          "table": "shop",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "nodachi_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.005
+        },
+        {
+          "table": "ruins",
+          "weight": 0.005
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "broadsword_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "cutlass_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "battleaxe_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "bokken_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "bokken_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.008
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "morningstar_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "morningstar_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins",
+          "weight": 0.008
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "naginata_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.006
+        },
+        {
+          "table": "shop",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "pike_fake",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.006
+        },
+        {
+          "table": "shop",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "pike_inferior",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.005
+        },
+        {
+          "table": "ruins",
+          "weight": 0.005
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "bat_nerf",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "PR24-extended",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "teeth_macuahuitl",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.004
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "mjolnir",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "knife_KABAR",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "scythe_toy",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "shop",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "targeting_module",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "pathfinding_module",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "memory_module",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "self_monitoring_module",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "ai_module",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.01
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "ai_module_advanced",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.008
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.004
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "gun_module",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "spidery_legs_small",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.015
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "spidery_legs_big",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.012
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.006
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "omni_wheel",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.01
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "android_legs",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.012
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.006
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "android_arms",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.012
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.006
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "tank_tread",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.008
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.004
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "large_bone",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.03
+        },
+        {
+          "table": "hills",
+          "weight": 0.2
+        },
+        {
+          "table": "forest_dense",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "id": "railroad_track_item",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.3
+        },
+        {
+          "table": "railway_depot",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "railroad_track_item_half",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.4
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "soaking_long_pole",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "soaking_spear_shaft",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "large_pressure_vessel",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "1l_platinum",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.004
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:teeth_macuahuitl"
+  ],
+  "recipesExpected": [
+    "recipe:soaking_long_pole",
+    "recipe:soaking_spear_shaft"
+  ],
+  "notes": [
+    "Display copies are aluminium wall-hangers: poor weapons, as CDDA has them. Machine modules, legs, arms and tracks come apart into processors, memory, motors and cable."
+  ]
+}

@@ -1236,6 +1236,18 @@
             2,
             6
           ]
+        },
+        {
+          "item": "large_bone",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -11478,6 +11490,238 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "jian_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "jian_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "scimitar_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "scimitar_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "estoc_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "estoc_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "longsword_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arming_sword_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arming_sword_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tanto_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wakizashi_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wakizashi_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "zweihander_fake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "zweihander_inferior",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "nodachi_fake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "nodachi_inferior",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "broadsword_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cutlass_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "battleaxe_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bokken_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bokken_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "morningstar_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "morningstar_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "naginata_fake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pike_fake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pike_inferior",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bat_nerf",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mjolnir",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "scythe_toy",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
         },
         {
           "item": "radiocontrol",
@@ -27873,6 +28117,150 @@
           ]
         },
         {
+          "item": "jian_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "scimitar_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "estoc_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "longsword_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arming_sword_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tanto_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wakizashi_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "zweihander_fake",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "nodachi_fake",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "broadsword_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cutlass_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "battleaxe_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bokken_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "morningstar_fake",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "naginata_fake",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pike_fake",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bat_nerf",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "scythe_toy",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "arcade_machine",
           "weight": 0.006,
           "count": [
@@ -34584,6 +34972,18 @@
             1,
             1
           ]
+        },
+        {
+          "item": "large_bone",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -37228,6 +37628,86 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "jian_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "scimitar_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "estoc_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arming_sword_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wakizashi_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "zweihander_inferior",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "nodachi_inferior",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bokken_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "morningstar_inferior",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pike_inferior",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
         },
         {
           "item": "55gal_firebarrel",
@@ -48806,6 +49286,142 @@
           ]
         },
         {
+          "item": "jian_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "scimitar_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "estoc_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "longsword_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arming_sword_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tanto_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wakizashi_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "zweihander_fake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "nodachi_fake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "broadsword_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cutlass_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "battleaxe_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bokken_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "morningstar_fake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "naginata_fake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pike_fake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mjolnir",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "violin_golden",
           "weight": 0.004,
           "count": [
@@ -50675,6 +51291,14 @@
             1
           ],
           "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "teeth_macuahuitl",
+          "weight": 0.006,
+          "count": [
             1,
             1
           ]
@@ -55361,6 +55985,14 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "knife_KABAR",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -60475,6 +61107,14 @@
           ]
         },
         {
+          "item": "railroad_track_item_half",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "1cyl_combustion",
           "weight": 0.08,
           "count": [
@@ -61751,6 +62391,14 @@
             1,
             1
           ]
+        },
+        {
+          "item": "railroad_track_item",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -62999,6 +63647,30 @@
           "charges": [
             1,
             10
+          ]
+        },
+        {
+          "item": "railroad_track_item",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "railroad_track_item_half",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "large_pressure_vessel",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
           ]
         },
         {
@@ -68558,6 +69230,30 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "PR24-extended",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "knife_KABAR",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gun_module",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
         },
         {
           "item": "wheel_armor",
@@ -84124,6 +84820,42 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "PR24-extended",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "teeth_macuahuitl",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "knife_KABAR",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "large_bone",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -90465,6 +91197,22 @@
           "minDanger": 2
         },
         {
+          "item": "soaking_long_pole",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "soaking_spear_shaft",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "1cyl_combustion",
           "weight": 0.02,
           "count": [
@@ -92731,6 +93479,118 @@
           ]
         },
         {
+          "item": "targeting_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pathfinding_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "memory_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "self_monitoring_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ai_module",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ai_module_advanced",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "spidery_legs_small",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "spidery_legs_big",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "omni_wheel",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "android_legs",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "android_arms",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tank_tread",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "large_pressure_vessel",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "1l_platinum",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "closed_loop_extractor_large",
           "weight": 0.02,
           "count": [
@@ -93496,6 +94356,110 @@
         {
           "item": "textbook_computer",
           "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "targeting_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pathfinding_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "memory_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "self_monitoring_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ai_module",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ai_module_advanced",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gun_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "spidery_legs_small",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "spidery_legs_big",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "omni_wheel",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "android_legs",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "android_arms",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tank_tread",
+          "weight": 0.004,
           "count": [
             1,
             1
@@ -95431,6 +96395,14 @@
         {
           "item": "crown_golden",
           "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "1l_platinum",
+          "weight": 0.01,
           "count": [
             1,
             1
@@ -102848,6 +103820,86 @@
           ]
         },
         {
+          "item": "jian_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "scimitar_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "estoc_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arming_sword_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wakizashi_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "zweihander_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "nodachi_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bokken_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "morningstar_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pike_inferior",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "chitin_plate",
           "weight": 0.004,
           "count": [
@@ -106362,6 +107414,14 @@
           ]
         },
         {
+          "item": "large_pressure_vessel",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "stationary_water_purifier",
           "weight": 0.05,
           "count": [
@@ -108444,6 +109504,102 @@
         {
           "item": "UPS_OFF",
           "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "targeting_module",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "pathfinding_module",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "memory_module",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "self_monitoring_module",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ai_module",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ai_module_advanced",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "spidery_legs_small",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "spidery_legs_big",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "omni_wheel",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "android_legs",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "android_arms",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tank_tread",
+          "weight": 0.008,
           "count": [
             1,
             1
