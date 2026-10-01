@@ -451,7 +451,8 @@
     "recipe:snowcone",
     "recipe:chainmail_suit_faraday",
     "recipe:hsurvivor_jumpsuit",
-    "recipe:teeth_macuahuitl"
+    "recipe:teeth_macuahuitl",
+    "recipe:necklace_teeth"
   ],
   "include": [
     "recipe:10l_aluminum",

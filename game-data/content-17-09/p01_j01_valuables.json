@@ -1,0 +1,5354 @@
+{
+  "group": "p01_j01_valuables",
+  "source": "01.10.2026 import: cut gems, jewellery that can be taken apart for its metal and stones or made at the bench, and old banknotes",
+  "items": [
+    {
+      "id": "diamond",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "aquamarine",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "emerald",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "alexandrite",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "malachite",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "ruby",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "peridot",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "sapphire",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "opal",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "tourmaline",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "citrine",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "onyx",
+      "loot": [
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "bead_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "bead_ear",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "bead_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "bracelet_friendship",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "diamond_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "garnet_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "amethyst_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "emerald_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "ruby_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "peridot_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "sapphire_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "citrine_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "diamond_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "collarpin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "copper_hairpin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "copper_locket",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "copper_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "copper_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "cufflinks",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "cufflinks_intricate",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "ear_spool",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_ear",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_hairpin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_locket",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_medal",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "tieclip",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_watch",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_ear",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "holy_symbol",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "holy_symbol_wood",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "platinum_watch",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0015
+        }
+      ]
+    },
+    {
+      "id": "platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0015
+        }
+      ]
+    },
+    {
+      "id": "platinum_dental_grill",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0015
+        }
+      ]
+    },
+    {
+      "id": "platinum_ear",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0015
+        }
+      ]
+    },
+    {
+      "id": "platinum_hairpin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0015
+        }
+      ]
+    },
+    {
+      "id": "platinum_locket",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0015
+        }
+      ]
+    },
+    {
+      "id": "platinum_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0015
+        }
+      ]
+    },
+    {
+      "id": "platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.003
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0015
+        }
+      ]
+    },
+    {
+      "id": "ring_engagement",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "ring_purity",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "ring_signet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "ring_wedding",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_hairpin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_medal",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "leather_collar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "badge_deputy",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "badge_detective",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "badge_marshal",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "badge_swat",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "badge_doctor",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "fur_cat_ears",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "faux_fur_cat_ears",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "fur_cat_tail",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "faux_fur_cat_tail",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "fur_collar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "faux_fur_collar",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "leather_cat_ears",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "leather_cat_tail",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "diamond_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "garnet_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "amethyst_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "emerald_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "ruby_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "peridot_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "sapphire_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "citrine_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "opal_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "pearl_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "onyx_gold_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "diamond_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "garnet_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "amethyst_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "emerald_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "ruby_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "peridot_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "sapphire_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "citrine_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "opal_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "pearl_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "onyx_silver_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "diamond_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "garnet_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "amethyst_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "emerald_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "ruby_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "peridot_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "sapphire_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "citrine_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "opal_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "pearl_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "onyx_platinum_earring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "garnet_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "amethyst_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "emerald_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "ruby_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "peridot_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "sapphire_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "citrine_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "opal_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "pearl_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "onyx_gold_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "diamond_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "garnet_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "amethyst_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "emerald_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "ruby_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "peridot_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "sapphire_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "citrine_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "opal_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "pearl_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "onyx_silver_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "diamond_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "garnet_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "amethyst_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "emerald_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "ruby_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "peridot_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "sapphire_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "citrine_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "opal_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "pearl_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "onyx_platinum_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "diamond_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "garnet_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "amethyst_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "emerald_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "ruby_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "peridot_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "sapphire_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "citrine_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "opal_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "pearl_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "onyx_gold_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "diamond_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "garnet_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "amethyst_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "emerald_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "ruby_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "peridot_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "sapphire_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "citrine_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "opal_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "pearl_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "onyx_silver_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "diamond_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "garnet_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "amethyst_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "aquamarine_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "emerald_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "alexandrite_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "ruby_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "peridot_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "sapphire_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.001
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.001
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0005
+        }
+      ]
+    },
+    {
+      "id": "tourmaline_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "citrine_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "blue_topaz_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "opal_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "pearl_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "onyx_platinum_bracelet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.002
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.002
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "gold_anklet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_anklet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "bat_anklet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "flower_anklet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "woven_anklet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_lip_ring_loop",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_lip_ring_stud",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_lip_ring_loop",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_lip_ring_stud",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_nose_ring_loop",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_nose_ring_stud",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_nose_ring_loop",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_nose_ring_stud",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gold_toe_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "silver_toe_ring",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "simple_pistol_cartridge_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "simple_rifle_cartridge_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "simple_ordnance_cartridge_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "fancy_pistol_cartridge_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "fancy_rifle_cartridge_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "fancy_ordinance_cartridge_necklace",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "necklace_teeth",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "money_one",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3,
+          "count": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money_two",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3,
+          "count": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money_five",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3,
+          "count": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money_ten",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3,
+          "count": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money_twenty",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3,
+          "count": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money_fifty",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3,
+          "count": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money_hundred",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.3,
+          "count": [
+            1,
+            5
+          ]
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.2,
+          "count": [
+            1,
+            6
+          ]
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:necklace_teeth"
+  ],
+  "recipesExpected": [
+    "recipe:bead_bracelet",
+    "recipe:bead_necklace",
+    "recipe:copper_necklace",
+    "recipe:fancy_ordinance_cartridge_necklace",
+    "recipe:fancy_pistol_cartridge_necklace",
+    "recipe:fancy_rifle_cartridge_necklace",
+    "recipe:faux_fur_cat_ears",
+    "recipe:faux_fur_cat_tail",
+    "recipe:faux_fur_collar",
+    "recipe:fur_cat_ears",
+    "recipe:fur_cat_tail",
+    "recipe:fur_collar",
+    "recipe:gold_bracelet",
+    "recipe:gold_necklace",
+    "recipe:gold_ring",
+    "recipe:holy_symbol_wood",
+    "recipe:leather_cat_ears",
+    "recipe:leather_cat_tail",
+    "recipe:leather_collar",
+    "recipe:silver_bracelet",
+    "recipe:silver_necklace",
+    "recipe:simple_ordnance_cartridge_necklace",
+    "recipe:simple_pistol_cartridge_necklace",
+    "recipe:simple_rifle_cartridge_necklace"
+  ],
+  "notes": [
+    "Only jewellery with an uncraft or a recipe came in: its worth is the gold, silver, platinum and stones it gives. Banknotes join firestarters.json tinder."
+  ]
+}

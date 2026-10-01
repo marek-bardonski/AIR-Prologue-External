@@ -33339,13 +33339,6 @@
         "level": 1
       },
       {
-        "key": "recipe:faux_fur_cat_ears",
-        "result": "faux_fur_cat_ears",
-        "name": "faux fur cat ears",
-        "skill": "tailor",
-        "level": 3
-      },
-      {
         "key": "recipe:faux_fur_cat_tail",
         "result": "faux_fur_cat_tail",
         "name": "faux fur cat tail",
@@ -33355,35 +33348,21 @@
       {
         "key": "recipe:faux_fur_collar",
         "result": "faux_fur_collar",
-        "name": "faux fur collar",
-        "skill": "tailor",
-        "level": 3
-      },
-      {
-        "key": "recipe:fur_cat_ears",
-        "result": "fur_cat_ears",
-        "name": "fur cat ears",
-        "skill": "tailor",
-        "level": 3
-      },
-      {
-        "key": "recipe:fur_cat_tail",
-        "result": "fur_cat_tail",
-        "name": "fur cat tail",
+        "name": "faux fur kitty collar",
         "skill": "tailor",
         "level": 3
       },
       {
         "key": "recipe:fur_collar",
         "result": "fur_collar",
-        "name": "fur collar",
+        "name": "fur kitty collar",
         "skill": "tailor",
         "level": 3
       },
       {
-        "key": "recipe:leather_cat_ears",
-        "result": "leather_cat_ears",
-        "name": "leather cat ears",
+        "key": "recipe:fur_cat_tail",
+        "result": "fur_cat_tail",
+        "name": "fuzzy cat tail",
         "skill": "tailor",
         "level": 3
       },
@@ -33398,6 +33377,27 @@
         "key": "recipe:leather_collar",
         "result": "leather_collar",
         "name": "leather collar",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:faux_fur_cat_ears",
+        "result": "faux_fur_cat_ears",
+        "name": "pair of faux fur cat ears",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:fur_cat_ears",
+        "result": "fur_cat_ears",
+        "name": "pair of fuzzy cat ears",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:leather_cat_ears",
+        "result": "leather_cat_ears",
+        "name": "pair of leather cat ears",
         "skill": "tailor",
         "level": 3
       }
