@@ -28549,6 +28549,13 @@
         "level": 1
       },
       {
+        "key": "recipe:3006_clip",
+        "result": "3006_clip",
+        "name": ".30-06 5-round clip",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
         "key": "recipe:bp_3006_incendiary",
         "result": "bp_3006_incendiary",
         "name": ".30-06 tracer, black powder",
@@ -28808,13 +28815,6 @@
         "level": 2
       },
       {
-        "key": "recipe:3006_clip",
-        "result": "3006_clip",
-        "name": "3006 clip",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
         "key": "recipe:bp_545_ap",
         "result": "bp_545_ap",
         "name": "5.45x39mm AP, black powder",
@@ -28901,14 +28901,7 @@
       {
         "key": "recipe:762R_clip",
         "result": "762R_clip",
-        "name": "762R clip",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:762x39_clip",
-        "result": "762x39_clip",
-        "name": "762x39 clip",
+        "name": "7.62x54mmR 5-round clip",
         "skill": "fabrication",
         "level": 2
       },
@@ -28983,20 +28976,6 @@
         "level": 2
       },
       {
-        "key": "recipe:clip9mm_10rd",
-        "result": "clip9mm_10rd",
-        "name": "clip9mm 10rd",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:garandclip",
-        "result": "garandclip",
-        "name": "garandclip",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
         "key": "recipe:press",
         "result": "press",
         "name": "hand press",
@@ -29018,9 +28997,16 @@
         "level": 2
       },
       {
-        "key": "recipe:marlin_tubeloader",
-        "result": "marlin_tubeloader",
-        "name": "marlin tubeloader",
+        "key": "recipe:garandclip",
+        "result": "garandclip",
+        "name": "M1 Garand 8-round clip",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:clip9mm_10rd",
+        "result": "clip9mm_10rd",
+        "name": "Mauser C96 10-round clip",
         "skill": "fabrication",
         "level": 2
       },
@@ -29042,6 +29028,20 @@
         "key": "recipe:shotgun_primer",
         "result": "shotgun_primer",
         "name": "shotgun primer",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:762x39_clip",
+        "result": "762x39_clip",
+        "name": "SKS 10-round clip",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:marlin_tubeloader",
+        "result": "marlin_tubeloader",
+        "name": "small game rifle 19-round tube loader",
         "skill": "fabrication",
         "level": 2
       },
@@ -30231,16 +30231,16 @@
     ],
     "mag_pistol": [
       {
-        "key": "recipe:clip9mm_10rd",
-        "result": "clip9mm_10rd",
-        "name": "clip9mm 10rd",
+        "key": "recipe:improve_sights",
+        "result": "improve_sights",
+        "name": "improve sights",
         "skill": "fabrication",
         "level": 3
       },
       {
-        "key": "recipe:improve_sights",
-        "result": "improve_sights",
-        "name": "improve sights",
+        "key": "recipe:clip9mm_10rd",
+        "result": "clip9mm_10rd",
+        "name": "Mauser C96 10-round clip",
         "skill": "fabrication",
         "level": 3
       },
@@ -30438,7 +30438,7 @@
       {
         "key": "recipe:3006_clip",
         "result": "3006_clip",
-        "name": "3006 clip",
+        "name": ".30-06 5-round clip",
         "skill": "fabrication",
         "level": 3
       },
@@ -30501,21 +30501,7 @@
       {
         "key": "recipe:762R_clip",
         "result": "762R_clip",
-        "name": "762R clip",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:762x39_clip",
-        "result": "762x39_clip",
-        "name": "762x39 clip",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:garandclip",
-        "result": "garandclip",
-        "name": "garandclip",
+        "name": "7.62x54mmR 5-round clip",
         "skill": "fabrication",
         "level": 3
       },
@@ -30541,9 +30527,23 @@
         "level": 3
       },
       {
+        "key": "recipe:garandclip",
+        "result": "garandclip",
+        "name": "M1 Garand 8-round clip",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:762x39_clip",
+        "result": "762x39_clip",
+        "name": "SKS 10-round clip",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:marlin_tubeloader",
         "result": "marlin_tubeloader",
-        "name": "marlin tubeloader",
+        "name": "small game rifle 19-round tube loader",
         "skill": "fabrication",
         "level": 3
       },

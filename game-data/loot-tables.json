@@ -9793,6 +9793,1671 @@
               ]
             }
           ]
+        },
+        {
+          "item": "enfield_303mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "fn57mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_57mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_57_10_round_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "falmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "g3mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m14mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m14smallmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "papm77mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "papm77mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "scarhmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "scarhmag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk417mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk417mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_25rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "steyr_scout_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "454_speedloader5",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p226mag_12rd_357sig",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_13rd_357sig",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk46mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glockmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock43_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glockmag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_17",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_22",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9bigmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_18rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_17rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p08mag_8rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "clip9mm_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag_30rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_18rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "uzimag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "uzimag_25rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p226mag_10rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p226mag_15rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p228mag_13rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_10rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_17rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_21rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_10rd_9mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_12rd_9mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_15rd_9mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp9mag_13rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp9mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p38mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_17rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_8rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_16rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_26rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ccpmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ccpmag_9rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_15",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_20",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_25",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p365_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag10ranger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag5ranger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20ranger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sl8mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "augmag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "40_speedloader6",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_20mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_20mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_29mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911_10mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p220_10_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tdi_10mm_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "witness_mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "xd_10_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader5",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader6",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tokarevmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "3006_clip",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "blrmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "garandclip",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1918mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "saiga10mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m26_mass_mag_3",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m26_mass_mag_5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mossberg_590m_mag_5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mossberg_590m_mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mka_1919_5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mka_1919_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911mag_10rd_38super",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m2010mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_pr_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1carbinemag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "22_speedloader8",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "marlin_tubeloader",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mosquitomag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022mag_15",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "wp22mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_mk4_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "1911_22_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sr22_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock44_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp1522_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "makarovmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "rugerlcpmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptcf380mag_8rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptcf380mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hpt3895mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "swbodyguard_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock42_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m107a1mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "as50mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tac50mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "500_speedloader5",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_338mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_338mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mrad_338lapua_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40bigmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag_9",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4_40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4_40mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sig40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "smg_40_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptjcpmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "smg_45_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "thompson_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump45mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp45mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc10mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc15mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc20mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq45mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptjhpmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag26",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock36_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911bigmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_arr_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "clip_77mm_arisaka",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppkmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "kp32mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "lws32mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "44_speedloader6",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762x39_clip",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "akmag10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "akmag20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bren2_762mag10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762R_clip",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pslmag5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pslmag10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -49786,6 +51451,600 @@
               ]
             }
           ]
+        },
+        {
+          "item": "enfield_303mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "falmag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "g3mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m14mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m14smallmag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "papm77mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "papm77mag_10rd",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "scarhmag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "scarhmag_10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk417mag_20rd",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk417mag_10rd",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_10rd",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_20rd",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_25rd",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "steyr_scout_mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "454_speedloader5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "clip9mm_10rd",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag10ranger",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger20",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag5ranger",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20ranger",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sl8mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "augmag_10rd",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "40_speedloader6",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader6",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "3006_clip",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "blrmag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "garandclip",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1918mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "saiga10mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m26_mass_mag_3",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m26_mass_mag_5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mossberg_590m_mag_5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mossberg_590m_mag_10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mka_1919_5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mka_1919_10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m2010mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_pr_mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1carbinemag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "22_speedloader8",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "marlin_tubeloader",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022bigmag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m107a1mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "as50mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tac50mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "500_speedloader5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_338mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_338mag_10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mrad_338lapua_mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_arr_mag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "clip_77mm_arisaka",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "44_speedloader6",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762x39_clip",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "akmag10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "akmag20",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bren2_762mag10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762R_clip",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pslmag5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pslmag10",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -52603,6 +54862,105 @@
           "charges": [
             4,
             12
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "fal_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "g3_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m14_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "scarh_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk417_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "steyr_scout_mag_makeshift",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "survivor9mm_mag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "survivor223mag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "thompson_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
           ],
           "minDanger": 2
         }
@@ -61742,6 +64100,708 @@
               ]
             }
           ]
+        },
+        {
+          "item": "fnp90mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "falbigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "g3bigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "scarhbigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "scarhmag_30rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ar10mag_50rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "hk46bigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "calicomag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "calicomag_100rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "glockbigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "glock_drum_50rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "glock_drum_100rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m9mag_35rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m9mag_32rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5mag_100rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5bigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5mag_40rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5mag_38rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "p08mag_32rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp40mag_32rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stenmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tec9mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tec9mag_36rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tec9mag_50rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tec9mag_72rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "usp9mag_32rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "uzimag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "uzimag_40rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "uzimag_50rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "uzimag_100rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "btmp9mag_9x19mm_30",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "btmp9mag_9x19mm_50rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger30",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger90",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger100",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag30",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag30ranger",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag40",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag40ranger",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag50",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag60",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag60drum",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag90",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag100",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag100drum",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag150",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "augmag_30rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "augmag_42rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "augmag_100rd",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "zpap85mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5_10_mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m1918bigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "saiga30mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "srm_1216_mag_16",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mossberg_590m_mag_15",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mossberg_590m_mag_20",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mka_1919_20",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m1carbinebigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_30",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_32",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_55",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_70",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_110",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "cp33_mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "cp33_mag_50",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mac11mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mac10mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tdi_mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "thompson_bigmag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "thompson_drum",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "greasegun30mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "akmag30",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "akmag40",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "akdrum75",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "bren2_762mag30",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ak74mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "rpk74mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "casket74mag",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -74156,6 +77216,2238 @@
               ]
             }
           ]
+        },
+        {
+          "item": "enfield_303mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "fn57mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "fnp90mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger_57mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_57_10_round_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "falbigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "falmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "g3bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "g3mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m14mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m14smallmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "papm77mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "papm77mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "scarhbigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "scarhmag_30rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "scarhmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "scarhmag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk417mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk417mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_25rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10mag_50rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "steyr_scout_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p226mag_12rd_357sig",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_13rd_357sig",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk46bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "hk46mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "calicomag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "calicomag_100rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "glockbigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "glockmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock43_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glockmag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_17",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_22",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_drum_50rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "glock_drum_100rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m9mag_35rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m9mag_32rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m9bigmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_18rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_17rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_100rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5mag_40rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5mag_38rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp5mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p08mag_8rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p08mag_32rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mp40mag_32rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "px4mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stenmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tec9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag_30rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tec9mag_36rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tec9mag_50rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "tec9mag_72rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "usp9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_18rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_32rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "uzimag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "uzimag_25rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "uzimag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "uzimag_40rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "uzimag_50rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "uzimag_100rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "p226mag_10rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p226mag_15rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p228mag_13rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_10rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_17rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_21rd_9x19mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_10rd_9mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_12rd_9mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_15rd_9mm",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp9mag_13rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp9mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p38mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_17rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_8rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_15rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_16rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_26rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ccpmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ccpmag_9rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_15",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_20",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_25",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_30",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "btmp9mag_9x19mm_50rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "p365_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag10ranger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger30",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger90",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger100",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag5ranger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20ranger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag30",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag30ranger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag40",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag40ranger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag50",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag60",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag60drum",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag90",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag100",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag100drum",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "stanag150",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "sl8mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "augmag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "augmag_30rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "augmag_42rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "augmag_100rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "zpap85mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "glock_20mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_20mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_29mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911_10mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5_10_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "p220_10_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tdi_10mm_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "witness_mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "xd_10_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tokarevmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "blrmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1918bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m1918mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "saiga10mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "saiga30mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "srm_1216_mag_16",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m26_mass_mag_3",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m26_mass_mag_5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mossberg_590m_mag_5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mossberg_590m_mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mossberg_590m_mag_15",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mossberg_590m_mag_20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "mka_1919_5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mka_1919_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mka_1919_20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m1911mag_10rd_38super",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m2010mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_pr_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1carbinebigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m1carbinemag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mosquitomag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022mag_15",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022mag_30",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_32",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_55",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_70",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger1022mag_110",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "wp22mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cp33_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "cp33_mag_50",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "ruger_mk4_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "1911_22_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sr22_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock44_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp1522_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "makarovmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "rugerlcpmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mac11mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "hptcf380mag_8rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptcf380mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hpt3895mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "swbodyguard_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock42_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m107a1mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "as50mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tac50mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_338mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_338mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mrad_338lapua_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40bigmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag_9",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4_40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4_40mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sig40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "smg_40_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptjcpmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mac10mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "smg_45_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tdi_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "thompson_bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "thompson_drum",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "thompson_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump45mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp45mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc10mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc15mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc20mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq45mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptjhpmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag26",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock36_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "greasegun30mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "m1911bigmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_arr_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppkmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "kp32mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "lws32mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "akmag10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "akmag20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "akmag30",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "akmag40",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "akdrum75",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "bren2_762mag30",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "bren2_762mag10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ak74mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "rpk74mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "casket74mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "pslmag5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pslmag10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -80396,6 +85688,105 @@
             1,
             1
           ]
+        },
+        {
+          "item": "fal_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "g3_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m14_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "scarh_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk417_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ar10_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "steyr_scout_mag_makeshift",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "survivor9mm_mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "survivor223mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "thompson_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -90043,6 +95434,1212 @@
           "charges": [
             4,
             12
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "fn57mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_57mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_57_10_round_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "454_speedloader5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p226mag_12rd_357sig",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_13rd_357sig",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hk46mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glockmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock43_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glockmag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_17",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock17_22",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_18rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_17rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m9mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_15rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp5mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p08mag_8rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "clip9mm_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag_15rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tec9mag_30rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_18rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp9mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "uzimag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "uzimag_25rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p226mag_10rd_9x19mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p226mag_15rd_9x19mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p228mag_13rd_9x19mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_10rd_9x19mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_17rd_9x19mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p320mag_21rd_9x19mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_10rd_9mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_12rd_9mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sp2022mag_15rd_9mm",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp9mag_13rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp9mag_15rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p38mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_15rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq9mag_17rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_8rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptc9mag_15rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_16rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cz75mag_26rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ccpmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ccpmag_9rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_15",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_20",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "btmp9mag_9x19mm_25",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p365_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "40_speedloader6",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_20mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_20mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_29mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911_10mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "p220_10_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tdi_10mm_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "witness_mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "xd_10_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "38_speedloader6",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tokarevmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "3006_clip",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "garandclip",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911mag_10rd_38super",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "22_speedloader8",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "marlin_tubeloader",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mosquitomag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger1022mag_15",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "wp22mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ruger_mk4_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "1911_22_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sr22_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock44_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "mp1522_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "makarovmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "rugerlcpmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptcf380mag_8rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptcf380mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hpt3895mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "swbodyguard_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock42_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "500_speedloader5",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock40mag_9",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4_40mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "px4_40mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "sig40mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "smg_40_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bhp40mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptjcpmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "smg_45_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "thompson_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump45mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usp45mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc10mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc15mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "usc20mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppq45mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "hptjhpmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock_21mag26",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "glock36_mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911bigmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "m1911mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "clip_77mm_arisaka",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ppkmag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "kp32mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "lws32mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "44_speedloader6",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762x39_clip",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762R_clip",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
           ],
           "minDanger": 2
         }

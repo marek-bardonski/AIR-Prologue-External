@@ -2482,5 +2482,1392 @@
       "fireCost": 70
     }
   },
-  "movesPerMinute": 100
+  "movesPerMinute": 100,
+  "magazines": {
+    "//": "Prologue rule (01.10.2026): a magazine, clip or speedloader is a loader, not a store. One that fits the gun (byGun, read from the CDDA magazine wells and speedloader lists), carried anywhere, makes a reload take reloadFactor of the gun's reloadCost; one whose capacity is above the gun's stated capacity lets the gun hold that many.",
+    "reloadFactor": 0.5,
+    "byGun": {
+      "1911_22": [
+        "1911_22_mag"
+      ],
+      "TDI": [
+        "glock_21mag_10",
+        "tdi_mag",
+        "glock_21mag",
+        "glock_21mag26"
+      ],
+      "TDI_10": [
+        "glock_20mag_10",
+        "glock_20mag",
+        "tdi_10mm_mag"
+      ],
+      "ak308": [
+        "papm77mag",
+        "papm77mag_10rd"
+      ],
+      "ak47": [
+        "akmag30",
+        "akmag10",
+        "akmag20",
+        "akmag40",
+        "akdrum75"
+      ],
+      "ak556": [
+        "zpap85mag"
+      ],
+      "ak74_semi": [
+        "ak74mag",
+        "rpk74mag",
+        "casket74mag"
+      ],
+      "aksemi": [
+        "akmag30",
+        "akmag10",
+        "akmag20",
+        "akmag40",
+        "akdrum75"
+      ],
+      "ar10": [
+        "ar10mag_20rd",
+        "ar10mag_10rd",
+        "ar10mag_25rd",
+        "ar10mag_50rd",
+        "ar10_makeshiftmag"
+      ],
+      "ar12_shotgun": [
+        "mka_1919_5",
+        "mka_1919_10",
+        "mka_1919_20"
+      ],
+      "as50": [
+        "as50mag"
+      ],
+      "axmc": [
+        "ai_338mag",
+        "ai_338mag_10"
+      ],
+      "bren2_556": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag40ranger",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "bren2_762": [
+        "bren2_762mag30",
+        "bren2_762mag10"
+      ],
+      "briefcase_smg": [
+        "mp5mag",
+        "mp5mag_10rd",
+        "mp5mag_15rd",
+        "mp5mag_20rd"
+      ],
+      "browning_blr": [
+        "blrmag"
+      ],
+      "bt_apc9k": [
+        "btmp9mag_9x19mm_15",
+        "btmp9mag_9x19mm_10rd",
+        "btmp9mag_9x19mm_20",
+        "btmp9mag_9x19mm_25",
+        "btmp9mag_9x19mm_30",
+        "btmp9mag_9x19mm_50rd"
+      ],
+      "calico": [
+        "calicomag",
+        "calicomag_100rd"
+      ],
+      "chiappa_rhino": [
+        "38_speedloader6"
+      ],
+      "colt_anaconda_4": [
+        "44_speedloader6"
+      ],
+      "colt_anaconda_6": [
+        "44_speedloader6"
+      ],
+      "colt_anaconda_8": [
+        "44_speedloader6"
+      ],
+      "colt_python": [
+        "38_speedloader6"
+      ],
+      "colt_ro635": [
+        "uzimag",
+        "uzimag_20rd",
+        "uzimag_25rd",
+        "uzimag_40rd",
+        "uzimag_50rd",
+        "uzimag_100rd"
+      ],
+      "cp33": [
+        "cp33_mag",
+        "cp33_mag_50"
+      ],
+      "cz600": [
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag50",
+        "stanag100",
+        "stanag100drum"
+      ],
+      "cz75": [
+        "cz75mag_10rd",
+        "cz75mag_16rd",
+        "cz75mag_20rd",
+        "cz75mag_26rd"
+      ],
+      "fn57": [
+        "fn57mag"
+      ],
+      "fn_fal_semi": [
+        "falmag",
+        "falbigmag",
+        "fal_makeshiftmag"
+      ],
+      "fn_p90": [
+        "fnp90mag"
+      ],
+      "fn_ps90": [
+        "fnp90mag"
+      ],
+      "garand": [
+        "garandclip"
+      ],
+      "gfy_1": [
+        "mka_1919_5",
+        "mka_1919_10",
+        "mka_1919_20"
+      ],
+      "glock_17": [
+        "glock17_10",
+        "glock17_17",
+        "glock17_22",
+        "glock_drum_50rd",
+        "glock_drum_100rd",
+        "glockbigmag"
+      ],
+      "glock_18c": [
+        "glock17_10",
+        "glock17_17",
+        "glock17_22",
+        "glock_drum_50rd",
+        "glock_drum_100rd",
+        "glockbigmag"
+      ],
+      "glock_19": [
+        "glockmag_10",
+        "glock17_10",
+        "glockmag",
+        "glockbigmag",
+        "glock17_17",
+        "glock17_22",
+        "glock_drum_50rd",
+        "glock_drum_100rd"
+      ],
+      "glock_20": [
+        "glock_20mag_10",
+        "glock_20mag",
+        "tdi_10mm_mag"
+      ],
+      "glock_21": [
+        "glock_21mag_10",
+        "glock_21mag",
+        "glock_21mag26"
+      ],
+      "glock_22": [
+        "glock40mag_10",
+        "glock40mag",
+        "glock40bigmag"
+      ],
+      "glock_23": [
+        "glock40mag_10",
+        "glock40mag",
+        "glock40bigmag"
+      ],
+      "glock_26": [
+        "glockmag_10",
+        "glock17_10",
+        "glockmag",
+        "glockbigmag",
+        "glock17_17",
+        "glock17_22",
+        "glock_drum_50rd",
+        "glock_drum_100rd"
+      ],
+      "glock_27": [
+        "glock40mag_9",
+        "glock40mag_10",
+        "glock40mag",
+        "glock40bigmag"
+      ],
+      "glock_29": [
+        "glock_20mag_10",
+        "glock_29mag",
+        "glock_20mag",
+        "tdi_10mm_mag"
+      ],
+      "glock_30": [
+        "glock_21mag_10",
+        "glock_21mag",
+        "glock_21mag26"
+      ],
+      "glock_34": [
+        "glock17_10",
+        "glock17_17",
+        "glock17_22",
+        "glock_drum_50rd",
+        "glock_drum_100rd",
+        "glockbigmag"
+      ],
+      "glock_36": [
+        "glock36_mag"
+      ],
+      "glock_40": [
+        "glock_20mag_10",
+        "glock_20mag",
+        "tdi_10mm_mag"
+      ],
+      "glock_42": [
+        "glock42_mag"
+      ],
+      "glock_43": [
+        "glock43_mag"
+      ],
+      "glock_44": [
+        "glock44_mag"
+      ],
+      "greasegun": [
+        "greasegun30mag"
+      ],
+      "hi_power_40": [
+        "bhp40mag"
+      ],
+      "hi_power_9mm": [
+        "bhp9mag_13rd",
+        "bhp9mag_15rd"
+      ],
+      "hk417_13": [
+        "hk417mag_20rd",
+        "hk417mag_10rd",
+        "hk417_makeshiftmag"
+      ],
+      "hk_g3": [
+        "g3mag",
+        "g3bigmag",
+        "g3_makeshiftmag"
+      ],
+      "hk_mp5": [
+        "mp5mag",
+        "mp5mag_10rd",
+        "mp5mag_15rd",
+        "mp5mag_20rd",
+        "mp5mag_38rd",
+        "mp5mag_40rd",
+        "mp5bigmag",
+        "mp5mag_100rd"
+      ],
+      "hk_mp5_10_semi": [
+        "mp5_10_mag"
+      ],
+      "hk_mp5_semi_pistol": [
+        "mp5mag",
+        "mp5mag_10rd",
+        "mp5mag_15rd",
+        "mp5mag_20rd",
+        "mp5mag_38rd",
+        "mp5mag_40rd",
+        "mp5bigmag",
+        "mp5mag_100rd"
+      ],
+      "hk_mp5k": [
+        "mp5mag",
+        "mp5mag_10rd",
+        "mp5mag_15rd",
+        "mp5mag_20rd",
+        "mp5mag_38rd",
+        "mp5mag_40rd",
+        "mp5bigmag",
+        "mp5mag_100rd"
+      ],
+      "hk_mp5sd": [
+        "mp5mag",
+        "mp5mag_10rd",
+        "mp5mag_15rd",
+        "mp5mag_20rd",
+        "mp5mag_38rd",
+        "mp5mag_40rd",
+        "mp5bigmag",
+        "mp5mag_100rd"
+      ],
+      "hk_mp7": [
+        "hk46mag",
+        "hk46bigmag"
+      ],
+      "hk_usc45": [
+        "usc10mag",
+        "usc15mag",
+        "usc20mag"
+      ],
+      "hpt3895": [
+        "hpt3895mag_10rd"
+      ],
+      "hptc9": [
+        "hptc9mag_8rd",
+        "hptc9mag_10rd",
+        "hptc9mag_15rd"
+      ],
+      "hptcf380": [
+        "hptcf380mag_8rd",
+        "hptcf380mag_10rd"
+      ],
+      "hptjcp": [
+        "hptjcpmag"
+      ],
+      "hptjhp": [
+        "hptjhpmag"
+      ],
+      "iwi_tavor_x95_300blk": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "kord": [
+        "ak74mag",
+        "rpk74mag",
+        "casket74mag"
+      ],
+      "kp32": [
+        "kp32mag"
+      ],
+      "ksub2000": [
+        "glockmag",
+        "glockbigmag",
+        "glock17_17",
+        "glock17_22",
+        "glock_drum_50rd",
+        "glock_drum_100rd"
+      ],
+      "lws32": [
+        "lws32mag"
+      ],
+      "m107a1": [
+        "m107a1mag"
+      ],
+      "m11": [
+        "p228mag_13rd_9x19mm"
+      ],
+      "m110a1": [
+        "hk417mag_20rd",
+        "hk417mag_10rd",
+        "hk417_makeshiftmag"
+      ],
+      "m14ebr": [
+        "m14mag",
+        "m14smallmag",
+        "m14_makeshiftmag"
+      ],
+      "m17": [
+        "p320mag_17rd_9x19mm",
+        "p320mag_21rd_9x19mm",
+        "p320mag_10rd_9x19mm"
+      ],
+      "m18": [
+        "p320mag_17rd_9x19mm",
+        "p320mag_21rd_9x19mm",
+        "p320mag_10rd_9x19mm"
+      ],
+      "m1903": [
+        "3006_clip"
+      ],
+      "m1911": [
+        "m1911mag",
+        "m1911bigmag"
+      ],
+      "m1911_10": [
+        "m1911_10mag"
+      ],
+      "m1911a1_38super": [
+        "m1911mag_10rd_38super"
+      ],
+      "m1918": [
+        "m1918mag",
+        "m1918bigmag"
+      ],
+      "m1a": [
+        "m14mag",
+        "m14smallmag",
+        "m14_makeshiftmag"
+      ],
+      "m1carbine": [
+        "m1carbinemag",
+        "m1carbinebigmag"
+      ],
+      "m2010": [
+        "m2010mag"
+      ],
+      "m249": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag40ranger",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "m249_semi": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag40ranger",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "m26_mass_standalone": [
+        "m26_mass_mag_3",
+        "m26_mass_mag_5"
+      ],
+      "m2carbine": [
+        "m1carbinemag",
+        "m1carbinebigmag"
+      ],
+      "m9": [
+        "m9mag",
+        "m9mag_10rd",
+        "m9mag_17rd",
+        "m9mag_18rd",
+        "m9mag_20rd",
+        "m9bigmag",
+        "m9mag_32rd",
+        "m9mag_35rd"
+      ],
+      "mac_10": [
+        "mac10mag",
+        "smg_45_mag"
+      ],
+      "mac_11": [
+        "mac11mag"
+      ],
+      "makarov": [
+        "makarovmag"
+      ],
+      "marlin_9a": [
+        "marlin_tubeloader"
+      ],
+      "mauser_c96": [
+        "clip9mm_10rd"
+      ],
+      "mdrx": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag40ranger",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "ar10mag_20rd",
+        "ar10mag_10rd",
+        "ar10mag_25rd",
+        "ar10mag_50rd",
+        "ar10_makeshiftmag",
+        "survivor223mag"
+      ],
+      "mk47": [
+        "akmag10",
+        "akmag20",
+        "akmag30",
+        "akmag40",
+        "akdrum75"
+      ],
+      "model_10_revolver": [
+        "38_speedloader6"
+      ],
+      "modular_ar15": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "modular_ar_pistol": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "modular_m16_auto_rifle": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "modular_m16a4": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "modular_m27_assault_rifle": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "modular_m4_carbine": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "modular_ump": [
+        "ump45mag"
+      ],
+      "mosin44": [
+        "762R_clip"
+      ],
+      "mosin91_30": [
+        "762R_clip"
+      ],
+      "mossberg_590m": [
+        "mossberg_590m_mag_5",
+        "mossberg_590m_mag_10",
+        "mossberg_590m_mag_15",
+        "mossberg_590m_mag_20"
+      ],
+      "mp40": [
+        "mp40mag_32rd"
+      ],
+      "mp40semi": [
+        "mp40mag_32rd"
+      ],
+      "mp_15": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "mp_15_22": [
+        "mp1522_mag"
+      ],
+      "mrad_smr": [
+        "mrad_338lapua_mag"
+      ],
+      "number4_mki": [
+        "enfield_303mag"
+      ],
+      "obrez": [
+        "762R_clip"
+      ],
+      "p08": [
+        "p08mag_8rd",
+        "p08mag_32rd"
+      ],
+      "p220_10": [
+        "p220_10_mag"
+      ],
+      "p226_357sig": [
+        "p226mag_12rd_357sig"
+      ],
+      "p226_9mm": [
+        "p226mag_10rd_9x19mm",
+        "p226mag_15rd_9x19mm"
+      ],
+      "p320_357sig": [
+        "p320mag_13rd_357sig"
+      ],
+      "p365": [
+        "p365_mag"
+      ],
+      "p50": [
+        "fnp90mag"
+      ],
+      "psl": [
+        "pslmag5",
+        "pslmag10"
+      ],
+      "px4": [
+        "px4mag",
+        "px4mag_10rd",
+        "px4mag_15rd",
+        "px4mag_20rd"
+      ],
+      "px4_40": [
+        "px4_40mag_10",
+        "px4_40mag"
+      ],
+      "raging_bull": [
+        "454_speedloader5"
+      ],
+      "rdb_223": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag40ranger",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "rfb_308": [
+        "falmag",
+        "falbigmag",
+        "fal_makeshiftmag"
+      ],
+      "rp63": [
+        "38_speedloader6"
+      ],
+      "ruger_1022": [
+        "ruger1022mag",
+        "ruger1022mag_15",
+        "ruger1022bigmag",
+        "ruger1022mag_30",
+        "ruger1022mag_32",
+        "ruger1022mag_55",
+        "ruger1022mag_70",
+        "ruger1022mag_110"
+      ],
+      "ruger_1022_auto": [
+        "ruger1022mag",
+        "ruger1022mag_15",
+        "ruger1022bigmag",
+        "ruger1022mag_30",
+        "ruger1022mag_32",
+        "ruger1022mag_55",
+        "ruger1022mag_70",
+        "ruger1022mag_110"
+      ],
+      "ruger_57": [
+        "ruger_57mag",
+        "ruger_57_10_round_mag"
+      ],
+      "ruger_arr": [
+        "ruger_arr_mag"
+      ],
+      "ruger_lcr_22": [
+        "22_speedloader8"
+      ],
+      "ruger_lcr_38": [
+        "38_speedloader5"
+      ],
+      "ruger_mini": [
+        "ruger20",
+        "ruger5",
+        "ruger10",
+        "ruger30",
+        "ruger90",
+        "ruger100",
+        "ruger_makeshiftmag"
+      ],
+      "ruger_mk4": [
+        "ruger_mk4_mag"
+      ],
+      "ruger_pr": [
+        "ruger_pr_mag"
+      ],
+      "rugerlcp": [
+        "rugerlcpmag"
+      ],
+      "rugerpcc": [
+        "glockmag_10",
+        "glock17_10",
+        "glockmag",
+        "glockbigmag",
+        "glock17_17",
+        "glock17_22",
+        "glock_drum_50rd",
+        "glock_drum_100rd"
+      ],
+      "saiga_12": [
+        "saiga10mag",
+        "saiga30mag"
+      ],
+      "scar_16s": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag40ranger",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "scar_17s": [
+        "scarhmag_10",
+        "scarhmag",
+        "scarhbigmag",
+        "scarhmag_30rd",
+        "scarh_makeshiftmag"
+      ],
+      "scar_h": [
+        "scarhmag_10",
+        "scarhmag",
+        "scarhbigmag",
+        "scarhmag_30rd",
+        "scarh_makeshiftmag"
+      ],
+      "scar_h_mk20": [
+        "scarhmag_10",
+        "scarhmag",
+        "scarhbigmag",
+        "scarhmag_30rd",
+        "scarh_makeshiftmag"
+      ],
+      "scar_l": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag40ranger",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "sig_40": [
+        "sig40mag"
+      ],
+      "sig_assault_rifle": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag40ranger",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "sig_mcx_rattler_sbr": [
+        "stanag30",
+        "stanag5",
+        "stanag5ranger",
+        "stanag10",
+        "stanag10ranger",
+        "stanag20",
+        "stanag20ranger",
+        "stanag30ranger",
+        "stanag40",
+        "stanag50",
+        "stanag60",
+        "stanag60drum",
+        "stanag90",
+        "stanag100",
+        "stanag100drum",
+        "stanag150",
+        "survivor223mag"
+      ],
+      "sig_mosquito": [
+        "mosquitomag"
+      ],
+      "sks": [
+        "762x39_clip"
+      ],
+      "sl8": [
+        "sl8mag"
+      ],
+      "smg_40": [
+        "smg_40_mag"
+      ],
+      "smg_45": [
+        "mac10mag",
+        "smg_45_mag"
+      ],
+      "smg_9mm": [
+        "survivor9mm_mag",
+        "stenmag"
+      ],
+      "smle_mk3": [
+        "enfield_303mag"
+      ],
+      "sp2022": [
+        "sp2022mag_10rd_9mm",
+        "sp2022mag_12rd_9mm",
+        "sp2022mag_15rd_9mm"
+      ],
+      "sr22": [
+        "sr22_mag"
+      ],
+      "srm_1216": [
+        "srm_1216_mag_16"
+      ],
+      "sten": [
+        "stenmag",
+        "survivor9mm_mag"
+      ],
+      "steyr_aug": [
+        "augmag_30rd",
+        "augmag_10rd",
+        "augmag_42rd",
+        "augmag_100rd"
+      ],
+      "steyr_scout": [
+        "steyr_scout_mag",
+        "steyr_scout_mag_makeshift"
+      ],
+      "sw629": [
+        "44_speedloader6"
+      ],
+      "sw642": [
+        "38_speedloader5"
+      ],
+      "sw_500": [
+        "500_speedloader5"
+      ],
+      "sw_610": [
+        "40_speedloader6"
+      ],
+      "sw_619": [
+        "38_speedloader"
+      ],
+      "swbodyguard": [
+        "swbodyguard_mag"
+      ],
+      "tac338": [
+        "ai_338mag",
+        "ai_338mag_10"
+      ],
+      "tac50": [
+        "tac50mag"
+      ],
+      "taurus_judge": [
+        "454_speedloader5"
+      ],
+      "tec9": [
+        "tec9mag",
+        "tec9mag_10rd",
+        "tec9mag_20rd",
+        "tec9mag_30rd",
+        "tec9mag_36rd",
+        "tec9mag_50rd",
+        "tec9mag_72rd"
+      ],
+      "tokarev": [
+        "tokarevmag"
+      ],
+      "tommygun": [
+        "thompson_mag",
+        "thompson_bigmag",
+        "thompson_drum",
+        "thompson_makeshiftmag"
+      ],
+      "type99": [
+        "clip_77mm_arisaka"
+      ],
+      "type99_sniper": [
+        "clip_77mm_arisaka"
+      ],
+      "usp_45": [
+        "usp45mag"
+      ],
+      "usp_9mm": [
+        "usp9mag",
+        "usp9mag_10rd",
+        "usp9mag_18rd",
+        "usp9mag_20rd",
+        "usp9mag_32rd"
+      ],
+      "uzi": [
+        "uzimag",
+        "uzimag_20rd",
+        "uzimag_25rd",
+        "uzimag_40rd",
+        "uzimag_50rd",
+        "uzimag_100rd"
+      ],
+      "walther_ccp": [
+        "ccpmag",
+        "ccpmag_9rd"
+      ],
+      "walther_p22": [
+        "wp22mag"
+      ],
+      "walther_p38": [
+        "p38mag"
+      ],
+      "walther_ppk": [
+        "ppkmag"
+      ],
+      "walther_ppq_45": [
+        "ppq45mag"
+      ],
+      "walther_ppq_9mm": [
+        "ppq9mag_10rd",
+        "ppq9mag_15rd",
+        "ppq9mag_17rd"
+      ],
+      "witness_10": [
+        "witness_mag_10"
+      ],
+      "xd_10": [
+        "xd_10_mag"
+      ]
+    },
+    "capacity": {
+      "enfield_303mag": 10,
+      "fn57mag": 20,
+      "fnp90mag": 50,
+      "ruger_57mag": 20,
+      "ruger_57_10_round_mag": 10,
+      "falbigmag": 30,
+      "falmag": 20,
+      "fal_makeshiftmag": 5,
+      "g3bigmag": 50,
+      "g3mag": 20,
+      "g3_makeshiftmag": 5,
+      "m14mag": 20,
+      "m14smallmag": 5,
+      "m14_makeshiftmag": 5,
+      "papm77mag": 20,
+      "papm77mag_10rd": 10,
+      "scarhbigmag": 50,
+      "scarhmag_30rd": 30,
+      "scarhmag": 20,
+      "scarhmag_10": 10,
+      "scarh_makeshiftmag": 5,
+      "hk417mag_20rd": 20,
+      "hk417mag_10rd": 10,
+      "hk417_makeshiftmag": 5,
+      "ar10mag_10rd": 10,
+      "ar10mag_20rd": 20,
+      "ar10mag_25rd": 25,
+      "ar10mag_50rd": 50,
+      "ar10_makeshiftmag": 5,
+      "steyr_scout_mag": 5,
+      "steyr_scout_mag_makeshift": 3,
+      "454_speedloader5": 5,
+      "p226mag_12rd_357sig": 12,
+      "p320mag_13rd_357sig": 13,
+      "hk46bigmag": 40,
+      "hk46mag": 20,
+      "calicomag": 50,
+      "calicomag_100rd": 100,
+      "glockbigmag": 33,
+      "glockmag": 15,
+      "glock43_mag": 6,
+      "glockmag_10": 10,
+      "glock17_17": 17,
+      "glock17_10": 10,
+      "glock17_22": 22,
+      "glock_drum_50rd": 50,
+      "glock_drum_100rd": 100,
+      "m9mag_35rd": 35,
+      "m9mag_32rd": 32,
+      "m9bigmag": 30,
+      "m9mag_20rd": 20,
+      "m9mag_18rd": 18,
+      "m9mag_17rd": 17,
+      "m9mag": 15,
+      "m9mag_10rd": 10,
+      "mp5mag_100rd": 100,
+      "mp5bigmag": 50,
+      "mp5mag_40rd": 40,
+      "mp5mag_38rd": 38,
+      "mp5mag": 30,
+      "mp5mag_20rd": 20,
+      "mp5mag_15rd": 15,
+      "mp5mag_10rd": 10,
+      "p08mag_8rd": 8,
+      "p08mag_32rd": 32,
+      "clip9mm_10rd": 10,
+      "mp40mag_32rd": 32,
+      "px4mag_10rd": 10,
+      "px4mag_15rd": 15,
+      "px4mag": 17,
+      "px4mag_20rd": 20,
+      "stenmag": 32,
+      "survivor9mm_mag": 20,
+      "tec9mag_10rd": 10,
+      "tec9mag_20rd": 20,
+      "tec9mag_30rd": 30,
+      "tec9mag": 32,
+      "tec9mag_36rd": 36,
+      "tec9mag_50rd": 50,
+      "tec9mag_72rd": 72,
+      "usp9mag_10rd": 10,
+      "usp9mag": 15,
+      "usp9mag_18rd": 18,
+      "usp9mag_20rd": 20,
+      "usp9mag_32rd": 32,
+      "uzimag_20rd": 20,
+      "uzimag_25rd": 25,
+      "uzimag": 32,
+      "uzimag_40rd": 40,
+      "uzimag_50rd": 50,
+      "uzimag_100rd": 100,
+      "p226mag_10rd_9x19mm": 10,
+      "p226mag_15rd_9x19mm": 15,
+      "p228mag_13rd_9x19mm": 13,
+      "p320mag_10rd_9x19mm": 10,
+      "p320mag_17rd_9x19mm": 17,
+      "p320mag_21rd_9x19mm": 21,
+      "sp2022mag_10rd_9mm": 10,
+      "sp2022mag_12rd_9mm": 12,
+      "sp2022mag_15rd_9mm": 15,
+      "bhp9mag_13rd": 13,
+      "bhp9mag_15rd": 15,
+      "p38mag": 8,
+      "ppq9mag_10rd": 10,
+      "ppq9mag_15rd": 15,
+      "ppq9mag_17rd": 17,
+      "hptc9mag_8rd": 8,
+      "hptc9mag_10rd": 10,
+      "hptc9mag_15rd": 15,
+      "cz75mag_16rd": 16,
+      "cz75mag_10rd": 10,
+      "cz75mag_20rd": 20,
+      "cz75mag_26rd": 26,
+      "ccpmag": 8,
+      "ccpmag_9rd": 9,
+      "btmp9mag_9x19mm_10rd": 10,
+      "btmp9mag_9x19mm_15": 15,
+      "btmp9mag_9x19mm_20": 20,
+      "btmp9mag_9x19mm_25": 25,
+      "btmp9mag_9x19mm_30": 30,
+      "btmp9mag_9x19mm_50rd": 50,
+      "p365_mag": 10,
+      "ruger5": 5,
+      "stanag10": 10,
+      "stanag10ranger": 10,
+      "ruger10": 10,
+      "ruger20": 20,
+      "ruger30": 30,
+      "ruger90": 90,
+      "ruger100": 100,
+      "stanag5": 5,
+      "stanag5ranger": 5,
+      "stanag20": 20,
+      "stanag20ranger": 20,
+      "stanag30": 30,
+      "stanag30ranger": 30,
+      "stanag40": 40,
+      "stanag40ranger": 40,
+      "stanag50": 50,
+      "stanag60": 60,
+      "stanag60drum": 60,
+      "stanag90": 90,
+      "stanag100": 100,
+      "stanag100drum": 100,
+      "stanag150": 150,
+      "sl8mag": 10,
+      "augmag_10rd": 10,
+      "augmag_30rd": 30,
+      "augmag_42rd": 42,
+      "augmag_100rd": 100,
+      "zpap85mag": 30,
+      "survivor223mag": 5,
+      "ruger_makeshiftmag": 5,
+      "40_speedloader6": 6,
+      "glock_20mag": 15,
+      "glock_20mag_10": 10,
+      "glock_29mag": 10,
+      "m1911_10mag": 8,
+      "mp5_10_mag": 30,
+      "p220_10_mag": 8,
+      "tdi_10mm_mag": 30,
+      "witness_mag_10": 15,
+      "xd_10_mag": 15,
+      "38_speedloader": 7,
+      "38_speedloader5": 5,
+      "38_speedloader6": 6,
+      "tokarevmag": 8,
+      "3006_clip": 5,
+      "blrmag": 4,
+      "garandclip": 8,
+      "m1918bigmag": 30,
+      "m1918mag": 20,
+      "saiga10mag": 10,
+      "saiga30mag": 20,
+      "srm_1216_mag_16": 16,
+      "m26_mass_mag_3": 3,
+      "m26_mass_mag_5": 5,
+      "mossberg_590m_mag_5": 5,
+      "mossberg_590m_mag_10": 10,
+      "mossberg_590m_mag_15": 15,
+      "mossberg_590m_mag_20": 20,
+      "mka_1919_5": 5,
+      "mka_1919_10": 10,
+      "mka_1919_20": 20,
+      "m1911mag_10rd_38super": 9,
+      "m2010mag": 5,
+      "ruger_pr_mag": 5,
+      "m1carbinebigmag": 30,
+      "m1carbinemag": 15,
+      "22_speedloader8": 8,
+      "marlin_tubeloader": 19,
+      "mosquitomag": 10,
+      "ruger1022bigmag": 25,
+      "ruger1022mag": 10,
+      "ruger1022mag_15": 15,
+      "ruger1022mag_30": 55,
+      "ruger1022mag_32": 32,
+      "ruger1022mag_55": 55,
+      "ruger1022mag_70": 70,
+      "ruger1022mag_110": 110,
+      "wp22mag": 10,
+      "cp33_mag": 33,
+      "cp33_mag_50": 50,
+      "ruger_mk4_mag": 10,
+      "1911_22_mag": 10,
+      "sr22_mag": 10,
+      "glock44_mag": 10,
+      "mp1522_mag": 10,
+      "makarovmag": 8,
+      "rugerlcpmag": 6,
+      "mac11mag": 32,
+      "hptcf380mag_8rd": 8,
+      "hptcf380mag_10rd": 10,
+      "hpt3895mag_10rd": 10,
+      "swbodyguard_mag": 6,
+      "glock42_mag": 6,
+      "m107a1mag": 10,
+      "as50mag": 5,
+      "tac50mag": 5,
+      "500_speedloader5": 5,
+      "ai_338mag": 5,
+      "ai_338mag_10": 10,
+      "mrad_338lapua_mag": 10,
+      "glock40bigmag": 22,
+      "glock40mag": 15,
+      "glock40mag_10": 10,
+      "glock40mag_9": 9,
+      "px4_40mag": 14,
+      "px4_40mag_10": 10,
+      "sig40mag": 12,
+      "smg_40_mag": 20,
+      "bhp40mag": 10,
+      "hptjcpmag": 10,
+      "mac10mag": 30,
+      "smg_45_mag": 20,
+      "tdi_mag": 30,
+      "thompson_bigmag": 30,
+      "thompson_drum": 50,
+      "thompson_mag": 20,
+      "thompson_makeshiftmag": 20,
+      "ump45mag": 25,
+      "usp45mag": 12,
+      "usc10mag": 10,
+      "usc15mag": 15,
+      "usc20mag": 20,
+      "ppq45mag": 12,
+      "hptjhpmag": 9,
+      "glock_21mag": 13,
+      "glock_21mag_10": 10,
+      "glock_21mag26": 26,
+      "glock36_mag": 6,
+      "greasegun30mag": 30,
+      "m1911bigmag": 10,
+      "m1911mag": 7,
+      "ruger_arr_mag": 3,
+      "clip_77mm_arisaka": 5,
+      "ppkmag": 8,
+      "kp32mag": 7,
+      "lws32mag": 6,
+      "44_speedloader6": 6,
+      "762x39_clip": 10,
+      "akmag10": 10,
+      "akmag20": 20,
+      "akmag30": 30,
+      "akmag40": 40,
+      "akdrum75": 75,
+      "bren2_762mag30": 30,
+      "bren2_762mag10": 10,
+      "ak74mag": 30,
+      "rpk74mag": 45,
+      "casket74mag": 60,
+      "762R_clip": 5,
+      "pslmag5": 5,
+      "pslmag10": 10
+    }
+  }
 }
