@@ -1,0 +1,923 @@
+{
+  "group": "p01_g05_fittings",
+  "source": "01.10.2026 import: sights, stocks, muzzle devices, grips, rests, loading chutes and brass catchers for guns and bows",
+  "items": [
+    {
+      "id": "improve_sights",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "red_dot_sight",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "holo_sight",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "pistol_scope",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "acog_scope",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "hybrid_sight_4x",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "tele_sight",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "tele_sight_pistol",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "rifle_scope_high_end_mount",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "type99_scope",
+      "loot": [
+        {
+          "table": "ruins",
+          "weight": 0.006
+        },
+        {
+          "table": "house_common",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "holo_magnifier",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "compensator",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "muzzle_brake",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "suppressor",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "suppressor_compact",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "shot_suppressor",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "crafted_suppressor",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "filter_suppressor",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "choke",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "adjustable_stock",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "high_end_folding_stock",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "pistol_stock",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "recoil_stock",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "tail_hook_stock",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "cheek_pad",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "butt_hook",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "bipod",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "bipod_handguard",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "modern_handguard",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "grip",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "grip_mod",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "muzzle_weight",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "offset_grip",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "match_trigger",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "arredondo_chute",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "arredondo_chute_benelli_sa",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "arredondo_chute_remington_870_breacher",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "arredondo_chute_remington_870",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "arredondo_chute_mossberg_500",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "arredondo_chute_mossberg_930",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "arredondo_chute_mossberg_590",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03,
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.003,
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "brass_catcher",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "big_brass_catcher",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004,
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "arrowrest",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "arrowrest_wood",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "bow_stabilizer",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "bow_stabilizer_set",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "bow_silencer",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "primitive_bow_silencer",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "bow_sight",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "bow_sight_pin",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "bow_scope",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.003
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:adjustable_stock",
+    "recipe:arredondo_chute_benelli_sa",
+    "recipe:arredondo_chute_benelli_sa:simple",
+    "recipe:arredondo_chute_mossberg_500",
+    "recipe:arredondo_chute_mossberg_500:simple",
+    "recipe:arredondo_chute_mossberg_590",
+    "recipe:arredondo_chute_mossberg_590:simple",
+    "recipe:arredondo_chute_mossberg_930",
+    "recipe:arredondo_chute_mossberg_930:simple",
+    "recipe:arredondo_chute_remington_870",
+    "recipe:arredondo_chute_remington_870:simple",
+    "recipe:arredondo_chute_remington_870_breacher",
+    "recipe:arredondo_chute_remington_870_breacher:simple",
+    "recipe:arrowrest",
+    "recipe:arrowrest_wood",
+    "recipe:big_brass_catcher",
+    "recipe:bipod",
+    "recipe:bow_scope",
+    "recipe:bow_sight_pin",
+    "recipe:bow_silencer",
+    "recipe:bow_stabilizer",
+    "recipe:bow_stabilizer_set",
+    "recipe:brass_catcher",
+    "recipe:choke",
+    "recipe:compensator",
+    "recipe:crafted_suppressor",
+    "recipe:crafted_suppressor:welded_thread",
+    "recipe:filter_suppressor",
+    "recipe:filter_suppressor:welded_thread",
+    "recipe:grip",
+    "recipe:grip_mod",
+    "recipe:improve_sights",
+    "recipe:muzzle_brake",
+    "recipe:muzzle_brake:welded_thread",
+    "recipe:muzzle_weight",
+    "recipe:pistol_stock",
+    "recipe:pistol_stock:with_plastic_molding",
+    "recipe:primitive_bow_silencer",
+    "recipe:recoil_stock",
+    "recipe:suppressor_compact",
+    "recipe:suppressor_compact:welded_thread",
+    "recipe:tele_sight",
+    "recipe:tele_sight_pistol"
+  ],
+  "notes": [
+    "Prologue rule (01.10.2026): a weapon holds one fitting to a slot (firearms.json fittings; game src/game/combat/Fittings.js). The effects are Prologue balance, read off what each part does in CDDA (steadier aim, a quicker load, caught cases); the slots and what each part goes on come from the CDDA location and mod_targets.",
+    "Left out: calibre conversion kits and receivers (a gun fires one calibre here), mounts that only add slots, under-barrel guns, auto sears, bayonet lugs and slings."
+  ]
+}

@@ -1061,7 +1061,7 @@
       {
         "key": "recipe:grip",
         "result": "grip",
-        "name": "grip",
+        "name": "forward grip",
         "skill": "fabrication",
         "level": 3
       },
@@ -1129,16 +1129,16 @@
         "level": 3
       },
       {
-        "key": "recipe:tele_sight",
-        "result": "tele_sight",
-        "name": "tele sight",
+        "key": "recipe:tele_sight_pistol",
+        "result": "tele_sight_pistol",
+        "name": "telescopic pistol sight",
         "skill": "fabrication",
         "level": 3
       },
       {
-        "key": "recipe:tele_sight_pistol",
-        "result": "tele_sight_pistol",
-        "name": "tele sight pistol",
+        "key": "recipe:tele_sight",
+        "result": "tele_sight",
+        "name": "telescopic sight",
         "skill": "fabrication",
         "level": 3
       },
@@ -13163,16 +13163,16 @@
         "level": 3
       },
       {
-        "key": "recipe:tele_sight",
-        "result": "tele_sight",
-        "name": "tele sight",
+        "key": "recipe:tele_sight_pistol",
+        "result": "tele_sight_pistol",
+        "name": "telescopic pistol sight",
         "skill": "fabrication",
         "level": 3
       },
       {
-        "key": "recipe:tele_sight_pistol",
-        "result": "tele_sight_pistol",
-        "name": "tele sight pistol",
+        "key": "recipe:tele_sight",
+        "result": "tele_sight",
+        "name": "telescopic sight",
         "skill": "fabrication",
         "level": 3
       },
@@ -20029,7 +20029,7 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
       },
@@ -20092,7 +20092,7 @@
       {
         "key": "recipe:grip",
         "result": "grip",
-        "name": "grip",
+        "name": "forward grip",
         "skill": "fabrication",
         "level": 4
       },
@@ -20472,7 +20472,7 @@
       {
         "key": "recipe:tele_sight_pistol",
         "result": "tele_sight_pistol",
-        "name": "tele sight pistol",
+        "name": "telescopic pistol sight",
         "skill": "fabrication",
         "level": 2
       },
@@ -20731,7 +20731,7 @@
       {
         "key": "recipe:grip",
         "result": "grip",
-        "name": "grip",
+        "name": "forward grip",
         "skill": "fabrication",
         "level": 3
       },
@@ -20745,7 +20745,7 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
       },
@@ -20946,6 +20946,20 @@
         "level": 4
       },
       {
+        "key": "recipe:suppressor_compact",
+        "result": "suppressor_compact",
+        "name": "pistol suppressor",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:suppressor_compact:welded_thread",
+        "result": "suppressor_compact",
+        "name": "pistol suppressor",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:rail_mount",
         "result": "rail_mount",
         "name": "rail mount",
@@ -20977,20 +20991,6 @@
         "key": "recipe:stock_mount",
         "result": "stock_mount",
         "name": "stock mount",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:suppressor_compact",
-        "result": "suppressor_compact",
-        "name": "suppressor compact",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:suppressor_compact:welded_thread",
-        "result": "suppressor_compact",
-        "name": "suppressor compact",
         "skill": "fabrication",
         "level": 4
       },
@@ -21221,16 +21221,16 @@
         "level": 3
       },
       {
-        "key": "recipe:bow_sight_pin",
-        "result": "bow_sight_pin",
-        "name": "bow sight pin",
+        "key": "recipe:improve_sights",
+        "result": "improve_sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
       },
       {
-        "key": "recipe:improve_sights",
-        "result": "improve_sights",
-        "name": "improve sights",
+        "key": "recipe:bow_sight_pin",
+        "result": "bow_sight_pin",
+        "name": "single pin bow sight",
         "skill": "fabrication",
         "level": 3
       },
@@ -30233,7 +30233,7 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
       },
@@ -30243,48 +30243,6 @@
         "name": "Mauser C96 10-round clip",
         "skill": "fabrication",
         "level": 3
-      },
-      {
-        "key": "recipe:arredondo_chute_benelli_sa",
-        "result": "arredondo_chute_benelli_sa",
-        "name": "arredondo chute benelli sa",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_500",
-        "result": "arredondo_chute_mossberg_500",
-        "name": "arredondo chute mossberg 500",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_590",
-        "result": "arredondo_chute_mossberg_590",
-        "name": "arredondo chute mossberg 590",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_930",
-        "result": "arredondo_chute_mossberg_930",
-        "name": "arredondo chute mossberg 930",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_remington_870",
-        "result": "arredondo_chute_remington_870",
-        "name": "arredondo chute remington 870",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_remington_870_breacher",
-        "result": "arredondo_chute_remington_870_breacher",
-        "name": "arredondo chute remington 870 breacher",
-        "skill": "fabrication",
-        "level": 4
       },
       {
         "key": "recipe:grip_mount",
@@ -30325,6 +30283,48 @@
         "key": "recipe:sights_mount_pistol",
         "result": "sights_mount_pistol",
         "name": "sights mount pistol",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_remington_870_breacher",
+        "result": "arredondo_chute_remington_870_breacher",
+        "name": "speedloader chute, 4-round breaching shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_benelli_sa",
+        "result": "arredondo_chute_benelli_sa",
+        "name": "speedloader chute, 4-round waterfowl shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_remington_870",
+        "result": "arredondo_chute_remington_870",
+        "name": "speedloader chute, 5-round hunting shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_500",
+        "result": "arredondo_chute_mossberg_500",
+        "name": "speedloader chute, 6-round combat shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_930",
+        "result": "arredondo_chute_mossberg_930",
+        "name": "speedloader chute, 8-round auto-loading shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_590",
+        "result": "arredondo_chute_mossberg_590",
+        "name": "speedloader chute, 9-round combat shotgun",
         "skill": "fabrication",
         "level": 4
       },
@@ -30515,7 +30515,7 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
       },
@@ -30828,48 +30828,6 @@
         "level": 4
       },
       {
-        "key": "recipe:arredondo_chute_benelli_sa",
-        "result": "arredondo_chute_benelli_sa",
-        "name": "arredondo chute benelli sa",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_500",
-        "result": "arredondo_chute_mossberg_500",
-        "name": "arredondo chute mossberg 500",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_590",
-        "result": "arredondo_chute_mossberg_590",
-        "name": "arredondo chute mossberg 590",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_930",
-        "result": "arredondo_chute_mossberg_930",
-        "name": "arredondo chute mossberg 930",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_remington_870",
-        "result": "arredondo_chute_remington_870",
-        "name": "arredondo chute remington 870",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_remington_870_breacher",
-        "result": "arredondo_chute_remington_870_breacher",
-        "name": "arredondo chute remington 870 breacher",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
         "key": "recipe:bp_123ln",
         "result": "bp_123ln",
         "name": "bp 123ln",
@@ -30961,6 +30919,48 @@
         "level": 4
       },
       {
+        "key": "recipe:arredondo_chute_remington_870_breacher",
+        "result": "arredondo_chute_remington_870_breacher",
+        "name": "speedloader chute, 4-round breaching shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_benelli_sa",
+        "result": "arredondo_chute_benelli_sa",
+        "name": "speedloader chute, 4-round waterfowl shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_remington_870",
+        "result": "arredondo_chute_remington_870",
+        "name": "speedloader chute, 5-round hunting shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_500",
+        "result": "arredondo_chute_mossberg_500",
+        "name": "speedloader chute, 6-round combat shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_930",
+        "result": "arredondo_chute_mossberg_930",
+        "name": "speedloader chute, 8-round auto-loading shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_590",
+        "result": "arredondo_chute_mossberg_590",
+        "name": "speedloader chute, 9-round combat shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:stock_mount",
         "result": "stock_mount",
         "name": "stock mount",
@@ -31014,51 +31014,9 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
-      },
-      {
-        "key": "recipe:arredondo_chute_benelli_sa",
-        "result": "arredondo_chute_benelli_sa",
-        "name": "arredondo chute benelli sa",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_500",
-        "result": "arredondo_chute_mossberg_500",
-        "name": "arredondo chute mossberg 500",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_590",
-        "result": "arredondo_chute_mossberg_590",
-        "name": "arredondo chute mossberg 590",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_930",
-        "result": "arredondo_chute_mossberg_930",
-        "name": "arredondo chute mossberg 930",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_remington_870",
-        "result": "arredondo_chute_remington_870",
-        "name": "arredondo chute remington 870",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_remington_870_breacher",
-        "result": "arredondo_chute_remington_870_breacher",
-        "name": "arredondo chute remington 870 breacher",
-        "skill": "fabrication",
-        "level": 4
       },
       {
         "key": "recipe:grip_mount",
@@ -31099,6 +31057,48 @@
         "key": "recipe:sights_mount_pistol",
         "result": "sights_mount_pistol",
         "name": "sights mount pistol",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_remington_870_breacher",
+        "result": "arredondo_chute_remington_870_breacher",
+        "name": "speedloader chute, 4-round breaching shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_benelli_sa",
+        "result": "arredondo_chute_benelli_sa",
+        "name": "speedloader chute, 4-round waterfowl shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_remington_870",
+        "result": "arredondo_chute_remington_870",
+        "name": "speedloader chute, 5-round hunting shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_500",
+        "result": "arredondo_chute_mossberg_500",
+        "name": "speedloader chute, 6-round combat shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_930",
+        "result": "arredondo_chute_mossberg_930",
+        "name": "speedloader chute, 8-round auto-loading shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_590",
+        "result": "arredondo_chute_mossberg_590",
+        "name": "speedloader chute, 9-round combat shotgun",
         "skill": "fabrication",
         "level": 4
       },
@@ -31156,7 +31156,7 @@
       {
         "key": "recipe:tele_sight",
         "result": "tele_sight",
-        "name": "tele sight",
+        "name": "telescopic sight",
         "skill": "fabrication",
         "level": 2
       },
@@ -31177,7 +31177,7 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
       },
@@ -31205,7 +31205,7 @@
       {
         "key": "recipe:grip",
         "result": "grip",
-        "name": "grip",
+        "name": "forward grip",
         "skill": "fabrication",
         "level": 4
       },
@@ -31543,7 +31543,7 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
       },
@@ -31585,7 +31585,7 @@
       {
         "key": "recipe:grip",
         "result": "grip",
-        "name": "grip",
+        "name": "forward grip",
         "skill": "fabrication",
         "level": 4
       },
@@ -31600,6 +31600,20 @@
         "key": "recipe:offset_sights",
         "result": "offset_sights",
         "name": "offset sights",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:suppressor_compact",
+        "result": "suppressor_compact",
+        "name": "pistol suppressor",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:suppressor_compact:welded_thread",
+        "result": "suppressor_compact",
+        "name": "pistol suppressor",
         "skill": "fabrication",
         "level": 4
       },
@@ -31642,20 +31656,6 @@
         "key": "recipe:stock_mount",
         "result": "stock_mount",
         "name": "stock mount",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:suppressor_compact",
-        "result": "suppressor_compact",
-        "name": "suppressor compact",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:suppressor_compact:welded_thread",
-        "result": "suppressor_compact",
-        "name": "suppressor compact",
         "skill": "fabrication",
         "level": 4
       },
@@ -31784,28 +31784,21 @@
       {
         "key": "recipe:bow_silencer",
         "result": "bow_silencer",
-        "name": "bow silencer",
+        "name": "bow dampening kit",
         "skill": "fabrication",
         "level": 1
       },
       {
         "key": "recipe:primitive_bow_silencer",
         "result": "primitive_bow_silencer",
-        "name": "primitive bow silencer",
+        "name": "primitive bow dampening kit",
         "skill": "fabrication",
         "level": 1
       },
       {
         "key": "recipe:arrowrest",
         "result": "arrowrest",
-        "name": "arrowrest",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:arrowrest_wood",
-        "result": "arrowrest_wood",
-        "name": "arrowrest wood",
+        "name": "arrow rest",
         "skill": "fabrication",
         "level": 2
       },
@@ -31819,7 +31812,14 @@
       {
         "key": "recipe:bow_sight_pin",
         "result": "bow_sight_pin",
-        "name": "bow sight pin",
+        "name": "single pin bow sight",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:arrowrest_wood",
+        "result": "arrowrest_wood",
+        "name": "wooden arrow rest",
         "skill": "fabrication",
         "level": 2
       },
@@ -31833,7 +31833,7 @@
       {
         "key": "recipe:bow_stabilizer_set",
         "result": "bow_stabilizer_set",
-        "name": "bow stabilizer set",
+        "name": "bow stabilizer system",
         "skill": "fabrication",
         "level": 3
       }
@@ -31872,14 +31872,14 @@
       {
         "key": "recipe:arrowrest",
         "result": "arrowrest",
-        "name": "arrowrest",
+        "name": "arrow rest",
         "skill": "fabrication",
         "level": 1
       },
       {
-        "key": "recipe:arrowrest_wood",
-        "result": "arrowrest_wood",
-        "name": "arrowrest wood",
+        "key": "recipe:bow_silencer",
+        "result": "bow_silencer",
+        "name": "bow dampening kit",
         "skill": "fabrication",
         "level": 1
       },
@@ -31891,23 +31891,23 @@
         "level": 1
       },
       {
-        "key": "recipe:bow_sight_pin",
-        "result": "bow_sight_pin",
-        "name": "bow sight pin",
-        "skill": "fabrication",
-        "level": 1
-      },
-      {
-        "key": "recipe:bow_silencer",
-        "result": "bow_silencer",
-        "name": "bow silencer",
-        "skill": "fabrication",
-        "level": 1
-      },
-      {
         "key": "recipe:primitive_bow_silencer",
         "result": "primitive_bow_silencer",
-        "name": "primitive bow silencer",
+        "name": "primitive bow dampening kit",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
+        "key": "recipe:bow_sight_pin",
+        "result": "bow_sight_pin",
+        "name": "single pin bow sight",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
+        "key": "recipe:arrowrest_wood",
+        "result": "arrowrest_wood",
+        "name": "wooden arrow rest",
         "skill": "fabrication",
         "level": 1
       },
@@ -31921,7 +31921,7 @@
       {
         "key": "recipe:bow_stabilizer_set",
         "result": "bow_stabilizer_set",
-        "name": "bow stabilizer set",
+        "name": "bow stabilizer system",
         "skill": "fabrication",
         "level": 2
       },
@@ -32502,7 +32502,7 @@
       {
         "key": "recipe:grip",
         "result": "grip",
-        "name": "grip",
+        "name": "forward grip",
         "skill": "fabrication",
         "level": 4
       },
@@ -32986,51 +32986,9 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
-      },
-      {
-        "key": "recipe:arredondo_chute_benelli_sa",
-        "result": "arredondo_chute_benelli_sa",
-        "name": "arredondo chute benelli sa",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_500",
-        "result": "arredondo_chute_mossberg_500",
-        "name": "arredondo chute mossberg 500",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_590",
-        "result": "arredondo_chute_mossberg_590",
-        "name": "arredondo chute mossberg 590",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_mossberg_930",
-        "result": "arredondo_chute_mossberg_930",
-        "name": "arredondo chute mossberg 930",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_remington_870",
-        "result": "arredondo_chute_remington_870",
-        "name": "arredondo chute remington 870",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:arredondo_chute_remington_870_breacher",
-        "result": "arredondo_chute_remington_870_breacher",
-        "name": "arredondo chute remington 870 breacher",
-        "skill": "fabrication",
-        "level": 4
       },
       {
         "key": "recipe:grip_mount",
@@ -33075,6 +33033,48 @@
         "level": 4
       },
       {
+        "key": "recipe:arredondo_chute_remington_870_breacher",
+        "result": "arredondo_chute_remington_870_breacher",
+        "name": "speedloader chute, 4-round breaching shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_benelli_sa",
+        "result": "arredondo_chute_benelli_sa",
+        "name": "speedloader chute, 4-round waterfowl shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_remington_870",
+        "result": "arredondo_chute_remington_870",
+        "name": "speedloader chute, 5-round hunting shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_500",
+        "result": "arredondo_chute_mossberg_500",
+        "name": "speedloader chute, 6-round combat shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_930",
+        "result": "arredondo_chute_mossberg_930",
+        "name": "speedloader chute, 8-round auto-loading shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_590",
+        "result": "arredondo_chute_mossberg_590",
+        "name": "speedloader chute, 9-round combat shotgun",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:stock_mount",
         "result": "stock_mount",
         "name": "stock mount",
@@ -33093,7 +33093,7 @@
       {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
-        "name": "improve sights",
+        "name": "iron sights",
         "skill": "fabrication",
         "level": 3
       },

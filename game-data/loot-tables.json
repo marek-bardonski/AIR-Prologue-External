@@ -11500,6 +11500,266 @@
           "minDanger": 2
         },
         {
+          "item": "improve_sights",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "red_dot_sight",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pistol_scope",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tele_sight",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tele_sight_pistol",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "type99_scope",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "compensator",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "muzzle_brake",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "choke",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "adjustable_stock",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pistol_stock",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "recoil_stock",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tail_hook_stock",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "cheek_pad",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "butt_hook",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "muzzle_weight",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "match_trigger",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "arredondo_chute_benelli_sa",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute_remington_870",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute_mossberg_500",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "arredondo_chute_mossberg_930",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "brass_catcher",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "big_brass_catcher",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "arrowrest",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_stabilizer",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_stabilizer_set",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_silencer",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_sight",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_sight_pin",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_scope",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "pictionary",
           "weight": 0.04,
           "count": [
@@ -43200,6 +43460,14 @@
           "minDanger": 3
         },
         {
+          "item": "type99_scope",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "creepy_doll",
           "weight": 0.006,
           "count": [
@@ -52399,6 +52667,150 @@
           ]
         },
         {
+          "item": "tele_sight",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tele_sight_pistol",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "muzzle_brake",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "choke",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "recoil_stock",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cheek_pad",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "butt_hook",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "match_trigger",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute_benelli_sa",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute_remington_870",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute_mossberg_930",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arrowrest",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_stabilizer",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_stabilizer_set",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_silencer",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_sight",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_sight_pin",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_scope",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "foldwoodframe",
           "weight": 0.03,
           "count": [
@@ -57922,6 +58334,22 @@
           ]
         },
         {
+          "item": "arrowrest_wood",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "primitive_bow_silencer",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "teeth_macuahuitl",
           "weight": 0.006,
           "count": [
@@ -62613,6 +63041,150 @@
           "minDanger": 2
         },
         {
+          "item": "tele_sight",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tele_sight_pistol",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "muzzle_brake",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "choke",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "recoil_stock",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cheek_pad",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "butt_hook",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "match_trigger",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute_benelli_sa",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute_remington_870",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arredondo_chute_mossberg_930",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arrowrest",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_stabilizer",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_stabilizer_set",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_silencer",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_sight",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_sight_pin",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bow_scope",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "knife_KABAR",
           "weight": 0.02,
           "count": [
@@ -65537,6 +66109,30 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "crafted_suppressor",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "filter_suppressor",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "grip_mod",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
         },
         {
           "item": "55gal_firebarrel",
@@ -75864,6 +76460,150 @@
         {
           "item": "casket74mag",
           "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "holo_sight",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "acog_scope",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "hybrid_sight_4x",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "rifle_scope_high_end_mount",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "holo_magnifier",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "suppressor",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "suppressor_compact",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "shot_suppressor",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "high_end_folding_stock",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "bipod",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "bipod_handguard",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "modern_handguard",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "grip",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "offset_grip",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "arredondo_chute_remington_870_breacher",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "arredondo_chute_mossberg_590",
+          "weight": 0.03,
           "count": [
             1,
             1
@@ -94773,6 +95513,258 @@
           "minDanger": 2
         },
         {
+          "item": "improve_sights",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "red_dot_sight",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "holo_sight",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "pistol_scope",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "acog_scope",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "hybrid_sight_4x",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "rifle_scope_high_end_mount",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "holo_magnifier",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "compensator",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "suppressor",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "suppressor_compact",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "shot_suppressor",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "adjustable_stock",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "high_end_folding_stock",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "pistol_stock",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tail_hook_stock",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bipod",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "bipod_handguard",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "modern_handguard",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "grip",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "muzzle_weight",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "offset_grip",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "arredondo_chute",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "arredondo_chute_remington_870_breacher",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "arredondo_chute_mossberg_500",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "arredondo_chute_mossberg_590",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "brass_catcher",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "big_brass_catcher",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
           "item": "parachute_mil",
           "weight": 0.001,
           "count": [
@@ -103114,6 +104106,30 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "crafted_suppressor",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "filter_suppressor",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "grip_mod",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
         },
         {
           "item": "soaking_long_pole",
@@ -114905,6 +115921,130 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "improve_sights",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "red_dot_sight",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pistol_scope",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "compensator",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "adjustable_stock",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "pistol_stock",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "tail_hook_stock",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "muzzle_weight",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "arredondo_chute",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "arredondo_chute_mossberg_500",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "brass_catcher",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "big_brass_catcher",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "arrowrest_wood",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "primitive_bow_silencer",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
         },
         {
           "item": "tic_tac",

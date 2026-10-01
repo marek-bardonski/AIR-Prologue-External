@@ -3869,5 +3869,483 @@
       "pslmag5": 5,
       "pslmag10": 10
     }
+  },
+  "fittings": {
+    "//": "Prologue rule (01.10.2026), game code src/game/combat/Fittings.js. A gun or a bow holds one fitting to a slot. byId: slot; skills (the ranged skills of the weapons it goes on) or guns (named weapons only); accuracy is added to the aim; steadiness is taken off the aim lost per step of distance; range in steps; damage and reloadFactor multiply; fireCost is added to the move points of a shot; catchBrass sends the spent case to the pack. Slots and targets follow the CDDA gunmod location and mod_targets; the numbers are Prologue balance.",
+    "slots": {
+      "sights": "sight",
+      "magnifier": "magnifier",
+      "muzzle": "muzzle device",
+      "stock": "stock",
+      "stock_accessory": "stock fitting",
+      "underbarrel": "grip or rest",
+      "rail": "side grip",
+      "mechanism": "trigger",
+      "port": "loading chute",
+      "brass": "brass catcher",
+      "rest": "arrow rest",
+      "stabilizer": "stabiliser",
+      "dampening": "string dampers"
+    },
+    "skillWords": {
+      "pistol": "pistols",
+      "smg": "submachine guns",
+      "rifle": "rifles",
+      "shotgun": "shotguns",
+      "archery": "bows"
+    },
+    "byId": {
+      "improve_sights": {
+        "slot": "sights",
+        "skills": [
+          "smg",
+          "rifle",
+          "pistol",
+          "shotgun"
+        ],
+        "accuracy": 0.5
+      },
+      "red_dot_sight": {
+        "slot": "sights",
+        "skills": [
+          "smg",
+          "rifle",
+          "shotgun",
+          "pistol"
+        ],
+        "accuracy": 1
+      },
+      "holo_sight": {
+        "slot": "sights",
+        "skills": [
+          "smg",
+          "rifle",
+          "shotgun"
+        ],
+        "accuracy": 1,
+        "fireCost": -5
+      },
+      "pistol_scope": {
+        "slot": "sights",
+        "skills": [
+          "pistol",
+          "smg"
+        ],
+        "accuracy": 0.5,
+        "steadiness": 0.05
+      },
+      "acog_scope": {
+        "slot": "sights",
+        "skills": [
+          "rifle",
+          "shotgun",
+          "smg"
+        ],
+        "accuracy": 1,
+        "steadiness": 0.05
+      },
+      "hybrid_sight_4x": {
+        "slot": "sights",
+        "skills": [
+          "rifle",
+          "shotgun",
+          "smg"
+        ],
+        "accuracy": 1,
+        "steadiness": 0.06
+      },
+      "tele_sight": {
+        "slot": "sights",
+        "skills": [
+          "rifle",
+          "shotgun"
+        ],
+        "steadiness": 0.08,
+        "fireCost": 10
+      },
+      "tele_sight_pistol": {
+        "slot": "sights",
+        "skills": [
+          "pistol",
+          "smg"
+        ],
+        "steadiness": 0.06,
+        "fireCost": 10
+      },
+      "rifle_scope_high_end_mount": {
+        "slot": "sights",
+        "skills": [
+          "rifle",
+          "shotgun"
+        ],
+        "accuracy": 1,
+        "steadiness": 0.1,
+        "fireCost": 10
+      },
+      "type99_scope": {
+        "slot": "sights",
+        "guns": [
+          "type99",
+          "type99_sniper"
+        ],
+        "steadiness": 0.08
+      },
+      "holo_magnifier": {
+        "slot": "magnifier",
+        "skills": [
+          "smg",
+          "rifle",
+          "shotgun"
+        ],
+        "steadiness": 0.04
+      },
+      "compensator": {
+        "slot": "muzzle",
+        "skills": [
+          "pistol",
+          "smg",
+          "rifle",
+          "shotgun"
+        ],
+        "accuracy": 0.5
+      },
+      "muzzle_brake": {
+        "slot": "muzzle",
+        "skills": [
+          "rifle",
+          "shotgun",
+          "pistol",
+          "smg"
+        ],
+        "accuracy": 1
+      },
+      "suppressor": {
+        "slot": "muzzle",
+        "skills": [
+          "pistol",
+          "smg",
+          "rifle"
+        ],
+        "accuracy": 0.5
+      },
+      "suppressor_compact": {
+        "slot": "muzzle",
+        "skills": [
+          "pistol",
+          "smg"
+        ],
+        "accuracy": 0.5
+      },
+      "shot_suppressor": {
+        "slot": "muzzle",
+        "skills": [
+          "shotgun"
+        ],
+        "accuracy": 0.5
+      },
+      "crafted_suppressor": {
+        "slot": "muzzle",
+        "skills": [
+          "pistol",
+          "smg",
+          "rifle"
+        ],
+        "accuracy": 0.5,
+        "damage": 0.95
+      },
+      "filter_suppressor": {
+        "slot": "muzzle",
+        "skills": [
+          "pistol",
+          "smg",
+          "rifle"
+        ],
+        "accuracy": 0.5,
+        "damage": 0.97
+      },
+      "choke": {
+        "slot": "muzzle",
+        "skills": [
+          "shotgun"
+        ],
+        "range": 1
+      },
+      "adjustable_stock": {
+        "slot": "stock",
+        "skills": [
+          "smg",
+          "rifle",
+          "shotgun"
+        ],
+        "accuracy": 0.5
+      },
+      "high_end_folding_stock": {
+        "slot": "stock",
+        "skills": [
+          "smg",
+          "rifle",
+          "shotgun"
+        ],
+        "accuracy": 0.5,
+        "fireCost": -3
+      },
+      "pistol_stock": {
+        "slot": "stock",
+        "skills": [
+          "pistol"
+        ],
+        "accuracy": 1.5
+      },
+      "recoil_stock": {
+        "slot": "stock",
+        "skills": [
+          "smg",
+          "rifle",
+          "shotgun"
+        ],
+        "accuracy": 1
+      },
+      "tail_hook_stock": {
+        "slot": "stock",
+        "skills": [
+          "smg",
+          "pistol"
+        ],
+        "accuracy": 1
+      },
+      "cheek_pad": {
+        "slot": "stock_accessory",
+        "skills": [
+          "rifle"
+        ],
+        "accuracy": 0.5
+      },
+      "butt_hook": {
+        "slot": "stock_accessory",
+        "skills": [
+          "smg",
+          "rifle",
+          "shotgun"
+        ],
+        "accuracy": 0.5
+      },
+      "bipod": {
+        "slot": "underbarrel",
+        "skills": [
+          "rifle",
+          "smg",
+          "shotgun"
+        ],
+        "accuracy": 2,
+        "fireCost": 15
+      },
+      "bipod_handguard": {
+        "slot": "underbarrel",
+        "skills": [
+          "rifle"
+        ],
+        "accuracy": 0.5
+      },
+      "modern_handguard": {
+        "slot": "underbarrel",
+        "skills": [
+          "rifle"
+        ],
+        "accuracy": 1
+      },
+      "grip": {
+        "slot": "underbarrel",
+        "skills": [
+          "shotgun",
+          "smg",
+          "rifle"
+        ],
+        "accuracy": 1
+      },
+      "grip_mod": {
+        "slot": "underbarrel",
+        "skills": [
+          "pistol",
+          "smg",
+          "rifle",
+          "shotgun"
+        ],
+        "accuracy": 1
+      },
+      "muzzle_weight": {
+        "slot": "underbarrel",
+        "skills": [
+          "smg",
+          "pistol"
+        ],
+        "accuracy": 0.5
+      },
+      "offset_grip": {
+        "slot": "rail",
+        "skills": [
+          "shotgun",
+          "smg",
+          "rifle"
+        ],
+        "accuracy": 0.5
+      },
+      "match_trigger": {
+        "slot": "mechanism",
+        "skills": [
+          "smg",
+          "rifle",
+          "pistol",
+          "shotgun"
+        ],
+        "accuracy": 0.5,
+        "fireCost": -5
+      },
+      "arredondo_chute": {
+        "slot": "port",
+        "skills": [
+          "pistol",
+          "shotgun"
+        ],
+        "reloadFactor": 0.85
+      },
+      "arredondo_chute_benelli_sa": {
+        "slot": "port",
+        "guns": [
+          "benelli_sa"
+        ],
+        "reloadFactor": 0.75
+      },
+      "arredondo_chute_remington_870_breacher": {
+        "slot": "port",
+        "guns": [
+          "remington_870_breacher"
+        ],
+        "reloadFactor": 0.75
+      },
+      "arredondo_chute_remington_870": {
+        "slot": "port",
+        "guns": [
+          "remington_870",
+          "remington_870_express"
+        ],
+        "reloadFactor": 0.75
+      },
+      "arredondo_chute_mossberg_500": {
+        "slot": "port",
+        "guns": [
+          "mossberg_500"
+        ],
+        "reloadFactor": 0.75
+      },
+      "arredondo_chute_mossberg_930": {
+        "slot": "port",
+        "guns": [
+          "mossberg_930"
+        ],
+        "reloadFactor": 0.75
+      },
+      "arredondo_chute_mossberg_590": {
+        "slot": "port",
+        "guns": [
+          "mossberg_590",
+          "mossberg_590m"
+        ],
+        "reloadFactor": 0.75
+      },
+      "brass_catcher": {
+        "slot": "brass",
+        "skills": [
+          "shotgun",
+          "smg",
+          "rifle",
+          "pistol"
+        ],
+        "catchBrass": true
+      },
+      "big_brass_catcher": {
+        "slot": "brass",
+        "skills": [
+          "shotgun",
+          "smg",
+          "rifle",
+          "pistol"
+        ],
+        "catchBrass": true
+      },
+      "arrowrest": {
+        "slot": "rest",
+        "skills": [
+          "archery"
+        ],
+        "accuracy": 0.5
+      },
+      "arrowrest_wood": {
+        "slot": "rest",
+        "skills": [
+          "archery"
+        ],
+        "accuracy": 0.5
+      },
+      "bow_stabilizer": {
+        "slot": "stabilizer",
+        "skills": [
+          "archery"
+        ],
+        "accuracy": 1
+      },
+      "bow_stabilizer_set": {
+        "slot": "stabilizer",
+        "skills": [
+          "archery"
+        ],
+        "accuracy": 1.5,
+        "fireCost": 5
+      },
+      "bow_silencer": {
+        "slot": "dampening",
+        "skills": [
+          "archery"
+        ],
+        "accuracy": 0.5
+      },
+      "primitive_bow_silencer": {
+        "slot": "dampening",
+        "skills": [
+          "archery"
+        ],
+        "accuracy": 0.5
+      },
+      "bow_sight": {
+        "slot": "sights",
+        "skills": [
+          "archery"
+        ],
+        "accuracy": 1
+      },
+      "bow_sight_pin": {
+        "slot": "sights",
+        "skills": [
+          "archery"
+        ],
+        "accuracy": 0.5
+      },
+      "bow_scope": {
+        "slot": "sights",
+        "skills": [
+          "archery"
+        ],
+        "steadiness": 0.08,
+        "fireCost": 8
+      },
+      "rifle_scope": {
+        "slot": "sights",
+        "skills": [
+          "rifle",
+          "shotgun"
+        ],
+        "steadiness": 0.08,
+        "fireCost": 10
+      }
+    }
   }
 }
