@@ -1,0 +1,614 @@
+{
+  "group": "p01_c01_wardrobe",
+  "source": "01.10.2026 import: costumes, a chitin armour set, mesh suits, two helmets, small bags and holsters",
+  "items": [
+    {
+      "id": "ghost_robe",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "grim_reaper_robe",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "santa_jacket_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "gloves_skeleton",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "wizard_hat_costume",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "santa_shorts",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "santa_beard",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "clown_wig",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "clown_suit",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "mummy_jumpsuit",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "fursuit",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        },
+        {
+          "table": "shop",
+          "weight": 0.005
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.0025
+        }
+      ]
+    },
+    {
+      "id": "mummy_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "santa_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "santa_dress_long",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.012
+        },
+        {
+          "table": "shop",
+          "weight": 0.006
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "santa_dress_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "witch_dress",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "witch_dress_short",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "cape_sci_fi",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.008
+        },
+        {
+          "table": "shop",
+          "weight": 0.004
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "crown_golden_survivor",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "tie_skinny",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.0167
+        }
+      ]
+    },
+    {
+      "id": "armguard_chitin",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.004
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "gauntlets_chitin",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.004
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "helmet_chitin",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.004
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "helmet_chitin_light",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.004
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "legguard_chitin",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.004
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "armor_chitin",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.003
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "hsurvivor_jumpsuit",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "javelin_bag",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "FB_nylon_double_holster",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "gartersheath2",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "duffelbag_gym_xxs",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "chainmail_suit_faraday",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    },
+    {
+      "id": "shark_suit_faraday",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "roller_shoes_off",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.0067
+        }
+      ]
+    },
+    {
+      "id": "helmet_eod",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "flight_helmet",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "rebreather",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.012
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "fc_hairpin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "house_clothes",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.02
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "mummy_dress",
+      "weight": "300 g",
+      "//": "CDDA lists 10 g for two litres of bandage: a slip of the pen, put right here"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:chainmail_suit_faraday",
+    "recipe:hsurvivor_jumpsuit"
+  ],
+  "recipesExpected": [
+    "recipe:FB_nylon_double_holster",
+    "recipe:armguard_chitin",
+    "recipe:armor_chitin",
+    "recipe:crown_golden_survivor",
+    "recipe:gartersheath2",
+    "recipe:gauntlets_chitin",
+    "recipe:helmet_chitin",
+    "recipe:helmet_chitin_light",
+    "recipe:javelin_bag",
+    "recipe:legguard_chitin",
+    "recipe:shark_suit_faraday"
+  ],
+  "notes": [
+    "Left out: on/off, raised, loose and wet state copies; attachments that cannot be worn on their own; animal barding; wearable electronics with no rule behind them."
+  ]
+}

@@ -2436,17 +2436,24 @@
         "level": 6
       },
       {
-        "key": "recipe:chainmail_suit_faraday",
-        "result": "chainmail_suit_faraday",
-        "name": "chainmail suit faraday",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
         "key": "recipe:chainmail_suit_faraday_xs",
         "result": "chainmail_suit_faraday_xs",
         "name": "chainmail suit faraday xs",
         "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:chainmail_suit_faraday",
+        "result": "chainmail_suit_faraday",
+        "name": "faraday chainmail suit",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:shark_suit_faraday",
+        "result": "shark_suit_faraday",
+        "name": "faraday sharksuit",
+        "skill": "electronics",
         "level": 6
       },
       {
@@ -2460,13 +2467,6 @@
         "key": "recipe:recharge_station",
         "result": "recharge_station",
         "name": "recharge station",
-        "skill": "electronics",
-        "level": 6
-      },
-      {
-        "key": "recipe:shark_suit_faraday",
-        "result": "shark_suit_faraday",
-        "name": "shark suit faraday",
         "skill": "electronics",
         "level": 6
       },
@@ -3936,17 +3936,24 @@
         "level": 6
       },
       {
-        "key": "recipe:chainmail_suit_faraday",
-        "result": "chainmail_suit_faraday",
-        "name": "chainmail suit faraday",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
         "key": "recipe:chainmail_suit_faraday_xs",
         "result": "chainmail_suit_faraday_xs",
         "name": "chainmail suit faraday xs",
         "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:chainmail_suit_faraday",
+        "result": "chainmail_suit_faraday",
+        "name": "faraday chainmail suit",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:shark_suit_faraday",
+        "result": "shark_suit_faraday",
+        "name": "faraday sharksuit",
+        "skill": "electronics",
         "level": 6
       },
       {
@@ -3960,13 +3967,6 @@
         "key": "recipe:recharge_station",
         "result": "recharge_station",
         "name": "recharge station",
-        "skill": "electronics",
-        "level": 6
-      },
-      {
-        "key": "recipe:shark_suit_faraday",
-        "result": "shark_suit_faraday",
-        "name": "shark suit faraday",
         "skill": "electronics",
         "level": 6
       },
@@ -13618,13 +13618,6 @@
         "level": 6
       },
       {
-        "key": "recipe:chainmail_suit_faraday",
-        "result": "chainmail_suit_faraday",
-        "name": "chainmail suit faraday",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
         "key": "recipe:chainmail_suit_faraday_xs",
         "result": "chainmail_suit_faraday_xs",
         "name": "chainmail suit faraday xs",
@@ -13720,6 +13713,20 @@
         "result": "dishwasher",
         "name": "dishwasher",
         "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:chainmail_suit_faraday",
+        "result": "chainmail_suit_faraday",
+        "name": "faraday chainmail suit",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:shark_suit_faraday",
+        "result": "shark_suit_faraday",
+        "name": "faraday sharksuit",
+        "skill": "electronics",
         "level": 6
       },
       {
@@ -13930,13 +13937,6 @@
         "result": "qt_chainmail_vest",
         "name": "qt chainmail vest",
         "skill": "fabrication",
-        "level": 6
-      },
-      {
-        "key": "recipe:shark_suit_faraday",
-        "result": "shark_suit_faraday",
-        "name": "shark suit faraday",
-        "skill": "electronics",
         "level": 6
       },
       {
@@ -19335,13 +19335,6 @@
         "level": 4
       },
       {
-        "key": "recipe:armor_chitin",
-        "result": "armor_chitin",
-        "name": "armor chitin",
-        "skill": "tailor",
-        "level": 5
-      },
-      {
         "key": "recipe:armor_chitin_xs",
         "result": "armor_chitin_xs",
         "name": "armor chitin xs",
@@ -19373,6 +19366,13 @@
         "key": "recipe:chitin_harness_dog",
         "result": "chitin_harness_dog",
         "name": "chitin harness dog",
+        "skill": "tailor",
+        "level": 5
+      },
+      {
+        "key": "recipe:armor_chitin",
+        "result": "armor_chitin",
+        "name": "chitinous armor",
         "skill": "tailor",
         "level": 5
       },
@@ -24262,13 +24262,6 @@
         "level": 4
       },
       {
-        "key": "recipe:armor_chitin",
-        "result": "armor_chitin",
-        "name": "armor chitin",
-        "skill": "tailor",
-        "level": 5
-      },
-      {
         "key": "recipe:armor_chitin_xs",
         "result": "armor_chitin_xs",
         "name": "armor chitin xs",
@@ -24307,6 +24300,13 @@
         "key": "recipe:chitin_harness_dog",
         "result": "chitin_harness_dog",
         "name": "chitin harness dog",
+        "skill": "tailor",
+        "level": 5
+      },
+      {
+        "key": "recipe:armor_chitin",
+        "result": "armor_chitin",
+        "name": "chitinous armor",
         "skill": "tailor",
         "level": 5
       },
@@ -25431,7 +25431,7 @@
       {
         "key": "recipe:gauntlets_chitin",
         "result": "gauntlets_chitin",
-        "name": "gauntlets chitin",
+        "name": "pair of chitinous gauntlets",
         "skill": "tailor",
         "level": 3
       },
@@ -25464,13 +25464,6 @@
         "level": 3
       },
       {
-        "key": "recipe:armguard_chitin",
-        "result": "armguard_chitin",
-        "name": "armguard chitin",
-        "skill": "tailor",
-        "level": 4
-      },
-      {
         "key": "recipe:boots_acidchitin",
         "result": "boots_acidchitin",
         "name": "boots acidchitin",
@@ -25485,9 +25478,16 @@
         "level": 4
       },
       {
+        "key": "recipe:armguard_chitin",
+        "result": "armguard_chitin",
+        "name": "pair of chitin arm guards",
+        "skill": "tailor",
+        "level": 4
+      },
+      {
         "key": "recipe:legguard_chitin",
         "result": "legguard_chitin",
-        "name": "legguard chitin",
+        "name": "pair of chitin leg guards",
         "skill": "tailor",
         "level": 4
       },
@@ -25555,24 +25555,17 @@
         "level": 5
       },
       {
+        "key": "recipe:helmet_chitin",
+        "result": "helmet_chitin",
+        "name": "chitinous helmet",
+        "skill": "tailor",
+        "level": 5
+      },
+      {
         "key": "recipe:conc_venom",
         "result": "conc_venom",
         "name": "conc venom",
         "skill": "chemistry",
-        "level": 5
-      },
-      {
-        "key": "recipe:helmet_chitin",
-        "result": "helmet_chitin",
-        "name": "helmet chitin",
-        "skill": "tailor",
-        "level": 5
-      },
-      {
-        "key": "recipe:helmet_chitin_light",
-        "result": "helmet_chitin_light",
-        "name": "helmet chitin light",
-        "skill": "tailor",
         "level": 5
       },
       {
@@ -25593,6 +25586,13 @@
         "key": "recipe:legguard_acidchitin",
         "result": "legguard_acidchitin",
         "name": "legguard acidchitin",
+        "skill": "tailor",
+        "level": 5
+      },
+      {
+        "key": "recipe:helmet_chitin_light",
+        "result": "helmet_chitin_light",
+        "name": "light chitinous helmet",
         "skill": "tailor",
         "level": 5
       },
@@ -25639,16 +25639,16 @@
         "level": 5
       },
       {
-        "key": "recipe:armor_chitin",
-        "result": "armor_chitin",
-        "name": "armor chitin",
+        "key": "recipe:armor_chitin_xs",
+        "result": "armor_chitin_xs",
+        "name": "armor chitin xs",
         "skill": "tailor",
         "level": 6
       },
       {
-        "key": "recipe:armor_chitin_xs",
-        "result": "armor_chitin_xs",
-        "name": "armor chitin xs",
+        "key": "recipe:armor_chitin",
+        "result": "armor_chitin",
+        "name": "chitinous armor",
         "skill": "tailor",
         "level": 6
       },
@@ -25872,13 +25872,6 @@
         "level": 6
       },
       {
-        "key": "recipe:crown_golden_survivor",
-        "result": "crown_golden_survivor",
-        "name": "crown golden survivor",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
         "key": "recipe:gold_bracelet",
         "result": "gold_bracelet",
         "name": "gold bracelet",
@@ -25896,6 +25889,13 @@
         "key": "recipe:gold_ring",
         "result": "gold_ring",
         "name": "gold ring",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:crown_golden_survivor",
+        "result": "crown_golden_survivor",
+        "name": "golden crown",
         "skill": "fabrication",
         "level": 6
       },

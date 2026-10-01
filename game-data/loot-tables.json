@@ -9054,6 +9054,14 @@
           ]
         },
         {
+          "item": "fc_hairpin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "seed_flower",
           "weight": 0.01,
           "count": [
@@ -17172,6 +17180,198 @@
             1
           ],
           "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ghost_robe",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "grim_reaper_robe",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_jacket_short",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gloves_skeleton",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wizard_hat_costume",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_shorts",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_beard",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "clown_wig",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "clown_suit",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mummy_jumpsuit",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "fursuit",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mummy_dress",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress_long",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress_short",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "witch_dress",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "witch_dress_short",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cape_sci_fi",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tie_skinny",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "FB_nylon_double_holster",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gartersheath2",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "duffelbag_gym_xxs",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "roller_shoes_off",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "fc_hairpin",
+          "weight": 0.03,
+          "count": [
             1,
             1
           ]
@@ -26916,6 +27116,158 @@
           "charges": [
             10,
             30
+          ]
+        },
+        {
+          "item": "ghost_robe",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "grim_reaper_robe",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_jacket_short",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gloves_skeleton",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wizard_hat_costume",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_shorts",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_beard",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "clown_wig",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "clown_suit",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mummy_jumpsuit",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "fursuit",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mummy_dress",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress_long",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress_short",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "witch_dress",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "witch_dress_short",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cape_sci_fi",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "duffelbag_gym_xxs",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
           ]
         },
         {
@@ -47374,6 +47726,150 @@
           ]
         },
         {
+          "item": "ghost_robe",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "grim_reaper_robe",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_jacket_short",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gloves_skeleton",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wizard_hat_costume",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_shorts",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_beard",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "clown_wig",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "clown_suit",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mummy_jumpsuit",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "fursuit",
+          "weight": 0.0025,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mummy_dress",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress_long",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "santa_dress_short",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "witch_dress",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "witch_dress_short",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cape_sci_fi",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "book_fict_soft_scifi_dune",
           "weight": 0.04,
           "count": [
@@ -50044,6 +50540,14 @@
           ]
         },
         {
+          "item": "javelin_bag",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "mre_sfettuccine",
           "weight": 0.01,
           "count": [
@@ -51889,6 +52393,22 @@
         {
           "item": "manual_swimming",
           "weight": 0.1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "shark_suit_faraday",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rebreather",
+          "weight": 0.012,
           "count": [
             1,
             1
@@ -53948,6 +54468,14 @@
         {
           "item": "beartrap",
           "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "javelin_bag",
+          "weight": 0.02,
           "count": [
             1,
             1
@@ -63239,6 +63767,22 @@
           ]
         },
         {
+          "item": "chainmail_suit_faraday",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "shark_suit_faraday",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "motor_enhanced",
           "weight": 0.04,
           "count": [
@@ -66749,6 +67293,30 @@
         {
           "item": "UPS_OFF",
           "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "FB_nylon_double_holster",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "helmet_eod",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "flight_helmet",
+          "weight": 0.012,
           "count": [
             1,
             1
@@ -71359,6 +71927,46 @@
         {
           "item": "paperback_romance_rogue",
           "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tie_skinny",
+          "weight": 0.0167,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gartersheath2",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "duffelbag_gym_xxs",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "roller_shoes_off",
+          "weight": 0.0067,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "fc_hairpin",
+          "weight": 0.02,
           "count": [
             1,
             1
@@ -79890,6 +80498,86 @@
         {
           "item": "manual_cutting",
           "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "crown_golden_survivor",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "armguard_chitin",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gauntlets_chitin",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "helmet_chitin",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "helmet_chitin_light",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "legguard_chitin",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "armor_chitin",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "hsurvivor_jumpsuit",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chainmail_suit_faraday",
+          "weight": 0.001,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "flight_helmet",
+          "weight": 0.002,
           "count": [
             1,
             1
@@ -98483,6 +99171,78 @@
           ]
         },
         {
+          "item": "crown_golden_survivor",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "armguard_chitin",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gauntlets_chitin",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "helmet_chitin",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "helmet_chitin_light",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "legguard_chitin",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "armor_chitin",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "hsurvivor_jumpsuit",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "javelin_bag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "mre_sfettuccine",
           "weight": 0.004,
           "count": [
@@ -106283,6 +107043,22 @@
         {
           "item": "panoramic_eyepiece",
           "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "helmet_eod",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rebreather",
+          "weight": 0.015,
           "count": [
             1,
             1

@@ -1,0 +1,11 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p01_c01_wardrobe. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "mummy_dress",
+    "weight": "300 g",
+    "//": "CDDA lists 10 g for two litres of bandage: a slip of the pen, put right here"
+  }
+]

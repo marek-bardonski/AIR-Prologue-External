@@ -449,7 +449,9 @@
     "recipe:m26_mass_standalone",
     "recipe:ammonia_machine_reactor",
     "recipe:honey_gold",
-    "recipe:snowcone"
+    "recipe:snowcone",
+    "recipe:chainmail_suit_faraday",
+    "recipe:hsurvivor_jumpsuit"
   ],
   "include": [
     "recipe:10l_aluminum",
