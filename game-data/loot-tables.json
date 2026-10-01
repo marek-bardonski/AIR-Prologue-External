@@ -9487,6 +9487,312 @@
             10
           ],
           "minDanger": 2
+        },
+        {
+          "item": "9mm_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "9mm_ammo_box_100",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "22lr_ammo_tray",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45_ammo_box_200",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "380_ammo_box_500",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "380_FMJ",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "40_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "357_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_5",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_10",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                2,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_200",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_500",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45colt_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45colt_cowboy",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "10mm_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "10mm_ammo_box_50",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "32_ammo_box_50",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "32_acp",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
         }
       ]
     },
@@ -23788,6 +24094,528 @@
           "count": [
             1,
             1
+          ]
+        },
+        {
+          "item": "9mm_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "9mm_ammo_box_100",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "22lr_ammo_tray",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "22lr_ammo_box_1000",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                100,
+                500
+              ]
+            }
+          ]
+        },
+        {
+          "item": "223_ammo_box_50",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "223",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45_ammo_box_200",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "380_ammo_box_500",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "380_FMJ",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "40_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "357_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "357_ammo_box_200",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_5",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_10",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                2,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_100",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "308_ammo_box_100",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "308",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_200",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_500",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "44_ammo_box_100",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "44_ammo_box_200",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "3006_ammo_box_100",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "3006_ammo_box_200",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45colt_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45colt_cowboy",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "410_ammo_box_5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "410shot_bird",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "item": "10mm_ammo_box_20",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "10mm_ammo_box_50",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "32_ammo_box_50",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "32_acp",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "450_ammo_box_20",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "450_ftx",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "4570_ammo_box_20",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "4570_sp",
+              "charges": [
+                4,
+                20
+              ]
+            }
           ]
         }
       ]
@@ -41666,6 +42494,222 @@
             10
           ],
           "minDanger": 2
+        },
+        {
+          "item": "22lr_ammo_box_1000",
+          "weight": 0.0036,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                100,
+                500
+              ]
+            }
+          ]
+        },
+        {
+          "item": "223_ammo_box_50",
+          "weight": 0.0072,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "223",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "357_ammo_box_200",
+          "weight": 0.0072,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_100",
+          "weight": 0.0036,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "308_ammo_box_100",
+          "weight": 0.0036,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "308",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "44_ammo_box_100",
+          "weight": 0.0072,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "44_ammo_box_200",
+          "weight": 0.0036,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "3006_ammo_box_100",
+          "weight": 0.0072,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "3006_ammo_box_200",
+          "weight": 0.0036,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "410_ammo_box_5",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "410shot_bird",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "item": "450_ammo_box_20",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "450_ftx",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "4570_ammo_box_20",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "4570_sp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
         }
       ]
     },
@@ -48525,6 +49569,222 @@
           "count": [
             1,
             1
+          ]
+        },
+        {
+          "item": "22lr_ammo_box_1000",
+          "weight": 0.009,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                100,
+                500
+              ]
+            }
+          ]
+        },
+        {
+          "item": "223_ammo_box_50",
+          "weight": 0.018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "223",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "357_ammo_box_200",
+          "weight": 0.018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_100",
+          "weight": 0.009,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "308_ammo_box_100",
+          "weight": 0.009,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "308",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "44_ammo_box_100",
+          "weight": 0.018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "44_ammo_box_200",
+          "weight": 0.009,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "3006_ammo_box_100",
+          "weight": 0.018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "3006_ammo_box_200",
+          "weight": 0.009,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "410_ammo_box_5",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "410shot_bird",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "item": "450_ammo_box_20",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "450_ftx",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "4570_ammo_box_20",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "4570_sp",
+              "charges": [
+                4,
+                20
+              ]
+            }
           ]
         }
       ]
@@ -60337,6 +61597,150 @@
           "count": [
             1,
             1
+          ]
+        },
+        {
+          "item": "9mm_ammo_box_250",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                25,
+                125
+              ]
+            }
+          ]
+        },
+        {
+          "item": "223_ammo_box_200",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "556",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45_ammo_box_500",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "40_ammo_box_500",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "762_ammo_box_50",
+          "weight": 0.024,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "762_m87",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "762_ammo_box_500",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "762_m87",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "10mm_ammo_box_500",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "338_ammo_box_20",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "338lapua_hpbt",
+              "charges": [
+                4,
+                20
+              ]
+            }
           ]
         }
       ]
@@ -72302,6 +73706,456 @@
             10
           ],
           "minDanger": 3
+        },
+        {
+          "item": "9mm_ammo_box_20",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "9mm_ammo_box_100",
+          "weight": 0.0048,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "9mm_ammo_box_250",
+          "weight": 0.0018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                25,
+                125
+              ]
+            }
+          ]
+        },
+        {
+          "item": "22lr_ammo_tray",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "223_ammo_box_200",
+          "weight": 0.0018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "556",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45_ammo_box_20",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45_ammo_box_200",
+          "weight": 0.0048,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45_ammo_box_500",
+          "weight": 0.0018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "380_ammo_box_500",
+          "weight": 0.0024,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "380_FMJ",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "40_ammo_box_20",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "40_ammo_box_500",
+          "weight": 0.0018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "762_ammo_box_50",
+          "weight": 0.0036,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "762_m87",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "762_ammo_box_500",
+          "weight": 0.0018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "762_m87",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "357_ammo_box_20",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_5",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "item": "12_ammo_box_10",
+          "weight": 0.0048,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                2,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_20",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_200",
+          "weight": 0.0048,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "item": "38_ammo_box_500",
+          "weight": 0.0024,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "45colt_ammo_box_20",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45colt_cowboy",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "10mm_ammo_box_20",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "item": "10mm_ammo_box_50",
+          "weight": 0.0048,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "10mm_ammo_box_500",
+          "weight": 0.0018,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "item": "32_ammo_box_50",
+          "weight": 0.0048,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "32_acp",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "item": "338_ammo_box_20",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "338lapua_hpbt",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
         }
       ]
     },

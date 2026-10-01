@@ -1,0 +1,1641 @@
+{
+  "group": "p01_g03_boxes",
+  "source": "01.10.2026 import: the remaining factory ammunition boxes, found part-used",
+  "items": [
+    {
+      "id": "9mm_ammo_box_20",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9mm_ammo_box_100",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0048,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9mm_ammo_box_250",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                25,
+                125
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0018,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "9mmfmj",
+              "charges": [
+                25,
+                125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22lr_ammo_tray",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22lr_ammo_box_1000",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.009,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                100,
+                500
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0036,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                100,
+                500
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.003,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "22_lr",
+              "charges": [
+                100,
+                500
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "223_ammo_box_50",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.018,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "223",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0072,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "223",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.006,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "223",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "223_ammo_box_200",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012,
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "556",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0018,
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "556",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45_ammo_box_20",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45_ammo_box_200",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0048,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45_ammo_box_500",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0018,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45_acp",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "380_ammo_box_500",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "380_FMJ",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.006,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "380_FMJ",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0024,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "380_FMJ",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40_ammo_box_20",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40_ammo_box_500",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0018,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "40sw",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "762_ammo_box_50",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.024,
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "762_m87",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0036,
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "762_m87",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "762_ammo_box_500",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012,
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "762_m87",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0018,
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "762_m87",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "357_ammo_box_20",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "357_ammo_box_200",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.018,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0072,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.006,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "357mag_jhp",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12_ammo_box_5",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12_ammo_box_10",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                2,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                2,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0048,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                2,
+                10
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12_ammo_box_100",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.009,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0036,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.003,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "shot_00",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "308_ammo_box_100",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.009,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "308",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0036,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "308",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.003,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "308",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38_ammo_box_20",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38_ammo_box_200",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0048,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                40,
+                200
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38_ammo_box_500",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.006,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0024,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "38_special",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "44_ammo_box_100",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.018,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0072,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.006,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "44_ammo_box_200",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.009,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0036,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.003,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "44magnum",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3006_ammo_box_100",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.018,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0072,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.006,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3006_ammo_box_200",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.009,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.0036,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.003,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "3006",
+              "charges": [
+                20,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45colt_ammo_box_20",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45colt_cowboy",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45colt_cowboy",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "45colt_cowboy",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "410_ammo_box_5",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "410shot_bird",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "410shot_bird",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.01,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "410shot_bird",
+              "charges": [
+                1,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10mm_ammo_box_20",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.02,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.008,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10mm_ammo_box_50",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0048,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10mm_ammo_box_500",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0018,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "10mm_fmj",
+              "charges": [
+                50,
+                250
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32_ammo_box_50",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "32_acp",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "32_acp",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.0048,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "32_acp",
+              "charges": [
+                10,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "338_ammo_box_20",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.04,
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "338lapua_hpbt",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "minDanger": 3,
+          "fill": [
+            {
+              "item": "338lapua_hpbt",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "450_ammo_box_20",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "450_ftx",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "450_ftx",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.01,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "450_ftx",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4570_ammo_box_20",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "4570_sp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.012,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "4570_sp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.01,
+          "minDanger": 2,
+          "fill": [
+            {
+              "item": "4570_sp",
+              "charges": [
+                4,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Every box row carries a fill of its calibre's common round and the round's danger gate; bulk boxes are rarer and never found more than half full."
+  ]
+}
