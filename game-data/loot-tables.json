@@ -16884,6 +16884,974 @@
             1,
             1
           ]
+        },
+        {
+          "item": "holybook_bible1",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible3",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible4",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible5",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible6",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible7",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible8",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible9",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_biblechild_c",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_biblechild_p",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism1",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism3",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechismbudda",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechismmuslim",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism5",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism6",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism7",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism8",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_dort",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_confession",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_orthodox",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_didascalia",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ladder",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_jaiva",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zoro",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_anglican",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kebra",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_granth",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_hadith",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kallisti",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kojiki",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_nihon",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_fudoki",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ofudekasi",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_uta",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_osa",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tenry",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_oyasama",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_anecdotes",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_guodian",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_maya",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_aztec",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_inca",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_canaanites",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kells",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_leinster",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_welsh",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_akkadia",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sumeria",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sumeria1",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_helliand",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sirach",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_navayana",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_pana",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zhivo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mormon",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_east",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_nag_hammadi",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_pastafarian",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_quran",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_satanic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca1",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_slack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mozilla",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_frog",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mahayana",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tibetan",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_gita",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mahabharata",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ramayana",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_puranas",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_agamas",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_jagamas",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sutras",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zara",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_theogony",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_orphic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_golden",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_romancult",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_romancult2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_corpus",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mithraic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tengriism",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_chinese",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_koreantrip",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_hawaii",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_maori",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_native",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_cao",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt1",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_umbanda",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_taoism",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_confucian",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_daime",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_candomble",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_siddur",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_talmud",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tanakh",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_torah_scroll",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tripitaka",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_upanishads",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_vedas",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_babylon",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_havamal",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza1",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai1",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai3",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai4",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai5",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -53976,6 +54944,974 @@
           ]
         },
         {
+          "item": "holybook_bible1",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible2",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible3",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible4",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible6",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible7",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible8",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible9",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_biblechild_c",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_biblechild_p",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism1",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism2",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism3",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechismbudda",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechismmuslim",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism6",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism7",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism8",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_dort",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_confession",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_orthodox",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_didascalia",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ladder",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_jaiva",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zoro",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_anglican",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kebra",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_granth",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_hadith",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kallisti",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kojiki",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_nihon",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_fudoki",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ofudekasi",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_uta",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_osa",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tenry",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_oyasama",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_anecdotes",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mo",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_guodian",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_maya",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_aztec",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_inca",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_canaanites",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kells",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_leinster",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_welsh",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_akkadia",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sumeria",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sumeria1",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_helliand",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sirach",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_navayana",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_pana",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zhivo",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mormon",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_east",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_nag_hammadi",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_pastafarian",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_quran",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_satanic",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca1",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca2",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_slack",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mozilla",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_frog",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mahayana",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tibetan",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_gita",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mahabharata",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ramayana",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_puranas",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_agamas",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_jagamas",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sutras",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zara",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_theogony",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_orphic",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_golden",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_romancult",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_romancult2",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_corpus",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mithraic",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tengriism",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_chinese",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_koreantrip",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_hawaii",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_maori",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_native",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_cao",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt1",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt2",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_umbanda",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_taoism",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_confucian",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_daime",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_candomble",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_siddur",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_talmud",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tanakh",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_torah_scroll",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tripitaka",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_upanishads",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_vedas",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_babylon",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_havamal",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza1",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza2",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai1",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai2",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai3",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai4",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai5",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "jian_fake",
           "weight": 0.01,
           "count": [
@@ -80494,6 +82430,974 @@
         {
           "item": "manual_makerspace",
           "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible1",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible2",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible3",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible4",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible5",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible6",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible7",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible8",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bible9",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_biblechild_c",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_biblechild_p",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism1",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism2",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism3",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechismbudda",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechismmuslim",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism5",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism6",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism7",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_catechism8",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_dort",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_confession",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_orthodox",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_didascalia",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ladder",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_jaiva",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zoro",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_anglican",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kebra",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_granth",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_hadith",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kallisti",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kojiki",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_nihon",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_fudoki",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ofudekasi",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_uta",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_osa",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tenry",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_oyasama",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_anecdotes",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mo",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_guodian",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_maya",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_aztec",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_inca",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_canaanites",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_kells",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_leinster",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_welsh",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_akkadia",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sumeria",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sumeria1",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_helliand",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sirach",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_navayana",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_pana",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zhivo",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mormon",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_east",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_nag_hammadi",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_pastafarian",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_quran",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_satanic",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca1",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_wicca2",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_slack",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mozilla",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_frog",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mahayana",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tibetan",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_gita",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mahabharata",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ramayana",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_puranas",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_agamas",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_jagamas",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_sutras",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_zara",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_theogony",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_orphic",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_golden",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_romancult",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_romancult2",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_corpus",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_mithraic",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tengriism",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_chinese",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_koreantrip",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_hawaii",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_maori",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_native",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_cao",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt1",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_egypt2",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_umbanda",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_taoism",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_confucian",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_daime",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_candomble",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_siddur",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_talmud",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tanakh",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_torah_scroll",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_tripitaka",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_upanishads",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_vedas",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_babylon",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_havamal",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza1",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_ginza2",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai1",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai2",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai3",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai4",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "holybook_bahai5",
+          "weight": 0.006,
           "count": [
             1,
             1

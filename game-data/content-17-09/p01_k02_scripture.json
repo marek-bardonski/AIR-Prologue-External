@@ -1,0 +1,2071 @@
+{
+  "group": "p01_k02_scripture",
+  "source": "01.10.2026 import: scripture and collections of old myth, read for what comfort they give",
+  "items": [
+    {
+      "id": "holybook_bible1",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bible2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bible3",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bible4",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bible5",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bible6",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bible7",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bible8",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bible9",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_biblechild_c",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_biblechild_p",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechism",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechism1",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechism2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechism3",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechismbudda",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechismmuslim",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechism5",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechism6",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechism7",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_catechism8",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_dort",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_confession",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_orthodox",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_didascalia",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_ladder",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_jaiva",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_zoro",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_anglican",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_kebra",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_granth",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_hadith",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_kallisti",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_kojiki",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_nihon",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_fudoki",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_ofudekasi",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_uta",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_osa",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_tenry",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_oyasama",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_anecdotes",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_mo",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_guodian",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_maya",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_aztec",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_inca",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_canaanites",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_kells",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_leinster",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_welsh",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_akkadia",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_sumeria",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_sumeria1",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_helliand",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_sirach",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_navayana",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_pana",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_zhivo",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_mormon",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_east",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_nag_hammadi",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_pastafarian",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_quran",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_satanic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_wicca",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_wicca1",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_wicca2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_slack",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_mozilla",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_frog",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_mahayana",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_tibetan",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_gita",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_mahabharata",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_ramayana",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_puranas",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_agamas",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_jagamas",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_sutras",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_zara",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_theogony",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_orphic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_golden",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_romancult",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_romancult2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_corpus",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_mithraic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_tengriism",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_chinese",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_koreantrip",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_hawaii",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_maori",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_native",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_cao",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_egypt",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_egypt1",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_egypt2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_umbanda",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_taoism",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_confucian",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_daime",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_candomble",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_siddur",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_talmud",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_tanakh",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_torah_scroll",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_tripitaka",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_upanishads",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_vedas",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_babylon",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_havamal",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_ginza",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_ginza1",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_ginza2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bahai",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bahai1",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bahai2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bahai3",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bahai4",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "holybook_bahai5",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.04
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.006
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Each lifts the mood a little when read (CDDA read_fun 1) and teaches nothing; the cover emblems are neutral and say nothing about the text."
+  ]
+}
