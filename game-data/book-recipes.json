@@ -32892,6 +32892,552 @@
     "book_newage_healcrystals": [],
     "paperback_romance_rogue": [],
     "book_nonf_hard_homemk_plantshome": [],
-    "book_nonf_hard_psych_thergar": []
+    "book_nonf_hard_psych_thergar": [],
+    "book_fict_soft_scifi_dune": [],
+    "book_fict_hard_scifi_talnt": [],
+    "book_fict_hard_scifi_fifth": [],
+    "book_fict_hard_scifi_zamwe": [],
+    "book_fict_soft_scifi_zamwe": [],
+    "book_fict_soft_scifi_cybrd": [],
+    "book_fict_soft_docu_AWT": [],
+    "book_fict_soft_ya_bjak": [],
+    "book_fict_soft_ya_burn": [],
+    "book_fict_soft_ya_hilo": [],
+    "book_fict_soft_ya_myeyes": [],
+    "book_fict_soft_ya_pbbr": [],
+    "book_fict_soft_ya_rwya": [],
+    "book_fict_soft_ya_sboy": [],
+    "book_fict_soft_ya_sumv": [],
+    "book_fict_hard_ya_btwo": [],
+    "novel_coa2": [],
+    "book_anthology_moataatgb": [],
+    "book_anthology_sst": [],
+    "book_anthology_bk": [],
+    "book_anthology_cw": [],
+    "book_anthology_an": [],
+    "book_anthology_htloop": [],
+    "book_fict_soft_sports_tdsp": [],
+    "book_fict_soft_sports_envy": [],
+    "book_fict_hard_sports_semi": [],
+    "book_fict_hard_sports_omni": [],
+    "book_fict_hard_sports_uni": [],
+    "book_nonf_hard_sports_ergo": [],
+    "book_nonf_hard_phil_mdlogic": [],
+    "book_nonf_hard_phil_aesth": [],
+    "book_nonf_hard_phil_phinfo": [],
+    "book_nonf_soft_phil_benoth": [],
+    "book_nonf_zine_news_anlyst": [],
+    "mag_porn": [],
+    "novel_crime2": [],
+    "novel_crime_murdergrape": [],
+    "novel_crime_midnight": [],
+    "novel_erotic": [],
+    "paperback_romance_circuses": [],
+    "paperback_romance_cloven": [],
+    "paperback_romance_conq": [],
+    "paperback_romance_dd": [],
+    "paperback_romance_diodes": [],
+    "paperback_romance_envyh": [],
+    "paperback_romance_grue": [],
+    "paperback_romance_rider": [],
+    "paperback_romance_secret": [],
+    "book_fict_soft_satire_hgod": [],
+    "book_fict_soft_satire_dust": [],
+    "book_fict_soft_satire_cats": [],
+    "novel_spy_comefly": [],
+    "novel_spy_rocketsci": [],
+    "book_fict_soft_swash_blkfreight": [],
+    "book_fict_soft_swash_searovers": [],
+    "novel_war2": [],
+    "book_fict_soft_west_atwixt": [],
+    "book_fict_soft_west_bart": [],
+    "book_fict_soft_west_beans": [],
+    "book_fict_soft_west_calico": [],
+    "book_fict_soft_west_riot": [],
+    "book_fict_soft_west_vaq": [],
+    "book_fict_soft_west_vride": [],
+    "photo_album": [],
+    "priest_diary": [],
+    "visions_solitude": [],
+    "occult_economicon": [],
+    "occult_bobliographon": [],
+    "occult_glimpses": [],
+    "book_judaica_siddur": [],
+    "book_judaica_hardcover": [],
+    "book_judaica_softcover": [],
+    "book_fict_soft_pulp_venus": [],
+    "book_fict_soft_pulp_wtmrw": [],
+    "book_fict_soft_pulp_nogod": [],
+    "book_fict_soft_pulp_ddive": [],
+    "book_fict_soft_pulp_gcapes": [],
+    "book_fict_soft_pulp_yesmurd": [],
+    "book_fict_soft_pulp_flashcc": [],
+    "book_nonf_hard_homemk_nyparti": [],
+    "book_nonf_hard_homemk_wmencolor": [],
+    "book_newage_generic": [],
+    "book_newage_inpsychic": [],
+    "book_newage_oilsecrets": [],
+    "book_newage_witchcraftbeg": [],
+    "book_newage_witchcraftadv": [],
+    "book_newage_beyondveil": [],
+    "book_newage_weapcrys": [],
+    "book_newage_aliens": [],
+    "mag_guns": [
+      {
+        "key": "recipe:improve_sights",
+        "result": "improve_sights",
+        "name": "improve sights",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:arredondo_chute_benelli_sa",
+        "result": "arredondo_chute_benelli_sa",
+        "name": "arredondo chute benelli sa",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_500",
+        "result": "arredondo_chute_mossberg_500",
+        "name": "arredondo chute mossberg 500",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_590",
+        "result": "arredondo_chute_mossberg_590",
+        "name": "arredondo chute mossberg 590",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_mossberg_930",
+        "result": "arredondo_chute_mossberg_930",
+        "name": "arredondo chute mossberg 930",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_remington_870",
+        "result": "arredondo_chute_remington_870",
+        "name": "arredondo chute remington 870",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:arredondo_chute_remington_870_breacher",
+        "result": "arredondo_chute_remington_870_breacher",
+        "name": "arredondo chute remington 870 breacher",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:grip_mount",
+        "result": "grip_mount",
+        "name": "grip mount",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:offset_sights",
+        "result": "offset_sights",
+        "name": "offset sights",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:rail_mount",
+        "result": "rail_mount",
+        "name": "rail mount",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:sights_mount",
+        "result": "sights_mount",
+        "name": "sights mount",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:sights_mount_launcher",
+        "result": "sights_mount_launcher",
+        "name": "sights mount launcher",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:sights_mount_pistol",
+        "result": "sights_mount_pistol",
+        "name": "sights mount pistol",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:stock_mount",
+        "result": "stock_mount",
+        "name": "stock mount",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:underbarrel_mount",
+        "result": "underbarrel_mount",
+        "name": "underbarrel mount",
+        "skill": "fabrication",
+        "level": 4
+      }
+    ],
+    "mag_smg": [
+      {
+        "key": "recipe:improve_sights",
+        "result": "improve_sights",
+        "name": "improve sights",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:grip_mount",
+        "result": "grip_mount",
+        "name": "grip mount",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:offset_sights",
+        "result": "offset_sights",
+        "name": "offset sights",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:rail_mount",
+        "result": "rail_mount",
+        "name": "rail mount",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:sights_mount",
+        "result": "sights_mount",
+        "name": "sights mount",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:sights_mount_launcher",
+        "result": "sights_mount_launcher",
+        "name": "sights mount launcher",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:sights_mount_pistol",
+        "result": "sights_mount_pistol",
+        "name": "sights mount pistol",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:stock_mount",
+        "result": "stock_mount",
+        "name": "stock mount",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:underbarrel_mount",
+        "result": "underbarrel_mount",
+        "name": "underbarrel mount",
+        "skill": "fabrication",
+        "level": 4
+      }
+    ],
+    "mag_unarmed": [],
+    "mag_stabbing": [
+      {
+        "key": "recipe:prac_stabbing_beg_fencing",
+        "result": "prac_stabbing_beg_fencing",
+        "name": "Practice: fencing (beginner)",
+        "skill": "melee",
+        "level": 1
+      },
+      {
+        "key": "recipe:prac_stabbing_beg_polearm",
+        "result": "prac_stabbing_beg_polearm",
+        "name": "Practice: polearms (beginner)",
+        "skill": "melee",
+        "level": 1
+      }
+    ],
+    "mag_cutting": [
+      {
+        "key": "recipe:prac_cutting_beg",
+        "result": "prac_cutting_beg",
+        "name": "Practice: cutting (beginner)",
+        "skill": "melee",
+        "level": 0
+      },
+      {
+        "key": "recipe:prac_cutting_beg_great_sword",
+        "result": "prac_cutting_beg_great_sword",
+        "name": "Practice: great swords (beginner)",
+        "skill": "melee",
+        "level": 1
+      },
+      {
+        "key": "recipe:prac_cutting_beg_long_sword",
+        "result": "prac_cutting_beg_long_sword",
+        "name": "Practice: long swords (beginner)",
+        "skill": "melee",
+        "level": 1
+      },
+      {
+        "key": "recipe:prac_cutting_beg_med_sword",
+        "result": "prac_cutting_beg_med_sword",
+        "name": "Practice: medium swords (beginner)",
+        "skill": "melee",
+        "level": 1
+      },
+      {
+        "key": "recipe:prac_cutting_beg_short_sword",
+        "result": "prac_cutting_beg_short_sword",
+        "name": "Practice: short swords (beginner)",
+        "skill": "melee",
+        "level": 1
+      },
+      {
+        "key": "recipe:prac_cutting_int",
+        "result": "prac_cutting_int",
+        "name": "Practice: cutting (intermediate)",
+        "skill": "melee",
+        "level": 2
+      },
+      {
+        "key": "recipe:prac_cutting_int_short_sword",
+        "result": "prac_cutting_int_short_sword",
+        "name": "Practice: short swords (intermediate)",
+        "skill": "melee",
+        "level": 3
+      }
+    ],
+    "mag_bashing": [
+      {
+        "key": "recipe:prac_bashing_beg",
+        "result": "prac_bashing_beg",
+        "name": "Practice: bashing (beginner)",
+        "skill": "melee",
+        "level": 0
+      },
+      {
+        "key": "recipe:prac_bashing_beg_baton",
+        "result": "prac_bashing_beg_baton",
+        "name": "Practice: batons (beginner)",
+        "skill": "melee",
+        "level": 1
+      },
+      {
+        "key": "recipe:prac_bashing_beg_staff",
+        "result": "prac_bashing_beg_staff",
+        "name": "Practice: quarterstaves (beginner)",
+        "skill": "melee",
+        "level": 1
+      }
+    ],
+    "mag_barter": [],
+    "mag_animecon": [
+      {
+        "key": "recipe:prac_leather_beg",
+        "result": "prac_leather_beg",
+        "name": "Practice: leatherworking (beginner)",
+        "skill": "tailor",
+        "level": 0
+      },
+      {
+        "key": "recipe:maid_dress",
+        "result": "maid_dress",
+        "name": "French maid clothes",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:maid_hat",
+        "result": "maid_hat",
+        "name": "French maid hat",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:bikini_top_fur",
+        "result": "bikini_top_fur",
+        "name": "fur bikini top",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:bikini_top_leather",
+        "result": "bikini_top_leather",
+        "name": "leather bikini top",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:maid_dress_short_xl",
+        "result": "maid_dress_short_xl",
+        "name": "maid dress short xl",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:maid_dress_short_xs",
+        "result": "maid_dress_short_xs",
+        "name": "maid dress short xs",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:maid_dress_xl",
+        "result": "maid_dress_xl",
+        "name": "maid dress xl",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:maid_dress_xs",
+        "result": "maid_dress_xs",
+        "name": "maid dress xs",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:maid_hat_xl",
+        "result": "maid_hat_xl",
+        "name": "maid hat xl",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:maid_hat_xs",
+        "result": "maid_hat_xs",
+        "name": "maid hat xs",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:maid_dress_short",
+        "result": "maid_dress_short",
+        "name": "short French maid clothes",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:zentai",
+        "result": "zentai",
+        "name": "zentai",
+        "skill": "tailor",
+        "level": 1
+      },
+      {
+        "key": "recipe:faux_fur_cat_ears",
+        "result": "faux_fur_cat_ears",
+        "name": "faux fur cat ears",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:faux_fur_cat_tail",
+        "result": "faux_fur_cat_tail",
+        "name": "faux fur cat tail",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:faux_fur_collar",
+        "result": "faux_fur_collar",
+        "name": "faux fur collar",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:fur_cat_ears",
+        "result": "fur_cat_ears",
+        "name": "fur cat ears",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:fur_cat_tail",
+        "result": "fur_cat_tail",
+        "name": "fur cat tail",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:fur_collar",
+        "result": "fur_collar",
+        "name": "fur collar",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:leather_cat_ears",
+        "result": "leather_cat_ears",
+        "name": "leather cat ears",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:leather_cat_tail",
+        "result": "leather_cat_tail",
+        "name": "leather cat tail",
+        "skill": "tailor",
+        "level": 3
+      },
+      {
+        "key": "recipe:leather_collar",
+        "result": "leather_collar",
+        "name": "leather collar",
+        "skill": "tailor",
+        "level": 3
+      }
+    ],
+    "manual_makerspace": [
+      {
+        "key": "recipe:prac_mechanics_basic_hydraulics",
+        "result": "prac_mechanics_basic_hydraulics",
+        "name": "Practice: basic mechanics - hydraulics",
+        "skill": "mechanics",
+        "level": 0
+      }
+    ],
+    "manual_boxing": [],
+    "manual_karate": [],
+    "manual_judo": [],
+    "manual_taekwondo": [],
+    "manual_kickboxing": [],
+    "manual_tai_chi": [],
+    "manual_aikido": [],
+    "manual_capoeira": [],
+    "manual_krav_maga": [],
+    "manual_muay_thai": [],
+    "manual_eskrima": [],
+    "manual_fencing": [],
+    "manual_silat": [],
+    "manual_wingchun": [],
+    "manual_pankration": [],
+    "manual_bojutsu": [],
+    "manual_sojutsu": [],
+    "manual_crane": [],
+    "manual_dragon": [],
+    "manual_leopard": [],
+    "manual_snake": [],
+    "manual_tiger": [],
+    "manual_zui_quan": [],
+    "manual_ninjutsu": [],
+    "manual_niten": [],
+    "manual_medievalpole": [],
+    "manual_swordsmanship": [],
+    "manual_barbaran": []
   }
 }

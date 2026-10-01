@@ -1,0 +1,2802 @@
+{
+  "group": "p01_k01_books",
+  "source": "01.10.2026 import: novels, anthologies and other reading for pleasure, the skill magazines, and the fighting manuals as melee books",
+  "items": [
+    {
+      "id": "book_fict_soft_scifi_dune",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_scifi_talnt",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_scifi_fifth",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_scifi_zamwe",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_scifi_zamwe",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_scifi_cybrd",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_docu_AWT",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_bjak",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_burn",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_hilo",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_myeyes",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_pbbr",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_rwya",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_sboy",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_ya_sumv",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_ya_btwo",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "novel_coa2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_anthology_moataatgb",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_anthology_sst",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_anthology_bk",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_anthology_cw",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_anthology_an",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_anthology_htloop",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_sports_tdsp",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_sports_envy",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_sports_semi",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_sports_omni",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_hard_sports_uni",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_sports_ergo",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_phil_mdlogic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_phil_aesth",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_phil_phinfo",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_soft_phil_benoth",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_zine_news_anlyst",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "mag_porn",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "novel_crime2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "novel_crime_murdergrape",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "novel_crime_midnight",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "novel_erotic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_circuses",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_cloven",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_conq",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_dd",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_diodes",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_envyh",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_grue",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_rider",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "paperback_romance_secret",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_satire_hgod",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_satire_dust",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_satire_cats",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "novel_spy_comefly",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "novel_spy_rocketsci",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_swash_blkfreight",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_swash_searovers",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "novel_war2",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_west_atwixt",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_west_bart",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_west_beans",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_west_calico",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_west_riot",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_west_vaq",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_west_vride",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "photo_album",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "priest_diary",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "visions_solitude",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "occult_economicon",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "occult_bobliographon",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "occult_glimpses",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_judaica_siddur",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_judaica_hardcover",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_judaica_softcover",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_pulp_venus",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_pulp_wtmrw",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_pulp_nogod",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_pulp_ddive",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_pulp_gcapes",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_pulp_yesmurd",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_fict_soft_pulp_flashcc",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_homemk_nyparti",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_nonf_hard_homemk_wmencolor",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_newage_generic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_newage_inpsychic",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_newage_oilsecrets",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_newage_witchcraftbeg",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_newage_witchcraftadv",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_newage_beyondveil",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_newage_weapcrys",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "book_newage_aliens",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.2
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "mag_guns",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_smg",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_unarmed",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_stabbing",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_cutting",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_bashing",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_barter",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mag_animecon",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "manual_makerspace",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.3
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "manual_boxing",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_karate",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_judo",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_taekwondo",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_kickboxing",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_tai_chi",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_aikido",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_capoeira",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_krav_maga",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_muay_thai",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_eskrima",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_fencing",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_silat",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_wingchun",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_pankration",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_bojutsu",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_sojutsu",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_crane",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_dragon",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_leopard",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_snake",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_tiger",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_zui_quan",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_ninjutsu",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_niten",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_medievalpole",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_swordsmanship",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "manual_barbaran",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.03
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "ITEM",
+      "id": "manual_boxing",
+      "read_skill": "melee",
+      "required_level": 0,
+      "max_level": 2,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_karate",
+      "read_skill": "melee",
+      "required_level": 0,
+      "max_level": 2,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_judo",
+      "read_skill": "melee",
+      "required_level": 0,
+      "max_level": 2,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_taekwondo",
+      "read_skill": "melee",
+      "required_level": 0,
+      "max_level": 2,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_kickboxing",
+      "read_skill": "melee",
+      "required_level": 0,
+      "max_level": 2,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_tai_chi",
+      "read_skill": "melee",
+      "required_level": 0,
+      "max_level": 2,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_aikido",
+      "read_skill": "melee",
+      "required_level": 0,
+      "max_level": 2,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_capoeira",
+      "read_skill": "melee",
+      "required_level": 0,
+      "max_level": 2,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_krav_maga",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_muay_thai",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_eskrima",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_fencing",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_silat",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_wingchun",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_pankration",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_bojutsu",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_sojutsu",
+      "read_skill": "melee",
+      "required_level": 1,
+      "max_level": 3,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_crane",
+      "read_skill": "melee",
+      "required_level": 2,
+      "max_level": 4,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_dragon",
+      "read_skill": "melee",
+      "required_level": 2,
+      "max_level": 4,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_leopard",
+      "read_skill": "melee",
+      "required_level": 2,
+      "max_level": 4,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_snake",
+      "read_skill": "melee",
+      "required_level": 2,
+      "max_level": 4,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_tiger",
+      "read_skill": "melee",
+      "required_level": 2,
+      "max_level": 4,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_zui_quan",
+      "read_skill": "melee",
+      "required_level": 2,
+      "max_level": 4,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_ninjutsu",
+      "read_skill": "melee",
+      "required_level": 2,
+      "max_level": 4,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_niten",
+      "read_skill": "melee",
+      "required_level": 3,
+      "max_level": 5,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 3 to 5."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_medievalpole",
+      "read_skill": "melee",
+      "required_level": 3,
+      "max_level": 5,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 3 to 5."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_swordsmanship",
+      "read_skill": "melee",
+      "required_level": 3,
+      "max_level": 5,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 3 to 5."
+    },
+    {
+      "type": "ITEM",
+      "id": "manual_barbaran",
+      "read_skill": "melee",
+      "required_level": 3,
+      "max_level": 5,
+      "read_fun": 1,
+      "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 3 to 5."
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "The fighting manuals carry no style here (rule 10): an override gives each a melee band (0-2, 1-3, 2-4, 3-5).",
+    "Books whose reading gives nothing (no skill, no recipes, no pleasure) were left out."
+  ]
+}

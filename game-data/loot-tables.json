@@ -13275,6 +13275,1014 @@
             1,
             1
           ]
+        },
+        {
+          "item": "book_fict_soft_scifi_dune",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_talnt",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_fifth",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_zamwe",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_zamwe",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_cybrd",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_docu_AWT",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_bjak",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_burn",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_hilo",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_myeyes",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_pbbr",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_rwya",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_sboy",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_sumv",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_ya_btwo",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_coa2",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_moataatgb",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_sst",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_bk",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_cw",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_an",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_htloop",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_sports_tdsp",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_sports_envy",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_semi",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_omni",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_uni",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_sports_ergo",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_mdlogic",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_aesth",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_phinfo",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_soft_phil_benoth",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_zine_news_anlyst",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_porn",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime2",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime_murdergrape",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime_midnight",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_erotic",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_circuses",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_cloven",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_conq",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_dd",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_diodes",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_envyh",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_grue",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_rider",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_secret",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_hgod",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_dust",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_cats",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_spy_comefly",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_spy_rocketsci",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_swash_blkfreight",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_swash_searovers",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_war2",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_atwixt",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_bart",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_beans",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_calico",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_riot",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_vaq",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_vride",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "photo_album",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "priest_diary",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "visions_solitude",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_economicon",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_bobliographon",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_glimpses",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_siddur",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_hardcover",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_softcover",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_venus",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_wtmrw",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_nogod",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_ddive",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_gcapes",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_yesmurd",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_flashcc",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_homemk_nyparti",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_homemk_wmencolor",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_generic",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_inpsychic",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_oilsecrets",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_witchcraftbeg",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_witchcraftadv",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_beyondveil",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_weapcrys",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_aliens",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_guns",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_smg",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_unarmed",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_stabbing",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_cutting",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_bashing",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_barter",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_animecon",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_makerspace",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_boxing",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_karate",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_judo",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_taekwondo",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_kickboxing",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_tai_chi",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_aikido",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_capoeira",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_krav_maga",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_muay_thai",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_eskrima",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_fencing",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_silat",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_wingchun",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_pankration",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_bojutsu",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_sojutsu",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_crane",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_dragon",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_leopard",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_snake",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_tiger",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_zui_quan",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_ninjutsu",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_niten",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_medievalpole",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_swordsmanship",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_barbaran",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -26441,6 +27449,78 @@
           ]
         },
         {
+          "item": "mag_guns",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_smg",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_unarmed",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_stabbing",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_cutting",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_bashing",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_barter",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_animecon",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_makerspace",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "arcade_machine",
           "weight": 0.006,
           "count": [
@@ -31143,6 +32223,78 @@
           "count": [
             1,
             3
+          ]
+        },
+        {
+          "item": "mag_guns",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_smg",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_unarmed",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_stabbing",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_cutting",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_bashing",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_barter",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_animecon",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_makerspace",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
           ]
         },
         {
@@ -46219,6 +47371,942 @@
           "charges": [
             1,
             10
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_dune",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_talnt",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_fifth",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_zamwe",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_zamwe",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_cybrd",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_docu_AWT",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_bjak",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_burn",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_hilo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_myeyes",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_pbbr",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_rwya",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_sboy",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_sumv",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_ya_btwo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_coa2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_moataatgb",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_sst",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_bk",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_cw",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_an",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_htloop",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_sports_tdsp",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_sports_envy",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_semi",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_omni",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_uni",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_sports_ergo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_mdlogic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_aesth",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_phinfo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_soft_phil_benoth",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_zine_news_anlyst",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_porn",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime_murdergrape",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime_midnight",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_erotic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_circuses",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_cloven",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_conq",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_dd",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_diodes",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_envyh",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_grue",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_rider",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_secret",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_hgod",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_dust",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_cats",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_spy_comefly",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_spy_rocketsci",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_swash_blkfreight",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_swash_searovers",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_war2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_atwixt",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_bart",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_beans",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_calico",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_riot",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_vaq",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_vride",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "photo_album",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "priest_diary",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "visions_solitude",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_economicon",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_bobliographon",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_glimpses",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_siddur",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_hardcover",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_softcover",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_venus",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_wtmrw",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_nogod",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_ddive",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_gcapes",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_yesmurd",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_flashcc",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_homemk_nyparti",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_homemk_wmencolor",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_generic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_inpsychic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_oilsecrets",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_witchcraftbeg",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_witchcraftadv",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_beyondveil",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_weapcrys",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_aliens",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_boxing",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_karate",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_judo",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_taekwondo",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_kickboxing",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_tai_chi",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_aikido",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_capoeira",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_krav_maga",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_muay_thai",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_eskrima",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_fencing",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_silat",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_wingchun",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_pankration",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_bojutsu",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_sojutsu",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_crane",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_dragon",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_leopard",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_snake",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_tiger",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_zui_quan",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_ninjutsu",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_niten",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_medievalpole",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_swordsmanship",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_barbaran",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
           ]
         },
         {
@@ -69270,6 +71358,790 @@
         },
         {
           "item": "paperback_romance_rogue",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_dune",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_talnt",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_fifth",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_zamwe",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_zamwe",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_cybrd",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_docu_AWT",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_bjak",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_burn",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_hilo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_myeyes",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_pbbr",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_rwya",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_sboy",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_sumv",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_ya_btwo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_coa2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_moataatgb",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_sst",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_bk",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_cw",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_an",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_htloop",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_sports_tdsp",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_sports_envy",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_semi",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_omni",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_uni",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_sports_ergo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_mdlogic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_aesth",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_phinfo",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_soft_phil_benoth",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_zine_news_anlyst",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_porn",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime_murdergrape",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime_midnight",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_erotic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_circuses",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_cloven",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_conq",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_dd",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_diodes",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_envyh",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_grue",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_rider",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_secret",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_hgod",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_dust",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_cats",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_spy_comefly",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_spy_rocketsci",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_swash_blkfreight",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_swash_searovers",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_war2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_atwixt",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_bart",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_beans",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_calico",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_riot",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_vaq",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_vride",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "photo_album",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "priest_diary",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "visions_solitude",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_economicon",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_bobliographon",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_glimpses",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_siddur",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_hardcover",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_softcover",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_venus",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_wtmrw",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_nogod",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_ddive",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_gcapes",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_yesmurd",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_flashcc",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_homemk_nyparti",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_homemk_wmencolor",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_generic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_inpsychic",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_oilsecrets",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_witchcraftbeg",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_witchcraftadv",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_beyondveil",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_weapcrys",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_aliens",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_guns",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_smg",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_unarmed",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_stabbing",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_cutting",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_bashing",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_barter",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_animecon",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_makerspace",
           "weight": 0.03,
           "count": [
             1,
@@ -98278,6 +101150,942 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "book_fict_soft_scifi_dune",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_talnt",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_fifth",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_scifi_zamwe",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_zamwe",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_scifi_cybrd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_docu_AWT",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_bjak",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_burn",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_hilo",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_myeyes",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_pbbr",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_rwya",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_sboy",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_ya_sumv",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_ya_btwo",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_coa2",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_moataatgb",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_sst",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_bk",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_cw",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_an",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_anthology_htloop",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_sports_tdsp",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_sports_envy",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_semi",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_omni",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_hard_sports_uni",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_sports_ergo",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_mdlogic",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_aesth",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_phil_phinfo",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_soft_phil_benoth",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_zine_news_anlyst",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mag_porn",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime2",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime_murdergrape",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_crime_midnight",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_erotic",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_circuses",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_cloven",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_conq",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_dd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_diodes",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_envyh",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_grue",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_rider",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "paperback_romance_secret",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_hgod",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_dust",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_satire_cats",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_spy_comefly",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_spy_rocketsci",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_swash_blkfreight",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_swash_searovers",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "novel_war2",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_atwixt",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_bart",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_beans",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_calico",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_riot",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_vaq",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_west_vride",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "photo_album",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "priest_diary",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "visions_solitude",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_economicon",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_bobliographon",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "occult_glimpses",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_siddur",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_hardcover",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_judaica_softcover",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_venus",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_wtmrw",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_nogod",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_ddive",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_gcapes",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_yesmurd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_fict_soft_pulp_flashcc",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_homemk_nyparti",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_nonf_hard_homemk_wmencolor",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_generic",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_inpsychic",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_oilsecrets",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_witchcraftbeg",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_witchcraftadv",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_beyondveil",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_weapcrys",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "book_newage_aliens",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_boxing",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_karate",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_judo",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_taekwondo",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_kickboxing",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_tai_chi",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_aikido",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_capoeira",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_krav_maga",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_muay_thai",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_eskrima",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_fencing",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_silat",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_wingchun",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_pankration",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_bojutsu",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_sojutsu",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_crane",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_dragon",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_leopard",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_snake",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_tiger",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_zui_quan",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_ninjutsu",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_niten",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_medievalpole",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_swordsmanship",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "manual_barbaran",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
         },
         {
           "item": "chitin_plate",

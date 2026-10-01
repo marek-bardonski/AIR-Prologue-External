@@ -1,0 +1,257 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p01_k01_books. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_boxing",
+    "read_skill": "melee",
+    "required_level": 0,
+    "max_level": 2,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_karate",
+    "read_skill": "melee",
+    "required_level": 0,
+    "max_level": 2,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_judo",
+    "read_skill": "melee",
+    "required_level": 0,
+    "max_level": 2,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_taekwondo",
+    "read_skill": "melee",
+    "required_level": 0,
+    "max_level": 2,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_kickboxing",
+    "read_skill": "melee",
+    "required_level": 0,
+    "max_level": 2,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_tai_chi",
+    "read_skill": "melee",
+    "required_level": 0,
+    "max_level": 2,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_aikido",
+    "read_skill": "melee",
+    "required_level": 0,
+    "max_level": 2,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_capoeira",
+    "read_skill": "melee",
+    "required_level": 0,
+    "max_level": 2,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 0 to 2."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_krav_maga",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_muay_thai",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_eskrima",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_fencing",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_silat",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_wingchun",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_pankration",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_bojutsu",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_sojutsu",
+    "read_skill": "melee",
+    "required_level": 1,
+    "max_level": 3,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 1 to 3."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_crane",
+    "read_skill": "melee",
+    "required_level": 2,
+    "max_level": 4,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_dragon",
+    "read_skill": "melee",
+    "required_level": 2,
+    "max_level": 4,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_leopard",
+    "read_skill": "melee",
+    "required_level": 2,
+    "max_level": 4,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_snake",
+    "read_skill": "melee",
+    "required_level": 2,
+    "max_level": 4,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_tiger",
+    "read_skill": "melee",
+    "required_level": 2,
+    "max_level": 4,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_zui_quan",
+    "read_skill": "melee",
+    "required_level": 2,
+    "max_level": 4,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_ninjutsu",
+    "read_skill": "melee",
+    "required_level": 2,
+    "max_level": 4,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 2 to 4."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_niten",
+    "read_skill": "melee",
+    "required_level": 3,
+    "max_level": 5,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 3 to 5."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_medievalpole",
+    "read_skill": "melee",
+    "required_level": 3,
+    "max_level": 5,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 3 to 5."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_swordsmanship",
+    "read_skill": "melee",
+    "required_level": 3,
+    "max_level": 5,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 3 to 5."
+  },
+  {
+    "type": "ITEM",
+    "id": "manual_barbaran",
+    "read_skill": "melee",
+    "required_level": 3,
+    "max_level": 5,
+    "read_fun": 1,
+    "//": "The Prologue has one hand-fighting skill and no styles: the manual teaches melee, from level 3 to 5."
+  }
+]

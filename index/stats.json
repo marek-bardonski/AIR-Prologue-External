@@ -1,6 +1,6 @@
 {
-  "files": 3405,
-  "objects": 57850,
+  "files": 3406,
+  "objects": 57878,
   "duplicates": 633,
   "byDomain": {
     "achievement": 221,
@@ -8,7 +8,7 @@
     "ammo_effect": 82,
     "anatomy": 2,
     "spell": 942,
-    "item": 11497,
+    "item": 11525,
     "enchantment": 71,
     "relic_procgen_data": 7,
     "ascii_art": 399,
@@ -131,5 +131,5 @@
     "mod_info": 1,
     "region_overlay": 1
   },
-  "generatedAt": "2026-10-01T22:41:12.366Z"
+  "generatedAt": "2026-10-01T22:48:50.551Z"
 }
