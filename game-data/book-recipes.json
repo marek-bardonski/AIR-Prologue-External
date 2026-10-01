@@ -28801,6 +28801,34 @@
         "level": 2
       },
       {
+        "key": "recipe:bp_50beowulf_xtp",
+        "result": "bp_50beowulf_xtp",
+        "name": ".50 Beowulf XTP, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_50beowulf_xtp",
+        "result": "reloaded_50beowulf_xtp",
+        "name": ".50 Beowulf XTP, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:bp_50beowulf_penetrator",
+        "result": "bp_50beowulf_penetrator",
+        "name": ".50 Beowulf Xtreme Penetrator, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_50beowulf_penetrator",
+        "result": "reloaded_50beowulf_penetrator",
+        "name": ".50 Beowulf Xtreme Penetrator, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
         "key": "recipe:bp_shot_00",
         "result": "bp_shot_00",
         "name": "12 gauge buckshot, black powder",
@@ -28962,20 +28990,6 @@
         "level": 2
       },
       {
-        "key": "recipe:bp_50beowulf_penetrator",
-        "result": "bp_50beowulf_penetrator",
-        "name": "bp 50beowulf penetrator",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:bp_50beowulf_xtp",
-        "result": "bp_50beowulf_xtp",
-        "name": "bp 50beowulf xtp",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
         "key": "recipe:press",
         "result": "press",
         "name": "hand press",
@@ -29011,16 +29025,30 @@
         "level": 2
       },
       {
-        "key": "recipe:reloaded_50beowulf_penetrator",
-        "result": "reloaded_50beowulf_penetrator",
-        "name": "reloaded 50beowulf penetrator",
+        "key": "recipe:stanag20_beowulf",
+        "result": "stanag20_beowulf",
+        "name": "retooled STANAG 20-round magazine",
         "skill": "fabrication",
         "level": 2
       },
       {
-        "key": "recipe:reloaded_50beowulf_xtp",
-        "result": "reloaded_50beowulf_xtp",
-        "name": "reloaded 50beowulf xtp",
+        "key": "recipe:stanag20ranger_beowulf",
+        "result": "stanag20ranger_beowulf",
+        "name": "retooled STANAG 20-round magazine with ranger plate",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:stanag30_beowulf",
+        "result": "stanag30_beowulf",
+        "name": "retooled STANAG 30-round magazine",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:stanag30ranger_beowulf",
+        "result": "stanag30ranger_beowulf",
+        "name": "retooled STANAG 30-round magazine with ranger plate",
         "skill": "fabrication",
         "level": 2
       },
@@ -29056,34 +29084,6 @@
         "key": "recipe:smrifle_primer",
         "result": "smrifle_primer",
         "name": "small rifle primer",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:stanag20_beowulf",
-        "result": "stanag20_beowulf",
-        "name": "stanag20 beowulf",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:stanag20ranger_beowulf",
-        "result": "stanag20ranger_beowulf",
-        "name": "stanag20ranger beowulf",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:stanag30_beowulf",
-        "result": "stanag30_beowulf",
-        "name": "stanag30 beowulf",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:stanag30ranger_beowulf",
-        "result": "stanag30ranger_beowulf",
-        "name": "stanag30ranger beowulf",
         "skill": "fabrication",
         "level": 2
       },
@@ -30382,28 +30382,28 @@
       {
         "key": "recipe:stanag20_beowulf",
         "result": "stanag20_beowulf",
-        "name": "stanag20 beowulf",
+        "name": "retooled STANAG 20-round magazine",
         "skill": "fabrication",
         "level": 2
       },
       {
         "key": "recipe:stanag20ranger_beowulf",
         "result": "stanag20ranger_beowulf",
-        "name": "stanag20ranger beowulf",
+        "name": "retooled STANAG 20-round magazine with ranger plate",
         "skill": "fabrication",
         "level": 2
       },
       {
         "key": "recipe:stanag30_beowulf",
         "result": "stanag30_beowulf",
-        "name": "stanag30 beowulf",
+        "name": "retooled STANAG 30-round magazine",
         "skill": "fabrication",
         "level": 2
       },
       {
         "key": "recipe:stanag30ranger_beowulf",
         "result": "stanag30ranger_beowulf",
-        "name": "stanag30ranger beowulf",
+        "name": "retooled STANAG 30-round magazine with ranger plate",
         "skill": "fabrication",
         "level": 2
       },
@@ -30751,6 +30751,34 @@
         "level": 4
       },
       {
+        "key": "recipe:bp_50beowulf_xtp",
+        "result": "bp_50beowulf_xtp",
+        "name": ".50 Beowulf XTP, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_50beowulf_xtp",
+        "result": "reloaded_50beowulf_xtp",
+        "name": ".50 Beowulf XTP, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:bp_50beowulf_penetrator",
+        "result": "bp_50beowulf_penetrator",
+        "name": ".50 Beowulf Xtreme Penetrator, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_50beowulf_penetrator",
+        "result": "reloaded_50beowulf_penetrator",
+        "name": ".50 Beowulf Xtreme Penetrator, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:bp_46mm",
         "result": "bp_46mm",
         "name": "4.6x30mm, black powder",
@@ -30835,20 +30863,6 @@
         "level": 4
       },
       {
-        "key": "recipe:bp_50beowulf_penetrator",
-        "result": "bp_50beowulf_penetrator",
-        "name": "bp 50beowulf penetrator",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:bp_50beowulf_xtp",
-        "result": "bp_50beowulf_xtp",
-        "name": "bp 50beowulf xtp",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
         "key": "recipe:grip_mount",
         "result": "grip_mount",
         "name": "grip mount",
@@ -30880,20 +30894,6 @@
         "key": "recipe:reloaded_123ln",
         "result": "reloaded_123ln",
         "name": "reloaded 123ln",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_50beowulf_penetrator",
-        "result": "reloaded_50beowulf_penetrator",
-        "name": "reloaded 50beowulf penetrator",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_50beowulf_xtp",
-        "result": "reloaded_50beowulf_xtp",
-        "name": "reloaded 50beowulf xtp",
         "skill": "fabrication",
         "level": 4
       },

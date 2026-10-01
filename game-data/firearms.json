@@ -318,7 +318,13 @@
     "matchhead_32_acp_jhp",
     "545_ap",
     "reloaded_545_ap",
-    "bp_545_ap"
+    "bp_545_ap",
+    "50beowulf_xtp",
+    "50beowulf_penetrator",
+    "bp_50beowulf_xtp",
+    "bp_50beowulf_penetrator",
+    "reloaded_50beowulf_xtp",
+    "reloaded_50beowulf_penetrator"
   ],
   "guns": {
     "pipe_shotgun": {
@@ -3160,7 +3166,8 @@
         "survivor223mag"
       ],
       "modular_ump": [
-        "ump45mag"
+        "ump45mag",
+        "ump45_makeshiftmag"
       ],
       "mosin44": [
         "762R_clip"
@@ -3591,6 +3598,9 @@
       ],
       "xd_10": [
         "xd_10_mag"
+      ],
+      "modular_deagle": [
+        "deaglemag_50"
       ]
     },
     "capacity": {
@@ -3867,8 +3877,28 @@
       "casket74mag": 60,
       "762R_clip": 5,
       "pslmag5": 5,
-      "pslmag10": 10
-    }
+      "pslmag10": 10,
+      "22_ar15mag_10": 10,
+      "22_ar15mag_28": 28,
+      "450_ar15mag": 5,
+      "50beowulf_ar15mag": 7,
+      "stanag20_beowulf": 4,
+      "stanag20ranger_beowulf": 4,
+      "stanag30_beowulf": 7,
+      "stanag30ranger_beowulf": 7,
+      "762_ar15mag_5rd": 5,
+      "762_ar15mag_10rd": 10,
+      "762_ar15mag_20rd": 20,
+      "762_ar15mag_30rd": 30,
+      "ai_308mag_10": 10,
+      "deaglemag": 8,
+      "deaglemag_357": 9,
+      "deaglemag_50": 7,
+      "ump9mag": 30,
+      "ump40mag": 30,
+      "ump45_makeshiftmag": 5
+    },
+    "//calibre": "A magazine listed only under a fitting's calibre.magazines (fittings.byId) fits the gun while that barrel or receiver is on it."
   },
   "fittings": {
     "//": "Prologue rule (01.10.2026), game code src/game/combat/Fittings.js. A gun or a bow holds one fitting to a slot. byId: slot; skills (the ranged skills of the weapons it goes on) or guns (named weapons only); accuracy is added to the aim; steadiness is taken off the aim lost per step of distance; range in steps; damage and reloadFactor multiply; fireCost is added to the move points of a shot; catchBrass sends the spent case to the pack. Slots and targets follow the CDDA gunmod location and mod_targets; the numbers are Prologue balance.",
@@ -3885,7 +3915,8 @@
       "brass": "brass catcher",
       "rest": "arrow rest",
       "stabilizer": "stabiliser",
-      "dampening": "string dampers"
+      "dampening": "string dampers",
+      "bore": "barrel or receiver"
     },
     "skillWords": {
       "pistol": "pistols",
@@ -4345,7 +4376,495 @@
         ],
         "steadiness": 0.08,
         "fireCost": 10
+      },
+      "retool_ar15_223rem_extended": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "range": 1,
+        "accuracy": 0.5
+      },
+      "retool_ar15_223rem_medium": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "range": -1
+      },
+      "retool_ar15_223rem_short": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "range": -2,
+        "fireCost": -5
+      },
+      "retool_ar15_223rem_pistol": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "range": -3,
+        "fireCost": -8
+      },
+      "retool_ar15_300blk": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "300blk"
+          ],
+          "damage": 32,
+          "range": 14
+        }
+      },
+      "retool_ar15_300blk_medium": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "300blk"
+          ],
+          "damage": 32,
+          "range": 13
+        }
+      },
+      "retool_ar15_300blk_short": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "300blk"
+          ],
+          "damage": 32,
+          "range": 12
+        },
+        "fireCost": -5
+      },
+      "retool_ar15_50beowulf": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "50beowulf"
+          ],
+          "damage": 46,
+          "range": 13,
+          "magazines": [
+            "stanag20_beowulf",
+            "stanag20ranger_beowulf",
+            "stanag30_beowulf",
+            "stanag30ranger_beowulf",
+            "50beowulf_ar15mag"
+          ]
+        }
+      },
+      "retool_ar15_50beowulf_medium": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "50beowulf"
+          ],
+          "damage": 46,
+          "range": 12,
+          "magazines": [
+            "stanag20_beowulf",
+            "stanag20ranger_beowulf",
+            "stanag30_beowulf",
+            "stanag30ranger_beowulf",
+            "50beowulf_ar15mag"
+          ]
+        }
+      },
+      "retool_ar15_50beowulf_short": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "50beowulf"
+          ],
+          "damage": 46,
+          "range": 10,
+          "magazines": [
+            "stanag20_beowulf",
+            "stanag20ranger_beowulf",
+            "stanag30_beowulf",
+            "stanag30ranger_beowulf",
+            "50beowulf_ar15mag"
+          ]
+        },
+        "fireCost": -5
+      },
+      "retool_ar15_450": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "450"
+          ],
+          "damage": 42,
+          "range": 13,
+          "magazines": [
+            "450_ar15mag"
+          ]
+        }
+      },
+      "retool_ar15_450_medium": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "450"
+          ],
+          "damage": 42,
+          "range": 12,
+          "magazines": [
+            "450_ar15mag"
+          ]
+        }
+      },
+      "retool_ar15_450_short": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "450"
+          ],
+          "damage": 42,
+          "range": 10,
+          "magazines": [
+            "450_ar15mag"
+          ]
+        },
+        "fireCost": -5
+      },
+      "retool_ar15_762": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "762"
+          ],
+          "damage": 36,
+          "range": 15,
+          "magazines": [
+            "762_ar15mag_5rd",
+            "762_ar15mag_10rd",
+            "762_ar15mag_20rd",
+            "762_ar15mag_30rd"
+          ]
+        }
+      },
+      "retool_ar15_22": {
+        "slot": "bore",
+        "guns": [
+          "modular_ar15",
+          "modular_m4_carbine",
+          "modular_m16a4",
+          "modular_m16_auto_rifle",
+          "modular_m27_assault_rifle",
+          "modular_ar_pistol"
+        ],
+        "calibre": {
+          "ammo": [
+            "22"
+          ],
+          "damage": 18,
+          "range": 12,
+          "magazines": [
+            "22_ar15mag_10",
+            "22_ar15mag_28"
+          ]
+        }
+      },
+      "retool_mdrx_223rem": {
+        "slot": "bore",
+        "guns": [
+          "mdrx"
+        ],
+        "range": 1,
+        "accuracy": 0.5
+      },
+      "retool_mdrx_223rem_short": {
+        "slot": "bore",
+        "guns": [
+          "mdrx"
+        ],
+        "range": -2,
+        "fireCost": -5
+      },
+      "retool_mdrx_300blk": {
+        "slot": "bore",
+        "guns": [
+          "mdrx"
+        ],
+        "calibre": {
+          "ammo": [
+            "300blk"
+          ],
+          "damage": 32,
+          "range": 14
+        }
+      },
+      "retool_mdrx_308win": {
+        "slot": "bore",
+        "guns": [
+          "mdrx"
+        ],
+        "calibre": {
+          "ammo": [
+            "308"
+          ],
+          "damage": 42,
+          "range": 15,
+          "magazines": [
+            "ar10mag_20rd",
+            "ar10mag_10rd",
+            "ar10mag_25rd",
+            "ar10mag_50rd",
+            "ar10_makeshiftmag"
+          ]
+        }
+      },
+      "retool_mdrx_308win_medium": {
+        "slot": "bore",
+        "guns": [
+          "mdrx"
+        ],
+        "calibre": {
+          "ammo": [
+            "308"
+          ],
+          "damage": 42,
+          "range": 14,
+          "magazines": [
+            "ar10mag_20rd",
+            "ar10mag_10rd",
+            "ar10mag_25rd",
+            "ar10mag_50rd",
+            "ar10_makeshiftmag"
+          ]
+        }
+      },
+      "retool_axmc_300win": {
+        "slot": "bore",
+        "guns": [
+          "axmc"
+        ],
+        "calibre": {
+          "ammo": [
+            "300"
+          ],
+          "damage": 46,
+          "range": 15,
+          "magazines": [
+            "ai_338mag",
+            "ai_338mag_10"
+          ]
+        }
+      },
+      "retool_axmc_308win": {
+        "slot": "bore",
+        "guns": [
+          "axmc"
+        ],
+        "calibre": {
+          "ammo": [
+            "308"
+          ],
+          "damage": 42,
+          "range": 15,
+          "magazines": [
+            "ai_308mag_10"
+          ]
+        }
+      },
+      "retool_cz600_762": {
+        "slot": "bore",
+        "guns": [
+          "cz600"
+        ],
+        "calibre": {
+          "ammo": [
+            "762"
+          ],
+          "damage": 36,
+          "range": 14,
+          "magazines": [
+            "bren2_762mag10",
+            "bren2_762mag30"
+          ]
+        }
+      },
+      "retool_deagle_357": {
+        "slot": "bore",
+        "guns": [
+          "modular_deagle"
+        ],
+        "calibre": {
+          "ammo": [
+            "357mag"
+          ],
+          "damage": 31,
+          "range": 14,
+          "magazines": [
+            "deaglemag_357"
+          ]
+        }
+      },
+      "retool_deagle_44": {
+        "slot": "bore",
+        "guns": [
+          "modular_deagle"
+        ],
+        "calibre": {
+          "ammo": [
+            "44"
+          ],
+          "damage": 34,
+          "range": 14,
+          "magazines": [
+            "deaglemag"
+          ]
+        }
+      },
+      "retool_ump_9": {
+        "slot": "bore",
+        "guns": [
+          "modular_ump"
+        ],
+        "calibre": {
+          "ammo": [
+            "9mm"
+          ],
+          "damage": 28,
+          "range": 15,
+          "magazines": [
+            "ump9mag"
+          ]
+        }
+      },
+      "retool_ump_40": {
+        "slot": "bore",
+        "guns": [
+          "modular_ump"
+        ],
+        "calibre": {
+          "ammo": [
+            "40"
+          ],
+          "damage": 30,
+          "range": 15,
+          "magazines": [
+            "ump40mag"
+          ]
+        }
       }
+    },
+    "calibreWords": {
+      "300blk": ".300 Blackout",
+      "50beowulf": ".50 Beowulf",
+      "450": ".450",
+      "762": "7.62x39mm",
+      "22": ".22",
+      "308": ".308",
+      "300": ".300 magnum",
+      "357mag": ".357",
+      "44": ".44",
+      "9mm": "9mm",
+      "40": ".40"
     }
   }
 }

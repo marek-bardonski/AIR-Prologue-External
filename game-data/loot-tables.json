@@ -11760,6 +11760,374 @@
           ]
         },
         {
+          "item": "retool_ar15_223rem_extended",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_223rem_medium",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_223rem_pistol",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_300blk",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_50beowulf",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_50beowulf_medium",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_50beowulf_short",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_450",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_450_medium",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_450_short",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_762",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_22",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_223rem",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_223rem_short",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_300blk",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_308win",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_308win_medium",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_cz600_762",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_deagle_357",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_deagle_44",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "22_ar15mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "22_ar15mag_28",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "450_ar15mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "50beowulf_ar15mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20_beowulf",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20ranger_beowulf",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag30_beowulf",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag30ranger_beowulf",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_5rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_30rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_308mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag_357",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag_50",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump9mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "50beowulf_xtp",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "50beowulf_penetrator",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
           "item": "pictionary",
           "weight": 0.04,
           "count": [
@@ -63409,6 +63777,103 @@
           ]
         },
         {
+          "item": "retool_ar15_50beowulf",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_50beowulf_medium",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_450",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_450_medium",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_308win",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_308win_medium",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_cz600_762",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "50beowulf_xtp",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "50beowulf_penetrator",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "50beowulf_casing",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "knife_KABAR",
           "weight": 0.02,
           "count": [
@@ -66389,6 +66854,67 @@
             1,
             1
           ]
+        },
+        {
+          "item": "ump45_makeshiftmag",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bp_50beowulf_xtp",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bp_50beowulf_penetrator",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "reloaded_50beowulf_xtp",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "reloaded_50beowulf_penetrator",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
         },
         {
           "item": "55gal_firebarrel",
@@ -76906,6 +77432,69 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_223rem_short",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_ar15_300blk_medium",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_ar15_300blk_short",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_axmc_300win",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_axmc_308win",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_ump_9",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_ump_40",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
         },
         {
           "item": "parachute_mil",
@@ -96110,6 +96699,348 @@
           "minDanger": 2
         },
         {
+          "item": "retool_ar15_223rem_extended",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_223rem_medium",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_223rem_short",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_ar15_223rem_pistol",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_300blk",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_300blk_medium",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_ar15_300blk_short",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_ar15_50beowulf_short",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_450_short",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_762",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_22",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_223rem",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_223rem_short",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_300blk",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_axmc_300win",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_axmc_308win",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_deagle_357",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_deagle_44",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ump_9",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "retool_ump_40",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "22_ar15mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "22_ar15mag_28",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "450_ar15mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "50beowulf_ar15mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20_beowulf",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20ranger_beowulf",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag30_beowulf",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag30ranger_beowulf",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_5rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_10rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_20rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_30rd",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_308mag_10",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag_357",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag_50",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump9mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump40mag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
           "item": "parachute_mil",
           "weight": 0.001,
           "count": [
@@ -104504,6 +105435,31 @@
         {
           "item": "grip_mod",
           "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ump45_makeshiftmag",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "50beowulf_casing",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "unprimed_50beowulf_casing",
+          "weight": 0.015,
           "count": [
             1,
             1
@@ -116455,6 +117411,337 @@
             1,
             1
           ]
+        },
+        {
+          "item": "retool_ar15_223rem_extended",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_223rem_medium",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_223rem_pistol",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_300blk",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_50beowulf_short",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_450_short",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_762",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_ar15_22",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_223rem",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_223rem_short",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_mdrx_300blk",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_deagle_357",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "retool_deagle_44",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "22_ar15mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "22_ar15mag_28",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "450_ar15mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "50beowulf_ar15mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20_beowulf",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag20ranger_beowulf",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag30_beowulf",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "stanag30ranger_beowulf",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_5rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_10rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_20rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "762_ar15mag_30rd",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ai_308mag_10",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag_357",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "deaglemag_50",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump9mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "ump40mag",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bp_50beowulf_xtp",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bp_50beowulf_penetrator",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "reloaded_50beowulf_xtp",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "reloaded_50beowulf_penetrator",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
         },
         {
           "item": "tic_tac",
