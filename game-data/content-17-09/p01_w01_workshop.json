@@ -1,0 +1,392 @@
+{
+  "group": "p01_w01_workshop",
+  "source": "01.10.2026 import: three more generators for the camp grid, workshop machines to strip, fire barrels, a screw press, instruments and oddments",
+  "items": [
+    {
+      "id": "diesel_generator",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.008
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "military_generator",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012
+        }
+      ]
+    },
+    {
+      "id": "12000_gasoline_generator",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.006
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.006
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.012
+        }
+      ]
+    },
+    {
+      "id": "drill_press",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0075
+        }
+      ]
+    },
+    {
+      "id": "tablesaw",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0075
+        }
+      ]
+    },
+    {
+      "id": "bandsaw",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "hydraulic_press",
+      "loot": [
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "air_compressor",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "arcade_machine",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.006
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.008
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "oxygen_concentrator",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "hd_compressor_unit",
+      "loot": [
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "stationary_water_purifier",
+      "loot": [
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "screw_press",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "orchard_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "horn_big",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "radiocontrol",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.008
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "closed_loop_extractor_large",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "ammonia_machine_reactor",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.012
+        }
+      ]
+    },
+    {
+      "id": "drum_percussion_primitive",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.008
+        }
+      ]
+    },
+    {
+      "id": "violin_golden",
+      "loot": [
+        {
+          "table": "ruins_shelf",
+          "weight": 0.004
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "krar_golden",
+      "loot": [
+        {
+          "table": "ruins_shelf",
+          "weight": 0.004
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "55gal_firebarrel",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "30gal_firebarrel",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.05
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "adobe_pallet_full",
+      "loot": [
+        {
+          "table": "potters_yard_supplies",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "adobe_pallet_done",
+      "loot": [
+        {
+          "table": "potters_yard_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "gelbox",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "riding_crop",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "house_common",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "dressage_whip",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {
+    "fire": {
+      "stations": [],
+      "items": [
+        "55gal_firebarrel",
+        "30gal_firebarrel"
+      ]
+    }
+  },
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:ammonia_machine_reactor"
+  ],
+  "recipesExpected": [
+    "recipe:30gal_firebarrel",
+    "recipe:55gal_firebarrel",
+    "recipe:adobe_pallet_full",
+    "recipe:closed_loop_extractor_large",
+    "recipe:drum_percussion_primitive",
+    "recipe:radiocontrol"
+  ],
+  "notes": [
+    "camp-power.json: the three generators (the diesel sets name fuelItem diesel) and the draw of the large extractor and the ammonia reactor.",
+    "Fire barrels are portable hearths (Fuel.PORTABLE) and give fire (pseudo-tools).",
+    "Workshop machines carry no use here: they are stripped for motors, steel and cable."
+  ]
+}

@@ -10,7 +10,9 @@
       "items": [
         "makeshift_brazier",
         "brazier",
-        "hobo_stove"
+        "hobo_stove",
+        "55gal_firebarrel",
+        "30gal_firebarrel"
       ]
     },
     "char_smoker": {

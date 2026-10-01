@@ -446,7 +446,8 @@
     "recipe:plastic_jack_o_lantern",
     "recipe:coffee_raw_kentucky",
     "recipe:radio_car_wheel",
-    "recipe:m26_mass_standalone"
+    "recipe:m26_mass_standalone",
+    "recipe:ammonia_machine_reactor"
   ],
   "include": [
     "recipe:10l_aluminum",

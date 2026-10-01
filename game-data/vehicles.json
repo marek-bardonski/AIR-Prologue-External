@@ -15174,6 +15174,131 @@
         "speed": 0.96,
         "shield": 0.8
       }
+    },
+    "horn_big": {
+      "item": "horn_big",
+      "flags": [
+        "HORN"
+      ],
+      "durability": 125,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "horn_big",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 2.5,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 2.5,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "duct_tape",
+                "count": 25
+              },
+              {
+                "id": "super_glue",
+                "count": 10
+              },
+              {
+                "id": "bone_glue",
+                "count": 1
+              }
+            ],
+            [
+              {
+                "id": "solder_wire",
+                "count": 2
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "soldering_iron",
+                "charges": 2
+              },
+              {
+                "id": "integrated_electrokit",
+                "charges": 2
+              },
+              {
+                "id": "soldering_iron_portable",
+                "charges": 2
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 2
+              },
+              {
+                "id": "small_repairkit",
+                "charges": 2
+              },
+              {
+                "id": "large_repairkit",
+                "charges": 2
+              }
+            ]
+          ],
+          "qualities": [],
+          "minutes": 0.3333333333333333,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/vehicle_parts.json",
+      "fit": {
+        "role": "horn",
+        "mounts": [
+          "car"
+        ],
+        "encounter": 0.85
+      }
     }
   },
   "faults": {

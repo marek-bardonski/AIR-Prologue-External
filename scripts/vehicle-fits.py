@@ -93,7 +93,7 @@ NEW = ('wheel_motorbike wheel_motorbike_or wheel_wood wheel_wood_b engine_1cyl_s
        'engine_1cyl engine_1cyl_med engine_1cyl_large engine_vtwin engine_1cyl_diesel_large diesel_engine_inline1 '
        'diesel_engine_inline4 diesel_engine_v6 diesel_engine_v8 diesel_engine_i6 diesel_engine_v12 '
        'engine_electric_enhanced xlframe foldxlframe folding_wooden_frame wheel_armor wheel_small headlight_reinforced '
-       'wide_headlight_reinforced integrated_cooler plating_chitin rebar_plate').split()
+       'wide_headlight_reinforced integrated_cooler plating_chitin rebar_plate horn_big').split()
 sizes = {}
 for id in NEW + list(catalog):
     p = add_part(id) if id in NEW else resolve(id)[0]
@@ -189,6 +189,7 @@ FITS = {
     'motorcycle_headlight': fit('light', [B, M], light=True, kjPerHex=1),
     'horn_car': fit('horn', [M, C], encounter=.9),
     'horn_bicycle': fit('horn', [B], encounter=.95),
+    'horn_big': fit('horn', [C], encounter=.85),
     'muffler': fit('exhaust', [M, C], encounter=.85),
     'stereo': fit('radio', [C]),
     'trunk': fit('cargo', [C], cargoL=sizes['trunk']),

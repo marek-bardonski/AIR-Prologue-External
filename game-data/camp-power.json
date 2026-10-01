@@ -1,22 +1,46 @@
 {
   "source": "Appliance draws are the CDDA 0.I link_up charge_rate (or power_draw where the tool has one) of each item; the generator's output is the CDDA appliance part's epower. The bank, the inverter's rating and losses, fuel use and every other number here are Prologue balance.",
   "//": "Camp power (game repo src/game/electricity/CampPower.js). Batteries set down at the camp (its ground or its storage) whose electricity.json profile carries bank.flag form the camp's battery bank. A corded appliance listed under appliances works only at the camp, only with an inverter there, and only while the bank can pay for it: watts x minutes of work (divided by the inverter's efficiency), plus any CDDA tool charges (1 charge = 1 kJ). An appliance with its own battery fitted (an electricity.json device profile) runs off that battery instead, anywhere. Solar panels (lying on the camp's ground or built into the solar array) and running generators refill the bank.",
-  "bank": { "flag": "RECHARGE" },
+  "bank": {
+    "flag": "RECHARGE"
+  },
   "//inverters": "maxWatts: the most it delivers at once (an appliance that draws more cannot run); efficiency: the share of the battery's energy that reaches the appliance.",
   "inverters": {
-    "UPS_OFF": { "maxWatts": 3000, "efficiency": 0.9 }
+    "UPS_OFF": {
+      "maxWatts": 3000,
+      "efficiency": 0.9
+    }
   },
-  "//generators": "watts: what it feeds into the bank while running; fuelMlPerKwh: fuel burnt per kWh delivered; it burns the vehicles' fuel item (vehicles.json fuelItem) poured into its tank and switches itself off when the bank is full or the tank is dry.",
+  "//generators": "watts: what it feeds into the bank while running; fuelMlPerKwh: fuel burnt per kWh delivered; it burns its own fuelItem where it names one (the diesel sets), else the vehicles' fuel item (vehicles.json fuelItem), poured into its tank, and switches itself off when the bank is full or the tank is dry.",
   "generators": {
-    "portable_generator": { "watts": 3000, "fuelMlPerKwh": 500 }
+    "portable_generator": {
+      "watts": 3000,
+      "fuelMlPerKwh": 500
+    },
+    "12000_gasoline_generator": {
+      "watts": 12000,
+      "fuelMlPerKwh": 450
+    },
+    "diesel_generator": {
+      "watts": 7000,
+      "fuelMlPerKwh": 380,
+      "fuelItem": "diesel"
+    },
+    "military_generator": {
+      "watts": 10000,
+      "fuelMlPerKwh": 350,
+      "fuelItem": "diesel"
+    }
   },
   "//appliances": "Corded (link_up) tools and appliances and their draw in watts.",
   "appliances": {
     "ammonia_machine_pipework": 350,
+    "ammonia_machine_reactor": 800,
     "analytical_set_basic": 1000,
     "angle_grinder": 800,
     "carver_off": 120,
     "chemistry_set": 1000,
+    "closed_loop_extractor_large": 1800,
     "closed_loop_extractor_small": 600,
     "coffeemaker": 1000,
     "corded_powerdrill": 2200,
@@ -33,7 +57,6 @@
     "ketene_lamp": 150,
     "kiln": 1500,
     "large_repairkit": 70,
-    "small_repairkit": 70,
     "makeshift_sealer": 55,
     "makeshift_vacuum_mold": 300,
     "melting_point": 1000,
@@ -44,6 +67,7 @@
     "oil_press_electric": 5500,
     "polisher": 1600,
     "rotovap": 400,
+    "small_repairkit": 70,
     "soldering_iron": 70,
     "toaster": 1400,
     "vac_mold": 600,

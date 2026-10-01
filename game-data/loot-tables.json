@@ -11458,6 +11458,22 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "radiocontrol",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "riding_crop",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -26282,6 +26298,22 @@
               ]
             }
           ]
+        },
+        {
+          "item": "arcade_machine",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "radiocontrol",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -30914,6 +30946,14 @@
             20,
             50
           ]
+        },
+        {
+          "item": "arcade_machine",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -35474,6 +35514,14 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "55gal_firebarrel",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -36392,6 +36440,14 @@
         {
           "item": "chimes",
           "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "horn_big",
+          "weight": 0.01,
           "count": [
             1,
             1
@@ -44431,6 +44487,46 @@
             1,
             1
           ]
+        },
+        {
+          "item": "12000_gasoline_generator",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "screw_press",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "adobe_pallet_done",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "riding_crop",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "dressage_whip",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -45759,6 +45855,22 @@
           "charges": [
             1,
             10
+          ]
+        },
+        {
+          "item": "violin_golden",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "krar_golden",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
           ]
         }
       ]
@@ -47478,6 +47590,22 @@
             1,
             1
           ]
+        },
+        {
+          "item": "drum_percussion_primitive",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "30gal_firebarrel",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -47935,6 +48063,14 @@
         {
           "item": "folding_basket",
           "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "screw_press",
+          "weight": 0.04,
           "count": [
             1,
             1
@@ -55019,6 +55155,22 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "55gal_firebarrel",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "30gal_firebarrel",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -57405,6 +57557,38 @@
             1,
             1
           ]
+        },
+        {
+          "item": "diesel_generator",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "12000_gasoline_generator",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "air_compressor",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "horn_big",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -58295,6 +58479,14 @@
         {
           "item": "cuvettes",
           "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "oxygen_concentrator",
+          "weight": 0.03,
           "count": [
             1,
             1
@@ -59683,6 +59875,14 @@
           "charges": [
             1,
             10
+          ]
+        },
+        {
+          "item": "diesel_generator",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
           ]
         }
       ]
@@ -65078,6 +65278,14 @@
         {
           "item": "wheel_armor",
           "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "military_generator",
+          "weight": 0.012,
           "count": [
             1,
             1
@@ -86251,6 +86459,78 @@
             1,
             1
           ]
+        },
+        {
+          "item": "drill_press",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tablesaw",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bandsaw",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "hydraulic_press",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "air_compressor",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "air_compressor",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "stationary_water_purifier",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "horn_big",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "closed_loop_extractor_large",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -88137,6 +88417,30 @@
         {
           "item": "UPS_OFF",
           "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "closed_loop_extractor_large",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "ammonia_machine_reactor",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gelbox",
+          "weight": 0.04,
           "count": [
             1,
             1
@@ -97114,6 +97418,30 @@
             1,
             1
           ]
+        },
+        {
+          "item": "drum_percussion_primitive",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "violin_golden",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "krar_golden",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -99506,6 +99834,14 @@
             1,
             1
           ]
+        },
+        {
+          "item": "screw_press",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -99733,6 +100069,22 @@
           "charges": [
             5,
             20
+          ]
+        },
+        {
+          "item": "adobe_pallet_full",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "adobe_pallet_done",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
           ]
         }
       ]
@@ -100547,6 +100899,14 @@
             1,
             1
           ]
+        },
+        {
+          "item": "stationary_water_purifier",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -101222,6 +101582,30 @@
         {
           "item": "panoramic_eyepiece",
           "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "diesel_generator",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "12000_gasoline_generator",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "hd_compressor_unit",
+          "weight": 0.02,
           "count": [
             1,
             1
@@ -101945,6 +102329,54 @@
             1,
             1
           ]
+        },
+        {
+          "item": "drill_press",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "tablesaw",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bandsaw",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "hydraulic_press",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "air_compressor",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "hd_compressor_unit",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -102543,6 +102975,22 @@
         {
           "item": "chimes",
           "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "arcade_machine",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "radiocontrol",
+          "weight": 0.03,
           "count": [
             1,
             1

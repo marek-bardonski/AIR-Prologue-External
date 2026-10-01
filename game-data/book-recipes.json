@@ -9537,7 +9537,7 @@
       {
         "key": "recipe:closed_loop_extractor_large",
         "result": "closed_loop_extractor_large",
-        "name": "closed loop extractor large",
+        "name": "large closed loop extractor",
         "skill": "fabrication",
         "level": 5
       },
@@ -21772,13 +21772,6 @@
         "level": 6
       },
       {
-        "key": "recipe:ammonia_machine_reactor",
-        "result": "ammonia_machine_reactor",
-        "name": "ammonia machine reactor",
-        "skill": "fabrication",
-        "level": 7
-      },
-      {
         "key": "recipe:caffeine",
         "result": "caffeine",
         "name": "caffeine pill",
@@ -21810,6 +21803,13 @@
         "key": "recipe:ammonia_machine_pipework",
         "result": "ammonia_machine_pipework",
         "name": "makeshift ammonia machine pipework",
+        "skill": "fabrication",
+        "level": 7
+      },
+      {
+        "key": "recipe:ammonia_machine_reactor",
+        "result": "ammonia_machine_reactor",
+        "name": "makeshift ammonia machine reactor",
         "skill": "fabrication",
         "level": 7
       },
@@ -24691,7 +24691,7 @@
       {
         "key": "recipe:radiocontrol",
         "result": "radiocontrol",
-        "name": "radiocontrol",
+        "name": "RC control",
         "skill": "electronics",
         "level": 5
       },
@@ -24826,7 +24826,7 @@
       {
         "key": "recipe:radiocontrol",
         "result": "radiocontrol",
-        "name": "radiocontrol",
+        "name": "RC control",
         "skill": "electronics",
         "level": 5
       },
@@ -25306,13 +25306,6 @@
         "level": 6
       },
       {
-        "key": "recipe:ammonia_machine_reactor",
-        "result": "ammonia_machine_reactor",
-        "name": "ammonia machine reactor",
-        "skill": "fabrication",
-        "level": 7
-      },
-      {
         "key": "recipe:caffeine",
         "result": "caffeine",
         "name": "caffeine pill",
@@ -25344,6 +25337,13 @@
         "key": "recipe:ammonia_machine_pipework",
         "result": "ammonia_machine_pipework",
         "name": "makeshift ammonia machine pipework",
+        "skill": "fabrication",
+        "level": 7
+      },
+      {
+        "key": "recipe:ammonia_machine_reactor",
+        "result": "ammonia_machine_reactor",
+        "name": "makeshift ammonia machine reactor",
         "skill": "fabrication",
         "level": 7
       },
