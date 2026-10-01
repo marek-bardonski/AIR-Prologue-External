@@ -1,0 +1,409 @@
+{
+  "group": "p01_v01_vehicle_parts",
+  "source": "01.10.2026 import: small petrol engines, diesels, light frames, wheels, reinforced lamps, light plating and workshop salvage",
+  "items": [
+    {
+      "id": "1cyl_combustion",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "1cyl_combustion_med",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "1cyl_combustion_large",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "v2_combustion",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "engine_1cyl_diesel_large",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "i1_diesel",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "i4_diesel",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "v6_diesel",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0075
+        }
+      ]
+    },
+    {
+      "id": "v8_diesel",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "i6_diesel",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "v12_diesel",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0025
+        }
+      ]
+    },
+    {
+      "id": "motor_enhanced",
+      "loot": [
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "xlframe",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "foldxlframe",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0075
+        }
+      ]
+    },
+    {
+      "id": "foldwoodframe",
+      "loot": [
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "wheel_armor",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "wheel_small",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "headlight_reinforced",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.0075
+        }
+      ]
+    },
+    {
+      "id": "wide_headlight_reinforced",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "integrated_cooler",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.03
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "chitin_plate",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "rebar_plate",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "engine_block_tiny",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "engine_block_small",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "engine_block_medium",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.03
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "engine_block_large",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.02
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "engine_block_massive",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.008
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "chimes",
+      "loot": [
+        {
+          "table": "car_wreck",
+          "weight": 0.02
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "wheel_caster",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.05
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:chitin_plate",
+    "recipe:foldwoodframe",
+    "recipe:foldxlframe",
+    "recipe:headlight_reinforced",
+    "recipe:rebar_plate",
+    "recipe:wheel_caster",
+    "recipe:wide_headlight_reinforced",
+    "recipe:xlframe"
+  ],
+  "notes": [
+    "vehicles.json parts and fits come from scripts/vehicle-fits.py; a diesel carries fit.fuelItem and burns nothing else.",
+    "Engine blocks, chimes and casters are recipe inputs and what an engine comes apart into."
+  ]
+}

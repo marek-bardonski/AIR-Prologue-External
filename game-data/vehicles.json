@@ -11175,6 +11175,4005 @@
         ],
         "quickBattery": true
       }
+    },
+    "engine_1cyl": {
+      "item": "1cyl_combustion",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER"
+      ],
+      "durability": 150,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "1cyl_combustion",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 1
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 1
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 1
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 1
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "cycle"
+        ],
+        "power": "combustion",
+        "speed": 1.3,
+        "fuel": 0.08,
+        "startsInstantly": true
+      }
+    },
+    "engine_1cyl_med": {
+      "item": "1cyl_combustion_med",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER"
+      ],
+      "durability": 150,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "1cyl_combustion_med",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 20
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 20
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 20
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 2
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 2
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 2
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 2
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 400
+              },
+              {
+                "id": "welding_kit",
+                "charges": 400
+              },
+              {
+                "id": "welder_crude",
+                "charges": 800
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 600
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 20
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "cycle",
+          "moto"
+        ],
+        "power": "combustion",
+        "speed": 2.4,
+        "fuel": 0.2,
+        "startsInstantly": true
+      }
+    },
+    "engine_1cyl_large": {
+      "item": "1cyl_combustion_large",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER"
+      ],
+      "durability": 150,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "1cyl_combustion_large",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 20
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 20
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 20
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 2
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 2
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 2
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 2
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 400
+              },
+              {
+                "id": "welding_kit",
+                "charges": 400
+              },
+              {
+                "id": "welder_crude",
+                "charges": 800
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 600
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 20
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "moto"
+        ],
+        "power": "combustion",
+        "speed": 3.2,
+        "fuel": 0.3
+      }
+    },
+    "engine_vtwin": {
+      "item": "v2_combustion",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER"
+      ],
+      "durability": 200,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "v2_combustion",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 1
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 1
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 1
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 1
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "moto"
+        ],
+        "power": "combustion",
+        "speed": 4.8,
+        "fuel": 0.6
+      }
+    },
+    "engine_1cyl_diesel_large": {
+      "item": "engine_1cyl_diesel_large",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER",
+        "E_COLD_START",
+        "E_DIESEL_FUEL"
+      ],
+      "durability": 150,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "engine_1cyl_diesel_large",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 20
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 20
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 20
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 2
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 2
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 2
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 2
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 400
+              },
+              {
+                "id": "welding_kit",
+                "charges": 400
+              },
+              {
+                "id": "welder_crude",
+                "charges": 800
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 600
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 20
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "moto"
+        ],
+        "power": "combustion",
+        "speed": 2.9,
+        "fuel": 0.22,
+        "fuelItem": "diesel"
+      }
+    },
+    "diesel_engine_inline1": {
+      "item": "i1_diesel",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER",
+        "E_COLD_START",
+        "E_DIESEL_FUEL"
+      ],
+      "durability": 300,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "i1_diesel",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 1
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 1
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 1
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 1
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "moto"
+        ],
+        "power": "combustion",
+        "speed": 3.8,
+        "fuel": 0.4,
+        "fuelItem": "diesel"
+      }
+    },
+    "diesel_engine_inline4": {
+      "item": "i4_diesel",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER",
+        "E_COLD_START",
+        "E_DIESEL_FUEL"
+      ],
+      "durability": 300,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "i4_diesel",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 30
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 30
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 30
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 3
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 3
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 3
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 3
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 600
+              },
+              {
+                "id": "welding_kit",
+                "charges": 600
+              },
+              {
+                "id": "welder_crude",
+                "charges": 1200
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 900
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 30
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "moto",
+          "car"
+        ],
+        "power": "combustion",
+        "speed": 5.6,
+        "fuel": 0.8,
+        "fuelItem": "diesel"
+      }
+    },
+    "diesel_engine_v6": {
+      "item": "v6_diesel",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER",
+        "E_COLD_START",
+        "E_DIESEL_FUEL"
+      ],
+      "durability": 400,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "v6_diesel",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 30
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 30
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 30
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 3
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 3
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 3
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 3
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 600
+              },
+              {
+                "id": "welding_kit",
+                "charges": 600
+              },
+              {
+                "id": "welder_crude",
+                "charges": 1200
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 900
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 30
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 5
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "car"
+        ],
+        "power": "combustion",
+        "speed": 6.5,
+        "fuel": 1.0,
+        "fuelItem": "diesel"
+      }
+    },
+    "diesel_engine_v8": {
+      "item": "v8_diesel",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER",
+        "E_COLD_START",
+        "E_DIESEL_FUEL"
+      ],
+      "durability": 400,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "v8_diesel",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 50
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 50
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 50
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 5
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 5
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 5
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 5
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 1000
+              },
+              {
+                "id": "welding_kit",
+                "charges": 1000
+              },
+              {
+                "id": "welder_crude",
+                "charges": 2000
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 1500
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 50
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 5
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "car"
+        ],
+        "power": "combustion",
+        "speed": 7.3,
+        "fuel": 1.2,
+        "fuelItem": "diesel"
+      }
+    },
+    "diesel_engine_i6": {
+      "item": "i6_diesel",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER",
+        "E_COLD_START",
+        "E_DIESEL_FUEL"
+      ],
+      "durability": 400,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "i6_diesel",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 30
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 30
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 30
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 3
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 3
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 3
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 3
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 600
+              },
+              {
+                "id": "welding_kit",
+                "charges": 600
+              },
+              {
+                "id": "welder_crude",
+                "charges": 1200
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 900
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 30
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 300
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 10
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 5
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "car"
+        ],
+        "power": "combustion",
+        "speed": 7.6,
+        "fuel": 1.4,
+        "fuelItem": "diesel"
+      }
+    },
+    "diesel_engine_v12": {
+      "item": "v12_diesel",
+      "flags": [
+        "ENGINE",
+        "E_COMBUSTION",
+        "E_ALTERNATOR",
+        "E_HIGHER_SKILL",
+        "E_HEATER",
+        "E_COLD_START",
+        "E_DIESEL_FUEL"
+      ],
+      "durability": 600,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "v12_diesel",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 7
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 5
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 80
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 80
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 80
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 8
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 8
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 8
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 8
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 20
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 20
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 20
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 2
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 1600
+              },
+              {
+                "id": "welding_kit",
+                "charges": 1600
+              },
+              {
+                "id": "welder_crude",
+                "charges": 3200
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 2400
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 80
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 400
+              },
+              {
+                "id": "welding_kit",
+                "charges": 400
+              },
+              {
+                "id": "welder_crude",
+                "charges": 800
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 600
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 20
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 8
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/combustion.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/combustion.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "car"
+        ],
+        "power": "combustion",
+        "speed": 8.0,
+        "fuel": 1.6,
+        "fuelItem": "diesel"
+      }
+    },
+    "engine_electric_enhanced": {
+      "item": "motor_enhanced",
+      "flags": [
+        "ENGINE",
+        "E_HIGHER_SKILL",
+        "E_HEATER"
+      ],
+      "durability": 200,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "motor_enhanced",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/motor.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/motor.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 30
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 30
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 30
+              }
+            ],
+            [
+              {
+                "id": "steel_chunk",
+                "count": 3
+              },
+              {
+                "id": "budget_steel_chunk",
+                "count": 3
+              },
+              {
+                "id": "chunk_cast_iron",
+                "count": 3
+              },
+              {
+                "id": "lc_steel_chunk",
+                "count": 3
+              }
+            ],
+            [
+              {
+                "id": "solder_wire",
+                "count": 18
+              }
+            ],
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 30
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 30
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 30
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 3
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 600
+              },
+              {
+                "id": "welding_kit",
+                "charges": 600
+              },
+              {
+                "id": "welder_crude",
+                "charges": 1200
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 900
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 30
+              }
+            ],
+            [
+              {
+                "id": "soldering_iron",
+                "charges": 18
+              },
+              {
+                "id": "integrated_electrokit",
+                "charges": 18
+              },
+              {
+                "id": "soldering_iron_portable",
+                "charges": 18
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 18
+              },
+              {
+                "id": "small_repairkit",
+                "charges": 18
+              },
+              {
+                "id": "large_repairkit",
+                "charges": 18
+              }
+            ],
+            [
+              {
+                "id": "welder",
+                "charges": 600
+              },
+              {
+                "id": "welding_kit",
+                "charges": 600
+              },
+              {
+                "id": "welder_crude",
+                "charges": 1200
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 900
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 30
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 5
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/motor.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/motor.json",
+      "fit": {
+        "role": "engine",
+        "mounts": [
+          "car"
+        ],
+        "power": "electric",
+        "speed": 6.4,
+        "kjPerHex": 380,
+        "quiet": 0.85
+      }
+    },
+    "xlframe": {
+      "item": "xlframe",
+      "flags": [
+        "MOUNTABLE",
+        "INITIAL_PART"
+      ],
+      "durability": 150,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 200
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 200
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 200
+              }
+            ],
+            [
+              {
+                "id": "nuts_bolts",
+                "count": 40
+              }
+            ],
+            [
+              {
+                "id": "xlframe",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 4000
+              },
+              {
+                "id": "welding_kit",
+                "charges": 4000
+              },
+              {
+                "id": "welder_crude",
+                "charges": 8000
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 6000
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 200
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "DRILL",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SAW_M",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 10.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 50
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 50
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 50
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 5
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 1000
+              },
+              {
+                "id": "welding_kit",
+                "charges": 1000
+              },
+              {
+                "id": "welder_crude",
+                "charges": 2000
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 1500
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 50
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 9.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/frames.json",
+      "fit": {
+        "role": "frame",
+        "mounts": [
+          "cycle",
+          "moto"
+        ],
+        "speed": 1.08,
+        "wear": 1.6
+      }
+    },
+    "foldxlframe": {
+      "item": "foldxlframe",
+      "flags": [
+        "MOUNTABLE",
+        "INITIAL_PART"
+      ],
+      "durability": 150,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 200
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 200
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 200
+              }
+            ],
+            [
+              {
+                "id": "nuts_bolts",
+                "count": 40
+              }
+            ],
+            [
+              {
+                "id": "foldxlframe",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 4000
+              },
+              {
+                "id": "welding_kit",
+                "charges": 4000
+              },
+              {
+                "id": "welder_crude",
+                "charges": 8000
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 6000
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 200
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "DRILL",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 60.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SAW_M",
+                "level": 2
+              }
+            ],
+            [
+              {
+                "id": "WRENCH",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 10.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_alloy",
+                "count": 50
+              },
+              {
+                "id": "welding_wire_alloy",
+                "count": 50
+              },
+              {
+                "id": "brazing_rod_alloy",
+                "count": 50
+              }
+            ],
+            [
+              {
+                "id": "material_aluminium_ingot",
+                "count": 5
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 1000
+              },
+              {
+                "id": "welding_kit",
+                "charges": 1000
+              },
+              {
+                "id": "welder_crude",
+                "charges": 2000
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 1500
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 50
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 9.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/frames.json",
+      "fit": {
+        "role": "frame",
+        "mounts": [
+          "cycle"
+        ],
+        "speed": 1.1,
+        "wear": 1.8
+      }
+    },
+    "folding_wooden_frame": {
+      "item": "foldwoodframe",
+      "flags": [
+        "MOUNTABLE",
+        "INITIAL_PART"
+      ],
+      "durability": 15,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "nail",
+                "count": 20
+              }
+            ],
+            [
+              {
+                "id": "foldwoodframe",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "HAMMER",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "fabrication",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "PRY",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 15.0,
+          "skills": [
+            {
+              "skill": "fabrication",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "duct_tape",
+                "count": 50
+              },
+              {
+                "id": "super_glue",
+                "count": 20
+              },
+              {
+                "id": "bone_glue",
+                "count": 2
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "fabrication",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/frames.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/frames.json",
+      "fit": {
+        "role": "frame",
+        "mounts": [
+          "cycle"
+        ],
+        "speed": 0.95,
+        "wear": 1.9
+      }
+    },
+    "wheel_armor": {
+      "item": "wheel_armor",
+      "flags": [
+        "WHEEL",
+        "UNSTABLE_WHEEL",
+        "NEEDS_JACKING",
+        "NEEDS_WHEEL_MOUNT_HEAVY"
+      ],
+      "durability": 800,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "wheel_armor",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "lug_wrench",
+                "charges": -1
+              },
+              {
+                "id": "wrench_large",
+                "charges": -1
+              },
+              {
+                "id": "cordless_impact_wrench",
+                "charges": 100
+              }
+            ]
+          ],
+          "qualities": [],
+          "minutes": 20.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 0
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/wheel.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [
+            [
+              {
+                "id": "lug_wrench",
+                "charges": -1
+              },
+              {
+                "id": "wrench_large",
+                "charges": -1
+              },
+              {
+                "id": "cordless_impact_wrench",
+                "charges": 100
+              }
+            ]
+          ],
+          "qualities": [],
+          "minutes": 20.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 0
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/wheel.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "rubber_cement",
+                "count": 1
+              }
+            ],
+            [
+              {
+                "id": "sole_rubber",
+                "count": 1
+              },
+              {
+                "id": "chunk_rubber",
+                "count": 2
+              },
+              {
+                "id": "rubber_tire_chunk",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [],
+          "minutes": 10.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 5
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/wheel.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/wheel.json",
+      "fit": {
+        "role": "wheel",
+        "mounts": [
+          "car"
+        ],
+        "terrain": {
+          "road": 0.9,
+          "field": 1.2,
+          "hills": 1.2
+        },
+        "wear": 0.5
+      }
+    },
+    "wheel_small": {
+      "item": "wheel_small",
+      "flags": [
+        "WHEEL",
+        "UNSTABLE_WHEEL",
+        "NEEDS_WHEEL_MOUNT_LIGHT"
+      ],
+      "durability": 70,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "wheel_small",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 15.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 0
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/wheel.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "WRENCH",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 15.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 0
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/wheel.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "rubber_cement",
+                "count": 1
+              }
+            ],
+            [
+              {
+                "id": "sole_rubber",
+                "count": 1
+              },
+              {
+                "id": "chunk_rubber",
+                "count": 2
+              },
+              {
+                "id": "rubber_tire_chunk",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [],
+          "minutes": 5.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/wheel.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/wheel.json",
+      "fit": {
+        "role": "wheel",
+        "mounts": [
+          "cycle"
+        ],
+        "terrain": {
+          "road": 0.9,
+          "field": 0.8,
+          "hills": 0.8
+        },
+        "wear": 1.2
+      }
+    },
+    "headlight_reinforced": {
+      "item": "headlight_reinforced",
+      "flags": [
+        "CONE_LIGHT",
+        "ENABLED_DRAINS_EPOWER"
+      ],
+      "durability": 20,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "headlight_reinforced",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 3.3333333333333335,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/lights.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 3.3333333333333335,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/lights.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "duct_tape",
+                "count": 25
+              },
+              {
+                "id": "super_glue",
+                "count": 10
+              },
+              {
+                "id": "bone_glue",
+                "count": 1
+              }
+            ],
+            [
+              {
+                "id": "solder_wire",
+                "count": 4
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "soldering_iron",
+                "charges": 4
+              },
+              {
+                "id": "integrated_electrokit",
+                "charges": 4
+              },
+              {
+                "id": "soldering_iron_portable",
+                "charges": 4
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 4
+              },
+              {
+                "id": "small_repairkit",
+                "charges": 4
+              },
+              {
+                "id": "large_repairkit",
+                "charges": 4
+              }
+            ]
+          ],
+          "qualities": [],
+          "minutes": 0.3333333333333333,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/lights.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/lights.json",
+      "fit": {
+        "role": "light",
+        "mounts": [
+          "car"
+        ],
+        "light": true,
+        "kjPerHex": 2
+      }
+    },
+    "wide_headlight_reinforced": {
+      "item": "wide_headlight_reinforced",
+      "flags": [
+        "WIDE_CONE_LIGHT",
+        "ENABLED_DRAINS_EPOWER"
+      ],
+      "durability": 20,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "wide_headlight_reinforced",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 3.3333333333333335,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/lights.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 3.3333333333333335,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/lights.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "duct_tape",
+                "count": 25
+              },
+              {
+                "id": "super_glue",
+                "count": 10
+              },
+              {
+                "id": "bone_glue",
+                "count": 1
+              }
+            ],
+            [
+              {
+                "id": "solder_wire",
+                "count": 4
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "soldering_iron",
+                "charges": 4
+              },
+              {
+                "id": "integrated_electrokit",
+                "charges": 4
+              },
+              {
+                "id": "soldering_iron_portable",
+                "charges": 4
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 4
+              },
+              {
+                "id": "small_repairkit",
+                "charges": 4
+              },
+              {
+                "id": "large_repairkit",
+                "charges": 4
+              }
+            ]
+          ],
+          "qualities": [],
+          "minutes": 0.3333333333333333,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/lights.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/lights.json",
+      "fit": {
+        "role": "light",
+        "mounts": [
+          "car"
+        ],
+        "light": true,
+        "kjPerHex": 3
+      }
+    },
+    "integrated_cooler": {
+      "item": "integrated_cooler",
+      "flags": [
+        "CTRL_ELECTRONIC",
+        "ENABLED_DRAINS_EPOWER",
+        "COOLER"
+      ],
+      "durability": 400,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "integrated_cooler",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 180.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            },
+            {
+              "skill": "electronics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SCREW",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 180.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 4
+            },
+            {
+              "skill": "electronics",
+              "level": 1
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "duct_tape",
+                "count": 25
+              },
+              {
+                "id": "super_glue",
+                "count": 10
+              },
+              {
+                "id": "bone_glue",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [],
+          "minutes": 1.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/vehicle_parts.json",
+      "fit": {
+        "role": "cargo",
+        "mounts": [
+          "car"
+        ],
+        "cargoL": 25
+      }
+    },
+    "plating_chitin": {
+      "item": "chitin_plate",
+      "flags": [
+        "ARMOR"
+      ],
+      "durability": 200,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "chitin_plate",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [],
+          "minutes": 10.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [],
+          "minutes": 5.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "duct_tape",
+                "count": 25
+              },
+              {
+                "id": "super_glue",
+                "count": 10
+              },
+              {
+                "id": "bone_glue",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [],
+          "qualities": [],
+          "minutes": 5.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/vehicle_parts.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/vehicle_parts.json",
+      "fit": {
+        "role": "armor",
+        "mounts": [
+          "moto",
+          "car"
+        ],
+        "speed": 0.98,
+        "shield": 0.8
+      }
+    },
+    "rebar_plate": {
+      "item": "rebar_plate",
+      "flags": [
+        "ARMOR"
+      ],
+      "durability": 150,
+      "operations": {
+        "install": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 160
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 160
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 160
+              }
+            ],
+            [
+              {
+                "id": "rebar_plate",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 3200
+              },
+              {
+                "id": "welding_kit",
+                "charges": 3200
+              },
+              {
+                "id": "welder_crude",
+                "charges": 6400
+              },
+              {
+                "id": "integrated_welder",
+                "charges": 4800
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 160
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ]
+          ],
+          "minutes": 30.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/armor.json"
+        },
+        "removal": {
+          "components": [],
+          "tools": [],
+          "qualities": [
+            [
+              {
+                "id": "SAW_M",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 5.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 2
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/armor.json"
+        },
+        "repair": {
+          "components": [
+            [
+              {
+                "id": "welding_rod_steel",
+                "count": 10
+              },
+              {
+                "id": "welding_wire_steel",
+                "count": 10
+              },
+              {
+                "id": "brazing_rod_bronze",
+                "count": 10
+              }
+            ],
+            [
+              {
+                "id": "rebar",
+                "count": 1
+              }
+            ]
+          ],
+          "tools": [
+            [
+              {
+                "id": "welder",
+                "charges": 800
+              },
+              {
+                "id": "welding_kit",
+                "charges": 800
+              },
+              {
+                "id": "welder_crude",
+                "charges": 1600
+              },
+              {
+                "id": "oxy_torch",
+                "charges": 40
+              }
+            ]
+          ],
+          "qualities": [
+            [
+              {
+                "id": "GLARE",
+                "level": 1
+              }
+            ],
+            [
+              {
+                "id": "SAW_M",
+                "level": 2
+              }
+            ]
+          ],
+          "minutes": 7.0,
+          "skills": [
+            {
+              "skill": "mechanics",
+              "level": 3
+            }
+          ],
+          "source": "cdda/data/json/vehicleparts/armor.json"
+        }
+      },
+      "source": "cdda/data/json/vehicleparts/armor.json",
+      "fit": {
+        "role": "armor",
+        "mounts": [
+          "moto",
+          "car"
+        ],
+        "speed": 0.96,
+        "shield": 0.8
+      }
     }
   },
   "faults": {

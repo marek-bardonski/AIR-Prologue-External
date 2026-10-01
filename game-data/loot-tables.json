@@ -29375,6 +29375,14 @@
             1,
             1
           ]
+        },
+        {
+          "item": "wheel_caster",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -36355,6 +36363,38 @@
           "charges": [
             5,
             40
+          ]
+        },
+        {
+          "item": "integrated_cooler",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_medium",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_large",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chimes",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
           ]
         }
       ]
@@ -44374,6 +44414,22 @@
                 20
               ]
             }
+          ]
+        },
+        {
+          "item": "foldwoodframe",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wheel_small",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
           ]
         }
       ]
@@ -57141,6 +57197,214 @@
             1,
             1
           ]
+        },
+        {
+          "item": "1cyl_combustion",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "1cyl_combustion_med",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "1cyl_combustion_large",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "v2_combustion",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_1cyl_diesel_large",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "i1_diesel",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "i4_diesel",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "v6_diesel",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "v8_diesel",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "i6_diesel",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "v12_diesel",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "motor_enhanced",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "xlframe",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foldxlframe",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wheel_armor",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wheel_small",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "headlight_reinforced",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wide_headlight_reinforced",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "integrated_cooler",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rebar_plate",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_tiny",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_small",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_medium",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_large",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_massive",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wheel_caster",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -60173,6 +60437,14 @@
         {
           "item": "UPS_OFF",
           "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "motor_enhanced",
+          "weight": 0.04,
           "count": [
             1,
             1
@@ -64802,6 +65074,14 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "wheel_armor",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -85787,6 +86067,190 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "1cyl_combustion",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "1cyl_combustion_med",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "1cyl_combustion_large",
+          "weight": 0.0125,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "v2_combustion",
+          "weight": 0.0125,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_1cyl_diesel_large",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "i1_diesel",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "i4_diesel",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "v6_diesel",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "v8_diesel",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "i6_diesel",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "v12_diesel",
+          "weight": 0.0025,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "xlframe",
+          "weight": 0.0125,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foldxlframe",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foldwoodframe",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wheel_small",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "headlight_reinforced",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wide_headlight_reinforced",
+          "weight": 0.005,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chitin_plate",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rebar_plate",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_tiny",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_small",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "engine_block_massive",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "wheel_caster",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -96642,6 +97106,14 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "chitin_plate",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -102063,6 +102535,14 @@
         {
           "item": "UPS_OFF",
           "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chimes",
+          "weight": 0.04,
           "count": [
             1,
             1

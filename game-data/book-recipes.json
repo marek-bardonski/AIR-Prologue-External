@@ -13072,13 +13072,6 @@
         "level": 3
       },
       {
-        "key": "recipe:headlight_reinforced",
-        "result": "headlight_reinforced",
-        "name": "headlight reinforced",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:wearable_big_light",
         "result": "wearable_big_light",
         "name": "heavy-duty headlamp",
@@ -13124,6 +13117,20 @@
         "key": "recipe:pedal_grindstone",
         "result": "pedal_grindstone",
         "name": "pedal powered grindstone",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:headlight_reinforced",
+        "result": "headlight_reinforced",
+        "name": "reinforced headlight",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:wide_headlight_reinforced",
+        "result": "wide_headlight_reinforced",
+        "name": "reinforced wide-angle headlight",
         "skill": "fabrication",
         "level": 3
       },
@@ -13215,13 +13222,6 @@
         "key": "recipe:wearable_camera_pro",
         "result": "wearable_camera_pro",
         "name": "wearable camera pro",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:wide_headlight_reinforced",
-        "result": "wide_headlight_reinforced",
-        "name": "wide headlight reinforced",
         "skill": "fabrication",
         "level": 3
       },
@@ -17419,13 +17419,6 @@
         "level": 5
       },
       {
-        "key": "recipe:headlight_reinforced",
-        "result": "headlight_reinforced",
-        "name": "headlight reinforced",
-        "skill": "fabrication",
-        "level": 5
-      },
-      {
         "key": "recipe:kilnrig",
         "result": "kilnrig",
         "name": "kilnrig",
@@ -17468,9 +17461,16 @@
         "level": 5
       },
       {
+        "key": "recipe:headlight_reinforced",
+        "result": "headlight_reinforced",
+        "name": "reinforced headlight",
+        "skill": "fabrication",
+        "level": 5
+      },
+      {
         "key": "recipe:wide_headlight_reinforced",
         "result": "wide_headlight_reinforced",
-        "name": "wide headlight reinforced",
+        "name": "reinforced wide-angle headlight",
         "skill": "fabrication",
         "level": 5
       },
@@ -19556,13 +19556,6 @@
         "level": 3
       },
       {
-        "key": "recipe:headlight_reinforced",
-        "result": "headlight_reinforced",
-        "name": "headlight reinforced",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:metal_butcher_rack",
         "result": "metal_butcher_rack",
         "name": "metal butchering rack",
@@ -19584,17 +19577,24 @@
         "level": 3
       },
       {
-        "key": "recipe:vehicle_controls",
-        "result": "vehicle_controls",
-        "name": "vehicle controls",
-        "skill": "mechanics",
+        "key": "recipe:headlight_reinforced",
+        "result": "headlight_reinforced",
+        "name": "reinforced headlight",
+        "skill": "fabrication",
         "level": 3
       },
       {
         "key": "recipe:wide_headlight_reinforced",
         "result": "wide_headlight_reinforced",
-        "name": "wide headlight reinforced",
+        "name": "reinforced wide-angle headlight",
         "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:vehicle_controls",
+        "result": "vehicle_controls",
+        "name": "vehicle controls",
+        "skill": "mechanics",
         "level": 3
       },
       {
