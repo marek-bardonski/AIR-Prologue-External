@@ -6634,5 +6634,9 @@
     "furniturebrochure",
     "technologybrochure",
     "nightlifepamphlet"
+  ],
+  "content_17_09_p01_x01_traps": [
+    "crossbow_trap",
+    "shotgun_trap"
   ]
 }

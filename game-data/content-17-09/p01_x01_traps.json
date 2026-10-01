@@ -1,0 +1,45 @@
+{
+  "group": "p01_x01_traps",
+  "source": "01.10.2026 import: two set-gun traps that take game",
+  "items": [
+    {
+      "id": "crossbow_trap",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002
+        }
+      ]
+    },
+    {
+      "id": "shotgun_trap",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.006,
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.002,
+          "minDanger": 2
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:crossbow_trap",
+    "recipe:shotgun_trap"
+  ],
+  "notes": [
+    "traps.json kinds: both are jaw-kind traps (they hold what they hit); the numbers are Prologue dials."
+  ]
+}

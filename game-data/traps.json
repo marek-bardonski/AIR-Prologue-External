@@ -31,6 +31,35 @@
         "escapeBySize": { "large": 0.35 },
         "catchPerHour": 0.008, "escape": 0.15, "breakChance": 0.02
       },
+      "crossbow_trap": {
+        "kind": "jaw",
+        "cddaTrap": "tr_crossbow",
+        "cddaPractice": 4,
+        "setMinutes": 25,
+        "resetMinutes": 15,
+        "sizes": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "catchPerHour": 0.01,
+        "escape": 0.2,
+        "breakChance": 0.03
+      },
+      "shotgun_trap": {
+        "kind": "jaw",
+        "cddaTrap": "tr_shotgun_2",
+        "cddaPractice": 5,
+        "setMinutes": 25,
+        "resetMinutes": 15,
+        "sizes": [
+          "medium",
+          "large"
+        ],
+        "catchPerHour": 0.01,
+        "escape": 0.08,
+        "breakChance": 0.03
+      },
       "fish_trap": {
         "kind": "fish", "setMinutes": 15, "resetMinutes": 5,
         "catchPerHour": 0.05, "holds": 3, "breakChance": 0.01, "cddaPractice": 1

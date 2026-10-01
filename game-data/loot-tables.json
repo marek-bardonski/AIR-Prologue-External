@@ -63439,6 +63439,14 @@
             1,
             1
           ]
+        },
+        {
+          "item": "crossbow_trap",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -66397,6 +66405,15 @@
             1,
             1
           ]
+        },
+        {
+          "item": "shotgun_trap",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -98111,6 +98128,23 @@
             1,
             1
           ]
+        },
+        {
+          "item": "crossbow_trap",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "shotgun_trap",
+          "weight": 0.002,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
         }
       ]
     },
