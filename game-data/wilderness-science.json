@@ -4518,7 +4518,10 @@
       "brew_rootbeer": "bottle_glass",
       "milk_UHT": "carton_sealed",
       "methed_alcohol": "bottle_plastic",
-      "acorns_blanching": "bottle_plastic"
+      "acorns_blanching": "bottle_plastic",
+      "foodplace_zero_drink": "can_drink",
+      "snowcone": "cup_plastic",
+      "honey_gold": "jug_plastic"
     }
   }
 }

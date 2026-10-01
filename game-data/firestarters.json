@@ -8,7 +8,7 @@
   "//sun": "A lens or a scope needs the sun: one of these weather kinds (game-data/weather.json) during the day phase, and no precipitation.",
   "sun": { "weather": ["clear"], "phases": ["Day"] },
   "//tinder": "What counts as tinder at hand, in order of use (the first one found is the one spent).",
-  "tinder": ["tinder", "birchbark", "withered", "straw_pile", "paper", "cotton_patchwork", "pinecone", "pine_bough"],
+  "tinder": ["tinder", "birchbark", "withered", "straw_pile", "paper", "napkin", "cotton_patchwork", "pinecone", "pine_bough"],
   "//effort": "Stamina spent per minute of work by kind of tool (the minutes after the skill factor).",
   "effort": { "friction": 1.5, "strike": 0.5 },
   "//litLight": "A candle, torch or lamp burning (a portable light with its flame lit) lights a fire in CDDA's `moves` for the lit candle; nothing is spent.",

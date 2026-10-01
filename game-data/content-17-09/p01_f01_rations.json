@@ -1,0 +1,496 @@
+{
+  "group": "p01_f01_rations",
+  "source": "01.10.2026 import: the last ration entrees and cakes, five cereals, the white-label food, two pastries, roe, flower seed and a napkin",
+  "items": [
+    {
+      "id": "mre_sfettuccine",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_cheesetort",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_mushroomfettuccine",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_ravioli",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_pizza",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.01
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_potato",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.015
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.0075
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_zapplesauce",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.015
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.0075
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_poppyseed_cake",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.015
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.0075
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_chocolate_cake",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.015
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.0075
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "mre_strawberry_cake",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.015
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.0075
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.004
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "cereal_fp2",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.04
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "cereal_fp3",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.04
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "cereal_fp4",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "cereal_fp5",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "cereal_fp6",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "foodplace_food",
+      "loot": [
+        {
+          "table": "shop_shelves",
+          "weight": 0.05
+        },
+        {
+          "table": "vending",
+          "weight": 0.05
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "foodplace_snack_bar",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 0.08
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.04
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "foodplace_zero_drink",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 0.08
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "snowcone",
+      "loot": [
+        {
+          "table": "vending",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "PBJ_Toast",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.01
+        },
+        {
+          "table": "shop_shelves",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "religieuse_au_chocolat",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "gateau_st_honore",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "rehydrated_poultry",
+      "loot": [
+        {
+          "table": "campsite_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "honey_gold",
+      "loot": [
+        {
+          "table": "preservation_cellar_supplies",
+          "weight": 0.03,
+          "charges": [
+            1,
+            2
+          ]
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.006,
+          "charges": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "egg_fish",
+      "loot": [
+        {
+          "table": "fishing_dock_supplies",
+          "weight": 0.2,
+          "charges": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "river",
+          "weight": 0.4,
+          "charges": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed_flower",
+      "loot": [
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.1,
+          "charges": [
+            2,
+            8
+          ]
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "table": "shop_hardware",
+          "weight": 0.04,
+          "charges": [
+            2,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "napkin",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "vending",
+          "weight": 0.2,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.2,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:honey_gold",
+    "recipe:snowcone"
+  ],
+  "recipesExpected": [
+    "recipe:PBJ_Toast",
+    "recipe:gateau_st_honore",
+    "recipe:religieuse_au_chocolat"
+  ],
+  "notes": [
+    "napkin joins firestarters.json tinder."
+  ]
+}

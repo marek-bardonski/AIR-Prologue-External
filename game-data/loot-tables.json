@@ -9054,6 +9054,18 @@
           ]
         },
         {
+          "item": "seed_flower",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
           "item": "p50",
           "weight": 0.006,
           "count": [
@@ -21890,6 +21902,135 @@
             1,
             1
           ]
+        },
+        {
+          "item": "cereal_fp2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cereal_fp3",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cereal_fp4",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cereal_fp5",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cereal_fp6",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "PBJ_Toast",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "religieuse_au_chocolat",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gateau_st_honore",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rehydrated_poultry",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "honey_gold",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            2
+          ],
+          "container": "jug_plastic"
+        },
+        {
+          "item": "napkin",
+          "weight": 0.3,
+          "count": [
+            1,
+            4
+          ]
         }
       ]
     },
@@ -29409,6 +29550,18 @@
           ]
         },
         {
+          "item": "seed_flower",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            2,
+            8
+          ]
+        },
+        {
           "item": "wheel_caster",
           "weight": 0.05,
           "count": [
@@ -30945,6 +31098,51 @@
           "charges": [
             20,
             50
+          ]
+        },
+        {
+          "item": "foodplace_food",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foodplace_snack_bar",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foodplace_zero_drink",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ],
+          "container": "can_drink"
+        },
+        {
+          "item": "napkin",
+          "weight": 0.2,
+          "count": [
+            1,
+            3
           ]
         },
         {
@@ -32579,6 +32777,18 @@
           "count": [
             1,
             1
+          ]
+        },
+        {
+          "item": "egg_fish",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            2
           ]
         }
       ]
@@ -40316,6 +40526,102 @@
             10,
             30
           ]
+        },
+        {
+          "item": "cereal_fp2",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cereal_fp3",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cereal_fp4",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cereal_fp5",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "cereal_fp6",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foodplace_food",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foodplace_snack_bar",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "PBJ_Toast",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -41295,6 +41601,64 @@
           "charges": [
             1,
             1
+          ]
+        },
+        {
+          "item": "foodplace_food",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foodplace_snack_bar",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "foodplace_zero_drink",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ],
+          "container": "can_drink"
+        },
+        {
+          "item": "snowcone",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ],
+          "container": "cup_plastic"
+        },
+        {
+          "item": "napkin",
+          "weight": 0.2,
+          "count": [
+            1,
+            3
           ]
         }
       ]
@@ -47592,6 +47956,138 @@
           ]
         },
         {
+          "item": "mre_sfettuccine",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_cheesetort",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_mushroomfettuccine",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_ravioli",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_pizza",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_potato",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_zapplesauce",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_poppyseed_cake",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_chocolate_cake",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_strawberry_cake",
+          "weight": 0.0075,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rehydrated_poultry",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "drum_percussion_primitive",
           "weight": 0.03,
           "count": [
@@ -49308,6 +49804,18 @@
           "count": [
             1,
             1
+          ]
+        },
+        {
+          "item": "egg_fish",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            4
           ]
         },
         {
@@ -64154,6 +64662,126 @@
           "item": "UPS_OFF",
           "weight": 0.08,
           "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_sfettuccine",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_cheesetort",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_mushroomfettuccine",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_ravioli",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_pizza",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_potato",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_zapplesauce",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_poppyseed_cake",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_chocolate_cake",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_strawberry_cake",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
             1,
             1
           ]
@@ -87179,6 +87807,126 @@
             1
           ],
           "container": "bottle_plastic"
+        },
+        {
+          "item": "mre_sfettuccine",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_cheesetort",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_mushroomfettuccine",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_ravioli",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_pizza",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_potato",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_zapplesauce",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_poppyseed_cake",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_chocolate_cake",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_strawberry_cake",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -94863,6 +95611,126 @@
           ]
         },
         {
+          "item": "mre_sfettuccine",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_cheesetort",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_mushroomfettuccine",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_ravioli",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_pizza",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_potato",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_zapplesauce",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_poppyseed_cake",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_chocolate_cake",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mre_strawberry_cake",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "p50",
           "weight": 0.006,
           "count": [
@@ -99038,6 +99906,18 @@
             10,
             25
           ]
+        },
+        {
+          "item": "seed_flower",
+          "weight": 0.1,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            2,
+            8
+          ]
         }
       ]
     },
@@ -99834,6 +100714,19 @@
             1,
             1
           ]
+        },
+        {
+          "item": "honey_gold",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            2
+          ],
+          "container": "jug_plastic"
         },
         {
           "item": "screw_press",
