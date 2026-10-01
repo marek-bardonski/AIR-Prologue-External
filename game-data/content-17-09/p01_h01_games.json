@@ -1,0 +1,1068 @@
+{
+  "group": "p01_h01_games",
+  "source": "01.10.2026 import: board games old and new, a talking doll, pom poms, and a few things to take apart or use up",
+  "items": [
+    {
+      "id": "pictionary",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "monopoly",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "dnd",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "dnd_2",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "dnd_3",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "g_warhammer",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "g_warhammer40k",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "catan",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "agricola",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "soyang",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "friday",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "nemo",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "knight_mage",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "pandemic",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "scythe_game",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "spirit_island",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "terraforming_mercury",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "viticulture",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "feast_for_odin",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "fields_of_arle",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "gloomhaven",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "le_havre",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "mansions_of_madness",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "world_nations",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "ambush",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "ranger",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "openfire",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "clue",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "tic_tac",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "small_chess",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "checkers",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "small_checkers",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "makeshift_checkers",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "chinese_checkers",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "mancala",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "connect_four",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "rummy",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "othello",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "scrabble",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "ouija",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "senet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "mahjong",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "chaturanga",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "backgammon",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.0075
+        }
+      ]
+    },
+    {
+      "id": "latrunculi",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "go",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.015
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.0075
+        }
+      ]
+    },
+    {
+      "id": "shogi",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "hnefatafl",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "alquerque",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "domino",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "makeshift_dominoes",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.02
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.003
+        }
+      ]
+    },
+    {
+      "id": "jackstraws",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "snakesnladders",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "ludo",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "poppirate",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.02
+        },
+        {
+          "table": "shop",
+          "weight": 0.01
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.005
+        }
+      ]
+    },
+    {
+      "id": "battleship",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "shop",
+          "weight": 0.02
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "pom_poms",
+      "loot": [
+        {
+          "table": "house_clothes",
+          "weight": 0.01
+        },
+        {
+          "table": "house_common",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "creepy_doll",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "ruins",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "mic_stand_tall",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "paint_yellow",
+      "loot": [
+        {
+          "table": "shop_hardware",
+          "weight": 0.1,
+          "charges": [
+            1,
+            1
+          ],
+          "container": "jug_plastic"
+        },
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.05,
+          "charges": [
+            1,
+            1
+          ],
+          "container": "jug_plastic"
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01,
+          "charges": [
+            1,
+            1
+          ],
+          "container": "jug_plastic"
+        }
+      ]
+    },
+    {
+      "id": "manhole_cover",
+      "loot": [
+        {
+          "table": "road",
+          "weight": 0.05
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "id": "parachute_mil",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.012
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.001
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:makeshift_checkers",
+    "recipe:makeshift_dominoes",
+    "recipe:tic_tac"
+  ],
+  "notes": [
+    "Every game carries CDDA's PLAY_GAME and is played through the games rule (rules.json games.kinds.game).",
+    "Left out: toys, stationery and ornaments with nothing behind them."
+  ]
+}
