@@ -88,7 +88,12 @@ NEW = ('wheel_motorbike wheel_motorbike_or wheel_wood wheel_wood_b engine_1cyl_s
        'alternator_motorbike hdframe folding_frame frame_wood_light seat_back seat_back_leather controls_electronic '
        'hand_controls motorcycle_headlight floodlight directed_floodlight horn_car horn_bicycle muffler basketlg '
        'basketlg_folding basketsm mountable_cooler plating_steel plating_hard plating_spiked plating_wood '
-       'plating_superalloy storage_battery_mount handheld_battery_mount').split()
+       'plating_superalloy storage_battery_mount handheld_battery_mount '
+       # 01.10.2026: small petrol engines, diesels, light frames, two more wheels, reinforced lamps, light plating
+       'engine_1cyl engine_1cyl_med engine_1cyl_large engine_vtwin engine_1cyl_diesel_large diesel_engine_inline1 '
+       'diesel_engine_inline4 diesel_engine_v6 diesel_engine_v8 diesel_engine_i6 diesel_engine_v12 '
+       'engine_electric_enhanced xlframe foldxlframe folding_wooden_frame wheel_armor wheel_small headlight_reinforced '
+       'wide_headlight_reinforced integrated_cooler plating_chitin rebar_plate').split()
 sizes = {}
 for id in NEW + list(catalog):
     p = add_part(id) if id in NEW else resolve(id)[0]
@@ -122,6 +127,29 @@ FITS = {
     'engine_v6': fit('engine', [C], power='combustion', speed=6.9, fuel=1.25),
     'engine_v8': fit('engine', [C], power='combustion', speed=7.8, fuel=1.5),
     'engine_v12': fit('engine', [C], power='combustion', speed=8.4, fuel=2),
+    # 01.10.2026. A diesel burns diesel only (fuelItem): slower and thriftier than a petrol engine of its size.
+    'engine_1cyl': fit('engine', [B], power='combustion', speed=1.3, fuel=.08, startsInstantly=True),
+    'engine_1cyl_med': fit('engine', [B, M], power='combustion', speed=2.4, fuel=.2, startsInstantly=True),
+    'engine_1cyl_large': fit('engine', [M], power='combustion', speed=3.2, fuel=.3),
+    'engine_vtwin': fit('engine', [M], power='combustion', speed=4.8, fuel=.6),
+    'engine_1cyl_diesel_large': fit('engine', [M], power='combustion', speed=2.9, fuel=.22, fuelItem='diesel'),
+    'diesel_engine_inline1': fit('engine', [M], power='combustion', speed=3.8, fuel=.4, fuelItem='diesel'),
+    'diesel_engine_inline4': fit('engine', [M, C], power='combustion', speed=5.6, fuel=.8, fuelItem='diesel'),
+    'diesel_engine_v6': fit('engine', [C], power='combustion', speed=6.5, fuel=1.0, fuelItem='diesel'),
+    'diesel_engine_v8': fit('engine', [C], power='combustion', speed=7.3, fuel=1.2, fuelItem='diesel'),
+    'diesel_engine_i6': fit('engine', [C], power='combustion', speed=7.6, fuel=1.4, fuelItem='diesel'),
+    'diesel_engine_v12': fit('engine', [C], power='combustion', speed=8.0, fuel=1.6, fuelItem='diesel'),
+    'engine_electric_enhanced': fit('engine', [C], power='electric', speed=6.4, kjPerHex=380, quiet=.85),
+    'xlframe': fit('frame', [B, M], speed=1.08, wear=1.6),
+    'foldxlframe': fit('frame', [B], speed=1.1, wear=1.8),
+    'folding_wooden_frame': fit('frame', [B], speed=.95, wear=1.9),
+    'wheel_armor': fit('wheel', [C], terrain={'road': .9, 'field': 1.2, 'hills': 1.2}, wear=.5),
+    'wheel_small': fit('wheel', [B], terrain={'road': .9, 'field': .8, 'hills': .8}, wear=1.2),
+    'headlight_reinforced': fit('light', [C], light=True, kjPerHex=2),
+    'wide_headlight_reinforced': fit('light', [C], light=True, kjPerHex=3),
+    'integrated_cooler': fit('cargo', [C], cargoL=25),
+    'plating_chitin': fit('armor', [M, C], speed=.98, shield=.8),
+    'rebar_plate': fit('armor', [M, C], speed=.96, shield=.8),
     'battery_car': fit('battery', [M, C]),
     'battery_motorbike': fit('battery', [B, M]),
     'battery_motorbike_small': fit('battery', [B, M]),
