@@ -1,0 +1,2817 @@
+{
+  "group": "p01_g02_ammo",
+  "source": "01.10.2026 import: rounds for the new calibres, tracers and service loads, the hand-loads still missing, and the cases they leave",
+  "items": [
+    {
+      "id": "303_bthp",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.06,
+          "charges": [
+            4,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.004,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_303sp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_303fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_303sp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_303fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "57mm_ss",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "57mm_lf",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_57mm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "762_51_incendiary",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "762_51_m993",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "bp_762_51_incendiary",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_762_51_incendiary",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_454_Casull",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_357sig_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_357sig_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_357sig_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_357sig_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_357sig_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "460sw_jhp",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_460sw_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_46mm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_9mmP2",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "556_mk262",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "556_mk318",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "556_m855a1",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "556_incendiary",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "556_m995",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "bp_556_incendiary",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_556_incendiary",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_300blk",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_300blk_ss",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_300blk_ss",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_10mm_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_10mm_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_10mmP",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_38_special_p",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "762_25hot",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "762_25typeP",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "3006_incendiary",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "bp_3006_incendiary",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_3006_incendiary",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_shot_dragon",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_shot_dragon",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "shot_dragon",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "38super_fmj",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_38super_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_38super_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_38super",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_38_super",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_38_super_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_300_winmag",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_30carbine_jsp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_30carbine_jsp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_30carbine_jsp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_30carbine",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "9x18mmP2",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            5,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_9x18mmfmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_9x18mmP2",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_9x18mmfmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_9x18mmfmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_380_p",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_270win_jsp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_270win_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_270win_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_458wm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_458wm",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "50_incendiary",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "50bmg",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "50match",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "50ss",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "reloaded_50_incendiary",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_50bmg",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_50ss",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_50_incendiary",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_50match",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_50ss",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "4570_pen",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.06,
+          "charges": [
+            4,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.004,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_4570_pen",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_4570_low",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_500_Magnum",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_500_Magnum",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "338lapua_hpbt",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "338lapua_fmjbt",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "338lapua_api",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "bp_338lapua_hpbt",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_338lapua_fmjbt",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_338lapua_api",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_338lapua_hpbt",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_338lapua_fmjbt",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_338lapua_api",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_45colt_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_45colt_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_45colt_fmj",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "450_ftx",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "450_penetrator",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "bp_450_ftx",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_450_penetrator",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_450_ftx",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_450_penetrator",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "77mm_arisaka_jsp",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.06,
+          "charges": [
+            4,
+            15
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.01,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "house_common",
+          "weight": 0.004,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_77mm_arisaka_jsp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_77mm_arisaka_jsp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_32_acp_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "reloaded_32_acp_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "matchhead_32_acp_jhp",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "545_ap",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05,
+          "charges": [
+            5,
+            20
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.006,
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "reloaded_545_ap",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "bp_545_ap",
+      "loot": [
+        {
+          "table": "roadside_garage",
+          "weight": 0.015,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01,
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
+        }
+      ]
+    },
+    {
+      "id": "50_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "unprimed_50_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "338lapua_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "unprimed_338lapua_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "450_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "unprimed_450_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "458wm_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "unprimed_458wm_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "77arisaka_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "unprimed_77arisaka_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        }
+      ]
+    },
+    {
+      "id": "300blk_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "500_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "unprimed_500_casing",
+      "loot": [
+        {
+          "table": "discovery_workshop",
+          "weight": 0.015
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:bp_10mm_jhp",
+    "recipe:bp_270win_fmj",
+    "recipe:bp_270win_jsp",
+    "recipe:bp_3006_incendiary",
+    "recipe:bp_300_winmag",
+    "recipe:bp_300blk",
+    "recipe:bp_300blk_ss",
+    "recipe:bp_303fmj",
+    "recipe:bp_303sp",
+    "recipe:bp_30carbine_jsp",
+    "recipe:bp_32_acp_jhp",
+    "recipe:bp_338lapua_api",
+    "recipe:bp_338lapua_fmjbt",
+    "recipe:bp_338lapua_hpbt",
+    "recipe:bp_357sig_fmj",
+    "recipe:bp_357sig_jhp",
+    "recipe:bp_38super",
+    "recipe:bp_38super_fmj",
+    "recipe:bp_450_ftx",
+    "recipe:bp_450_penetrator",
+    "recipe:bp_454_Casull",
+    "recipe:bp_458wm",
+    "recipe:bp_45colt_fmj",
+    "recipe:bp_46mm",
+    "recipe:bp_500_Magnum",
+    "recipe:bp_50_incendiary",
+    "recipe:bp_50match",
+    "recipe:bp_50ss",
+    "recipe:bp_545_ap",
+    "recipe:bp_556_incendiary",
+    "recipe:bp_57mm",
+    "recipe:bp_762_51_incendiary",
+    "recipe:bp_762_51_incendiary:from_308",
+    "recipe:bp_77mm_arisaka_jsp",
+    "recipe:bp_9x18mmfmj",
+    "recipe:bp_shot_dragon",
+    "recipe:bp_shot_dragon:with dowel",
+    "recipe:matchhead_10mm_jhp",
+    "recipe:matchhead_30carbine",
+    "recipe:matchhead_30carbine_jsp",
+    "recipe:matchhead_32_acp_jhp",
+    "recipe:matchhead_357sig_fmj",
+    "recipe:matchhead_357sig_jhp",
+    "recipe:matchhead_38_super",
+    "recipe:matchhead_38_super_fmj",
+    "recipe:matchhead_45colt_fmj",
+    "recipe:matchhead_9x18mmfmj",
+    "recipe:reloaded_10mmP",
+    "recipe:reloaded_270win_fmj",
+    "recipe:reloaded_3006_incendiary",
+    "recipe:reloaded_300blk_ss",
+    "recipe:reloaded_303fmj",
+    "recipe:reloaded_303sp",
+    "recipe:reloaded_30carbine_jsp",
+    "recipe:reloaded_32_acp_jhp",
+    "recipe:reloaded_338lapua_api",
+    "recipe:reloaded_338lapua_fmjbt",
+    "recipe:reloaded_338lapua_hpbt",
+    "recipe:reloaded_357sig_jhp",
+    "recipe:reloaded_380_p",
+    "recipe:reloaded_38_special_p",
+    "recipe:reloaded_38super_fmj",
+    "recipe:reloaded_450_ftx",
+    "recipe:reloaded_450_penetrator",
+    "recipe:reloaded_4570_low",
+    "recipe:reloaded_4570_pen",
+    "recipe:reloaded_458wm",
+    "recipe:reloaded_45colt_fmj",
+    "recipe:reloaded_460sw_jhp",
+    "recipe:reloaded_500_Magnum",
+    "recipe:reloaded_50_incendiary",
+    "recipe:reloaded_50bmg",
+    "recipe:reloaded_50ss",
+    "recipe:reloaded_545_ap",
+    "recipe:reloaded_556_incendiary",
+    "recipe:reloaded_762_51_incendiary",
+    "recipe:reloaded_762_51_incendiary:from_308",
+    "recipe:reloaded_77mm_arisaka_jsp",
+    "recipe:reloaded_9mmP2",
+    "recipe:reloaded_9x18mmP2",
+    "recipe:reloaded_9x18mmfmj",
+    "recipe:reloaded_shot_dragon"
+  ],
+  "notes": [
+    "ranged.json ammoFactor.byId: armour-piercing, overpressure and hot loads 1.08, match and barrier loads 1.05, subsonic 0.85, dragon's breath 0.8; tracers count as ball.",
+    "Service loads (tracer, AP, .50, .338) need danger 3, the rest danger 2."
+  ]
+}

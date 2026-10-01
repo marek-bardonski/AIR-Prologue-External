@@ -210,7 +210,115 @@
     "reloaded_38_super",
     "reloaded_460sw",
     "reloaded_270win_jsp",
-    "reloaded_300blk"
+    "reloaded_300blk",
+    "303_bthp",
+    "bp_303sp",
+    "bp_303fmj",
+    "reloaded_303sp",
+    "reloaded_303fmj",
+    "57mm_ss",
+    "57mm_lf",
+    "bp_57mm",
+    "762_51_incendiary",
+    "762_51_m993",
+    "bp_762_51_incendiary",
+    "reloaded_762_51_incendiary",
+    "bp_454_Casull",
+    "reloaded_357sig_jhp",
+    "bp_357sig_fmj",
+    "bp_357sig_jhp",
+    "matchhead_357sig_fmj",
+    "matchhead_357sig_jhp",
+    "460sw_jhp",
+    "reloaded_460sw_jhp",
+    "bp_46mm",
+    "reloaded_9mmP2",
+    "556_mk262",
+    "556_mk318",
+    "556_m855a1",
+    "556_incendiary",
+    "556_m995",
+    "bp_556_incendiary",
+    "reloaded_556_incendiary",
+    "bp_300blk",
+    "bp_300blk_ss",
+    "reloaded_300blk_ss",
+    "bp_10mm_jhp",
+    "matchhead_10mm_jhp",
+    "reloaded_10mmP",
+    "reloaded_38_special_p",
+    "762_25hot",
+    "762_25typeP",
+    "3006_incendiary",
+    "bp_3006_incendiary",
+    "reloaded_3006_incendiary",
+    "reloaded_shot_dragon",
+    "bp_shot_dragon",
+    "shot_dragon",
+    "38super_fmj",
+    "reloaded_38super_fmj",
+    "bp_38super_fmj",
+    "bp_38super",
+    "matchhead_38_super",
+    "matchhead_38_super_fmj",
+    "bp_300_winmag",
+    "bp_30carbine_jsp",
+    "reloaded_30carbine_jsp",
+    "matchhead_30carbine_jsp",
+    "matchhead_30carbine",
+    "9x18mmP2",
+    "bp_9x18mmfmj",
+    "reloaded_9x18mmP2",
+    "reloaded_9x18mmfmj",
+    "matchhead_9x18mmfmj",
+    "reloaded_380_p",
+    "bp_270win_jsp",
+    "reloaded_270win_fmj",
+    "bp_270win_fmj",
+    "reloaded_458wm",
+    "bp_458wm",
+    "50_incendiary",
+    "50bmg",
+    "50match",
+    "50ss",
+    "reloaded_50_incendiary",
+    "reloaded_50bmg",
+    "reloaded_50ss",
+    "bp_50_incendiary",
+    "bp_50match",
+    "bp_50ss",
+    "4570_pen",
+    "reloaded_4570_pen",
+    "reloaded_4570_low",
+    "bp_500_Magnum",
+    "reloaded_500_Magnum",
+    "338lapua_hpbt",
+    "338lapua_fmjbt",
+    "338lapua_api",
+    "bp_338lapua_hpbt",
+    "bp_338lapua_fmjbt",
+    "bp_338lapua_api",
+    "reloaded_338lapua_hpbt",
+    "reloaded_338lapua_fmjbt",
+    "reloaded_338lapua_api",
+    "reloaded_45colt_fmj",
+    "bp_45colt_fmj",
+    "matchhead_45colt_fmj",
+    "450_ftx",
+    "450_penetrator",
+    "bp_450_ftx",
+    "bp_450_penetrator",
+    "reloaded_450_ftx",
+    "reloaded_450_penetrator",
+    "77mm_arisaka_jsp",
+    "bp_77mm_arisaka_jsp",
+    "reloaded_77mm_arisaka_jsp",
+    "bp_32_acp_jhp",
+    "reloaded_32_acp_jhp",
+    "matchhead_32_acp_jhp",
+    "545_ap",
+    "reloaded_545_ap",
+    "bp_545_ap"
   ],
   "guns": {
     "pipe_shotgun": {
@@ -1842,6 +1950,534 @@
       "damage": 27,
       "range": 14,
       "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "fn_p90": {
+      "capacity": 50,
+      "damage": 26,
+      "range": 14,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "p50": {
+      "capacity": 50,
+      "damage": 26,
+      "range": 14,
+      "accuracy": 1,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "ruger_57": {
+      "capacity": 20,
+      "damage": 26,
+      "range": 14,
+      "accuracy": 1,
+      "reloadCost": 180,
+      "fireCost": 70
+    },
+    "m14ebr": {
+      "capacity": 20,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "m240": {
+      "capacity": 100,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 0,
+      "reloadCost": 500,
+      "fireCost": 70
+    },
+    "m60": {
+      "capacity": 100,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 0,
+      "reloadCost": 500,
+      "fireCost": 70
+    },
+    "m60_semi": {
+      "capacity": 100,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 0,
+      "reloadCost": 500,
+      "fireCost": 80
+    },
+    "scar_h": {
+      "capacity": 20,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "scar_h_mk20": {
+      "capacity": 20,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "scar_17s": {
+      "capacity": 20,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "M24": {
+      "capacity": 5,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 210,
+      "fireCost": 110
+    },
+    "hk417_13": {
+      "capacity": 20,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "m110a1": {
+      "capacity": 20,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "ak308": {
+      "capacity": 20,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "rfb_308": {
+      "capacity": 20,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "calico": {
+      "capacity": 50,
+      "damage": 28,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 260,
+      "fireCost": 70
+    },
+    "hk_mp5_semi_pistol": {
+      "capacity": 20,
+      "damage": 26,
+      "range": 13,
+      "accuracy": 2,
+      "reloadCost": 180,
+      "fireCost": 70
+    },
+    "briefcase_smg": {
+      "capacity": 20,
+      "damage": 28,
+      "range": 15,
+      "accuracy": -2,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "glock_18c": {
+      "capacity": 17,
+      "damage": 26,
+      "range": 13,
+      "accuracy": 1,
+      "reloadCost": 180,
+      "fireCost": 70
+    },
+    "m11": {
+      "capacity": 13,
+      "damage": 26,
+      "range": 13,
+      "accuracy": 1,
+      "reloadCost": 180,
+      "fireCost": 70
+    },
+    "colt_ro635": {
+      "capacity": 25,
+      "damage": 28,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "bt_apc9k": {
+      "capacity": 20,
+      "damage": 28,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "modular_ar15": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 320,
+      "fireCost": 80
+    },
+    "modular_ar_pistol": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 13,
+      "accuracy": 3,
+      "reloadCost": 320,
+      "fireCost": 80
+    },
+    "modular_m27_assault_rifle": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 320,
+      "fireCost": 70
+    },
+    "scar_l": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "m249": {
+      "capacity": 100,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 0,
+      "reloadCost": 450,
+      "fireCost": 70
+    },
+    "m249_semi": {
+      "capacity": 100,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 0,
+      "reloadCost": 450,
+      "fireCost": 80
+    },
+    "modular_m4_carbine": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 320,
+      "fireCost": 70
+    },
+    "modular_m16a4": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 320,
+      "fireCost": 80
+    },
+    "modular_m16_auto_rifle": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 320,
+      "fireCost": 70
+    },
+    "ak556": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "mdrx": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "cz600": {
+      "capacity": 5,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 210,
+      "fireCost": 110
+    },
+    "rdb_223": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "iwi_tavor_x95_300blk": {
+      "capacity": 30,
+      "damage": 34,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "hk_mp5_10_semi": {
+      "capacity": 30,
+      "damage": 32,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 80
+    },
+    "TDI_10": {
+      "capacity": 15,
+      "damage": 30,
+      "range": 13,
+      "accuracy": 1,
+      "reloadCost": 180,
+      "fireCost": 70
+    },
+    "combination_gun": {
+      "capacity": 1,
+      "damage": 44,
+      "range": 15,
+      "accuracy": 0,
+      "reloadCost": 120,
+      "fireCost": 100
+    },
+    "2_shot_special": {
+      "capacity": 2,
+      "damage": 21,
+      "range": 10,
+      "accuracy": -1,
+      "reloadCost": 170,
+      "fireCost": 100
+    },
+    "ashot": {
+      "capacity": 1,
+      "damage": 33,
+      "range": 9,
+      "accuracy": -2,
+      "reloadCost": 120,
+      "fireCost": 100
+    },
+    "m1014": {
+      "capacity": 5,
+      "damage": 36,
+      "range": 11,
+      "accuracy": 1,
+      "reloadCost": 210,
+      "fireCost": 70
+    },
+    "ar12_shotgun": {
+      "capacity": 10,
+      "damage": 36,
+      "range": 11,
+      "accuracy": 1,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "gfy_1": {
+      "capacity": 10,
+      "damage": 36,
+      "range": 11,
+      "accuracy": 1,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "m26_mass_standalone": {
+      "capacity": 5,
+      "damage": 36,
+      "range": 11,
+      "accuracy": 1,
+      "reloadCost": 220,
+      "fireCost": 110
+    },
+    "m2010": {
+      "capacity": 5,
+      "damage": 46,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 110
+    },
+    "weatherby_5": {
+      "capacity": 3,
+      "damage": 46,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 150,
+      "fireCost": 110
+    },
+    "mac_11": {
+      "capacity": 32,
+      "damage": 23,
+      "range": 13,
+      "accuracy": -1,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "win70_458": {
+      "capacity": 3,
+      "damage": 52,
+      "range": 14,
+      "accuracy": 3,
+      "reloadCost": 150,
+      "fireCost": 110
+    },
+    "m107a1": {
+      "capacity": 10,
+      "damage": 58,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 300,
+      "fireCost": 80
+    },
+    "as50": {
+      "capacity": 5,
+      "damage": 58,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 300,
+      "fireCost": 80
+    },
+    "tac50": {
+      "capacity": 5,
+      "damage": 58,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 280,
+      "fireCost": 110
+    },
+    "bfg50": {
+      "capacity": 1,
+      "damage": 58,
+      "range": 15,
+      "accuracy": 2,
+      "reloadCost": 160,
+      "fireCost": 100
+    },
+    "obrez": {
+      "capacity": 5,
+      "damage": 39,
+      "range": 13,
+      "accuracy": -1,
+      "reloadCost": 200,
+      "fireCost": 110
+    },
+    "pressin": {
+      "capacity": 2,
+      "damage": 16,
+      "range": 9,
+      "accuracy": -1,
+      "reloadCost": 140,
+      "fireCost": 100
+    },
+    "tac338": {
+      "capacity": 10,
+      "damage": 47,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 110
+    },
+    "savage112": {
+      "capacity": 1,
+      "damage": 47,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 140,
+      "fireCost": 100
+    },
+    "mrad_smr": {
+      "capacity": 10,
+      "damage": 47,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 110
+    },
+    "axmc": {
+      "capacity": 10,
+      "damage": 47,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 320,
+      "fireCost": 110
+    },
+    "bond_410": {
+      "capacity": 2,
+      "damage": 29,
+      "range": 12,
+      "accuracy": 0,
+      "reloadCost": 150,
+      "fireCost": 100
+    },
+    "TDI": {
+      "capacity": 26,
+      "damage": 31,
+      "range": 14,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "modular_ump": {
+      "capacity": 25,
+      "damage": 31,
+      "range": 14,
+      "accuracy": 2,
+      "reloadCost": 220,
+      "fireCost": 70
+    },
+    "ruger_arr": {
+      "capacity": 3,
+      "damage": 42,
+      "range": 13,
+      "accuracy": 3,
+      "reloadCost": 220,
+      "fireCost": 110
+    },
+    "type99": {
+      "capacity": 5,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 260,
+      "fireCost": 110
+    },
+    "type99_sniper": {
+      "capacity": 5,
+      "damage": 42,
+      "range": 15,
+      "accuracy": 3,
+      "reloadCost": 260,
+      "fireCost": 110
+    },
+    "kord": {
+      "capacity": 30,
+      "damage": 33,
+      "range": 15,
+      "accuracy": 3,
       "reloadCost": 220,
       "fireCost": 70
     }

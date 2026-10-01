@@ -12025,6 +12025,13 @@
         "level": 1
       },
       {
+        "key": "recipe:bp_shot_dragon:with dowel",
+        "result": "bp_shot_dragon",
+        "name": "12 gauge dragon's breath, black powder",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
         "key": "recipe:bp_shot_slug:with dowel",
         "result": "bp_shot_slug",
         "name": "12 gauge slug, black powder",
@@ -12057,13 +12064,6 @@
         "result": "bone_glue",
         "name": "bone glue",
         "skill": "survival",
-        "level": 1
-      },
-      {
-        "key": "recipe:bp_shot_dragon:with dowel",
-        "result": "bp_shot_dragon",
-        "name": "bp shot dragon",
-        "skill": "fabrication",
         "level": 1
       },
       {
@@ -19889,7 +19889,7 @@
       {
         "key": "recipe:ashot",
         "result": "ashot",
-        "name": "ashot",
+        "name": "12 gauge pistol",
         "skill": "mechanics",
         "level": 2
       },
@@ -19957,6 +19957,20 @@
         "level": 2
       },
       {
+        "key": "recipe:bp_shot_dragon",
+        "result": "bp_shot_dragon",
+        "name": "12 gauge dragon's breath, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_shot_dragon",
+        "result": "reloaded_shot_dragon",
+        "name": "12 gauge dragon's breath, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:bp_shot_slug",
         "result": "bp_shot_slug",
         "name": "12 gauge slug, black powder",
@@ -20013,23 +20027,9 @@
         "level": 3
       },
       {
-        "key": "recipe:bp_shot_dragon",
-        "result": "bp_shot_dragon",
-        "name": "bp shot dragon",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:improve_sights",
         "result": "improve_sights",
         "name": "improve sights",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_shot_dragon",
-        "result": "reloaded_shot_dragon",
-        "name": "reloaded shot dragon",
         "skill": "fabrication",
         "level": 3
       },
@@ -20190,6 +20190,13 @@
     ],
     "manual_pistol": [
       {
+        "key": "recipe:reloaded_38_special_p",
+        "result": "reloaded_38_special_p",
+        "name": ".38 Special +P, reloaded",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
         "key": "recipe:bp_38_special",
         "result": "bp_38_special",
         "name": ".38 Special JHP, black powder",
@@ -20207,6 +20214,20 @@
         "key": "recipe:reloaded_38_special",
         "result": "reloaded_38_special",
         "name": ".38 Special JHP, reloaded",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
+        "key": "recipe:matchhead_38_super_fmj",
+        "result": "matchhead_38_super_fmj",
+        "name": ".38 Super FMJ, matchhead powder",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
+        "key": "recipe:reloaded_38super_fmj",
+        "result": "reloaded_38super_fmj",
+        "name": ".38 Super FMJ, reloaded",
         "skill": "fabrication",
         "level": 1
       },
@@ -20260,31 +20281,10 @@
         "level": 1
       },
       {
-        "key": "recipe:matchhead_38_super_fmj",
-        "result": "matchhead_38_super_fmj",
-        "name": "matchhead 38 super fmj",
-        "skill": "fabrication",
-        "level": 1
-      },
-      {
         "key": "recipe:pipe_cleaner",
         "result": "pipe_cleaner",
         "name": "pipe cleaner",
         "skill": "mechanics",
-        "level": 1
-      },
-      {
-        "key": "recipe:reloaded_38_special_p",
-        "result": "reloaded_38_special_p",
-        "name": "reloaded 38 special p",
-        "skill": "fabrication",
-        "level": 1
-      },
-      {
-        "key": "recipe:reloaded_38super_fmj",
-        "result": "reloaded_38super_fmj",
-        "name": "reloaded 38super fmj",
-        "skill": "fabrication",
         "level": 1
       },
       {
@@ -20414,6 +20414,13 @@
         "level": 2
       },
       {
+        "key": "recipe:bp_57mm",
+        "result": "bp_57mm",
+        "name": "5.7x28mm, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
         "key": "recipe:bp_9x18mm",
         "result": "bp_9x18mm",
         "name": "9x18mm, black powder",
@@ -20452,13 +20459,6 @@
         "key": "recipe:reloaded_9mmfmj",
         "result": "reloaded_9mmfmj",
         "name": "9x19mm FMJ, reloaded",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:bp_57mm",
-        "result": "bp_57mm",
-        "name": "bp 57mm",
         "skill": "fabrication",
         "level": 2
       },
@@ -20519,9 +20519,44 @@
         "level": 3
       },
       {
+        "key": "recipe:bp_357sig_fmj",
+        "result": "bp_357sig_fmj",
+        "name": ".357 SIG FMJ, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:matchhead_357sig_fmj",
+        "result": "matchhead_357sig_fmj",
+        "name": ".357 SIG FMJ, matchhead powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:reloaded_357sig_fmj",
         "result": "reloaded_357sig_fmj",
         "name": ".357 SIG FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_357sig_jhp",
+        "result": "bp_357sig_jhp",
+        "name": ".357 SIG JHP, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:matchhead_357sig_jhp",
+        "result": "matchhead_357sig_jhp",
+        "name": ".357 SIG JHP, matchhead powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_357sig_jhp",
+        "result": "reloaded_357sig_jhp",
+        "name": ".357 SIG JHP, reloaded",
         "skill": "fabrication",
         "level": 3
       },
@@ -20533,9 +20568,37 @@
         "level": 3
       },
       {
+        "key": "recipe:bp_38super_fmj",
+        "result": "bp_38super_fmj",
+        "name": ".38 Super FMJ, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_38super",
+        "result": "bp_38super",
+        "name": ".38 Super JHP, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:matchhead_38_super",
+        "result": "matchhead_38_super",
+        "name": ".38 Super JHP, matchhead powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:reloaded_38_super",
         "result": "reloaded_38_super",
         "name": ".38 Super JHP, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_380_p",
+        "result": "reloaded_380_p",
+        "name": ".380 ACP +P, reloaded",
         "skill": "fabrication",
         "level": 3
       },
@@ -20589,6 +20652,13 @@
         "level": 3
       },
       {
+        "key": "recipe:reloaded_10mmP",
+        "result": "reloaded_10mmP",
+        "name": "10mm Auto +P, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:bp_10mm_fmj",
         "result": "bp_10mm_fmj",
         "name": "10mm Auto FMJ, black powder",
@@ -20606,6 +20676,20 @@
         "key": "recipe:reloaded_10mm_fmj",
         "result": "reloaded_10mm_fmj",
         "name": "10mm Auto FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_10mm_jhp",
+        "result": "bp_10mm_jhp",
+        "name": "10mm Auto JHP, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:matchhead_10mm_jhp",
+        "result": "matchhead_10mm_jhp",
+        "name": "10mm Auto JHP, matchhead powder",
         "skill": "fabrication",
         "level": 3
       },
@@ -20645,41 +20729,6 @@
         "level": 3
       },
       {
-        "key": "recipe:bp_10mm_jhp",
-        "result": "bp_10mm_jhp",
-        "name": "bp 10mm jhp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_357sig_fmj",
-        "result": "bp_357sig_fmj",
-        "name": "bp 357sig fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_357sig_jhp",
-        "result": "bp_357sig_jhp",
-        "name": "bp 357sig jhp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_38super",
-        "result": "bp_38super",
-        "name": "bp 38super",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_38super_fmj",
-        "result": "bp_38super_fmj",
-        "name": "bp 38super fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:grip",
         "result": "grip",
         "name": "grip",
@@ -20708,34 +20757,6 @@
         "level": 3
       },
       {
-        "key": "recipe:matchhead_10mm_jhp",
-        "result": "matchhead_10mm_jhp",
-        "name": "matchhead 10mm jhp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:matchhead_357sig_fmj",
-        "result": "matchhead_357sig_fmj",
-        "name": "matchhead 357sig fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:matchhead_357sig_jhp",
-        "result": "matchhead_357sig_jhp",
-        "name": "matchhead 357sig jhp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:matchhead_38_super",
-        "result": "matchhead_38_super",
-        "name": "matchhead 38 super",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:muzzle_weight",
         "result": "muzzle_weight",
         "name": "muzzle weight",
@@ -20746,27 +20767,6 @@
         "key": "recipe:pistol_stock:with_plastic_molding",
         "result": "pistol_stock",
         "name": "pistol stock",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_10mmP",
-        "result": "reloaded_10mmP",
-        "name": "reloaded 10mmP",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_357sig_jhp",
-        "result": "reloaded_357sig_jhp",
-        "name": "reloaded 357sig jhp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_380_p",
-        "result": "reloaded_380_p",
-        "name": "reloaded 380 p",
         "skill": "fabrication",
         "level": 3
       },
@@ -20820,9 +20820,30 @@
         "level": 4
       },
       {
+        "key": "recipe:reloaded_45colt_fmj",
+        "result": "reloaded_45colt_fmj",
+        "name": ".45 Colt +P FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:reloaded_45colt_jhp",
         "result": "reloaded_45colt_jhp",
         "name": ".45 Colt +P JHP, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:bp_45colt_fmj",
+        "result": "bp_45colt_fmj",
+        "name": ".45 Colt FMJ, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:matchhead_45colt_fmj",
+        "result": "matchhead_45colt_fmj",
+        "name": ".45 Colt FMJ, matchhead powder",
         "skill": "fabrication",
         "level": 4
       },
@@ -20862,16 +20883,37 @@
         "level": 4
       },
       {
-        "key": "recipe:bp_45colt_fmj",
-        "result": "bp_45colt_fmj",
-        "name": "bp 45colt fmj",
+        "key": "recipe:reloaded_9x18mmP2",
+        "result": "reloaded_9x18mmP2",
+        "name": "9x18mm +P+, reloaded",
         "skill": "fabrication",
         "level": 4
       },
       {
         "key": "recipe:bp_9x18mmfmj",
         "result": "bp_9x18mmfmj",
-        "name": "bp 9x18mmfmj",
+        "name": "9x18mm FMJ, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:matchhead_9x18mmfmj",
+        "result": "matchhead_9x18mmfmj",
+        "name": "9x18mm FMJ, matchhead powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_9x18mmfmj",
+        "result": "reloaded_9x18mmfmj",
+        "name": "9x18mm FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_9mmP2",
+        "result": "reloaded_9mmP2",
+        "name": "9x19mm +P+, reloaded",
         "skill": "fabrication",
         "level": 4
       },
@@ -20886,20 +20928,6 @@
         "key": "recipe:grip_mount",
         "result": "grip_mount",
         "name": "grip mount",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:matchhead_45colt_fmj",
-        "result": "matchhead_45colt_fmj",
-        "name": "matchhead 45colt fmj",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:matchhead_9x18mmfmj",
-        "result": "matchhead_9x18mmfmj",
-        "name": "matchhead 9x18mmfmj",
         "skill": "fabrication",
         "level": 4
       },
@@ -20921,34 +20949,6 @@
         "key": "recipe:rail_mount",
         "result": "rail_mount",
         "name": "rail mount",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_45colt_fmj",
-        "result": "reloaded_45colt_fmj",
-        "name": "reloaded 45colt fmj",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_9mmP2",
-        "result": "reloaded_9mmP2",
-        "name": "reloaded 9mmP2",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_9x18mmfmj",
-        "result": "reloaded_9x18mmfmj",
-        "name": "reloaded 9x18mmfmj",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_9x18mmP2",
-        "result": "reloaded_9x18mmP2",
-        "name": "reloaded 9x18mmP2",
         "skill": "fabrication",
         "level": 4
       },
@@ -21065,16 +21065,16 @@
         "level": 5
       },
       {
-        "key": "recipe:reloaded_454_Casull",
-        "result": "reloaded_454_Casull",
-        "name": ".454 Casull, reloaded",
+        "key": "recipe:bp_454_Casull",
+        "result": "bp_454_Casull",
+        "name": ".454 Casull, black powder",
         "skill": "fabrication",
         "level": 7
       },
       {
-        "key": "recipe:bp_454_Casull",
-        "result": "bp_454_Casull",
-        "name": "bp 454 Casull",
+        "key": "recipe:reloaded_454_Casull",
+        "result": "reloaded_454_Casull",
+        "name": ".454 Casull, reloaded",
         "skill": "fabrication",
         "level": 7
       },
@@ -21095,7 +21095,14 @@
       {
         "key": "recipe:bp_500_Magnum",
         "result": "bp_500_Magnum",
-        "name": "bp 500 Magnum",
+        "name": ".500 S&W Magnum, black powder",
+        "skill": "fabrication",
+        "level": 8
+      },
+      {
+        "key": "recipe:reloaded_500_Magnum",
+        "result": "reloaded_500_Magnum",
+        "name": ".500 S&W Magnum, reloaded",
         "skill": "fabrication",
         "level": 8
       },
@@ -21117,13 +21124,6 @@
         "key": "recipe:matchhead_50ae_jhp",
         "result": "matchhead_50ae_jhp",
         "name": "matchhead 50ae jhp",
-        "skill": "fabrication",
-        "level": 8
-      },
-      {
-        "key": "recipe:reloaded_500_Magnum",
-        "result": "reloaded_500_Magnum",
-        "name": "reloaded 500 Magnum",
         "skill": "fabrication",
         "level": 8
       },
@@ -21842,6 +21842,13 @@
         "name": "turret mount",
         "skill": "mechanics",
         "level": 2
+      },
+      {
+        "key": "recipe:turret_controls",
+        "result": "turret_controls",
+        "name": "turret controls",
+        "skill": "electronics",
+        "level": 4
       }
     ],
     "book_archery": [
@@ -22657,6 +22664,13 @@
         "level": 1
       },
       {
+        "key": "recipe:bp_shot_dragon:with dowel",
+        "result": "bp_shot_dragon",
+        "name": "12 gauge dragon's breath, black powder",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
         "key": "recipe:bp_shot_slug:with dowel",
         "result": "bp_shot_slug",
         "name": "12 gauge slug, black powder",
@@ -22667,13 +22681,6 @@
         "key": "recipe:bp_shot_scrap:with dowel",
         "result": "bp_shot_scrap",
         "name": "12 gauge, black powder, scrap loaded",
-        "skill": "fabrication",
-        "level": 1
-      },
-      {
-        "key": "recipe:bp_shot_dragon:with dowel",
-        "result": "bp_shot_dragon",
-        "name": "bp shot dragon",
         "skill": "fabrication",
         "level": 1
       },
@@ -24764,6 +24771,27 @@
         "name": "drive by wire controls",
         "skill": "mechanics",
         "level": 7
+      },
+      {
+        "key": "recipe:bot_crows_m240",
+        "result": "bot_crows_m240",
+        "name": "bot crows m240",
+        "skill": "electronics",
+        "level": 9
+      },
+      {
+        "key": "recipe:bot_rifleturret",
+        "result": "bot_rifleturret",
+        "name": "bot rifleturret",
+        "skill": "electronics",
+        "level": 9
+      },
+      {
+        "key": "recipe:bot_turret",
+        "result": "bot_turret",
+        "name": "bot turret",
+        "skill": "electronics",
+        "level": 9
       }
     ],
     "recipe_lab_elec": [
@@ -24850,6 +24878,27 @@
         "name": "bot manhack",
         "skill": "electronics",
         "level": 6
+      },
+      {
+        "key": "recipe:bot_crows_m240",
+        "result": "bot_crows_m240",
+        "name": "bot crows m240",
+        "skill": "electronics",
+        "level": 7
+      },
+      {
+        "key": "recipe:bot_rifleturret",
+        "result": "bot_rifleturret",
+        "name": "bot rifleturret",
+        "skill": "electronics",
+        "level": 7
+      },
+      {
+        "key": "recipe:bot_turret",
+        "result": "bot_turret",
+        "name": "bot turret",
+        "skill": "electronics",
+        "level": 7
       },
       {
         "key": "recipe:telepad",
@@ -28430,6 +28479,27 @@
         "level": 1
       },
       {
+        "key": "recipe:bp_270win_fmj",
+        "result": "bp_270win_fmj",
+        "name": ".270 Winchester FMJ, black powder",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
+        "key": "recipe:reloaded_270win_fmj",
+        "result": "reloaded_270win_fmj",
+        "name": ".270 Winchester FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
+        "key": "recipe:bp_270win_jsp",
+        "result": "bp_270win_jsp",
+        "name": ".270 Winchester JSP, black powder",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
         "key": "recipe:reloaded_270win_jsp",
         "result": "reloaded_270win_jsp",
         "name": ".270 Winchester JSP, reloaded",
@@ -28472,20 +28542,6 @@
         "level": 1
       },
       {
-        "key": "recipe:bp_270win_fmj",
-        "result": "bp_270win_fmj",
-        "name": "bp 270win fmj",
-        "skill": "fabrication",
-        "level": 1
-      },
-      {
-        "key": "recipe:bp_270win_jsp",
-        "result": "bp_270win_jsp",
-        "name": "bp 270win jsp",
-        "skill": "fabrication",
-        "level": 1
-      },
-      {
         "key": "recipe:gunpowder",
         "result": "gunpowder",
         "name": "mixed smokeless gunpowder",
@@ -28493,11 +28549,18 @@
         "level": 1
       },
       {
-        "key": "recipe:reloaded_270win_fmj",
-        "result": "reloaded_270win_fmj",
-        "name": "reloaded 270win fmj",
+        "key": "recipe:bp_3006_incendiary",
+        "result": "bp_3006_incendiary",
+        "name": ".30-06 tracer, black powder",
         "skill": "fabrication",
-        "level": 1
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_3006_incendiary",
+        "result": "reloaded_3006_incendiary",
+        "name": ".30-06 tracer, reloaded",
+        "skill": "fabrication",
+        "level": 2
       },
       {
         "key": "recipe:bp_308",
@@ -28528,9 +28591,51 @@
         "level": 2
       },
       {
+        "key": "recipe:bp_357sig_fmj",
+        "result": "bp_357sig_fmj",
+        "name": ".357 SIG FMJ, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:matchhead_357sig_fmj",
+        "result": "matchhead_357sig_fmj",
+        "name": ".357 SIG FMJ, matchhead powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
         "key": "recipe:reloaded_357sig_fmj",
         "result": "reloaded_357sig_fmj",
         "name": ".357 SIG FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:bp_357sig_jhp",
+        "result": "bp_357sig_jhp",
+        "name": ".357 SIG JHP, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:matchhead_357sig_jhp",
+        "result": "matchhead_357sig_jhp",
+        "name": ".357 SIG JHP, matchhead powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_357sig_jhp",
+        "result": "reloaded_357sig_jhp",
+        "name": ".357 SIG JHP, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_38_special_p",
+        "result": "reloaded_38_special_p",
+        "name": ".38 Special +P, reloaded",
         "skill": "fabrication",
         "level": 2
       },
@@ -28552,6 +28657,20 @@
         "key": "recipe:reloaded_38_special",
         "result": "reloaded_38_special",
         "name": ".38 Special JHP, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:matchhead_38_super_fmj",
+        "result": "matchhead_38_super_fmj",
+        "name": ".38 Super FMJ, matchhead powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_38super_fmj",
+        "result": "reloaded_38super_fmj",
+        "name": ".38 Super FMJ, reloaded",
         "skill": "fabrication",
         "level": 2
       },
@@ -28619,6 +28738,13 @@
         "level": 2
       },
       {
+        "key": "recipe:reloaded_4570_pen",
+        "result": "reloaded_4570_pen",
+        "name": ".45-70 +P penetrator, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
         "key": "recipe:reloaded_4570_bp",
         "result": "reloaded_4570_bp",
         "name": ".45-70 LFN, black powder",
@@ -28626,9 +28752,44 @@
         "level": 2
       },
       {
+        "key": "recipe:reloaded_4570_low",
+        "result": "reloaded_4570_low",
+        "name": ".45-70 LFN, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
         "key": "recipe:reloaded_4570_sp",
         "result": "reloaded_4570_sp",
         "name": ".45-70 SP, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:bp_450_ftx",
+        "result": "bp_450_ftx",
+        "name": ".450 Bushmaster FTX, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_450_ftx",
+        "result": "reloaded_450_ftx",
+        "name": ".450 Bushmaster FTX, reloaded",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:bp_450_penetrator",
+        "result": "bp_450_penetrator",
+        "name": ".450 Bushmaster Xtreme Hunter, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_450_penetrator",
+        "result": "reloaded_450_penetrator",
+        "name": ".450 Xtreme Hunter, reloaded",
         "skill": "fabrication",
         "level": 2
       },
@@ -28650,6 +28811,20 @@
         "key": "recipe:3006_clip",
         "result": "3006_clip",
         "name": "3006 clip",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:bp_545_ap",
+        "result": "bp_545_ap",
+        "name": "5.45x39mm AP, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
+        "key": "recipe:reloaded_545_ap",
+        "result": "reloaded_545_ap",
+        "name": "5.45x39mm AP, reloaded",
         "skill": "fabrication",
         "level": 2
       },
@@ -28794,41 +28969,6 @@
         "level": 2
       },
       {
-        "key": "recipe:bp_3006_incendiary",
-        "result": "bp_3006_incendiary",
-        "name": "bp 3006 incendiary",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:bp_357sig_fmj",
-        "result": "bp_357sig_fmj",
-        "name": "bp 357sig fmj",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:bp_357sig_jhp",
-        "result": "bp_357sig_jhp",
-        "name": "bp 357sig jhp",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:bp_450_ftx",
-        "result": "bp_450_ftx",
-        "name": "bp 450 ftx",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:bp_450_penetrator",
-        "result": "bp_450_penetrator",
-        "name": "bp 450 penetrator",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
         "key": "recipe:bp_50beowulf_penetrator",
         "result": "bp_50beowulf_penetrator",
         "name": "bp 50beowulf penetrator",
@@ -28839,13 +28979,6 @@
         "key": "recipe:bp_50beowulf_xtp",
         "result": "bp_50beowulf_xtp",
         "name": "bp 50beowulf xtp",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:bp_545_ap",
-        "result": "bp_545_ap",
-        "name": "bp 545 ap",
         "skill": "fabrication",
         "level": 2
       },
@@ -28892,83 +29025,6 @@
         "level": 2
       },
       {
-        "key": "recipe:matchhead_357sig_fmj",
-        "result": "matchhead_357sig_fmj",
-        "name": "matchhead 357sig fmj",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:matchhead_357sig_jhp",
-        "result": "matchhead_357sig_jhp",
-        "name": "matchhead 357sig jhp",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:matchhead_38_super_fmj",
-        "result": "matchhead_38_super_fmj",
-        "name": "matchhead 38 super fmj",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_3006_incendiary",
-        "result": "reloaded_3006_incendiary",
-        "name": "reloaded 3006 incendiary",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_357sig_jhp",
-        "result": "reloaded_357sig_jhp",
-        "name": "reloaded 357sig jhp",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_38_special_p",
-        "result": "reloaded_38_special_p",
-        "name": "reloaded 38 special p",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_38super_fmj",
-        "result": "reloaded_38super_fmj",
-        "name": "reloaded 38super fmj",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_450_ftx",
-        "result": "reloaded_450_ftx",
-        "name": "reloaded 450 ftx",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_450_penetrator",
-        "result": "reloaded_450_penetrator",
-        "name": "reloaded 450 penetrator",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_4570_low",
-        "result": "reloaded_4570_low",
-        "name": "reloaded 4570 low",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_4570_pen",
-        "result": "reloaded_4570_pen",
-        "name": "reloaded 4570 pen",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
         "key": "recipe:reloaded_50beowulf_penetrator",
         "result": "reloaded_50beowulf_penetrator",
         "name": "reloaded 50beowulf penetrator",
@@ -28979,13 +29035,6 @@
         "key": "recipe:reloaded_50beowulf_xtp",
         "result": "reloaded_50beowulf_xtp",
         "name": "reloaded 50beowulf xtp",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
-        "key": "recipe:reloaded_545_ap",
-        "result": "reloaded_545_ap",
-        "name": "reloaded 545 ap",
         "skill": "fabrication",
         "level": 2
       },
@@ -29039,9 +29088,37 @@
         "level": 2
       },
       {
+        "key": "recipe:bp_30carbine_jsp",
+        "result": "bp_30carbine_jsp",
+        "name": ".30 Carbine JSP, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:matchhead_30carbine_jsp",
+        "result": "matchhead_30carbine_jsp",
+        "name": ".30 Carbine JSP, matchhead powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_30carbine_jsp",
+        "result": "reloaded_30carbine_jsp",
+        "name": ".30 Carbine JSP, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:bp_30carbine",
         "result": "bp_30carbine",
         "name": ".30 Carbine, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:matchhead_30carbine",
+        "result": "matchhead_30carbine",
+        "name": ".30 Carbine, matchhead powder",
         "skill": "fabrication",
         "level": 3
       },
@@ -29095,9 +29172,58 @@
         "level": 3
       },
       {
+        "key": "recipe:bp_300blk_ss",
+        "result": "bp_300blk_ss",
+        "name": ".300 AAC Blackout subsonic, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_300blk_ss",
+        "result": "reloaded_300blk_ss",
+        "name": ".300 AAC Blackout subsonic, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_300blk",
+        "result": "bp_300blk",
+        "name": ".300 AAC Blackout, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:reloaded_300blk",
         "result": "reloaded_300blk",
         "name": ".300 AAC Blackout, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_303fmj",
+        "result": "bp_303fmj",
+        "name": ".303 British FMJ, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_303fmj",
+        "result": "reloaded_303fmj",
+        "name": ".303 British FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_303sp",
+        "result": "bp_303sp",
+        "name": ".303 British JSP, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_303sp",
+        "result": "reloaded_303sp",
+        "name": ".303 British JSP, reloaded",
         "skill": "fabrication",
         "level": 3
       },
@@ -29242,9 +29368,30 @@
         "level": 3
       },
       {
+        "key": "recipe:reloaded_45colt_fmj",
+        "result": "reloaded_45colt_fmj",
+        "name": ".45 Colt +P FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:reloaded_45colt_jhp",
         "result": "reloaded_45colt_jhp",
         "name": ".45 Colt +P JHP, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_45colt_fmj",
+        "result": "bp_45colt_fmj",
+        "name": ".45 Colt FMJ, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:matchhead_45colt_fmj",
+        "result": "matchhead_45colt_fmj",
+        "name": ".45 Colt FMJ, matchhead powder",
         "skill": "fabrication",
         "level": 3
       },
@@ -29291,6 +29438,27 @@
         "level": 3
       },
       {
+        "key": "recipe:reloaded_460sw_jhp",
+        "result": "reloaded_460sw_jhp",
+        "name": ".460 S&W Magnum JHP, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_shot_dragon",
+        "result": "bp_shot_dragon",
+        "name": "12 gauge dragon's breath, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_shot_dragon",
+        "result": "reloaded_shot_dragon",
+        "name": "12 gauge dragon's breath, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:bp_shot_slug",
         "result": "bp_shot_slug",
         "name": "12 gauge slug, black powder",
@@ -29301,6 +29469,13 @@
         "key": "recipe:reloaded_shot_slug",
         "result": "reloaded_shot_slug",
         "name": "12 gauge slug, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_46mm",
+        "result": "bp_46mm",
+        "name": "4.6x30mm, black powder",
         "skill": "fabrication",
         "level": 3
       },
@@ -29347,6 +29522,13 @@
         "level": 3
       },
       {
+        "key": "recipe:bp_57mm",
+        "result": "bp_57mm",
+        "name": "5.7x28mm, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:reloaded_57mm",
         "result": "reloaded_57mm",
         "name": "5.7x28mm, reloaded",
@@ -29389,6 +29571,48 @@
         "level": 3
       },
       {
+        "key": "recipe:bp_77mm_arisaka_jsp",
+        "result": "bp_77mm_arisaka_jsp",
+        "name": "7.7x58mm Japanese JSP, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_77mm_arisaka_jsp",
+        "result": "reloaded_77mm_arisaka_jsp",
+        "name": "7.7x58mm Japanese JSP, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_9x18mmP2",
+        "result": "reloaded_9x18mmP2",
+        "name": "9x18mm +P+, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_9x18mmfmj",
+        "result": "bp_9x18mmfmj",
+        "name": "9x18mm FMJ, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:matchhead_9x18mmfmj",
+        "result": "matchhead_9x18mmfmj",
+        "name": "9x18mm FMJ, matchhead powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_9x18mmfmj",
+        "result": "reloaded_9x18mmfmj",
+        "name": "9x18mm FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:bp_9mmfmj",
         "result": "bp_9mmfmj",
         "name": "9x19mm FMJ, black powder",
@@ -29417,41 +29641,6 @@
         "level": 3
       },
       {
-        "key": "recipe:bp_300blk",
-        "result": "bp_300blk",
-        "name": "bp 300blk",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_300blk_ss",
-        "result": "bp_300blk_ss",
-        "name": "bp 300blk ss",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_303fmj",
-        "result": "bp_303fmj",
-        "name": "bp 303fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_303sp",
-        "result": "bp_303sp",
-        "name": "bp 303sp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_30carbine_jsp",
-        "result": "bp_30carbine_jsp",
-        "name": "bp 30carbine jsp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:bp_40x53mm_buckshot_m169",
         "result": "bp_40x53mm_buckshot_m169",
         "name": "bp 40x53mm buckshot m169",
@@ -29473,48 +29662,6 @@
         "level": 3
       },
       {
-        "key": "recipe:bp_45colt_fmj",
-        "result": "bp_45colt_fmj",
-        "name": "bp 45colt fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_46mm",
-        "result": "bp_46mm",
-        "name": "bp 46mm",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_57mm",
-        "result": "bp_57mm",
-        "name": "bp 57mm",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_77mm_arisaka_jsp",
-        "result": "bp_77mm_arisaka_jsp",
-        "name": "bp 77mm arisaka jsp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_9x18mmfmj",
-        "result": "bp_9x18mmfmj",
-        "name": "bp 9x18mmfmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_shot_dragon",
-        "result": "bp_shot_dragon",
-        "name": "bp shot dragon",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:small_repairkit",
         "result": "small_repairkit",
         "name": "firearm repair kit",
@@ -29526,34 +29673,6 @@
         "result": "incendiary",
         "name": "incendiary",
         "skill": "chemistry",
-        "level": 3
-      },
-      {
-        "key": "recipe:matchhead_30carbine",
-        "result": "matchhead_30carbine",
-        "name": "matchhead 30carbine",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:matchhead_30carbine_jsp",
-        "result": "matchhead_30carbine_jsp",
-        "name": "matchhead 30carbine jsp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:matchhead_45colt_fmj",
-        "result": "matchhead_45colt_fmj",
-        "name": "matchhead 45colt fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:matchhead_9x18mmfmj",
-        "result": "matchhead_9x18mmfmj",
-        "name": "matchhead 9x18mmfmj",
-        "skill": "fabrication",
         "level": 3
       },
       {
@@ -29634,81 +29753,18 @@
         "level": 3
       },
       {
-        "key": "recipe:reloaded_300blk_ss",
-        "result": "reloaded_300blk_ss",
-        "name": "reloaded 300blk ss",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_303fmj",
-        "result": "reloaded_303fmj",
-        "name": "reloaded 303fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_303sp",
-        "result": "reloaded_303sp",
-        "name": "reloaded 303sp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_30carbine_jsp",
-        "result": "reloaded_30carbine_jsp",
-        "name": "reloaded 30carbine jsp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_45colt_fmj",
-        "result": "reloaded_45colt_fmj",
-        "name": "reloaded 45colt fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_460sw_jhp",
-        "result": "reloaded_460sw_jhp",
-        "name": "reloaded 460sw jhp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_77mm_arisaka_jsp",
-        "result": "reloaded_77mm_arisaka_jsp",
-        "name": "reloaded 77mm arisaka jsp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_9x18mmfmj",
-        "result": "reloaded_9x18mmfmj",
-        "name": "reloaded 9x18mmfmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_9x18mmP2",
-        "result": "reloaded_9x18mmP2",
-        "name": "reloaded 9x18mmP2",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_shot_dragon",
-        "result": "reloaded_shot_dragon",
-        "name": "reloaded shot dragon",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:signal_flare",
         "result": "signal_flare",
         "name": "signal flare",
         "skill": "fabrication",
         "level": 3
+      },
+      {
+        "key": "recipe:bp_300_winmag",
+        "result": "bp_300_winmag",
+        "name": ".300 Winchester Magnum, black powder",
+        "skill": "fabrication",
+        "level": 4
       },
       {
         "key": "recipe:reloaded_300_winmag",
@@ -29760,9 +29816,37 @@
         "level": 4
       },
       {
+        "key": "recipe:bp_38super_fmj",
+        "result": "bp_38super_fmj",
+        "name": ".38 Super FMJ, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:bp_38super",
+        "result": "bp_38super",
+        "name": ".38 Super JHP, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:matchhead_38_super",
+        "result": "matchhead_38_super",
+        "name": ".38 Super JHP, matchhead powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:reloaded_38_super",
         "result": "reloaded_38_super",
         "name": ".38 Super JHP, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_380_p",
+        "result": "reloaded_380_p",
+        "name": ".380 ACP +P, reloaded",
         "skill": "fabrication",
         "level": 4
       },
@@ -29809,6 +29893,13 @@
         "level": 4
       },
       {
+        "key": "recipe:reloaded_10mmP",
+        "result": "reloaded_10mmP",
+        "name": "10mm Auto +P, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:bp_10mm_fmj",
         "result": "bp_10mm_fmj",
         "name": "10mm Auto FMJ, black powder",
@@ -29826,6 +29917,20 @@
         "key": "recipe:reloaded_10mm_fmj",
         "result": "reloaded_10mm_fmj",
         "name": "10mm Auto FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:bp_10mm_jhp",
+        "result": "bp_10mm_jhp",
+        "name": "10mm Auto JHP, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:matchhead_10mm_jhp",
+        "result": "matchhead_10mm_jhp",
+        "name": "10mm Auto JHP, matchhead powder",
         "skill": "fabrication",
         "level": 4
       },
@@ -29858,60 +29963,25 @@
         "level": 4
       },
       {
-        "key": "recipe:bp_10mm_jhp",
-        "result": "bp_10mm_jhp",
-        "name": "bp 10mm jhp",
+        "key": "recipe:bp_32_acp_jhp",
+        "result": "bp_32_acp_jhp",
+        "name": ".32 ACP JHP, black powder",
         "skill": "fabrication",
-        "level": 4
+        "level": 5
       },
       {
-        "key": "recipe:bp_300_winmag",
-        "result": "bp_300_winmag",
-        "name": "bp 300 winmag",
+        "key": "recipe:matchhead_32_acp_jhp",
+        "result": "matchhead_32_acp_jhp",
+        "name": ".32 ACP JHP, matchhead powder",
         "skill": "fabrication",
-        "level": 4
+        "level": 5
       },
       {
-        "key": "recipe:bp_38super",
-        "result": "bp_38super",
-        "name": "bp 38super",
+        "key": "recipe:reloaded_32_acp_jhp",
+        "result": "reloaded_32_acp_jhp",
+        "name": ".32 ACP JHP, reloaded",
         "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:bp_38super_fmj",
-        "result": "bp_38super_fmj",
-        "name": "bp 38super fmj",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:matchhead_10mm_jhp",
-        "result": "matchhead_10mm_jhp",
-        "name": "matchhead 10mm jhp",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:matchhead_38_super",
-        "result": "matchhead_38_super",
-        "name": "matchhead 38 super",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_10mmP",
-        "result": "reloaded_10mmP",
-        "name": "reloaded 10mmP",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_380_p",
-        "result": "reloaded_380_p",
-        "name": "reloaded 380 p",
-        "skill": "fabrication",
-        "level": 4
+        "level": 5
       },
       {
         "key": "recipe:bp_32_acp",
@@ -29935,65 +30005,44 @@
         "level": 5
       },
       {
-        "key": "recipe:bp_32_acp_jhp",
-        "result": "bp_32_acp_jhp",
-        "name": "bp 32 acp jhp",
-        "skill": "fabrication",
-        "level": 5
-      },
-      {
         "key": "recipe:bp_556_incendiary",
         "result": "bp_556_incendiary",
-        "name": "bp 556 incendiary",
-        "skill": "fabrication",
-        "level": 5
-      },
-      {
-        "key": "recipe:bp_762_51_incendiary",
-        "result": "bp_762_51_incendiary",
-        "name": "bp 762 51 incendiary",
-        "skill": "fabrication",
-        "level": 5
-      },
-      {
-        "key": "recipe:bp_762_51_incendiary:from_308",
-        "result": "bp_762_51_incendiary",
-        "name": "bp 762 51 incendiary",
-        "skill": "fabrication",
-        "level": 5
-      },
-      {
-        "key": "recipe:matchhead_32_acp_jhp",
-        "result": "matchhead_32_acp_jhp",
-        "name": "matchhead 32 acp jhp",
-        "skill": "fabrication",
-        "level": 5
-      },
-      {
-        "key": "recipe:reloaded_32_acp_jhp",
-        "result": "reloaded_32_acp_jhp",
-        "name": "reloaded 32 acp jhp",
+        "name": "5.56 NATO tracer, black powder",
         "skill": "fabrication",
         "level": 5
       },
       {
         "key": "recipe:reloaded_556_incendiary",
         "result": "reloaded_556_incendiary",
-        "name": "reloaded 556 incendiary",
+        "name": "5.56 NATO tracer, reloaded",
+        "skill": "fabrication",
+        "level": 5
+      },
+      {
+        "key": "recipe:bp_762_51_incendiary",
+        "result": "bp_762_51_incendiary",
+        "name": "7.62x51mm tracer, black powder",
+        "skill": "fabrication",
+        "level": 5
+      },
+      {
+        "key": "recipe:bp_762_51_incendiary:from_308",
+        "result": "bp_762_51_incendiary",
+        "name": "7.62x51mm tracer, black powder",
         "skill": "fabrication",
         "level": 5
       },
       {
         "key": "recipe:reloaded_762_51_incendiary",
         "result": "reloaded_762_51_incendiary",
-        "name": "reloaded 762 51 incendiary",
+        "name": "7.62x51mm tracer, reloaded",
         "skill": "fabrication",
         "level": 5
       },
       {
         "key": "recipe:reloaded_762_51_incendiary:from_308",
         "result": "reloaded_762_51_incendiary",
-        "name": "reloaded 762 51 incendiary",
+        "name": "7.62x51mm tracer, reloaded",
         "skill": "fabrication",
         "level": 5
       },
@@ -30005,6 +30054,55 @@
         "level": 5
       },
       {
+        "key": "recipe:bp_338lapua_fmjbt",
+        "result": "bp_338lapua_fmjbt",
+        "name": ".338 Lapua AP485, black powder",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:reloaded_338lapua_fmjbt",
+        "result": "reloaded_338lapua_fmjbt",
+        "name": ".338 Lapua AP485, reloaded",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:bp_338lapua_api",
+        "result": "bp_338lapua_api",
+        "name": ".338 Lapua API526, black powder",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:reloaded_338lapua_api",
+        "result": "reloaded_338lapua_api",
+        "name": ".338 Lapua API526, reloaded",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:bp_338lapua_hpbt",
+        "result": "bp_338lapua_hpbt",
+        "name": ".338 Lapua HPBT, black powder",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:reloaded_338lapua_hpbt",
+        "result": "reloaded_338lapua_hpbt",
+        "name": ".338 Lapua HPBT, reloaded",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:bp_454_Casull",
+        "result": "bp_454_Casull",
+        "name": ".454 Casull, black powder",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
         "key": "recipe:reloaded_454_Casull",
         "result": "reloaded_454_Casull",
         "name": ".454 Casull, reloaded",
@@ -30012,37 +30110,16 @@
         "level": 6
       },
       {
-        "key": "recipe:bp_338lapua_api",
-        "result": "bp_338lapua_api",
-        "name": "bp 338lapua api",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
-        "key": "recipe:bp_338lapua_fmjbt",
-        "result": "bp_338lapua_fmjbt",
-        "name": "bp 338lapua fmjbt",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
-        "key": "recipe:bp_338lapua_hpbt",
-        "result": "bp_338lapua_hpbt",
-        "name": "bp 338lapua hpbt",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
-        "key": "recipe:bp_454_Casull",
-        "result": "bp_454_Casull",
-        "name": "bp 454 Casull",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
         "key": "recipe:bp_50match",
         "result": "bp_50match",
-        "name": "bp 50match",
+        "name": ".50 BMG Match, black powder",
+        "skill": "fabrication",
+        "level": 6
+      },
+      {
+        "key": "recipe:reloaded_50bmg",
+        "result": "reloaded_50bmg",
+        "name": ".50 BMG Match, reloaded",
         "skill": "fabrication",
         "level": 6
       },
@@ -30054,32 +30131,18 @@
         "level": 6
       },
       {
-        "key": "recipe:reloaded_338lapua_api",
-        "result": "reloaded_338lapua_api",
-        "name": "reloaded 338lapua api",
+        "key": "recipe:bp_458wm",
+        "result": "bp_458wm",
+        "name": ".458 WM, black powder",
         "skill": "fabrication",
-        "level": 6
+        "level": 7
       },
       {
-        "key": "recipe:reloaded_338lapua_fmjbt",
-        "result": "reloaded_338lapua_fmjbt",
-        "name": "reloaded 338lapua fmjbt",
+        "key": "recipe:reloaded_458wm",
+        "result": "reloaded_458wm",
+        "name": ".458 WM, reloaded",
         "skill": "fabrication",
-        "level": 6
-      },
-      {
-        "key": "recipe:reloaded_338lapua_hpbt",
-        "result": "reloaded_338lapua_hpbt",
-        "name": "reloaded 338lapua hpbt",
-        "skill": "fabrication",
-        "level": 6
-      },
-      {
-        "key": "recipe:reloaded_50bmg",
-        "result": "reloaded_50bmg",
-        "name": "reloaded 50bmg",
-        "skill": "fabrication",
-        "level": 6
+        "level": 7
       },
       {
         "key": "recipe:bp_50ae_jhp",
@@ -30096,16 +30159,30 @@
         "level": 7
       },
       {
-        "key": "recipe:bp_458wm",
-        "result": "bp_458wm",
-        "name": "bp 458wm",
+        "key": "recipe:bp_50ss",
+        "result": "bp_50ss",
+        "name": ".50 BMG AP, black powder",
+        "skill": "fabrication",
+        "level": 7
+      },
+      {
+        "key": "recipe:reloaded_50ss",
+        "result": "reloaded_50ss",
+        "name": ".50 BMG AP, reloaded",
         "skill": "fabrication",
         "level": 7
       },
       {
         "key": "recipe:bp_500_Magnum",
         "result": "bp_500_Magnum",
-        "name": "bp 500 Magnum",
+        "name": ".500 S&W Magnum, black powder",
+        "skill": "fabrication",
+        "level": 7
+      },
+      {
+        "key": "recipe:reloaded_500_Magnum",
+        "result": "reloaded_500_Magnum",
+        "name": ".500 S&W Magnum, reloaded",
         "skill": "fabrication",
         "level": 7
       },
@@ -30113,13 +30190,6 @@
         "key": "recipe:bp_50ae_fmj",
         "result": "bp_50ae_fmj",
         "name": "bp 50ae fmj",
-        "skill": "fabrication",
-        "level": 7
-      },
-      {
-        "key": "recipe:bp_50ss",
-        "result": "bp_50ss",
-        "name": "bp 50ss",
         "skill": "fabrication",
         "level": 7
       },
@@ -30138,20 +30208,6 @@
         "level": 7
       },
       {
-        "key": "recipe:reloaded_458wm",
-        "result": "reloaded_458wm",
-        "name": "reloaded 458wm",
-        "skill": "fabrication",
-        "level": 7
-      },
-      {
-        "key": "recipe:reloaded_500_Magnum",
-        "result": "reloaded_500_Magnum",
-        "name": "reloaded 500 Magnum",
-        "skill": "fabrication",
-        "level": 7
-      },
-      {
         "key": "recipe:reloaded_50ae_fmj",
         "result": "reloaded_50ae_fmj",
         "name": "reloaded 50ae fmj",
@@ -30159,23 +30215,16 @@
         "level": 7
       },
       {
-        "key": "recipe:reloaded_50ss",
-        "result": "reloaded_50ss",
-        "name": "reloaded 50ss",
-        "skill": "fabrication",
-        "level": 7
-      },
-      {
         "key": "recipe:bp_50_incendiary",
         "result": "bp_50_incendiary",
-        "name": "bp 50 incendiary",
+        "name": ".50 BMG tracer, black powder",
         "skill": "fabrication",
         "level": 8
       },
       {
         "key": "recipe:reloaded_50_incendiary",
         "result": "reloaded_50_incendiary",
-        "name": "reloaded 50 incendiary",
+        "name": ".50 BMG tracer, reloaded",
         "skill": "fabrication",
         "level": 8
       }
@@ -30359,6 +30408,27 @@
         "level": 2
       },
       {
+        "key": "recipe:bp_270win_fmj",
+        "result": "bp_270win_fmj",
+        "name": ".270 Winchester FMJ, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_270win_fmj",
+        "result": "reloaded_270win_fmj",
+        "name": ".270 Winchester FMJ, reloaded",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_270win_jsp",
+        "result": "bp_270win_jsp",
+        "name": ".270 Winchester JSP, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
         "key": "recipe:reloaded_270win_jsp",
         "result": "reloaded_270win_jsp",
         "name": ".270 Winchester JSP, reloaded",
@@ -30369,6 +30439,20 @@
         "key": "recipe:3006_clip",
         "result": "3006_clip",
         "name": "3006 clip",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:bp_545_ap",
+        "result": "bp_545_ap",
+        "name": "5.45x39mm AP, black powder",
+        "skill": "fabrication",
+        "level": 3
+      },
+      {
+        "key": "recipe:reloaded_545_ap",
+        "result": "reloaded_545_ap",
+        "name": "5.45x39mm AP, reloaded",
         "skill": "fabrication",
         "level": 3
       },
@@ -30429,27 +30513,6 @@
         "level": 3
       },
       {
-        "key": "recipe:bp_270win_fmj",
-        "result": "bp_270win_fmj",
-        "name": "bp 270win fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_270win_jsp",
-        "result": "bp_270win_jsp",
-        "name": "bp 270win jsp",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:bp_545_ap",
-        "result": "bp_545_ap",
-        "name": "bp 545 ap",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:garandclip",
         "result": "garandclip",
         "name": "garandclip",
@@ -30485,20 +30548,6 @@
         "level": 3
       },
       {
-        "key": "recipe:reloaded_270win_fmj",
-        "result": "reloaded_270win_fmj",
-        "name": "reloaded 270win fmj",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
-        "key": "recipe:reloaded_545_ap",
-        "result": "reloaded_545_ap",
-        "name": "reloaded 545 ap",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:smrifle_primer",
         "result": "smrifle_primer",
         "name": "small rifle primer",
@@ -30506,9 +30555,37 @@
         "level": 3
       },
       {
+        "key": "recipe:bp_30carbine_jsp",
+        "result": "bp_30carbine_jsp",
+        "name": ".30 Carbine JSP, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:matchhead_30carbine_jsp",
+        "result": "matchhead_30carbine_jsp",
+        "name": ".30 Carbine JSP, matchhead powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_30carbine_jsp",
+        "result": "reloaded_30carbine_jsp",
+        "name": ".30 Carbine JSP, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:bp_30carbine",
         "result": "bp_30carbine",
         "name": ".30 Carbine, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:matchhead_30carbine",
+        "result": "matchhead_30carbine",
+        "name": ".30 Carbine, matchhead powder",
         "skill": "fabrication",
         "level": 4
       },
@@ -30562,6 +30639,27 @@
         "level": 4
       },
       {
+        "key": "recipe:bp_300blk_ss",
+        "result": "bp_300blk_ss",
+        "name": ".300 AAC Blackout subsonic, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_300blk_ss",
+        "result": "reloaded_300blk_ss",
+        "name": ".300 AAC Blackout subsonic, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:bp_300blk",
+        "result": "bp_300blk",
+        "name": ".300 AAC Blackout, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:reloaded_300blk",
         "result": "reloaded_300blk",
         "name": ".300 AAC Blackout, reloaded",
@@ -30597,6 +30695,13 @@
         "level": 4
       },
       {
+        "key": "recipe:reloaded_4570_pen",
+        "result": "reloaded_4570_pen",
+        "name": ".45-70 +P penetrator, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:reloaded_4570_bp",
         "result": "reloaded_4570_bp",
         "name": ".45-70 LFN, black powder",
@@ -30604,9 +30709,51 @@
         "level": 4
       },
       {
+        "key": "recipe:reloaded_4570_low",
+        "result": "reloaded_4570_low",
+        "name": ".45-70 LFN, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
         "key": "recipe:reloaded_4570_sp",
         "result": "reloaded_4570_sp",
         "name": ".45-70 SP, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:bp_450_ftx",
+        "result": "bp_450_ftx",
+        "name": ".450 Bushmaster FTX, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_450_ftx",
+        "result": "reloaded_450_ftx",
+        "name": ".450 Bushmaster FTX, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:bp_450_penetrator",
+        "result": "bp_450_penetrator",
+        "name": ".450 Bushmaster Xtreme Hunter, black powder",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_450_penetrator",
+        "result": "reloaded_450_penetrator",
+        "name": ".450 Xtreme Hunter, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:bp_46mm",
+        "result": "bp_46mm",
+        "name": "4.6x30mm, black powder",
         "skill": "fabrication",
         "level": 4
       },
@@ -30730,48 +30877,6 @@
         "level": 4
       },
       {
-        "key": "recipe:bp_300blk",
-        "result": "bp_300blk",
-        "name": "bp 300blk",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:bp_300blk_ss",
-        "result": "bp_300blk_ss",
-        "name": "bp 300blk ss",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:bp_30carbine_jsp",
-        "result": "bp_30carbine_jsp",
-        "name": "bp 30carbine jsp",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:bp_450_ftx",
-        "result": "bp_450_ftx",
-        "name": "bp 450 ftx",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:bp_450_penetrator",
-        "result": "bp_450_penetrator",
-        "name": "bp 450 penetrator",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:bp_46mm",
-        "result": "bp_46mm",
-        "name": "bp 46mm",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
         "key": "recipe:bp_50beowulf_penetrator",
         "result": "bp_50beowulf_penetrator",
         "name": "bp 50beowulf penetrator",
@@ -30800,20 +30905,6 @@
         "level": 4
       },
       {
-        "key": "recipe:matchhead_30carbine",
-        "result": "matchhead_30carbine",
-        "name": "matchhead 30carbine",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:matchhead_30carbine_jsp",
-        "result": "matchhead_30carbine_jsp",
-        "name": "matchhead 30carbine jsp",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
         "key": "recipe:offset_sights",
         "result": "offset_sights",
         "name": "offset sights",
@@ -30831,48 +30922,6 @@
         "key": "recipe:reloaded_123ln",
         "result": "reloaded_123ln",
         "name": "reloaded 123ln",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_300blk_ss",
-        "result": "reloaded_300blk_ss",
-        "name": "reloaded 300blk ss",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_30carbine_jsp",
-        "result": "reloaded_30carbine_jsp",
-        "name": "reloaded 30carbine jsp",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_450_ftx",
-        "result": "reloaded_450_ftx",
-        "name": "reloaded 450 ftx",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_450_penetrator",
-        "result": "reloaded_450_penetrator",
-        "name": "reloaded 450 penetrator",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_4570_low",
-        "result": "reloaded_4570_low",
-        "name": "reloaded 4570 low",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_4570_pen",
-        "result": "reloaded_4570_pen",
-        "name": "reloaded 4570 pen",
         "skill": "fabrication",
         "level": 4
       },
@@ -30926,16 +30975,16 @@
         "level": 4
       },
       {
-        "key": "recipe:reloaded_300_winmag",
-        "result": "reloaded_300_winmag",
-        "name": ".300 Winchester Magnum, reloaded",
+        "key": "recipe:bp_300_winmag",
+        "result": "bp_300_winmag",
+        "name": ".300 Winchester Magnum, black powder",
         "skill": "fabrication",
         "level": 5
       },
       {
-        "key": "recipe:bp_300_winmag",
-        "result": "bp_300_winmag",
-        "name": "bp 300 winmag",
+        "key": "recipe:reloaded_300_winmag",
+        "result": "reloaded_300_winmag",
+        "name": ".300 Winchester Magnum, reloaded",
         "skill": "fabrication",
         "level": 5
       },
@@ -31317,6 +31366,13 @@
     ],
     "manual_smg": [
       {
+        "key": "recipe:matchhead_38_super_fmj",
+        "result": "matchhead_38_super_fmj",
+        "name": ".38 Super FMJ, matchhead powder",
+        "skill": "fabrication",
+        "level": 1
+      },
+      {
         "key": "recipe:bp_380_JHP",
         "result": "bp_380_JHP",
         "name": ".380 ACP JHP, black powder",
@@ -31363,13 +31419,6 @@
         "result": "small_repairkit",
         "name": "firearm repair kit",
         "skill": "mechanics",
-        "level": 1
-      },
-      {
-        "key": "recipe:matchhead_38_super_fmj",
-        "result": "matchhead_38_super_fmj",
-        "name": "matchhead 38 super fmj",
-        "skill": "fabrication",
         "level": 1
       },
       {
@@ -31422,6 +31471,13 @@
         "level": 2
       },
       {
+        "key": "recipe:bp_57mm",
+        "result": "bp_57mm",
+        "name": "5.7x28mm, black powder",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
         "key": "recipe:bp_9mmfmj",
         "result": "bp_9mmfmj",
         "name": "9x19mm FMJ, black powder",
@@ -31443,18 +31499,18 @@
         "level": 2
       },
       {
-        "key": "recipe:bp_57mm",
-        "result": "bp_57mm",
-        "name": "bp 57mm",
-        "skill": "fabrication",
-        "level": 2
-      },
-      {
         "key": "recipe:press",
         "result": "press",
         "name": "hand press",
         "skill": "fabrication",
         "level": 2
+      },
+      {
+        "key": "recipe:reloaded_380_p",
+        "result": "reloaded_380_p",
+        "name": ".380 ACP +P, reloaded",
+        "skill": "fabrication",
+        "level": 3
       },
       {
         "key": "recipe:bp_45_acp",
@@ -31492,16 +31548,16 @@
         "level": 3
       },
       {
-        "key": "recipe:reloaded_380_p",
-        "result": "reloaded_380_p",
-        "name": "reloaded 380 p",
-        "skill": "fabrication",
-        "level": 3
-      },
-      {
         "key": "recipe:reloaded_45_super",
         "result": "reloaded_45_super",
         "name": ".45 ACP +P, reloaded",
+        "skill": "fabrication",
+        "level": 4
+      },
+      {
+        "key": "recipe:reloaded_9mmP2",
+        "result": "reloaded_9mmP2",
+        "name": "9x19mm +P+, reloaded",
         "skill": "fabrication",
         "level": 4
       },
@@ -31558,13 +31614,6 @@
         "key": "recipe:recoil_stock",
         "result": "recoil_stock",
         "name": "recoil stock",
-        "skill": "fabrication",
-        "level": 4
-      },
-      {
-        "key": "recipe:reloaded_9mmP2",
-        "result": "reloaded_9mmP2",
-        "name": "reloaded 9mmP2",
         "skill": "fabrication",
         "level": 4
       },

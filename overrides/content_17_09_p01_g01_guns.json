@@ -1,0 +1,99 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p01_g01_guns. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "ITEM",
+    "id": "modular_ar15",
+    "ammo": [
+      "223"
+    ],
+    "weight": "3000 g",
+    "volume": "3250 ml",
+    "//": "AIR has no receiver swaps: the rifle is whole and fixed in its usual calibre"
+  },
+  {
+    "type": "ITEM",
+    "id": "modular_ar_pistol",
+    "ammo": [
+      "223"
+    ],
+    "weight": "2500 g",
+    "volume": "2500 ml",
+    "//": "AIR has no receiver swaps: the rifle is whole and fixed in its usual calibre"
+  },
+  {
+    "type": "ITEM",
+    "id": "modular_m27_assault_rifle",
+    "ammo": [
+      "223"
+    ],
+    "weight": "3600 g",
+    "volume": "3500 ml",
+    "//": "AIR has no receiver swaps: the rifle is whole and fixed in its usual calibre"
+  },
+  {
+    "type": "ITEM",
+    "id": "modular_m4_carbine",
+    "ammo": [
+      "223"
+    ],
+    "weight": "2900 g",
+    "volume": "3000 ml",
+    "//": "AIR has no receiver swaps: the rifle is whole and fixed in its usual calibre"
+  },
+  {
+    "type": "ITEM",
+    "id": "modular_m16a4",
+    "ammo": [
+      "223"
+    ],
+    "weight": "3400 g",
+    "volume": "3800 ml",
+    "//": "AIR has no receiver swaps: the rifle is whole and fixed in its usual calibre"
+  },
+  {
+    "type": "ITEM",
+    "id": "modular_m16_auto_rifle",
+    "ammo": [
+      "223"
+    ],
+    "weight": "3400 g",
+    "volume": "3800 ml",
+    "//": "AIR has no receiver swaps: the rifle is whole and fixed in its usual calibre"
+  },
+  {
+    "type": "ITEM",
+    "id": "mdrx",
+    "ammo": [
+      "223"
+    ],
+    "//": "AIR has no conversion kits: the carbine is fixed in .223"
+  },
+  {
+    "type": "ITEM",
+    "id": "cz600",
+    "ammo": [
+      "223"
+    ],
+    "//": "AIR has no barrel swaps: the carbine is fixed in .223"
+  },
+  {
+    "type": "ITEM",
+    "id": "axmc",
+    "ammo": [
+      "338lapua"
+    ],
+    "//": "AIR has no barrel swaps: the rifle is fixed in .338"
+  },
+  {
+    "type": "ITEM",
+    "id": "modular_ump",
+    "ammo": [
+      "45"
+    ],
+    "weight": "2300 g",
+    "volume": "4401 ml",
+    "//": "AIR has no receiver swaps: the rifle is whole and fixed in its usual calibre"
+  }
+]

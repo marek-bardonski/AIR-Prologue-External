@@ -1474,6 +1474,408 @@
         "range": 14,
         "accuracy": 2,
         "accuracyPerStep": 0.35
+      },
+      "fn_p90": {
+        "damage": 26,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "p50": {
+        "damage": 26,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "ruger_57": {
+        "damage": 26,
+        "range": 14,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "m14ebr": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "m240": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 0,
+        "accuracyPerStep": 0.2
+      },
+      "m60": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 0,
+        "accuracyPerStep": 0.2
+      },
+      "m60_semi": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 0,
+        "accuracyPerStep": 0.2
+      },
+      "scar_h": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "scar_h_mk20": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "scar_17s": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "M24": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "hk417_13": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "m110a1": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "ak308": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "rfb_308": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "calico": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "hk_mp5_semi_pistol": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "briefcase_smg": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": -2,
+        "accuracyPerStep": 0.35
+      },
+      "glock_18c": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "m11": {
+        "damage": 26,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "colt_ro635": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "bt_apc9k": {
+        "damage": 28,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "modular_ar15": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "modular_ar_pistol": {
+        "damage": 34,
+        "range": 13,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "modular_m27_assault_rifle": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "scar_l": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "m249": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 0,
+        "accuracyPerStep": 0.2
+      },
+      "m249_semi": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 0,
+        "accuracyPerStep": 0.2
+      },
+      "modular_m4_carbine": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "modular_m16a4": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "modular_m16_auto_rifle": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "ak556": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "mdrx": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "cz600": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "rdb_223": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "iwi_tavor_x95_300blk": {
+        "damage": 34,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "hk_mp5_10_semi": {
+        "damage": 32,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "TDI_10": {
+        "damage": 30,
+        "range": 13,
+        "accuracy": 1,
+        "accuracyPerStep": 0.35
+      },
+      "combination_gun": {
+        "damage": 44,
+        "range": 15,
+        "accuracy": 0,
+        "accuracyPerStep": 0.2
+      },
+      "2_shot_special": {
+        "damage": 21,
+        "range": 10,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "ashot": {
+        "damage": 33,
+        "range": 9,
+        "accuracy": -2,
+        "accuracyPerStep": 0.4
+      },
+      "m1014": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "ar12_shotgun": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "gfy_1": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.3
+      },
+      "m26_mass_standalone": {
+        "damage": 36,
+        "range": 11,
+        "accuracy": 1,
+        "accuracyPerStep": 0.15
+      },
+      "m2010": {
+        "damage": 46,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "weatherby_5": {
+        "damage": 46,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "mac_11": {
+        "damage": 23,
+        "range": 13,
+        "accuracy": -1,
+        "accuracyPerStep": 0.35
+      },
+      "win70_458": {
+        "damage": 52,
+        "range": 14,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "m107a1": {
+        "damage": 58,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "as50": {
+        "damage": 58,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "tac50": {
+        "damage": 58,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "bfg50": {
+        "damage": 58,
+        "range": 15,
+        "accuracy": 2,
+        "accuracyPerStep": 0.2
+      },
+      "obrez": {
+        "damage": 39,
+        "range": 13,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "pressin": {
+        "damage": 16,
+        "range": 9,
+        "accuracy": -1,
+        "accuracyPerStep": 0.4
+      },
+      "tac338": {
+        "damage": 47,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "savage112": {
+        "damage": 47,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "mrad_smr": {
+        "damage": 47,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "axmc": {
+        "damage": 47,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "bond_410": {
+        "damage": 29,
+        "range": 12,
+        "accuracy": 0,
+        "accuracyPerStep": 0.35
+      },
+      "TDI": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "modular_ump": {
+        "damage": 31,
+        "range": 14,
+        "accuracy": 2,
+        "accuracyPerStep": 0.35
+      },
+      "ruger_arr": {
+        "damage": 42,
+        "range": 13,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "type99": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "type99_sniper": {
+        "damage": 42,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.15
+      },
+      "kord": {
+        "damage": 33,
+        "range": 15,
+        "accuracy": 3,
+        "accuracyPerStep": 0.2
+      },
+      "airspeargun": {
+        "damage": 26,
+        "range": 7,
+        "accuracy": 1,
+        "accuracyPerStep": 0.7
       }
     },
     "ammoFactor": {
@@ -1513,7 +1915,27 @@
         "45colt_cowboy": 0.85,
         "10mmP": 1.08,
         "4570_low": 0.85,
-        "4570_bp": 0.85
+        "4570_bp": 0.85,
+        "303_bthp": 1.05,
+        "57mm_ss": 1.08,
+        "762_51_m993": 1.08,
+        "556_mk262": 1.05,
+        "556_mk318": 1.05,
+        "556_m855a1": 1.05,
+        "556_m995": 1.08,
+        "300blk_ss": 0.85,
+        "762_25hot": 1.08,
+        "762_25typeP": 0.85,
+        "shot_dragon": 0.8,
+        "9x18mmP2": 1.08,
+        "50match": 1.05,
+        "50ss": 1.08,
+        "4570_pen": 1.08,
+        "338lapua_hpbt": 1.05,
+        "338lapua_fmjbt": 1.08,
+        "338lapua_api": 1.08,
+        "450_penetrator": 1.08,
+        "545_ap": 1.08
       }
     }
   },

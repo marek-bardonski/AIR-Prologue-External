@@ -445,7 +445,8 @@
     "recipe:bodypillow",
     "recipe:plastic_jack_o_lantern",
     "recipe:coffee_raw_kentucky",
-    "recipe:radio_car_wheel"
+    "recipe:radio_car_wheel",
+    "recipe:m26_mass_standalone"
   ],
   "include": [
     "recipe:10l_aluminum",
