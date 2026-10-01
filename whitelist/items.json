@@ -6612,5 +6612,27 @@
     "bow_sight",
     "bow_sight_pin",
     "bow_scope"
+  ],
+  "content_17_09_p01_t01_maps": [
+    "roadmap",
+    "trailmap",
+    "touristmap",
+    "restaurantmap",
+    "militarymap",
+    "survivormap",
+    "sewermap",
+    "satellitemap",
+    "urbexmap",
+    "restaurantbrochure",
+    "grocerybrochure",
+    "buylocalpamphlet",
+    "getactivepamphlet",
+    "petpamphlet",
+    "gunnutpamphlet",
+    "historybrochure",
+    "mallbrochure",
+    "furniturebrochure",
+    "technologybrochure",
+    "nightlifepamphlet"
   ]
 }

@@ -59,6 +59,7 @@
     "traps.json",
     "firestarters.json",
     "purifiers.json",
-    "notes.json"
+    "notes.json",
+    "maps.json"
   ]
 }

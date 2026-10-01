@@ -14333,6 +14333,94 @@
           ]
         },
         {
+          "item": "roadmap",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "trailmap",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "restaurantbrochure",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "buylocalpamphlet",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "getactivepamphlet",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "petpamphlet",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gunnutpamphlet",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mallbrochure",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "furniturebrochure",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "technologybrochure",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "nightlifepamphlet",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "radiocontrol",
           "weight": 0.008,
           "count": [
@@ -18108,6 +18196,14 @@
         {
           "item": "holybook_bahai5",
           "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "historybrochure",
+          "weight": 0.1,
           "count": [
             1,
             1
@@ -28868,6 +28964,22 @@
             1,
             4
           ]
+        },
+        {
+          "item": "restaurantmap",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "grocerybrochure",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -34078,6 +34190,46 @@
           ]
         },
         {
+          "item": "touristmap",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "restaurantmap",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "restaurantbrochure",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "grocerybrochure",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "mallbrochure",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "arcade_machine",
           "weight": 0.006,
           "count": [
@@ -38861,6 +39013,38 @@
         },
         {
           "item": "manual_makerspace",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "roadmap",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "touristmap",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "restaurantbrochure",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "nightlifepamphlet",
           "weight": 0.04,
           "count": [
             1,
@@ -44451,6 +44635,14 @@
           "charges": [
             5,
             40
+          ]
+        },
+        {
+          "item": "roadmap",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
           ]
         },
         {
@@ -52811,6 +53003,14 @@
           ]
         },
         {
+          "item": "buylocalpamphlet",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "foldwoodframe",
           "weight": 0.03,
           "count": [
@@ -56460,6 +56660,22 @@
           ]
         },
         {
+          "item": "urbexmap",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "historybrochure",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "violin_golden",
           "weight": 0.004,
           "count": [
@@ -58352,6 +58568,14 @@
         {
           "item": "teeth_macuahuitl",
           "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "trailmap",
+          "weight": 0.1,
           "count": [
             1,
             1
@@ -63187,6 +63411,30 @@
         {
           "item": "knife_KABAR",
           "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "trailmap",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "getactivepamphlet",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gunnutpamphlet",
+          "weight": 0.06,
           "count": [
             1,
             1
@@ -69484,6 +69732,22 @@
           ]
         },
         {
+          "item": "getactivepamphlet",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "petpamphlet",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "oxygen_concentrator",
           "weight": 0.03,
           "count": [
@@ -70909,6 +71173,14 @@
           ]
         },
         {
+          "item": "sewermap",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "diesel_generator",
           "weight": 0.02,
           "count": [
@@ -71684,6 +71956,14 @@
         {
           "item": "shark_suit_faraday",
           "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "technologybrochure",
+          "weight": 0.06,
           "count": [
             1,
             1
@@ -76637,6 +76917,30 @@
         {
           "item": "gun_module",
           "weight": 0.012,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "militarymap",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "satellitemap",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "gunnutpamphlet",
+          "weight": 0.03,
           "count": [
             1,
             1
@@ -84138,6 +84442,30 @@
         {
           "item": "holybook_bahai5",
           "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "touristmap",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "restaurantmap",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "historybrochure",
+          "weight": 0.03,
           "count": [
             1,
             1
@@ -97767,6 +98095,22 @@
             1,
             1
           ]
+        },
+        {
+          "item": "militarymap",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "survivormap",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -105170,6 +105514,22 @@
             1,
             1
           ]
+        },
+        {
+          "item": "survivormap",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "urbexmap",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -106526,6 +106886,14 @@
           ]
         },
         {
+          "item": "satellitemap",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "closed_loop_extractor_large",
           "weight": 0.02,
           "count": [
@@ -107395,6 +107763,14 @@
         {
           "item": "tank_tread",
           "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "satellitemap",
+          "weight": 0.08,
           "count": [
             1,
             1
@@ -117295,6 +117671,22 @@
           ]
         },
         {
+          "item": "survivormap",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "urbexmap",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "chitin_plate",
           "weight": 0.004,
           "count": [
@@ -118932,6 +119324,14 @@
           "charges": [
             2,
             8
+          ]
+        },
+        {
+          "item": "buylocalpamphlet",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
           ]
         }
       ]
@@ -120817,6 +121217,14 @@
           ]
         },
         {
+          "item": "sewermap",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "stationary_water_purifier",
           "weight": 0.05,
           "count": [
@@ -122263,6 +122671,14 @@
           ]
         },
         {
+          "item": "furniturebrochure",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "drill_press",
           "weight": 0.03,
           "count": [
@@ -123003,6 +123419,14 @@
         {
           "item": "tank_tread",
           "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "technologybrochure",
+          "weight": 0.08,
           "count": [
             1,
             1

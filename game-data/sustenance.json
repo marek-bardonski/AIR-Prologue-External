@@ -117,6 +117,7 @@
     "disassemble": "LIGHT_EXERCISE",
     "read": "NO_EXERCISE",
     "write_note": "NO_EXERCISE",
+    "study_map": "NO_EXERCISE",
     "charge_battery": "LIGHT_EXERCISE",
     "fish": "LIGHT_EXERCISE",
     "pray": "NO_EXERCISE",

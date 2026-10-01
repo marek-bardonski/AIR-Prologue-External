@@ -1,0 +1,329 @@
+{
+  "group": "p01_t01_maps",
+  "source": "01.10.2026 import: road maps, guides and brochures, and the table of what each one shows",
+  "items": [
+    {
+      "id": "roadmap",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 0.2
+        },
+        {
+          "table": "car_wreck",
+          "weight": 0.15
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "trailmap",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.2
+        },
+        {
+          "table": "campsite_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "touristmap",
+      "loot": [
+        {
+          "table": "gas_station",
+          "weight": 0.12
+        },
+        {
+          "table": "shop",
+          "weight": 0.06
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "restaurantmap",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "militarymap",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "survivormap",
+      "loot": [
+        {
+          "table": "traveller_cache",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "id": "sewermap",
+      "loot": [
+        {
+          "table": "water_quality_station_supplies",
+          "weight": 0.15
+        },
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "satellitemap",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.08
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "urbexmap",
+      "loot": [
+        {
+          "table": "ruins_shelf",
+          "weight": 0.06
+        },
+        {
+          "table": "discovery_backpack",
+          "weight": 0.06
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "restaurantbrochure",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.04
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.06
+        },
+        {
+          "table": "shop",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "grocerybrochure",
+      "loot": [
+        {
+          "table": "house_kitchen",
+          "weight": 0.05
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "buylocalpamphlet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "farm_barn",
+          "weight": 0.05
+        },
+        {
+          "table": "plant_nursery_supplies",
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "id": "getactivepamphlet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "petpamphlet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "id": "gunnutpamphlet",
+      "loot": [
+        {
+          "table": "ranger_station_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "historybrochure",
+      "loot": [
+        {
+          "table": "house_books",
+          "weight": 0.1
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.04
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "mallbrochure",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "shop",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "id": "furniturebrochure",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "id": "technologybrochure",
+      "loot": [
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.08
+        },
+        {
+          "table": "electrical_workshop_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "house_common",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "nightlifepamphlet",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "gas_station",
+          "weight": 0.04
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:satellitemap:npc_hack"
+  ],
+  "recipesExpected": [],
+  "notes": [
+    "Prologue rule (01.10.2026): studying a map marks the kinds of place it shows, within its reach of where it is read, as seen (game-data/maps.json; game src/game/world/MapItems.js). Reach and kinds are Prologue values, set from what each map is about in CDDA.",
+    "Left out: the subway maps (no subway here) and the note that gives the laboratory away."
+  ]
+}

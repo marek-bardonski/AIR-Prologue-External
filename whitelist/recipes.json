@@ -452,7 +452,8 @@
     "recipe:chainmail_suit_faraday",
     "recipe:hsurvivor_jumpsuit",
     "recipe:teeth_macuahuitl",
-    "recipe:necklace_teeth"
+    "recipe:necklace_teeth",
+    "recipe:satellitemap:npc_hack"
   ],
   "include": [
     "recipe:10l_aluminum",

@@ -1,0 +1,181 @@
+{
+  "//": "Printed maps (Prologue rule, 01.10.2026; game code src/game/world/MapItems.js). Studying a map for `minutes` marks every hex of the listed terrain types within `radius` of where it is read as seen. A map says nothing new within `again` hexes of a place where that copy was already read (default: half its radius, rounded up). Only ordinary places are ever listed: the pinned story places are never shown by a map.",
+  "minutes": 10,
+  "byId": {
+    "roadmap": {
+      "radius": 8,
+      "shows": [
+        "road",
+        "gas_station",
+        "roadside_garage"
+      ]
+    },
+    "trailmap": {
+      "radius": 7,
+      "shows": [
+        "campsite",
+        "ranger_station",
+        "mountaineering_refuge",
+        "logging_camp",
+        "river"
+      ]
+    },
+    "touristmap": {
+      "radius": 6,
+      "shows": [
+        "shop",
+        "campsite",
+        "orchard",
+        "fishing_dock",
+        "ruins",
+        "house"
+      ]
+    },
+    "restaurantmap": {
+      "radius": 5,
+      "shows": [
+        "shop",
+        "farm",
+        "preservation_cellar"
+      ]
+    },
+    "militarymap": {
+      "radius": 10,
+      "shows": [
+        "military_checkpoint",
+        "road"
+      ]
+    },
+    "survivormap": {
+      "radius": 6,
+      "shows": [
+        "campsite",
+        "house",
+        "ruins",
+        "farm",
+        "river"
+      ]
+    },
+    "sewermap": {
+      "radius": 6,
+      "shows": [
+        "river",
+        "water_quality_station",
+        "fishing_dock"
+      ]
+    },
+    "satellitemap": {
+      "radius": 5,
+      "shows": [
+        "forest",
+        "dense_forest",
+        "field",
+        "hills",
+        "river",
+        "road",
+        "farm",
+        "house",
+        "shop",
+        "ruins",
+        "campsite",
+        "orchard"
+      ]
+    },
+    "urbexmap": {
+      "radius": 7,
+      "shows": [
+        "ruins",
+        "research_ruin",
+        "railway_depot",
+        "electrical_workshop"
+      ]
+    },
+    "restaurantbrochure": {
+      "radius": 4,
+      "shows": [
+        "shop",
+        "farm"
+      ]
+    },
+    "grocerybrochure": {
+      "radius": 4,
+      "shows": [
+        "shop",
+        "farm",
+        "orchard",
+        "preservation_cellar"
+      ]
+    },
+    "buylocalpamphlet": {
+      "radius": 4,
+      "shows": [
+        "farm",
+        "orchard",
+        "plant_nursery",
+        "potters_yard"
+      ]
+    },
+    "getactivepamphlet": {
+      "radius": 4,
+      "shows": [
+        "campsite",
+        "fishing_dock",
+        "mountaineering_refuge",
+        "river"
+      ]
+    },
+    "petpamphlet": {
+      "radius": 4,
+      "shows": [
+        "farm",
+        "medical_clinic"
+      ]
+    },
+    "gunnutpamphlet": {
+      "radius": 5,
+      "shows": [
+        "military_checkpoint",
+        "ranger_station"
+      ]
+    },
+    "historybrochure": {
+      "radius": 5,
+      "shows": [
+        "ruins",
+        "research_ruin",
+        "railway_depot"
+      ]
+    },
+    "mallbrochure": {
+      "radius": 4,
+      "shows": [
+        "shop",
+        "tailoring_cooperative"
+      ]
+    },
+    "furniturebrochure": {
+      "radius": 4,
+      "shows": [
+        "house",
+        "machine_tool_shop",
+        "logging_camp"
+      ]
+    },
+    "technologybrochure": {
+      "radius": 4,
+      "shows": [
+        "electrical_workshop",
+        "electronics_reclamation",
+        "automated_distribution"
+      ]
+    },
+    "nightlifepamphlet": {
+      "radius": 4,
+      "shows": [
+        "shop",
+        "gas_station",
+        "house"
+      ]
+    }
+  }
+}
