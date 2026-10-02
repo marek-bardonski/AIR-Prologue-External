@@ -14819,18 +14819,6 @@
             1,
             1
           ]
-        },
-        {
-          "item": "bread_flour",
-          "weight": 0.6,
-          "count": [
-            1,
-            1
-          ],
-          "charges": [
-            2,
-            8
-          ]
         }
       ]
     },
@@ -29383,18 +29371,6 @@
           "count": [
             1,
             1
-          ]
-        },
-        {
-          "item": "bread_flour",
-          "weight": 1.5,
-          "count": [
-            1,
-            1
-          ],
-          "charges": [
-            3,
-            10
           ]
         }
       ]
@@ -53559,18 +53535,6 @@
             10
           ],
           "minDanger": 2
-        },
-        {
-          "item": "bread_flour",
-          "weight": 1,
-          "count": [
-            1,
-            1
-          ],
-          "charges": [
-            3,
-            10
-          ]
         }
       ]
     },
