@@ -61,7 +61,15 @@
     "fleeCost": 250,
     "fleeSteps": 3,
     "fleeBaseChance": 0.15,
-    "fleePerStep": 0.0375
+    "fleePerStep": 0.0375,
+    "temperament": {
+      "//": "Prologue: wildlife may reconsider at the end of an action; harmless creatures and machines never turn aggressive this way.",
+      "attackToFlee": 0.035,
+      "failedEscapeToAttack": 0.04,
+      "perFailedEscape": 0.02,
+      "maxTurnChance": 0.12,
+      "cooldownActions": 2
+    }
   },
   "throwing": {
     "//": "Throwing a rock or a spear: heavier things fly shorter and cost more to loose. A thrown thing stays a close-quarters answer - past five steps you need a bow.",
