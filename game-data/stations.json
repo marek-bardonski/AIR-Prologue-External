@@ -1081,6 +1081,408 @@
           "volumeMl": 300000
         }
       }
+    },
+    "abandoned_house": {
+      "name": "Abandoned house",
+      "//": "Prologue: repair an existing abandoned house in stages. The surviving walls and bed offer a small improvement over the corresponding woodland shelter; repair materials and skills follow the same progression.",
+      "minutes": 60,
+      "consumes": [
+        [
+          [
+            "stick_long",
+            2
+          ],
+          [
+            "stick",
+            6
+          ]
+        ],
+        [
+          [
+            "withered",
+            3
+          ],
+          [
+            "straw_pile",
+            2
+          ],
+          [
+            "pine_bough",
+            4
+          ],
+          [
+            "willowbark",
+            4
+          ],
+          [
+            "birchbark",
+            4
+          ],
+          [
+            "leaves",
+            8
+          ]
+        ]
+      ],
+      "requiredSkills": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 1.1,
+        "windShelter": 0.55,
+        "insulation": 0.15,
+        "rainCover": 0.8,
+        "sleepQuality": 0.7
+      },
+      "requiresTerrain": [
+        "house"
+      ]
+    },
+    "patched_house": {
+      "name": "Patched abandoned house",
+      "minutes": 300,
+      "consumes": [
+        [
+          [
+            "stick_long",
+            10
+          ],
+          [
+            "log",
+            3
+          ]
+        ],
+        [
+          [
+            "pine_bough",
+            24
+          ],
+          [
+            "straw_pile",
+            30
+          ],
+          [
+            "willowbark",
+            20
+          ],
+          [
+            "leaves",
+            40
+          ]
+        ],
+        [
+          [
+            "cordage_6",
+            4
+          ],
+          [
+            "string_6",
+            4
+          ],
+          [
+            "cordage_36",
+            1
+          ],
+          [
+            "string_36",
+            1
+          ],
+          [
+            "rope_6",
+            1
+          ],
+          [
+            "dogbane",
+            8
+          ]
+        ]
+      ],
+      "requiredSkills": [
+        [
+          "survival",
+          1
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 2.1,
+        "windShelter": 0.95,
+        "insulation": 0.35,
+        "rainCover": 1,
+        "sleepQuality": 0.75
+      },
+      "qualities": [
+        [
+          {
+            "id": "CUT",
+            "level": 1
+          }
+        ]
+      ],
+      "upgradesFrom": "abandoned_house",
+      "//": "Prologue: repair an existing abandoned house in stages. The surviving walls and bed offer a small improvement over the corresponding woodland shelter; repair materials and skills follow the same progression.",
+      "requiresTerrain": [
+        "house"
+      ]
+    },
+    "repaired_house": {
+      "name": "Repaired house",
+      "minutes": 2880,
+      "consumes": [
+        [
+          [
+            "log",
+            24
+          ]
+        ],
+        [
+          [
+            "nail",
+            120
+          ],
+          [
+            "cordage_36",
+            8
+          ],
+          [
+            "rope_30",
+            3
+          ]
+        ],
+        [
+          [
+            "clay_lump",
+            30
+          ],
+          [
+            "mortar_adobe",
+            10
+          ]
+        ]
+      ],
+      "requiredSkills": [
+        [
+          "fabrication",
+          2
+        ],
+        [
+          "survival",
+          2
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 3.1,
+        "windShelter": 1,
+        "insulation": 0.65,
+        "rainCover": 1,
+        "sleepQuality": 0.9,
+        "storageVolumeMl": 50000
+      },
+      "qualities": [
+        [
+          {
+            "id": "AXE",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "HAMMER",
+            "level": 1
+          }
+        ]
+      ],
+      "upgradesFrom": "patched_house",
+      "//": "Prologue: repair an existing abandoned house in stages. The surviving walls and bed offer a small improvement over the corresponding woodland shelter; repair materials and skills follow the same progression.",
+      "requiresTerrain": [
+        "house"
+      ]
+    },
+    "insulated_house": {
+      "name": "Insulated house",
+      "minutes": 4320,
+      "consumes": [
+        [
+          [
+            "wood_panel",
+            10
+          ],
+          [
+            "2x4",
+            60
+          ]
+        ],
+        [
+          [
+            "clay_lump",
+            40
+          ],
+          [
+            "mortar_adobe",
+            15
+          ]
+        ],
+        [
+          [
+            "straw_pile",
+            80
+          ],
+          [
+            "pine_bough",
+            40
+          ],
+          [
+            "withered",
+            80
+          ]
+        ],
+        [
+          [
+            "hinge",
+            2
+          ]
+        ]
+      ],
+      "requiredSkills": [
+        [
+          "fabrication",
+          3
+        ],
+        [
+          "survival",
+          3
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 4.1,
+        "windShelter": 1,
+        "insulation": 0.85,
+        "rainCover": 1,
+        "sleepQuality": 1,
+        "storageVolumeMl": 150000
+      },
+      "qualities": [
+        [
+          {
+            "id": "AXE",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "HAMMER",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "SAW_W",
+            "level": 1
+          }
+        ]
+      ],
+      "upgradesFrom": "repaired_house",
+      "//": "Prologue: repair an existing abandoned house in stages. The surviving walls and bed offer a small improvement over the corresponding woodland shelter; repair materials and skills follow the same progression.",
+      "requiresTerrain": [
+        "house"
+      ]
+    },
+    "restored_house": {
+      "name": "Restored house",
+      "minutes": 7200,
+      "consumes": [
+        [
+          [
+            "rock",
+            200
+          ],
+          [
+            "rock_large",
+            20
+          ]
+        ],
+        [
+          [
+            "mortar_adobe",
+            40
+          ],
+          [
+            "clay_lump",
+            100
+          ]
+        ],
+        [
+          [
+            "log",
+            12
+          ],
+          [
+            "2x4",
+            40
+          ]
+        ],
+        [
+          [
+            "hinge",
+            2
+          ]
+        ]
+      ],
+      "requiredSkills": [
+        [
+          "fabrication",
+          4
+        ],
+        [
+          "survival",
+          3
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "shelterLevel": 5.1,
+        "windShelter": 1,
+        "insulation": 0.95,
+        "rainCover": 1,
+        "sleepQuality": 1,
+        "storageVolumeMl": 250000,
+        "hearthBonusC": 4
+      },
+      "qualities": [
+        [
+          {
+            "id": "HAMMER",
+            "level": 2
+          }
+        ],
+        [
+          {
+            "id": "DIG",
+            "level": 1
+          }
+        ]
+      ],
+      "upgradesFrom": "insulated_house",
+      "//": "Prologue: repair an existing abandoned house in stages. The surviving walls and bed offer a small improvement over the corresponding woodland shelter; repair materials and skills follow the same progression.",
+      "requiresTerrain": [
+        "house"
+      ]
     }
   },
   "portableStations": {

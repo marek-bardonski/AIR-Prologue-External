@@ -1,5 +1,5 @@
 {
- "//": "Moving the camp. A station listed in 'fixed' is masonry or dug in and cannot be packed: it is dismantled and built again. Every other station packs into one 'bundle' item holding its own materials (so it weighs what it is made of) and keeps its state. packFactor / unpackFactor are shares of the station's build time. A camp may be made on the listed base terrains, never on a site, a story place, the village, water or a road.",
+ "//": "Moving the camp. A station listed in fixed is masonry or dug in and cannot be packed. Ordinary abandoned houses may be adapted as a base; special sites, story places, the village, water and roads remain unavailable.",
  "bundle": "camp_bundle",
  "fixed": [
   "stone_fireplace",
@@ -7,7 +7,12 @@
   "log_hut",
   "insulated_cabin",
   "stone_cottage",
-  "root_cellar"
+  "root_cellar",
+  "abandoned_house",
+  "patched_house",
+  "repaired_house",
+  "insulated_house",
+  "restored_house"
  ],
  "packFactor": 0.35,
  "unpackFactor": 0.35,
@@ -17,7 +22,8 @@
   "field",
   "forest",
   "dense_forest",
-  "hills"
+  "hills",
+  "house"
  ],
  "//firstShelter": "A new run has no camp. On any hex of the listed terrains with no camp standing anywhere, the survivor may build this shelter; the camp is made on that hex when it is finished, not when it is begun (game src/game/home/Home.js startFirstShelter; its site remembers its hex).",
  "firstShelter": "simple_hut",
@@ -33,5 +39,8 @@
    "underbrush",
    1
   ]
- ]
+ ],
+ "firstShelterByTerrain": {
+  "house": "abandoned_house"
+ }
 }

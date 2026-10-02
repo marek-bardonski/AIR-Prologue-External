@@ -503,7 +503,11 @@
         "tired",
         "night",
         "cold",
-        "warm"
+        "warm",
+        {
+          "q": "Can I make my base in an abandoned house?",
+          "a": "Yes. Search an ordinary house and clear any enemy, then adapt it through the shelter action on its tile. The surviving walls and bed make an abandoned house a little better than a simple wooden hut. Patch it, repair it, insulate it and finally restore it; each stage takes materials, tools, skills and work comparable to improving a woodland shelter. A house cannot be packed and moved. Special sites, the village and story locations are not available as bases."
+        }
       ],
       "entries": [
         {
