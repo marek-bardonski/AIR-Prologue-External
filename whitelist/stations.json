@@ -18,6 +18,9 @@
     "lean_to",
     "log_hut",
     "insulated_cabin",
-    "stone_cottage"
+    "stone_cottage",
+    "cold_box",
+    "freezer_box",
+    "root_cellar"
   ]
 }

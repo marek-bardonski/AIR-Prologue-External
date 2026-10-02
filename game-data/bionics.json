@@ -1,0 +1,51 @@
+{
+  "//": "Bionics in AIR - Prologue (02.10.2026). The CDDA definitions are loaded as they are (cdda/data/json/bionics.json for what an implant does, cdda/data/json/items/bionics.json for the module, its difficulty and weight); this table says which of them the Prologue plays, how the village's autodoc charges for them, and the Prologue's own pace for the few that need one. Power is in kilojoules. Everything under `cdda` restates numbers from CDDA's source and is read only by mechanics/bionics.js.",
+  "enabled": [
+    "bio_power_storage", "bio_power_storage_mkII", "bio_cable", "bio_batteries", "bio_metabolics",
+    "bio_armor_torso", "bio_armor_head", "bio_armor_arms", "bio_armor_legs", "bio_carbon", "bio_weight",
+    "bio_climate", "bio_hydraulics", "bio_blade", "bio_razors", "bio_lockpick",
+    "bio_flashlight", "bio_night_vision", "bio_painkiller", "bio_jointservo",
+    "bio_str_enhancer", "bio_dex_enhancer", "bio_recycler", "bio_digestion", "bio_nanobots"
+  ],
+  "//autodoc": "The salvaged surgical unit in the village infirmary. `npc` keeps it, `service` is the Village service id a conversation discovers, `access` the door level it needs. Price in dollar coins: priceBase + pricePerDifficulty x difficulty, times uninstallFactor to take one out; a module that has been in a body before (salvaged) costs salvagedExtra more to clean. `envBonus` is the unit's surgery multiplier (CDDA's autodoc couch is 1.0). The survivor sleeps off the anaesthetic for anaesthesiaMinutes after the operation.",
+  "autodoc": {
+    "npc": "hana",
+    "service": "autodoc",
+    "access": 2,
+    "envBonus": 1.0,
+    "priceBase": 2,
+    "pricePerDifficulty": 1,
+    "uninstallFactor": 0.5,
+    "salvagedExtra": 2,
+    "anaesthesiaMinutes": 60
+  },
+  "//dials": "The Prologue's own pace per implant, where CDDA's per-second costs are too fast for a game that ticks by the minute, or where CDDA's effect has no counterpart here and this table says what it does instead.",
+  "dials": {
+    "bio_cable": { "//": "Charging from the camp's battery bank through the camp grid (electricity/CampPower.js).", "chargeKjPerMinute": 2 },
+    "bio_metabolics": { "//": "Kilocalories burned a minute while it runs; each gives joulesPerKcal x the implant's efficiency.", "kcalPerMinute": 1 },
+    "bio_climate": { "//": "Degrees of clothing the piping is worth on every part toward comfort, either way, while it runs.", "maxC": 12, "kjPerMinute": 0.1 },
+    "bio_hydraulics": { "//": "Melee damage multiplier while the muscles are powered; the strength it adds is the implant's own.", "damageMultiplier": 1.5, "kjPerMinute": 1 },
+    "bio_blade": { "//": "Extended through the wrist only while the hands hold nothing; retracts when something is wielded." },
+    "bio_lockpick": { "//": "Opens any mechanical lock in the laboratory that is not a vault door, with no skill and no tool, for the implant's activation cost." },
+    "bio_flashlight": { "//": "Counts as a carried light while on." },
+    "bio_night_vision": { "//": "Counts as a carried light while on: the night costs nothing extra." },
+    "bio_painkiller": { "//": "Dulls a point of pain a minute at the implant's trigger cost; the dulling fades at fadePerMinute once it is off." , "fadePerMinute": 1 },
+    "bio_jointservo": { "//": "Travel speed multiplier while on and while off (its joints drag when unpowered)." , "onSpeed": 1.1, "offSpeed": 0.9, "kjPerMinute": 0.3 },
+    "bio_nanobots": { "//": "Power a minute while there is something to mend; nothing is drawn otherwise.", "kjPerMinute": 2.4 }
+  },
+  "cdda": {
+    "source": "cdda-0.I/src/bionics.cpp: Character::bionics_pl_skill, bionics_adjusted_skill, bionic_manip_cos, install_bionics, uninstall_bionic, bionics_install_failure, bionics_uninstall_failure, roll_critical_bionics_failure, get_bionic_fuels, burn_fuel, process_bionic (bio_painkiller, bio_nanobots)",
+    "skillWeights": { "intelligence": 4, "autodoc": { "firstaid": 4, "computer": 3, "electronics": 1 }, "manual": { "electronics": 4, "firstaid": 3, "mechanics": 1 } },
+    "adjustedSkillCap": 40,
+    "adjustedSkillKeep": 0.1,
+    "difficultyScale": 4,
+    "uninstallExtraDifficulty": 2,
+    "minutesPerDifficulty": 20,
+    "installRoll": [0, 99],
+    "uninstallRoll": [1, 100],
+    "failure": { "maxLevel": 5, "pain": [10, 30], "lightDamage": [5, 10], "severeDamage": [25, 50], "criticalDivisor": 4 },
+    "metabolism": { "joulesPerKcal": 4184, "safeKcalShare": 0.8 },
+    "painkillerCap": 150,
+    "nanobots": { "kcalPerHp": 5, "kcalPerBleed": 15 }
+  }
+}

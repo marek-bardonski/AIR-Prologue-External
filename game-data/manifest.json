@@ -60,6 +60,8 @@
     "firestarters.json",
     "purifiers.json",
     "notes.json",
-    "maps.json"
+    "maps.json",
+    "bionics.json",
+    "explosives.json"
   ]
 }

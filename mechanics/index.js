@@ -5,3 +5,5 @@ export * as crafting from './crafting.js';
 export * as learning from './learning.js';
 export * as morale from './morale.js';
 export * as body from './body.js';
+export * as bionics from './bionics.js';
+export * as explosions from './explosions.js';

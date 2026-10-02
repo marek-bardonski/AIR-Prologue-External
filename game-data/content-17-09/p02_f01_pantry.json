@@ -1,0 +1,24 @@
+{
+  "group": "p02_f01_pantry",
+  "source": "02.10.2026 gap import: the pantry flour that sixty-nine enabled cooking recipes already accept",
+  "items": [
+    {
+      "id": "bread_flour",
+      "loot": [
+        { "table": "house_kitchen", "weight": 1.5, "charges": [3, 10] },
+        { "table": "house_common", "weight": 0.6, "charges": [2, 8] },
+        { "table": "farm_barn", "weight": 1, "charges": [3, 10] }
+      ],
+      "pools": ["food"]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Pantry stock, not a meal: listed beside flour in consume.json notMeals so a sitting never eats it raw.",
+    "Nothing makes it here (CDDA mills it in a vehicle mill): it is found in kitchens and barns."
+  ]
+}

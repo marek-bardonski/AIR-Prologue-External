@@ -1,0 +1,59 @@
+{
+  "//": "Thrown charges (game repo src/game/combat/Explosives.js, rules in mechanics/explosions.js). byId copies each item's CDDA explosion (its _act state's countdown_action: power, distance_factor default 0.75, shrapnel casing_mass / fragment_mass), its fuse (use_action target_timer) and whether lighting it needs fire (need_fire). cdda holds the constants explosion.cpp and iuse.cpp hard-code. prologue holds the game's own dials: a fight is one lane of steps, so a charge bursts at one point on it and everything is measured from there.",
+  "source": "Cataclysm-DDA 0.I data/json/items/tool/explosives.json; src/explosion.cpp (do_blast, shrapnel, gurney_spherical, mass_to_area, ballistic_damage, flashbang, explosion_data); src/iuse.cpp (grenade_inc_act, molotov_lit)",
+  "byId": {
+    "grenade": { "power": 240, "distanceFactor": 0.75, "shrapnel": { "casingMass": 217, "fragmentMass": 0.02 }, "fuseSeconds": 5, "arm": "pin" },
+    "grenade_inc": { "incendiary": true, "fuseSeconds": 5, "arm": "pin" },
+    "flashbang": { "flash": true, "fuseSeconds": 5, "arm": "pin" },
+    "molotov": { "molotov": true, "needFire": true, "arm": "fuse", "goesOutChance": 0.2 },
+    "pipebomb": { "power": 300, "distanceFactor": 0.75, "shrapnel": { "casingMass": 410, "fragmentMass": 0.5 }, "fuseSeconds": 6, "needFire": true, "arm": "fuse" },
+    "dynamite": { "power": 938, "distanceFactor": 0.75, "fuseSeconds": 20, "needFire": true, "arm": "fuse" },
+    "dynamite_bomb": { "power": 938, "distanceFactor": 0.75, "shrapnel": { "casingMass": 1597, "fragmentMass": 0.5 }, "fuseSeconds": 20, "needFire": true, "arm": "fuse" },
+    "small_homemade_grenade": { "power": 150, "distanceFactor": 0.75, "shrapnel": { "casingMass": 200, "fragmentMass": 0.4 }, "fuseSeconds": 5, "needFire": true, "arm": "fuse" },
+    "homemade_grenade": { "power": 300, "distanceFactor": 0.75, "shrapnel": { "casingMass": 400, "fragmentMass": 0.4 }, "fuseSeconds": 5, "needFire": true, "arm": "fuse" }
+  },
+  "cdda": {
+    "//": "explosion.cpp constants: the stated power is divided by powerDivisor before the blast; the force at d tiles is that times distance_factor^d and is ignored under minForce. A monster takes max(force - bash armour / armorDivisor, 0) rolled between lowMul and highMul times. A person is hit on every part for a whole roll between force x low and force x high, armour counted at armorMul. Fire from a burning blast: one point of intensity over oneAbove (or by chance force/oneAbove), another over twoAbove, another over threeAbove. Noise is power x plainMul, or x fireMul for a burning blast. expected_range and safe_range decay at factor / rangeDecay.",
+    "powerDivisor": 15,
+    "minForce": 1,
+    "monster": { "armorDivisor": 2, "lowMul": 2, "highMul": 3 },
+    "character": {
+      "parts": [
+        { "part": "torso", "low": 2, "high": 3, "armorMul": 0.5 },
+        { "part": "head", "low": 2, "high": 3, "armorMul": 0.5 },
+        { "part": "leg_l", "low": 2, "high": 3.5, "armorMul": 0.4 },
+        { "part": "leg_r", "low": 2, "high": 3.5, "armorMul": 0.4 },
+        { "part": "arm_l", "low": 2, "high": 3.5, "armorMul": 0.4 },
+        { "part": "arm_r", "low": 2, "high": 3.5, "armorMul": 0.4 }
+      ]
+    },
+    "fire": { "oneAbove": 10, "twoAbove": 50, "threeAbove": 100 },
+    "noise": { "plainMul": 10, "fireMul": 2 },
+    "rangeDecay": 1.1,
+    "shrapnel": {
+      "//": "gurney_spherical: ((casing / charge) + 3/5)^-1/2 x gurneyConstant m/s. mass_to_area: a steel sphere of steelDensity g/cm3. shrapnel_calc: the speed decays by exp(-(dragCoefficient x area x distance) / (2 x mass)) and the density by the square of the distance. ballistic_damage: damageScale x sqrt(v^2 x mass / damageDivisor). A cloud under minEffectiveVelocity or minFragmentDensity does nothing.",
+      "gurneyConstant": 2700,
+      "steelDensity": 7.85,
+      "dragCoefficient": 1.5,
+      "damageScale": 4,
+      "damageDivisor": 2000,
+      "minEffectiveVelocity": 70,
+      "minFragmentDensity": 0.001
+    },
+    "flashbang": { "stunWithin": 4, "stunTurns": 10, "blindWithin": 8, "blindTurns": 18 },
+    "molotov": { "radius": 1, "oneInA": 3, "oneInB": 5 },
+    "incendiaryGrenade": { "power": 8, "distanceFactor": 0.8, "fieldRadius": 2, "fieldIntensity": 3, "flamesMin": 3, "flamesMax": 5 }
+  },
+  "prologue": {
+    "//": "The game's own dials. A step of the fight's lane is tilesPerStep CDDA tiles. range: how far each charge can be thrown, in steps (the hand-thrown rock rule would make a grenade suicidal, so these are stated). arm: move points to arm before the throw (a pin pulled, or a fuse lit from a fire starter, which the survivor must carry). A miss lands the charge up to scatter.steps short or long of the target. The shrapnel cloud is read at hitShare of its density and never more than maxHits strike one creature; a fragment strikes as pierce. A burning charge leaves every creature within fire.radius steps of where it burst burning for fire.minutes, at damagePerIntensity a minute per point of fire; the survivor caught in the fire takes damagePerIntensity x intensity once, to one part. A flashbang costs a stunned enemy stunActions of its own actions, scaled down by distance. Noise: the chance that something else comes to the fight's hex afterwards is noise x chancePerNoise, never over cap; charges without a blast state their own noise.",
+    "tilesPerStep": 1,
+    "range": { "grenade": 12, "grenade_inc": 12, "flashbang": 12, "molotov": 8, "pipebomb": 9, "dynamite": 8, "dynamite_bomb": 6, "small_homemade_grenade": 10, "homemade_grenade": 9 },
+    "arm": { "pin": 40, "fuse": 120 },
+    "stamina": 3,
+    "scatter": { "steps": 3 },
+    "shrapnel": { "hitShare": 0.001, "maxHits": 4 },
+    "fire": { "radius": 1, "minutes": 3, "damagePerIntensity": 2, "playerDamagePerIntensity": 3 },
+    "flash": { "stunActions": 2 },
+    "noise": { "byId": { "flashbang": 1000, "molotov": 100 }, "followUp": { "chancePerNoise": 0.0002, "cap": 0.5 } }
+  }
+}

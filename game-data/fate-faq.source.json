@@ -138,7 +138,7 @@
         },
         {
           "q": "What do I need before going to the laboratory?",
-          "a": "It is further out than anything else and guarded by the best of what the machines have. Your best weapon, real armour, food and water for many days, clean dressings and whatever medicine the village medic can spare. Sell cooked food in the village for coins — they buy food and nothing else — and spend them on what you cannot make."
+          "a": "It is further out than anything else and guarded by the best of what the machines have. Your best weapon, real armour, food and water for many days, clean dressings and whatever medicine the village medic can spare. Sell cooked food in the village for coins \u2014 they buy food and nothing else \u2014 and spend them on what you cannot make."
         }
       ],
       "until": "lab_known"
@@ -375,7 +375,7 @@
         },
         {
           "q": "What happens to food and carcasses that go bad?",
-          "a": "Anything past its time — food in a pack, a bottle, a chest or on the ground, and a carcass left about two days unbutchered — turns into spoilage, one heap counted by weight; scraps too small to make a measure are simply lost. Spoilage cannot be eaten. Dug into a farm bed it feeds the soil as a middling fertilizer."
+          "a": "Anything past its time \u2014 food in a pack, a bottle, a chest or on the ground, and a carcass left about two days unbutchered \u2014 turns into spoilage, one heap counted by weight; scraps too small to make a measure are simply lost. Spoilage cannot be eaten. Dug into a farm bed it feeds the soil as a middling fertilizer."
         },
         {
           "q": "Can I farm?",
@@ -414,15 +414,15 @@
       "entries": [
         {
           "q": "How do I stop bleeding?",
-          "a": "Bandages — proper ones, or makeshift strips boiled clean — pressed on the wound. A bad limp needs a splint and weeks of care. Rest and full sleep mend what bandages begin."
+          "a": "Bandages \u2014 proper ones, or makeshift strips boiled clean \u2014 pressed on the wound. A bad limp needs a splint and weeks of care. Rest and full sleep mend what bandages begin."
         },
         {
           "q": "How do I keep a wound from getting infected?",
-          "a": "Two separate things, and do both: bandage it and clean it. A bare cut can turn at any hour it stays open; a bandage lowers that at once and after six hours under it the wound is sealed for as long as the bandage holds. Cleaning — a disinfectant best, soap, honey, pine pitch, herbs or a boiled rag if that is all there is — cuts the risk that remains. Each lasts a day, so renew both every morning. Once a wound has turned nothing cures it: bandage and cleaning only slow it, and food, water and sleep are what beat it."
+          "a": "Two separate things, and do both: bandage it and clean it. A bare cut can turn at any hour it stays open; a bandage lowers that at once and after six hours under it the wound is sealed for as long as the bandage holds. Cleaning \u2014 a disinfectant best, soap, honey, pine pitch, herbs or a boiled rag if that is all there is \u2014 cuts the risk that remains. Each lasts a day, so renew both every morning. Once a wound has turned nothing cures it: bandage and cleaning only slow it, and food, water and sleep are what beat it."
         },
         {
           "q": "I feel sick after eating or drinking.",
-          "a": "Food poisoning passes on its own in about six hours, and may empty your stomach of food and water more than once before it does; keep sipping clean water and rest. Avoid it next time by boiling water and cooking what you eat — even raw greens carry a small risk. Parasites from raw meat linger and need medicine from a clinic."
+          "a": "Food poisoning passes on its own in about six hours, and may empty your stomach of food and water more than once before it does; keep sipping clean water and rest. Avoid it next time by boiling water and cooking what you eat \u2014 even raw greens carry a small risk. Parasites from raw meat linger and need medicine from a clinic."
         },
         {
           "q": "Where do I find medicine?",
@@ -520,7 +520,7 @@
         },
         {
           "q": "How do I keep warm?",
-          "a": "Layers worn beat layers carried; a fire at night beats both. Wet cloth kills warmth — dry it first."
+          "a": "Layers worn beat layers carried; a fire at night beats both. Wet cloth kills warmth \u2014 dry it first."
         },
         {
           "q": "Is night dangerous?",
@@ -549,7 +549,7 @@
         },
         {
           "q": "Can I make a torch?",
-          "a": "A stick, cloth and something that burns — tar or fat — rolled and tied. Ignite it from any fire with a match or lighter."
+          "a": "A stick, cloth and something that burns \u2014 tar or fat \u2014 rolled and tied. Ignite it from any fire with a match or lighter."
         }
       ]
     },
@@ -586,11 +586,11 @@
       "entries": [
         {
           "q": "How long is a year?",
-          "a": "Four seasons of ninety-one days each — spring, summer, autumn, winter — three hundred and sixty-four days in all. The survivor woke in the second half of summer, so autumn comes first and winter after it. At first the survivor does not know the date: the top bar shows only their own count of days, the clock, the night and how the air feels. Once they have found the village, where people keep the date and read the sky, it shows the season and its day, the weather and the temperature as well."
+          "a": "Four seasons of ninety-one days each \u2014 spring, summer, autumn, winter \u2014 three hundred and sixty-four days in all. The survivor woke in the second half of summer, so autumn comes first and winter after it. At first the survivor does not know the date: the top bar shows only their own count of days, the clock, the night and how the air feels. Once they have found the village, where people keep the date and read the sky, it shows the season and its day, the weather and the temperature as well."
         },
         {
           "q": "When is it night?",
-          "a": "Night is the time between sunset and sunrise, and it changes every day: about eight and a half hours at midsummer, more than fifteen in the depth of winter. Night's dangers — more encounters without a light, slow work in the dark — apply exactly in those hours. The blue NIGHT sign in the top bar is lit while they do, and hovering it gives tonight's hours."
+          "a": "Night is the time between sunset and sunrise, and it changes every day: about eight and a half hours at midsummer, more than fifteen in the depth of winter. Night's dangers \u2014 more encounters without a light, slow work in the dark \u2014 apply exactly in those hours. The blue NIGHT sign in the top bar is lit while they do, and hovering it gives tonight's hours."
         },
         {
           "q": "How cold does it get?",
@@ -671,7 +671,7 @@
         },
         {
           "q": "What does the water funnel do?",
-          "a": "Any rain funnel set at home — plastic, makeshift, leather, birch bark or metal — slowly gathers rain by itself. How much depends on the width of its mouth and how well it is made: a wide metal funnel gathers most, a plastic one about half of that, and stitched hide, bark or a cut bottle a small fraction — one hand funnel is well under a day's drinking, so set out several. Water runs into the empty bottles and jugs set under them first; take them back filled. Funnels weather: a makeshift one lasts about a month, bark a little longer, hide a season, plastic half a year, metal for years. It cleans nothing — boil after."
+          "a": "Any rain funnel set at home \u2014 plastic, makeshift, leather, birch bark or metal \u2014 slowly gathers rain by itself. How much depends on the width of its mouth and how well it is made: a wide metal funnel gathers most, a plastic one about half of that, and stitched hide, bark or a cut bottle a small fraction \u2014 one hand funnel is well under a day's drinking, so set out several. Water runs into the empty bottles and jugs set under them first; take them back filled. Funnels weather: a makeshift one lasts about a month, bark a little longer, hide a season, plastic half a year, metal for years. It cleans nothing \u2014 boil after."
         },
         {
           "q": "What is the shrine?",
@@ -693,7 +693,7 @@
       "entries": [
         {
           "q": "How do I fish?",
-          "a": "A rod or a line with a hook, standing at the river bank. Fish are safest food there is — cooked, that is. A spear jabbed at the shallows works in a pinch, if your patience holds."
+          "a": "A rod or a line with a hook, standing at the river bank. Fish are safest food there is \u2014 cooked, that is. A spear jabbed at the shallows works in a pinch, if your patience holds."
         }
       ]
     },
@@ -827,7 +827,7 @@
       "entries": [
         {
           "q": "The place I need is days away. How do I make the journey shorter?",
-          "a": "Two ways, and they work together. Build a road: stand on searched ground with something to dig with — a digging stick will do, a shovel is much quicker — and an axe where trees stand, and work the hex. A finished road is walked at twice the pace of open ground, through forest and over hills alike, and your journeys will follow it by themselves. Or take your camp with you and live near where the work is."
+          "a": "Two ways, and they work together. Build a road: stand on searched ground with something to dig with \u2014 a digging stick will do, a shovel is much quicker \u2014 and an axe where trees stand, and work the hex. A finished road is walked at twice the pace of open ground, through forest and over hills alike, and your journeys will follow it by themselves. Or take your camp with you and live near where the work is."
         },
         {
           "q": "How long does a road take?",
@@ -857,7 +857,7 @@
       "entries": [
         {
           "q": "How helping the village changes daily life?",
-          "a": "Completed village work improves daily life. The feast adds kitchen stock; machine parts add smith stock; the repaired mast increases merchants’ daily buying purses. Supplied medicine unlocks one hour-long recovery visit a day, tending the most injured unbroken body part without curing infection. After earning the door, a council meeting can prioritize supplies or stronger recovery care, at most once a day. Supply changes apply at the next daily stock refresh. The Life in the village dialog explains achieved benefits."
+          "a": "Completed village work improves daily life. The feast adds kitchen stock; machine parts add smith stock; the repaired mast increases merchants\u2019 daily buying purses. Supplied medicine unlocks one hour-long recovery visit a day, tending the most injured unbroken body part without curing infection. After earning the door, a council meeting can prioritize supplies or stronger recovery care, at most once a day. Supply changes apply at the next daily stock refresh. The Life in the village dialog explains achieved benefits."
         }
       ]
     },
@@ -896,6 +896,60 @@
         {
           "q": "Can I play instruments to improve my mood?",
           "a": "Playable instruments can be used from inventory or the ground to improve mood. Playing takes time, food and water. The mood benefit builds gradually and has one shared cap across all instruments. It fades after playing stops; switching instruments cannot stack bonuses."
+        }
+      ]
+    },
+    {
+      "id": "cold_storage",
+      "title": "Keeping food cold",
+      "keywords": [
+        "fridge",
+        "freezer",
+        "refrigerat",
+        "cold storage",
+        "cellar",
+        "preserv"
+      ],
+      "entries": [
+        {
+          "q": "Can I keep food cold at camp?",
+          "a": "Build a refrigerated box or a freezer box from a found appliance and wire it to the camp battery bank. In Buildings, select the box to put food inside, take it out, or switch the power. It draws energy while running, stops cooling when the batteries run out, and restarts when they can supply power again. A root cellar needs no electricity. Stored food must be taken out before cooking or eating; frozen food must thaw first. Packing or dismantling a box puts its contents on the ground."
+        }
+      ]
+    },
+    {
+      "id": "explosives",
+      "title": "Thrown explosives",
+      "keywords": [
+        "explosive",
+        "grenade",
+        "bomb",
+        "dynamite",
+        "molotov",
+        "flashbang"
+      ],
+      "entries": [
+        {
+          "q": "How do thrown explosives work?",
+          "a": "Carry one and choose it from the fight screen's THROW controls. A throw arms it and spends one charge; fuse-lit charges need a usable fire starter. The burst affects everyone near where it lands, including you. A miss can land short. Fragmentation can wound several enemies; fire keeps burning and flashbangs delay enemies. The controls show range and danger to the thrower. Noise may draw another enemy to the hex after the fight."
+        }
+      ]
+    },
+    {
+      "id": "bionics",
+      "title": "Bionics and the autodoc",
+      "stage": "village_found",
+      "keywords": [
+        "bionic",
+        "implant",
+        "autodoc",
+        "cybernetic",
+        "module"
+      ],
+      "entries": [
+        {
+          "q": "How do I install and use bionics?",
+          "a": "Ask Hana in the village infirmary about the surgical machine. Once you have enough access, bring a module and coins. The autodoc displays its price and success chance before you agree. Intelligence, first aid, computers and electronics improve the odds; failure may damage the body or ruin a module. The operation takes time and cannot be cancelled. Character opens the implant controls. Passive implants work while installed; powered ones need a storage module and energy from supported charging implants. Controls switch implants on or off and charge from carried batteries or the camp grid. An implant switches off when it cannot pay its running cost."
         }
       ]
     }

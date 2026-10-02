@@ -872,6 +872,215 @@
         ]
       ],
       "upgradesFrom": "insulated_cabin"
+    },
+    "cold_box": {
+      "name": "Refrigerator",
+      "//": "Prologue (02.10.2026): a found fridge wired to the camp's batteries (electricity/ColdStorage.js). Food put inside sits at effects.cold.insideC while the box draws power (the watts of whichever fridge was built into it, camp-power.json appliances), so it ages at the cold's rate (season-loot.json preservation); when the batteries run flat it goes off and the inside drifts to the air. volumeMl is Prologue: a usable share of the box.",
+      "consumes": [
+        [
+          [
+            "apartment_fridge",
+            1
+          ],
+          [
+            "minifridge",
+            1
+          ],
+          [
+            "big_portable_fridge",
+            1
+          ],
+          [
+            "glass_fridge",
+            1
+          ],
+          [
+            "glass_fridge_double",
+            1
+          ],
+          [
+            "heavy_duty_fridge",
+            1
+          ],
+          [
+            "display_fridge",
+            1
+          ]
+        ],
+        [
+          [
+            "cable",
+            2
+          ]
+        ]
+      ],
+      "minutes": 30,
+      "requiredSkills": [
+        [
+          "electronics",
+          1
+        ]
+      ],
+      "qualities": [
+        [
+          {
+            "id": "SCREW",
+            "level": 1
+          }
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "cold": {
+          "kind": "fridge",
+          "insideC": 4,
+          "volumeMl": 150000
+        }
+      }
+    },
+    "freezer_box": {
+      "name": "Freezer",
+      "//": "Prologue (02.10.2026): a found freezer wired to the camp's batteries. Food inside is held at insideC: it freezes (an hour under freezeBelowC, season-loot.json preservation) and then stops ageing until it is taken out and thawed. Draws the watts of the freezer built into it (camp-power.json appliances).",
+      "consumes": [
+        [
+          [
+            "apartment_freezer",
+            1
+          ],
+          [
+            "chest_freezer",
+            1
+          ],
+          [
+            "minifreezer",
+            1
+          ],
+          [
+            "chest_minifreezer",
+            1
+          ],
+          [
+            "big_portable_freezer",
+            1
+          ],
+          [
+            "heavy_duty_freezer",
+            1
+          ],
+          [
+            "glass_freezer",
+            1
+          ],
+          [
+            "display_freezer",
+            1
+          ]
+        ],
+        [
+          [
+            "cable",
+            2
+          ]
+        ]
+      ],
+      "minutes": 30,
+      "requiredSkills": [
+        [
+          "electronics",
+          1
+        ]
+      ],
+      "qualities": [
+        [
+          {
+            "id": "SCREW",
+            "level": 1
+          }
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "cold": {
+          "kind": "freezer",
+          "insideC": -18,
+          "volumeMl": 150000
+        }
+      }
+    },
+    "root_cellar": {
+      "name": "Root cellar",
+      "//": "Prologue (02.10.2026): a pit dug into the camp's ground, shored with logs and roofed with planks and earth. No power: the ground holds the inside between minC and maxC whatever the air does, so food keeps at the cold's rate in summer and never freezes in winter. Digging needs a DIG tool. Fixed (camp.json): dug in, it cannot be packed.",
+      "consumes": [
+        [
+          [
+            "log",
+            6
+          ]
+        ],
+        [
+          [
+            "2x4",
+            8
+          ],
+          [
+            "wood_panel",
+            2
+          ]
+        ],
+        [
+          [
+            "pine_bough",
+            6
+          ],
+          [
+            "straw_pile",
+            6
+          ],
+          [
+            "birchbark",
+            6
+          ]
+        ]
+      ],
+      "minutes": 480,
+      "requiredSkills": [
+        [
+          "survival",
+          1
+        ]
+      ],
+      "qualities": [
+        [
+          {
+            "id": "DIG",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "HAMMER",
+            "level": 1
+          }
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "cold": {
+          "kind": "cellar",
+          "minC": 2,
+          "maxC": 8,
+          "volumeMl": 300000
+        }
+      }
     }
   },
   "portableStations": {

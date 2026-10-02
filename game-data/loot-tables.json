@@ -14803,6 +14803,34 @@
             1,
             1
           ]
+        },
+        {
+          "item": "minifridge",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chest_minifreezer",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bread_flour",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            2,
+            8
+          ]
         }
       ]
     },
@@ -29348,6 +29376,26 @@
             1,
             1
           ]
+        },
+        {
+          "item": "minifridge",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bread_flour",
+          "weight": 1.5,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ]
         }
       ]
     },
@@ -34612,6 +34660,46 @@
             1,
             1
           ]
+        },
+        {
+          "item": "display_fridge",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "glass_fridge",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "display_freezer",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "glass_freezer",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "glass_fridge_double",
+          "weight": 0.1,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -39426,6 +39514,15 @@
             1,
             1
           ]
+        },
+        {
+          "item": "molotov",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -49012,6 +49109,14 @@
             1,
             1
           ]
+        },
+        {
+          "item": "minifridge",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -53433,6 +53538,39 @@
             1,
             1
           ]
+        },
+        {
+          "item": "chest_freezer",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "458wm",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "bread_flour",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ]
         }
       ]
     },
@@ -57058,6 +57196,24 @@
             1,
             1
           ]
+        },
+        {
+          "item": "pipebomb",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "molotov",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -58964,6 +59120,14 @@
             1,
             1
           ]
+        },
+        {
+          "item": "minifridge",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -60699,6 +60863,14 @@
         {
           "item": "airspeargun",
           "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chest_freezer",
+          "weight": 0.3,
           "count": [
             1,
             1
@@ -63912,6 +64084,19 @@
             1,
             1
           ]
+        },
+        {
+          "item": "458wm",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            4,
+            12
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -66940,6 +67125,19 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "458wm",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -69379,6 +69577,23 @@
             1,
             1
           ]
+        },
+        {
+          "item": "molotov",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "minifridge",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -69531,6 +69746,30 @@
         {
           "item": "book_nonf_hard_psych_thergar",
           "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_painkiller",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_nanobots",
+          "weight": 0.2,
           "count": [
             1,
             1
@@ -70293,6 +70532,54 @@
         {
           "item": "oxygen_concentrator",
           "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_cable",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_digestion",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_climate",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "minifridge",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "minifreezer",
+          "weight": 0.3,
           "count": [
             1,
             1
@@ -71730,6 +72017,15 @@
             1,
             1
           ]
+        },
+        {
+          "item": "dynamite",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -72515,6 +72811,22 @@
         {
           "item": "motor_enhanced",
           "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "heavy_duty_fridge",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "heavy_duty_freezer",
+          "weight": 0.15,
           "count": [
             1,
             1
@@ -77567,6 +77879,33 @@
             1,
             1
           ]
+        },
+        {
+          "item": "grenade",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "flashbang",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "grenade_inc",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
         }
       ]
     },
@@ -99076,6 +99415,42 @@
             1
           ],
           "minDanger": 2
+        },
+        {
+          "item": "pipebomb",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "molotov",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "homemade_grenade",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "small_homemade_grenade",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -106835,6 +107210,158 @@
             1,
             1
           ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_flashlight",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_lockpick",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_climate",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_weight",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_cable",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_batteries",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_metabolics",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_painkiller",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_jointservo",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_razors",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_torso",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_head",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_arms",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_legs",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_hydraulics",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_digestion",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_nanobots",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_recycler",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -107906,6 +108433,224 @@
             1,
             1
           ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_flashlight",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_lockpick",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_climate",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_weight",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_cable",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_batteries",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_metabolics",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_painkiller",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_jointservo",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_razors",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_torso",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_head",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_arms",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_legs",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_hydraulics",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_digestion",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_nanobots",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_recycler",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage_mkII",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_blade",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_carbon",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_night_vision",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_str_enhancer",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_dex_enhancer",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "flashbang",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "grenade",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
         }
       ]
     },
@@ -109128,6 +109873,46 @@
             1,
             1
           ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_flashlight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_lockpick",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_climate",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_weight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -109487,6 +110272,158 @@
         {
           "item": "police_belt",
           "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_flashlight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_lockpick",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_climate",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_weight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_cable",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_batteries",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_metabolics",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_painkiller",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_jointservo",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_razors",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_torso",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_head",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_arms",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_legs",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_hydraulics",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_digestion",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_nanobots",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_recycler",
+          "weight": 0.3,
           "count": [
             1,
             1
@@ -109854,6 +110791,206 @@
             1,
             1
           ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_flashlight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_lockpick",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_climate",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_weight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_cable",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_batteries",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_metabolics",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_painkiller",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_jointservo",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_razors",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_torso",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_head",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_arms",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_legs",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_hydraulics",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_digestion",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_nanobots",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_recycler",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage_mkII",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_blade",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_carbon",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_night_vision",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_str_enhancer",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_dex_enhancer",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -110213,6 +111350,206 @@
         {
           "item": "police_belt",
           "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_flashlight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_lockpick",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_climate",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_weight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_cable",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_batteries",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_metabolics",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_painkiller",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_jointservo",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_razors",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_torso",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_head",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_arms",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_legs",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_hydraulics",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_digestion",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_nanobots",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_recycler",
+          "weight": 0.7,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage_mkII",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_blade",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_carbon",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_night_vision",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_str_enhancer",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_dex_enhancer",
+          "weight": 0.3,
           "count": [
             1,
             1
@@ -110580,6 +111917,206 @@
             1,
             1
           ]
+        },
+        {
+          "item": "bio_power_storage",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_flashlight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_lockpick",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_climate",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_weight",
+          "weight": 1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_cable",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_batteries",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_metabolics",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_painkiller",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_jointservo",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_razors",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_torso",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_head",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_arms",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_legs",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_hydraulics",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_digestion",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_nanobots",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_recycler",
+          "weight": 0.9,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage_mkII",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_blade",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_carbon",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_night_vision",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_str_enhancer",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_dex_enhancer",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -110808,6 +112345,166 @@
         {
           "item": "1l_platinum",
           "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_power_storage_mkII",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_blade",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_carbon",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_night_vision",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_str_enhancer",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_dex_enhancer",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_cable",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_batteries",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_metabolics",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_painkiller",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_jointservo",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_razors",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_torso",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_head",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_arms",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_armor_legs",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_hydraulics",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_digestion",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_nanobots",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_recycler",
+          "weight": 0.2,
           "count": [
             1,
             1
@@ -119038,6 +120735,55 @@
             1,
             1
           ]
+        },
+        {
+          "item": "pipebomb",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "molotov",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 2
+        },
+        {
+          "item": "homemade_grenade",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "small_homemade_grenade",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "458wm",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            3,
+            10
+          ],
+          "minDanger": 2
         }
       ]
     },
@@ -121471,6 +123217,22 @@
             1,
             1
           ]
+        },
+        {
+          "item": "chest_freezer",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chest_minifreezer",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -122167,6 +123929,15 @@
             1,
             1
           ]
+        },
+        {
+          "item": "dynamite",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -123271,6 +125042,15 @@
             1,
             1
           ]
+        },
+        {
+          "item": "flashbang",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -124046,6 +125826,15 @@
             1,
             1
           ]
+        },
+        {
+          "item": "dynamite",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -125110,6 +126899,22 @@
             1
           ],
           "container": "carton_sealed"
+        },
+        {
+          "item": "big_portable_fridge",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "big_portable_freezer",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },

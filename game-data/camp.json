@@ -6,7 +6,8 @@
   "clay_oven",
   "log_hut",
   "insulated_cabin",
-  "stone_cottage"
+  "stone_cottage",
+  "root_cellar"
  ],
  "packFactor": 0.35,
  "unpackFactor": 0.35,

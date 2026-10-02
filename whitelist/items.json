@@ -6694,5 +6694,65 @@
     "reloaded_50beowulf_penetrator",
     "50beowulf_casing",
     "unprimed_50beowulf_casing"
+  ],
+  "bionics": [
+    "bio_power_storage",
+    "bio_power_storage_mkII",
+    "bio_cable",
+    "bio_batteries",
+    "bio_metabolics",
+    "bio_armor_torso",
+    "bio_armor_head",
+    "bio_armor_arms",
+    "bio_armor_legs",
+    "bio_carbon",
+    "bio_weight",
+    "bio_climate",
+    "bio_hydraulics",
+    "bio_blade",
+    "bio_razors",
+    "bio_lockpick",
+    "bio_flashlight",
+    "bio_night_vision",
+    "bio_painkiller",
+    "bio_jointservo",
+    "bio_str_enhancer",
+    "bio_dex_enhancer",
+    "bio_recycler",
+    "bio_digestion",
+    "bio_nanobots",
+    "bio_blade_weapon"
+  ],
+  "explosives_02_10": [
+    "grenade",
+    "grenade_inc",
+    "flashbang",
+    "molotov",
+    "pipebomb",
+    "dynamite",
+    "dynamite_bomb",
+    "small_homemade_grenade",
+    "homemade_grenade"
+  ],
+  "cold_storage_02_10": [
+    "minifridge",
+    "big_portable_fridge",
+    "glass_fridge",
+    "glass_fridge_double",
+    "heavy_duty_fridge",
+    "display_fridge",
+    "minifreezer",
+    "chest_minifreezer",
+    "big_portable_freezer",
+    "chest_freezer",
+    "heavy_duty_freezer",
+    "glass_freezer",
+    "display_freezer"
+  ],
+  "content_17_09_p02_a01_rounds": [
+    "458wm"
+  ],
+  "content_17_09_p02_f01_pantry": [
+    "bread_flour"
   ]
 }

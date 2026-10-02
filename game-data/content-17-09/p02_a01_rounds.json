@@ -1,0 +1,24 @@
+{
+  "group": "p02_a01_rounds",
+  "source": "02.10.2026 gap import: the factory .458 round for the big-game rifle already in the game (only its hand-loads had come in; the jacketed round is an abstract)",
+  "items": [
+    {
+      "id": "458wm",
+      "loot": [
+        { "table": "roadside_garage", "weight": 0.012, "charges": [3, 10], "minDanger": 2 },
+        { "table": "traveller_cache", "weight": 0.01, "charges": [3, 10], "minDanger": 2 },
+        { "table": "farm_barn", "weight": 0.008, "charges": [3, 10], "minDanger": 2 },
+        { "table": "ranger_station_supplies", "weight": 0.03, "charges": [4, 12], "minDanger": 2 }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "win70_458 fires 458wm; reloaded_458wm and bp_458wm came in on 01.10 without the factory round they are hand-loaded from. 458wm_fmj is an abstract in CDDA, not an item.",
+    "Rounds follow danger like every other round (minDanger 2)."
+  ]
+}
