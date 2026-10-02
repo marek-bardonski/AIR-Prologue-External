@@ -597,8 +597,10 @@
     }
   },
   "qualityTime": {
-    "//": "AIR design, 29.09.2026: the Character screen's Quality time planner. It spends chunkMinutes of a pastime (or one unit of food) at a time on whatever lifts the mood most per minute, until the chosen mood is reached, nothing lifts it further, stallSteps steps pass without a new best (it then ends at its best), or maxMinutes are planned. The slider runs from the mood now to what maxMinutes could reach.",
+    "//": "AIR design, 29.09.2026, time budget 02.10.2026: the Character screen's Quality time planner. The player chooses how long to spend (minMinutes to maxMinutes, the dialog starts at defaultMinutes) and the planner spends chunkMinutes of a pastime (or one unit of food) at a time on whatever lifts the mood most per minute, until the time is spent, nothing lifts it further, or stallSteps steps pass without a new best (it then ends at its best). At most maxFoodUnits portions a sitting; drink and stimulants only when allowed and within intoxicants.json's hangover and jitters limits.",
     "chunkMinutes": 10,
+    "minMinutes": 5,
+    "defaultMinutes": 60,
     "maxMinutes": 360,
     "maxFoodUnits": 12,
     "stallSteps": 4
