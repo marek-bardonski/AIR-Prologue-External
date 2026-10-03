@@ -1,4 +1,17 @@
 {
   "//": "The player starts with nothing.",
-  "items": []
+  "items": [],
+  "tutorial": {
+    "recipe": "recipe:makeshift_knapsack",
+    "materials": [
+      {
+        "id": "pants",
+        "count": 1
+      },
+      {
+        "id": "string_36",
+        "count": 1
+      }
+    ]
+  }
 }
