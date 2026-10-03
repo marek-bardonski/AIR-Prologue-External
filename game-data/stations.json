@@ -105,7 +105,7 @@
           ]
         ]
       ],
-      "minutes": 20,
+      "minutes": 5,
       "deploys": "metal_smoking_rack",
       "provides": {
         "pseudoTools": [
@@ -113,7 +113,13 @@
         ],
         "qualities": []
       },
-      "effects": {}
+      "effects": {},
+      "placeItems": [
+        "metal_smoking_rack"
+      ],
+      "requiredSkills": [],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up.",
+      "qualities": []
     },
     "metal_butcher_rack": {
       "name": "Metal butchering rack",
@@ -126,7 +132,7 @@
           ]
         ]
       ],
-      "minutes": 15,
+      "minutes": 5,
       "deploys": "metal_butcher_rack",
       "provides": {
         "pseudoTools": [],
@@ -137,7 +143,13 @@
           "asSurface": true,
           "timeMultiplier": 0.85
         }
-      }
+      },
+      "placeItems": [
+        "metal_butcher_rack"
+      ],
+      "requiredSkills": [],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up.",
+      "qualities": []
     },
     "water_funnel": {
       "name": "Water funnel",
@@ -205,7 +217,16 @@
             }
           }
         }
-      }
+      },
+      "placeItems": [
+        "funnel",
+        "makeshift_funnel",
+        "leather_funnel",
+        "birchbark_funnel",
+        "metal_funnel"
+      ],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up.",
+      "qualities": []
     },
     "clay_oven": {
       "name": "Clay oven",
@@ -287,20 +308,27 @@
           ]
         ]
       ],
-      "minutes": 60,
-      "requiredSkills": [
-        [
-          "electronics",
-          1
-        ]
-      ],
+      "minutes": 5,
+      "requiredSkills": [],
       "provides": {
         "pseudoTools": [],
         "qualities": []
       },
       "effects": {
         "solar": true
-      }
+      },
+      "placeItems": [
+        "solar_panel",
+        "solar_panel_v2",
+        "reinforced_solar_panel",
+        "reinforced_solar_panel_v2",
+        "folding_solar_panel",
+        "folding_solar_panel_v2",
+        "ground_solar_panel",
+        "ground_solar_panel_v2"
+      ],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up.",
+      "qualities": []
     },
     "electric_heater": {
       "name": "Electric heater",
@@ -314,34 +342,12 @@
           [
             "large_space_heater",
             1
-          ],
-          [
-            "element",
-            2
-          ]
-        ],
-        [
-          [
-            "cable",
-            4
           ]
         ]
       ],
-      "minutes": 45,
-      "requiredSkills": [
-        [
-          "electronics",
-          1
-        ]
-      ],
-      "qualities": [
-        [
-          {
-            "id": "SCREW",
-            "level": 1
-          }
-        ]
-      ],
+      "minutes": 5,
+      "requiredSkills": [],
+      "qualities": [],
       "provides": {
         "pseudoTools": [],
         "qualities": []
@@ -352,7 +358,12 @@
           "fireC": 2,
           "roomC": 21
         }
-      }
+      },
+      "placeItems": [
+        "small_space_heater",
+        "large_space_heater"
+      ],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up."
     },
     "electric_fan": {
       "name": "Electric fan",
@@ -362,30 +373,11 @@
           [
             "fan",
             1
-          ],
-          [
-            "motor_tiny",
-            1
-          ],
-          [
-            "motor_small",
-            1
-          ]
-        ],
-        [
-          [
-            "cable",
-            2
           ]
         ]
       ],
-      "minutes": 30,
-      "requiredSkills": [
-        [
-          "electronics",
-          1
-        ]
-      ],
+      "minutes": 5,
+      "requiredSkills": [],
       "provides": {
         "pseudoTools": [],
         "qualities": []
@@ -395,7 +387,12 @@
           "watts": 35,
           "deltaC": -3
         }
-      }
+      },
+      "placeItems": [
+        "fan"
+      ],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up.",
+      "qualities": []
     },
     "air_conditioner": {
       "name": "Air conditioner",
@@ -405,56 +402,12 @@
           [
             "mountable_cooler",
             1
-          ],
-          [
-            "condensor_coil",
-            1
-          ]
-        ],
-        [
-          [
-            "motor_small",
-            1
-          ]
-        ],
-        [
-          [
-            "cable",
-            8
-          ]
-        ],
-        [
-          [
-            "sheet_metal_small",
-            4
           ]
         ]
       ],
-      "minutes": 240,
-      "requiredSkills": [
-        [
-          "electronics",
-          3
-        ],
-        [
-          "mechanics",
-          2
-        ]
-      ],
-      "qualities": [
-        [
-          {
-            "id": "SCREW",
-            "level": 1
-          }
-        ],
-        [
-          {
-            "id": "WRENCH",
-            "level": 1
-          }
-        ]
-      ],
+      "minutes": 5,
+      "requiredSkills": [],
+      "qualities": [],
       "provides": {
         "pseudoTools": [],
         "qualities": []
@@ -464,7 +417,11 @@
           "watts": 900,
           "roomC": 20
         }
-      }
+      },
+      "placeItems": [
+        "mountable_cooler"
+      ],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up."
     },
     "shrine": {
       "name": "Shrine",
@@ -906,29 +863,11 @@
             "display_fridge",
             1
           ]
-        ],
-        [
-          [
-            "cable",
-            2
-          ]
         ]
       ],
-      "minutes": 30,
-      "requiredSkills": [
-        [
-          "electronics",
-          1
-        ]
-      ],
-      "qualities": [
-        [
-          {
-            "id": "SCREW",
-            "level": 1
-          }
-        ]
-      ],
+      "minutes": 5,
+      "requiredSkills": [],
+      "qualities": [],
       "provides": {
         "pseudoTools": [],
         "qualities": []
@@ -939,7 +878,17 @@
           "insideC": 4,
           "volumeMl": 150000
         }
-      }
+      },
+      "placeItems": [
+        "apartment_fridge",
+        "minifridge",
+        "big_portable_fridge",
+        "glass_fridge",
+        "glass_fridge_double",
+        "heavy_duty_fridge",
+        "display_fridge"
+      ],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up."
     },
     "freezer_box": {
       "name": "Freezer",
@@ -978,29 +927,11 @@
             "display_freezer",
             1
           ]
-        ],
-        [
-          [
-            "cable",
-            2
-          ]
         ]
       ],
-      "minutes": 30,
-      "requiredSkills": [
-        [
-          "electronics",
-          1
-        ]
-      ],
-      "qualities": [
-        [
-          {
-            "id": "SCREW",
-            "level": 1
-          }
-        ]
-      ],
+      "minutes": 5,
+      "requiredSkills": [],
+      "qualities": [],
       "provides": {
         "pseudoTools": [],
         "qualities": []
@@ -1011,7 +942,18 @@
           "insideC": -18,
           "volumeMl": 150000
         }
-      }
+      },
+      "placeItems": [
+        "apartment_freezer",
+        "chest_freezer",
+        "minifreezer",
+        "chest_minifreezer",
+        "big_portable_freezer",
+        "heavy_duty_freezer",
+        "glass_freezer",
+        "display_freezer"
+      ],
+      "//placement": "Place a complete appliance from inventory at camp; retain the original instance when packing it up."
     },
     "root_cellar": {
       "name": "Root cellar",
