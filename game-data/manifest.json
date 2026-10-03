@@ -62,6 +62,7 @@
     "notes.json",
     "maps.json",
     "bionics.json",
-    "explosives.json"
+    "explosives.json",
+    "early-discoveries.json"
   ]
 }

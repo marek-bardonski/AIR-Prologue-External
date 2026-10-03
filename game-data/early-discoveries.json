@@ -1,0 +1,259 @@
+{
+  "chance": 0.14,
+  "events": [
+    {
+      "id": "last_camp",
+      "title": "The last camp",
+      "text": "Under a fallen branch lies a traveller who never left. Their small camp has weathered badly, but a few supplies stayed dry.",
+      "weight": 22,
+      "art": "last_camp",
+      "items": [
+        {
+          "item": "bandages",
+          "count": 2,
+          "charges": 1
+        },
+        {
+          "item": "lighter",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "bottle_plastic",
+          "count": 1,
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "id": "toolbox",
+      "title": "A toolbox under the roots",
+      "text": "Roots have grown around a dented toolbox. Inside, oilcloth has kept a few hand tools usable.",
+      "weight": 21,
+      "art": "toolbox",
+      "items": [
+        {
+          "item": "screwdriver",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "hammer",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "nail",
+          "count": 12,
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "id": "lost_pack",
+      "title": "A pack in the brambles",
+      "text": "A torn strap catches the light. The pack is empty of food, but its pockets still hold cord and a folded blanket.",
+      "weight": 15,
+      "art": "lost_pack",
+      "items": [
+        {
+          "item": "backpack",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "string_36",
+          "count": 2,
+          "charges": 1
+        },
+        {
+          "item": "blanket",
+          "count": 1,
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "id": "sealed_cache",
+      "title": "A buried cache",
+      "text": "A sheet of old roofing covers a sealed tin. Someone meant to return for these supplies.",
+      "weight": 19,
+      "art": "sealed_cache",
+      "items": [
+        {
+          "item": "pot",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "matches",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "bandages",
+          "count": 2,
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "id": "field_repair",
+      "title": "A repair stop",
+      "text": "A service case lies beside a broken roadside marker. Small parts are still sorted in its padded trays.",
+      "weight": 11,
+      "art": "field_repair",
+      "items": [
+        {
+          "item": "e_scrap",
+          "count": 4,
+          "charges": 1
+        },
+        {
+          "item": "cable",
+          "count": 3,
+          "charges": 1
+        },
+        {
+          "item": "solder_wire",
+          "count": 5,
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "id": "medical_satchel",
+      "title": "A medical satchel",
+      "text": "The red stitching has faded almost white. Several sealed dressings and a wrapped lump of resin survived inside.",
+      "weight": 8,
+      "art": "medical_satchel",
+      "items": [
+        {
+          "item": "bandages",
+          "count": 3,
+          "charges": 1
+        },
+        {
+          "item": "pine_resin",
+          "count": 2,
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "id": "laboratory_case",
+      "title": "A field laboratory case",
+      "text": "Twelve labelled samples sit in fitted sleeves. These are crafting materials. Keep their labels intact and check Crafting before using them.",
+      "weight": 3,
+      "art": "laboratory_case",
+      "items": [
+        {
+          "item": "chem_acetic_acid",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_acetone",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_glycerol",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_citric_acid",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_baking_soda",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_calcium_chloride",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_ethanol",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_ferric_chloride",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_hydrogen_peroxide",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_saltpetre",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_sulphur",
+          "count": 1,
+          "charges": 1
+        },
+        {
+          "item": "chem_washing_soda",
+          "count": 1,
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "id": "rusted_sidearm",
+      "title": "A rusted sidearm",
+      "text": "A holster lies beneath a collapsed fence. The pistol is badly corroded. There are only a few matching rounds. Check its condition before relying on it.",
+      "weight": 1,
+      "art": "rusted_sidearm",
+      "items": [
+        {
+          "item": "glock_19",
+          "count": 1,
+          "charges": 1,
+          "damageFraction": 0.82
+        },
+        {
+          "item": "9mm",
+          "count": 4,
+          "charges": 1
+        }
+      ]
+    }
+  ],
+  "messenger": {
+    "monster": "mon_air_messenger",
+    "byExploration": 5,
+    "frequency": "147.30 MHz",
+    "items": [
+      {
+        "item": "e_scrap",
+        "count": 8,
+        "charges": 1
+      }
+    ]
+  },
+  "milestones": {
+    "fire": [
+      "fire_ring",
+      "stone_fireplace",
+      "clay_oven"
+    ],
+    "bed": [
+      "straw_bed",
+      "makeshift_bed"
+    ],
+    "cellar": [
+      "root_cellar"
+    ]
+  }
+}
