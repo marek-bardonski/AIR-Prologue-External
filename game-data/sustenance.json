@@ -145,7 +145,8 @@
     "quality_time": "LIGHT_EXERCISE",
     "wash": "MODERATE_EXERCISE",
     "warm_up": "LIGHT_EXERCISE",
-    "site_work": "LIGHT_EXERCISE"
+    "site_work": "LIGHT_EXERCISE",
+    "site_pick": "LIGHT_EXERCISE"
   },
   "thirstMood": {
     "//": "Prologue rule: thirst wears the mood only once the body's water reserve (waterReserve) has begun to fall, never while it is full, however empty the water bar. byReserve rows are read from the first whose `below` (share of the reserve) the reserve is under, strongest last; moralePerHour sinks the entry, never below the row's moraleFloor (stored units; shown times practice.json morale.scale). Once the reserve is full again it lingers fadeHours, fading over the second half.",
