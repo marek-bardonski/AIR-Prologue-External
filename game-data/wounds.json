@@ -70,14 +70,15 @@
       }
     ],
     "progressionSteps": 100,
-    "naturalRecoveryChance": 0.002,
+    "naturalRecoveryChance": 0.0001,
     "feverHpFloor": 1,
     "chanceBands": [
       0.001,
       0.005,
       0.01,
       0.02
-    ]
+    ],
+    "//naturalRecovery": "Original AIR balance: a rare sudden recovery per race step. Gradual immunity remains separate; reducing this dial does not erase immunity already earned."
   },
   "woundPenalties": {
     "armSwingPercent": {
