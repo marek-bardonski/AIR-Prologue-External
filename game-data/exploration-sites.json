@@ -1,0 +1,583 @@
+{
+  "walkMinutes": 2,
+  "searchMinutes": 15,
+  "pickMinutes": 8,
+  "hackMinutes": 5,
+  "bashMinutes": 20,
+  "hackKjPerMinute": 0.015,
+  "bashStaminaPerMinute": 1,
+  "safeChance": 0.15,
+  "hackDevices": [
+    "smart_phone",
+    "laptop"
+  ],
+  "profiles": {
+    "laboratory": {
+      "name": "Sealed facility",
+      "rooms": [
+        {
+          "id": "perimeter",
+          "name": "Perimeter",
+          "at": [
+            110,
+            245
+          ],
+          "items": []
+        },
+        {
+          "id": "hall",
+          "name": "Entrance hall",
+          "from": "perimeter",
+          "at": [
+            310,
+            245
+          ],
+          "items": [
+            {
+              "item": "string_36",
+              "count": 2,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "workroom",
+          "name": "Workroom",
+          "from": "hall",
+          "at": [
+            520,
+            125
+          ],
+          "lock": {
+            "kind": "wood",
+            "level": 1
+          },
+          "items": [
+            {
+              "item": "e_scrap",
+              "count": 5,
+              "charges": 1
+            },
+            {
+              "item": "cable",
+              "count": 3,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "stores",
+          "name": "Locked stores",
+          "from": "hall",
+          "at": [
+            520,
+            365
+          ],
+          "lock": {
+            "kind": "metal",
+            "level": 2
+          },
+          "items": [
+            {
+              "item": "chem_ethanol",
+              "count": 2,
+              "charges": 1
+            },
+            {
+              "item": "chem_citric_acid",
+              "count": 2,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "secure",
+          "name": "Secure laboratory",
+          "from": "workroom",
+          "at": [
+            760,
+            125
+          ],
+          "lock": {
+            "kind": "security",
+            "level": 3
+          },
+          "items": [
+            {
+              "item": "soldering_iron",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "chem_acetone",
+              "count": 2,
+              "charges": 1
+            },
+            {
+              "item": "chem_glycerol",
+              "count": 2,
+              "charges": 1
+            },
+            {
+              "item": "e_scrap",
+              "count": 8,
+              "charges": 1
+            }
+          ]
+        }
+      ]
+    },
+    "electrical_workshop": {
+      "name": "Electrical workshop",
+      "rooms": [
+        {
+          "id": "perimeter",
+          "name": "Perimeter",
+          "at": [
+            110,
+            245
+          ],
+          "items": []
+        },
+        {
+          "id": "hall",
+          "name": "Entrance hall",
+          "from": "perimeter",
+          "at": [
+            310,
+            245
+          ],
+          "items": [
+            {
+              "item": "string_36",
+              "count": 2,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "workroom",
+          "name": "Workshop",
+          "from": "hall",
+          "at": [
+            520,
+            125
+          ],
+          "lock": {
+            "kind": "wood",
+            "level": 1
+          },
+          "items": [
+            {
+              "item": "screwdriver",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "e_scrap",
+              "count": 3,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "lockers",
+          "name": "Supply lockers",
+          "from": "hall",
+          "at": [
+            520,
+            365
+          ],
+          "lock": {
+            "kind": "metal",
+            "level": 2
+          },
+          "items": [
+            {
+              "item": "crude_picklock",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "cable",
+              "count": 5,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "secure",
+          "name": "Parts store",
+          "from": "workroom",
+          "at": [
+            760,
+            125
+          ],
+          "lock": {
+            "kind": "security",
+            "level": 3
+          },
+          "items": [
+            {
+              "item": "solder_wire",
+              "count": 10,
+              "charges": 1
+            },
+            {
+              "item": "e_scrap",
+              "count": 8,
+              "charges": 1
+            },
+            {
+              "item": "multimeter",
+              "count": 1,
+              "charges": 1
+            }
+          ]
+        }
+      ]
+    },
+    "military_checkpoint": {
+      "name": "Checkpoint compound",
+      "rooms": [
+        {
+          "id": "perimeter",
+          "name": "Perimeter",
+          "at": [
+            110,
+            245
+          ],
+          "items": []
+        },
+        {
+          "id": "hall",
+          "name": "Entrance hall",
+          "from": "perimeter",
+          "at": [
+            310,
+            245
+          ],
+          "items": [
+            {
+              "item": "string_36",
+              "count": 2,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "workroom",
+          "name": "Workshop",
+          "from": "hall",
+          "at": [
+            520,
+            125
+          ],
+          "lock": {
+            "kind": "wood",
+            "level": 1
+          },
+          "items": [
+            {
+              "item": "screwdriver",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "e_scrap",
+              "count": 3,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "lockers",
+          "name": "Supply lockers",
+          "from": "hall",
+          "at": [
+            520,
+            365
+          ],
+          "lock": {
+            "kind": "metal",
+            "level": 2
+          },
+          "items": [
+            {
+              "item": "crude_picklock",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "cable",
+              "count": 5,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "secure",
+          "name": "Parts store",
+          "from": "workroom",
+          "at": [
+            760,
+            125
+          ],
+          "lock": {
+            "kind": "security",
+            "level": 3
+          },
+          "items": [
+            {
+              "item": "solder_wire",
+              "count": 10,
+              "charges": 1
+            },
+            {
+              "item": "e_scrap",
+              "count": 8,
+              "charges": 1
+            },
+            {
+              "item": "multimeter",
+              "count": 1,
+              "charges": 1
+            }
+          ]
+        }
+      ]
+    },
+    "medical_clinic": {
+      "name": "Clinic",
+      "rooms": [
+        {
+          "id": "perimeter",
+          "name": "Perimeter",
+          "at": [
+            110,
+            245
+          ],
+          "items": []
+        },
+        {
+          "id": "hall",
+          "name": "Entrance hall",
+          "from": "perimeter",
+          "at": [
+            310,
+            245
+          ],
+          "items": [
+            {
+              "item": "string_36",
+              "count": 2,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "workroom",
+          "name": "Workroom",
+          "from": "hall",
+          "at": [
+            520,
+            125
+          ],
+          "lock": {
+            "kind": "wood",
+            "level": 1
+          },
+          "items": [
+            {
+              "item": "e_scrap",
+              "count": 5,
+              "charges": 1
+            },
+            {
+              "item": "cable",
+              "count": 3,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "stores",
+          "name": "Locked stores",
+          "from": "hall",
+          "at": [
+            520,
+            365
+          ],
+          "lock": {
+            "kind": "metal",
+            "level": 2
+          },
+          "items": [
+            {
+              "item": "chem_ethanol",
+              "count": 2,
+              "charges": 1
+            },
+            {
+              "item": "chem_citric_acid",
+              "count": 2,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "secure",
+          "name": "Secure laboratory",
+          "from": "workroom",
+          "at": [
+            760,
+            125
+          ],
+          "lock": {
+            "kind": "security",
+            "level": 3
+          },
+          "items": [
+            {
+              "item": "soldering_iron",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "chem_acetone",
+              "count": 2,
+              "charges": 1
+            },
+            {
+              "item": "chem_glycerol",
+              "count": 2,
+              "charges": 1
+            },
+            {
+              "item": "e_scrap",
+              "count": 8,
+              "charges": 1
+            }
+          ]
+        }
+      ]
+    },
+    "ranger_station": {
+      "name": "Ranger station",
+      "rooms": [
+        {
+          "id": "perimeter",
+          "name": "Perimeter",
+          "at": [
+            110,
+            245
+          ],
+          "items": []
+        },
+        {
+          "id": "hall",
+          "name": "Entrance hall",
+          "from": "perimeter",
+          "at": [
+            310,
+            245
+          ],
+          "items": [
+            {
+              "item": "string_36",
+              "count": 2,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "bunkroom",
+          "name": "Bunkroom",
+          "from": "hall",
+          "at": [
+            520,
+            125
+          ],
+          "lock": null,
+          "items": [
+            {
+              "item": "blanket",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "matches",
+              "count": 1,
+              "charges": 1
+            }
+          ]
+        },
+        {
+          "id": "stores",
+          "name": "Equipment locker",
+          "from": "hall",
+          "at": [
+            520,
+            365
+          ],
+          "lock": {
+            "kind": "wood",
+            "level": 1
+          },
+          "items": [
+            {
+              "item": "flashlight",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "bandages",
+              "count": 2,
+              "charges": 1
+            }
+          ]
+        }
+      ],
+      "safe": {
+        "id": "safe",
+        "name": "Gun safe",
+        "from": "stores",
+        "at": [
+          760,
+          365
+        ],
+        "lock": {
+          "kind": "safe",
+          "level": 3
+        },
+        "items": [],
+        "bundles": [
+          [
+            {
+              "item": "glock_19",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "9mm",
+              "count": 5,
+              "charges": 1
+            }
+          ],
+          [
+            {
+              "item": "remington_870",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "shot_00",
+              "count": 3,
+              "charges": 1
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
