@@ -64,6 +64,7 @@
     "bionics.json",
     "explosives.json",
     "early-discoveries.json",
-    "exploration-sites.json"
+    "exploration-sites.json",
+    "camp-view.json"
   ]
 }

@@ -1,0 +1,105 @@
+{
+  "zones": [
+    {
+      "id": "shelter",
+      "name": "Shelter",
+      "at": [
+        49,
+        37
+      ],
+      "stations": [
+        "simple_hut",
+        "lean_to",
+        "log_hut",
+        "insulated_cabin",
+        "stone_cottage",
+        "abandoned_house",
+        "patched_house",
+        "repaired_house",
+        "insulated_house",
+        "restored_house",
+        "straw_bed",
+        "makeshift_bed"
+      ]
+    },
+    {
+      "id": "cooking",
+      "name": "Cooking",
+      "at": [
+        26,
+        61
+      ],
+      "stations": [
+        "fire_ring",
+        "stone_fireplace",
+        "clay_oven",
+        "smoking_rack",
+        "metal_smoking_rack",
+        "metal_butcher_rack",
+        "water_funnel"
+      ]
+    },
+    {
+      "id": "grain",
+      "name": "Grain and food",
+      "at": [
+        78,
+        65
+      ],
+      "stations": [
+        "root_cellar",
+        "screw_press",
+        "stationary_scutcher"
+      ]
+    },
+    {
+      "id": "power",
+      "name": "Energy",
+      "at": [
+        76,
+        31
+      ],
+      "stations": [
+        "solar_array",
+        "electric_heater",
+        "electric_fan",
+        "air_conditioner",
+        "cold_box",
+        "freezer_box"
+      ]
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop",
+      "at": [
+        23,
+        31
+      ],
+      "stations": [
+        "workbench"
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "at": [
+        53,
+        72
+      ],
+      "stations": [
+        "wooden_chest"
+      ]
+    },
+    {
+      "id": "shrine",
+      "name": "Shrine",
+      "at": [
+        10,
+        56
+      ],
+      "stations": [
+        "shrine"
+      ]
+    }
+  ]
+}
