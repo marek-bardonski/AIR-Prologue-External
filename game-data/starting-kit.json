@@ -1,5 +1,5 @@
 {
-  "//": "The player starts with nothing.",
+  "//": "The player starts with empty pockets and guaranteed supplies on the starting ground.",
   "items": [],
   "tutorial": {
     "recipe": "recipe:makeshift_knapsack",
@@ -13,5 +13,14 @@
         "count": 1
       }
     ]
-  }
+  },
+  "ground": [
+    {
+      "item": "matches",
+      "charges": [
+        5,
+        15
+      ]
+    }
+  ]
 }
