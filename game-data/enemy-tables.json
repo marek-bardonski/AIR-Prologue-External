@@ -1,5 +1,5 @@
 {
-  "//": "Weighted enemy presence per tile. 'chance' is the probability of an encounter over one hour of exposure; 'none' is 1 - chance and the entry weights only choose which creature. Weights come from the rarity scale in threat.json (common 100, uncommon 50, rare 20, very_rare 8, exotic 3). 'pack' is the extra companions that turn up with that creature, and is read from the table the tile actually rolls, so the same creature hunts in different numbers on different ground: [min, max] for a flat range, or { \"<extra companions>\": weight } on the same rarity scale when one size should be much rarer than another \u2014 a size left out of that map can never turn up. Absent means it hunts alone. Creatures that can neither hurt you nor feed you carry a reduced weight, so a search is rarely spent on a chipmunk. Site tables (house_N, clinic_N, tech_N, checkpoint_N, lab_N) stand in for threat_N on the terrain types that name them in terrain.json 'enemyTables' and always carry the chance of the tier they replace.",
+  "//": "Weighted enemy presence per tile. 'chance' is the probability of an encounter over one hour of exposure; 'none' is 1 - chance and the entry weights only choose which creature. Weights come from the rarity scale in threat.json (common 100, uncommon 50, rare 20, very_rare 8, exotic 3). 'pack' is the extra companions that turn up with that creature, and is read from the table the tile actually rolls, so the same creature hunts in different numbers on different ground: [min, max] for a flat range, or { \"<extra companions>\": weight } on the same rarity scale when one size should be much rarer than another — a size left out of that map can never turn up. Absent means it hunts alone. Creatures that can neither hurt you nor feed you carry a reduced weight, so a search is rarely spent on a chipmunk. Site tables (house_N, clinic_N, tech_N, checkpoint_N, lab_N) stand in for threat_N on the terrain types that name them in terrain.json 'enemyTables' and always carry the chance of the tier they replace. Global species weight multipliers in threat.json are applied once by GameData after loading. Retired monsters remain defined for saved encounters but have no spawn entries.",
   "tables": {
     "none": {
       "none": 1,
@@ -486,10 +486,6 @@
           "weight": 8
         },
         {
-          "monster": "mon_echo",
-          "weight": 8
-        },
-        {
           "monster": "mon_stray_hack",
           "weight": 8
         },
@@ -556,10 +552,6 @@
           "weight": 100
         },
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
           "monster": "mon_coyote",
           "weight": 50,
           "pack": [
@@ -585,10 +577,6 @@
         },
         {
           "monster": "mon_beaver",
-          "weight": 20
-        },
-        {
-          "monster": "mon_echo_hound",
           "weight": 20
         },
         {
@@ -664,14 +652,6 @@
             1,
             2
           ]
-        },
-        {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
         },
         {
           "monster": "mon_cougar",
@@ -764,16 +744,8 @@
       "none": 0.54,
       "entries": [
         {
-          "monster": "mon_echo_hound",
-          "weight": 100
-        },
-        {
           "monster": "mon_draft",
           "weight": 100
-        },
-        {
-          "monster": "mon_echo",
-          "weight": 50
         },
         {
           "monster": "mon_wolf",
@@ -890,10 +862,6 @@
           ]
         },
         {
-          "monster": "mon_echo",
-          "weight": 8
-        },
-        {
           "monster": "mon_porter",
           "weight": 50
         },
@@ -928,10 +896,6 @@
           ]
         },
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
           "monster": "mon_cat",
           "weight": 50
         },
@@ -946,10 +910,6 @@
             1,
             3
           ]
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 20
         },
         {
           "monster": "mon_coyote",
@@ -1002,20 +962,12 @@
       "none": 0.72,
       "entries": [
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
           "monster": "mon_dog",
           "weight": 50,
           "pack": [
             1,
             1
           ]
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
         },
         {
           "monster": "mon_wolf",
@@ -1080,20 +1032,12 @@
       "none": 0.62,
       "entries": [
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
           "monster": "mon_dog",
           "weight": 50,
           "pack": [
             1,
             1
           ]
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
         },
         {
           "monster": "mon_wolf",
@@ -1158,14 +1102,6 @@
       "none": 0.8,
       "entries": [
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
-        },
-        {
           "monster": "mon_dog",
           "weight": 20,
           "pack": [
@@ -1211,14 +1147,6 @@
       "chance": 0.28,
       "none": 0.72,
       "entries": [
-        {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
-        },
         {
           "monster": "mon_dog",
           "weight": 20,
@@ -1266,14 +1194,6 @@
       "none": 0.62,
       "entries": [
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
-        },
-        {
           "monster": "mon_dog",
           "weight": 20,
           "pack": [
@@ -1319,14 +1239,6 @@
       "chance": 0.46,
       "none": 0.54,
       "entries": [
-        {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
-        },
         {
           "monster": "mon_dog",
           "weight": 20,
@@ -1374,15 +1286,7 @@
       "none": 0.72,
       "entries": [
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
           "monster": "mon_draft",
-          "weight": 50
-        },
-        {
-          "monster": "mon_echo_hound",
           "weight": 50
         },
         {
@@ -1432,15 +1336,7 @@
       "none": 0.62,
       "entries": [
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
           "monster": "mon_draft",
-          "weight": 50
-        },
-        {
-          "monster": "mon_echo_hound",
           "weight": 50
         },
         {
@@ -1490,15 +1386,7 @@
       "none": 0.54,
       "entries": [
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
           "monster": "mon_draft",
-          "weight": 50
-        },
-        {
-          "monster": "mon_echo_hound",
           "weight": 50
         },
         {
@@ -1552,14 +1440,6 @@
           "weight": 100
         },
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
-        },
-        {
           "monster": "mon_wolf",
           "weight": 20,
           "pack": [
@@ -1602,14 +1482,6 @@
           "weight": 100
         },
         {
-          "monster": "mon_echo",
-          "weight": 100
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 50
-        },
-        {
           "monster": "mon_wolf",
           "weight": 20,
           "pack": [
@@ -1648,16 +1520,8 @@
       "none": 0.62,
       "entries": [
         {
-          "monster": "mon_echo",
-          "weight": 50
-        },
-        {
           "monster": "mon_draft",
           "weight": 50
-        },
-        {
-          "monster": "mon_echo_hound",
-          "weight": 20
         },
         {
           "monster": "mon_clearance_drone",
@@ -1704,10 +1568,6 @@
         {
           "monster": "mon_draft",
           "weight": 100
-        },
-        {
-          "monster": "mon_echo",
-          "weight": 50
         },
         {
           "monster": "mon_sentinel",

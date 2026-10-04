@@ -165,7 +165,6 @@
       "mon_otter",
       "mon_wolf",
       "mon_turtle_snapping_common",
-      "mon_echo",
       "mon_dog_gshepherd",
       "mon_dog_rottweiler",
       "mon_rattlesnake"
@@ -173,13 +172,11 @@
     [
       "mon_wolf",
       "mon_boar_wild",
-      "mon_echo",
       "mon_coyote",
       "mon_dog",
       "mon_bobcat",
       "mon_deer",
       "mon_beaver",
-      "mon_echo_hound",
       "mon_black_rat",
       "mon_raccoon",
       "mon_turkey",
@@ -190,8 +187,6 @@
     ],
     [
       "mon_wolf",
-      "mon_echo",
-      "mon_echo_hound",
       "mon_cougar",
       "mon_boar_wild",
       "mon_draft",
@@ -205,9 +200,7 @@
       "mon_raven"
     ],
     [
-      "mon_echo_hound",
       "mon_draft",
-      "mon_echo",
       "mon_wolf",
       "mon_cougar",
       "mon_bear",
@@ -713,5 +706,13 @@
     "skull_goat",
     "skull_skunk",
     "skull_llama"
+  ],
+  "enemyWeightMultipliers": {
+    "mon_deer": 0.25,
+    "mon_fox_red": 0.5
+  },
+  "legacyMonsters": [
+    "mon_echo",
+    "mon_echo_hound"
   ]
 }
