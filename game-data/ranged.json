@@ -2032,7 +2032,11 @@
       "movePerStep": 2,
       "fleePerStep": 3,
       "attack": 3,
-      "speedFloor": 0.4,
+      "stamina": 120,
+      "fullSpeedShare": 0.75,
+      "speedFloor": 0.05,
+      "attackSpeedFloor": 0.15,
+      "dodgeFloor": 0.25,
       "recoverPerMinute": 0.3
     },
     "defensive": {
