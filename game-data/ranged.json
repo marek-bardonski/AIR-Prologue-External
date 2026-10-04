@@ -1993,5 +1993,65 @@
     "steps": 1,
     "stamina": 1.0,
     "accuracyPenalty": 1.5
+  },
+  "hunting": {
+    "//": "AIR hunting: visible pursuit, movement between shots, animal endurance and a single stealth opening. Distances are combat steps, not map hexes.",
+    "maxRange": 120,
+    "rangeBySkill": {
+      "archery": 1.5,
+      "pistol": 1.6,
+      "rifle": 3,
+      "shotgun": 1.5,
+      "smg": 1.6
+    },
+    "visibility": {
+      "default": 30,
+      "nightFactor": 0.65,
+      "terrain": {
+        "field": 60,
+        "road": 60,
+        "farm": 55,
+        "hills": 45,
+        "lake": 60,
+        "river": 50,
+        "forest": 24,
+        "dense_forest": 18,
+        "orchard": 30,
+        "house": 12,
+        "shop": 14,
+        "medical_clinic": 14,
+        "ruins": 20
+      }
+    },
+    "keep": {
+      "targetShare": 0.7,
+      "runBelowShare": 0.35,
+      "aimStillShare": 0.2
+    },
+    "endurance": {
+      "movePerStep": 2,
+      "fleePerStep": 3,
+      "attack": 3,
+      "speedFloor": 0.4,
+      "recoverPerMinute": 0.3
+    },
+    "defensive": {
+      "chargeSteps": 4,
+      "attacks": 2,
+      "hesitateCost": 180,
+      "backSteps": 2,
+      "recover": 3
+    },
+    "pursuit": {
+      "minutes": 3,
+      "staminaPerMinute": 3,
+      "reacquireShare": 0.6
+    },
+    "stealth": {
+      "extraCost": 200,
+      "noticeChance": 0.2,
+      "closeNoticeChance": 0.4,
+      "accuracyBonus": 4
+    }
   }
 }
