@@ -1,0 +1,51 @@
+{
+  "//": "Ingredient kinds (Prologue rule, 04.10.2026). Code: src/game/crafting/IngredientKinds.js. A recipe row that offers many alternatives of one kind is shown as the kind's name (\"Fruit\") with only what the survivor has within reach listed, instead of every alternative the world holds. A row is of a kind when it has at least `minAlternatives` enabled alternatives and at least `share` of them are in the kind's `items`. An item of a kind says so in its details. Ids only; the list of fresh fruit is the row of CDDA's cooked-fruit recipe.",
+  "source": "CDDA 0.I data/json/recipes/food (fruit_cooked component alternatives)",
+  "minAlternatives": 6,
+  "share": 0.6,
+  "kinds": {
+    "fruit": {
+      "name": "Fruit",
+      "items": [
+        "apple",
+        "apricot",
+        "banana",
+        "blackberries",
+        "blueberries",
+        "cherries",
+        "grapefruit",
+        "grapes",
+        "guayaba",
+        "kiwi",
+        "lulo",
+        "mango",
+        "maracuya",
+        "melon_chunks",
+        "orange",
+        "papaya",
+        "peach",
+        "pear",
+        "pumpkin_cut",
+        "pineapple_chunks",
+        "plums",
+        "pomegranate",
+        "raspberries",
+        "rose_hips_cut",
+        "wintergreen_berry",
+        "mayapple",
+        "m_stellatum_berries",
+        "strawberries",
+        "huckleberries",
+        "mulberries",
+        "elderberries",
+        "nannyberries",
+        "tupelo_fruit",
+        "hobbleberries",
+        "autumn_olive",
+        "watermelon_wedge",
+        "coconut_flesh",
+        "lemon"
+      ]
+    }
+  }
+}

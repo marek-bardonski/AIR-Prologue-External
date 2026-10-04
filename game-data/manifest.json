@@ -67,6 +67,7 @@
     "exploration-sites.json",
     "camp-view.json",
     "health.json",
-    "digging.json"
+    "digging.json",
+    "ingredient-kinds.json"
   ]
 }
