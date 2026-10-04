@@ -1995,6 +1995,7 @@
     "accuracyPenalty": 1.5
   },
   "hunting": {
+    "encounterAvoidance": { "mon_horse": 0.9 },
     "//": "AIR hunting: visible pursuit, movement between shots, animal endurance and a single stealth opening. Distances are combat steps, not map hexes.",
     "maxRange": 120,
     "rangeBySkill": {
