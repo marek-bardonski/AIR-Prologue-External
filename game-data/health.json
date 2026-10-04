@@ -30,16 +30,18 @@
     "workMinutes": 120,
     "sleepMinutes": 420,
     "actions": [
-      "build",
-      "interact",
+      "build_station",
+      "dismantle_station",
+      "pack_station",
+      "unpack_station",
       "fell_tree",
-      "chop_tree",
-      "dig",
-      "craft",
-      "butcher",
-      "salvage",
-      "farm",
-      "forage"
+      "build_road",
+      "farm_clear",
+      "farm_till",
+      "farm_irrigate",
+      "drag",
+      "drag_cart",
+      "craft"
     ]
   },
   "illness": {
@@ -112,7 +114,15 @@
     "meat": 55,
     "milk": 8,
     "egg_chicken": 6.3,
-    "beans_cooked": 18
+    "beans_cooked": 18,
+    "human_fat": 0,
+    "cooking_oil2": 0,
+    "raw_butter": 0.2,
+    "vegan_butter": 0,
+    "bone_marrow": 4,
+    "cooked_marrow": 4,
+    "human_marrow": 4,
+    "pepperbone": 4
   },
   "vitaminUnitsMg": {
     "vitC": 0.938,
@@ -343,7 +353,8 @@
       "symptoms": "Stomach cramps and diarrhoea; drink regularly.",
       "relief": [
         "analgesic"
-      ]
+      ],
+      "thirstPerDay": 30
     },
     {
       "id": "tonsillitis",
