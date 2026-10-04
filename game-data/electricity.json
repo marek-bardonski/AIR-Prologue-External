@@ -1068,7 +1068,8 @@
       "capacityKj": 30,
       "rechargeable": true,
       "watts": 0,
-      "passiveQualities": {}
+      "passiveQualities": {},
+      "legacyCharges": true
     }
   },
   "lights": {
