@@ -222,9 +222,8 @@
   "maxEncountersPerExploration": 2,
   "secondEncounterMultiplier": 0.35,
   "fallen": {
-    "//": "Prologue rule (26.09.2026): a survivor lying where they fell - down with pain, or passed out from exhaustion - is found. On unsearched ground every check carries unexploredMultiplier times the resting chance; on searched ground, where resting is safe, it carries exploredMultiplier times the searching chance instead. A fight begun that way starts with the survivor down.",
-    "unexploredMultiplier": 3,
-    "exploredMultiplier": 0.5
+    "//": "Prologue rule: on unsearched ground, a survivor incapacitated by pain or exhaustion uses unexploredMultiplier times the resting encounter exposure. Explored ground uses the separate nightly visitor rule in RestExposure.js; no exploration multiplier applies there. A fight begun while incapacitated starts with the survivor down.",
+    "unexploredMultiplier": 3
   },
   "//": "undefined rates are per hour of exposure; at most maxEncountersPerExploration turn up in one search and the second is rarer. A search and every step onto unknown ground are checked every encounterCheckMinutes with the danger of that moment; the checks together carry exactly the table's chance.",
   "rosterExpansion": [
