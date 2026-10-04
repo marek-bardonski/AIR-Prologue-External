@@ -37802,6 +37802,42 @@
             1,
             1
           ]
+        },
+        {
+          "item": "coal_lump",
+          "weight": 3,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            20,
+            100
+          ]
+        },
+        {
+          "item": "chem_hexamine",
+          "weight": 3,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            20,
+            100
+          ]
+        },
+        {
+          "item": "butane",
+          "weight": 3,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            20,
+            100
+          ]
         }
       ]
     },
@@ -59091,6 +59127,30 @@
           "count": [
             1,
             1
+          ]
+        },
+        {
+          "item": "chem_hexamine",
+          "weight": 3,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            20,
+            100
+          ]
+        },
+        {
+          "item": "butane",
+          "weight": 3,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            20,
+            100
           ]
         }
       ]

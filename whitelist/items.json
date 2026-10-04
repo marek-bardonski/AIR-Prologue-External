@@ -6755,5 +6755,10 @@
   "camp_workshop": [
     "planer",
     "catalytic_cracking_reactor"
+  ],
+  "workshop_fuels": [
+    "coal_lump",
+    "chem_hexamine",
+    "butane"
   ]
 }
