@@ -4,7 +4,7 @@
     {
       "id": "last_camp",
       "title": "The last camp",
-      "text": "Under a fallen branch lies a traveller who never left. Their small camp has weathered badly, but a few supplies stayed dry.",
+      "text": "You found the remains of a dead person at an old campsite.",
       "weight": 22,
       "art": "last_camp",
       "items": [
