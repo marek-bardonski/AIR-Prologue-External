@@ -182,19 +182,22 @@
       "kind": "antibiotic",
       "hours": 12,
       "recovery": 0.45,
-      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off."
+      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off.",
+      "woundFactor": 0.4
     },
     "antibiotics": {
       "kind": "antibiotic",
       "hours": 12,
       "recovery": 1,
-      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off."
+      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off.",
+      "woundFactor": 0.3
     },
     "strong_antibiotic": {
       "kind": "antibiotic",
       "hours": 12,
       "recovery": 1.1,
-      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off."
+      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off.",
+      "woundFactor": 0.22
     },
     "antifungal": {
       "kind": "antifungal",
