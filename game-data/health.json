@@ -7,6 +7,8 @@
   "absorptionMinutes": 240,
   "intakeMemoryDays": 2,
   "perfectIntake": 1.25,
+  "dailyIntakeCap": 4,
+  "//dailyIntakeCap": "Prologue rule (04.10.2026): protein and vitamins eaten in one day count only up to this many times the daily target. What is eaten past it is not absorbed and cannot be stored for later.",
   "protein": {
     "depleteDays": 24,
     "refillDays": 21
