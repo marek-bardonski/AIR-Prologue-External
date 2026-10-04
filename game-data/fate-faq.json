@@ -997,6 +997,7 @@
       "lines": [
         "Character’s Health dialog tracks protein and overall vitamins. Food is absorbed over hours; depleted condition recovers over days and weeks. Strength conditioning is capped at +4, nutritional loss at -4.",
         "Protein, enough energy, physical work and sleep support strength. Fat supplies calories but does not replace protein or vitamin-rich food. Deficiency conditions need sustained replenishment. Herbal remedies ease suitable symptoms; antibiotics help bacterial infections and antifungals help fungal illness.",
+        "Empty food and water meters mildly reduce recovery; depleted body reserves have a much stronger effect. Focus affects learning. Speed shows the current activity, with brief hover explanations of its strongest penalties.",
         "Common cold: Runny nose, sore throat and mild fatigue. Recovery usually takes 7 to 10 days, adjusted by condition and treatment.",
         "Viral sore throat: Painful throat and tiredness. Recovery usually takes 3 to 7 days, adjusted by condition and treatment.",
         "Laryngitis: Hoarse voice, irritating cough and sore throat. Recovery usually takes 7 to 14 days, adjusted by condition and treatment.",
@@ -1638,7 +1639,7 @@
         "clay teapot: from dirty water, lump of clay and tallow, over a fire — low fabrication.",
         "clay urn: from dirty water and lump of clay, over a fire — low fabrication.",
         "clean water: from dirty water — very low survival.",
-        "clean water: from dirty water, over a fire — very low cooking.",
+        "clean water: from dirty water, over a fire — very low cooking. Requires a watertight boiling vessel. Dirty water stays in the pot until complete; interrupted work resumes from Crafting with its saved batch and progress. Routine boiling has no random setbacks.",
         "clean water: what water (purifying) becomes by itself after about 1 hours, left anywhere, no tending.",
         "cleaver: from chunk of steel — medium fabrication.",
         "cloak: from cotton sheet and thread — low tailor.",
