@@ -28505,7 +28505,7 @@
           ]
         },
         {
-          "item": "tÖttchen",
+          "item": "t\u00d6ttchen",
           "weight": 0.02,
           "count": [
             1,
@@ -108615,6 +108615,14 @@
             1
           ],
           "minDanger": 4
+        },
+        {
+          "item": "catalytic_cracking_reactor",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -125799,6 +125807,14 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "planer",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },

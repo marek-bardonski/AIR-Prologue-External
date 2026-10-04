@@ -4948,7 +4948,7 @@
     "sausage_wasteland",
     "offal",
     "offal_cooked",
-    "tÖttchen",
+    "t\u00d6ttchen",
     "blood_pancakes",
     "catfood",
     "catfood_raw",
@@ -6751,5 +6751,9 @@
   ],
   "content_17_09_p02_a01_rounds": [
     "458wm"
+  ],
+  "camp_workshop": [
+    "planer",
+    "catalytic_cracking_reactor"
   ]
 }

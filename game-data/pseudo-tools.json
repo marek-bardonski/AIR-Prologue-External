@@ -44,6 +44,18 @@
       "items": [
         "manual_tire_changer"
       ]
+    },
+    "planer_tool": {
+      "items": [
+        "planer"
+      ],
+      "stations": []
+    },
+    "catalytic_cracking_reactor_tool": {
+      "items": [
+        "catalytic_cracking_reactor"
+      ],
+      "stations": []
     }
   }
 }

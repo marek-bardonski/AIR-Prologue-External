@@ -71,9 +71,10 @@
     },
     "battery_charger": {
       "kind": "charger",
-      "method": "solar",
+      "method": "grid",
       "watts": 100,
-      "accepts": []
+      "accepts": [],
+      "efficiency": 0.9
     },
     "solar_panel": {
       "kind": "solar",
@@ -599,8 +600,14 @@
       "flags": [
         "BATTERY_ULTRA_LIGHT"
       ],
-      "playWatts": { "game": 0.3, "music": 0.3 },
-      "foundCharge": [0.1, 0.7]
+      "playWatts": {
+        "game": 0.3,
+        "music": 0.3
+      },
+      "foundCharge": [
+        0.1,
+        0.7
+      ]
     },
     "lightstrip": {
       "kind": "device",
@@ -730,9 +737,10 @@
     },
     "box_battery_charger": {
       "kind": "charger",
-      "method": "solar",
+      "method": "grid",
       "watts": 100,
-      "accepts": []
+      "accepts": [],
+      "efficiency": 0.9
     },
     "reciprocating_saw": {
       "kind": "device",
@@ -744,7 +752,8 @@
       "light": false,
       "watts": 0,
       "defaultBattery": "heavy_battery_cell",
-      "passiveQualities": {}
+      "passiveQualities": {},
+      "workWatts": 200
     },
     "hair_dryer": {
       "kind": "device",
@@ -793,8 +802,13 @@
       "watts": 0,
       "defaultBattery": "light_minus_battery_cell",
       "passiveQualities": {},
-      "playWatts": { "game": 0.05 },
-      "foundCharge": [0.1, 0.7]
+      "playWatts": {
+        "game": 0.05
+      },
+      "foundCharge": [
+        0.1,
+        0.7
+      ]
     },
     "portable_game": {
       "kind": "device",
@@ -808,8 +822,13 @@
       "flags": [
         "BATTERY_ULTRA_LIGHT"
       ],
-      "playWatts": { "game": 2 },
-      "foundCharge": [0.1, 0.7]
+      "playWatts": {
+        "game": 2
+      },
+      "foundCharge": [
+        0.1,
+        0.7
+      ]
     },
     "mp3": {
       "kind": "device",
@@ -823,8 +842,13 @@
       "flags": [
         "BATTERY_ULTRA_LIGHT"
       ],
-      "playWatts": { "music": 0.25 },
-      "foundCharge": [0.1, 0.7]
+      "playWatts": {
+        "music": 0.25
+      },
+      "foundCharge": [
+        0.1,
+        0.7
+      ]
     },
     "smart_phone": {
       "kind": "device",
@@ -838,8 +862,15 @@
       "flags": [
         "BATTERY_ULTRA_LIGHT"
       ],
-      "playWatts": { "game": 1.5, "music": 0.3, "ebook": 0.5 },
-      "foundCharge": [0.1, 0.7]
+      "playWatts": {
+        "game": 1.5,
+        "music": 0.3,
+        "ebook": 0.5
+      },
+      "foundCharge": [
+        0.1,
+        0.7
+      ]
     },
     "laptop": {
       "kind": "device",
@@ -853,8 +884,14 @@
       "flags": [
         "BATTERY_HEAVY"
       ],
-      "playWatts": { "game": 15, "ebook": 10 },
-      "foundCharge": [0.1, 0.7]
+      "playWatts": {
+        "game": 15,
+        "ebook": 10
+      },
+      "foundCharge": [
+        0.1,
+        0.7
+      ]
     },
     "eink_tablet_pc": {
       "kind": "device",
@@ -868,8 +905,13 @@
       "flags": [
         "BATTERY_ULTRA_LIGHT"
       ],
-      "playWatts": { "ebook": 0.4 },
-      "foundCharge": [0.1, 0.7]
+      "playWatts": {
+        "ebook": 0.4
+      },
+      "foundCharge": [
+        0.1,
+        0.7
+      ]
     },
     "electric_blanket": {
       "kind": "device",
@@ -1019,6 +1061,13 @@
       "light": false,
       "watts": 0,
       "defaultBattery": "medium_battery_cell",
+      "passiveQualities": {}
+    },
+    "electric_lighter": {
+      "kind": "device",
+      "capacityKj": 30,
+      "rechargeable": true,
+      "watts": 0,
       "passiveQualities": {}
     }
   },
@@ -3006,5 +3055,6 @@
       "sheet_nomex"
     ]
   },
-  "expansionSource": "Additional battery capacities, tool compatibility and reading-light draw from local CDDA 0.I. External connections and integral-cell recharging use the Prologue local charger model."
+  "expansionSource": "Additional battery capacities, tool compatibility and reading-light draw from local CDDA 0.I. External connections and integral-cell recharging use the Prologue local charger model.",
+  "workWatts": 30
 }

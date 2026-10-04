@@ -93,7 +93,11 @@
     "welder": 3000,
     "welder_crude": 1500,
     "welding_kit": 3000,
-    "wire_draw_machine": 1500
+    "wire_draw_machine": 1500,
+    "battery_charger": 100,
+    "box_battery_charger": 100,
+    "planer": 1500,
+    "catalytic_cracking_reactor": 2500
   },
   "//coldStorage": "Fridges and freezers (02.10.2026): the draw of the box built into a cold_box or freezer_box station (stations.json effects.cold), in watts, while the station is on; CDDA 0.I ap_* appliance part epower. Read by electricity/ColdStorage.js."
 }

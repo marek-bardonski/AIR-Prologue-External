@@ -1,0 +1,17 @@
+[
+  {
+    "id": "catalytic_cracking_reactor",
+    "type": "ITEM",
+    "copy-from": "catalytic_cracking_reactor",
+    "qualities": [
+      [
+        "EXTRACT",
+        3
+      ],
+      [
+        "COOK",
+        3
+      ]
+    ]
+  }
+]
