@@ -2122,13 +2122,6 @@
         "level": 5
       },
       {
-        "key": "recipe:glass_fridge",
-        "result": "glass_fridge",
-        "name": "glass fridge",
-        "skill": "mechanics",
-        "level": 5
-      },
-      {
         "key": "recipe:heattank",
         "result": "heattank",
         "name": "heattank",
@@ -2167,6 +2160,13 @@
         "key": "recipe:minifridge",
         "result": "minifridge",
         "name": "minifridge",
+        "skill": "mechanics",
+        "level": 5
+      },
+      {
+        "key": "recipe:glass_fridge",
+        "result": "glass_fridge",
+        "name": "single glass door fridge",
         "skill": "mechanics",
         "level": 5
       },
@@ -13436,13 +13436,6 @@
         "level": 5
       },
       {
-        "key": "recipe:glass_fridge",
-        "result": "glass_fridge",
-        "name": "glass fridge",
-        "skill": "mechanics",
-        "level": 5
-      },
-      {
         "key": "recipe:hard_plate",
         "result": "hard_plate",
         "name": "hard plating",
@@ -13503,6 +13496,13 @@
         "result": "rollerskates",
         "name": "rollerskates (pair)",
         "skill": "fabrication",
+        "level": 5
+      },
+      {
+        "key": "recipe:glass_fridge",
+        "result": "glass_fridge",
+        "name": "single glass door fridge",
+        "skill": "mechanics",
         "level": 5
       },
       {
@@ -19675,13 +19675,6 @@
         "level": 5
       },
       {
-        "key": "recipe:glass_fridge",
-        "result": "glass_fridge",
-        "name": "glass fridge",
-        "skill": "mechanics",
-        "level": 5
-      },
-      {
         "key": "recipe:heattank",
         "result": "heattank",
         "name": "heattank",
@@ -19713,6 +19706,13 @@
         "key": "recipe:minifridge",
         "result": "minifridge",
         "name": "minifridge",
+        "skill": "mechanics",
+        "level": 5
+      },
+      {
+        "key": "recipe:glass_fridge",
+        "result": "glass_fridge",
+        "name": "single glass door fridge",
         "skill": "mechanics",
         "level": 5
       },
@@ -24530,16 +24530,16 @@
     ],
     "vacuum_sealing": [
       {
-        "key": "recipe:apple_sugar:vacuum_packed",
-        "result": "apple_sugar",
-        "name": "fruit slice",
+        "key": "recipe:cured_roe:vacuum_packed",
+        "result": "cured_roe",
+        "name": "cured roe 'caviar'",
         "skill": "cooking",
         "level": 1
       },
       {
-        "key": "recipe:cured_roe:vacuum_packed",
-        "result": "cured_roe",
-        "name": "post apocalyptic 'caviar'",
+        "key": "recipe:apple_sugar:vacuum_packed",
+        "result": "apple_sugar",
+        "name": "fruit slice",
         "skill": "cooking",
         "level": 1
       },

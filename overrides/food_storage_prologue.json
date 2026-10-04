@@ -227,7 +227,8 @@
   {
     "type": "ITEM",
     "id": "hotdogs_frozen",
-    "spoils_in": "1 day"
+    "spoils_in": "1 day",
+    "description": "A heavily processed sausage, commonplace at baseball games before all this.  It would taste much better cooked."
   },
   {
     "type": "ITEM",
@@ -396,7 +397,11 @@
   {
     "type": "ITEM",
     "id": "veggy",
-    "quench": 21
+    "quench": 21,
+    "description": "A weird looking chunk of plant matter that's a shade of yellow and green, with oddly thick fibers.  It smells like a mix of rotted wood and dirt, and it leaks a clear fluid.",
+    "name": {
+      "str_sp": "fibrous plant flesh"
+    }
   },
   {
     "type": "ITEM",

@@ -1,0 +1,838 @@
+[
+  {
+    "//": "Prologue wording (04.10.2026): descriptions and a few names rewritten so that nothing speaks of zombies, the undead or an apocalypse. Each entry patches the CDDA item of the same id; the rest of the item is CDDA's."
+  },
+  {
+    "type": "ITEM",
+    "id": "towel",
+    "description": "A large, fluffy towel.  It could be used to dry yourself.  Anyone who can cross this country, rough it, struggle against terrible odds, win through, and still know where their towel is, is clearly a force to be reckoned with."
+  },
+  {
+    "type": "ITEM",
+    "id": "spear_spike",
+    "description": "A flimsy pole made of wood with a basic metal spike tied to it.  It's barely sharp, and crudely constructed, but it will keep trouble out of arm's reach until you can find something better."
+  },
+  {
+    "type": "ITEM",
+    "id": "coffee",
+    "description": "The morning ritual of a world that had time for one, created from coffee cherries through a complex process of seed removal, roasting, grinding, and brewing.  Coffee is substantially richer in caffeine than its rival tea."
+  },
+  {
+    "type": "ITEM",
+    "id": "homemade_polehammer_makeshift",
+    "description": "A standard hammerhead mounted at the end of a long stick.  It is far from being a proper weapon, but it lets you land a heavy blow from a safe distance."
+  },
+  {
+    "type": "ITEM",
+    "id": "super_glue",
+    "description": "Cyanoacrylate, more commonly known as superglue, is a strong, quick curing glue with many applications.  It was a favorite of hobbyists, and is now a sought-after trade good due to its wide applications and the fact that it has become essentially impossible to manufacture."
+  },
+  {
+    "type": "ITEM",
+    "id": "survivor_adhoc_leather_torso",
+    "description": "Armor made of combined old clothing.  Sections from leather clothing are tightened and affixed to a thick cotton shirt.  The sleeves have been cut off."
+  },
+  {
+    "type": "ITEM",
+    "id": "brain_cooked",
+    "description": "Not a dish anyone asks for twice.  Preparing brain for eating is challenging, and this doesn't seem to be the best way to do it."
+  },
+  {
+    "type": "ITEM",
+    "id": "armguard_metal",
+    "description": "A pair of arm guards hammered out from metal, avoiding joints.  Crude, and plainly made by someone with no better choice."
+  },
+  {
+    "type": "ITEM",
+    "id": "armor_metal_sheets",
+    "description": "A full set of armor hammered out from sheet metal and tied in place with leather straps and belts.  It's crude, heavy, and uncomfortable, but damn protective."
+  },
+  {
+    "type": "ITEM",
+    "id": "legguard_metal_sheets",
+    "description": "A pair of leg guards hammered out of metal and shaped to tie on to the upper and lower leg, avoiding joints.  Crude, and plainly made by someone with no better choice."
+  },
+  {
+    "type": "ITEM",
+    "id": "survivor_adhoc_leather_shirt",
+    "description": "Armor made of combined old clothing.  Sections from leather clothing are tightened and affixed to a thick cotton shirt, excluding the joints."
+  },
+  {
+    "type": "ITEM",
+    "id": "survivor_adhoc_leather_sleeves",
+    "description": "Armor made of combined old clothing.  Sections from leather clothing are tightened and affixed to the sleeves of a thick cotton shirt, excluding the joints."
+  },
+  {
+    "type": "ITEM",
+    "id": "boots_lsurvivor",
+    "description": "A pair of custom-made Kevlar-armored boots with a chemical-resistant layer and rubber toes.  Will keep you highly mobile without the worry of acid or spilled chemicals eating at your feet."
+  },
+  {
+    "type": "ITEM",
+    "id": "butterfly_net_makeshift",
+    "description": "A piece of canvas stretched over a stick.  Used to catch bugs or fish, but might not be as useful for the bigger ones."
+  },
+  {
+    "type": "ITEM",
+    "id": "cheeseburger",
+    "description": "A sandwich of minced meat and cheese with condiments.  A simple favorite of the people before all this."
+  },
+  {
+    "type": "ITEM",
+    "id": "gloves_fsurvivor",
+    "description": "A pair of customized, Kevlar-armored Nomex gloves.  These are a home-made extension of what firefighters used to wear."
+  },
+  {
+    "type": "ITEM",
+    "id": "milk_coffee_substitute_sweetened",
+    "description": "A morning ritual for when the real thing has run out.  Brewed from the Kentucky coffeetree, this drink has no actual caffeine, but serves as a replacement for those who dearly miss the aroma of real coffee.  Can also be served cold as iced coffee."
+  },
+  {
+    "type": "ITEM",
+    "id": "plastic_fork",
+    "description": "A plastic disposable fork.  Great for picnic lunches, wherever you end up having them."
+  },
+  {
+    "type": "ITEM",
+    "id": "scrap_kevlar",
+    "description": "A handful of oddly-shaped smallish bits of Kevlar fabric, waste material from tailoring projects.  Normally it would be disposed of, but since Kevlar is very difficult to make now, it might be worth recycling it for Kevlar thread."
+  },
+  {
+    "type": "ITEM",
+    "id": "chem_acetic_acid",
+    "description": "Concentrated acetic acid, typically used as a chemical reagent and antifungal agent.  Despite its horrid smell, it was used to prepare several types of perfumes, but making perfume would be a little too fancy now."
+  },
+  {
+    "type": "ITEM",
+    "id": "chem_aluminium_powder",
+    "description": "A handful of finely-ground aluminum powder.  This strong reducing agent was used in combination with various oxidants for chemical welding and explosives alike.  More recently it was the basis of virtually all commercial metallic-hued paints and anti-corrosive coatings."
+  },
+  {
+    "type": "ITEM",
+    "id": "chem_aluminium_sulphate",
+    "description": "Several crystals of aluminum sulfate.  Historically, an agent for purifying water and as molluscicide, due to the fact that it degenerates their slime.  More recently, its main uses were for adjusting the acidity of soil and as an additive to baking powder.  If mixed with a strong acid, it could be used to saturate soil with aluminum, causing all but the most resistant of plants to wither and die."
+  },
+  {
+    "type": "ITEM",
+    "id": "chem_formaldehyde",
+    "description": "Formaldehyde, here dissolved in water, was widely used before all this as a precursor to production of many chemicals and materials and as an embalming agent.  Easily identifiable by its pungent odor.  Terribly toxic, carcinogenic, and volatile."
+  },
+  {
+    "type": "ITEM",
+    "id": "chem_hexamine",
+    "description": "A handful of waxy hexamine tablets which could be broken up into smaller crumbs if needed.  This ubiquitous fuel was used to start up almost every garden grill, and no 'real' camping trip could do its cooking without it.  Nowadays, it is even more valuable than before, being the key component in the preparation of several military-grade explosives."
+  },
+  {
+    "type": "ITEM",
+    "id": "small_storage_battery",
+    "description": "A small storage battery built around factory-made lithium-ion cells.  Useful for crafting.  Can be plugged into a static power grid."
+  },
+  {
+    "type": "ITEM",
+    "id": "survivor_mess_kit",
+    "description": "A homemade mess kit containing everything you might need for cooking on the move.  Powered by a kerosene burner, it is composed of simple yet durable tools and materials."
+  },
+  {
+    "type": "ITEM",
+    "id": "circsaw_off",
+    "description": "A lightweight, handheld cordless circular saw.  Spins a circular blade fast enough to cut wood, sheet metal, or in an emergency, pizza.  The blade, while effective in combat, is hard to hit with due to its small size."
+  },
+  {
+    "type": "ITEM",
+    "id": "gold_small",
+    "description": "A soft, shiny metal.  Once this would've been worth a small fortune, but now its value is greatly diminished."
+  },
+  {
+    "type": "ITEM",
+    "id": "long_pole",
+    "description": "A stout, ten-foot pole.  Could be used similarly to a spear.  These days there is fresh meaning to walking softly and carrying a big stick."
+  },
+  {
+    "type": "ITEM",
+    "id": "silver_small",
+    "description": "A soft, shiny metal.  Once it was worth quite a bit, but its value is now greatly diminished."
+  },
+  {
+    "type": "ITEM",
+    "id": "mossberg_500",
+    "description": "The faithful friend of law-enforcement officers, military personnel, and action heroes alike, this quaint firearm with its over 20 inch long barrel, 6-round magazine tube, and iconic pump-action design is as simple as it is effective.  One of the most popular firearm designs in all of history, this weapon can be reliably counted upon to do the job whether one's simply looking to hunt, or to, with the right loads, drop whatever stands in front of it."
+  },
+  {
+    "type": "ITEM",
+    "id": "sten",
+    "description": "The standard issue 9mm submachine gun of the British military throughout most of the Second World War.  The STEN is aesthetically far from pretty.  Featuring an iconic side mounted magazine well and a design optimized for mass production using unskilled labor, the STEN was developed to make up for drastic supply shortages during the early days of the war.  Likely entering the US prior to the 1960s, either as a war time holdover or a museum purchase; you suppose that if you were to try and defend your nation, whatever the cost may be, and fight 'on the beaches, fight on the landing grounds, fight in the fields and in the streets, fight in the hills; and never surrender', then it might be the time for the STEN to come back into frontline service."
+  },
+  {
+    "type": "ITEM",
+    "id": "fanny",
+    "description": "A small fabric bag worn on the waist, with the pouch in front for easy access.  Once used as a visual shorthand for unstylish geeks and silly tourists, it had been making a decent comeback."
+  },
+  {
+    "type": "ITEM",
+    "id": "fermenting_book",
+    "description": "Fermenting as a cooking practice only recently came back into vogue before all this.  Here is a book with dozens of recipes, many of which you are unlikely to ever see the ingredients for again."
+  },
+  {
+    "type": "ITEM",
+    "id": "guidebook",
+    "name": {
+      "str": "The Hitchhiker's Guide to the Wilds",
+      "str_pl": "copies of The Hitchhiker's Guide to the Wilds"
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "poppy_bud",
+    "description": "A poppy bud.  Contains some substances commonly produced by a poppy flower."
+  },
+  {
+    "type": "ITEM",
+    "id": "poppy_pain",
+    "description": "A potent opioid palliative produced by the refining of the poppy.  Notably devoid of euphoric or sedative effects, but as an opiate it can still be addictive."
+  },
+  {
+    "type": "ITEM",
+    "id": "shovel_snow",
+    "description": "A sturdy metal shovel used for picking up snow and moving it somewhere else.  Of little use unless the snow is deep."
+  },
+  {
+    "type": "ITEM",
+    "id": "detergent",
+    "description": "A once-popular washing powder."
+  },
+  {
+    "type": "ITEM",
+    "id": "moonshine",
+    "description": "Only the strongest, purest, good ol' fashioned hooch, distilled from corn (or pumpkin) and sugar.  Guaranteed to make you forget about all of this, or you get your vision back."
+  },
+  {
+    "type": "ITEM",
+    "id": "denat_alcohol",
+    "description": "A high-strength ethanol solution mixed with denatonium benzoate to make it impossibly bitter to drink, so as to avoid the old regulations on ethanol.  Intended for use in alcohol-burning stoves and as a solvent."
+  },
+  {
+    "type": "ITEM",
+    "id": "camera_pro",
+    "description": "A 35 mm digital SLR (single-lens reflex) camera with optical and digital viewfinders, a zoom lens with auto-focus and stabilizer, and flash.  You can look at your photos on the digital screen or transfer them with any standard electronic device.  With it you could have taken professional-grade photos using this."
+  },
+  {
+    "type": "ITEM",
+    "id": "laptop",
+    "description": "A portable computer, a ubiquitous tool, then and now.  While you no longer have internet access, you still can load it with books and other useful software."
+  },
+  {
+    "type": "ITEM",
+    "id": "eink_tablet_pc",
+    "description": "A tablet PC using an efficient color e-ink display.  Once these were nifty gadgets; now, they are extremely useful tools.  Runs on conventional batteries."
+  },
+  {
+    "type": "ITEM",
+    "id": "carver_off",
+    "description": "An electric meat carver powered by cord.  It has two serrated blades that vibrate together to slice just about anything from turkey to ham… and it is not fussy about what else."
+  },
+  {
+    "type": "ITEM",
+    "id": "trimmer_off",
+    "description": "A cordless, double-sided, gasoline-powered hedge trimmer.  A long line of sharp-edged teeth extends from the engine; turning the trimmer on will make them rapidly vibrate.  The poor man's chainsaw, as far as anything that gets too close is concerned."
+  },
+  {
+    "type": "ITEM",
+    "id": "cured_roe",
+    "name": {
+      "str": "cured roe 'caviar'"
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "hallula",
+    "description": "A type of bread popular in Chile and Bolivia.  Prepared using animal lard or oil, it resembles a large, round scone.  It would usually be filled with savory ingredients."
+  },
+  {
+    "type": "ITEM",
+    "id": "hot_corn_casserole",
+    "description": "It's cheesy and indulgent, although the mix of tender kernels of corn, veggies, fresh herbs, and a pop of heat keep it in check so it's not too heavy for a long day on your feet."
+  },
+  {
+    "type": "ITEM",
+    "id": "chicken_fried_buttermilk",
+    "description": "Brined in buttermilk, seasoned and breaded to perfection, and fried until crispy and golden.  This fried chicken is so good you can almost forget about everything else.  Vinegar leg is on the right!"
+  },
+  {
+    "type": "ITEM",
+    "id": "deluxe_cheeseburger",
+    "description": "A cheeseburger with more vegetables and condiments.  This is the apex of fast-food achievement."
+  },
+  {
+    "type": "ITEM",
+    "id": "homemade_hotdogs",
+    "description": "A heavily processed sausage, commonplace at baseball games before all this.  It would taste much better cooked."
+  },
+  {
+    "type": "ITEM",
+    "id": "sandwich_reuben",
+    "description": "An old classic, probably made with significant substitutions.  Key components are the special sauce and sauerkraut, with bread, meat, and cheese fried in a pan."
+  },
+  {
+    "type": "ITEM",
+    "id": "fresh_fries_j",
+    "description": "Homemade deep-fried potatoes cut long and thin, with a touch of salt.  These were somewhat of a fad before all this.  Crunchy and delicious."
+  },
+  {
+    "type": "ITEM",
+    "id": "gelatin_dessert_fruit",
+    "description": "A jiggly, sugary treat made from gelatin and sugar, flavored with fruit juice and set with fruit.  Once a kid favorite and a healthy treat."
+  },
+  {
+    "type": "ITEM",
+    "id": "gelatin_dessert_homemade",
+    "description": "A homemade jiggly, sugary treat made from gelatin and sugar, flavored with fruit juice.  Once a kid favorite."
+  },
+  {
+    "type": "ITEM",
+    "id": "gelatin_dessert_processed",
+    "description": "A jiggly, sugary, fruit-flavored treat made from boxed mix.  Once a kid favorite."
+  },
+  {
+    "type": "ITEM",
+    "id": "gelatin_dessert_vegan",
+    "description": "A vegan friendly homemade jiggly, sugary treat made from agar and sugar, flavored with fruit juice.  Once a kid favorite.  They'll never know the difference."
+  },
+  {
+    "type": "ITEM",
+    "id": "gelatin_dessert_vegan_fruit",
+    "description": "A vegan friendly jiggly, sugary treat made from agar and sugar, flavored with fruit juice and set with fruit.  Once a kid favorite and a healthy treat."
+  },
+  {
+    "type": "ITEM",
+    "id": "coffee_sweetened",
+    "description": "The morning ritual of a world that had time for one, created from coffee cherries through a complex process of seed removal, roasting, grinding, and brewing.  Coffee is substantially richer in caffeine than its rival tea.  With added sweetener for better taste."
+  },
+  {
+    "type": "ITEM",
+    "id": "scrap_nomex",
+    "description": "A handful of oddly-shaped smallish bits of heat-resistant Nomex fabric, waste material from tailoring projects.  Normally it would be disposed of, but since Nomex is very difficult to make now, it might be worth recycling it for Nomex thread."
+  },
+  {
+    "type": "ITEM",
+    "id": "knife_combat",
+    "description": "A Cold War era Army bayonet that has only partially been replaced by newer models.  It has a nearly indestructible full-tang, double-edged high steel blade terminating in a spear point.  The no-frills design makes for both a good fighting knife and bayonet, a fact that was appreciated when reserve stocks of these were issued out to National Guardsmen."
+  },
+  {
+    "type": "ITEM",
+    "id": "knife_combat_army",
+    "description": "The last issue Army bayonet.  It is thick, heavy, and surprisingly sharp.  This bayonet also functions as a wire cutter, and a mediocre saw for cutting through aircraft fuselage.  That the handle and tang can be completely disassembled from the blade is surely a fact of great comfort to the soldier, survivalist, and you."
+  },
+  {
+    "type": "ITEM",
+    "id": "bra",
+    "description": "A simple bra.  For protecting those bits you would rather keep to yourself."
+  },
+  {
+    "type": "ITEM",
+    "id": "tux",
+    "description": "A full-body tuxedo.  Makes hard times feel a little more classy."
+  },
+  {
+    "type": "ITEM",
+    "id": "tricorne",
+    "description": "A classic design, the \"tricorne\", or three-cornered hat, simply pins a large and floppy brim out of the way, though this example adds well-embroidered designs and is oiled against water.  Whether you're the \"guvnah\" of a settlement, or the captain of a ragged crew, this is the hat for you."
+  },
+  {
+    "type": "ITEM",
+    "id": "backpack_giant",
+    "description": "A huge fabric backpack made mostly as a joke.  Now, it's still rather silly, but it can store a lot of stuff."
+  },
+  {
+    "type": "ITEM",
+    "id": "helmet_metal_sheets_full",
+    "description": "Massively heavy, extremely uncomfortable, very crude, and looks like a bucket with a slit cut out the front, but it'll keep claws and blades off your face.  Comes with a bevor to help spread the weight out onto your shoulders and protect your neck, and some cloth padding to keep your bell from being rung."
+  },
+  {
+    "type": "ITEM",
+    "id": "helmet_cardboard",
+    "description": "A cardboard helmet shaped to look like a medieval great helm.  Very unencumbering in comparison to actual helmets, with rather obvious drawbacks in exchange.  The interior is lined with aluminum, apparently to 'divert the rays'.  It sure doesn't help with comfort."
+  },
+  {
+    "type": "ITEM",
+    "id": "armor_aztec",
+    "description": "A Mesoamerican armor of Nahuatl origin, somewhat similar to a European gambeson.  It is made of unspun cotton between two layers of quilted cotton crystalized by brine, edged with leather around its holes.  It is extremely thick and offers superb protection, but is also heavy.  This bad boy once stopped Spanish bullets and Aztec missiles alike, now its time has come again."
+  },
+  {
+    "type": "ITEM",
+    "id": "officer_uniform",
+    "description": "A military officer's dress uniform complete with rank and ribbons.  Just looking at it gives you an air of authority.  Perhaps not the most practical military wear, but a very stylish option."
+  },
+  {
+    "type": "ITEM",
+    "id": "suit",
+    "description": "A full-body cotton suit.  Makes hard times a truly gentlemanly experience."
+  },
+  {
+    "type": "ITEM",
+    "id": "butterfly_net_collapsible",
+    "description": "A piece of canvas on a collapsible aluminum frame.  Used to catch bugs or fish, but might not be as useful for the bigger ones.  It must be extended to use."
+  },
+  {
+    "type": "ITEM",
+    "id": "rifle_flintlock",
+    "description": "For once, something old has turned out to be worth having.  This ancient design lacks the fire-rate of modern weapons, but packs as much punch as the best of 'em and rewards the skilled shooter with easily-crafted ammunition."
+  },
+  {
+    "type": "ITEM",
+    "id": "bp_shot_scrap",
+    "description": "A shotgun shell filled with black gunpowder and whatever scrap metal was lying around.  The logical conclusion of ammunition bootlegging.  It will do its work on whatever it hits, but your gun will suffer for it."
+  },
+  {
+    "type": "ITEM",
+    "id": "m17",
+    "description": "The general-issue military handgun of the United States army, this is a sizable pistol that fires 9x19mm cartridges.  Based off successful civilian designs and capable of taking magazines of various round capacities, the gun features a plastic polymer frame which helps to reduce overall weight."
+  },
+  {
+    "type": "ITEM",
+    "id": "glock_42",
+    "description": "The smallest gun Glock produces, chambered in .380 ACP.  Even though it is a small gun that shoots a weak cartridge, it is still effective against small game and paper targets."
+  },
+  {
+    "type": "ITEM",
+    "id": "colt_python",
+    "description": "A six inch revolver chambered in .357 Magnum/.38 Special.  A favorite of sheriffs and of anyone who wants to look like one."
+  },
+  {
+    "type": "ITEM",
+    "id": "sw629",
+    "description": "A stainless steel, six-shot, double-action revolver with a matte black plastic handle manufactured by Smith & Wesson.  Though hardly the most powerful handgun in the world any more, it still hits far harder than most things will stand for."
+  },
+  {
+    "type": "ITEM",
+    "id": "45colt_jhp",
+    "description": "Jacketed .45 Colt ammunition with a 225gr hollow point bullet, loaded much hotter than regular loads for this cartridge.  Hollowpoints in this venerable caliber were issued by the occasional police department looking for extra lethality before the '97 North Hollywood shootout.  Since then they were mostly used for home defense, and now by whoever still has a revolver to put them in."
+  },
+  {
+    "type": "ITEM",
+    "id": "reloaded_45colt_jhp",
+    "description": "Jacketed .45 Colt ammunition with a 225gr hollow point bullet, loaded much hotter than regular loads for this cartridge.  Hollowpoints in this venerable caliber were issued by the occasional police department looking for extra lethality before the '97 North Hollywood shootout.  Since then they were mostly used for home defense, and now by whoever still has a revolver to put them in."
+  },
+  {
+    "type": "ITEM",
+    "id": "bp_45colt_jhp",
+    "description": "Jacketed .45 Colt ammunition with a 225gr hollow point bullet, loaded much hotter than regular loads for this cartridge.  The scarcity of these days inspired someone to hand-reload this one with black powder, bringing the round closer to its original incarnation.  It's kind of poetic, when you think about it."
+  },
+  {
+    "type": "ITEM",
+    "id": "matchhead_45colt_jhp",
+    "description": "Jacketed .45 Colt ammunition with a 225gr hollow point bullet, loaded much hotter than regular loads for this cartridge.  The scarcity of these days inspired someone to hand-reload this one with black powder, bringing the round closer to its original incarnation.  It's kind of poetic, when you think about it."
+  },
+  {
+    "type": "ITEM",
+    "id": "ruger_1022",
+    "description": "A lightweight and modular pistol caliber hunting carbine, firing the low power .22 LR cartridge.  A mix of high customizability, cheap ammunition, and low recoil made this a very popular varmint rifle among civilian shooters."
+  },
+  {
+    "type": "ITEM",
+    "id": "marlin_9a",
+    "description": "A venerable .22 caliber lever-action rifle, with a 19-round tube magazine and a classic design that dates back over a century.  Generally used for the hunting of small game like rabbits, it is no answer to anything large, but this decades-old weapon can still be counted upon to put food on the fire."
+  },
+  {
+    "type": "ITEM",
+    "id": "marlin60",
+    "description": "A lightweight and modular pistol caliber hunting carbine, firing the low power .22 LR cartridge.  A mix of high customizability, cheap ammunition, and low recoil made this a very popular varmint rifle among civilian shooters."
+  },
+  {
+    "type": "ITEM",
+    "id": "henry_golden_boy",
+    "description": "A .22 Long Rifle lever-action rifle, which holds 16 rounds of ammo.  While quite useful against small game, it does little to anything larger or tougher."
+  },
+  {
+    "type": "ITEM",
+    "id": "rio_bravo",
+    "description": "A .22 Long Rifle lever-action rifle, which holds 15 rounds of ammo.  While quite useful against small game, it does little to anything larger or tougher."
+  },
+  {
+    "type": "ITEM",
+    "id": "glock_44",
+    "description": "A Glock chambered in .22LR.  While effective against paper targets and rodents, it will struggle against anything that means you harm."
+  },
+  {
+    "type": "ITEM",
+    "id": "steyr_scout",
+    "description": "This is a versatile, all-purpose hunting rifle.  To this end, it is exceedingly lightweight, contains an inbuilt polymer bipod, and fits a spare magazine inside the stock for fast reloading.  While these features made for a hunting rifle too universal for widespread adoption, they might yet fulfill a vital scouting niche for someone living off the land."
+  },
+  {
+    "type": "ITEM",
+    "id": "mossberg_590",
+    "description": "A military oriented spin on the classic pump-action shotgun recipe, this firearm features an extended magazine tube capable of fielding nine rounds of 12 gauge shotshells.  Sporting a heavier barrel and a bayonet lug, it makes for a highly intimidating weapon, as well as a satisfying answer to most of what you are liable to meet."
+  },
+  {
+    "type": "ITEM",
+    "id": "remington_1100",
+    "description": "This is a 4 round semi-automatic shotgun, with the ability to automatically cycle birdshot as well.  Not that birdshot will do you much good against anything bigger than a bird."
+  },
+  {
+    "type": "ITEM",
+    "id": "winchester_1897",
+    "description": "Whether or not you ever wondered what would happen if one was to attach a shotgun atop a sword, the result of such an inquiry now rests before you in all its metallic glory.  Coming outfitted with a large 17 inch sword bayonet and a wooden heat shield to protect the user's hands from the barrel when it heats up during firing, this pump-action shotgun practically drips menace and looks like it's straight out of the trenches of World War I.  There aren't any more trenches to clear, so wherever you are going next will have to suffice."
+  },
+  {
+    "type": "ITEM",
+    "id": "winchester_1887",
+    "description": "A lever-action shotgun with a very short barrel and no stock, with room for 6 rounds of 12 gauge shotshells.  Likely a bootlegged replica of a pre-1900 firearm, it would pair nicely with a motorcycle jacket and a Harley Davidson, and seems ready for whatever you point it at."
+  },
+  {
+    "type": "ITEM",
+    "id": "crossbow",
+    "description": "An all-wood hunting crossbow.  It is not powerful enough for anything large or armored, but it may still be used for hunting."
+  },
+  {
+    "type": "ITEM",
+    "id": "quiver_large",
+    "description": "A large leather quiver trimmed with metal, worn on the back, that can hold 60 arrows or bolts.  Historically used by horse archers, rather than foot archers, but neither of them had to carry everything they owned as well.  Use insert to store arrows or bolts."
+  },
+  {
+    "type": "ITEM",
+    "id": "glock_27",
+    "description": "A diminutive pistol chambered in .40 S&W. Widely popular among concealed carriers, its popularity soared further in its last years on sale, partly due to its ability to fit the higher cpacity magazines of its older brothers."
+  },
+  {
+    "type": "ITEM",
+    "id": "benelli_tsa",
+    "description": "A black-finished shotgun fit for the gentlemanly pursuit of blowing very large holes through whatever needs one, be it door, goose, or something worse, this semi-automatic longarm fields five shotgun shells within its tubular magazine.  Aesthetically pleasing with its dimpled buttstock and forend, the weapon features an underslung pistol-style grip and a gel cushion on the back of the stock for recoil mitigation."
+  },
+  {
+    "type": "ITEM",
+    "id": "dp_12",
+    "description": "A hefty shotgun with a double-barrel configuration, though each barrel feeds from its own magazine, making the weapon actually two firearms in a single frame.  While each barrel has its own associated trigger, considering there is a single pump to actuate both mechanisms, one can't really use it precisely.  This, however, isn't to say that the weapon isn't fit for the service of shooting at point blank ranges."
+  },
+  {
+    "type": "ITEM",
+    "id": "m2carbine",
+    "description": "An improved version of the M1 carbine offering full-auto capability, the M2 carbine was rare and coveted among collectors.  Takes M1 carbine magazines."
+  },
+  {
+    "type": "ITEM",
+    "id": "methed_alcohol",
+    "description": "A high-strength ethanol solution mixed with methanol to make it toxic to drink, so as to avoid the old regulations on ethanol.  Intended for use in alcohol-burning stoves and as a solvent."
+  },
+  {
+    "type": "ITEM",
+    "id": "poppysyrup",
+    "description": "Cough syrup made from poppy.  Will make you sleepy."
+  },
+  {
+    "type": "ITEM",
+    "id": "flavored_bonemeal_tablet",
+    "description": "A homemade calcium supplement made out of bone meal.  Due to some sweeteners mixed in to counteract the powdery texture and the taste of ash, it's almost as palatable as the shop-bought tablets."
+  },
+  {
+    "type": "ITEM",
+    "id": "boots_survivor",
+    "description": "A pair of custom-made boots constructed of thick Kevlar and a chemical resistant layer, featuring steel toes for extra protection.  Keeps your feet safe from the myriad dangers underfoot."
+  },
+  {
+    "type": "ITEM",
+    "id": "boots_hsurvivor",
+    "description": "A pair of customized Kevlar boots that are heavily armored with steel.  Favoring protection over comfort, these will keep you alive, especially when the ground itself is against you."
+  },
+  {
+    "type": "ITEM",
+    "id": "armor_nomad",
+    "description": "A reinforced but airy jumpsuit designed to survive the long-term wear and tear of living outdoors.  Rather than advanced polymer fabrics which may not be available in many worlds, it is made of breathable twill fabric with leather reinforcements ensuring it can be produced easily regardless of technology level.  Its clever construction adds additional core support, helping you to carry more equipment."
+  },
+  {
+    "type": "ITEM",
+    "id": "armor_nomad_light",
+    "description": "A light, airy jumpsuit designed to survive the long-term wear and tear of living outdoors.  Rather than advanced polymer fabrics which may not be available in many worlds, it is made of breathable twill fabric with leather reinforcements ensuring it can be produced easily regardless of technology level.  Its clever construction adds additional core support, helping you to carry more equipment."
+  },
+  {
+    "type": "ITEM",
+    "id": "bowling_ball",
+    "description": "A large, heavy ball with finger holes for better grip.  Its main purpose was to be rolled along waxed floors."
+  },
+  {
+    "type": "ITEM",
+    "id": "brush_toilet",
+    "description": "Nothing out there can be intimidated or humiliated by it, so this stiff brush is only useful for scouring toilet bowls."
+  },
+  {
+    "type": "ITEM",
+    "id": "shovel_snow_plastic",
+    "description": "A cheap plastic shovel used for picking up snow and moving it somewhere else.  Of little use unless the snow is deep."
+  },
+  {
+    "type": "ITEM",
+    "id": "bikini_top_short",
+    "description": "A very short bikini top.  It doesn't cover much, but was in fashion before all this."
+  },
+  {
+    "type": "ITEM",
+    "id": "plastic_mandible_guard",
+    "description": "A plastic jaw guard designed to be strapped to any common hard hat or helmet, it was probably part of some costume before all this."
+  },
+  {
+    "type": "ITEM",
+    "id": "armor_nomad_advanced",
+    "description": "A reinforced but airy jumpsuit designed to survive the long-term wear and tear of living outdoors.  Rather than advanced polymer fabrics which may not be available in many worlds, it is made of breathable twill fabric with leather reinforcements ensuring it can be produced easily regardless of technology level.  Its clever construction adds additional core support, helping you to carry more equipment.  A set of cooling tubes run throughout the clothing as well."
+  },
+  {
+    "type": "ITEM",
+    "id": "novel_satire",
+    "description": "A political satire of the world as it used to be.  Looking back on it from here makes it seem all the more ridiculous."
+  },
+  {
+    "type": "ITEM",
+    "id": "child_book",
+    "description": "A little book for little readers.  The colorful cartoon characters and sweet stories contained herein belong to a different time, before the world moved on."
+  },
+  {
+    "type": "ITEM",
+    "id": "book_newage_horoscopes",
+    "description": "A long, thorough list of horoscopes, sorted by date and by zodiac sign.  Today, you should \"take a minute to relax - things are never as bad as they seem.\""
+  },
+  {
+    "type": "ITEM",
+    "id": "sw_500",
+    "description": "The definition of 'overkill', this behemoth handgun puts large .44 caliber revolvers to shame with its sheer size, power, and immense chambering.  Firing the appropriately named .500 Magnum cartridge, the most powerful handgun round in the world, the weapon has seen work in both sport shooting and hunting roles.  A pistol for those of the 'bigger is better' mentality, a high recoil junky's personal dream, and an all-around useless military sidearm, should the urge to make a point in fine style grip you, this giant provides you with 5 rounds with which to reduce a target to an afterthought."
+  },
+  {
+    "type": "ITEM",
+    "id": "460sw",
+    "description": ".460 S&W Magnum ammo, with a 200 grain FTX projectile.  Its purpose serves mainly as a hunting handgun, or to deter wildlife in dangerous areas, and you have no doubt it would stop a good deal more than that."
+  },
+  {
+    "type": "ITEM",
+    "id": "petpack",
+    "description": "Once this would let your four-legged friend see the world; now it is used to shield them from it."
+  },
+  {
+    "type": "ITEM",
+    "id": "calcium_tablet",
+    "description": "A white calcium tablet.  Widely used by elderly people with osteoporosis as a method to supplement calcium."
+  },
+  {
+    "type": "ITEM",
+    "id": "swimming_kickboard",
+    "description": "A swimming kickboard, would be a great training aid for the beach or the pool, if only either were still a place to relax."
+  },
+  {
+    "type": "ITEM",
+    "id": "reinforced_solar_panel",
+    "description": "A solar panel that has been covered with a pane of reinforced glass to protect the delicate solar cells from hail or errant baseballs.  The glass causes this panel to produce slightly less power than a normal panel."
+  },
+  {
+    "type": "ITEM",
+    "id": "reinforced_solar_panel_v2",
+    "description": "An advanced solar panel that has been covered with a pane of reinforced glass to protect the delicate solar cells from hail or errant baseballs.  The glass causes this panel to produce slightly less power than a normal advanced panel."
+  },
+  {
+    "type": "ITEM",
+    "id": "noise_emitter",
+    "description": "A device constructed by 'enhancing' a speaker with some amplifier circuits.  It has no other use besides emitting loud crackling static noise that could draw attention away from you."
+  },
+  {
+    "type": "ITEM",
+    "id": "noise_emitter_super",
+    "description": "This is a noisemaker that has been further enhanced with a series of amplifiers.  It's about as loud something can get without making you vomit from sound-induced nausea, and it's as sure to bring everything within earshot as it is to give you permanent hearing damage."
+  },
+  {
+    "type": "ITEM",
+    "id": "platinum_small",
+    "description": "A soft, shiny metal.  Once this would've been worth a small fortune, but now its value is greatly diminished."
+  },
+  {
+    "type": "ITEM",
+    "id": "reloaded_460sw",
+    "description": ".460 S&W Magnum ammo, with a 200 grain FTX projectile.  Its purpose serves mainly as a hunting handgun, or to deter wildlife in dangerous areas, and you have no doubt it would stop a good deal more than that."
+  },
+  {
+    "type": "ITEM",
+    "id": "m107a1",
+    "description": "A mahoosive rifle of military pedigree, fitted with a telescopic gun scope peeking over its giant cocking mechanism and resting upon a bipod to control recoil from the equally big .50-caliber munitions it is designed for.  Originally employed for detonating unexploded ordnance in combat conditions and defeating light vehicular and structural targets, it now serves as an admirable conduit of kinetic energy to the biggest and hardest things you are likely to meet."
+  },
+  {
+    "type": "ITEM",
+    "id": "tac50",
+    "description": "Serving both anti-materiel and high-priority sniping roles in their service with various militaries, bolt-action rifles, such as this one, were known for their long ranges of engagement, recoil, and armor-defeating ordinance.  Essentially a step below light cannonry, as far as shoulder-arms are concerned, this weapon's mix of power and accuracy meet hands to ensure that one shot was synonymous with one very, very dead target."
+  },
+  {
+    "type": "ITEM",
+    "id": "bfg50",
+    "description": "Relatively trim as far as .50-caliber rifles go, this single-shot firearm was a reasonably affordable entry-level gun for civilians wishing to play with some very large, very punchy toys.  Now it would be wise to make that single round count."
+  },
+  {
+    "type": "ITEM",
+    "id": "tac338",
+    "description": "A high-precision bolt-action sniper rifle, in service with special operations members of the US Navy in its day.  Firing the powerful .338 Lapua cartridge, the weapon feeds from detachable five round Accuracy International magazines."
+  },
+  {
+    "type": "ITEM",
+    "id": "savage112",
+    "description": "A bolt-action precision rifle with the potential for impressive accuracy, this particular weapon makes use of the powerful .338 Lapua cartridge and is decked in a handsome set of wooden furniture, providing the rifle with a classical mystique.  Unfortunately, the weapon's single-round magazine and a lack of factory iron sights, which makes target acquisition an exercise in futility unless a gunsight is installed, make the rifle of limited use now."
+  },
+  {
+    "type": "ITEM",
+    "id": "460sw_jhp",
+    "description": ".460 S&W Magnum ammo, with a 300 grain JHP projectile.  Its purpose serves mainly as a hunting handgun, or to deter wildlife in dangerous areas, and you have no doubt it would stop a good deal more than that."
+  },
+  {
+    "type": "ITEM",
+    "id": "reloaded_460sw_jhp",
+    "description": ".460 S&W Magnum ammo, with a 300 grain JHP projectile.  Its purpose serves mainly as a hunting handgun, or to deter wildlife in dangerous areas, and you have no doubt it would stop a good deal more than that."
+  },
+  {
+    "type": "ITEM",
+    "id": "338lapua_hpbt",
+    "description": ".338 Lapua ammunition, loaded with a 300-grain hollow-point boat-tailed bullet.  Developed as a joint venture between Accuracy International, SAKO, and Lapua, the .338 round is a long-range sniping cartridge that boasts impressive accuracy and devastating terminal ballistics.  With burgeoning interest among military, law enforcement, and civilian circles before all this, the .338 cartridge filled the gap between lighter infantry munitions and anti-material rounds, although its potential utility as a hunting cartridge was somewhat diminished due to its high cost."
+  },
+  {
+    "type": "ITEM",
+    "id": "bp_338lapua_hpbt",
+    "description": ".338 Lapua ammunition, loaded with a 300-grain hollow-point boat-tailed bullet.  Developed as a joint venture between Accuracy International, SAKO, and Lapua, the .338 round is a long-range sniping cartridge that boasts impressive accuracy and devastating terminal ballistics.  With burgeoning interest among military, law enforcement, and civilian circles before all this, the .338 cartridge filled the gap between lighter infantry munitions and anti-material rounds, although its potential utility as a hunting cartridge was somewhat diminished due to its high cost."
+  },
+  {
+    "type": "ITEM",
+    "id": "reloaded_338lapua_hpbt",
+    "description": ".338 Lapua ammunition, loaded with a 300-grain hollow-point boat-tailed bullet.  Developed as a joint venture between Accuracy International, SAKO, and Lapua, the .338 round is a long-range sniping cartridge that boasts impressive accuracy and devastating terminal ballistics.  With burgeoning interest among military, law enforcement, and civilian circles before all this, the .338 cartridge filled the gap between lighter infantry munitions and anti-material rounds, although its potential utility as a hunting cartridge was somewhat diminished due to its high cost."
+  },
+  {
+    "type": "ITEM",
+    "id": "bp_45colt_fmj",
+    "description": "Jacketed .45 Long Colt ammunition with a 225gr bullet.  Originally designed for the Colt Single Action Army, and still used for modern reproduction revolvers.  The scarcity of these days inspired someone to hand-reload this one with black powder, bringing the round closer to its original incarnation.  It's kind of poetic, when you think about it."
+  },
+  {
+    "type": "ITEM",
+    "id": "matchhead_45colt_fmj",
+    "description": "Jacketed .45 Long Colt ammunition with a 225gr bullet.  Originally designed for the Colt Single Action Army, and still used for modern reproduction revolvers.  The scarcity of these days inspired someone to hand-reload this one with black powder, bringing the round closer to its original incarnation.  It's kind of poetic, when you think about it."
+  },
+  {
+    "type": "ITEM",
+    "id": "77mm_arisaka_jsp",
+    "description": "This is a 7.7x58mm Arisaka cartridge loaded with a 174 gr soft point bullet, excellent against larger game.  Adopted as the Japanese empire's standard service cartridge in 1939 (though chambered in machine guns before then) to replace the less potent 6.5x50mm Arisaka round, the 7.7mm bullet was, while more deadly, never quite able to supplant the older munitions.  Having acquired a following as a hunting cartridge before all this, mainly due to the prevalence of captured or surrendered Japanese rifles, the round was more common than its older 6.5x50mm counterpart."
+  },
+  {
+    "type": "ITEM",
+    "id": "bp_77mm_arisaka_jsp",
+    "description": "This is a 7.7x58mm Arisaka cartridge loaded with a 174 gr soft point bullet, excellent against larger game.  Adopted as the Japanese empire's standard service cartridge in 1939 (though chambered in machine guns before then) to replace the less potent 6.5x50mm Arisaka round, the 7.7mm bullet was, while more deadly, never quite able to supplant the older munitions.  Having acquired a following as a hunting cartridge before all this, mainly due to the prevalence of captured or surrendered Japanese rifles, the round was more common than its older 6.5x50mm counterpart."
+  },
+  {
+    "type": "ITEM",
+    "id": "reloaded_77mm_arisaka_jsp",
+    "description": "This is a 7.7x58mm Arisaka cartridge loaded with a 174 gr soft point bullet, excellent against larger game.  Adopted as the Japanese empire's standard service cartridge in 1939 (though chambered in machine guns before then) to replace the less potent 6.5x50mm Arisaka round, the 7.7mm bullet was, while more deadly, never quite able to supplant the older munitions.  Having acquired a following as a hunting cartridge before all this, mainly due to the prevalence of captured or surrendered Japanese rifles, the round was more common than its older 6.5x50mm counterpart."
+  },
+  {
+    "type": "ITEM",
+    "id": "book_fict_soft_ya_myeyes",
+    "description": "In a troubled future, advanced technology gives parents access to video footage of every moment of their teenage children's lives."
+  },
+  {
+    "type": "ITEM",
+    "id": "book_anthology_moataatgb",
+    "description": "The Museum of All Things Awesome and That Go Boom is an anthology of science fiction featuring blunt force trauma, explosions, adventure, derring-do, tigers, Martians, fanged monsters, dinosaurs (alien and domestic), ray guns, rocket ships, and anthropomorphized marshmallows.  Published by Upper Rubber Boot Books."
+  },
+  {
+    "type": "ITEM",
+    "id": "book_anthology_an",
+    "description": "Every society and every generation has its own picture of how things end: plague, flood, fire, famine, the second coming, a sky gone dark.  This anthology brings together poetry and prose from some of America's finest (though not always most well-known) literary voices with an eye for the literary and the popular, for story and lyric, for the past and the future, for the psychological and the physical, for the real and the fantastic.",
+    "name": {
+      "str": "The Last Days",
+      "str_pl": "copies of The Last Days"
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "book_newage_witchcraftadv",
+    "description": "This book apparently contains instructions for summoning and battling powerful spirits from other realms.  It doesn't say anything about what is actually out there, though."
+  },
+  {
+    "type": "ITEM",
+    "id": "dnd",
+    "description": "A roleplaying game about surviving in a ruined land, so you can pretend to survive while surviving.",
+    "name": {
+      "str": "Bunkers and Bandits",
+      "str_pl": "copies of Bunkers and Bandits"
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "spirit_island",
+    "description": "A cooperative board game designed for 1-4 players, where each player takes on the role of a powerful deity defending an island from colonizing invaders.  Inside the board gaming community, it was known for its deep strategic gameplay, thematic richness, and intricate mechanics."
+  },
+  {
+    "type": "ITEM",
+    "id": "shogi",
+    "description": "A wooden box containing all the pieces needed to play a game of shogi, along with a bilingual English/Japanese rule booklet.  Also known as Japanese chess, shogi was one of the most popular board games in Japan.  The main objective is to tsumi (checkmate) the opponent's osho (king)."
+  },
+  {
+    "type": "ITEM",
+    "id": "snakesnladders",
+    "description": "A board game for two or more players, regarded as a worldwide classic.  The objective of the game is to navigate one's game piece to the goal on the board, helped by climbing ladders but hindered by sliding down snakes."
+  },
+  {
+    "type": "ITEM",
+    "id": "simple_pistol_cartridge_necklace",
+    "description": "A simple, if rather crude, piece of home-made jewelry: a solitary bullet casing from a handgun cartridge or other such form of ammunition strung upon a length of string, cord, or twine to form a makeshift pendant."
+  },
+  {
+    "type": "ITEM",
+    "id": "simple_rifle_cartridge_necklace",
+    "description": "Rather crude and clearly put together on a budget, this is a piece of home-made—so-called—jewelry—little more than an unpolished, solitary rifle casing threaded on a length of cord, string, or twine to form a pendent necklace."
+  },
+  {
+    "type": "ITEM",
+    "id": "fancy_rifle_cartridge_necklace",
+    "description": "A gentlemanly article of craft-produced jewelry for the most spiffy ladies and gentlemen still about, this plain chain of precious metal has been retrofitted with a fired rifle cartridge that hangs from it as a pendant."
+  },
+  {
+    "type": "ITEM",
+    "id": "holybook_nag_hammadi",
+    "description": "A translation of some of the gnostic texts and early biblical apocrypha recovered from the Nag Hammadi library in Egypt.  Obviously heretical, but there is no one left nearby to object."
+  },
+  {
+    "type": "ITEM",
+    "id": "holybook_mahabharata",
+    "description": "A large and complete hardcover English translation of The Mahabharata, the most revered and significant ancient texts in Indian literature and Hindu mythology.  It is an epic narrative that has been passed down through generations and has been a source of inspiration and guidance for millions of people across the centuries.  The epic is divided into 18 books or parvas, each focusing on different aspects of the story, such as the genealogy of the Pandavas, the education of the Pandavas, and the great war of Kurukshetra."
+  },
+  {
+    "type": "ITEM",
+    "id": "tele_sight",
+    "description": "A simple hand-crafted telescopic sight, essentially a small telescope with crosshairs.  Not as good as a factory-made one.  Increases weight but improves accuracy."
+  },
+  {
+    "type": "ITEM",
+    "id": "50beowulf_xtp",
+    "description": ".50-caliber Beowulf ammunition, loaded with a copper-jacketed 350-grain eXtreme Terminal Performance bullet.  Developed in 2001 as a powerful short- to medium-range chambering for AR-15 style rifles, this stout cartridge had gained some popularity as a hunting round before all this.  This particular version of the cartridge is coated in a layer of polymer, encouraging commendable terminal ballistics, penetrative capabilities, and overall expansion from its 12.7x42mm projectile."
+  },
+  {
+    "type": "ITEM",
+    "id": "50beowulf_penetrator",
+    "description": ".50-caliber Beowulf ammunition, loaded with a solid-copper 420-grain Xtreme Penetrator bullet.  Developed in 2001 as a powerful short- to medium-range chambering for AR-15 style rifles, this stout cartridge had gained some popularity as a hunting round before all this.  With a blunt nose construction for better initial energy transfer, this 12.7mm-wide bullet's solid copper design allows it to punch through entry barriers while resulting in a larger wound column."
+  },
+  {
+    "type": "ITEM",
+    "id": "bp_50beowulf_xtp",
+    "description": ".50-caliber Beowulf ammunition, loaded with a copper-jacketed 350-grain eXtreme Terminal Performance bullet.  Developed in 2001 as a powerful short- to medium-range chambering for AR-15 style rifles, this stout cartridge had gained some popularity as a hunting round before all this.  This particular version of the cartridge is coated in a layer of polymer, encouraging commendable terminal ballistics, penetrative capabilities, and overall expansion from its 12.7x42mm projectile."
+  },
+  {
+    "type": "ITEM",
+    "id": "bp_50beowulf_penetrator",
+    "description": ".50-caliber Beowulf ammunition, loaded with a solid-copper 420-grain Xtreme Penetrator bullet.  Developed in 2001 as a powerful short- to medium-range chambering for AR-15 style rifles, this stout cartridge had gained some popularity as a hunting round before all this.  With a blunt nose construction for better initial energy transfer, this 12.7mm-wide bullet's solid copper design allows it to punch through entry barriers while resulting in a larger wound column."
+  },
+  {
+    "type": "ITEM",
+    "id": "reloaded_50beowulf_xtp",
+    "description": ".50-caliber Beowulf ammunition, loaded with a copper-jacketed 350-grain eXtreme Terminal Performance bullet.  Developed in 2001 as a powerful short- to medium-range chambering for AR-15 style rifles, this stout cartridge had gained some popularity as a hunting round before all this.  This particular version of the cartridge is coated in a layer of polymer, encouraging commendable terminal ballistics, penetrative capabilities, and overall expansion from its 12.7x42mm projectile."
+  },
+  {
+    "type": "ITEM",
+    "id": "reloaded_50beowulf_penetrator",
+    "description": ".50-caliber Beowulf ammunition, loaded with a solid-copper 420-grain Xtreme Penetrator bullet.  Developed in 2001 as a powerful short- to medium-range chambering for AR-15 style rifles, this stout cartridge had gained some popularity as a hunting round before all this.  With a blunt nose construction for better initial energy transfer, this 12.7mm-wide bullet's solid copper design allows it to punch through entry barriers while resulting in a larger wound column."
+  },
+  {
+    "type": "ITEM",
+    "id": "jeans_ripped",
+    "description": "A pair of jeans that has been ripped over the knees.  It may have been fashionable once, but it's just a pair of sub-par jeans now."
+  },
+  {
+    "type": "ITEM",
+    "id": "wash_kit",
+    "description": "A combination of a washboard and a scrubbing tool.  Everything you need to clean things by hand."
+  }
+]
