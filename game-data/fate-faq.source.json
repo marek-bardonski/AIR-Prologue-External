@@ -520,7 +520,7 @@
         },
         {
           "q": "What happens if I keep working when out of breath?",
-          "a": "Physical effort becomes much slower when your stamina runs out. Pushing through costs pain and sleepiness until you pass out. In a fight, enemies can still attack while you are unconscious. Rest restores breath, but only sleep clears tiredness."
+          "a": "Physical effort becomes much slower when your stamina runs out. Pushing through costs pain and sleepiness until you pass out. In a fight, enemies can still attack while you are unconscious. A damaging hit can wake you only after at least 10% of reachable stamina and 5% of the rested bar have recovered. An empty stamina or rested bar prevents waking. Unconscious recovery restores both over time. If the fight ends first, choose Recover on your tile. Ordinary rest restores breath; sleep clears tiredness."
         },
         {
           "q": "Can I catch my breath after a fight?",

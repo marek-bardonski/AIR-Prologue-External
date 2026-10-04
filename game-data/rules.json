@@ -214,9 +214,11 @@
       "exhausted": { "speed": -35, "str": -3, "dex": -4, "int": -3, "per": -4 }
     },
     "collapseMinutes": 10,
-    "//blackout": "Prologue rule (26.09.2026): a black-out from exhaustion in a fight is not a ten-minute pause. Out cold, the survivor stays down for combatBlackoutMinutes (the whole fight, in practice) unless a blow brings them round (blackoutWakeOnHit, rolled per hit that lands) — and then the body holds off for blackoutGraceMinutes before it can drop them again. A fight that ends while they are out becomes the forced sleep.",
+    "//blackout": "Prologue rule (26.09.2026): a black-out from exhaustion in a fight is not a ten-minute pause. Out cold, the survivor stays down for combatBlackoutMinutes (the whole fight, in practice) unless a damaging blow brings them round (blackoutWakeOnHit), after stamina and the rested bar have recovered to blackoutWakeStaminaShare and blackoutWakeRestShare. Expiry also requires this recovery — and then the body holds off for blackoutGraceMinutes before it can drop them again. A fight that ends while they are out becomes the forced sleep.",
     "combatBlackoutMinutes": 720,
     "blackoutWakeOnHit": 0.3,
+    "blackoutWakeStaminaShare": 0.1,
+    "blackoutWakeRestShare": 0.05,
     "blackoutGraceMinutes": 15,
     "heftDivisor": 2.0,
     "heftMin": 0.25,
