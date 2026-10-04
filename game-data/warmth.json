@@ -17,7 +17,7 @@
   "exertion": {
     "practiceSkills": { "melee": "ACTIVE_EXERCISE", "swimming": "ACTIVE_EXERCISE", "dodge": "ACTIVE_EXERCISE", "throw": "ACTIVE_EXERCISE", "archery": "BRISK_EXERCISE" },
     "interactModes": { "bash": "EXTRA_EXERCISE" },
-    "actions": { "travel": "ACTIVE_EXERCISE", "drag": "ACTIVE_EXERCISE", "drag_cart": "ACTIVE_EXERCISE", "cycle": "ACTIVE_EXERCISE", "combat": "EXTRA_EXERCISE", "build_road": "ACTIVE_EXERCISE", "fell_tree": "EXTRA_EXERCISE", "farm_clear": "ACTIVE_EXERCISE", "farm_till": "ACTIVE_EXERCISE", "lab_move": "ACTIVE_EXERCISE" }
+    "actions": { "travel": "ACTIVE_EXERCISE", "drag": "ACTIVE_EXERCISE", "drag_cart": "ACTIVE_EXERCISE", "cycle": "ACTIVE_EXERCISE", "combat": "EXTRA_EXERCISE", "build_road": "ACTIVE_EXERCISE", "fell_tree": "EXTRA_EXERCISE", "dig": "EXTRA_EXERCISE", "farm_clear": "ACTIVE_EXERCISE", "farm_till": "ACTIVE_EXERCISE", "lab_move": "ACTIVE_EXERCISE" }
   },
   "//starved": "A body past this starvation stage, or exhausted, cannot heat itself: comfort points lost on every part.",
   "starved": { "stage": 2, "penalty": 6 },

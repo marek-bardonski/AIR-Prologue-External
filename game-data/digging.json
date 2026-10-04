@@ -1,0 +1,101 @@
+{
+  "//": "Digging (Prologue rule, 04.10.2026). Code: src/game/world/Digging.js. The tile's menu offers Dig on open ground; what comes up depends on where the survivor stands: `shore` ground on a hex of `shoreTerrains` or next to one of `shoreNeighbours`, otherwise the ground named for the terrain in `terrains`; a terrain not listed cannot be dug. One dig takes `minutes` with a tool of `quality` at `level`; a better digging tool is faster (`speed`, by level, Prologue's own dial). The work is kept on the hex when it stops for breath. `yields` rows give `count` (or `charges` for things counted by charges) and an optional `chance`. Times, tool level, quantities and the effort (`activity`) are CDDA's.",
+  "source": "CDDA 0.I data/json/construction/misc.json constr_extract_sand (30 m, DIG 1, material_sand 300-600), constr_extract_clay (30 m, DIG 1, clay_lump 6-12, EXTRA_EXERCISE), construction/terrain.json constr_pit_shallow (20 m, DIG 1, EXTRA_EXERCISE), itemgroups/misc.json digging_soil_loam_50L",
+  "quality": "DIG",
+  "level": 1,
+  "activity": "EXTRA_EXERCISE",
+  "speed": {
+    "2": 0.7,
+    "3": 0.5
+  },
+  "shoreTerrains": [
+    "river",
+    "fishing_dock"
+  ],
+  "shoreNeighbours": [
+    "river",
+    "lake",
+    "fishing_dock"
+  ],
+  "shore": "sand",
+  "terrains": {
+    "potters_yard": "clay",
+    "field": "soil",
+    "forest": "soil",
+    "dense_forest": "soil",
+    "farm": "soil",
+    "orchard": "soil",
+    "campsite": "soil",
+    "hills": "soil",
+    "home": "soil",
+    "plant_nursery": "soil"
+  },
+  "grounds": {
+    "sand": {
+      "label": "Dig sand",
+      "what": "sand",
+      "minutes": 30,
+      "yields": [
+        {
+          "id": "material_sand",
+          "charges": [
+            300,
+            600
+          ]
+        }
+      ]
+    },
+    "clay": {
+      "label": "Dig clay",
+      "what": "clay",
+      "minutes": 30,
+      "yields": [
+        {
+          "id": "clay_lump",
+          "count": [
+            6,
+            12
+          ]
+        }
+      ]
+    },
+    "soil": {
+      "label": "Dig soil",
+      "what": "soil",
+      "minutes": 20,
+      "yields": [
+        {
+          "id": "material_soil",
+          "charges": [
+            8,
+            12
+          ]
+        },
+        {
+          "id": "rock",
+          "count": [
+            1,
+            4
+          ],
+          "chance": 0.1
+        },
+        {
+          "id": "clay_lump",
+          "count": [
+            1,
+            4
+          ],
+          "chance": 0.05
+        },
+        {
+          "id": "material_sand",
+          "charges": [
+            1,
+            10
+          ],
+          "chance": 0.05
+        }
+      ]
+    }
+  }
+}

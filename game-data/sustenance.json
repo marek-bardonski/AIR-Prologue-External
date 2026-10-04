@@ -93,6 +93,7 @@
     "lab_elevator": "NO_EXERCISE",
     "lab_shutdown": "LIGHT_EXERCISE",
     "fell_tree": "ACTIVE_EXERCISE",
+    "dig": "EXTRA_EXERCISE",
     "set_trap": "LIGHT_EXERCISE",
     "check_traps": "LIGHT_EXERCISE",
     "take_trap": "LIGHT_EXERCISE",

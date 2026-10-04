@@ -31,6 +31,7 @@
       "pack_station",
       "unpack_station",
       "fell_tree",
+      "dig",
       "build_road",
       "farm_clear",
       "farm_till",
