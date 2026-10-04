@@ -1454,7 +1454,12 @@
     "melee_dice": 2,
     "melee_dice_sides": 5,
     "aggression": 50,
-    "delete": { "flags": ["PACIFIST", "PAY_BOT"] },
+    "delete": {
+      "flags": [
+        "PACIFIST",
+        "PAY_BOT"
+      ]
+    },
     "special_attacks": []
   },
   {
@@ -1728,6 +1733,358 @@
       "bash": 2,
       "cut": 3
     },
+    "special_attacks": []
+  },
+  {
+    "id": "mon_pulse_hound",
+    "type": "MONSTER",
+    "copy-from": "mon_skitterbot",
+    "name": {
+      "str": "Pulse Hound",
+      "str_pl": "Pulse Hounds"
+    },
+    "description": "A steel quadruped with a vibrating speaker throat and sparking jaws. Its rising whine warns you before a pulse; back away before its short-range shock.",
+    "hp": 80,
+    "speed": 130,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 5,
+    "melee_damage": [],
+    "dodge": 2,
+    "armor": {
+      "bash": 5,
+      "cut": 7,
+      "bullet": 5
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_rivet_runner",
+    "type": "MONSTER",
+    "copy-from": "mon_skitterbot",
+    "name": {
+      "str": "Rivet Runner",
+      "str_pl": "Rivet Runners"
+    },
+    "description": "A low inspection robot with folded cutting arms. It crouches before lunging, then pauses with its arms exposed.",
+    "hp": 55,
+    "speed": 150,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_damage": [],
+    "dodge": 2,
+    "armor": {
+      "bash": 3,
+      "cut": 5,
+      "bullet": 3
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_prism_sentry",
+    "type": "MONSTER",
+    "copy-from": "mon_robofac_laserturret_mk1",
+    "name": {
+      "str": "Prism Sentry",
+      "str_pl": "Prism Sentrys"
+    },
+    "description": "A fixed laser emitter on a tripod. Its brightening lens reveals its aim; cover breaks the beam, and its housing opens while it cools.",
+    "hp": 75,
+    "speed": 80,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
+    "melee_damage": [],
+    "dodge": 0,
+    "armor": {
+      "bash": 8,
+      "cut": 10,
+      "bullet": 8
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF",
+      "IMMOBILE"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_welding_spider",
+    "type": "MONSTER",
+    "copy-from": "mon_science_bot",
+    "name": {
+      "str": "Welding Spider",
+      "str_pl": "Welding Spiders"
+    },
+    "description": "A maintenance spider with a clamp and a welding torch. A solid hit interrupts its clamp; moving out of reach also avoids the weld.",
+    "hp": 95,
+    "speed": 85,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "melee_damage": [],
+    "dodge": 0,
+    "armor": {
+      "bash": 8,
+      "cut": 10,
+      "bullet": 8
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_beacon_kite",
+    "type": "MONSTER",
+    "copy-from": "mon_robofac_camspy",
+    "name": {
+      "str": "Beacon Kite",
+      "str_pl": "Beacon Kites"
+    },
+    "description": "A surveillance drone with a rotating antenna. Its rising radio tone calls one escort. Once it transmits, it tries to leave.",
+    "hp": 45,
+    "speed": 125,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
+    "melee_damage": [],
+    "dodge": 2,
+    "armor": {
+      "bash": 3,
+      "cut": 5,
+      "bullet": 3
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF",
+      "FLIES"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_bastion",
+    "type": "MONSTER",
+    "copy-from": "mon_secubot",
+    "name": {
+      "str": "Bastion",
+      "str_pl": "Bastions"
+    },
+    "description": "A heavy tracked gun platform. It braces before firing a burst and exposes its feed mechanism during a long reload.",
+    "hp": 155,
+    "speed": 65,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 9,
+    "melee_damage": [],
+    "dodge": 0,
+    "armor": {
+      "bash": 16,
+      "cut": 18,
+      "bullet": 16
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_cinder_engine",
+    "type": "MONSTER",
+    "copy-from": "mon_talon_m202a1",
+    "name": {
+      "str": "Cinder Engine",
+      "str_pl": "Cinder Engines"
+    },
+    "description": "An armoured incendiary machine. A warning beam marks where its next fire attack will land. Its fuel is limited and cooling takes time.",
+    "hp": 130,
+    "speed": 60,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 7,
+    "melee_damage": [],
+    "dodge": 0,
+    "armor": {
+      "bash": 12,
+      "cut": 14,
+      "bullet": 12
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_brood_carrier",
+    "type": "MONSTER",
+    "copy-from": "mon_dispatch_military",
+    "name": {
+      "str": "Brood Carrier",
+      "str_pl": "Brood Carriers"
+    },
+    "description": "A mobile drone magazine with three sealed launch bays. It opens one bay at a time, exposing the mechanism before each launch.",
+    "hp": 140,
+    "speed": 65,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
+    "melee_damage": [],
+    "dodge": 0,
+    "armor": {
+      "bash": 14,
+      "cut": 16,
+      "bullet": 14
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_breaker_atlas",
+    "type": "MONSTER",
+    "copy-from": "mon_robofac_prototype",
+    "name": {
+      "str": "Breaker Atlas",
+      "str_pl": "Breaker Atlass"
+    },
+    "description": "A huge industrial frame carrying an overhead breaker. It lifts the tool slowly; after the strike, its exposed joints take time to recover.",
+    "hp": 180,
+    "speed": 65,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 12,
+    "melee_damage": [],
+    "dodge": 0,
+    "armor": {
+      "bash": 13,
+      "cut": 15,
+      "bullet": 13
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF"
+    ],
+    "special_attacks": []
+  },
+  {
+    "id": "mon_null_choir",
+    "type": "MONSTER",
+    "copy-from": "mon_science_bot",
+    "name": {
+      "str": "Null Choir",
+      "str_pl": "Null Choirs"
+    },
+    "description": "An experimental robot surrounded by humming emitter loops. Its charged pulse briefly interrupts powered equipment; the cooling emitter is vulnerable.",
+    "hp": 125,
+    "speed": 80,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 7,
+    "melee_damage": [],
+    "dodge": 0,
+    "armor": {
+      "bash": 10,
+      "cut": 12,
+      "bullet": 10
+    },
+    "aggression": 100,
+    "morale": 1000,
+    "bleed_rate": 0,
+    "flags": [
+      "SEES",
+      "HEARS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "NOHEAD",
+      "COLDPROOF",
+      "BIOLOGICALPROOF"
+    ],
     "special_attacks": []
   }
 ]

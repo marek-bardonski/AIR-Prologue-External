@@ -1995,7 +1995,9 @@
     "accuracyPenalty": 1.5
   },
   "hunting": {
-    "encounterAvoidance": { "mon_horse": 0.9 },
+    "encounterAvoidance": {
+      "mon_horse": 0.9
+    },
     "//": "AIR hunting: visible pursuit, movement between shots, animal endurance and a single stealth opening. Distances are combat steps, not map hexes.",
     "maxRange": 120,
     "rangeBySkill": {
@@ -2034,9 +2036,15 @@
       "fleePerStep": 3,
       "attack": 3,
       "stamina": 120,
-      "individualRange": [0.5, 2.5],
+      "individualRange": [
+        0.5,
+        2.5
+      ],
       "sickChance": 0.12,
-      "sickRange": [0.15, 0.45],
+      "sickRange": [
+        0.15,
+        0.45
+      ],
       "fullSpeedShare": 0.75,
       "speedFloor": 0.2,
       "attackSpeedFloor": 0.2,
@@ -2066,6 +2074,316 @@
       "noticeChance": 0.2,
       "closeNoticeChance": 0.4,
       "accuracyBonus": 4
+    }
+  },
+  "robotTactics": {
+    "//": "Original AIR tactical combat designs inspired by CDDA machines. Costs are game minutes; data is kept here with the source-derived definitions. All attacks telegraph, finite ammunition/deployment counters persist in combatants, and recovery exposes armour.",
+    "coverCost": 100,
+    "coverStamina": 1.5,
+    "coverTerrain": [
+      "forest",
+      "dense_forest",
+      "ruins",
+      "house",
+      "shop",
+      "campsite",
+      "logging_camp",
+      "ranger_station",
+      "roadside_garage",
+      "medical_clinic",
+      "railway_depot",
+      "electrical_workshop",
+      "military_checkpoint",
+      "laboratory",
+      "secret_lab",
+      "research_ruin",
+      "data_vault",
+      "relay_station",
+      "assembly_plant",
+      "machine_tool_shop",
+      "electronics_reclamation",
+      "automated_distribution"
+    ],
+    "disorientSpeed": 0.8,
+    "maxCombatants": 4,
+    "profiles": {
+      "mon_pulse_hound": {
+        "risk": 4,
+        "look": "hound",
+        "power": 200,
+        "stationary": false,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Sonic pulse",
+            "kind": "pulse",
+            "windup": 1.3,
+            "recovery": 1.8,
+            "range": 4,
+            "damage": 3,
+            "damageType": "bash",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "disorient": 1,
+            "immunity": 6,
+            "warning": "Its speaker rises to a piercing whine. Back away beyond four steps.",
+            "counter": "Back away beyond four steps; the pulse only briefly slows you."
+          },
+          {
+            "label": "Charging jaws",
+            "kind": "strike",
+            "windup": 1.4,
+            "recovery": 2.1,
+            "range": 1,
+            "damage": 14,
+            "damageType": "electric",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "warning": "Its jaws crackle. Back away before it bites.",
+            "counter": "Open more than one step before the jaws discharge."
+          }
+        ]
+      },
+      "mon_rivet_runner": {
+        "risk": 4,
+        "look": "runner",
+        "power": 200,
+        "stationary": false,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Preparing lunge",
+            "kind": "lunge",
+            "windup": 1.5,
+            "recovery": 2.4,
+            "range": 3,
+            "damage": 18,
+            "damageType": "cut",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "warning": "It crouches and unfolds its blades. Back away beyond three steps.",
+            "counter": "Back away during the wind-up; strike while its blades retract."
+          }
+        ]
+      },
+      "mon_prism_sentry": {
+        "risk": 4,
+        "look": "prism",
+        "power": 200,
+        "stationary": true,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Laser targeting",
+            "kind": "strike",
+            "windup": 2.0,
+            "recovery": 2.8,
+            "range": 16,
+            "damage": 20,
+            "damageType": "heat",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "limit": 6,
+            "coverable": true,
+            "warning": "Its targeting lens brightens. Take cover or move beyond sixteen steps.",
+            "counter": "Take cover before it fires; approach during cooling."
+          }
+        ]
+      },
+      "mon_welding_spider": {
+        "risk": 4,
+        "look": "welder",
+        "power": 200,
+        "stationary": false,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Closing clamp",
+            "kind": "strike",
+            "windup": 2.0,
+            "recovery": 2.8,
+            "range": 0,
+            "damage": 24,
+            "damageType": "heat",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "limit": 7,
+            "interruptShare": 0.06,
+            "warning": "Its clamp opens and the torch flares. Hit it hard or back away.",
+            "counter": "Deal a solid hit during preparation, or move out of reach."
+          }
+        ]
+      },
+      "mon_beacon_kite": {
+        "risk": 4,
+        "look": "kite",
+        "power": 200,
+        "stationary": false,
+        "withdrawWhenSpent": true,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Calling escort",
+            "kind": "summon",
+            "windup": 3.2,
+            "recovery": 2,
+            "range": 18,
+            "damage": 0,
+            "damageType": "bash",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "limit": 1,
+            "spawn": "mon_rivet_runner",
+            "spawnGap": 7,
+            "warning": "Its antenna locks onto you. Destroy it or flee before the call completes.",
+            "counter": "Destroy it before transmission; it can call only one escort."
+          }
+        ]
+      },
+      "mon_bastion": {
+        "risk": 5,
+        "look": "bastion",
+        "power": 280,
+        "stationary": false,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Bracing gun",
+            "kind": "burst",
+            "windup": 2.2,
+            "recovery": 3.3,
+            "range": 19,
+            "damage": 11,
+            "damageType": "bullet",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "limit": 5,
+            "shots": 3,
+            "coverable": true,
+            "warning": "Its tracks lock and the gun aligns. Take cover before the burst.",
+            "counter": "Cover blocks its burst; attack or retreat during reloading."
+          }
+        ]
+      },
+      "mon_cinder_engine": {
+        "risk": 5,
+        "look": "cinder",
+        "power": 280,
+        "stationary": false,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Marking fire zone",
+            "kind": "fire",
+            "windup": 2.3,
+            "recovery": 4,
+            "range": 16,
+            "damage": 12,
+            "damageType": "heat",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "limit": 4,
+            "band": 1,
+            "fireMinutes": 3,
+            "fireDamage": 5,
+            "warning": "A warning beam marks the ground around you. Move out of the marked range.",
+            "counter": "Move outside the marked distance band before ignition; stay out until it cools."
+          }
+        ]
+      },
+      "mon_brood_carrier": {
+        "risk": 5,
+        "look": "carrier",
+        "power": 280,
+        "stationary": false,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 0.65,
+        "actions": [
+          {
+            "label": "Opening drone bay",
+            "kind": "summon",
+            "windup": 2.6,
+            "recovery": 3.2,
+            "range": 20,
+            "damage": 0,
+            "damageType": "bash",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "limit": 3,
+            "spawn": "mon_rivet_runner",
+            "spawnGap": 5,
+            "interruptShare": 0.1,
+            "warning": "A launch bay opens. A solid hit can interrupt this deployment.",
+            "counter": "Hit the open bay or destroy deployed drones; only three can be launched."
+          }
+        ]
+      },
+      "mon_breaker_atlas": {
+        "risk": 5,
+        "look": "atlas",
+        "power": 280,
+        "stationary": false,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Lifting breaker",
+            "kind": "strike",
+            "windup": 2.4,
+            "recovery": 3.5,
+            "range": 0,
+            "damage": 38,
+            "damageType": "bash",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "warning": "It raises the breaker over your head. Back away now.",
+            "counter": "Leave melee reach before impact, then close in during recovery."
+          }
+        ]
+      },
+      "mon_null_choir": {
+        "risk": 5,
+        "look": "choir",
+        "power": 280,
+        "stationary": false,
+        "withdrawWhenSpent": false,
+        "recoveryArmour": 0.35,
+        "windupArmour": 1,
+        "actions": [
+          {
+            "label": "Charging disruption",
+            "kind": "disrupt",
+            "windup": 2.5,
+            "recovery": 4,
+            "range": 8,
+            "damage": 6,
+            "damageType": "electric",
+            "accuracy": 0.75,
+            "powerCost": 5,
+            "limit": 5,
+            "disrupt": 2,
+            "immunity": 7,
+            "coverable": true,
+            "warning": "Its emitter loops flare. Take cover or retreat beyond eight steps.",
+            "counter": "Use cover or retreat; ordinary weapons still work during disruption."
+          }
+        ]
+      }
     }
   }
 }

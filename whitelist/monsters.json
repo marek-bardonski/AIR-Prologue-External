@@ -151,6 +151,16 @@
     "mon_lawn_unit",
     "mon_pollinator",
     "mon_parcel_crawler",
-    "mon_nanny_cam"
+    "mon_nanny_cam",
+    "mon_pulse_hound",
+    "mon_rivet_runner",
+    "mon_prism_sentry",
+    "mon_welding_spider",
+    "mon_beacon_kite",
+    "mon_bastion",
+    "mon_cinder_engine",
+    "mon_brood_carrier",
+    "mon_breaker_atlas",
+    "mon_null_choir"
   ]
 }

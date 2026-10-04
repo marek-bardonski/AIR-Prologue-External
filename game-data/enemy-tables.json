@@ -736,6 +736,26 @@
         {
           "monster": "mon_pipe_crawler",
           "weight": 20
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_rivet_runner",
+          "weight": 20
+        },
+        {
+          "monster": "mon_prism_sentry",
+          "weight": 20
+        },
+        {
+          "monster": "mon_welding_spider",
+          "weight": 20
+        },
+        {
+          "monster": "mon_beacon_kite",
+          "weight": 20
         }
       ]
     },
@@ -817,6 +837,26 @@
         },
         {
           "monster": "mon_pipe_crawler",
+          "weight": 20
+        },
+        {
+          "monster": "mon_bastion",
+          "weight": 20
+        },
+        {
+          "monster": "mon_cinder_engine",
+          "weight": 20
+        },
+        {
+          "monster": "mon_brood_carrier",
+          "weight": 20
+        },
+        {
+          "monster": "mon_breaker_atlas",
+          "weight": 20
+        },
+        {
+          "monster": "mon_null_choir",
           "weight": 20
         }
       ]
@@ -1094,6 +1134,26 @@
         {
           "monster": "mon_litter_picker",
           "weight": 20
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_rivet_runner",
+          "weight": 20
+        },
+        {
+          "monster": "mon_prism_sentry",
+          "weight": 20
+        },
+        {
+          "monster": "mon_welding_spider",
+          "weight": 20
+        },
+        {
+          "monster": "mon_beacon_kite",
+          "weight": 20
         }
       ]
     },
@@ -1232,6 +1292,26 @@
         {
           "monster": "mon_watcher",
           "weight": 8
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_rivet_runner",
+          "weight": 20
+        },
+        {
+          "monster": "mon_prism_sentry",
+          "weight": 20
+        },
+        {
+          "monster": "mon_welding_spider",
+          "weight": 20
+        },
+        {
+          "monster": "mon_beacon_kite",
+          "weight": 20
         }
       ]
     },
@@ -1278,6 +1358,26 @@
         {
           "monster": "mon_watcher",
           "weight": 8
+        },
+        {
+          "monster": "mon_bastion",
+          "weight": 20
+        },
+        {
+          "monster": "mon_cinder_engine",
+          "weight": 20
+        },
+        {
+          "monster": "mon_brood_carrier",
+          "weight": 20
+        },
+        {
+          "monster": "mon_breaker_atlas",
+          "weight": 20
+        },
+        {
+          "monster": "mon_null_choir",
+          "weight": 20
         }
       ]
     },
@@ -1378,6 +1478,26 @@
         {
           "monster": "mon_porter",
           "weight": 8
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_rivet_runner",
+          "weight": 20
+        },
+        {
+          "monster": "mon_prism_sentry",
+          "weight": 20
+        },
+        {
+          "monster": "mon_welding_spider",
+          "weight": 20
+        },
+        {
+          "monster": "mon_beacon_kite",
+          "weight": 20
         }
       ]
     },
@@ -1428,6 +1548,26 @@
         {
           "monster": "mon_porter",
           "weight": 8
+        },
+        {
+          "monster": "mon_bastion",
+          "weight": 20
+        },
+        {
+          "monster": "mon_cinder_engine",
+          "weight": 20
+        },
+        {
+          "monster": "mon_brood_carrier",
+          "weight": 20
+        },
+        {
+          "monster": "mon_breaker_atlas",
+          "weight": 20
+        },
+        {
+          "monster": "mon_null_choir",
+          "weight": 20
         }
       ]
     },
@@ -1470,6 +1610,26 @@
         {
           "monster": "mon_sentinel",
           "weight": 8
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_rivet_runner",
+          "weight": 20
+        },
+        {
+          "monster": "mon_prism_sentry",
+          "weight": 20
+        },
+        {
+          "monster": "mon_welding_spider",
+          "weight": 20
+        },
+        {
+          "monster": "mon_beacon_kite",
+          "weight": 20
         }
       ]
     },
@@ -1512,6 +1672,26 @@
         {
           "monster": "mon_sentinel",
           "weight": 8
+        },
+        {
+          "monster": "mon_bastion",
+          "weight": 20
+        },
+        {
+          "monster": "mon_cinder_engine",
+          "weight": 20
+        },
+        {
+          "monster": "mon_brood_carrier",
+          "weight": 20
+        },
+        {
+          "monster": "mon_breaker_atlas",
+          "weight": 20
+        },
+        {
+          "monster": "mon_null_choir",
+          "weight": 20
         }
       ]
     },
@@ -1558,6 +1738,26 @@
         {
           "monster": "mon_nurse_unit",
           "weight": 8
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_rivet_runner",
+          "weight": 20
+        },
+        {
+          "monster": "mon_prism_sentry",
+          "weight": 20
+        },
+        {
+          "monster": "mon_welding_spider",
+          "weight": 20
+        },
+        {
+          "monster": "mon_beacon_kite",
+          "weight": 20
         }
       ]
     },
@@ -1600,6 +1800,26 @@
         {
           "monster": "mon_ward",
           "weight": 8
+        },
+        {
+          "monster": "mon_bastion",
+          "weight": 20
+        },
+        {
+          "monster": "mon_cinder_engine",
+          "weight": 20
+        },
+        {
+          "monster": "mon_brood_carrier",
+          "weight": 20
+        },
+        {
+          "monster": "mon_breaker_atlas",
+          "weight": 20
+        },
+        {
+          "monster": "mon_null_choir",
+          "weight": 20
         }
       ]
     },
@@ -1752,6 +1972,26 @@
             3,
             5
           ]
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        },
+        {
+          "monster": "mon_rivet_runner",
+          "weight": 20
+        },
+        {
+          "monster": "mon_prism_sentry",
+          "weight": 20
+        },
+        {
+          "monster": "mon_welding_spider",
+          "weight": 20
+        },
+        {
+          "monster": "mon_beacon_kite",
+          "weight": 20
         }
       ]
     },
@@ -1790,6 +2030,26 @@
         {
           "monster": "mon_bulkhead_warden",
           "weight": 8
+        },
+        {
+          "monster": "mon_bastion",
+          "weight": 20
+        },
+        {
+          "monster": "mon_cinder_engine",
+          "weight": 20
+        },
+        {
+          "monster": "mon_brood_carrier",
+          "weight": 20
+        },
+        {
+          "monster": "mon_breaker_atlas",
+          "weight": 20
+        },
+        {
+          "monster": "mon_null_choir",
+          "weight": 20
         }
       ]
     },

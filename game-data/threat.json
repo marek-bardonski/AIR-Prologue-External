@@ -197,7 +197,12 @@
       "mon_deer",
       "mon_bobcat",
       "mon_beaver",
-      "mon_raven"
+      "mon_raven",
+      "mon_pulse_hound",
+      "mon_rivet_runner",
+      "mon_prism_sentry",
+      "mon_welding_spider",
+      "mon_beacon_kite"
     ],
     [
       "mon_draft",
@@ -208,7 +213,12 @@
       "mon_boar_wild",
       "mon_coyote",
       "mon_bobcat",
-      "mon_dog"
+      "mon_dog",
+      "mon_bastion",
+      "mon_cinder_engine",
+      "mon_brood_carrier",
+      "mon_breaker_atlas",
+      "mon_null_choir"
     ]
   ],
   "encounterCheckMinutes": 5,
