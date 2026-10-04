@@ -639,7 +639,7 @@
       "entries": [
         {
           "q": "How do I craft?",
-          "a": "Recipes are practised, not found: doing the work teaches the hands. Books teach faster if your knowledge is high enough already. A knife and a hammer unlock most of the early lists."
+          "a": "Recipes are practised, not found: doing the work teaches the hands. Books teach knowledge when you meet their minimum requirement. Reading uses a fixed double XP multiplier at every level; higher levels need more experience and do not speed up learning. A knife and a hammer unlock most of the early lists."
         },
         {
           "q": "What tools matter first?",

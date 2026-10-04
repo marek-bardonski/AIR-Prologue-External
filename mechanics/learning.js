@@ -16,13 +16,14 @@ export function readingPlan({ book, intelligence, level, focus, skim }, c) {
   let max = Math.floor(book.minutes / c.maxTimeDivisor) + Math.floor(intelligence / c.maxIntDivisor) - level;
   min = Math.round(min * focus); max = Math.round(max * focus);
   max = Math.max(min, Math.min(c.maxMaxXp, Math.max(c.minMaxXp, max))); min = Math.max(1, min); max = Math.max(min, max);
-  min *= Math.pow(level + 1, 2) * c.xpScale; max *= Math.pow(level + 1, 2) * c.xpScale;
+  // AIR balance: a fixed multiplier matches the game's gentle knowledge XP curve.
+  min *= c.fixedXpMultiplier * c.xpScale; max *= c.fixedXpMultiplier * c.xpScale;
   return { minutes, minXp: min, maxXp: max };
 }
 
 /** What one sitting teaches, for a uniform draw `u` in [0, 1). After src/skill.cpp `SkillLevel::readBook`. */
-export function readingXp({ minXp, maxXp, level }, c, u) {
-  const step = Math.pow(level + 1, 2) * c.xpScale;
+export function readingXp({ minXp, maxXp }, c, u) {
+  const step = c.fixedXpMultiplier * c.xpScale;
   return minXp + Math.floor(u * (Math.floor((maxXp - minXp) / step) + 1)) * step;
 }
 
