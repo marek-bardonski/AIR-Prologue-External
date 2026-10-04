@@ -2034,10 +2034,10 @@
       "attack": 3,
       "stamina": 120,
       "fullSpeedShare": 0.75,
-      "speedFloor": 0.05,
-      "attackSpeedFloor": 0.15,
+      "speedFloor": 0.2,
+      "attackSpeedFloor": 0.2,
       "dodgeFloor": 0.25,
-      "recoverPerMinute": 0.3
+      "recoverPerMinute": 8
     },
     "defensive": {
       "chargeSteps": 4,
