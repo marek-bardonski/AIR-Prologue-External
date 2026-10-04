@@ -2033,11 +2033,20 @@
       "fleePerStep": 3,
       "attack": 3,
       "stamina": 120,
+      "individualRange": [0.5, 2.5],
+      "sickChance": 0.12,
+      "sickRange": [0.15, 0.45],
       "fullSpeedShare": 0.75,
       "speedFloor": 0.2,
       "attackSpeedFloor": 0.2,
       "dodgeFloor": 0.25,
       "recoverPerMinute": 8
+    },
+    "power": {
+      "capacity": 240,
+      "idlePerMinute": 1,
+      "movePerStep": 1,
+      "attack": 3
     },
     "defensive": {
       "chargeSteps": 4,
