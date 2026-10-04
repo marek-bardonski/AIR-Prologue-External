@@ -3,8 +3,6 @@
   "referenceKg": 70,
   "proteinPerKg": 0.8,
   "trainingProteinPerKg": 1.6,
-  "vitaminDailyMg": 90,
-  "ironDailyMg": 18,
   "initialSaturation": 0.85,
   "absorptionMinutes": 240,
   "intakeMemoryDays": 2,
@@ -16,10 +14,6 @@
   "vitamins": {
     "depleteDays": 35,
     "refillDays": 14
-  },
-  "iron": {
-    "depleteDays": 100,
-    "refillDays": 60
   },
   "strength": {
     "min": -4,
@@ -488,32 +482,23 @@
         "days": 21,
         "recoveryAbove": 0.5
       }
-    },
-    {
-      "id": "iron_anemia",
-      "name": "Iron-deficiency anaemia",
-      "kind": "deficiency",
-      "onsetDays": [
-        0,
-        0
-      ],
-      "durationDays": [
-        42,
-        90
-      ],
-      "weight": 0,
-      "speedPenalty": 0.12,
-      "staminaPenalty": 0.25,
-      "symptoms": "Persistent fatigue and shortness of breath. Iron-rich food supports gradual recovery.",
-      "relief": [
-        "analgesic"
-      ],
-      "deficiency": {
-        "track": "iron",
-        "below": 0.35,
-        "days": 30,
-        "recoveryAbove": 0.5
-      }
     }
-  ]
+  ],
+  "vitaminDaily": 100,
+  "vitaminReferenceMg": 90,
+  "vitaminPointsPer100g": {
+    "flesh": 4,
+    "fish": 5,
+    "egg": 12,
+    "milk": 4,
+    "cheese": 6,
+    "bean": 8,
+    "nuts": 10,
+    "nut": 10,
+    "wheat": 3,
+    "grain": 3,
+    "veggy": 10,
+    "fruit": 5,
+    "mushroom": 8
+  }
 }

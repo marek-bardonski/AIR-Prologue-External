@@ -16,5 +16,9 @@ export function foodNutrients({ id, calories, weight, materials, vitamins }, c) 
       amounts[id] = mg;
     }
   }
-  return { protein, vitamins: Math.max(0, amounts.vitC || 0), iron: Math.max(0, amounts.iron || 0) };
+  // One aggregate vitamin score. C uses the supplied composition; other vitamins use conservative
+  // food-family estimates. Minerals and non-nutritional CDDA counters do not contribute.
+  const broad = protein === 0 && id in c.proteinGrams ? 0 : materials.reduce((n,m) =>
+    n + (c.vitaminPointsPer100g[m.type] || 0) * m.portion / total, 0) * Math.max(0,weight) / 100;
+  return { protein, vitamins: Math.max(0, amounts.vitC || 0) / c.vitaminReferenceMg * c.vitaminDaily + broad };
 }
