@@ -20,5 +20,47 @@
     0.001,
     0.0001
   ],
-  "//loot": "Loot title colors use the greatest baseline find probability across loot sources, with no crafting, trade or danger bonus. Below 0.1% is epic; below 0.01% is legendary. Actual availability gates, not labels, keep selected finds scarce."
+  "//loot": "Loot title colors use the greatest baseline find probability across loot sources, with no crafting, trade or danger bonus. Below 0.1% is epic; below 0.01% is legendary. Actual availability gates, not labels, keep selected finds scarce.",
+  "exploration": {
+    "minimum": {
+      "uncommon": 0.5,
+      "rare": 0.2,
+      "epic": 0.1,
+      "legendary": 0.025
+    },
+    "pools": {
+      "uncommon": [
+        "sweater",
+        "pan",
+        "knife_small",
+        "manual_fabrication",
+        "pocket_survival",
+        "rollmat"
+      ],
+      "rare": [
+        "wash_kit",
+        "electric_lantern",
+        "welder",
+        "welding_kit",
+        "royal_jelly"
+      ],
+      "epic": [
+        "solar_panel",
+        "multimeter",
+        "hotplate",
+        "water_purifier",
+        "chemistry_set",
+        "garnet",
+        "amethyst"
+      ],
+      "legendary": [
+        "binoculars",
+        "electrohack",
+        "soldering_iron_portable",
+        "geiger_off",
+        "gold_watch"
+      ]
+    },
+    "//": "Independent per-tier floor rolls only when normal exploration produced none of that tier. Deliberately bypass per-item availability gates. Classifications remain based on baseline sources, so the bonus cannot reclassify its own pool."
+  }
 }
