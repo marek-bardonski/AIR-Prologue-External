@@ -193,3 +193,5 @@ export function bandageHealing(quality, part, c) {
   const q = Math.min(c.maxEffectiveIntensity, quality || 1);
   return c.healingPerDayPerIntensity * q / 24 * (part === 'head' ? c.headMultiplier : part === 'torso' ? c.torsoMultiplier : 1);
 }
+
+export { foodNutrients } from "./nutrition.js";

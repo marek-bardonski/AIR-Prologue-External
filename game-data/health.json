@@ -1,0 +1,508 @@
+{
+  "version": 1,
+  "referenceKg": 70,
+  "proteinPerKg": 0.8,
+  "trainingProteinPerKg": 1.6,
+  "vitaminDailyMg": 90,
+  "ironDailyMg": 18,
+  "initialSaturation": 0.85,
+  "absorptionMinutes": 240,
+  "intakeMemoryDays": 2,
+  "perfectIntake": 1.25,
+  "protein": {
+    "depleteDays": 24,
+    "refillDays": 21
+  },
+  "vitamins": {
+    "depleteDays": 35,
+    "refillDays": 14
+  },
+  "iron": {
+    "depleteDays": 100,
+    "refillDays": 60
+  },
+  "strength": {
+    "min": -4,
+    "max": 4,
+    "gainPerDay": 0.05,
+    "lossPerDay": 0.12,
+    "restorePerDay": 0.14,
+    "workMinutes": 120,
+    "sleepMinutes": 420,
+    "actions": [
+      "build",
+      "interact",
+      "fell_tree",
+      "chop_tree",
+      "dig",
+      "craft",
+      "butcher",
+      "salvage",
+      "farm",
+      "forage"
+    ]
+  },
+  "illness": {
+    "healthyIntervalDays": 180,
+    "depletedIntervalDays": 10,
+    "maxActive": 2,
+    "cooldownDays": 3,
+    "minimumRecoveryRate": 0.5
+  },
+  "bands": [
+    {
+      "at": 0,
+      "label": "Severely deficient",
+      "color": "CORAL",
+      "hint": "Very low reserves. Illness is much more likely; strength and healing suffer. Recovery needs sustained nourishing meals."
+    },
+    {
+      "at": 0.2,
+      "label": "Very deficient",
+      "color": "ORANGE",
+      "hint": "Resistance and recovery are reduced. Eat protein and vitamin-rich food regularly for the coming weeks."
+    },
+    {
+      "at": 0.4,
+      "label": "Deficient",
+      "color": "GOLD_YELLOW",
+      "hint": "Nutrition is below the healthy range. Regular nourishing meals will gradually restore it."
+    },
+    {
+      "at": 0.65,
+      "label": "Optimal",
+      "color": "LIME_GREEN",
+      "hint": "Enough to support normal immunity and maintenance. Keep eating regularly."
+    },
+    {
+      "at": 0.9,
+      "label": "Perfect",
+      "color": "SOFT_CYAN",
+      "hint": "Well nourished. Protein can support training when you also work, eat enough energy and sleep. Extra intake gives no further resistance."
+    }
+  ],
+  "proteinEnergyShare": {
+    "flesh": 0.65,
+    "hflesh": 0.65,
+    "iflesh": 0.6,
+    "fish": 0.7,
+    "egg": 0.35,
+    "milk": 0.24,
+    "cheese": 0.26,
+    "bean": 0.27,
+    "nuts": 0.14,
+    "nut": 0.14,
+    "wheat": 0.12,
+    "grain": 0.12,
+    "veggy": 0.15,
+    "fruit": 0.03,
+    "mushroom": 0.25
+  },
+  "proteinGrams": {
+    "fat": 0,
+    "fat_mutant": 0,
+    "lard": 0,
+    "tallow": 0,
+    "butter": 0.2,
+    "ghee": 0,
+    "cooking_oil": 0,
+    "olive_oil": 0,
+    "canola_oil": 0,
+    "meat_cooked": 65,
+    "meat": 55,
+    "milk": 8,
+    "egg_chicken": 6.3,
+    "beans_cooked": 18
+  },
+  "vitaminUnitsMg": {
+    "vitC": 0.938,
+    "iron": 0.188,
+    "calcium": 10.42
+  },
+  "remedies": {
+    "herbal_tea": {
+      "kind": "herbal",
+      "hours": 6,
+      "relief": 0.25,
+      "label": "Soothes throat and cough; does not kill pathogens."
+    },
+    "chamomile_tea": {
+      "kind": "herbal",
+      "hours": 6,
+      "relief": 0.25,
+      "label": "Soothes throat and cough; does not kill pathogens."
+    },
+    "dandelion_tea": {
+      "kind": "herbal",
+      "hours": 6,
+      "relief": 0.25,
+      "label": "Soothes throat and cough; does not kill pathogens."
+    },
+    "bee_balm_tea": {
+      "kind": "herbal",
+      "hours": 6,
+      "relief": 0.25,
+      "label": "Soothes throat and cough; does not kill pathogens."
+    },
+    "pine_tea": {
+      "kind": "herbal",
+      "hours": 6,
+      "relief": 0.25,
+      "label": "Soothes throat and cough; does not kill pathogens."
+    },
+    "tea_willowbark": {
+      "kind": "analgesic",
+      "hours": 4,
+      "relief": 0.3,
+      "label": "Temporary relief from aches and fever."
+    },
+    "aspirin": {
+      "kind": "analgesic",
+      "hours": 6,
+      "relief": 0.45,
+      "label": "Temporary relief from aches and fever."
+    },
+    "ibuprofen": {
+      "kind": "analgesic",
+      "hours": 6,
+      "relief": 0.45,
+      "label": "Temporary relief from aches and fever."
+    },
+    "paracetamol": {
+      "kind": "analgesic",
+      "hours": 6,
+      "relief": 0.45,
+      "label": "Temporary relief from aches and fever."
+    },
+    "weak_antibiotic": {
+      "kind": "antibiotic",
+      "hours": 12,
+      "recovery": 0.45,
+      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off."
+    },
+    "antibiotics": {
+      "kind": "antibiotic",
+      "hours": 12,
+      "recovery": 1,
+      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off."
+    },
+    "strong_antibiotic": {
+      "kind": "antibiotic",
+      "hours": 12,
+      "recovery": 1.1,
+      "label": "Supports recovery from susceptible bacterial illness; repeat while treatment has worn off."
+    },
+    "antifungal": {
+      "kind": "antifungal",
+      "hours": 24,
+      "recovery": 1,
+      "label": "Treats fungal illness; repeat while treatment has worn off."
+    }
+  },
+  "diseases": [
+    {
+      "id": "cold",
+      "name": "Common cold",
+      "kind": "viral",
+      "onsetDays": [
+        1,
+        3
+      ],
+      "durationDays": [
+        7,
+        10
+      ],
+      "weight": 24,
+      "speedPenalty": 0.06,
+      "staminaPenalty": 0.08,
+      "symptoms": "Runny nose, sore throat and mild fatigue.",
+      "relief": [
+        "herbal",
+        "analgesic"
+      ]
+    },
+    {
+      "id": "pharyngitis",
+      "name": "Viral sore throat",
+      "kind": "viral",
+      "onsetDays": [
+        1,
+        4
+      ],
+      "durationDays": [
+        3,
+        7
+      ],
+      "weight": 12,
+      "speedPenalty": 0.05,
+      "staminaPenalty": 0.06,
+      "symptoms": "Painful throat and tiredness.",
+      "relief": [
+        "herbal",
+        "analgesic"
+      ]
+    },
+    {
+      "id": "laryngitis",
+      "name": "Laryngitis",
+      "kind": "viral",
+      "onsetDays": [
+        1,
+        3
+      ],
+      "durationDays": [
+        7,
+        14
+      ],
+      "weight": 8,
+      "speedPenalty": 0.04,
+      "staminaPenalty": 0.06,
+      "symptoms": "Hoarse voice, irritating cough and sore throat.",
+      "relief": [
+        "herbal",
+        "analgesic"
+      ]
+    },
+    {
+      "id": "bronchitis",
+      "name": "Acute bronchitis",
+      "kind": "viral",
+      "onsetDays": [
+        2,
+        5
+      ],
+      "durationDays": [
+        14,
+        21
+      ],
+      "weight": 7,
+      "speedPenalty": 0.1,
+      "staminaPenalty": 0.18,
+      "symptoms": "Persistent cough and reduced stamina.",
+      "relief": [
+        "herbal",
+        "analgesic"
+      ]
+    },
+    {
+      "id": "sinusitis",
+      "name": "Acute sinusitis",
+      "kind": "viral",
+      "onsetDays": [
+        3,
+        7
+      ],
+      "durationDays": [
+        14,
+        21
+      ],
+      "weight": 7,
+      "speedPenalty": 0.08,
+      "staminaPenalty": 0.1,
+      "symptoms": "Facial pressure, blocked nose and fatigue.",
+      "relief": [
+        "analgesic"
+      ]
+    },
+    {
+      "id": "influenza",
+      "name": "Influenza",
+      "kind": "viral",
+      "onsetDays": [
+        1,
+        4
+      ],
+      "durationDays": [
+        5,
+        10
+      ],
+      "weight": 6,
+      "speedPenalty": 0.18,
+      "staminaPenalty": 0.25,
+      "symptoms": "Fever, muscle aches and marked exhaustion.",
+      "relief": [
+        "herbal",
+        "analgesic"
+      ]
+    },
+    {
+      "id": "gastroenteritis",
+      "name": "Viral gastroenteritis",
+      "kind": "viral",
+      "onsetDays": [
+        0.5,
+        2
+      ],
+      "durationDays": [
+        2,
+        4
+      ],
+      "weight": 10,
+      "speedPenalty": 0.12,
+      "staminaPenalty": 0.18,
+      "symptoms": "Stomach cramps and diarrhoea; drink regularly.",
+      "relief": [
+        "analgesic"
+      ]
+    },
+    {
+      "id": "tonsillitis",
+      "name": "Bacterial tonsillitis",
+      "kind": "bacterial",
+      "onsetDays": [
+        2,
+        5
+      ],
+      "durationDays": [
+        7,
+        10
+      ],
+      "weight": 7,
+      "speedPenalty": 0.12,
+      "staminaPenalty": 0.14,
+      "symptoms": "Fever and a painful swollen throat.",
+      "relief": [
+        "herbal",
+        "analgesic"
+      ]
+    },
+    {
+      "id": "folliculitis",
+      "name": "Bacterial folliculitis",
+      "kind": "bacterial",
+      "onsetDays": [
+        2,
+        5
+      ],
+      "durationDays": [
+        7,
+        14
+      ],
+      "weight": 7,
+      "speedPenalty": 0.04,
+      "staminaPenalty": 0.06,
+      "symptoms": "Tender infected hair follicles and skin irritation.",
+      "relief": [
+        "analgesic"
+      ]
+    },
+    {
+      "id": "thrush",
+      "name": "Oral thrush",
+      "kind": "fungal",
+      "onsetDays": [
+        3,
+        7
+      ],
+      "durationDays": [
+        10,
+        21
+      ],
+      "weight": 5,
+      "speedPenalty": 0.05,
+      "staminaPenalty": 0.08,
+      "symptoms": "Sore mouth with white patches.",
+      "relief": [
+        "analgesic"
+      ]
+    },
+    {
+      "id": "pneumonia",
+      "name": "Bacterial pneumonia",
+      "kind": "bacterial",
+      "onsetDays": [
+        2,
+        5
+      ],
+      "durationDays": [
+        21,
+        42
+      ],
+      "weight": 2,
+      "speedPenalty": 0.25,
+      "staminaPenalty": 0.35,
+      "symptoms": "Fever, chest discomfort and breathlessness; antibiotics and rest help.",
+      "relief": [
+        "analgesic"
+      ]
+    },
+    {
+      "id": "scurvy",
+      "name": "Scurvy",
+      "kind": "deficiency",
+      "onsetDays": [
+        0,
+        0
+      ],
+      "durationDays": [
+        14,
+        42
+      ],
+      "weight": 0,
+      "speedPenalty": 0.15,
+      "staminaPenalty": 0.18,
+      "symptoms": "Bleeding gums, bruising and poor wound healing. Vitamin-rich food is essential.",
+      "relief": [
+        "analgesic"
+      ],
+      "deficiency": {
+        "track": "vitamins",
+        "below": 0.4,
+        "days": 14,
+        "recoveryAbove": 0.5
+      }
+    },
+    {
+      "id": "protein_wasting",
+      "name": "Protein malnutrition",
+      "kind": "deficiency",
+      "onsetDays": [
+        0,
+        0
+      ],
+      "durationDays": [
+        21,
+        56
+      ],
+      "weight": 0,
+      "speedPenalty": 0.15,
+      "staminaPenalty": 0.25,
+      "symptoms": "Muscle wasting, weakness and slow tissue repair. Protein and adequate energy are essential.",
+      "relief": [
+        "analgesic"
+      ],
+      "deficiency": {
+        "track": "protein",
+        "below": 0.4,
+        "days": 21,
+        "recoveryAbove": 0.5
+      }
+    },
+    {
+      "id": "iron_anemia",
+      "name": "Iron-deficiency anaemia",
+      "kind": "deficiency",
+      "onsetDays": [
+        0,
+        0
+      ],
+      "durationDays": [
+        42,
+        90
+      ],
+      "weight": 0,
+      "speedPenalty": 0.12,
+      "staminaPenalty": 0.25,
+      "symptoms": "Persistent fatigue and shortness of breath. Iron-rich food supports gradual recovery.",
+      "relief": [
+        "analgesic"
+      ],
+      "deficiency": {
+        "track": "iron",
+        "below": 0.35,
+        "days": 30,
+        "recoveryAbove": 0.5
+      }
+    }
+  ]
+}
