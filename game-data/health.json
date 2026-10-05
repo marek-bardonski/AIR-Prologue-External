@@ -48,6 +48,22 @@
     "cooldownDays": 3,
     "minimumRecoveryRate": 0.5
   },
+  "mindset": {
+    "//": "Prologue rule (05.10.2026): the third health track, a slow reading of the mood. Each minute the mood (Morale.level, pain taken off) sets a target: 0.5 at a mood inside the deadband, 1 at moodFull or above, 0 at moodEmpty or below, straight lines between. The track moves toward the target at one full span per riseDays (up) or fallDays (down), so a week of good meals lifts it and a few bad days sink it; a flat mood keeps it Balanced, with no effect either way. Effects are the band's: a multiplier on work and travel speed, on stamina recovery and on wound healing. Nothing else reads it.",
+    "initial": 0.5,
+    "deadband": 3,
+    "moodFull": 30,
+    "moodEmpty": -40,
+    "riseDays": 4,
+    "fallDays": 2.5,
+    "bands": [
+      { "at": 0, "label": "Despondent", "color": "CORAL", "speed": 0.9, "stamina": 0.8, "healing": 0.85, "hint": "A long stretch of misery. Everything is slower, breath comes back slowly and wounds knit poorly. Good food, warmth, music and company lift it, slowly." },
+      { "at": 0.15, "label": "Depressed", "color": "ORANGE", "speed": 0.95, "stamina": 0.9, "healing": 0.95, "hint": "Low for days. Work and walking drag a little and breath comes back slower. Enjoyable meals and pastimes bring it back." },
+      { "at": 0.35, "label": "Balanced", "color": "LIME_GREEN", "speed": 1, "stamina": 1, "healing": 1, "hint": "Steady. No help, no hindrance. Days of good mood lift it; days of bad meals, hunger or cold sink it." },
+      { "at": 0.65, "label": "Thriving", "color": "SOFT_CYAN", "speed": 1, "stamina": 1.1, "healing": 1.05, "hint": "Days of good food and pastimes. Breath comes back a little faster and wounds knit a little better." },
+      { "at": 0.85, "label": "Inspired", "color": "MAGENTA", "speed": 1.05, "stamina": 1.2, "healing": 1.1, "hint": "A long run of good days. A little quicker at everything, breath back fast, wounds knitting well. It fades without the mood that made it." }
+    ]
+  },
   "bands": [
     {
       "at": 0,
