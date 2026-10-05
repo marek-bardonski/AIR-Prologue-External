@@ -1985,6 +1985,23 @@
       ],
       "perSkillLevel": 0.03,
       "floorShare": 0.5
+    },
+    "//condition": "Prologue rule (05.10.2026): a body in poor shape gets away less often. The chance is multiplied by the stage of hunger (stages by id), by `parched` when the water bar is empty, by `exhausted` when the rest bar is, and it falls by `loadPerShare` for every whole share of the carrying limit carried above the free share.",
+    "condition": {
+      "stages": {
+        "underfed": 0.9,
+        "malnourished": 0.8,
+        "wasting": 0.65,
+        "critical": 0.5
+      },
+      "parched": 0.85,
+      "exhausted": 0.85,
+      "loadPerShare": 0.3
+    },
+    "//outpace": "Prologue rule (05.10.2026): being slower than what is coming costs a getaway. The chance is multiplied by (the survivor's running pace / the pace of the fastest pursuer as it is now, hurt and winded as it may be) to the power `power`, never under `floor`, and not at all when nothing coming is faster.",
+    "outpace": {
+      "power": 1.4,
+      "floor": 0.25
     }
   },
   "giveGround": {
@@ -2077,6 +2094,65 @@
       "noticeChance": 0.2,
       "closeNoticeChance": 0.4,
       "accuracyBonus": 4
+    },
+    "chase": {
+      "//": "Prologue rule (05.10.2026): how a creature runs a survivor down. A profile multiplies the creature's own speed when it crosses ground (speed) and the wind it has to do it with (stamina). A chaser is faster than a fresh survivor and keeps it up: it is lost by breaking contact or by outlasting it, never by outpacing it. A charger is faster still and soon blown: surviving its first rush is the whole of it. A plodder is left behind at a walk. Anything not listed moves at its own speed.",
+      "profiles": {
+        "chaser": {
+          "speed": 2.3,
+          "stamina": 1.5,
+          "turn": 0.2,
+          "pressSteps": 16,
+          "pressAttacks": 6
+        },
+        "charger": {
+          "speed": 3.3,
+          "stamina": 0.7,
+          "turn": 0.2,
+          "pressSteps": 30,
+          "pressAttacks": 6,
+          "rush": true,
+          "rushGap": 2
+        },
+        "plodder": {
+          "speed": 0.8,
+          "stamina": 1,
+          "turn": 1,
+          "pressSteps": 4,
+          "pressAttacks": 2
+        }
+      },
+      "byMonster": {
+        "mon_air_messenger": "plodder",
+        "mon_auger_unit": "plodder",
+        "mon_bastion": "plodder",
+        "mon_bear": "charger",
+        "mon_boar_wild": "charger",
+        "mon_bobcat": "charger",
+        "mon_breaker_atlas": "plodder",
+        "mon_brood_carrier": "plodder",
+        "mon_burrower": "plodder",
+        "mon_cinder_engine": "plodder",
+        "mon_compactor": "plodder",
+        "mon_cougar": "charger",
+        "mon_coyote": "chaser",
+        "mon_dog": "chaser",
+        "mon_dog_beagle": "chaser",
+        "mon_dog_bull": "chaser",
+        "mon_dog_gshepherd": "chaser",
+        "mon_dog_rottweiler": "chaser",
+        "mon_gatewatch": "plodder",
+        "mon_lawn_unit": "plodder",
+        "mon_moose": "charger",
+        "mon_null_choir": "plodder",
+        "mon_prism_sentry": "plodder",
+        "mon_pulse_hound": "chaser",
+        "mon_sentry_post": "plodder",
+        "mon_sweeper": "plodder",
+        "mon_turtle_painted": "plodder",
+        "mon_turtle_snapping_common": "plodder",
+        "mon_wolf": "chaser"
+      }
     }
   },
   "robotTactics": {
