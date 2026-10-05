@@ -98,6 +98,10 @@
     "mushroom": 0.25
   },
   "proteinGrams": {
+    "//watermelon": "Prologue (05.10.2026): melon flesh is water and sugar; its trace of protein does not count",
+    "watermelon": 0,
+    "watermelon_wedge": 0,
+    "melon": 0,
     "fat": 0,
     "fat_mutant": 0,
     "lard": 0,

@@ -6,7 +6,9 @@
     "type": "ITEM",
     "id": "watermelon",
     "comestible_type": "INVALID",
-    "//": "INEDIBLE whole fruit: cut it (uncraft) into wedges"
+    "//": "INEDIBLE whole fruit: cut it (uncraft) into wedges. Prologue (05.10.2026): the whole is ten wedges of flesh, not sixteen — a 4.5 kg melon is a third rind; its calories and water are the ten wedges' sum (850 kcal, 2.6 l).",
+    "calories": 850,
+    "quench": 520
   },
   {
     "type": "ITEM",
@@ -20,5 +22,24 @@
     "spoils_in": "540 days",
     "air_open_spoils_in": "90 days",
     "//": "sealed it keeps like other canned food; opened, a jar of peanut butter lasts months"
+  },
+  {
+    "type": "uncraft",
+    "result": "watermelon",
+    "components": [
+      [
+        [
+          "watermelon_wedge",
+          10
+        ]
+      ],
+      [
+        [
+          "seed_watermelon",
+          5
+        ]
+      ]
+    ],
+    "//": "Prologue (05.10.2026): ten wedges from a whole melon (the rind is not flesh), see the ITEM patch above"
   }
 ]

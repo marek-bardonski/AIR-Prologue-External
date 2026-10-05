@@ -67437,7 +67437,7 @@
         },
         {
           "item": "welder",
-          "weight": 2,
+          "weight": 1,
           "count": [
             1,
             1
@@ -72541,7 +72541,7 @@
         },
         {
           "item": "welder",
-          "weight": 2,
+          "weight": 1,
           "count": [
             1,
             1
@@ -104737,7 +104737,7 @@
         },
         {
           "item": "welder",
-          "weight": 1,
+          "weight": 0.5,
           "count": [
             1,
             1
@@ -112744,7 +112744,7 @@
         },
         {
           "item": "welder",
-          "weight": 1,
+          "weight": 0.5,
           "count": [
             1,
             1
@@ -125254,7 +125254,7 @@
         },
         {
           "item": "welder",
-          "weight": 1.6,
+          "weight": 0.8,
           "count": [
             1,
             1
