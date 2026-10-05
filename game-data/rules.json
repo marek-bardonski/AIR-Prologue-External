@@ -79,6 +79,17 @@
     "damageRollMin": 0.5,
     "skillDamagePerLevel": 0.05,
     "armorChipShare": 0.2,
+    "//playerArmorChipShare": "Prologue rule (05.10.2026): what worn armour always lets through of a blow landed on the survivor. Lower than armorChipShare (what a creature's hide lets through of the survivor's blow), so that good armour is worth wearing.",
+    "playerArmorChipShare": 0.1,
+    "//armorByRisk": "Prologue rule (05.10.2026): armour added to every creature that fights, against every kind of blow, by the danger tier (0..5) of the ground it is met on. Dangerous country breeds tougher hides and thicker plating, so a light weapon falls off there and a better one holds.",
+    "armorByRisk": [
+      0,
+      0,
+      0,
+      1,
+      3,
+      5
+    ],
     "perks": {
       "staggerShare": 0.25,
       "staggerFullHitShare": 0.15,
@@ -145,10 +156,10 @@
     "damageByRisk": [
       1,
       1,
-      1.05,
-      1.08,
-      1.1,
-      1.12
+      1.15,
+      1.45,
+      1.85,
+      2.25
     ]
   },
   "forestry": {
