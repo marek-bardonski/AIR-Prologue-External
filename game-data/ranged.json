@@ -2107,7 +2107,7 @@
         },
         "charger": {
           "speed": 3.3,
-          "stamina": 0.7,
+          "stamina": 0.95,
           "turn": 0.2,
           "pressSteps": 30,
           "pressAttacks": 6,
