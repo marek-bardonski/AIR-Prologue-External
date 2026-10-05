@@ -50,7 +50,7 @@
   },
   "terrain": {
     "farm": {
-      "plots": 4,
+      "plots": 1,
       "soil": 1.15,
       "clearMinutes": 120,
       "waterDays": 3,
@@ -81,10 +81,11 @@
             2
           ]
         }
-      ]
+      ],
+      "plants": 100
     },
     "field": {
-      "plots": 4,
+      "plots": 1,
       "soil": 1,
       "clearMinutes": 240,
       "waterDays": 3,
@@ -115,10 +116,11 @@
             3
           ]
         }
-      ]
+      ],
+      "plants": 100
     },
     "orchard": {
-      "plots": 2,
+      "plots": 1,
       "soil": 1,
       "clearMinutes": 300,
       "waterDays": 3,
@@ -149,10 +151,11 @@
             4
           ]
         }
-      ]
+      ],
+      "plants": 50
     },
     "hills": {
-      "plots": 2,
+      "plots": 1,
       "soil": 0.85,
       "clearMinutes": 480,
       "waterDays": 2,
@@ -179,7 +182,8 @@
             3
           ]
         }
-      ]
+      ],
+      "plants": 50
     },
     "forest": {
       "plots": 1,
@@ -215,10 +219,11 @@
             2
           ]
         }
-      ]
+      ],
+      "plants": 25
     },
     "river": {
-      "plots": 2,
+      "plots": 1,
       "soil": 1,
       "clearMinutes": 300,
       "waterDays": 3,
@@ -250,10 +255,11 @@
             2
           ]
         }
-      ]
+      ],
+      "plants": 50
     },
     "lake": {
-      "plots": 2,
+      "plots": 1,
       "soil": 1,
       "clearMinutes": 300,
       "waterDays": 3,
@@ -285,7 +291,8 @@
             2
           ]
         }
-      ]
+      ],
+      "plants": 50
     }
   },
   "irrigation": {
@@ -424,7 +431,10 @@
   },
   "harvest": {
     "survivalBonusPerLevel": 0.04,
-    "byproductPerPlant": 0.15
+    "byproductPerPlant": 0.15,
+    "//yieldScale": "Prologue rule (05.10.2026): every harvest is multiplied by yieldScale (farming fed a survivor too easily: a kept bed of 25 staple plants is now about two and a half days of food), and a patch that was never watered gives only unwateredYield of that.",
+    "yieldScale": 0.6,
+    "unwateredYield": 0.5
   },
   "practice": {
     "skill": "survival",
@@ -1661,5 +1671,6 @@
     "key": "recipe:seed_wild_unknown",
     "source": "veggy_wild"
   },
-  "//economy": "Tuned by `yarn sim:farm` against a working farmer's day (~4 400 kcal, see `yarn sim:needs`): a full staple bed is about four days of food. Garlic is a seasoning crop and canola an oil crop, so neither is measured against that."
+  "//economy": "Tuned by `yarn sim:farm` against a working farmer's day (~4 400 kcal, see `yarn sim:needs`): 25 staple plants, watered, are about two and a half days of food (05.10.2026; four before). Garlic is a seasoning crop and canola an oil crop, so neither is measured against that.",
+  "//beds": "Prologue rule (05.10.2026): a farm is one bed. `terrain.<type>.plants` is how many plants its ground holds (what four beds of plantsPerPlot held before); it is tilled and sown a patch at a time, as many rows as wanted. plantsPerPlot remains the size the economy is measured by (yarn sim:farm)."
 }
