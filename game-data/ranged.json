@@ -2052,7 +2052,10 @@
       "recoverPerMinute": 8
     },
     "power": {
+      "//": "Prologue rule (05.10.2026): a machine's battery is its profile's power (or capacity) plus capacityPerHp for each point of its health, so the large machines of dangerous ground hold far more than the small ones. A machine that got away from a fight, or was got away from, charges itself and is full again after rechargeFullHours; one that ran flat stays shut down.",
       "capacity": 240,
+      "capacityPerHp": 3,
+      "rechargeFullHours": 6,
       "idlePerMinute": 1,
       "movePerStep": 1,
       "attack": 3
