@@ -49,13 +49,9 @@
     "minimumRecoveryRate": 0.5
   },
   "mindset": {
-    "//": "Prologue rule (05.10.2026): the third health track, a slow reading of the mood. Each minute the mood (Morale.level, pain taken off) sets a target: 0.5 at a mood inside the deadband, 1 at moodFull or above, 0 at moodEmpty or below, straight lines between. The track moves toward the target at one full span per riseDays (up) or fallDays (down), so a week of good meals lifts it and a few bad days sink it; a flat mood keeps it Balanced, with no effect either way. Effects are the band's: a multiplier on work and travel speed, on stamina recovery and on wound healing. Nothing else reads it.",
+    "//": "Prologue rule (05.10.2026, re-paced 06.10.2026): the third health track, a slow sum of the mood. The mood (Morale.level, capped at practice.json morale.levelCap either way, pain taken off) pushes the track every minute in proportion to its size: at the cap it goes from the start to the outermost band (Inspired upward, Despondent downward) in fullDays; half the cap takes twice as long; a mood of nothing leaves it where it is. There is no target and no drift back: a good stretch has to be lived to undo a bad one. Effects are the band's: a multiplier on work and travel speed, on stamina recovery and on wound healing. Nothing else reads it.",
     "initial": 0.5,
-    "deadband": 3,
-    "moodFull": 30,
-    "moodEmpty": -40,
-    "riseDays": 4,
-    "fallDays": 2.5,
+    "fullDays": 14,
     "bands": [
       { "at": 0, "label": "Despondent", "color": "CORAL", "speed": 0.9, "stamina": 0.8, "healing": 0.85, "hint": "A long stretch of misery. Everything is slower, breath comes back slowly and wounds knit poorly. Good food, warmth, music and company lift it, slowly." },
       { "at": 0.15, "label": "Depressed", "color": "ORANGE", "speed": 0.95, "stamina": 0.9, "healing": 0.95, "hint": "Low for days. Work and walking drag a little and breath comes back slower. Enjoyable meals and pastimes bring it back." },

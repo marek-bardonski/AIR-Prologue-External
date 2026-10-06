@@ -784,6 +784,8 @@
     "starvationHours": 24,
     "historyMinutes": 2880,
     "monotonyPenalty": 2,
-    "decayCutoff": 4
+    "decayCutoff": 4,
+    "//levelCap": "06.10.2026: the mood never reads past this either way, however much is piled up; the mindset (health.json) is paced against it.",
+    "levelCap": 100
   }
 }

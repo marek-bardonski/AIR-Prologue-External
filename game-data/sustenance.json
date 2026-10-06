@@ -537,7 +537,11 @@
     "vomitShortensMinutes": 0,
     "untreatedWaterMultiplier": 2,
     "rawChancePercent": 2,
-    "rawDisease": "bad_food"
+    "rawDisease": "bad_food",
+    "//morale": "06.10.2026: a bout also weighs on the mood, mildly: a standing entry that sinks by moralePerHour to moraleFloor while it runs and fades over moraleFadeHours after (Morale.wear; read times practice.json morale.scale).",
+    "moralePerHour": -1,
+    "moraleFloor": -2,
+    "moraleFadeHours": 6
   },
   "vomitPoisonReductionMinutes": 30,
   "vomitMoveCost": 100,
