@@ -1,0 +1,314 @@
+{
+  "group": "p06_x01_charges",
+  "source": "06.10.2026 import: the rest of the charges a hand can throw",
+  "items": [
+    {
+      "id": "homemade_bomb",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "ruins_shelf",
+          "weight": 0.1,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "military_explosive_small_grenade",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "military_explosive_grenade",
+      "loot": [
+        {
+          "table": "discovery_remains",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "military_explosive_pipebomb",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "traveller_cache",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "military_explosive_bomb",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "homemade_demolition_charge",
+      "loot": [
+        {
+          "table": "railway_depot_supplies",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_remains",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.08,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "grenade_emp",
+      "loot": [
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "electronics_reclamation_supplies",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "EMPbomb",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "firecracker",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.05,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "table": "shop",
+          "weight": 0.06,
+          "count": [
+            1,
+            4
+          ]
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.04,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "firecracker_pack",
+      "loot": [
+        {
+          "table": "shop",
+          "weight": 0.05
+        },
+        {
+          "table": "house_common",
+          "weight": 0.03
+        },
+        {
+          "table": "discovery_luggage",
+          "weight": 0.03
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [
+    "recipe:EMPbomb",
+    "recipe:military_explosive_bomb",
+    "recipe:military_explosive_grenade",
+    "recipe:military_explosive_pipebomb:stable",
+    "recipe:military_explosive_small_grenade"
+  ],
+  "recipesExpected": [
+    "recipe:firecracker",
+    "recipe:firecracker_pack",
+    "recipe:homemade_bomb",
+    "recipe:homemade_demolition_charge"
+  ],
+  "notes": [
+    "Thrown only. Left out: smoke and gas (nothing to breathe in a fight yet), the scrambler, anything planted or too big to throw (mines, barrels)."
+  ]
+}

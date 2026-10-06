@@ -292,7 +292,12 @@
     "recipe:white_phosphorous:with_red_phosphorous",
     "recipe:wild_rice",
     "recipe:wild_rice:flail",
-    "recipe:zinc_metal"
+    "recipe:zinc_metal",
+    "recipe:EMPbomb",
+    "recipe:military_explosive_bomb",
+    "recipe:military_explosive_grenade",
+    "recipe:military_explosive_pipebomb:stable",
+    "recipe:military_explosive_small_grenade"
   ],
   "include": [
     "recipe:10l_aluminum",

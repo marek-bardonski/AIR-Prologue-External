@@ -2424,7 +2424,7 @@
       {
         "key": "recipe:EMPbomb",
         "result": "EMPbomb",
-        "name": "EMPbomb",
+        "name": "EMP bomb",
         "skill": "electronics",
         "level": 5
       },
@@ -32353,7 +32353,7 @@
       {
         "key": "recipe:EMPbomb",
         "result": "EMPbomb",
-        "name": "EMPbomb",
+        "name": "EMP bomb",
         "skill": "electronics",
         "level": 5
       },
@@ -32388,7 +32388,7 @@
       {
         "key": "recipe:military_explosive_grenade",
         "result": "military_explosive_grenade",
-        "name": "military explosive grenade",
+        "name": "military explosive homemade grenade",
         "skill": "fabrication",
         "level": 5
       },
@@ -32402,7 +32402,7 @@
       {
         "key": "recipe:military_explosive_small_grenade",
         "result": "military_explosive_small_grenade",
-        "name": "military explosive small grenade",
+        "name": "military explosive small homemade grenade",
         "skill": "fabrication",
         "level": 5
       },
@@ -32530,7 +32530,7 @@
       {
         "key": "recipe:military_explosive_grenade",
         "result": "military_explosive_grenade",
-        "name": "military explosive grenade",
+        "name": "military explosive homemade grenade",
         "skill": "fabrication",
         "level": 4
       },
@@ -32544,7 +32544,7 @@
       {
         "key": "recipe:military_explosive_small_grenade",
         "result": "military_explosive_small_grenade",
-        "name": "military explosive small grenade",
+        "name": "military explosive small homemade grenade",
         "skill": "fabrication",
         "level": 4
       },

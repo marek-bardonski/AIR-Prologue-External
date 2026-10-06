@@ -6941,5 +6941,18 @@
     "inj_iron",
     "rad_badge",
     "rad_monitor"
+  ],
+  "content_17_09_p06_x01_charges": [
+    "homemade_bomb",
+    "military_explosive_small_grenade",
+    "military_explosive_grenade",
+    "military_explosive_pipebomb",
+    "military_explosive_bomb",
+    "homemade_demolition_charge",
+    "c4",
+    "grenade_emp",
+    "EMPbomb",
+    "firecracker",
+    "firecracker_pack"
   ]
 }
