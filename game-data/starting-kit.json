@@ -12,7 +12,30 @@
         "id": "string_36",
         "count": 1
       }
-    ]
+    ],
+    "//": "The guided first day (game/tutorial/Tutorial.js). `recipe`/`materials`: the carrying craft. `second`: one more craft right after it. `drink` and `food`: one small thing each, found by the first search, for the consuming lesson (the food is neither raw nor a parasite risk). `painkiller`: carried into the first fight.",
+    "second": {
+      "recipe": "recipe:cordage_6",
+      "materials": [
+        {
+          "id": "withered",
+          "count": 1
+        }
+      ]
+    },
+    "drink": {
+      "item": "water_clean",
+      "container": "bottle_plastic",
+      "charges": 1
+    },
+    "food": {
+      "item": "crackers",
+      "charges": 1
+    },
+    "painkiller": {
+      "item": "aspirin",
+      "charges": 2
+    }
   },
   "ground": [
     {
