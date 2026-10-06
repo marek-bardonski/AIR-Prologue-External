@@ -13,7 +13,7 @@
         "count": 1
       }
     ],
-    "//": "The guided first day (game/tutorial/Tutorial.js). `recipe`/`materials`: the carrying craft. `second`: one more craft right after it. `drink` and `food`: one small thing each, found by the first search, for the consuming lesson (the food is neither raw nor a parasite risk). `painkiller`: carried into the first fight.",
+    "//": "The guided first day (game/tutorial/Tutorial.js). `recipe`/`materials`: the carrying craft. `second`: one more craft right after it. `drink` and `food`: one small thing each, found by the first search, for the consuming lesson (the food is neither raw nor a parasite risk). `painkiller`: carried into the first fight. `hq.hearth`: the station the headquarters lesson points at after the first shelter stands.",
     "second": {
       "recipe": "recipe:cordage_6",
       "materials": [
@@ -35,6 +35,9 @@
     "painkiller": {
       "item": "aspirin",
       "charges": 2
+    },
+    "hq": {
+      "hearth": "fire_ring"
     }
   },
   "ground": [
