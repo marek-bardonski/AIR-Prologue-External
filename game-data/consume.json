@@ -176,5 +176,19 @@
     "minutes": 720,
     "fadeFromMinutes": 360,
     "label": "Ate pet food"
+  },
+  "corpse": {
+    "//": "Prologue rule (06.10.2026): a carcass can be eaten from as it lies, a last resort with a price. One bite takes `minutes` and is `servings` portions of the raw flesh the animal's harvest table names (so the calories, the protein and the meat's own raw risks are the meat's). On top of that every bite rolls `parasitePercent` for a parasite and `poisonPercent` for a bout of `disease`, leaves the standing mood `mood` for `moodMinutes` (fading from `fadeFromMinutes`), and tears the carcass: `damagePerBite` on the same damage scale butchery reads its yields from (animal-loot.json butchery.damageYield), so what is butchered afterwards gives less. A carcass gives `bites` by the animal's size and no more. Auto-consume never touches one. The Consume screen lists every carcass within reach with the time it has left before it spoils.",
+    "minutes": 10,
+    "servings": 1,
+    "parasitePercent": 60,
+    "poisonPercent": 40,
+    "disease": "bad_food",
+    "mood": -8,
+    "moodMinutes": 720,
+    "fadeFromMinutes": 360,
+    "label": "Ate from a carcass",
+    "damagePerBite": 1,
+    "bites": { "tiny": 1, "small": 2, "medium": 3, "large": 4, "huge": 6 }
   }
 }

@@ -111,6 +111,7 @@
     "rest": "NO_EXERCISE",
     "sleep": "SLEEP_EXERCISE",
     "eat": "NO_EXERCISE",
+    "eat_corpse": "NO_EXERCISE",
     "drink": "NO_EXERCISE",
     "drink_source": "LIGHT_EXERCISE",
     "collect_water": "LIGHT_EXERCISE",
