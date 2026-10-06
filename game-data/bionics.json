@@ -5,7 +5,9 @@
     "bio_armor_torso", "bio_armor_head", "bio_armor_arms", "bio_armor_legs", "bio_carbon", "bio_weight",
     "bio_climate", "bio_hydraulics", "bio_blade", "bio_razors", "bio_lockpick",
     "bio_flashlight", "bio_night_vision", "bio_painkiller", "bio_jointservo",
-    "bio_str_enhancer", "bio_dex_enhancer", "bio_recycler", "bio_digestion", "bio_nanobots"
+    "bio_str_enhancer", "bio_dex_enhancer", "bio_recycler", "bio_digestion", "bio_nanobots",
+    "bio_eye_enhancer", "bio_int_enhancer", "bio_speed", "bio_meteorologist", "bio_tattoo_led", "bio_infrared",
+    "bio_claws", "bio_surgical_razor", "bio_leukocyte", "bio_synaptic_regen", "bio_soporific", "bio_torsionratchet"
   ],
   "//autodoc": "The salvaged surgical unit in the village infirmary. `npc` keeps it, `service` is the Village service id a conversation discovers, `access` the door level it needs. Price in dollar coins: priceBase + pricePerDifficulty x difficulty, times uninstallFactor to take one out; a module that has been in a body before (salvaged) costs salvagedExtra more to clean. `envBonus` is the unit's surgery multiplier (CDDA's autodoc couch is 1.0). The survivor sleeps off the anaesthetic for anaesthesiaMinutes after the operation.",
   "autodoc": {
@@ -31,7 +33,16 @@
     "bio_night_vision": { "//": "Counts as a carried light while on: the night costs nothing extra." },
     "bio_painkiller": { "//": "Dulls a point of pain a minute at the implant's trigger cost; the dulling fades at fadePerMinute once it is off." , "fadePerMinute": 1 },
     "bio_jointservo": { "//": "Travel speed multiplier while on and while off (its joints drag when unpowered)." , "onSpeed": 1.1, "offSpeed": 0.9, "kjPerMinute": 0.3 },
-    "bio_nanobots": { "//": "Power a minute while there is something to mend; nothing is drawn otherwise.", "kjPerMinute": 2.4 }
+    "bio_nanobots": { "//": "Power a minute while there is something to mend; nothing is drawn otherwise.", "kjPerMinute": 2.4 },
+    "bio_infrared": { "//": "Sees warm bodies in the dark: counts as a carried light while on, like the night-vision eyes.", "light": true },
+    "bio_claws": { "//": "Out through the fingertips only while the hands hold nothing; they go back in when something is wielded." },
+    "bio_surgical_razor": { "//": "Out through the forearms only while the hands hold nothing; they go back in when something is wielded." },
+    "bio_leukocyte": { "//": "While it runs, the body's resistance to infection and its recovery (survival/ImmuneSupport.js) are multiplied by `immune`. A Prologue figure for CDDA's health bonus.", "immune": 1.5, "kjPerMinute": 0.3 },
+    "bio_synaptic_regen": { "//": "While it runs, a waking hour adds no sleep debt (CDDA's STOP_SLEEP_DEPRIVATION). Tiredness itself still builds.", "kjPerMinute": 0.6 },
+    "bio_soporific": { "//": "While it runs, sleep is deeper: the bedding's quality is multiplied by `sleepQuality` (never past a perfect bed). A Prologue figure for CDDA's sleepiness bonus.", "sleepQuality": 1.15, "kjPerMinute": 0 },
+    "bio_torsionratchet": { "//": "Charges the implants' power bank from the survivor's own stride: `walkKjPerMinute` for every minute spent walking while it is switched on. A Prologue figure (CDDA charges it from muscle fuel).", "walkKjPerMinute": 0.6 },
+    "bio_speed": { "//": "Everything is done faster by the implant's own SPEED enchantment (CDDA: 10%)." },
+    "bio_meteorologist": { "//": "Reads the air: counts as a carried thermometer (CDDA flag THERMOMETER)." }
   },
   "cdda": {
     "source": "cdda-0.I/src/bionics.cpp: Character::bionics_pl_skill, bionics_adjusted_skill, bionic_manip_cos, install_bionics, uninstall_bionic, bionics_install_failure, bionics_uninstall_failure, roll_critical_bionics_failure, get_bionic_fuels, burn_fuel, process_bionic (bio_painkiller, bio_nanobots)",

@@ -1,0 +1,724 @@
+{
+  "group": "p06_b01_implants",
+  "source": "06.10.2026 import: twelve more implant modules for the autodoc, and the two weapons that come out of the hands",
+  "items": [
+    {
+      "id": "bio_eye_enhancer",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_int_enhancer",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_speed",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_meteorologist",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_tattoo_led",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_infrared",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_claws",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_surgical_razor",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_leukocyte",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_synaptic_regen",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_soporific",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_torsionratchet",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_room_5",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "table": "deep_vault",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio_claws_weapon",
+      "loot": [
+        {
+          "table": "deep_vault",
+          "weight": 0.0001
+        }
+      ]
+    },
+    {
+      "id": "bio_scalpel",
+      "loot": [
+        {
+          "table": "deep_vault",
+          "weight": 0.0001
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Enabled in game-data/bionics.json; their effects are read by the game's bionics rules. The two weapons are what the claws and the scalpels put in an empty hand."
+  ]
+}

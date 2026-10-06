@@ -7015,5 +7015,21 @@
     "chunk_hematite",
     "chunk_magnetite",
     "chunk_cinnabar"
+  ],
+  "content_17_09_p06_b01_implants": [
+    "bio_eye_enhancer",
+    "bio_int_enhancer",
+    "bio_speed",
+    "bio_meteorologist",
+    "bio_tattoo_led",
+    "bio_infrared",
+    "bio_claws",
+    "bio_surgical_razor",
+    "bio_leukocyte",
+    "bio_synaptic_regen",
+    "bio_soporific",
+    "bio_torsionratchet",
+    "bio_claws_weapon",
+    "bio_scalpel"
   ]
 }

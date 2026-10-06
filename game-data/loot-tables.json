@@ -73760,6 +73760,30 @@
           ]
         },
         {
+          "item": "bio_meteorologist",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_tattoo_led",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_soporific",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "saline_bag_250",
           "weight": 0.1,
           "count": [
@@ -113536,6 +113560,70 @@
           ]
         },
         {
+          "item": "bio_meteorologist",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_tattoo_led",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_infrared",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_claws",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_surgical_razor",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_leukocyte",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_soporific",
+          "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_torsionratchet",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "rad_badge",
           "weight": 0.03,
           "count": [
@@ -114961,6 +115049,102 @@
         {
           "item": "catalytic_cracking_reactor",
           "weight": 0.5,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_eye_enhancer",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_int_enhancer",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_speed",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_meteorologist",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_tattoo_led",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_infrared",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_claws",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_surgical_razor",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_leukocyte",
+          "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_synaptic_regen",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_soporific",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_torsionratchet",
+          "weight": 0.15,
           "count": [
             1,
             1
@@ -116538,6 +116722,30 @@
           ]
         },
         {
+          "item": "bio_meteorologist",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_tattoo_led",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_soporific",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "broken_lab_security_drone_GM",
           "weight": 0.03,
           "count": [
@@ -117101,6 +117309,70 @@
         {
           "item": "bio_recycler",
           "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_meteorologist",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_tattoo_led",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_infrared",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_claws",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_surgical_razor",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_leukocyte",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_soporific",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_torsionratchet",
+          "weight": 0.25,
           "count": [
             1,
             1
@@ -117805,6 +118077,102 @@
           ]
         },
         {
+          "item": "bio_eye_enhancer",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_int_enhancer",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_speed",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_meteorologist",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_tattoo_led",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_infrared",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_claws",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_surgical_razor",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_leukocyte",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_synaptic_regen",
+          "weight": 0.12,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_soporific",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_torsionratchet",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "rad_monitor",
           "weight": 0.01,
           "count": [
@@ -118403,6 +118771,102 @@
           ]
         },
         {
+          "item": "bio_eye_enhancer",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_int_enhancer",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_speed",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_meteorologist",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_tattoo_led",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_infrared",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_claws",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_surgical_razor",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_leukocyte",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_synaptic_regen",
+          "weight": 0.25,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_soporific",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_torsionratchet",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "broken_robofac_laserturret_mk1",
           "weight": 0.03,
           "count": [
@@ -118991,6 +119455,102 @@
             1,
             1
           ]
+        },
+        {
+          "item": "bio_eye_enhancer",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_int_enhancer",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_speed",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_meteorologist",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_tattoo_led",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_infrared",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_claws",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_surgical_razor",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_leukocyte",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_synaptic_regen",
+          "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_soporific",
+          "weight": 0.6,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_torsionratchet",
+          "weight": 0.8,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -119379,6 +119939,94 @@
         {
           "item": "bio_recycler",
           "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_eye_enhancer",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_int_enhancer",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_speed",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_infrared",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_claws",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_surgical_razor",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_leukocyte",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_synaptic_regen",
+          "weight": 0.3,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_torsionratchet",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_claws_weapon",
+          "weight": 0.0001,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bio_scalpel",
+          "weight": 0.0001,
           "count": [
             1,
             1
