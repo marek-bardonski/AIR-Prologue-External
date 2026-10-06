@@ -1,5 +1,5 @@
 {
-  "//": "Digging (Prologue rule, 04.10.2026). Code: src/game/world/Digging.js. The tile's menu offers Dig on open ground; what comes up depends on where the survivor stands: `shore` ground on a hex of `shoreTerrains` or next to one of `shoreNeighbours`, otherwise the ground named for the terrain in `terrains`; a terrain not listed cannot be dug. One dig takes `minutes` with a tool of `quality` at `level`; a better digging tool is faster (`speed`, by level, Prologue's own dial). The work is kept on the hex when it stops for breath. `yields` rows give `count` (or `charges` for things counted by charges) and an optional `chance`. Times, tool level, quantities and the effort (`activity`) are CDDA's.",
+  "//": "Digging (Prologue rule, 04.10.2026). Code: src/game/world/Digging.js. The tile's menu offers Dig on open ground; what comes up depends on where the survivor stands: `shore` ground on a hex of `shoreTerrains` or next to one of `shoreNeighbours`, otherwise the ground named for the terrain in `terrains`; a terrain not listed cannot be dug. One dig takes `minutes` with a tool of `quality` at `level`; a better digging tool is faster (`speed`, by level, Prologue's own dial). The work is kept on the hex when it stops for breath. `yields` rows give `count` (or `charges` for things counted by charges) and an optional `chance`. Times, tool level, quantities and the effort (`activity`) are CDDA's. 06.10.2026: `hillside` (the hills) gives rock and, by chance, the ores and native metals of the wilderness mod.",
   "source": "CDDA 0.I data/json/construction/misc.json constr_extract_sand (30 m, DIG 1, material_sand 300-600), constr_extract_clay (30 m, DIG 1, clay_lump 6-12, EXTRA_EXERCISE), construction/terrain.json constr_pit_shallow (20 m, DIG 1, EXTRA_EXERCISE), itemgroups/misc.json digging_soil_loam_50L",
   "quality": "DIG",
   "level": 1,
@@ -26,7 +26,7 @@
     "farm": "soil",
     "orchard": "soil",
     "campsite": "soil",
-    "hills": "soil",
+    "hills": "hillside",
     "home": "soil",
     "plant_nursery": "soil"
   },
@@ -92,6 +92,116 @@
           "charges": [
             1,
             10
+          ],
+          "chance": 0.05
+        }
+      ]
+    },
+    "hillside": {
+      "label": "Dig the hillside",
+      "what": "stony ground",
+      "minutes": 30,
+      "//": "Prologue (06.10.2026): hills are where the wilderness mod's ores come up. The chances are the Prologue's own.",
+      "yields": [
+        {
+          "id": "rock",
+          "count": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "material_soil",
+          "charges": [
+            2,
+            6
+          ]
+        },
+        {
+          "id": "iron_ore",
+          "count": [
+            1,
+            3
+          ],
+          "chance": 0.3
+        },
+        {
+          "id": "chunk_hematite",
+          "count": [
+            1,
+            2
+          ],
+          "chance": 0.08
+        },
+        {
+          "id": "chunk_magnetite",
+          "count": [
+            1,
+            2
+          ],
+          "chance": 0.06
+        },
+        {
+          "id": "chunk_copper",
+          "count": [
+            1,
+            2
+          ],
+          "chance": 0.08
+        },
+        {
+          "id": "chunk_cassiterite",
+          "count": [
+            1,
+            2
+          ],
+          "chance": 0.05
+        },
+        {
+          "id": "chunk_galena",
+          "count": [
+            1,
+            2
+          ],
+          "chance": 0.05
+        },
+        {
+          "id": "chunk_cinnabar",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.02
+        },
+        {
+          "id": "chunk_aluminum",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.02
+        },
+        {
+          "id": "chunk_silver",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.015
+        },
+        {
+          "id": "chunk_gold",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.006
+        },
+        {
+          "id": "clay_lump",
+          "count": [
+            1,
+            3
           ],
           "chance": 0.05
         }

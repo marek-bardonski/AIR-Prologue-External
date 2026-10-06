@@ -56,6 +56,12 @@
         "catalytic_cracking_reactor"
       ],
       "stations": []
+    },
+    "bloomery": {
+      "stations": [
+        "bloomery"
+      ],
+      "items": []
     }
   }
 }

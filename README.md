@@ -10,6 +10,7 @@ changed and what you may do with it. `SOURCE.json` records the CDDA release this
 | Path | What |
 |---|---|
 | `cdda/` | parts of CDDA, unmodified: `data/json`, the Magiclysm mod data, the JSON documentation and the contributor list |
+| `overrides/content_17_09_p06_w01_wilderness.json` | items and recipes copied from CDDA's `data/mods/innawood` (the wilderness mod, same licence): its new items and the recipes that replace none of the base game's |
 | `whitelist/` | which CDDA objects the game uses, and which are switched off |
 | `overrides/` | changes to CDDA objects, and variants that inherit from them |
 | `game-data/` | tables written for the game that list CDDA ids; `manifest.json` names the ones the game loads |

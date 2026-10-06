@@ -10,6 +10,7 @@
     "data/mods/Magiclysm",
     "doc/JSON",
     "data/credits/en.credits",
-    "LICENSE.txt"
+    "LICENSE.txt",
+    "data/mods/innawood (the new items and the non-replacing recipes only, copied into overrides/content_17_09_p06_w01_wilderness.json)"
   ]
 }

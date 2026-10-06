@@ -1070,6 +1070,40 @@
       "watts": 0,
       "passiveQualities": {},
       "legacyCharges": true
+    },
+    "battery_car_clay": {
+      "kind": "battery",
+      "capacityKj": 2500,
+      "rechargeable": true,
+      "flags": [
+        "NO_SALVAGE",
+        "NO_UNLOAD",
+        "NO_RELOAD",
+        "BATTERY_HEAVY",
+        "RECHARGE"
+      ]
+    },
+    "battery_clay_array": {
+      "kind": "battery",
+      "capacityKj": 10000,
+      "rechargeable": true,
+      "flags": [
+        "NO_SALVAGE",
+        "NO_UNLOAD",
+        "NO_RELOAD",
+        "RECHARGE"
+      ]
+    },
+    "makeshift_hand_crank_charger": {
+      "kind": "charger",
+      "method": "hand",
+      "watts": 6,
+      "accepts": [
+        "BATTERY_MEDIUM",
+        "BATTERY_LIGHT",
+        "BATTERY_ULTRA_LIGHT"
+      ],
+      "//": "The wilderness mod's home-made charger: the hand-crank rule, at 6 W against the factory one's 10 (a Prologue figure)."
     }
   },
   "lights": {

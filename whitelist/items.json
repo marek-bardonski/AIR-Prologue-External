@@ -6993,5 +6993,27 @@
     "washing_machine",
     "household_water_heater",
     "household_water_heater_family"
+  ],
+  "content_17_09_p06_w01_wilderness": [
+    "bandages_birchbark",
+    "bandages_birchbark_adv",
+    "makeshift_transformer",
+    "makeshift_hand_crank_charger",
+    "battery_car_clay",
+    "battery_clay_array",
+    "blacksmith_kit",
+    "light_battery_shell",
+    "medium_battery_shell",
+    "heavy_battery_shell",
+    "iron_ore",
+    "chunk_copper",
+    "chunk_silver",
+    "chunk_gold",
+    "chunk_aluminum",
+    "chunk_cassiterite",
+    "chunk_galena",
+    "chunk_hematite",
+    "chunk_magnetite",
+    "chunk_cinnabar"
   ]
 }

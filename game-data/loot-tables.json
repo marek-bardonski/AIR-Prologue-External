@@ -44039,6 +44039,86 @@
             1,
             1
           ]
+        },
+        {
+          "item": "iron_ore",
+          "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_copper",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_silver",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_gold",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_aluminum",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_cassiterite",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_galena",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_hematite",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_magnetite",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_cinnabar",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -56800,6 +56880,86 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "iron_ore",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_copper",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_silver",
+          "weight": 0.0025,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_gold",
+          "weight": 0.001,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_aluminum",
+          "weight": 0.0037,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_cassiterite",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_galena",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_hematite",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_magnetite",
+          "weight": 0.0125,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "chunk_cinnabar",
+          "weight": 0.0037,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -62022,6 +62182,30 @@
             20,
             100
           ]
+        },
+        {
+          "item": "bandages_birchbark",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bandages_birchbark_adv",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -66991,6 +67175,30 @@
             12
           ],
           "minDanger": 2
+        },
+        {
+          "item": "bandages_birchbark",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "bandages_birchbark_adv",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -75862,6 +76070,22 @@
         {
           "item": "heavy_duty_freezer",
           "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "makeshift_transformer",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "makeshift_hand_crank_charger",
+          "weight": 0.008,
           "count": [
             1,
             1
@@ -111995,6 +112219,70 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "makeshift_transformer",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "makeshift_hand_crank_charger",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "battery_car_clay",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "battery_clay_array",
+          "weight": 0.003,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "blacksmith_kit",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "light_battery_shell",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "medium_battery_shell",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "heavy_battery_shell",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -130202,6 +130490,30 @@
             1,
             1
           ]
+        },
+        {
+          "item": "light_battery_shell",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "medium_battery_shell",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "heavy_battery_shell",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -132615,6 +132927,14 @@
         {
           "item": "washing_machine",
           "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "blacksmith_kit",
+          "weight": 0.01,
           "count": [
             1,
             1

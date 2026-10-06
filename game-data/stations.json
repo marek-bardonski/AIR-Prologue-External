@@ -1609,6 +1609,52 @@
       ],
       "deploys": "workbench",
       "//placement": "Placed whole from the pack or the camp's ground; packing it up gives the same thing back."
+    },
+    "bloomery": {
+      "name": "Bloomery",
+      "//": "The wilderness mod's clay shaft furnace (CDDA data/mods/innawood, constr_bloomery: 30 rocks, 10 lumps of clay, fabrication 5, 120 minutes, digging and hammering). It smelts ore and native metal into bars and lumps: it counts as the mod's `bloomery` pseudo tool, and it burns charcoal for it.",
+      "consumes": [
+        [
+          [
+            "rock",
+            30
+          ]
+        ],
+        [
+          [
+            "clay_lump",
+            10
+          ]
+        ]
+      ],
+      "minutes": 120,
+      "requiredSkills": [
+        [
+          "fabrication",
+          5
+        ]
+      ],
+      "qualities": [
+        [
+          {
+            "id": "DIG",
+            "level": 1
+          }
+        ],
+        [
+          {
+            "id": "HAMMER",
+            "level": 2
+          }
+        ]
+      ],
+      "provides": {
+        "pseudoTools": [
+          "bloomery"
+        ],
+        "qualities": []
+      },
+      "effects": {}
     }
   },
   "portableStations": {

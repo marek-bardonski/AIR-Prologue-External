@@ -1,0 +1,3284 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p06_w01_wilderness. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "id": "bandages_birchbark",
+    "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
+    "comestible_type": "MED",
+    "name": {
+      "str": "birchbark bandage"
+    },
+    "description": "A small roll of birchbark with cord, to tie around wounds to help stop bleeding and protect from dirt.  It's better than nothing.",
+    "weight": "70 g",
+    "volume": "41 ml",
+    "price": "4 cent",
+    "price_postapoc": "4 cent",
+    "material": "wood",
+    "symbol": "!",
+    "color": "white",
+    "flags": [
+      "NO_INGEST",
+      "EDIBLE_FROZEN"
+    ],
+    "use_action": {
+      "type": "heal",
+      "bandages_power": 2,
+      "bleed": 8,
+      "move_cost": 6000
+    },
+    "//": "Copied from Cataclysm: Dark Days Ahead 0.I, data/mods/innawood (the wilderness mod by Lightwave, in the CDDA repository under its CC BY-SA 3.0 licence): the mod's new items and those of its recipes that do not replace a recipe the base game has."
+  },
+  {
+    "id": "bandages_birchbark_adv",
+    "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
+    "comestible_type": "MED",
+    "name": {
+      "str": "salved birchbark bandage"
+    },
+    "description": "Birchbark bandages with added garlic salve.  They're better for wounds but not as good as real bandages.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": "25 cent",
+    "price_postapoc": "1 USD",
+    "material": "wood",
+    "symbol": "!",
+    "color": "white",
+    "flags": [
+      "NO_INGEST",
+      "EDIBLE_FROZEN"
+    ],
+    "use_action": {
+      "type": "heal",
+      "bandages_power": 3,
+      "bleed": 10,
+      "move_cost": 6000
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "makeshift_transformer",
+    "symbol": ",",
+    "color": "light_gray",
+    "name": {
+      "str": "makeshift transformer"
+    },
+    "category": "spare_parts",
+    "looks_like": "power_supply",
+    "description": "A bundle of cables around an iron core.  Useful for controlling voltage.",
+    "price": "1 USD 70 cent",
+    "price_postapoc": "15 cent",
+    "material": [
+      "iron",
+      "copper"
+    ],
+    "weight": "113 g",
+    "volume": "1 L",
+    "melee_damage": {
+      "bash": 5
+    }
+  },
+  {
+    "id": "makeshift_hand_crank_charger",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
+    "category": "tools",
+    "name": {
+      "str": "makeshift hand-crank charger"
+    },
+    "description": "A makeshift hand-powered battery charger based on homopolar generator.",
+    "weight": "8000 g",
+    "volume": "7 L",
+    "price": "10 USD",
+    "price_postapoc": "2 USD 50 cent",
+    "material": [
+      "wood",
+      "copper",
+      "steel"
+    ],
+    "symbol": ":",
+    "color": "light_gray",
+    "use_action": [
+      "HAND_CRANK"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [
+          "BATTERY_MEDIUM",
+          "BATTERY_LIGHT",
+          "BATTERY_ULTRA_LIGHT",
+          "BATTERY_HEAVY"
+        ],
+        "default_magazine": "battery_car_clay"
+      }
+    ],
+    "tool_ammo": [
+      "battery"
+    ]
+  },
+  {
+    "id": "battery_car_clay",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "category": "veh_parts",
+    "name": {
+      "str": "clay car battery",
+      "str_pl": "clay car batteries"
+    },
+    "description": "A 12V lead-acid battery used to power car electrical systems, contained in a clay shell.",
+    "looks_like": "clay_hydria",
+    "weight": "18000 g",
+    "volume": "6250 ml",
+    "price": "40 USD",
+    "price_postapoc": "5 USD",
+    "material": [
+      "clay"
+    ],
+    "symbol": ":",
+    "color": "light_cyan",
+    "ammo_type": [
+      "battery"
+    ],
+    "capacity": 2500,
+    "//": "58Ah @ 12VDC. Could supply ~700 watts for an hour",
+    "flags": [
+      "NO_SALVAGE",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "BATTERY_HEAVY",
+      "RECHARGE"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "battery": 2500
+        }
+      }
+    ]
+  },
+  {
+    "id": "battery_clay_array",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "category": "veh_parts",
+    "name": {
+      "str": "clay battery array"
+    },
+    "description": "A set of 4 clay car batteries wired together in series in a simple wooden frame.",
+    "looks_like": "clay_hydria",
+    "weight": "82400 g",
+    "volume": "26 L",
+    "price": "40 USD",
+    "price_postapoc": "5 USD",
+    "material": [
+      "clay",
+      "wood"
+    ],
+    "symbol": ":",
+    "color": "light_cyan",
+    "ammo_type": [
+      "battery"
+    ],
+    "capacity": 10000,
+    "//": "4 batteries in a box",
+    "flags": [
+      "NO_SALVAGE",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "RECHARGE"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "battery": 10000
+        }
+      }
+    ]
+  },
+  {
+    "id": "blacksmith_kit",
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
+    "name": {
+      "str": "blacksmith repair kit"
+    },
+    "description": "This is a set of tools to repair damaged metal tools and armor.  It uses charcoal, contained in a small clay vessel, to heat the part and make it easier to work.",
+    "weight": "1600 g",
+    "volume": "1400 ml",
+    "longest_side": "25 cm",
+    "price": "50 USD",
+    "price_postapoc": "10 USD",
+    "material": [
+      "steel",
+      "clay"
+    ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "charges_per_use": 5,
+    "qualities": [
+      [
+        "HAMMER_FINE",
+        1
+      ],
+      [
+        "HAMMER",
+        3
+      ],
+      [
+        "PRY",
+        1
+      ],
+      [
+        "COOK",
+        1
+      ],
+      [
+        "GRIND",
+        2
+      ],
+      [
+        "FILE",
+        2
+      ],
+      [
+        "PRYING_NAIL",
+        1
+      ]
+    ],
+    "use_action": [
+      [
+        "CROWBAR",
+        0
+      ],
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [
+          "iron",
+          "steel",
+          "aluminum",
+          "copper",
+          "bronze",
+          "fancy_bronze",
+          "silver",
+          "gold",
+          "platinum",
+          "superalloy"
+        ],
+        "skill": "fabrication",
+        "tool_quality": 5,
+        "cost_scaling": 0.1,
+        "move_cost": 2000
+      }
+    ],
+    "flags": [
+      "ALLOWS_REMOTE_USE"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "charcoal": 100
+        }
+      }
+    ],
+    "melee_damage": {
+      "bash": 9
+    },
+    "tool_ammo": [
+      "charcoal"
+    ]
+  },
+  {
+    "id": "light_battery_shell",
+    "type": "ITEM",
+    "category": "spare_parts",
+    "name": {
+      "str": "light battery shell"
+    },
+    "description": "This is the outer casing of a light battery.  It will need to be refilled to be useful.",
+    "ascii_picture": "light_battery_cell",
+    "weight": "10 g",
+    "volume": "35 ml",
+    "price_postapoc": "1 USD",
+    "material": [
+      "iron"
+    ],
+    "symbol": "=",
+    "color": "light_gray",
+    "looks_like": "battery"
+  },
+  {
+    "id": "medium_battery_shell",
+    "type": "ITEM",
+    "category": "spare_parts",
+    "name": {
+      "str": "medium battery shell"
+    },
+    "description": "This is the outer casing of a medium battery.  It will need to be refilled to be useful.",
+    "ascii_picture": "medium_battery_cell",
+    "weight": "175 g",
+    "volume": "525 ml",
+    "price_postapoc": "2 USD 50 cent",
+    "material": [
+      "iron"
+    ],
+    "symbol": "=",
+    "color": "light_gray",
+    "looks_like": "battery"
+  },
+  {
+    "id": "heavy_battery_shell",
+    "type": "ITEM",
+    "category": "spare_parts",
+    "name": {
+      "str": "heavy battery shell"
+    },
+    "description": "This is the outer casing of a heavy battery.  It will need to be refilled to be useful.",
+    "ascii_picture": "heavy_battery_cell",
+    "weight": "450 g",
+    "volume": "1500 ml",
+    "price_postapoc": "3 USD 75 cent",
+    "material": [
+      "iron"
+    ],
+    "symbol": "=",
+    "color": "light_gray",
+    "looks_like": "battery"
+  },
+  {
+    "type": "ITEM",
+    "id": "iron_ore",
+    "symbol": ",",
+    "color": "brown",
+    "name": {
+      "str": "iron ore"
+    },
+    "category": "spare_parts",
+    "description": "A chunk of iron-rich earth.  Could be refined with a bloomery.",
+    "price": "5 USD 31 cent",
+    "price_postapoc": "10 cent",
+    "material": [
+      "iron"
+    ],
+    "weight": "1000 g",
+    "volume": "235 ml",
+    "melee_damage": {
+      "bash": 7
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_copper",
+    "category": "spare_parts",
+    "price": "1 USD",
+    "name": {
+      "str": "chunk of native copper",
+      "str_pl": "chunks of native copper"
+    },
+    "symbol": "*",
+    "color": "light_red",
+    "description": "A large chunk of copper, in its native state.  It only needs to be worked into a more usable shape.",
+    "material": "copper",
+    "volume": "1 L",
+    "//": "Density of one liter of copper, item is native metal.",
+    "weight": "8960 g",
+    "melee_damage": {
+      "bash": 2
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_silver",
+    "category": "spare_parts",
+    "price": "5 USD",
+    "name": {
+      "str": "chunk of native silver",
+      "str_pl": "chunks of native silver"
+    },
+    "symbol": "*",
+    "color": "light_gray",
+    "description": "A large chunk of silver, in its native state.  It only needs to be molded into a more usable shape.",
+    "material": "silver",
+    "volume": "1 L",
+    "//": "Density of one liter of silver, item is native metal.",
+    "weight": "10490 g",
+    "melee_damage": {
+      "bash": 3
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_gold",
+    "category": "spare_parts",
+    "price": "15 USD",
+    "name": {
+      "str": "chunk of native gold",
+      "str_pl": "chunks of native gold"
+    },
+    "symbol": "*",
+    "color": "yellow",
+    "description": "A large chunk of native gold, a rare find.  It only needs to be molded into a more usable shape.",
+    "material": "gold",
+    "volume": "1 L",
+    "//": "Density of one liter of gold, item is native metal.  Massivelly heavy.",
+    "weight": "19320 g",
+    "melee_damage": {
+      "bash": 4
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_aluminum",
+    "category": "spare_parts",
+    "price": "1 USD",
+    "name": {
+      "str": "chunk of native aluminum",
+      "str_pl": "chunks of native aluminum"
+    },
+    "symbol": "*",
+    "color": "white",
+    "description": "A large chunk of native aluminum, which would have been priceless before other ways to obtain aluminum were invented.  It needs to be cast into an ingot.",
+    "material": "aluminum",
+    "volume": "1 L",
+    "//": "Density of one liter of aluminum, item is native metal.",
+    "weight": "2700 g",
+    "melee_damage": {
+      "bash": 1
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_cassiterite",
+    "category": "spare_parts",
+    "price": "3 USD",
+    "name": {
+      "str": "chunk of cassiterite",
+      "str_pl": "chunks of cassiterite"
+    },
+    "symbol": "*",
+    "color": "brown",
+    "description": "A large chunk of cassiterite, an ore of tin.  It only needs to be smelted into a usable form.",
+    "material": "stone",
+    "volume": "1 L",
+    "//": "One liter, roughly 6.26 grams per cubic centimeter.",
+    "weight": "6260 g",
+    "melee_damage": {
+      "bash": 2
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_galena",
+    "category": "spare_parts",
+    "price": "2 USD 50 cent",
+    "name": {
+      "str": "chunk of galena",
+      "str_pl": "chunks of galena"
+    },
+    "symbol": "*",
+    "color": "white",
+    "description": "A large chunk of galena, a lead ore with small amounts of silver.  It only needs to be smelted into a usable form.",
+    "material": "stone",
+    "volume": "1 L",
+    "//": "One liter, roughly 7.6 grams per cubic centimeter.",
+    "weight": "7600 g",
+    "melee_damage": {
+      "bash": 3
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_hematite",
+    "category": "spare_parts",
+    "price": "2 USD 50 cent",
+    "name": {
+      "str": "chunk of hematite",
+      "str_pl": "chunks of hematite"
+    },
+    "symbol": "*",
+    "color": "brown",
+    "description": "A large chunk of hematite, an ore of iron.  It only needs to be smelted into a usable form.",
+    "material": "stone",
+    "volume": "1 L",
+    "//": "One liter, roughly 5.04 grams per cubic centimeter.",
+    "weight": "5040 g",
+    "melee_damage": {
+      "bash": 2
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_magnetite",
+    "category": "spare_parts",
+    "price": "2 USD 50 cent",
+    "name": {
+      "str": "chunk of magnetite",
+      "str_pl": "chunks of magnetite"
+    },
+    "symbol": "U",
+    "color": "brown",
+    "description": "A large chunk of magnetite, a ferrimagnetic oxide of iron.  It can be magnetized to become a permanent magnet itself.",
+    "material": "stone",
+    "volume": "1 L",
+    "//": "One liter, roughly 5.04 grams per cubic centimeter.",
+    "weight": "5040 g",
+    "melee_damage": {
+      "bash": 2
+    }
+  },
+  {
+    "type": "ITEM",
+    "id": "chunk_cinnabar",
+    "category": "spare_parts",
+    "price": "2 USD 50 cent",
+    "name": {
+      "str": "chunk of cinnabar ",
+      "str_pl": "chunks of cinnabar"
+    },
+    "symbol": "*",
+    "color": "brown",
+    "description": "A large chunk of cinnabar, an ore of mercury.  It is also the historic source for vermilion pigment.",
+    "material": "stone",
+    "volume": "1 L",
+    "//": "One liter, roughly 8.1 grams per cubic centimeter.",
+    "weight": "8100 g",
+    "melee_damage": {
+      "bash": 2
+    }
+  },
+  {
+    "result": "steel_lump",
+    "type": "recipe",
+    "id_suffix": "from ore",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "proficiencies": [
+      {
+        "proficiency": "prof_metallurgy"
+      }
+    ],
+    "difficulty": 1,
+    "time": "9 h",
+    "batch_time_factors": [
+      95,
+      2
+    ],
+    "autolearn": true,
+    "tools": [
+      [
+        [
+          "bloomery",
+          41
+        ]
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "HAMMER",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "iron_ore",
+          17
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "steel_chunk",
+    "type": "recipe",
+    "id_suffix": "from ore",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "proficiencies": [
+      {
+        "proficiency": "prof_metallurgy"
+      }
+    ],
+    "difficulty": 1,
+    "time": "9 h",
+    "batch_time_factors": [
+      95,
+      2
+    ],
+    "autolearn": true,
+    "result_mult": 4,
+    "tools": [
+      [
+        [
+          "bloomery",
+          41
+        ]
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "HAMMER",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "iron_ore",
+          17
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "scrap",
+    "type": "recipe",
+    "id_suffix": "from ore",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "proficiencies": [
+      {
+        "proficiency": "prof_metallurgy"
+      }
+    ],
+    "difficulty": 1,
+    "time": "9 h",
+    "batch_time_factors": [
+      95,
+      2
+    ],
+    "autolearn": true,
+    "result_mult": 20,
+    "tools": [
+      [
+        [
+          "bloomery",
+          41
+        ]
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "HAMMER",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "iron_ore",
+          17
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "copper",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "native",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "12 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "//": "Yield is just over 98% by weight, each output of copper is 400 weight.  Volume of output is massively oversize however.",
+    "result_mult": 21,
+    "byproducts": [
+      [
+        "platinum_small"
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "fire",
+          -1
+        ],
+        [
+          "integrated_welder",
+          10
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_copper",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "platinum_small",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "from copper ore",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "12 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "//": "Reversed copper smelting recipe to make it easier to find the platinum recipe.",
+    "byproducts": [
+      [
+        "copper",
+        21
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "fire",
+          -1
+        ],
+        [
+          "integrated_welder",
+          10
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_copper",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "silver_small",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "native",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "12 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "//": "Yield is just over 97% by weight, each output of silver is 300 weight.  Volume of output is massively oversize however.",
+    "result_mult": 34,
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "fire",
+          -1
+        ],
+        [
+          "integrated_welder",
+          10
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_silver",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "gold_small",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "native",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "12 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "//": "Yield is just over 98% by weight, each output of gold is 500 weight.  Volume of output is massively oversize however.",
+    "result_mult": 38,
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "fire",
+          -1
+        ],
+        [
+          "integrated_welder",
+          10
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_gold",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "material_aluminium_ingot",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "native",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "25 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "//": "Yield is just 100% by weight, each output of aluminum is 675 weight.",
+    "result_mult": 4,
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "fire",
+          -1
+        ],
+        [
+          "integrated_welder",
+          10
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_aluminum",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "tin",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "smelt",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "40 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "book_learn": [
+      [
+        "recipe_bullets",
+        2
+      ],
+      [
+        "textbook_fabrication",
+        2
+      ],
+      [
+        "welding_book",
+        2
+      ]
+    ],
+    "//": "Cassiterite has around 86% yield, yield here is just over 76%, due to one output of 600 grams.  Output volume is still oversize.",
+    "result_mult": 8,
+    "using": [
+      [
+        "forging_standard",
+        3
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_cassiterite",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "lead",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "smelt",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "40 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "book_learn": [
+      [
+        "recipe_bullets",
+        2
+      ],
+      [
+        "textbook_fabrication",
+        2
+      ],
+      [
+        "welding_book",
+        2
+      ]
+    ],
+    "//": "Galena has around 86% yield of lead, yield here is just over 82%, due to one output weighing 300 grams.  Silver output is around double the expected 2% yield due to minimum of 300 grams.  Output volume is still oversize.",
+    "result_mult": 21,
+    "byproducts": [
+      [
+        "silver_small"
+      ]
+    ],
+    "using": [
+      [
+        "forging_standard",
+        3
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_galena",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "steel_lump",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "smelt",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "60 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "book_learn": [
+      [
+        "textbook_armschina",
+        3
+      ],
+      [
+        "textbook_fabrication",
+        3
+      ],
+      [
+        "welding_book",
+        3
+      ]
+    ],
+    "//": "Hematite has around 70% yield of iron, total yield here is just over 69% at 3500 grams of steel.  Estimated 2% carbon content has minimal effect on these numbers.  Magnetite has around 80% yield, but ironsand isn't pure magnetite.",
+    "result_mult": 3,
+    "byproducts": [
+      [
+        "steel_chunk",
+        2
+      ]
+    ],
+    "using": [
+      [
+        "forging_standard",
+        4
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_hematite",
+          1
+        ],
+        [
+          "chunk_magnetite",
+          1
+        ]
+      ],
+      [
+        [
+          "material_shrd_limestone",
+          1
+        ],
+        [
+          "material_limestone",
+          10
+        ]
+      ],
+      [
+        [
+          "charcoal",
+          10
+        ],
+        [
+          "coal_lump",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "steel_chunk",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "smelt",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "60 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "book_learn": [
+      [
+        "textbook_armschina",
+        3
+      ],
+      [
+        "textbook_fabrication",
+        3
+      ],
+      [
+        "welding_book",
+        3
+      ]
+    ],
+    "//": "Hematite has around 70% yield of iron, total yield here is just over 69% at 3500 grams of steel.  Estimated 2% carbon content has minimal effect on these numbers.  Magnetite has around 80% yield, but ironsand isn't pure magnetite.",
+    "result_mult": 15,
+    "using": [
+      [
+        "forging_standard",
+        4
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_hematite",
+          1
+        ],
+        [
+          "chunk_magnetite",
+          1
+        ]
+      ],
+      [
+        [
+          "material_shrd_limestone",
+          1
+        ],
+        [
+          "material_limestone",
+          10
+        ]
+      ],
+      [
+        [
+          "charcoal",
+          10
+        ],
+        [
+          "coal_lump",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "scrap",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "smelt",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "60 m",
+    "batch_time_factors": [
+      90,
+      4
+    ],
+    "autolearn": true,
+    "book_learn": [
+      [
+        "textbook_armschina",
+        3
+      ],
+      [
+        "textbook_fabrication",
+        3
+      ],
+      [
+        "welding_book",
+        3
+      ]
+    ],
+    "//": "Hematite has around 70% yield of iron, total yield here is just over 69% at 3500 grams of steel.  Estimated 2% carbon content has minimal effect on these numbers.  Magnetite has around 80% yield, but ironsand isn't pure magnetite.",
+    "result_mult": 37,
+    "using": [
+      [
+        "forging_standard",
+        4
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_hematite",
+          1
+        ],
+        [
+          "chunk_magnetite",
+          1
+        ]
+      ],
+      [
+        [
+          "material_shrd_limestone",
+          1
+        ],
+        [
+          "material_limestone",
+          10
+        ]
+      ],
+      [
+        [
+          "charcoal",
+          10
+        ],
+        [
+          "coal_lump",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "mercury",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "smelt",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [
+      [
+        "chemistry",
+        3
+      ]
+    ],
+    "time": "2 h",
+    "batch_time_factors": [
+      20,
+      4
+    ],
+    "//": "handwaves crushing cinnabar to avoid extra micro and recipe, added an extra hour to simulate crushing",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "CHEM",
+        "level": 2
+      },
+      {
+        "id": "DISTILL",
+        "level": 1
+      }
+    ],
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "forge",
+          250
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "chunk_cinnabar",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "battery_car_clay",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 2,
+    "skills_required": [
+      [
+        "fabrication",
+        2
+      ],
+      [
+        "chemistry",
+        3
+      ]
+    ],
+    "time": "30 m",
+    "autolearn": true,
+    "flags": [
+      "FULL_MAGAZINE"
+    ],
+    "using": [
+      [
+        "surface_heat",
+        10,
+        "LIST"
+      ],
+      [
+        "glazing",
+        2
+      ],
+      [
+        "earthenware_firing",
+        120
+      ]
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking"
+      }
+    ],
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "scrap",
+          4
+        ]
+      ],
+      [
+        [
+          "lead",
+          3200
+        ]
+      ],
+      [
+        [
+          "chem_sulphuric_acid",
+          13
+        ]
+      ],
+      [
+        [
+          "water",
+          2
+        ],
+        [
+          "water_clean",
+          2
+        ]
+      ],
+      [
+        [
+          "clay_lump",
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "light_bulb",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_LIGHTING",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "30 m",
+    "autolearn": true,
+    "proficiencies": [
+      {
+        "proficiency": "prof_glassblowing"
+      }
+    ],
+    "qualities": [
+      {
+        "id": "CHISEL",
+        "level": 3
+      }
+    ],
+    "tools": [
+      [
+        [
+          "tongs",
+          -1
+        ]
+      ],
+      [
+        [
+          "pipe",
+          -1
+        ]
+      ],
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "forge",
+          75
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "glass_shard",
+          3
+        ],
+        [
+          "pipe_glass",
+          1
+        ],
+        [
+          "flask_glass",
+          3
+        ],
+        [
+          "test_tube",
+          6
+        ],
+        [
+          "marble",
+          75
+        ]
+      ],
+      [
+        [
+          "scrap",
+          1
+        ]
+      ],
+      [
+        [
+          "charcoal",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "battery_clay_array",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "skills_required": [
+      "fabrication",
+      2
+    ],
+    "difficulty": 4,
+    "time": "40 m",
+    "autolearn": true,
+    "reversible": true,
+    "using": [
+      [
+        "soldering_standard",
+        20
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "HAMMER",
+        "level": 2
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_elec_soldering"
+      },
+      {
+        "proficiency": "prof_elec_circuits"
+      }
+    ],
+    "components": [
+      [
+        [
+          "battery_car_clay",
+          4
+        ]
+      ],
+      [
+        [
+          "makeshift_transformer",
+          2
+        ]
+      ],
+      [
+        [
+          "2x4",
+          6
+        ]
+      ],
+      [
+        [
+          "nail",
+          12
+        ]
+      ],
+      [
+        [
+          "cable",
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "still_lab",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "1 h",
+    "autolearn": true,
+    "proficiencies": [
+      {
+        "proficiency": "prof_glassblowing"
+      }
+    ],
+    "qualities": [
+      {
+        "id": "CHISEL",
+        "level": 3
+      }
+    ],
+    "tools": [
+      [
+        [
+          "tongs",
+          -1
+        ]
+      ],
+      [
+        [
+          "pipe",
+          -1
+        ]
+      ],
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "forge",
+          75
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "glass_shard",
+          3
+        ],
+        [
+          "pipe_glass",
+          1
+        ],
+        [
+          "flask_glass",
+          3
+        ],
+        [
+          "test_tube",
+          6
+        ],
+        [
+          "marble",
+          75
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "thermometer",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "proficiencies": [
+      {
+        "proficiency": "prof_glassblowing"
+      }
+    ],
+    "qualities": [
+      {
+        "id": "CHISEL",
+        "level": 3
+      }
+    ],
+    "tools": [
+      [
+        [
+          "tongs",
+          -1
+        ]
+      ],
+      [
+        [
+          "pipe",
+          -1
+        ]
+      ],
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "forge",
+          75
+        ]
+      ]
+    ],
+    "using": [
+      [
+        "dye_cloth",
+        1
+      ]
+    ],
+    "components": [
+      [
+        [
+          "glass_shard",
+          1
+        ],
+        [
+          "pipe_glass",
+          1
+        ],
+        [
+          "flask_glass",
+          1
+        ],
+        [
+          "test_tube",
+          2
+        ],
+        [
+          "marble",
+          25
+        ]
+      ],
+      [
+        [
+          "chem_ethanol",
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "chem_black_powder",
+    "id_suffix": "generic",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+    "skills_required": [
+      "chemistry",
+      3
+    ],
+    "difficulty": 4,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "CHEM",
+        "level": 2
+      }
+    ],
+    "tools": [
+      [
+        [
+          "hotplate",
+          50
+        ],
+        [
+          "integrated_welder",
+          50
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "oxy_powder",
+          200
+        ]
+      ],
+      [
+        [
+          "ammonia_liquid",
+          2
+        ],
+        [
+          "lye_powder",
+          200
+        ]
+      ],
+      [
+        [
+          "charcoal",
+          25
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "bandages_birchbark",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+    "skill_used": "survival",
+    "time": "1 m",
+    "autolearn": true,
+    "charges": 1,
+    "flags": [
+      "BLIND_EASY"
+    ],
+    "components": [
+      [
+        [
+          "birchbark",
+          1
+        ]
+      ],
+      [
+        [
+          "cordage_short",
+          1,
+          "LIST"
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "bandages_birchbark_adv",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+    "skill_used": "survival",
+    "time": "5 m",
+    "batch_time_factors": [
+      60,
+      2
+    ],
+    "qualities": [
+      {
+        "id": "CONTAIN",
+        "level": 1
+      },
+      {
+        "id": "FINE_GRIND",
+        "level": 1
+      }
+    ],
+    "autolearn": true,
+    "charges": 3,
+    "flags": [
+      "BLIND_EASY"
+    ],
+    "components": [
+      [
+        [
+          "bandages_birchbark",
+          3
+        ]
+      ],
+      [
+        [
+          "chem_glycerol",
+          4
+        ],
+        [
+          "lard",
+          1
+        ]
+      ],
+      [
+        [
+          "garlic_clove",
+          6
+        ],
+        [
+          "garlic",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "bandages_makeshift",
+    "id_suffix": "from sheets",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+    "skill_used": "tailor",
+    "time": "1 m 2 s",
+    "autolearn": true,
+    "result_mult": 8,
+    "qualities": [
+      {
+        "id": "CUT",
+        "level": 2
+      }
+    ],
+    "components": [
+      [
+        [
+          "sheet_cotton",
+          1
+        ],
+        [
+          "sheet_fibercloth",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "jack",
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [
+      "mechanics",
+      3
+    ],
+    "time": "300 m",
+    "reversible": true,
+    "autolearn": true,
+    "using": [
+      [
+        "forging_standard",
+        10
+      ],
+      [
+        "steel_standard",
+        5
+      ]
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_metalworking"
+      },
+      {
+        "proficiency": "prof_blacksmithing"
+      },
+      {
+        "proficiency": "prof_toolsmithing"
+      }
+    ],
+    "qualities": [
+      {
+        "id": "ANVIL",
+        "level": 3
+      },
+      {
+        "id": "HAMMER",
+        "level": 3
+      },
+      {
+        "id": "GRIND",
+        "level": 2
+      }
+    ],
+    "tools": [
+      [
+        [
+          "tongs",
+          -1
+        ]
+      ],
+      [
+        [
+          "swage",
+          -1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "result": "scissors",
+    "id_suffix": "wooden_handle",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "byproducts": [
+      [
+        "splinter",
+        5
+      ]
+    ],
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [
+      [
+        "blacksmithing_scrap",
+        1
+      ]
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_metalworking"
+      },
+      {
+        "proficiency": "prof_toolsmithing",
+        "required": false,
+        "time_multiplier": 1.5
+      },
+      {
+        "proficiency": "prof_bladesmith",
+        "required": false,
+        "time_multiplier": 1.5
+      },
+      {
+        "proficiency": "prof_carving",
+        "required": false,
+        "time_multiplier": 1.5
+      }
+    ],
+    "qualities": [
+      {
+        "id": "GRIND",
+        "level": 2
+      }
+    ],
+    "tools": [
+      [
+        [
+          "hotcut",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "scrap",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          1
+        ],
+        [
+          "stick",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "xacto",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "3 h",
+    "autolearn": true,
+    "proficiencies": [
+      {
+        "proficiency": "prof_metalworking"
+      },
+      {
+        "proficiency": "prof_blacksmithing"
+      },
+      {
+        "proficiency": "prof_bladesmith"
+      }
+    ],
+    "using": [
+      [
+        "blacksmithing_standard",
+        1
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "GRIND",
+        "level": 2
+      }
+    ],
+    "tools": [
+      [
+        [
+          "hotcut",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "scrap",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "blacksmith_kit",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "reversible": true,
+    "autolearn": true,
+    "flags": [
+      "BLIND_EASY"
+    ],
+    "components": [
+      [
+        [
+          "metalworking_tongs",
+          1
+        ]
+      ],
+      [
+        [
+          "metal_file",
+          1
+        ]
+      ],
+      [
+        [
+          "hammer",
+          1
+        ]
+      ],
+      [
+        [
+          "clay_canister",
+          1
+        ],
+        [
+          "bowl_clay",
+          1
+        ],
+        [
+          "jug_clay",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "result": "hammer_sledge",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "7 h 40 m",
+    "byproducts": [
+      [
+        "splinter",
+        13
+      ]
+    ],
+    "book_learn": [
+      [
+        "manual_fabrication",
+        3
+      ],
+      [
+        "textbook_fabrication",
+        4
+      ]
+    ],
+    "autolearn": true,
+    "using": [
+      [
+        "blacksmithing_standard",
+        32
+      ],
+      [
+        "steel_standard",
+        8
+      ]
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_metalworking"
+      },
+      {
+        "proficiency": "prof_blacksmithing"
+      },
+      {
+        "proficiency": "prof_toolsmithing"
+      }
+    ],
+    "components": [
+      [
+        [
+          "2x4",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "rubber_cement",
+    "id_suffix": "by_hand",
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 3,
+    "time": "6 h",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "CHEM",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "chem_acetone",
+          1
+        ],
+        [
+          "chem_chloroform",
+          250
+        ],
+        [
+          "ammonia_liquid",
+          1
+        ]
+      ],
+      [
+        [
+          "chem_ethanol",
+          10
+        ],
+        [
+          "denat_alcohol",
+          10
+        ],
+        [
+          "methed_alcohol",
+          10
+        ],
+        [
+          "chem_methanol",
+          10
+        ]
+      ],
+      [
+        [
+          "balloon",
+          2
+        ],
+        [
+          "any_condom",
+          2,
+          "LIST"
+        ],
+        [
+          "gloves_medical",
+          2
+        ],
+        [
+          "chunk_rubber",
+          1
+        ],
+        [
+          "latex",
+          2
+        ],
+        [
+          "gum",
+          20
+        ],
+        [
+          "sheet_neoprene",
+          11
+        ],
+        [
+          "scrap_neoprene",
+          16
+        ],
+        [
+          "neoprene",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "super_glue",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "chemistry",
+    "difficulty": 3,
+    "time": "12 m",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "CHEM",
+        "level": 1
+      }
+    ],
+    "tools": [
+      [
+        [
+          "surface_heat",
+          5,
+          "LIST"
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "water",
+          1
+        ],
+        [
+          "water_clean",
+          1
+        ]
+      ],
+      [
+        [
+          "bone_any",
+          20,
+          "LIST"
+        ],
+        [
+          "skewer_bone",
+          1000
+        ],
+        [
+          "cured_hide",
+          2
+        ],
+        [
+          "pine_bough",
+          10
+        ],
+        [
+          "raw_dandelion",
+          20
+        ],
+        [
+          "biollante_bud",
+          1
+        ],
+        [
+          "ant_egg",
+          1
+        ],
+        [
+          "slime_scrap",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "brew_moonshine",
+    "id_suffix": "forage",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_BREW",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "30 m",
+    "batch_time_factors": [
+      95,
+      4
+    ],
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "BOIL",
+        "level": 2
+      }
+    ],
+    "tools": [
+      [
+        [
+          "surface_heat",
+          30,
+          "LIST"
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "water",
+          15
+        ],
+        [
+          "water_clean",
+          15
+        ]
+      ],
+      [
+        [
+          "cattail_rhizome",
+          12
+        ],
+        [
+          "buckwheat",
+          15
+        ]
+      ],
+      [
+        [
+          "sugar",
+          100
+        ]
+      ],
+      [
+        [
+          "yeast",
+          2
+        ]
+      ]
+    ],
+    "charges": 105
+  },
+  {
+    "result": "chem_ethanol",
+    "type": "recipe",
+    "id_suffix": "slow_distill",
+    "activity_level": "NO_EXERCISE",
+    "byproducts": [
+      [
+        "water_clean"
+      ]
+    ],
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_FUEL",
+    "skill_used": "chemistry",
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "BOIL",
+        "level": 2
+      },
+      {
+        "id": "DISTILL",
+        "level": 2
+      }
+    ],
+    "tools": [
+      [
+        [
+          "surface_heat",
+          60,
+          "LIST"
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "mixed_alcohol_strong",
+          14
+        ],
+        [
+          "mixed_alcohol_weak",
+          10
+        ],
+        [
+          "wash_liquor",
+          42,
+          "LIST"
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "microcentrifuge",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 3,
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "using": [
+      [
+        "soldering_standard",
+        30
+      ]
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_elec_soldering"
+      },
+      {
+        "proficiency": "prof_elec_circuits"
+      }
+    ],
+    "qualities": [
+      {
+        "id": "SCREW",
+        "level": 1,
+        "amount": 1
+      },
+      {
+        "id": "HAMMER",
+        "level": 3,
+        "amount": 1
+      },
+      {
+        "id": "CUT_FINE",
+        "level": 1,
+        "amount": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "sheet_metal_small",
+          2
+        ]
+      ],
+      [
+        [
+          "steel_chunk_any",
+          4,
+          "LIST"
+        ]
+      ],
+      [
+        [
+          "cable",
+          2
+        ]
+      ],
+      [
+        [
+          "motor_small",
+          1
+        ]
+      ],
+      [
+        [
+          "2x4",
+          1
+        ]
+      ],
+      [
+        [
+          "adhesive",
+          1,
+          "LIST"
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "makeshift_transformer",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "skills_required": [
+      "electronics",
+      1
+    ],
+    "time": "20 m 30 s",
+    "autolearn": true,
+    "using": [
+      [
+        "blacksmithing_standard",
+        8
+      ],
+      [
+        "steel_standard",
+        2
+      ]
+    ],
+    "components": [
+      [
+        [
+          "cable",
+          20
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "result": "vac_pump",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [
+      "mechanics",
+      2
+    ],
+    "difficulty": 4,
+    "time": "12 h",
+    "autolearn": true,
+    "reversible": true,
+    "book_learn": [
+      [
+        "textbook_extraction",
+        3
+      ]
+    ],
+    "using": [
+      [
+        "welding_standard",
+        10
+      ],
+      [
+        "blacksmithing_standard",
+        5
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "HAMMER",
+        "level": 3
+      },
+      {
+        "id": "HAMMER_FINE",
+        "level": 1
+      },
+      {
+        "id": "SAW_M",
+        "level": 2
+      },
+      {
+        "id": "WRENCH",
+        "level": 2
+      },
+      {
+        "id": "SAW_M_FINE",
+        "level": 1
+      },
+      {
+        "id": "WRENCH_FINE",
+        "level": 1
+      },
+      {
+        "id": "SCREW",
+        "level": 1
+      },
+      {
+        "id": "SCREW_FINE",
+        "level": 1
+      },
+      {
+        "id": "DRILL",
+        "level": 2
+      },
+      {
+        "id": "FILE",
+        "level": 2
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_metalworking"
+      },
+      {
+        "proficiency": "prof_blacksmithing"
+      }
+    ],
+    "components": [
+      [
+        [
+          "pipe",
+          2
+        ]
+      ],
+      [
+        [
+          "hose",
+          1
+        ],
+        [
+          "makeshift_hose",
+          1
+        ]
+      ],
+      [
+        [
+          "gasket_plastic",
+          2
+        ]
+      ],
+      [
+        [
+          "well_pump",
+          1
+        ]
+      ],
+      [
+        [
+          "drivebelt",
+          1
+        ],
+        [
+          "drivebelt_makeshift",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "result": "foot_crank",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [
+      "mechanics",
+      2
+    ],
+    "difficulty": 4,
+    "time": "2 h",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SAW_M_FINE",
+        "level": 1
+      },
+      {
+        "id": "SCREW_FINE",
+        "level": 1
+      },
+      {
+        "id": "WRENCH",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_metalworking",
+        "required": false,
+        "time_multiplier": 1.5
+      }
+    ],
+    "tools": [
+      [
+        [
+          "metal_file",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "simple_crank",
+          2
+        ]
+      ],
+      [
+        [
+          "sheet_metal",
+          1
+        ]
+      ],
+      [
+        [
+          "chain",
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "result": "antenna",
+    "id_suffix": "innawood",
+    "//": "This is the old, completely inaccurate and frankly just terrible recipe from the mainline. It was ported to Innawoods for the sake of not removing the ability to learn electronics for players but it should ideally be changed/replaced.",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "skill_used": "electronics",
+    "time": "3 m",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "SAW_M",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk_any",
+          1,
+          "LIST"
+        ],
+        [
+          "scrap",
+          3
+        ],
+        [
+          "knife_butter",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "glass_shard",
+    "category": "CC_OTHER",
+    "id_suffix": "from ash",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [
+      "chemistry",
+      4
+    ],
+    "difficulty": 4,
+    "time": "30 m",
+    "batch_time_factors": [
+      30,
+      2
+    ],
+    "autolearn": true,
+    "proficiencies": [
+      {
+        "proficiency": "prof_glassblowing"
+      }
+    ],
+    "result_mult": 4,
+    "qualities": [
+      {
+        "id": "CHEM",
+        "level": 1
+      }
+    ],
+    "//": "Forest glass, as cited: https://etheses.whiterose.ac.uk/3464/1/287681.pdf",
+    "tools": [
+      [
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "crucible_clay",
+          -1
+        ]
+      ],
+      [
+        [
+          "sheet_metal",
+          -1
+        ],
+        [
+          "fire_brick",
+          -1
+        ],
+        [
+          "anvil",
+          -1
+        ],
+        [
+          "anvil_crude",
+          -1
+        ],
+        [
+          "anvil_bronze",
+          -1
+        ],
+        [
+          "casting_mold",
+          -1
+        ]
+      ],
+      [
+        [
+          "forge",
+          26
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "material_sand",
+          10
+        ]
+      ],
+      [
+        [
+          "ash",
+          540
+        ]
+      ],
+      [
+        [
+          "material_quicklime",
+          2
+        ],
+        [
+          "material_limestone",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "plastic_chunk",
+    "id_suffix": "from chitin",
+    "//": "Abstracted production of chitosan, using acid to demineralise chitin powder then lye to deacetylate.",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "chemistry",
+    "difficulty": 4,
+    "time": "90 m",
+    "autolearn": true,
+    "batch_time_factors": [
+      80,
+      2
+    ],
+    "result_mult": 15,
+    "qualities": [
+      {
+        "id": "CHEM",
+        "level": 2
+      },
+      {
+        "id": "CONTAIN",
+        "level": 1
+      }
+    ],
+    "tools": [
+      [
+        [
+          "surface_heat",
+          30,
+          "LIST"
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "meal_chitin_piece",
+          30
+        ]
+      ],
+      [
+        [
+          "lye",
+          4
+        ],
+        [
+          "lye_potassium",
+          6
+        ]
+      ],
+      [
+        [
+          "any_strong_acid",
+          1,
+          "LIST"
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "result": "nail",
+    "id_suffix": "from_bronze",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [
+      [
+        "forging_standard",
+        1
+      ],
+      [
+        "bronzesmithing_tools",
+        1
+      ]
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_metalworking"
+      },
+      {
+        "proficiency": "prof_redsmithing"
+      },
+      {
+        "proficiency": "prof_redsmithing_adv"
+      }
+    ],
+    "tools": [
+      [
+        [
+          "casting_mold",
+          -1
+        ]
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "GRIND",
+        "level": 2
+      }
+    ],
+    "components": [
+      [
+        [
+          "scrap_bronze",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "makeshift_hand_crank_charger",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [
+      "electronics",
+      2
+    ],
+    "difficulty": 4,
+    "time": "90 m",
+    "reversible": true,
+    "decomp_learn": 3,
+    "autolearn": [
+      [
+        "electronics",
+        2
+      ]
+    ],
+    "using": [
+      [
+        "forging_standard",
+        1
+      ]
+    ],
+    "tools": [
+      [
+        [
+          "casting_mold_small",
+          -1
+        ],
+        [
+          "casting_mold_small",
+          -1
+        ]
+      ]
+    ],
+    "qualities": [
+      {
+        "id": "HAMMER",
+        "level": 2
+      },
+      {
+        "id": "ANVIL",
+        "level": 2
+      },
+      {
+        "id": "SAW_M",
+        "level": 1
+      },
+      {
+        "id": "SAW_W",
+        "level": 1
+      },
+      {
+        "id": "DRILL",
+        "level": 1
+      }
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_elec_circuits"
+      },
+      {
+        "proficiency": "prof_blacksmithing"
+      },
+      {
+        "proficiency": "prof_redsmithing"
+      }
+    ],
+    "components": [
+      [
+        [
+          "2x4",
+          3
+        ]
+      ],
+      [
+        [
+          "copper_scrap_equivalent",
+          10,
+          "LIST"
+        ]
+      ],
+      [
+        [
+          "stick",
+          1
+        ]
+      ],
+      [
+        [
+          "copper_wire",
+          2
+        ]
+      ],
+      [
+        [
+          "rope_any_short",
+          2,
+          "LIST"
+        ]
+      ],
+      [
+        [
+          "chunk_magnetite",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "goggles_welding",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "mechanics",
+    "difficulty": 2,
+    "skills_required": [
+      "fabrication",
+      1
+    ],
+    "time": "1 h",
+    "autolearn": true,
+    "book_learn": [
+      [
+        "textbook_fabrication",
+        3
+      ],
+      [
+        "welding_book",
+        3
+      ]
+    ],
+    "components": [
+      [
+        [
+          "goggles_ski",
+          1
+        ],
+        [
+          "goggles_swim",
+          1
+        ],
+        [
+          "glasses_safety",
+          1
+        ],
+        [
+          "glass_goggles",
+          1
+        ]
+      ],
+      [
+        [
+          "eclipse_glasses",
+          1
+        ],
+        [
+          "glass_tinted",
+          3
+        ]
+      ],
+      [
+        [
+          "duct_tape",
+          40
+        ],
+        [
+          "medical_tape",
+          40
+        ],
+        [
+          "super_glue",
+          2
+        ]
+      ]
+    ],
+    "proficiencies": [
+      {
+        "proficiency": "prof_plasticworking"
+      }
+    ]
+  }
+]
