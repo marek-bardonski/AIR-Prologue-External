@@ -6931,5 +6931,15 @@
     "money_bundle_fifty",
     "money_strap_hundred",
     "money_bundle_hundred"
+  ],
+  "content_17_09_p06_m01_medical": [
+    "saline_bag_250",
+    "saline_bag_1000",
+    "saline_bag_2000",
+    "metaprolol",
+    "prussian_blue",
+    "inj_iron",
+    "rad_badge",
+    "rad_monitor"
   ]
 }

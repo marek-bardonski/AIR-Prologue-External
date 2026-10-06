@@ -61,6 +61,7 @@
     "purifiers.json",
     "notes.json",
     "maps.json",
+    "radiation.json",
     "bionics.json",
     "explosives.json",
     "early-discoveries.json",

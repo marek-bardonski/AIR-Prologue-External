@@ -14821,6 +14821,18 @@
           ]
         },
         {
+          "item": "metaprolol",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "garnet_gold_cufflinks",
           "weight": 0.003,
           "count": [
@@ -72470,6 +72482,34 @@
             1,
             1
           ]
+        },
+        {
+          "item": "saline_bag_250",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "saline_bag_1000",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "metaprolol",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -73277,6 +73317,66 @@
           "item": "minifreezer",
           "weight": 0.3,
           "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "saline_bag_250",
+          "weight": 0.1,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "saline_bag_1000",
+          "weight": 0.06,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "saline_bag_2000",
+          "weight": 0.025,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "metaprolol",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "prussian_blue",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "inj_iron",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
             1,
             1
           ]
@@ -80602,6 +80702,34 @@
             1
           ],
           "minDanger": 4
+        },
+        {
+          "item": "prussian_blue",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rad_badge",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rad_monitor",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -112594,6 +112722,14 @@
             1,
             1
           ]
+        },
+        {
+          "item": "rad_badge",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -113891,6 +114027,62 @@
             1,
             1
           ]
+        },
+        {
+          "item": "saline_bag_250",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "saline_bag_1000",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "prussian_blue",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "inj_iron",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rad_badge",
+          "weight": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rad_monitor",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },
@@ -114746,6 +114938,34 @@
         {
           "item": "satellitemap",
           "weight": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "prussian_blue",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "charges": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rad_badge",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rad_monitor",
+          "weight": 0.012,
           "count": [
             1,
             1
@@ -116227,6 +116447,14 @@
         {
           "item": "bio_dex_enhancer",
           "weight": 0.15,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rad_monitor",
+          "weight": 0.01,
           "count": [
             1,
             1
@@ -130403,6 +130631,22 @@
             1
           ],
           "minDanger": 3
+        },
+        {
+          "item": "saline_bag_250",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "rad_badge",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
         }
       ]
     },

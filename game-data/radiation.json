@@ -1,0 +1,13 @@
+{
+  "//": "Radiation (Prologue, 06.10.2026): the instruments and the medicines are in the world; nothing in it is radioactive yet, so every reading is zero. Code: src/game/survival/Radiation.js. `detectors` are item ids that can be read (a kind each: `counter` clicks for the place, `badge` and `monitor` read what the body has taken); `treatments` are the medicines taken against a dose.",
+  "level": 0,
+  "detectors": {
+    "geiger_off": "counter",
+    "rad_badge": "badge",
+    "rad_monitor": "monitor"
+  },
+  "treatments": [
+    "iodine",
+    "prussian_blue"
+  ]
+}

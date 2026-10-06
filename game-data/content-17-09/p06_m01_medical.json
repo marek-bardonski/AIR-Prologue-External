@@ -1,0 +1,160 @@
+{
+  "group": "p06_m01_medical",
+  "source": "06.10.2026 import: saline infusion kits, heart and iron medicines, the radiation tablet, a radiation badge and a biomonitor",
+  "items": [
+    {
+      "id": "saline_bag_250",
+      "loot": [
+        {
+          "table": "medical_clinic",
+          "weight": 0.06
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.1
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "saline_bag_1000",
+      "loot": [
+        {
+          "table": "medical_clinic",
+          "weight": 0.03
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.06
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "saline_bag_2000",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.025
+        }
+      ]
+    },
+    {
+      "id": "metaprolol",
+      "loot": [
+        {
+          "table": "medical_clinic",
+          "weight": 0.03
+        },
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.04
+        },
+        {
+          "table": "house_common",
+          "weight": 0.004
+        }
+      ]
+    },
+    {
+      "id": "prussian_blue",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.015
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "inj_iron",
+      "loot": [
+        {
+          "table": "medical_clinic_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "id": "rad_badge",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.03
+        },
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.05
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.03
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02
+        },
+        {
+          "table": "fire_station_supplies",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "rad_monitor",
+      "loot": [
+        {
+          "table": "laboratory_supplies",
+          "weight": 0.02
+        },
+        {
+          "table": "military_checkpoint_supplies",
+          "weight": 0.015
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.012
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.01
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:prussian_blue"
+  ],
+  "notes": [
+    "Radiation instruments read zero and its medicines do nothing yet: game-data/radiation.json. Left out: contact lenses, other settings' injectors and modules, a cure-all."
+  ]
+}
