@@ -19,7 +19,9 @@
         "insulated_house",
         "restored_house",
         "straw_bed",
-        "makeshift_bed"
+        "makeshift_bed",
+        "camp_seat",
+        "sleeping_mat"
       ]
     },
     {
@@ -65,7 +67,9 @@
         "electric_fan",
         "air_conditioner",
         "cold_box",
-        "freezer_box"
+        "freezer_box",
+        "washing_machine",
+        "water_heater"
       ]
     },
     {
@@ -76,7 +80,9 @@
         31
       ],
       "stations": [
-        "workbench"
+        "workbench",
+        "camp_table",
+        "folding_workbench"
       ]
     },
     {

@@ -1425,6 +1425,190 @@
       "requiresTerrain": [
         "house"
       ]
+    },
+    "camp_seat": {
+      "name": "Camp seat",
+      "//": "Prologue (06.10.2026): a camp chair, a folding chair or a deck chair set down at camp (CDDA deploys each as a seat). effects.restRegen: breath comes back that many times as fast while resting at the camp. Prologue dial.",
+      "consumes": [
+        [
+          [
+            "camp_chair",
+            1
+          ],
+          [
+            "chair_folding",
+            1
+          ],
+          [
+            "deck_chair",
+            1
+          ]
+        ]
+      ],
+      "minutes": 2,
+      "requiredSkills": [],
+      "qualities": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "restRegen": 1.15
+      },
+      "placeItems": [
+        "camp_chair",
+        "chair_folding",
+        "deck_chair"
+      ],
+      "//placement": "Placed whole from the pack or the camp's ground; packing it up gives the same thing back."
+    },
+    "camp_table": {
+      "name": "Camp table",
+      "//": "Prologue (06.10.2026): a folding table set up at camp, a clean surface to cook and sew at (CDDA deploys it as a table). craftSpeed is a Prologue dial.",
+      "consumes": [
+        [
+          [
+            "tourist_table",
+            1
+          ]
+        ]
+      ],
+      "minutes": 3,
+      "requiredSkills": [],
+      "qualities": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "craftSpeed": {
+          "cooking": 0.85,
+          "tailor": 0.85
+        }
+      },
+      "placeItems": [
+        "tourist_table"
+      ],
+      "//placement": "Placed whole from the pack or the camp's ground; packing it up gives the same thing back.",
+      "deploys": "tourist_table"
+    },
+    "sleeping_mat": {
+      "name": "Sleeping mat",
+      "//": "Prologue (06.10.2026): a woven fibre mat laid out as a bed (CDDA deploys it as a mat). Better than bare ground, short of a straw bed. sleepQuality is a Prologue dial.",
+      "consumes": [
+        [
+          [
+            "fiber_mat",
+            1
+          ]
+        ]
+      ],
+      "minutes": 2,
+      "requiredSkills": [],
+      "qualities": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "sleepQuality": 0.7
+      },
+      "placeItems": [
+        "fiber_mat"
+      ],
+      "//placement": "Placed whole from the pack or the camp's ground; packing it up gives the same thing back.",
+      "deploys": "fiber_mat"
+    },
+    "washing_machine": {
+      "name": "Washing machine",
+      "//": "Prologue (06.10.2026): a washing machine wired to the camp's batteries. effects.laundry: a load is washed by the machine (laundry.json `machine`: water, soap, minutes, no board) while the grid can pay the watts of the machine built into it (camp-power.json appliances; CDDA's own figure).",
+      "consumes": [
+        [
+          [
+            "household_washing_machine",
+            1
+          ],
+          [
+            "washing_machine",
+            1
+          ]
+        ]
+      ],
+      "minutes": 10,
+      "requiredSkills": [],
+      "qualities": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "laundry": true
+      },
+      "placeItems": [
+        "household_washing_machine",
+        "washing_machine"
+      ],
+      "//placement": "Placed whole from the pack or the camp's ground; packing it up gives the same thing back."
+    },
+    "water_heater": {
+      "name": "Water heater",
+      "//": "Prologue (06.10.2026): a household water heater wired to the camp's batteries. effects.hotWater: washing by hand or by machine at the camp takes laundry.json `hotWater.timeMultiplier` of the time while the grid can pay its watts (camp-power.json appliances; a Prologue figure, CDDA gives the tank none).",
+      "consumes": [
+        [
+          [
+            "household_water_heater",
+            1
+          ],
+          [
+            "household_water_heater_family",
+            1
+          ]
+        ]
+      ],
+      "minutes": 10,
+      "requiredSkills": [],
+      "qualities": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "hotWater": true
+      },
+      "placeItems": [
+        "household_water_heater",
+        "household_water_heater_family"
+      ],
+      "//placement": "Placed whole from the pack or the camp's ground; packing it up gives the same thing back."
+    },
+    "folding_workbench": {
+      "name": "Folding workbench",
+      "//": "Prologue (06.10.2026): a folded workbench, found or made, set up at camp (CDDA deploys it as a workbench). It serves like the built one; the two do not add up. craftSpeed is the built bench's dial.",
+      "consumes": [
+        [
+          [
+            "workbench",
+            1
+          ]
+        ]
+      ],
+      "minutes": 5,
+      "requiredSkills": [],
+      "qualities": [],
+      "provides": {
+        "pseudoTools": [],
+        "qualities": []
+      },
+      "effects": {
+        "craftSpeed": {
+          "all": 0.9
+        }
+      },
+      "placeItems": [
+        "workbench"
+      ],
+      "deploys": "workbench",
+      "//placement": "Placed whole from the pack or the camp's ground; packing it up gives the same thing back."
     }
   },
   "portableStations": {

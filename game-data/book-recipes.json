@@ -12960,6 +12960,13 @@
         "level": 2
       },
       {
+        "key": "recipe:tourist_table",
+        "result": "tourist_table",
+        "name": "folding table",
+        "skill": "fabrication",
+        "level": 2
+      },
+      {
         "key": "recipe:hc_link_sheet",
         "result": "hc_link_sheet",
         "name": "hc link sheet",
@@ -19553,6 +19560,13 @@
         "result": "compensator",
         "name": "compensator",
         "skill": "mechanics",
+        "level": 3
+      },
+      {
+        "key": "recipe:tourist_table",
+        "result": "tourist_table",
+        "name": "folding table",
+        "skill": "fabrication",
         "level": 3
       },
       {

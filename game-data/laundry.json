@@ -145,13 +145,31 @@
   },
   "bedding": {
     "//": "Found bedding (AIR rule, 26.09.2026 evening): a mattress, sleeping bag, blanket or rollmat found in a house, a shop or a clinic, or taken off a bed there, is rarely perfect. Each rolls dirty (the ordinary laundry flag: washable, a long wash) and damaged (a boolean on the instance: a mattress cannot be mended) on its own; the sleep it gives is multiplied by dirtyQuality and damagedQuality, both when both. A mattress from the village shelf is clean and whole. washLitres: the litres of cloth a wash of this piece counts as, where its own volume would make it absurd.",
-    "items": ["mattress", "sleeping_bag", "sleeping_bag_improvised", "blanket", "down_blanket", "fur_blanket", "quilt", "quilt_patchwork", "rollmat", "cot"],
-    "tables": ["house*", "shop*", "medical_clinic*", "fixture"],
+    "items": [
+      "mattress",
+      "sleeping_bag",
+      "sleeping_bag_improvised",
+      "blanket",
+      "down_blanket",
+      "fur_blanket",
+      "quilt",
+      "quilt_patchwork",
+      "rollmat",
+      "cot"
+    ],
+    "tables": [
+      "house*",
+      "shop*",
+      "medical_clinic*",
+      "fixture"
+    ],
     "dirtyChance": 0.6,
     "damagedChance": 0.5,
     "dirtyQuality": 0.7,
     "damagedQuality": 0.8,
-    "washLitres": { "mattress": 12 }
+    "washLitres": {
+      "mattress": 12
+    }
   },
   "worn": {
     "//": "Wearing dirty cloth (AIR rule): a standing mood that settles within minutes and stays while any dirty garment is on the body, floorPerGarment for each dirty garment worn down to floorMax (stored units; shown times practice.json morale.scale). Once the last one is off or washed it fades over fadeHours. Torn or tainted cloth is still never worn.",
@@ -201,5 +219,16 @@
     "waterPerLitre": 4,
     "minutesPerLitre": 25,
     "minMinutes": 20
+  },
+  "machine": {
+    "//": "A washing machine at the camp (stations.json effects.laundry): water and soap per litre of load, no board, and the minutes the survivor waits on it. It runs only while the camp's grid can pay its watts for those minutes.",
+    "waterPerLitre": 4,
+    "soapPerLitre": 1,
+    "minutesPerLitre": 3,
+    "minMinutes": 10
+  },
+  "hotWater": {
+    "//": "A water heater at the camp (stations.json effects.hotWater): a wash by hand or by machine there takes this share of its time, while the grid can pay the heater's watts for it.",
+    "timeMultiplier": 0.6
   }
 }

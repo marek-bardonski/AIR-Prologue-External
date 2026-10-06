@@ -14821,6 +14821,30 @@
           ]
         },
         {
+          "item": "household_washing_machine",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_water_heater",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_water_heater_family",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "metaprolol",
           "weight": 0.004,
           "count": [
@@ -31836,6 +31860,22 @@
         {
           "item": "minifridge",
           "weight": 0.4,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_washing_machine",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_water_heater",
+          "weight": 0.008,
           "count": [
             1,
             1
@@ -56657,6 +56697,30 @@
           ]
         },
         {
+          "item": "household_washing_machine",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_water_heater",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_water_heater_family",
+          "weight": 0.004,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "broken_manhack",
           "weight": 0.03,
           "count": [
@@ -72420,6 +72484,14 @@
         {
           "item": "minifridge",
           "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "washing_machine",
+          "weight": 0.006,
           "count": [
             1,
             1
@@ -111881,6 +111953,14 @@
           ]
         },
         {
+          "item": "washing_machine",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "broken_manhack",
           "weight": 0.02,
           "count": [
@@ -132533,6 +132613,14 @@
           ]
         },
         {
+          "item": "washing_machine",
+          "weight": 0.006,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
           "item": "homemade_demolition_charge",
           "weight": 0.05,
           "count": [
@@ -133399,6 +133487,30 @@
         {
           "item": "shrink_wrap",
           "weight": 0.2,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_washing_machine",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_water_heater",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "household_water_heater_family",
+          "weight": 0.006,
           "count": [
             1,
             1

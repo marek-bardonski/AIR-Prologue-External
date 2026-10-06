@@ -4,33 +4,57 @@
     {
       "reason": "deployable furniture or shelter (CDDA deploy_furn / deploy_tent / place_trap) with no working mechanic in the Prologue",
       "ids": [
-        "workbench", "fiber_mat", "leather_tarp", "beverly_shear", "churn",
-        "camp_chair", "chair_folding", "deck_chair", "char_kiln", "bigmirror", "trashcan",
-        "stepladder", "aluminum_stepladder", "tourist_table", "shelter_kit"
+        "leather_tarp",
+        "beverly_shear",
+        "churn",
+        "char_kiln",
+        "bigmirror",
+        "trashcan",
+        "stepladder",
+        "aluminum_stepladder",
+        "shelter_kit"
       ]
     },
     {
       "reason": "only use is being repaired into a disabled deployable (shelter_kit)",
-      "ids": ["damaged_shelter_kit"]
+      "ids": [
+        "damaged_shelter_kit"
+      ]
     },
     {
       "reason": "MOLLE add-on that can only be attached to MOLLE webbing (CANT_WEAR + PALS); attaching is not a Prologue mechanic",
-      "ids": ["belt_loop_small", "belt_loop_medium", "belt_loop_large"]
+      "ids": [
+        "belt_loop_small",
+        "belt_loop_medium",
+        "belt_loop_large"
+      ]
     },
     {
       "reason": "gas mask, respirator, survivor mask or mask filter (CDDA GASMASK_ACTIVATE); the Prologue has no gas or smoke to filter",
       "ids": [
-        "mask_gas", "mask_gas_half", "mask_bunker", "mask_survivor", "mask_hsurvivor", "mask_lsurvivor",
-        "mask_fsurvivor", "mask_filter", "filter_port_40mm"
+        "mask_gas",
+        "mask_gas_half",
+        "mask_bunker",
+        "mask_survivor",
+        "mask_hsurvivor",
+        "mask_lsurvivor",
+        "mask_fsurvivor",
+        "mask_filter",
+        "filter_port_40mm"
       ]
     },
     {
       "reason": "heating-only item: its only function is warming (CDDA HEATPACK / a HEAT_SOLID_ITEMS hot surface) and nothing in the Prologue uses it otherwise",
-      "ids": ["heatpack"]
+      "ids": [
+        "heatpack"
+      ]
     },
     {
       "reason": "vehicle part no vehicle in the Prologue can take, with no other use (vehicles workstream, 29.09.2026)",
-      "ids": ["cargo_lock", "towel_hanger"]
+      "ids": [
+        "cargo_lock",
+        "towel_hanger"
+      ]
     }
   ]
 }

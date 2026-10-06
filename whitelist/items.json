@@ -6987,5 +6987,11 @@
     "turret_chassis",
     "copbot_chassis",
     "android_chassis"
+  ],
+  "content_17_09_p06_f01_furniture": [
+    "household_washing_machine",
+    "washing_machine",
+    "household_water_heater",
+    "household_water_heater_family"
   ]
 }

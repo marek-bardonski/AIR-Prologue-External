@@ -32,7 +32,7 @@
       "fuelItem": "diesel"
     }
   },
-  "//appliances": "Corded (link_up) tools and appliances and their draw in watts.",
+  "//appliances": "Corded (link_up) tools and appliances and their draw in watts. 06.10.2026: the washing machines draw CDDA's 400 W; the water heaters' 1500 and 2000 W are the Prologue's own figures.",
   "appliances": {
     "ammonia_machine_pipework": 350,
     "ammonia_machine_reactor": 800,
@@ -97,7 +97,11 @@
     "battery_charger": 100,
     "box_battery_charger": 100,
     "planer": 1500,
-    "catalytic_cracking_reactor": 2500
+    "catalytic_cracking_reactor": 2500,
+    "household_washing_machine": 400,
+    "washing_machine": 400,
+    "household_water_heater": 1500,
+    "household_water_heater_family": 2000
   },
   "//coldStorage": "Fridges and freezers (02.10.2026): the draw of the box built into a cold_box or freezer_box station (stations.json effects.cold), in watts, while the station is on; CDDA 0.I ap_* appliance part epower. Read by electricity/ColdStorage.js."
 }

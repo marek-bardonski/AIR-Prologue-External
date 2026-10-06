@@ -1,0 +1,92 @@
+{
+  "group": "p06_f01_furniture",
+  "source": "06.10.2026 import: washing machines and water heaters, set down at camp with Place",
+  "items": [
+    {
+      "id": "household_washing_machine",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.006
+        },
+        {
+          "table": "automated_distribution",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "washing_machine",
+      "loot": [
+        {
+          "table": "roadside_garage_supplies",
+          "weight": 0.006
+        },
+        {
+          "table": "machine_tool_shop_supplies",
+          "weight": 0.006
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.006
+        }
+      ]
+    },
+    {
+      "id": "household_water_heater",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.006
+        },
+        {
+          "table": "house_kitchen",
+          "weight": 0.008
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.006
+        },
+        {
+          "table": "automated_distribution",
+          "weight": 0.01
+        }
+      ]
+    },
+    {
+      "id": "household_water_heater_family",
+      "loot": [
+        {
+          "table": "house_common",
+          "weight": 0.004
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.004
+        },
+        {
+          "table": "automated_distribution",
+          "weight": 0.006
+        }
+      ]
+    }
+  ],
+  "overrides": [],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [
+    "recipe:washing_machine"
+  ],
+  "notes": [
+    "Camp furniture is stations.json rows with placeItems: camp_seat, camp_table, sleeping_mat, folding_workbench, washing_machine, water_heater. The chairs, the folding table, the fibre mat and the folded workbench left whitelist/disabled.json."
+  ]
+}
