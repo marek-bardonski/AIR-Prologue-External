@@ -106,11 +106,13 @@
     "dryBelowZeroFactor": 0.3,
     "wordAt": 0.2
   },
-  "//effects": "What a band costs. The worst part names the survivor's state; `hands` reads the worse arm, `core` the worse of torso and head, the hot bands read the torso. moraleFloor: a standing mood entry that sinks to the floor and stays while the band holds (Morale.wear). comfortable and warm (06.10.2026) are the bands that lift: a standing mood that rises by moralePerHour to moraleCeiling while no part is cold and the torso is not hot, read as it is (not times practice.json morale.scale), and fades over moraleFadeMinutes once that ends. metabolism multiplies the energy burned (cold eats the stockpile). workSpeed multiplies crafting, searching and gathering when the hands are this cold or the torso this hot. swingPercent / toHit add to the wound penalties the fight reads. thirst multiplies thirst and staminaRegen the stamina recovery while the torso is this hot.",
+  "//effects": "What a band costs. The worst part names the survivor's state; `hands` reads the worse arm, `core` the worse of torso and head, the hot bands read the torso. moraleFloor: a standing mood entry that sinks to the floor and stays while the band holds (Morale.wear). moraleFlat (06.10.2026): the entry reads as it is stored, not times practice.json morale.scale, so chilly and warm cost a plain 4. comfortable is the one band that lifts: a standing mood that rises by moralePerHour to moraleCeiling while no part is cold and the torso is not hot, read as it is (not times practice.json morale.scale), and fades over moraleFadeMinutes once that ends. metabolism multiplies the energy burned (cold eats the stockpile). workSpeed multiplies crafting, searching and gathering when the hands are this cold or the torso this hot. swingPercent / toHit add to the wound penalties the fight reads. thirst multiplies thirst and staminaRegen the stamina recovery while the torso is this hot.",
+  "//autoClothing": "06.10.2026: clothes are changed by themselves as soon as the body is, or is heading to be, chilly or warm, not only once it is cold or hot. The body as it is and the equilibrium it is moving toward (Warmth.targets) are both read; a look is taken every checkMinutes and after a change nothing more is changed for settleMinutes.",
+  "autoClothing": { "checkMinutes": 5, "settleMinutes": 15 },
   "effects": {
     "comfortable": { "moraleCeiling": 1, "moralePerHour": 1, "moraleFadeMinutes": 60 },
-    "warm": { "moraleCeiling": 1, "moralePerHour": 1, "moraleFadeMinutes": 60 },
-    "chilly": { "moraleFloor": -4, "moralePerHour": -4 },
+    "warm": { "moraleFloor": -4, "moralePerHour": -4, "moraleFlat": true },
+    "chilly": { "moraleFloor": -4, "moralePerHour": -4, "moraleFlat": true },
     "cold": { "moraleFloor": -8, "moralePerHour": -6, "metabolism": 1.15, "workSpeed": 0.9 },
     "very_cold": { "moraleFloor": -12, "moralePerHour": -8, "metabolism": 1.3, "workSpeed": 0.75, "swingPercent": 15, "toHit": 1, "noSleep": true },
     "freezing": { "moraleFloor": -16, "moralePerHour": -10, "metabolism": 1.45, "workSpeed": 0.6, "swingPercent": 25, "toHit": 2, "noSleep": true },
