@@ -48,5 +48,28 @@
       "regenMultiplier": 3,
       "crash": { "label": "Adrenaline crash", "fatigue": 60, "minutes": 90, "regenMultiplier": 0.6 }
     }
+  },
+  "sedatives": {
+    "//": "Sedatives by item id (Prologue rule, 06.10.2026; what a benzodiazepine does, not CDDA's model). A dose makes the survivor sleepy at once (`sleepiness` points of tiredness) and, for `minutes`, calm (`mood`), slower (`speedPercent`) and clumsier (`dex`, `per`); sleep taken while it works is deeper (`sleepQuality` multiplies the bedding's). A second dose restarts the clock and adds its sleepiness.",
+    "diazepam": {
+      "label": "Sedated",
+      "minutes": 360,
+      "sleepiness": 40,
+      "mood": 6,
+      "speedPercent": -6,
+      "dex": -1,
+      "per": -1,
+      "sleepQuality": 1.15
+    },
+    "xanax": {
+      "label": "Sedated",
+      "minutes": 240,
+      "sleepiness": 50,
+      "mood": 8,
+      "speedPercent": -8,
+      "dex": -1,
+      "per": -1,
+      "sleepQuality": 1.15
+    }
   }
 }
