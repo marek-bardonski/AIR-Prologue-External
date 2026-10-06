@@ -56655,6 +56655,87 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_manhack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_tazer_hack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_skitterbot",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_robofac_camspy",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_nursebot",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_nursebot_defective",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_grocerybot",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_grocerybot_busted",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_turret_speaker",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -72551,6 +72632,42 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_nursebot",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_nursebot_defective",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_grocerybot",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_grocerybot_busted",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -76929,6 +77046,141 @@
             1
           ],
           "minDanger": 4
+        },
+        {
+          "item": "broken_grenade_hack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_gasbomb_hack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_EMP_hack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_flashbang_hack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_c4_hack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_robofac_skittergun",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret_searchlight",
+          "weight": 0.025,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret",
+          "weight": 0.025,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret_rifle",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_crows_m240",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret_artisans",
+          "weight": 0.025,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret_speaker",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_secubot",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "turret_chassis",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "copbot_chassis",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -111627,6 +111879,42 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_manhack",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_tazer_hack",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_skitterbot",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_robofac_camspy",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -112886,6 +113174,132 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_manhack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_tazer_hack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_skitterbot",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_robofac_camspy",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_turret_searchlight",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_lab_security_drone_GM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_YM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BM2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_GR",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BS",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_turret",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret_artisans",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_robofac_laserturret_mk1",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
         }
       ]
     },
@@ -115153,6 +115567,204 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_manhack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_grenade_hack",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_gasbomb_hack",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_EMP_hack",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_flashbang_hack",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_c4_hack",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_tazer_hack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_skitterbot",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_robofac_skittergun",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_robofac_camspy",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_turret_searchlight",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_lab_security_drone_GM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_YM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BM2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_GR",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BS",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_turret",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret_rifle",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_crows_m240",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret_artisans",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_secubot",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
         }
       ]
     },
@@ -115556,6 +116168,60 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_lab_security_drone_GM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_YM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BM2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_GR",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BS",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -116071,6 +116737,141 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_grenade_hack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_gasbomb_hack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_EMP_hack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_flashbang_hack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_c4_hack",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_robofac_skittergun",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_lab_security_drone_GM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_YM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BM",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BM2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_GR",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_lab_security_drone_BS",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_turret_rifle",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_crows_m240",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_secubot",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
         }
       ]
     },
@@ -116642,6 +117443,33 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_turret_searchlight",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "item": "broken_turret_artisans",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
         }
       ]
     },
@@ -117205,6 +118033,15 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_robofac_laserturret_mk1",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
         },
         {
           "item": "military_explosive_bomb",
@@ -130951,6 +131788,33 @@
             1,
             1
           ]
+        },
+        {
+          "item": "turret_chassis",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "copbot_chassis",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "android_chassis",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -131848,6 +132712,42 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_manhack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_tazer_hack",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_skitterbot",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_robofac_camspy",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },
@@ -132503,6 +133403,42 @@
             1,
             1
           ]
+        },
+        {
+          "item": "broken_grocerybot",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_grocerybot_busted",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "broken_turret_speaker",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "item": "android_chassis",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
-  "files": 3409,
-  "objects": 58055,
+  "files": 3410,
+  "objects": 58064,
   "duplicates": 633,
   "byDomain": {
     "achievement": 221,
@@ -8,7 +8,7 @@
     "ammo_effect": 82,
     "anatomy": 2,
     "spell": 942,
-    "item": 11691,
+    "item": 11697,
     "enchantment": 71,
     "relic_procgen_data": 7,
     "ascii_art": 399,
@@ -124,12 +124,12 @@
     "event_transformation": 161,
     "tool_quality": 92,
     "widget": 1256,
-    "uncraft": 1347,
+    "uncraft": 1350,
     "vehicle_part_category": 12,
     "weapon_category": 25,
     "magic_type": 1,
     "mod_info": 1,
     "region_overlay": 1
   },
-  "generatedAt": "2026-10-06T22:13:35.227Z"
+  "generatedAt": "2026-10-06T22:17:33.004Z"
 }

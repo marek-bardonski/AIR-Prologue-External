@@ -1,0 +1,1238 @@
+{
+  "group": "p06_r01_wrecks",
+  "source": "06.10.2026 import: broken machines found in dangerous country, for taking apart, and three bare frames",
+  "items": [
+    {
+      "id": "broken_manhack",
+      "loot": [
+        {
+          "table": "ruins_rubble",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_grenade_hack",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_gasbomb_hack",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_EMP_hack",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_flashbang_hack",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_c4_hack",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_tazer_hack",
+      "loot": [
+        {
+          "table": "ruins_rubble",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_skitterbot",
+      "loot": [
+        {
+          "table": "ruins_rubble",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_robofac_skittergun",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_robofac_camspy",
+      "loot": [
+        {
+          "table": "ruins_rubble",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "electronics_reclamation",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "discovery_workshop",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_turret_searchlight",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.025,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_lab_security_drone_GM",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_lab_security_drone_YM",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_lab_security_drone_BM",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_lab_security_drone_BM2",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_lab_security_drone_GR",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_lab_security_drone_BS",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_1",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_nursebot",
+      "loot": [
+        {
+          "table": "medical_clinic",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_nursebot_defective",
+      "loot": [
+        {
+          "table": "medical_clinic",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.008,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_grocerybot",
+      "loot": [
+        {
+          "table": "automated_distribution",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_grocerybot_busted",
+      "loot": [
+        {
+          "table": "automated_distribution",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "medical_clinic",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_turret",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.025,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_turret_rifle",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_crows_m240",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_turret_artisans",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.025,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "laboratory",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_3",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_turret_speaker",
+      "loot": [
+        {
+          "table": "automated_distribution",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "ruins_rubble",
+          "weight": 0.01,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "broken_robofac_laserturret_mk1",
+      "loot": [
+        {
+          "table": "laboratory",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_4",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "broken_secubot",
+      "loot": [
+        {
+          "table": "military_checkpoint",
+          "weight": 0.04,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "research_ruin",
+          "weight": 0.02,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        },
+        {
+          "table": "deep_room_2",
+          "weight": 0.03,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 4
+        }
+      ]
+    },
+    {
+      "id": "turret_chassis",
+      "loot": [
+        {
+          "table": "machine_tool_shop",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.015,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "copbot_chassis",
+      "loot": [
+        {
+          "table": "machine_tool_shop",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "military_checkpoint",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    },
+    {
+      "id": "android_chassis",
+      "loot": [
+        {
+          "table": "machine_tool_shop",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        },
+        {
+          "table": "automated_distribution",
+          "weight": 0.012,
+          "count": [
+            1,
+            1
+          ],
+          "minDanger": 3
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "type": "uncraft",
+      "result": "turret_chassis",
+      "activity_level": "MODERATE_EXERCISE",
+      "time": "45 m",
+      "qualities": [
+        {
+          "id": "SAW_M",
+          "level": 1
+        }
+      ],
+      "components": [
+        [
+          [
+            "steel_chunk",
+            8
+          ]
+        ],
+        [
+          [
+            "scrap",
+            12
+          ]
+        ],
+        [
+          [
+            "pipe",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "uncraft",
+      "result": "copbot_chassis",
+      "activity_level": "MODERATE_EXERCISE",
+      "time": "60 m",
+      "qualities": [
+        {
+          "id": "SAW_M",
+          "level": 1
+        }
+      ],
+      "components": [
+        [
+          [
+            "steel_chunk",
+            10
+          ]
+        ],
+        [
+          [
+            "scrap",
+            16
+          ]
+        ],
+        [
+          [
+            "pipe",
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "uncraft",
+      "result": "android_chassis",
+      "activity_level": "MODERATE_EXERCISE",
+      "time": "60 m",
+      "qualities": [
+        {
+          "id": "SAW_M",
+          "level": 1
+        }
+      ],
+      "components": [
+        [
+          [
+            "scrap_aluminum",
+            12
+          ]
+        ],
+        [
+          [
+            "scrap",
+            8
+          ]
+        ],
+        [
+          [
+            "pipe",
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "ITEM",
+      "id": "broken_lab_security_drone_GM",
+      "volume": "2500 ml",
+      "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+    },
+    {
+      "type": "ITEM",
+      "id": "broken_lab_security_drone_YM",
+      "volume": "2500 ml",
+      "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+    },
+    {
+      "type": "ITEM",
+      "id": "broken_lab_security_drone_BM",
+      "volume": "2500 ml",
+      "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+    },
+    {
+      "type": "ITEM",
+      "id": "broken_lab_security_drone_BM2",
+      "volume": "2500 ml",
+      "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+    },
+    {
+      "type": "ITEM",
+      "id": "broken_lab_security_drone_GR",
+      "volume": "2500 ml",
+      "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+    },
+    {
+      "type": "ITEM",
+      "id": "broken_lab_security_drone_BS",
+      "volume": "2500 ml",
+      "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+    }
+  ],
+  "pseudoTools": {},
+  "recipesInclude": [],
+  "recipesExclude": [],
+  "recipesExpected": [],
+  "notes": [
+    "Wrecks do nothing but come apart. The three frames come out of them and are sawn up for metal (uncraft written here: CDDA gives them none). Left out: wrecks that need another steel grade or parts of other settings."
+  ]
+}

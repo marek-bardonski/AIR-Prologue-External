@@ -1,0 +1,137 @@
+[
+  {
+    "//": "Prologue patches for content batch 17.09, group p06_r01_wrecks. Same-id entries without copy-from patch the CDDA object; new ids use copy-from."
+  },
+  {
+    "type": "uncraft",
+    "result": "turret_chassis",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "45 m",
+    "qualities": [
+      {
+        "id": "SAW_M",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          8
+        ]
+      ],
+      [
+        [
+          "scrap",
+          12
+        ]
+      ],
+      [
+        [
+          "pipe",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "copbot_chassis",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "60 m",
+    "qualities": [
+      {
+        "id": "SAW_M",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "steel_chunk",
+          10
+        ]
+      ],
+      [
+        [
+          "scrap",
+          16
+        ]
+      ],
+      [
+        [
+          "pipe",
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "uncraft",
+    "result": "android_chassis",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "60 m",
+    "qualities": [
+      {
+        "id": "SAW_M",
+        "level": 1
+      }
+    ],
+    "components": [
+      [
+        [
+          "scrap_aluminum",
+          12
+        ]
+      ],
+      [
+        [
+          "scrap",
+          8
+        ]
+      ],
+      [
+        [
+          "pipe",
+          2
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "broken_lab_security_drone_GM",
+    "volume": "2500 ml",
+    "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+  },
+  {
+    "type": "ITEM",
+    "id": "broken_lab_security_drone_YM",
+    "volume": "2500 ml",
+    "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+  },
+  {
+    "type": "ITEM",
+    "id": "broken_lab_security_drone_BM",
+    "volume": "2500 ml",
+    "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+  },
+  {
+    "type": "ITEM",
+    "id": "broken_lab_security_drone_BM2",
+    "volume": "2500 ml",
+    "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+  },
+  {
+    "type": "ITEM",
+    "id": "broken_lab_security_drone_GR",
+    "volume": "2500 ml",
+    "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+  },
+  {
+    "type": "ITEM",
+    "id": "broken_lab_security_drone_BS",
+    "volume": "2500 ml",
+    "//": "CDDA lists 650 ml for five kilos of aluminium and plastic, denser than the metal itself: put right here"
+  }
+]
