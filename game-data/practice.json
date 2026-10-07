@@ -289,10 +289,6 @@
   },
   "starterItems": [
     {
-      "recipe": "recipe:needle_wood",
-      "use": "Start sewing without a metal needle."
-    },
-    {
       "recipe": "recipe:knitting_needles",
       "use": "Make knitted equipment and practice knitting."
     },
@@ -364,20 +360,28 @@
           "use": "Build the water funnel at camp: rain becomes drinking water."
         },
         {
-          "recipe": "recipe:nail",
-          "use": "Nails from scrap open the workbench, chests and most building."
-        },
-        {
-          "recipe": "recipe:2x4:from logs",
-          "use": "Cut logs into planks for furniture and camp construction."
-        },
-        {
           "recipe": "recipe:awl_bone",
           "use": "Pierce leather using a tool made from bone."
         },
         {
           "recipe": "recipe:charcoal_cooker",
           "use": "Turn wood into charcoal for fuel and metalworking."
+        },
+        {
+          "recipe": "recipe:2_shot_special",
+          "use": "A crude two-shot pistol: the first firearm you can make."
+        },
+        {
+          "recipe": "recipe:gunpowder",
+          "use": "The powder every reloaded round needs."
+        },
+        {
+          "recipe": "recipe:selfbow",
+          "use": "A bow from a stave: quiet hunting at a distance."
+        },
+        {
+          "recipe": "recipe:sling:cord",
+          "use": "Stones at range from a length of cord."
         }
       ],
       "2": [
@@ -398,12 +402,24 @@
           "use": "A real pot cooks and boils better than the makeshift one."
         },
         {
-          "recipe": "recipe:pliers",
-          "use": "A wrench in the hand: many repairs and takings-apart need one."
-        },
-        {
           "recipe": "recipe:drag_hand_cart",
           "use": "A hand cart drags far more between hexes than a back can carry."
+        },
+        {
+          "recipe": "recipe:pipe_shotgun",
+          "use": "A pipe shotgun: cheap, loud and dangerous up close."
+        },
+        {
+          "recipe": "recipe:shortbow",
+          "use": "A proper bow, lighter and quicker than the survival bow."
+        },
+        {
+          "recipe": "recipe:reloaded_shot_00",
+          "use": "Buckshot reloaded from spent shells and powder."
+        },
+        {
+          "recipe": "recipe:char_smoker",
+          "use": "Smokes meat and fish so they keep for months."
         }
       ],
       "3": [
@@ -420,12 +436,34 @@
           "use": "Carries and boils water in bulk."
         },
         {
-          "recipe": "recipe:scissors",
-          "use": "Cuts cloth cleanly: the tailor's first tool."
-        },
-        {
           "recipe": "recipe:knife_small",
           "use": "A fine blade for careful cutting and quick butchery."
+        },
+        {
+          "recipe": "recipe:reloaded_9mmfmj",
+          "use": "Reloaded pistol rounds from empty casings."
+        },
+        {
+          "recipe": "recipe:flintlock_ammo",
+          "use": "Paper cartridges for a flintlock, from powder and lead."
+        },
+        {
+          "recipe": "recipe:crossbow",
+          "use": "A crossbow: a bow's quiet with a trigger."
+        },
+        {
+          "recipe": "recipe:char_forge",
+          "use": "A forge: the start of real metalwork."
+        },
+        {
+          "recipe": "recipe:helmet_scrap",
+          "use": "A helmet from scrap: the head is where a hit kills."
+        }
+      ],
+      "4": [
+        {
+          "recipe": "recipe:hand_crank_charger",
+          "use": "Charges batteries by hand when there is no sun and no power."
         }
       ]
     },
@@ -538,10 +576,6 @@
         {
           "recipe": "recipe:cloak",
           "use": "A cloak over everything else keeps the cold out."
-        },
-        {
-          "recipe": "recipe:long_underpants",
-          "use": "A warm layer under your clothes for the cold months."
         }
       ],
       "3": [
@@ -580,10 +614,6 @@
         {
           "recipe": "recipe:bandages",
           "use": "Proper bandages stop bleeding faster and hold longer."
-        },
-        {
-          "recipe": "recipe:adhesive_bandages",
-          "use": "Quick cover for the scratches small animals leave."
         },
         {
           "recipe": "recipe:bandages_makeshift_bleached",
@@ -646,10 +676,6 @@
         {
           "recipe": "recipe:soup_veggy",
           "use": "A filling pot from what the forest gives."
-        },
-        {
-          "recipe": "recipe:tortilla_corn",
-          "use": "Turn cornmeal into portable flatbread for meals and fillings."
         }
       ],
       "3": [
@@ -682,10 +708,6 @@
           "use": "Lye is the root of soap and of most later chemistry."
         },
         {
-          "recipe": "recipe:lye_potassium:from_lye_powder",
-          "use": "The wood-ash road to the same place."
-        },
-        {
           "recipe": "recipe:fuse",
           "use": "Fuses, for when something must burn later rather than now."
         }
@@ -710,10 +732,6 @@
         {
           "recipe": "recipe:liquid_soap",
           "use": "Soap in a bottle, made from lard."
-        },
-        {
-          "recipe": "recipe:chem_slaked_lime",
-          "use": "Slaked lime, on the way to lye and quicklime."
         },
         {
           "recipe": "recipe:chem_turpentine",
@@ -744,6 +762,14 @@
         {
           "recipe": "recipe:crude_firestarter",
           "use": "Fire from a battery when there is nothing else to strike."
+        },
+        {
+          "recipe": "recipe:battery_charger",
+          "use": "Charges the batteries that run lights, tools and the radio."
+        },
+        {
+          "recipe": "recipe:flashlight",
+          "use": "A light for the night, as long as the batteries last."
         }
       ],
       "2": [
@@ -770,6 +796,26 @@
         {
           "recipe": "recipe:ground_solar_panel",
           "use": "Power from the sun, for as long as there is day."
+        },
+        {
+          "recipe": "recipe:welder_crude",
+          "use": "Welds and repairs metal, and opens the heavier builds."
+        }
+      ],
+      "3": [
+        {
+          "recipe": "recipe:electric_lantern",
+          "use": "A lantern that lights the whole camp from a battery."
+        },
+        {
+          "recipe": "recipe:hotplate",
+          "use": "Cooks from stored power, with no fire and no smoke."
+        }
+      ],
+      "4": [
+        {
+          "recipe": "recipe:dehydrator",
+          "use": "Dries meat, fish and fruit for the winter by itself."
         }
       ]
     }
