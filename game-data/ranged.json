@@ -2066,7 +2066,12 @@
       "speedFloor": 0.2,
       "attackSpeedFloor": 0.2,
       "dodgeFloor": 0.25,
-      "recoverPerMinute": 8
+      "recoverPerMinute": 8,
+      "//blackout": "Prologue rule (07.10.2026): an animal whose wind reaches nothing drops where it stands, out cold for at least blackout.minMinutes and until its wind is back to blackout.wakeShare of its own full; its wind comes back at recoverPerMinute meanwhile, it cannot dodge, and the moment it comes round it bolts. Machines never drop.",
+      "blackout": {
+        "minMinutes": 30,
+        "wakeShare": 0.1
+      }
     },
     "power": {
       "//": "Prologue rule (05.10.2026): a machine's battery is its profile's power (or capacity) plus capacityPerHp for each point of its health, so the large machines of dangerous ground hold far more than the small ones. A machine that got away from a fight, or was got away from, charges itself and is full again after rechargeFullHours; one that ran flat stays shut down.",
