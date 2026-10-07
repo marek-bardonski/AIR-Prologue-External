@@ -15,19 +15,19 @@
   "weights": {
     "//": "Per season and phase (early / mid / late, 30-day thirds). Fog only in the dawn block (00:00-06:00 and 06:00-12:00 blocks halve and keep it respectively: see fogBlocks).",
     "spring": {
-      "early": { "clear": 25, "overcast": 30, "rain": 22, "storm": 3, "fog": 8, "sleet": 8, "snow": 4 },
-      "mid":   { "clear": 32, "overcast": 30, "rain": 24, "storm": 4, "fog": 8, "sleet": 2 },
-      "late":  { "clear": 40, "overcast": 28, "rain": 22, "storm": 5, "fog": 5 }
+      "early": { "clear": 25, "overcast": 30, "rain": 22, "storm": 1.5, "fog": 8, "sleet": 8, "snow": 4 },
+      "mid":   { "clear": 32, "overcast": 30, "rain": 24, "storm": 2, "fog": 8, "sleet": 2 },
+      "late":  { "clear": 40, "overcast": 28, "rain": 22, "storm": 2.5, "fog": 5 }
     },
     "summer": {
-      "early": { "clear": 48, "overcast": 24, "rain": 18, "storm": 7, "fog": 3 },
-      "mid":   { "clear": 55, "overcast": 20, "rain": 15, "storm": 8, "fog": 2 },
-      "late":  { "clear": 50, "overcast": 24, "rain": 16, "storm": 7, "fog": 3 }
+      "early": { "clear": 48, "overcast": 24, "rain": 18, "storm": 3.5, "fog": 3 },
+      "mid":   { "clear": 55, "overcast": 20, "rain": 15, "storm": 4, "fog": 2 },
+      "late":  { "clear": 50, "overcast": 24, "rain": 16, "storm": 3.5, "fog": 3 }
     },
     "autumn": {
-      "early": { "clear": 42, "overcast": 28, "rain": 20, "storm": 4, "fog": 6 },
-      "mid":   { "clear": 32, "overcast": 32, "rain": 22, "storm": 3, "fog": 8, "sleet": 3 },
-      "late":  { "clear": 26, "overcast": 32, "rain": 14, "storm": 2, "fog": 6, "sleet": 10, "snow": 10 }
+      "early": { "clear": 42, "overcast": 28, "rain": 20, "storm": 2, "fog": 6 },
+      "mid":   { "clear": 32, "overcast": 32, "rain": 22, "storm": 1.5, "fog": 8, "sleet": 3 },
+      "late":  { "clear": 26, "overcast": 32, "rain": 14, "storm": 1, "fog": 6, "sleet": 10, "snow": 10 }
     },
     "winter": {
       "early": { "clear": 28, "overcast": 34, "sleet": 6, "snow": 26, "blizzard": 6 },
