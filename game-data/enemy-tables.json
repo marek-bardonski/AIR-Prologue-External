@@ -1,5 +1,5 @@
 {
-  "//": "Weighted enemy presence per tile. 'chance' is the probability of an encounter over one hour of exposure; 'none' is 1 - chance and the entry weights only choose which creature. Weights come from the rarity scale in threat.json (common 100, uncommon 50, rare 20, very_rare 8, exotic 3). 'pack' is the extra companions that turn up with that creature, and is read from the table the tile actually rolls, so the same creature hunts in different numbers on different ground: [min, max] for a flat range, or { \"<extra companions>\": weight } on the same rarity scale when one size should be much rarer than another — a size left out of that map can never turn up. Absent means it hunts alone. Creatures that can neither hurt you nor feed you carry a reduced weight, so a search is rarely spent on a chipmunk. Site tables (house_N, clinic_N, tech_N, checkpoint_N, lab_N) stand in for threat_N on the terrain types that name them in terrain.json 'enemyTables' and always carry the chance of the tier they replace. Global species weight multipliers in threat.json are applied once by GameData after loading. Retired monsters remain defined for saved encounters but have no spawn entries.",
+  "//": "Weighted enemy presence per tile. 'chance' is the probability of an encounter over one hour of exposure; 'none' is 1 - chance and the entry weights only choose which creature. Weights come from the rarity scale in threat.json (common 100, uncommon 50, rare 20, very_rare 8, exotic 3). 'pack' is the extra companions that turn up with that creature, and is read from the table the tile actually rolls, so the same creature hunts in different numbers on different ground: [min, max] for a flat range, or { \"<extra companions>\": weight } on the same rarity scale when one size should be much rarer than another — a size left out of that map can never turn up. Absent means it hunts alone. Creatures that can neither hurt you nor feed you carry a reduced weight, so a search is rarely spent on a chipmunk. Site tables (house_N, clinic_N, tech_N, checkpoint_N, lab_N) stand in for threat_N on the terrain types that name them in terrain.json 'enemyTables' and always carry the chance of the tier they replace. Global species weight multipliers in threat.json are applied once by GameData after loading. Retired monsters remain defined for saved encounters but have no spawn entries. 'weightMultiplier' on an entry scales that creature's weight on that table only, after the global multipliers, so the weight itself stays a rarity step. 'bolt' on an entry is the share of that creature that breaks away instead of standing its ground when met on that table, taken in place of its usual temperament (Balance.newTileEnemy); absent means the creature's own temperament. Large herbivores (deer, moose, reindeer) are not met on threat_1 at all, and on threat_2 they are a third as common and nine in ten of them bolt: open low ground lets them see you far off.",
   "tables": {
     "none": {
       "none": 1,
@@ -220,10 +220,6 @@
       "none": 0.88,
       "entries": [
         {
-          "monster": "mon_deer",
-          "weight": 50
-        },
-        {
           "monster": "mon_wild_rabbit",
           "weight": 20
         },
@@ -352,10 +348,6 @@
           "weight": 8
         },
         {
-          "monster": "mon_reindeer",
-          "weight": 8
-        },
-        {
           "monster": "mon_llama",
           "weight": 8
         },
@@ -403,7 +395,15 @@
       "entries": [
         {
           "monster": "mon_deer",
-          "weight": 100
+          "weight": 100,
+          "weightMultiplier": 0.3333,
+          "bolt": 0.9
+        },
+        {
+          "monster": "mon_reindeer",
+          "weight": 8,
+          "weightMultiplier": 0.3333,
+          "bolt": 0.9
         },
         {
           "monster": "mon_dog",

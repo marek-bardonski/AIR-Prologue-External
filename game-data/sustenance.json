@@ -600,7 +600,7 @@
     "source": "CDDA 0.I character.h sleepiness_levels; character.cpp update_needs/calc_sleep_recovery_rate/check_needs_extremes; effects.json",
     "stages": [
       [
-        191,
+        241,
         "tired"
       ],
       [
@@ -697,25 +697,35 @@
     "stages": [
       [
         0,
-        "hunger_starving"
-      ],
-      [
-        0.05,
-        "hunger_near_starving"
-      ],
-      [
-        0.1,
-        "hunger_famished"
-      ],
-      [
-        0.25,
         "hunger_very_hungry"
       ],
       [
-        0.5,
+        0.125,
         "hunger_hungry"
       ]
-    ]
+    ],
+    "condition": {
+      "hunger_very_hungry": 0,
+      "hunger_hungry": 0.9
+    },
+    "stagesNote": "Prologue rule (07.10.2026): the food bar has two stages and nothing above them. stages are [at, id]: the first whose `at` the bar is at or under. Above the last, no label and no cost at all. hunger_hungry (Peckish) from 12.5% down, hunger_very_hungry (Hungry) at an empty bar. condition is what the stage leaves of the body's condition (0..1) for stamina recovery, wound healing, the wear of a flee and strength training (Needs.felt); an empty bar is 0, as it always was. Starvation proper is the reserve's (starvation.stages), not the bar's."
+  },
+  "waterBar": {
+    "//": "Prologue rule (07.10.2026), the water bar read like the food bar: no label and no cost while it is above the last stage. stages are [share of the bar, id], the first whose share the bar is at or under: thirsty from 12.5% down, water_depleted at an empty bar. condition is what the stage leaves of the body's condition (Needs.felt). Speed and stat losses to thirst start only at the empty bar (cdda-mechanics thirst.thresholds / thirstStatDivisor), and from there the source bands (water_depleted, parched) name the stage by the reserve; the bands for a bar with water still in it are no longer read.",
+    "stages": [
+      [
+        0,
+        "water_depleted"
+      ],
+      [
+        0.125,
+        "thirsty"
+      ]
+    ],
+    "condition": {
+      "water_depleted": 0,
+      "thirsty": 0.9
+    }
   },
   "foodSafety": {
     "rawCalorieMultiplier": 0.75,

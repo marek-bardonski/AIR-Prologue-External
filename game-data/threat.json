@@ -113,7 +113,6 @@
       "mon_wood_frog"
     ],
     [
-      "mon_deer",
       "mon_wild_rabbit",
       "mon_squirrel",
       "mon_grouse",
@@ -143,13 +142,13 @@
       "mon_goat",
       "mon_fox_gray",
       "mon_skunk",
-      "mon_reindeer",
       "mon_llama",
       "mon_dog_bull",
       "mon_dog_beagle"
     ],
     [
       "mon_deer",
+      "mon_reindeer",
       "mon_dog",
       "mon_wild_rabbit",
       "mon_coyote",
