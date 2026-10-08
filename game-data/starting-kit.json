@@ -15,10 +15,14 @@
     ],
     "//": "The guided first day (game/tutorial/Tutorial.js). `recipe`/`materials`: the carrying craft. `second`: one more craft right after it. `drink` and `food`: one small thing each, found by the first search, for the consuming lesson (the food is neither raw nor a parasite risk). `painkiller`: carried into the first fight. `hq.hearth`: the station the headquarters lesson points at after the first shelter stands.",
     "second": {
-      "recipe": "recipe:cordage_6",
+      "recipe": "recipe:sharp_rock",
       "materials": [
         {
-          "id": "withered",
+          "id": "rock_flaking",
+          "count": 1
+        },
+        {
+          "id": "rock",
           "count": 1
         }
       ]
@@ -47,7 +51,243 @@
       "wetAbove": 0.3,
       "overloadedAbove": 0.9,
       "wornBelow": 0.4
-    }
+    },
+    "disassemble": {
+      "item": "string_36",
+      "count": 1
+    },
+    "throw": {
+      "item": "pebble",
+      "charges": 1
+    },
+    "basics": [
+      "recipe:cordage_6",
+      "recipe:bandages",
+      "recipe:sharp_rock"
+    ],
+    "optionalGoals": [
+      {
+        "id": "water",
+        "title": "Find water",
+        "summary": "Find a river or lake. Water can usually be found near where you woke up.",
+        "condition": {
+          "kind": "water"
+        }
+      },
+      {
+        "id": "shelter",
+        "title": "Make a base",
+        "summary": "Choose an explored tile and use Build HQ. It is highly recommended to build near a river or lake; water can usually be found near your starting area.",
+        "condition": {
+          "kind": "shelter"
+        }
+      },
+      {
+        "id": "carry",
+        "title": "Carry supplies",
+        "summary": "Make and wear a carrying item. Crafting shows the materials you need.",
+        "condition": {
+          "kind": "carry"
+        }
+      },
+      {
+        "id": "cutting",
+        "title": "Keep a cutting tool",
+        "summary": "Keep a tool with Cutting 1 or better in your supplies.",
+        "condition": {
+          "kind": "quality",
+          "id": "CUT",
+          "level": 1
+        }
+      },
+      {
+        "id": "cordage",
+        "title": "Keep spare cordage",
+        "summary": "Make or find cordage for your next tools and repairs.",
+        "condition": {
+          "kind": "items",
+          "ids": [
+            "cordage_6",
+            "cordage_36",
+            "string_6",
+            "string_36"
+          ]
+        }
+      },
+      {
+        "id": "bandage",
+        "title": "Prepare wound care",
+        "summary": "Keep a clean bandage ready before exploring farther.",
+        "condition": {
+          "kind": "items",
+          "ids": [
+            "bandages",
+            "bandages_makeshift"
+          ]
+        }
+      },
+      {
+        "id": "fire",
+        "title": "Build a hearth",
+        "summary": "At HQ, open Buildings and build a fire ring for cooking and warmth.",
+        "condition": {
+          "kind": "station",
+          "id": "fire_ring"
+        }
+      },
+      {
+        "id": "water_container",
+        "title": "Carry a water container",
+        "summary": "Keep a bottle or another container that can hold water.",
+        "condition": {
+          "kind": "liquid_container"
+        }
+      },
+      {
+        "id": "safe_water",
+        "title": "Store safe drinking water",
+        "summary": "Keep clean water in your inventory or at HQ.",
+        "condition": {
+          "kind": "items",
+          "ids": [
+            "water_clean"
+          ]
+        }
+      },
+      {
+        "id": "cookware",
+        "title": "Find cookware",
+        "summary": "Keep a tool with Boiling 1 or better for preparing safe water.",
+        "condition": {
+          "kind": "quality",
+          "id": "BOIL",
+          "level": 1
+        }
+      },
+      {
+        "id": "food",
+        "title": "Set food aside",
+        "summary": "Keep some food in your pack or at HQ.",
+        "condition": {
+          "kind": "food"
+        }
+      },
+      {
+        "id": "survival",
+        "title": "Learn survival",
+        "summary": "Reach Survival level 1 by exploring and gathering.",
+        "condition": {
+          "kind": "skill",
+          "id": "survival",
+          "level": 1
+        }
+      },
+      {
+        "id": "fabrication",
+        "title": "Learn fabrication",
+        "summary": "Reach Fabrication level 1 by crafting or practising.",
+        "condition": {
+          "kind": "skill",
+          "id": "fabrication",
+          "level": 1
+        }
+      },
+      {
+        "id": "tailoring",
+        "title": "Learn tailoring",
+        "summary": "Reach Tailoring level 1 by crafting or practising.",
+        "condition": {
+          "kind": "skill",
+          "id": "tailor",
+          "level": 1
+        }
+      },
+      {
+        "id": "hammer",
+        "title": "Keep a hammering tool",
+        "summary": "Keep a tool with Hammering 2 or better for more construction recipes.",
+        "condition": {
+          "kind": "quality",
+          "id": "HAMMER",
+          "level": 2
+        }
+      },
+      {
+        "id": "explore",
+        "title": "Know your surroundings",
+        "summary": "Explore at least 10 tiles. Check nearby terrain before travelling farther.",
+        "condition": {
+          "kind": "explored",
+          "count": 10
+        }
+      },
+      {
+        "id": "book",
+        "title": "Find a book",
+        "summary": "Find and keep a book. Its details show what it teaches or offers for reading.",
+        "condition": {
+          "kind": "book"
+        }
+      },
+      {
+        "id": "cooking",
+        "title": "Learn cooking",
+        "summary": "Reach Cooking level 1 through recipes or practice.",
+        "condition": {
+          "kind": "skill",
+          "id": "cooking",
+          "level": 1
+        }
+      },
+      {
+        "id": "better_cutting",
+        "title": "Improve your cutting tool",
+        "summary": "Keep a tool with Cutting 2 or better to unlock more recipes.",
+        "condition": {
+          "kind": "quality",
+          "id": "CUT",
+          "level": 2
+        }
+      },
+      {
+        "id": "digging",
+        "title": "Prepare to dig",
+        "summary": "Keep a tool with Digging 1 or better for outdoor work.",
+        "condition": {
+          "kind": "quality",
+          "id": "DIG",
+          "level": 1
+        }
+      },
+      {
+        "id": "athletics",
+        "title": "Build endurance",
+        "summary": "Reach Athletics level 1 through travelling, searching and giving ground.",
+        "condition": {
+          "kind": "skill",
+          "id": "swimming",
+          "level": 1
+        }
+      },
+      {
+        "id": "workshop",
+        "title": "Develop your camp",
+        "summary": "Build at least 3 different stations at HQ, including your shelter.",
+        "condition": {
+          "kind": "stations",
+          "count": 3
+        }
+      },
+      {
+        "id": "wider_world",
+        "title": "Explore the wider world",
+        "summary": "Explore at least 25 tiles. Keep water, food and medical supplies ready for the journey.",
+        "condition": {
+          "kind": "explored",
+          "count": 25
+        }
+      }
+    ]
   },
   "ground": [
     {

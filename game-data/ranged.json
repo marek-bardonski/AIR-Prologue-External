@@ -46,7 +46,8 @@
     "walkStamina": 1.0,
     "runStaminaPerStep": 4.0,
     "//runStaminaPerMove": "Prologue rule (27.09.2026): a move made at a run (BACK AWAY, the old footrace) costs this much stamina whatever the steps it covers; the steps still depend on speed, legs, wounds and load, the cost does not. runStaminaPerStep is kept only for fights saved by older builds.",
-    "runStaminaPerMove": 8.0
+    "runStaminaPerMove": 8.0,
+    "backSteps": 3
   },
   "enemy": {
     "//": "What it costs an enemy to cross one step, and how long its wind holds out.",
@@ -96,7 +97,12 @@
       "anvil_crude",
       "anvil_scavenged",
       "anvil_stump"
-    ]
+    ],
+    "practiceProjectile": {
+      "item": "pebble",
+      "amount": 1,
+      "type": "bash"
+    }
   },
   "launchers": {
     "//": "CDDA's ranged damage is on a different scale to its melee damage, so the Prologue states its own here: damage is comparable to a melee weapon's one number, range is in steps. Anything not listed falls back to (ranged_damage + ammo damage) * ammo multiplier * fallbackScale, reaching ranged range / fallbackRangeDivisor steps.",
@@ -2469,5 +2475,16 @@
         ]
       }
     }
+  },
+  "handling": {
+    "//": "Prologue: brief combat handling depends only on encumbrance and whether the item is holstered; no bulk or source pocket draw costs.",
+    "drawMoves": 60,
+    "useMoves": 25,
+    "careMoves": 45,
+    "encumbrancePerPoint": 0.02,
+    "holsterFactor": 0.25,
+    "quickDropMoves": 15,
+    "movesPerMinute": 100,
+    "realMovesPerSecond": 30
   }
 }
