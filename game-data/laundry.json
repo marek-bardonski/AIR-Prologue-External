@@ -200,7 +200,8 @@
     "minMinutes": 8
   },
   "boil": {
-    "//": "Boiling needs no soap and no board, only a vessel that boils and heat under it, but it eats more water, more time and the fuel that time burns.",
+    "//": "Boiling needs no soap and no board, only a vessel that boils and heat under it, but it eats more water, more time and the fuel that time burns. 07.10.2026: only the plain cotton cloth in `items` can be boiled (sheets, patches, balls, thread, string, towels, bandages, a bedsheet, socks); a garment or anything made up (a bow, boots, a coat) must be washed.",
+    "items": ["sheet_cotton", "sheet_cotton_patchwork", "cotton_patchwork", "cotton_ball", "thread", "string_6", "string_36", "towel", "bandages", "sheet", "socks"],
     "quality": "BOIL",
     "level": 1,
     "heat": [

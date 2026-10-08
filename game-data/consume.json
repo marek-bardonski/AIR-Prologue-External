@@ -146,7 +146,9 @@
   },
   "foodSafetyLabels": {
     "lowParasiteChance": 0.02,
-    "highParasiteChance": 0.1
+    "highParasiteChance": 0.1,
+    "//poisoningBands": "07.10.2026: the food poisoning chance per serving is said in a word, never a percentage: the highest band whose floor (percent) the chance reaches.",
+    "poisoningBands": [[0, "Small"], [5, "Medium"], [20, "High"], [50, "Very high"]]
   },
   "rawEdible": [
     "veggy_wild",

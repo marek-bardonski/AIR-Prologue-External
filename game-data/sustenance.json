@@ -79,6 +79,7 @@
     "explore": "LIGHT_EXERCISE",
     "interact": "LIGHT_EXERCISE",
     "butcher": "LIGHT_EXERCISE",
+    "ignite": "LIGHT_EXERCISE",
     "build_station": "MODERATE_EXERCISE",
     "dismantle_station": "MODERATE_EXERCISE",
     "pack_station": "MODERATE_EXERCISE",
