@@ -286,7 +286,9 @@
       ],
       "ensure": true,
       "preserveKnown": true,
-      "roadWeight": 4
+      "roadWeight": 4,
+      "outsideRegions": true,
+      "spacing": 2
     },
     "security_bunker": {
       "terrain": "security_bunker",
@@ -299,7 +301,9 @@
       ],
       "ensure": true,
       "preserveKnown": true,
-      "roadWeight": 2
+      "roadWeight": 2,
+      "outsideRegions": true,
+      "spacing": 2
     }
   },
   "legacyRadius": 25,
