@@ -1,0 +1,30 @@
+{
+  "//": "AIR crafting impact tiers (09.10.2026): the colour a recipe's name wears in the crafting panel, so the things worth looking at stand out when a skill level is reached. Original Prologue design, computed by src/game/crafting/RecipeImpact.js from the catalogue; `rules` are its thresholds and `tiers` are overrides that win over the rule (ids of recipe results).",
+  "rules": {
+    "//": "cookedCaloriesAtLeast: a cooked food with at least this many calories is epic (cooked vegetables count). intermediateUses: a result that is a component of at least this many recipes is an ingredient and sits no higher than uncommon unless the rule or an override says otherwise; food and wound care are spared up to ingredientManyUses, past which they too are ingredients first (a cotton sheet). bigContainerLitres: the first container of at least this room at a level is rare. waterIds: drinkable water results, legendary.",
+    "cookedCaloriesAtLeast": 30,
+    "intermediateUses": 3,
+    "bigContainerLitres": 20,
+    "waterIds": [
+      "water_clean"
+    ],
+    "ingredientManyUses": 50
+  },
+  "tiers": {
+    "legendary": [
+      "water_clean",
+      "antibiotics",
+      "weak_antibiotic",
+      "strong_antibiotic"
+    ],
+    "epic": [],
+    "rare": [],
+    "uncommon": [],
+    "common": [
+      "deflated_wheel_bicycle",
+      "deflated_wheel_bicycle_or",
+      "deflated_wheel_motorbike",
+      "deflated_wheel_motorbike_or"
+    ]
+  }
+}
