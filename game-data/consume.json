@@ -150,7 +150,9 @@
     "//poisoningBands": "07.10.2026: the food poisoning chance per serving is said in a word, never a percentage: the highest band whose floor (percent) the chance reaches.",
     "poisoningBands": [[0, "Small"], [5, "Medium"], [20, "High"], [50, "Very high"]]
   },
+  "//rawEdible": "What a sitting may take raw as it is (Consume.autoSkipReason, 09.10.2026): auto-consume leaves every other raw thing with a food-poisoning chance (rhizomes, stalks) to a deliberate choice; eating by hand is unchanged.",
   "rawEdible": [
+    "potato",
     "veggy_wild",
     "carrot_wild",
     "raw_dandelion",
