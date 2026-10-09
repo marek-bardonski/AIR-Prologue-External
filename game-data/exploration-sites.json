@@ -19,110 +19,286 @@
           "id": "perimeter",
           "name": "Perimeter",
           "at": [
-            110,
-            245
+            90,
+            360
           ],
-          "items": []
+          "items": [],
+          "art": "perimeter"
         },
         {
           "id": "hall",
-          "name": "Entrance hall",
-          "from": "perimeter",
+          "name": "Security lobby",
           "at": [
-            310,
-            245
+            280,
+            360
           ],
           "items": [
             {
-              "item": "string_36",
-              "count": 2,
-              "charges": 1
-            }
-          ]
-        },
-        {
-          "id": "workroom",
-          "name": "Workroom",
-          "from": "hall",
-          "at": [
-            520,
-            125
-          ],
-          "lock": {
-            "kind": "wood",
-            "level": 1
-          },
-          "items": [
-            {
-              "item": "e_scrap",
-              "count": 5,
-              "charges": 1
-            },
-            {
-              "item": "cable",
-              "count": 3,
-              "charges": 1
-            }
-          ]
-        },
-        {
-          "id": "stores",
-          "name": "Locked stores",
-          "from": "hall",
-          "at": [
-            520,
-            365
-          ],
-          "lock": {
-            "kind": "metal",
-            "level": 2
-          },
-          "items": [
-            {
-              "item": "chem_ethanol",
-              "count": 2,
-              "charges": 1
-            },
-            {
-              "item": "chem_citric_acid",
-              "count": 2,
-              "charges": 1
-            }
-          ]
-        },
-        {
-          "id": "secure",
-          "name": "Secure laboratory",
-          "from": "workroom",
-          "at": [
-            760,
-            125
-          ],
-          "lock": {
-            "kind": "security",
-            "level": 3
-          },
-          "items": [
-            {
-              "item": "soldering_iron",
+              "item": "flashlight",
               "count": 1,
               "charges": 1
             },
             {
-              "item": "chem_acetone",
-              "count": 2,
-              "charges": 1
-            },
-            {
-              "item": "chem_glycerol",
-              "count": 2,
-              "charges": 1
-            },
-            {
-              "item": "e_scrap",
-              "count": 8,
+              "item": "light_battery_cell",
+              "count": 1,
               "charges": 1
             }
+          ],
+          "art": "hall",
+          "from": "perimeter"
+        },
+        {
+          "id": "workroom",
+          "name": "Maintenance workshop",
+          "at": [
+            480,
+            150
+          ],
+          "items": [
+            {
+              "item": "e_scrap",
+              "count": 1,
+              "charges": 5
+            },
+            {
+              "item": "cable",
+              "count": 1,
+              "charges": 3
+            }
+          ],
+          "art": "workroom",
+          "from": "hall",
+          "lock": {
+            "kind": "wood",
+            "level": 1
+          },
+          "enemyTable": "interior_maintenance"
+        },
+        {
+          "id": "stores",
+          "name": "Chemical storage",
+          "at": [
+            480,
+            570
+          ],
+          "items": [
+            {
+              "item": "chem_ethanol",
+              "count": 1,
+              "charges": 2
+            },
+            {
+              "item": "chem_citric_acid",
+              "count": 1,
+              "charges": 2
+            }
+          ],
+          "art": "stores",
+          "from": "hall",
+          "lock": {
+            "kind": "metal",
+            "level": 2
+          }
+        },
+        {
+          "id": "medical",
+          "name": "Medical wing",
+          "at": [
+            480,
+            360
+          ],
+          "items": [
+            {
+              "item": "bandages",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "disinfectant",
+              "count": 1,
+              "charges": 2
+            }
+          ],
+          "art": "stores",
+          "from": "hall",
+          "lock": {
+            "kind": "metal",
+            "level": 2
+          },
+          "enemyTable": "interior_medical"
+        },
+        {
+          "id": "secure",
+          "name": "Secure research vault",
+          "at": [
+            700,
+            150
+          ],
+          "items": [],
+          "art": "secure",
+          "from": "workroom",
+          "lock": {
+            "kind": "security",
+            "level": 3
+          },
+          "enemyTable": {
+            "4": "interior_guard_4",
+            "5": "interior_guard_5"
+          },
+          "bundles": [
+            [
+              {
+                "item": "soldering_iron",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "chem_acetone",
+                "count": 1,
+                "charges": 2
+              },
+              {
+                "item": "e_scrap",
+                "count": 1,
+                "charges": 8
+              }
+            ],
+            [
+              {
+                "item": "multimeter",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "chem_glycerol",
+                "count": 1,
+                "charges": 2
+              },
+              {
+                "item": "e_scrap",
+                "count": 1,
+                "charges": 8
+              }
+            ]
+          ]
+        },
+        {
+          "id": "server",
+          "name": "Server room",
+          "at": [
+            700,
+            570
+          ],
+          "items": [
+            {
+              "item": "RAM",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "processor",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "cable",
+              "count": 1,
+              "charges": 4
+            }
+          ],
+          "art": "secure",
+          "from": "stores",
+          "lock": {
+            "kind": "security",
+            "level": 3
+          },
+          "enemyTable": "interior_servers"
+        },
+        {
+          "id": "medical_safe",
+          "name": "Medical safe",
+          "at": [
+            700,
+            360
+          ],
+          "items": [],
+          "art": "safe",
+          "from": "medical",
+          "lock": {
+            "kind": "safe",
+            "level": 3
+          },
+          "bundles": [
+            [
+              {
+                "item": "1st_aid_box",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "disinfectant",
+                "count": 1,
+                "charges": 3
+              }
+            ],
+            [
+              {
+                "item": "bandages",
+                "count": 1,
+                "charges": 5
+              },
+              {
+                "item": "antibiotics",
+                "count": 1,
+                "charges": 3
+              }
+            ]
+          ]
+        },
+        {
+          "id": "research_safe",
+          "name": "Research safe",
+          "at": [
+            910,
+            150
+          ],
+          "items": [],
+          "art": "safe",
+          "from": "secure",
+          "lock": {
+            "kind": "safe",
+            "level": 4
+          },
+          "bundles": [
+            [
+              {
+                "item": "ai_module_basic",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "solar_cell",
+                "count": 1,
+                "charges": 1
+              }
+            ],
+            [
+              {
+                "item": "processor",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "RAM",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "lens",
+                "count": 1,
+                "charges": 1
+              }
+            ]
           ]
         }
       ]
@@ -137,7 +313,8 @@
             110,
             245
           ],
-          "items": []
+          "items": [],
+          "art": "perimeter"
         },
         {
           "id": "hall",
@@ -153,7 +330,8 @@
               "count": 2,
               "charges": 1
             }
-          ]
+          ],
+          "art": "hall"
         },
         {
           "id": "workroom",
@@ -178,7 +356,8 @@
               "count": 3,
               "charges": 1
             }
-          ]
+          ],
+          "art": "workroom"
         },
         {
           "id": "lockers",
@@ -203,7 +382,8 @@
               "count": 5,
               "charges": 1
             }
-          ]
+          ],
+          "art": "stores"
         },
         {
           "id": "secure",
@@ -233,7 +413,8 @@
               "count": 1,
               "charges": 1
             }
-          ]
+          ],
+          "art": "secure"
         }
       ]
     },
@@ -247,7 +428,8 @@
             110,
             245
           ],
-          "items": []
+          "items": [],
+          "art": "perimeter"
         },
         {
           "id": "hall",
@@ -263,7 +445,8 @@
               "count": 2,
               "charges": 1
             }
-          ]
+          ],
+          "art": "hall"
         },
         {
           "id": "workroom",
@@ -288,7 +471,8 @@
               "count": 3,
               "charges": 1
             }
-          ]
+          ],
+          "art": "workroom"
         },
         {
           "id": "lockers",
@@ -313,7 +497,8 @@
               "count": 5,
               "charges": 1
             }
-          ]
+          ],
+          "art": "stores"
         },
         {
           "id": "secure",
@@ -343,7 +528,8 @@
               "count": 1,
               "charges": 1
             }
-          ]
+          ],
+          "art": "secure"
         }
       ]
     },
@@ -357,7 +543,8 @@
             110,
             245
           ],
-          "items": []
+          "items": [],
+          "art": "perimeter"
         },
         {
           "id": "hall",
@@ -373,7 +560,8 @@
               "count": 2,
               "charges": 1
             }
-          ]
+          ],
+          "art": "hall"
         },
         {
           "id": "workroom",
@@ -398,7 +586,8 @@
               "count": 3,
               "charges": 1
             }
-          ]
+          ],
+          "art": "workroom"
         },
         {
           "id": "stores",
@@ -423,7 +612,8 @@
               "count": 2,
               "charges": 1
             }
-          ]
+          ],
+          "art": "stores"
         },
         {
           "id": "secure",
@@ -458,7 +648,8 @@
               "count": 8,
               "charges": 1
             }
-          ]
+          ],
+          "art": "secure"
         }
       ]
     },
@@ -472,7 +663,8 @@
             110,
             245
           ],
-          "items": []
+          "items": [],
+          "art": "perimeter"
         },
         {
           "id": "hall",
@@ -488,7 +680,8 @@
               "count": 2,
               "charges": 1
             }
-          ]
+          ],
+          "art": "hall"
         },
         {
           "id": "bunkroom",
@@ -510,7 +703,8 @@
               "count": 1,
               "charges": 1
             }
-          ]
+          ],
+          "art": "bunkroom"
         },
         {
           "id": "stores",
@@ -535,7 +729,8 @@
               "count": 2,
               "charges": 1
             }
-          ]
+          ],
+          "art": "stores"
         }
       ],
       "safe": {
@@ -578,6 +773,499 @@
           ]
         ]
       }
+    },
+    "emergency_depot": {
+      "name": "Emergency services depot",
+      "rooms": [
+        {
+          "id": "perimeter",
+          "name": "Perimeter",
+          "at": [
+            90,
+            360
+          ],
+          "items": [],
+          "art": "perimeter"
+        },
+        {
+          "id": "hall",
+          "name": "Reception",
+          "at": [
+            280,
+            360
+          ],
+          "items": [
+            {
+              "item": "bandages",
+              "count": 1,
+              "charges": 2
+            },
+            {
+              "item": "matches",
+              "count": 1,
+              "charges": 1
+            }
+          ],
+          "art": "hall",
+          "from": "perimeter"
+        },
+        {
+          "id": "dispatch",
+          "name": "Dispatch office",
+          "at": [
+            480,
+            150
+          ],
+          "items": [
+            {
+              "item": "two_way_radio",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "light_battery_cell",
+              "count": 1,
+              "charges": 1
+            }
+          ],
+          "art": "workroom",
+          "from": "hall",
+          "lock": {
+            "kind": "security",
+            "level": 1
+          }
+        },
+        {
+          "id": "quarters",
+          "name": "Crew quarters",
+          "at": [
+            480,
+            360
+          ],
+          "items": [
+            {
+              "item": "blanket",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "bottle_plastic",
+              "count": 1,
+              "charges": 1
+            }
+          ],
+          "art": "bunkroom",
+          "from": "hall",
+          "enemyTable": "interior_depot_2",
+          "bundles": [
+            [
+              {
+                "item": "blanket",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "jerky",
+                "count": 1,
+                "charges": 1
+              }
+            ],
+            [
+              {
+                "item": "gloves_work",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "can_beans",
+                "count": 1,
+                "charges": 1
+              }
+            ]
+          ]
+        },
+        {
+          "id": "bay",
+          "name": "Vehicle bay",
+          "at": [
+            480,
+            570
+          ],
+          "items": [
+            {
+              "item": "wrench",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "duct_tape",
+              "count": 1,
+              "charges": 20
+            }
+          ],
+          "art": "workroom",
+          "from": "hall",
+          "enemyTable": "interior_depot_2"
+        },
+        {
+          "id": "equipment",
+          "name": "Equipment store",
+          "at": [
+            700,
+            570
+          ],
+          "items": [],
+          "art": "stores",
+          "from": "bay",
+          "lock": {
+            "kind": "wood",
+            "level": 1
+          },
+          "bundles": [
+            [
+              {
+                "item": "crowbar",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "gloves_work",
+                "count": 1,
+                "charges": 1
+              }
+            ],
+            [
+              {
+                "item": "hatchet",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "flashlight",
+                "count": 1,
+                "charges": 1
+              }
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "name": "Medical store",
+          "at": [
+            700,
+            360
+          ],
+          "items": [
+            {
+              "item": "bandages",
+              "count": 1,
+              "charges": 3
+            },
+            {
+              "item": "disinfectant",
+              "count": 1,
+              "charges": 2
+            }
+          ],
+          "art": "stores",
+          "from": "hall",
+          "lock": {
+            "kind": "metal",
+            "level": 2
+          }
+        },
+        {
+          "id": "office_safe",
+          "name": "Office safe",
+          "at": [
+            700,
+            150
+          ],
+          "items": [],
+          "art": "safe",
+          "from": "dispatch",
+          "lock": {
+            "kind": "safe",
+            "level": 2
+          },
+          "bundles": [
+            [
+              {
+                "item": "picklocks",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "light_battery_cell",
+                "count": 1,
+                "charges": 1
+              }
+            ],
+            [
+              {
+                "item": "multimeter",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "two_way_radio",
+                "count": 1,
+                "charges": 1
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "security_bunker": {
+      "name": "Automated security bunker",
+      "rooms": [
+        {
+          "id": "perimeter",
+          "name": "Perimeter",
+          "at": [
+            90,
+            360
+          ],
+          "items": [],
+          "art": "perimeter"
+        },
+        {
+          "id": "hall",
+          "name": "Gatehouse",
+          "at": [
+            280,
+            360
+          ],
+          "items": [
+            {
+              "item": "cable",
+              "count": 1,
+              "charges": 2
+            },
+            {
+              "item": "flashlight",
+              "count": 1,
+              "charges": 1
+            }
+          ],
+          "art": "hall",
+          "from": "perimeter"
+        },
+        {
+          "id": "corridor",
+          "name": "Central corridor",
+          "at": [
+            480,
+            360
+          ],
+          "items": [
+            {
+              "item": "e_scrap",
+              "count": 1,
+              "charges": 3
+            }
+          ],
+          "art": "hall",
+          "from": "hall",
+          "enemyTable": "interior_bunker_4"
+        },
+        {
+          "id": "quarters",
+          "name": "Barracks",
+          "at": [
+            480,
+            150
+          ],
+          "items": [
+            {
+              "item": "blanket",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "gloves_work",
+              "count": 1,
+              "charges": 1
+            }
+          ],
+          "art": "bunkroom",
+          "from": "corridor",
+          "lock": {
+            "kind": "wood",
+            "level": 2
+          }
+        },
+        {
+          "id": "maintenance",
+          "name": "Maintenance bay",
+          "at": [
+            480,
+            570
+          ],
+          "items": [
+            {
+              "item": "soldering_iron",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "solder_wire",
+              "count": 1,
+              "charges": 20
+            }
+          ],
+          "art": "workroom",
+          "from": "corridor",
+          "lock": {
+            "kind": "metal",
+            "level": 2
+          },
+          "enemyTable": "interior_maintenance"
+        },
+        {
+          "id": "control",
+          "name": "Control room",
+          "at": [
+            700,
+            360
+          ],
+          "items": [
+            {
+              "item": "processor",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "RAM",
+              "count": 1,
+              "charges": 1
+            }
+          ],
+          "art": "secure",
+          "from": "corridor",
+          "lock": {
+            "kind": "security",
+            "level": 3
+          },
+          "enemyTable": "interior_bunker_4"
+        },
+        {
+          "id": "armoury",
+          "name": "Armoury",
+          "at": [
+            700,
+            150
+          ],
+          "items": [],
+          "art": "stores",
+          "from": "control",
+          "lock": {
+            "kind": "security",
+            "level": 3
+          },
+          "enemyTable": "interior_guard_4",
+          "bundles": [
+            [
+              {
+                "item": "ballistic_vest_light",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "9mm",
+                "count": 1,
+                "charges": 12
+              }
+            ],
+            [
+              {
+                "item": "helmet_ball",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "shot_00",
+                "count": 1,
+                "charges": 6
+              }
+            ]
+          ]
+        },
+        {
+          "id": "stores",
+          "name": "Secure stores",
+          "at": [
+            700,
+            570
+          ],
+          "items": [
+            {
+              "item": "picklocks",
+              "count": 1,
+              "charges": 1
+            },
+            {
+              "item": "duct_tape",
+              "count": 1,
+              "charges": 30
+            },
+            {
+              "item": "solar_cell",
+              "count": 1,
+              "charges": 1
+            }
+          ],
+          "art": "stores",
+          "from": "control",
+          "lock": {
+            "kind": "metal",
+            "level": 3
+          }
+        },
+        {
+          "id": "armoury_safe",
+          "name": "Armoury safe",
+          "at": [
+            910,
+            150
+          ],
+          "items": [],
+          "art": "safe",
+          "from": "armoury",
+          "lock": {
+            "kind": "safe",
+            "level": 4
+          },
+          "bundles": [
+            [
+              {
+                "item": "glock_19",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "9mm",
+                "count": 1,
+                "charges": 12
+              }
+            ],
+            [
+              {
+                "item": "remington_870",
+                "count": 1,
+                "charges": 1
+              },
+              {
+                "item": "shot_00",
+                "count": 1,
+                "charges": 6
+              }
+            ]
+          ]
+        }
+      ]
     }
-  }
+  },
+  "layoutVersion": 2
 }

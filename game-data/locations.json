@@ -274,7 +274,33 @@
       "roadWeight": 6,
       "spacing": 2
     },
-    "//houseSites": "Specialist sites (26.09.2026): each gets floor(houses x houseRatio) hexes in the old disc and again in the extension. roadWeight makes a hex beside a road that many times likelier than one away from it (it is a preference, never a rule: they stand off the roads too); spacing keeps two specialist sites at least that many hexes apart. Calibrated to about one special place every five or six hexes travelled along a road and every eight to ten off it, counting the older sites."
+    "//houseSites": "Specialist sites (26.09.2026): each gets floor(houses x houseRatio) hexes in the old disc and again in the extension. roadWeight makes a hex beside a road that many times likelier than one away from it (it is a preference, never a rule: they stand off the roads too); spacing keeps two specialist sites at least that many hexes apart. Calibrated to about one special place every five or six hexes travelled along a road and every eight to ten off it, counting the older sites.",
+    "emergency_depot": {
+      "terrain": "emergency_depot",
+      "chance": 0.006,
+      "minDistance": 6,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "ensure": true,
+      "preserveKnown": true,
+      "roadWeight": 4
+    },
+    "security_bunker": {
+      "terrain": "security_bunker",
+      "chance": 0.0025,
+      "minDistance": 14,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "ensure": true,
+      "preserveKnown": true,
+      "roadWeight": 2
+    }
   },
   "legacyRadius": 25,
   "//radius": "The world is 'radius' hexes from the origin. 'legacyRadius' is the disc older saves knew: the 'ensureEach' fallback and the scattered 'ensure' are decided inside it first, so growing the world never moves a place on ground that was already there."

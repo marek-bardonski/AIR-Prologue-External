@@ -2,8 +2,23 @@
   "//": "Hex tile types. Each has variants with a loot table, an enemy table, interactable spawns [id, min, max] and a danger level 0-4. Colours/icons are looked up by type id in the game repo.",
   "water": {
     "//": "Water on the map by season (26.09.2026): lake hexes cannot be entered until the water freezes (Weather.frozenWater); rivers stay open all year, their hexes are banks and fords. `outdoorTerrains` are the grounds where a storm or a blizzard stops searching and gathering. Code: src/game/world/Ice.js, src/game/actions/world.js.",
-    "impassableUnfrozen": ["lake"],
-    "outdoorTerrains": ["field", "forest", "dense_forest", "hills", "river", "lake", "road", "farm", "orchard", "home", "campsite", "logging_camp"]
+    "impassableUnfrozen": [
+      "lake"
+    ],
+    "outdoorTerrains": [
+      "field",
+      "forest",
+      "dense_forest",
+      "hills",
+      "river",
+      "lake",
+      "road",
+      "farm",
+      "orchard",
+      "home",
+      "campsite",
+      "logging_camp"
+    ]
   },
   "types": {
     "home": {
@@ -1406,6 +1421,48 @@
         "4": "lab_4",
         "5": "lab_5"
       }
+    },
+    "emergency_depot": {
+      "name": "Emergency services depot",
+      "danger": 2,
+      "dangerRange": [
+        2,
+        2
+      ],
+      "passable": true,
+      "enemyTables": {
+        "2": "depot_2"
+      },
+      "variants": [
+        {
+          "id": "emergency_depot",
+          "weight": 1,
+          "loot": "fire_station",
+          "enemies": "depot_2",
+          "interactables": []
+        }
+      ]
+    },
+    "security_bunker": {
+      "name": "Automated security bunker",
+      "danger": 4,
+      "dangerRange": [
+        4,
+        4
+      ],
+      "passable": true,
+      "enemyTables": {
+        "4": "bunker_4"
+      },
+      "variants": [
+        {
+          "id": "security_bunker",
+          "weight": 1,
+          "loot": "military_checkpoint",
+          "enemies": "bunker_4",
+          "interactables": []
+        }
+      ]
     }
   }
 }

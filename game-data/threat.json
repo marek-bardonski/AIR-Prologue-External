@@ -64,7 +64,9 @@
     "fire_station": 3,
     "machine_tool_shop": 3,
     "electronics_reclamation": 4,
-    "automated_distribution": 5
+    "automated_distribution": 5,
+    "emergency_depot": 2,
+    "security_bunker": 4
   },
   "pools": [
     [

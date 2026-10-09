@@ -2238,6 +2238,196 @@
           "weight": 3
         }
       ]
+    },
+    "interior_depot_2": {
+      "chance": 0.45,
+      "none": 0.55,
+      "entries": [
+        {
+          "monster": "mon_dog",
+          "weight": 100
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 50
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 50
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 20
+        }
+      ]
+    },
+    "interior_bunker_4": {
+      "chance": 0.65,
+      "none": 0.35,
+      "entries": [
+        {
+          "monster": "mon_watcher",
+          "weight": 100
+        },
+        {
+          "monster": "mon_cordon_unit",
+          "weight": 100
+        },
+        {
+          "monster": "mon_sentry_post",
+          "weight": 50
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 50
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        }
+      ]
+    },
+    "interior_maintenance": {
+      "chance": 0.5,
+      "none": 0.5,
+      "entries": [
+        {
+          "monster": "mon_pipe_crawler",
+          "weight": 100
+        },
+        {
+          "monster": "mon_cable_walker",
+          "weight": 50
+        },
+        {
+          "monster": "mon_shear_drone",
+          "weight": 50
+        },
+        {
+          "monster": "mon_auger_unit",
+          "weight": 20
+        }
+      ]
+    },
+    "interior_medical": {
+      "chance": 0.6,
+      "none": 0.4,
+      "entries": [
+        {
+          "monster": "mon_ward",
+          "weight": 100
+        },
+        {
+          "monster": "mon_orderly_unit",
+          "weight": 50
+        },
+        {
+          "monster": "mon_nurse_unit",
+          "weight": 20
+        }
+      ]
+    },
+    "interior_servers": {
+      "chance": 0.6,
+      "none": 0.4,
+      "entries": [
+        {
+          "monster": "mon_watcher",
+          "weight": 100
+        },
+        {
+          "monster": "mon_cable_walker",
+          "weight": 50
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 20
+        }
+      ]
+    },
+    "interior_guard_4": {
+      "chance": 1,
+      "none": 0,
+      "entries": [
+        {
+          "monster": "mon_sentry_post",
+          "weight": 100
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 50
+        },
+        {
+          "monster": "mon_prism_sentry",
+          "weight": 20
+        }
+      ]
+    },
+    "interior_guard_5": {
+      "chance": 1,
+      "none": 0,
+      "entries": [
+        {
+          "monster": "mon_sentinel",
+          "weight": 100
+        },
+        {
+          "monster": "mon_prototype",
+          "weight": 50
+        },
+        {
+          "monster": "mon_bastion",
+          "weight": 20
+        }
+      ]
+    },
+    "depot_2": {
+      "chance": 0.2,
+      "none": 0.8,
+      "entries": [
+        {
+          "monster": "mon_dog",
+          "weight": 100
+        },
+        {
+          "monster": "mon_parcel_crawler",
+          "weight": 50
+        },
+        {
+          "monster": "mon_litter_picker",
+          "weight": 50
+        },
+        {
+          "monster": "mon_watcher",
+          "weight": 20
+        }
+      ]
+    },
+    "bunker_4": {
+      "chance": 0.38,
+      "none": 0.62,
+      "entries": [
+        {
+          "monster": "mon_watcher",
+          "weight": 100
+        },
+        {
+          "monster": "mon_cordon_unit",
+          "weight": 100
+        },
+        {
+          "monster": "mon_sentry_post",
+          "weight": 50
+        },
+        {
+          "monster": "mon_sentinel",
+          "weight": 50
+        },
+        {
+          "monster": "mon_pulse_hound",
+          "weight": 20
+        }
+      ]
     }
   }
 }
