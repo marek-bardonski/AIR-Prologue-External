@@ -2477,12 +2477,14 @@
     }
   },
   "handling": {
-    "//": "Prologue: brief combat handling depends only on encumbrance and whether the item is holstered; no bulk or source pocket draw costs.",
-    "drawMoves": 60,
+    "//": "Prologue: brief combat handling depends on encumbrance, whether the item is holstered, and (09.10.2026) how much pack room there is to dig through: a draw from the pack costs drawMoves plus packMovesPerLitre for every litre of storage worn or held, a use or a care draw useFromPackShare of that; a holstered thing pays holsterFactor of the base and nothing for the pack.",
+    "drawMoves": 120,
     "useMoves": 25,
     "careMoves": 45,
     "encumbrancePerPoint": 0.02,
-    "holsterFactor": 0.25,
+    "holsterFactor": 0.125,
+    "packMovesPerLitre": 3,
+    "useFromPackShare": 0.5,
     "quickDropMoves": 15,
     "movesPerMinute": 100,
     "realMovesPerSecond": 30

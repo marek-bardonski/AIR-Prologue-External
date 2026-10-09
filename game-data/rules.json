@@ -9,7 +9,19 @@
     "baseWeightGrams": 13000,
     "weightPerStrGrams": 4000,
     "handsHoldOneItem": true,
-    "legEncumbranceTravelPercent": 0.5
+    "legEncumbranceTravelPercent": 0.5,
+    "//wieldedContainer": "09.10.2026: a container carried in the hands (a basket, a sack, a trash bag) is not a pack: every litre of its storage over freeLitres adds encumbrancePerLitre to each of the listed parts, so a big bag in hand slows walking, swings, draws and flight.",
+    "wieldedContainer": {
+      "freeLitres": 3,
+      "encumbrancePerLitre": 0.3,
+      "parts": [
+        "torso",
+        "arm_l",
+        "arm_r",
+        "leg_l",
+        "leg_r"
+      ]
+    }
   },
   "needs": {
     "kcalMax": 2500,
