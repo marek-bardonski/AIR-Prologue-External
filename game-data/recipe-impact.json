@@ -1,14 +1,23 @@
 {
-  "//": "AIR crafting impact tiers (09.10.2026): the colour a recipe's name wears in the crafting panel, so the things worth looking at stand out when a skill level is reached. Original Prologue design, computed by src/game/crafting/RecipeImpact.js from the catalogue; `rules` are its thresholds and `tiers` are overrides that win over the rule (ids of recipe results).",
+  "//": "AIR crafting impact tiers (09.10.2026, reworked the same day): the colour a recipe's name wears in the crafting panel, so the things worth looking at stand out when a skill level is reached. Original Prologue design, computed by src/game/crafting/RecipeImpact.js from the catalogue: score = impact x impactWeight + ease + end, where impact (0..4) is what kind of thing it is (drinking water and the first ranged weapon 4; a staple cooked meal (one thing cooked, water aside, of easy ingredients), a dressing, the best weapon at its level, the first watertight container and a fire starter 3; other cooked food, a new tool quality, other ranged weapons, the best armour, a big container, a light 2; a treat, an ordinary weapon or garment, a tool of a known quality, a staple material 1), ease (0..4) is how easy its ingredients are to come by (the hardest component row at its easiest alternative, from the acquisition evidence, what a seed grows into counting as farmedRank; elaborate recipes of elaborateRows or more rows count one less), and end is +1 for a thing nothing else eats, -1 for an ingredient of intermediateUses or more recipes (food and wound care are spared under stapleMaterialUses uses; past it anything is a material first). `thresholds` are the scores each word starts at; `tiers` are overrides that win (ids of recipe results).",
   "rules": {
-    "//": "cookedCaloriesAtLeast: a cooked food with at least this many calories is epic (cooked vegetables count). intermediateUses: a result that is a component of at least this many recipes is an ingredient and sits no higher than uncommon unless the rule or an override says otherwise; food and wound care are spared up to ingredientManyUses, past which they too are ingredients first (a cotton sheet). bigContainerLitres: the first container of at least this room at a level is rare. waterIds: drinkable water results, legendary.",
+    "impactWeight": 3,
     "cookedCaloriesAtLeast": 30,
+    "elaborateRows": 4,
     "intermediateUses": 3,
     "bigContainerLitres": 20,
+    "unknownIngredientRank": 2,
     "waterIds": [
       "water_clean"
     ],
-    "ingredientManyUses": 50
+    "stapleMaterialUses": 50,
+    "farmedRank": 0
+  },
+  "thresholds": {
+    "legendary": 15,
+    "epic": 13,
+    "rare": 9,
+    "uncommon": 6
   },
   "tiers": {
     "legendary": [

@@ -55,6 +55,12 @@
         "cargo_lock",
         "towel_hanger"
       ]
+    },
+    {
+      "reason": "09.10.2026: a concealed submachine gun in a briefcase is out of place in the Prologue's world and its recipe sat at level 0",
+      "ids": [
+        "briefcase_smg"
+      ]
     }
   ]
 }
