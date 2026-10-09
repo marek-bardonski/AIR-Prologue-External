@@ -163,7 +163,7 @@
     ]
   },
   "forestry": {
-    "//": "Original Prologue balance: mature trees available per hex, two hours with a basic axe. CDDA-style extended axe labour, not a port of CDDA code or its formula. Work and the resulting stumps persist.",
+    "//": "Original Prologue balance: mature trees available per hex, two hours with a basic axe, one log and a stick or two per tree (09.10.2026). CDDA-style extended axe labour, not a port of CDDA code or its formula. Work and the resulting stumps persist.",
     "terrains": {
       "forest": 8,
       "dense_forest": 16
@@ -181,15 +181,15 @@
       {
         "id": "log",
         "count": [
-          2,
-          4
+          1,
+          1
         ]
       },
       {
         "id": "stick_long",
         "count": [
-          2,
-          5
+          1,
+          2
         ]
       }
     ]
