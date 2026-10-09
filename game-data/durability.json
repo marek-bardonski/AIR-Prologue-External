@@ -2,9 +2,14 @@
   "source": "AIR wear balance; repair actor fields and material repair resources from bundled CDDA 0.I. Chance coefficients follow CDDA ITEM repair_item documentation; no CDDA implementation code is imported.",
   "maxDamage": 5,
   "minimumEffectiveness": 0.5,
+  "//armour": "09.10.2026: armour wears per landed blow it covered: perHit x material x (1 + raw damage / impactScale) x (1 + overmatchPerPoint x damage over what the garment stops); about forty 10-point blows break a leather coat from new. Worn without a blow it wears wornPerDay of its maxDamage a day; light damage after a month, broken after three if never repaired.",
   "wear": {
     "weapon": 0.015,
-    "armour": 0.008,
+    "armour": {
+      "perHit": 0.09,
+      "overmatchPerPoint": 0.05,
+      "wornPerDay": 0.055
+    },
     "shot": 0.004,
     "improvisedMultiplier": 3,
     "fragileMultiplier": 4,
@@ -17,7 +22,22 @@
       "bone": 2,
       "stone": 1.5,
       "cotton": 1.5,
-      "wool": 1.5
+      "wool": 1.5,
+      "paper": 3,
+      "cardboard": 3,
+      "dry_plant": 2.5,
+      "denim": 1.2,
+      "canvas": 1.2,
+      "fur": 1.2,
+      "leather": 1,
+      "leather_treated": 0.9,
+      "budget_steel": 0.9,
+      "steel": 0.8,
+      "lc_steel": 0.8,
+      "iron": 0.8,
+      "kevlar": 0.7,
+      "kevlar_layered": 0.7,
+      "kevlar_rigid": 0.7
     }
   },
   "condition": [

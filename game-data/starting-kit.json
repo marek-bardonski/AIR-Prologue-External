@@ -43,7 +43,7 @@
     "hq": {
       "hearth": "fire_ring"
     },
-    "//lessons": "Prologue rule (07.10.2026): the first-time lessons after the guide (src/game/tutorial/Lessons.js) start at these lines: lowWaterBelow and lowFoodBelow are shares of the water and food bars, moodBelow a mood level (practice.json morale.levelCap bounds it), wetAbove a share of soaked, overloadedAbove a share of the carrying weight limit, wornBelow a share of a wielded tool's condition, heldBagLitres the storage of a container held in the hands that earns the held-bag lesson.",
+    "//lessons": "Prologue rule (07.10.2026): the first-time lessons after the guide (src/game/tutorial/Lessons.js) start at these lines: lowWaterBelow and lowFoodBelow are shares of the water and food bars, moodBelow a mood level (practice.json morale.levelCap bounds it), wetAbove a share of soaked, overloadedAbove a share of the carrying weight limit, wornBelow a share of a wielded tool's condition, heldBagLitres the storage of a container held in the hands that earns the held-bag lesson, armourWornBelow a share of a worn garment's condition.",
     "lessons": {
       "lowWaterBelow": 0.25,
       "lowFoodBelow": 0.25,
@@ -51,7 +51,8 @@
       "wetAbove": 0.3,
       "overloadedAbove": 0.9,
       "wornBelow": 0.4,
-      "heldBagLitres": 20
+      "heldBagLitres": 20,
+      "armourWornBelow": 0.67
     },
     "disassemble": {
       "item": "string_36",
