@@ -110,6 +110,8 @@
     "mushroom": 0.25
   },
   "proteinGrams": {
+    "//cracklins": "Prologue (10.10.2026): cracklings are rendered fat, nothing but fat; no protein counts",
+    "cracklins": 0,
     "//watermelon": "Prologue (05.10.2026): melon flesh is water and sugar; its trace of protein does not count",
     "watermelon": 0,
     "watermelon_wedge": 0,

@@ -4,6 +4,7 @@
   { "type": "recipe", "result": "receiver", "autolearn": [ [ "electronics", 2 ] ] },
   { "type": "recipe", "result": "amplifier", "autolearn": [ [ "electronics", 1 ] ] },
   { "type": "recipe", "result": "soldering_iron", "autolearn": [ [ "electronics", 1 ] ] },
+  { "//": "10.10.2026: the factory hand-crank charger is known by itself at electronics 2 (its making still asks fabrication 4 with electronics 3); the wilderness mod's makeshift charger recipe is gone, the thing itself still found.", "type": "recipe", "result": "hand_crank_charger", "autolearn": [ [ "electronics", 2 ] ] },
   {
     "type": "recipe",
     "result": "antenna",
