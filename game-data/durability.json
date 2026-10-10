@@ -69,6 +69,10 @@
       "repair_fabric": "thread",
       "repair_wood": "duct_tape"
     },
+    "//loadable": "Prologue (10.10.2026): a supply a tool is loaded with through Load (as CDDA loads thread onto a needle) and spends mending; loose thread within reach is only there to be loaded.",
+    "loadable": [
+      "thread"
+    ],
     "gunAction": {
       "materials": [
         "steel",
