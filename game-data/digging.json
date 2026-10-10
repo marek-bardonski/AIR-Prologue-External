@@ -42,6 +42,14 @@
             300,
             600
           ]
+        },
+        {
+          "id": "material_gravel",
+          "charges": [
+            20,
+            60
+          ],
+          "chance": 0.5
         }
       ]
     },
@@ -109,6 +117,14 @@
             2,
             6
           ]
+        },
+        {
+          "id": "material_gravel",
+          "charges": [
+            30,
+            90
+          ],
+          "chance": 0.6
         },
         {
           "id": "material_soil",
@@ -207,5 +223,6 @@
         }
       ]
     }
-  }
+  },
+  "//gravel": "Prologue (10.10.2026): gravel is dug up with the sand of a shore (half the digs) and the stones of a hillside (most digs); a pebble crushed with a hammer on an anvil (recipe material_gravel) is the other road to it."
 }

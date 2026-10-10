@@ -61,6 +61,10 @@
     "speedPerLevel": 0.1,
     "staminaPerLevel": 0.1,
     "fleePerLevel": 0.05,
+    "//walkDrainPerLevel": "Prologue (10.10.2026): every level takes this share off the breath a walk or a search costs a minute, down to walkDrainFloor of it, and adds regenPerLevel to the pace the breath comes back at. A seasoned walker goes the day without a rest.",
+    "walkDrainPerLevel": 0.07,
+    "walkDrainFloor": 0.3,
+    "regenPerLevel": 0.05,
     "maxLevel": 10,
     "//xp": "Where the practice comes from: walking the map, searching a hex, and every step and every escape made under pressure.",
     "xp": {
@@ -236,9 +240,27 @@
     "//fatigueMaxPerEffortShare": "Prologue rule (04.10.2026): one effort the breath does not cover never costs more sleepiness than this share of the way to collapse, so an over-exerting survivor always has several actions left before blacking out.",
     "fatiguePenalties": {
       "//": "Original Prologue balance: current tiredness immediately affects the body, in addition to sustained sleep deprivation. Combat overdrafts build tiredness faster than ordinary work.",
-      "tired": { "speed": -10, "str": -1, "dex": -1, "int": -1, "per": -1 },
-      "dead_tired": { "speed": -20, "str": -2, "dex": -2, "int": -2, "per": -2 },
-      "exhausted": { "speed": -35, "str": -3, "dex": -4, "int": -3, "per": -4 }
+      "tired": {
+        "speed": -10,
+        "str": -1,
+        "dex": -1,
+        "int": -1,
+        "per": -1
+      },
+      "dead_tired": {
+        "speed": -20,
+        "str": -2,
+        "dex": -2,
+        "int": -2,
+        "per": -2
+      },
+      "exhausted": {
+        "speed": -35,
+        "str": -3,
+        "dex": -4,
+        "int": -3,
+        "per": -4
+      }
     },
     "collapseMinutes": 10,
     "//blackout": "Prologue rule (26.09.2026, no grace since 07.10.2026): a black-out from exhaustion in a fight is not a ten-minute pause. Out cold, the survivor stays down for combatBlackoutMinutes (the whole fight, in practice) unless a damaging blow brings them round (blackoutWakeOnHit), after stamina and the rested bar have recovered to blackoutWakeStaminaShare and blackoutWakeRestShare. Expiry also requires this recovery. There is no grace afterwards: on their feet again with the wake budget of tiredness (blackoutWakeFatigueBudget), every effort short of breath spends it, and at the collapse line they drop again. A fight that ends while they are out becomes the forced sleep.",
@@ -324,8 +346,14 @@
         0.0,
         0.3
       ],
-      "fell_tree": [1.2, 1.2],
-      "dig": [1.2, 1.2],
+      "fell_tree": [
+        1.2,
+        1.2
+      ],
+      "dig": [
+        1.2,
+        1.2
+      ],
       "build_road": [
         0.8,
         1.0
@@ -632,9 +660,37 @@
     "decayStartMinutes": 30,
     "durationMinutes": 360,
     "kinds": {
-      "game": { "label": "Played a game", "verb": "Play", "actions": ["PORTABLE_GAME", "PLAY_GAME"], "perMinute": 0.1, "cap": 3, "hands": true },
-      "music": { "label": "Listened to music", "verb": "Listen", "actions": ["MP3"], "perMinute": 0.08, "cap": 2, "hands": false },
-      "ebook": { "label": "Read an e-book", "verb": "Read", "actions": ["EBOOKSAVE"], "perMinute": 0.06, "cap": 2, "hands": true }
+      "game": {
+        "label": "Played a game",
+        "verb": "Play",
+        "actions": [
+          "PORTABLE_GAME",
+          "PLAY_GAME"
+        ],
+        "perMinute": 0.1,
+        "cap": 3,
+        "hands": true
+      },
+      "music": {
+        "label": "Listened to music",
+        "verb": "Listen",
+        "actions": [
+          "MP3"
+        ],
+        "perMinute": 0.08,
+        "cap": 2,
+        "hands": false
+      },
+      "ebook": {
+        "label": "Read an e-book",
+        "verb": "Read",
+        "actions": [
+          "EBOOKSAVE"
+        ],
+        "perMinute": 0.06,
+        "cap": 2,
+        "hands": true
+      }
     }
   },
   "qualityTime": {

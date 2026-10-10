@@ -1047,9 +1047,13 @@
       "acceptsItems": [],
       "external": false,
       "light": false,
-      "watts": 0,
+      "watts": 1,
       "defaultBattery": "medium_battery_cell",
-      "passiveQualities": {}
+      "passiveQualities": {},
+      "noise": {
+        "//": "Prologue (10.10.2026): switched on and carried, it draws every creature within earshot: an encounter on a hex walked or searched is this many times as likely. Hunters like it; sleepers do not. The watts are the Prologue's own.",
+        "encounterFactor": 2.5
+      }
     },
     "noise_emitter_super": {
       "kind": "device",
@@ -1059,9 +1063,13 @@
       "acceptsItems": [],
       "external": false,
       "light": false,
-      "watts": 0,
+      "watts": 2,
       "defaultBattery": "medium_battery_cell",
-      "passiveQualities": {}
+      "passiveQualities": {},
+      "noise": {
+        "//": "Prologue (10.10.2026): switched on and carried, it draws every creature within earshot: an encounter on a hex walked or searched is this many times as likely. Hunters like it; sleepers do not. The watts are the Prologue's own.",
+        "encounterFactor": 4
+      }
     },
     "electric_lighter": {
       "kind": "device",
