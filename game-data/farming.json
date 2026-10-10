@@ -1,6 +1,11 @@
 {
   "//": "Farming on world tiles: which ground can be worked, what grows on it, how long it takes and what it costs. Crop grow times come from the seeds' own CDDA data and are scaled by growth.scale; everything else is Prologue tuning.",
   "plantsPerPlot": 25,
+  "camp": {
+    "//": "Prologue (10.10.2026): the camp hex itself can be farmed, as a small plot of the ground it stands on: plantsShare of that ground's plant spaces, and clearing, ditching and tilling take timeShare of the usual minutes. Opened from the Build list of the Home panel.",
+    "plantsShare": 0.25,
+    "timeShare": 0.75
+  },
   "growth": {
     "//": "growDays = seed grow time * scale. Speed = 1 + waterBonus * water coverage + fertilizerBonus * fertilizer power, capped at maxSpeed.",
     "scale": 0.23,
