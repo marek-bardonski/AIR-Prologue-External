@@ -1,6 +1,6 @@
 {
-  "files": 3411,
-  "objects": 58126,
+  "files": 3412,
+  "objects": 58128,
   "duplicates": 633,
   "byDomain": {
     "achievement": 221,
@@ -60,7 +60,7 @@
     "item_action": 206,
     "item_category": 36,
     "ammo_type": 168,
-    "recipe": 6136,
+    "recipe": 6138,
     "migration": 639,
     "limb_score": 15,
     "loot_zone": 64,
@@ -131,5 +131,5 @@
     "mod_info": 1,
     "region_overlay": 1
   },
-  "generatedAt": "2026-10-06T22:38:55.832Z"
+  "generatedAt": "2026-10-10T15:37:17.881Z"
 }

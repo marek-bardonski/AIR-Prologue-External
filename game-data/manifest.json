@@ -70,6 +70,7 @@
     "camp-view.json",
     "health.json",
     "digging.json",
-    "ingredient-kinds.json"
+    "ingredient-kinds.json",
+    "painkillers.json"
   ]
 }

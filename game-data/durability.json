@@ -4,6 +4,13 @@
   "minimumEffectiveness": 0.5,
   "//armour": "09.10.2026: armour wears per landed blow it covered: perHit x material x (1 + raw damage / impactScale) x (1 + overmatchPerPoint x damage over what the garment stops); about forty 10-point blows break a leather coat from new. Worn without a blow it wears wornPerDay of its maxDamage a day; light damage after a month, broken after three if never repaired.",
   "wear": {
+    "//lifeBands": "10.10.2026: the item facts say a thing's life in one of five words, from the hits it lands, blows it stops, days it is worn or shots it fires before breaking from new (Durability.life): the first band whose floor the figure reaches, from the top. The figures themselves are on hover.",
+    "lifeBands": {
+      "hits": [[600, "very high"], [250, "high"], [100, "medium"], [40, "low"], [0, "very low"]],
+      "blows": [[120, "very high"], [60, "high"], [30, "medium"], [12, "low"], [0, "very low"]],
+      "days": [[180, "very high"], [90, "high"], [45, "medium"], [20, "low"], [0, "very low"]],
+      "shots": [[2000, "very high"], [800, "high"], [300, "medium"], [100, "low"], [0, "very low"]]
+    },
     "weapon": 0.015,
     "armour": {
       "perHit": 0.09,

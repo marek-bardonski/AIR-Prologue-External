@@ -1,0 +1,65 @@
+{
+  "//": "Prologue (10.10.2026): painkillers as doses, in place of CDDA's per-tick model for what the survivor takes. A dose of an effect rises from nothing at 0 to a quarter of its strength at onsetMinutes, to its full strength at peakMinutes, holds briefly and fades to nothing at durationMinutes (piecewise linear). The dulling felt is the sum of every running dose of a kind, never over that kind's cap, and the kinds add up to the largest cap among them. Pain.js reads this; the effect ids are the ones the items' use actions name (cdda-mechanics painkillers.effects keeps their CDDA definitions for the record). The strengths are in points of pain dulled; aspirin and the other mild ones are deliberately weak, codeine and the opiates strong; the long-acting one is slow and lasts half a day.",
+  "doses": {
+    "pkill1_generic": {
+      "onsetMinutes": 20,
+      "peakMinutes": 45,
+      "durationMinutes": 180,
+      "strength": 6,
+      "cap": 12
+    },
+    "pkill1_nsaid": {
+      "onsetMinutes": 30,
+      "peakMinutes": 60,
+      "durationMinutes": 270,
+      "strength": 8,
+      "cap": 15
+    },
+    "pkill1_acetaminophen": {
+      "onsetMinutes": 30,
+      "peakMinutes": 60,
+      "durationMinutes": 300,
+      "strength": 8,
+      "cap": 15
+    },
+    "pkill_wintergreen": {
+      "onsetMinutes": 20,
+      "peakMinutes": 40,
+      "durationMinutes": 150,
+      "strength": 4,
+      "cap": 10
+    },
+    "pkill_wintergreen_oil": {
+      "onsetMinutes": 15,
+      "peakMinutes": 30,
+      "durationMinutes": 120,
+      "strength": 5,
+      "cap": 10
+    },
+    "pkill2": {
+      "onsetMinutes": 20,
+      "peakMinutes": 60,
+      "durationMinutes": 360,
+      "strength": 20,
+      "cap": 40
+    },
+    "pkill3": {
+      "onsetMinutes": 15,
+      "peakMinutes": 45,
+      "durationMinutes": 300,
+      "strength": 40,
+      "cap": 70
+    },
+    "pkill_l": {
+      "onsetMinutes": 45,
+      "peakMinutes": 120,
+      "durationMinutes": 720,
+      "strength": 25,
+      "cap": 50
+    }
+  },
+  "holdShare": 0.15,
+  "//holdShare": "the share of durationMinutes after the peak during which a dose holds its full strength before it starts to fade",
+  "surgeDecayPerFiveMinutes": 1,
+  "//surge": "what an adrenaline surge dulls (intoxicants surge.painkiller) is not a dose: it is added at once and falls by surgeDecayPerFiveMinutes every five minutes"
+}

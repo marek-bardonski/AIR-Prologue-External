@@ -1,0 +1,69 @@
+[
+  {
+    "//": "The Prologue's dressings (10.10.2026): a makeshift bandage is boiled one at a time in a measure of clean water over a boiling heat, and bleached three at a time with one measure of bleach; CDDA's nine-at-a-time recipes wanted a stock nobody has at the start."
+  },
+  {
+    "type": "recipe",
+    "result": "bandages_makeshift_boiled",
+    "id_suffix": "prologue",
+    "copy-from": "bandages_makeshift_boiled",
+    "time": "6 m",
+    "result_mult": 1,
+    "tools": [
+      [
+        [
+          "water_boiling_heat",
+          1,
+          "LIST"
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "bandages_makeshift",
+          1
+        ]
+      ],
+      [
+        [
+          "water_clean",
+          1
+        ]
+      ]
+    ],
+    "byproducts": []
+  },
+  {
+    "type": "recipe",
+    "result": "bandages_makeshift_bleached",
+    "id_suffix": "prologue",
+    "copy-from": "bandages_makeshift_bleached",
+    "time": "4 m",
+    "result_mult": 3,
+    "components": [
+      [
+        [
+          "bandages_makeshift",
+          3
+        ]
+      ],
+      [
+        [
+          "bleach",
+          1
+        ]
+      ],
+      [
+        [
+          "water_clean",
+          1
+        ],
+        [
+          "water",
+          1
+        ]
+      ]
+    ]
+  }
+]

@@ -295,6 +295,15 @@
       "pin": 40,
       "fuse": 120
     },
+    "minThrow": {
+      "//": "10.10.2026: a charge is not thrown closer than the first step at which the thrower's expected harm (Explosives.selfHarm, before armour) is selfHarmAllowed or less; a charge that is never that safe may still be thrown at its full range and nowhere nearer.",
+      "selfHarmAllowed": 25
+    },
+    "loot": {
+      "//": "10.10.2026: what a blast leaves of what it kills. `blasted` is the share of the centre force that reached the creature (distanceFactor^steps). Its carcass is lost from carcassLostFrom; every drop is lost with probability blasted x dropLossShare.",
+      "carcassLostFrom": 0.35,
+      "dropLossShare": 0.8
+    },
     "stamina": 3,
     "scatter": {
       "steps": 3

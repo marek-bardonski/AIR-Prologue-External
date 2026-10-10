@@ -2477,7 +2477,7 @@
     }
   },
   "handling": {
-    "//": "Prologue: brief combat handling depends on encumbrance, whether the item is holstered, and (09.10.2026) how much pack room there is to dig through: a draw from the pack costs drawMoves plus packMovesPerLitre for every litre of storage worn or held, a use or a care draw useFromPackShare of that; a holstered thing pays holsterFactor of the base and nothing for the pack.",
+    "//": "Prologue: brief combat handling depends on encumbrance, whether the item is holstered, and (09.10.2026) how much pack room there is to dig through (realMovesPerSecond 200 since 10.10.2026: a brief item action runs at half a second a game minute, so one portion is a blink and eight are proportional): a draw from the pack costs drawMoves plus packMovesPerLitre for every litre of storage worn or held, a use or a care draw useFromPackShare of that; a holstered thing pays holsterFactor of the base and nothing for the pack.",
     "drawMoves": 120,
     "useMoves": 25,
     "careMoves": 45,
@@ -2487,6 +2487,6 @@
     "useFromPackShare": 0.5,
     "quickDropMoves": 15,
     "movesPerMinute": 100,
-    "realMovesPerSecond": 30
+    "realMovesPerSecond": 200
   }
 }
