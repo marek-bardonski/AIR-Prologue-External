@@ -7031,5 +7031,8 @@
     "bio_torsionratchet",
     "bio_claws_weapon",
     "bio_scalpel"
+  ],
+  "calibration_10_10": [
+    "engine_generator_prologue"
   ]
 }

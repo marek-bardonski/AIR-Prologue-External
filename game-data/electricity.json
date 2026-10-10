@@ -1112,6 +1112,22 @@
         "BATTERY_ULTRA_LIGHT"
       ],
       "//": "The wilderness mod's home-made charger: the hand-crank rule, at 6 W against the factory one's 10 (a Prologue figure)."
+    },
+    "cell_phone": {
+      "kind": "device",
+      "accepts": [
+        "BATTERY_ULTRA_LIGHT"
+      ],
+      "acceptsItems": [],
+      "external": false,
+      "light": false,
+      "watts": 0,
+      "defaultBattery": "light_minus_battery_cell",
+      "foundCharge": [
+        0.1,
+        0.7
+      ],
+      "//": "AIR (10.10.2026): no network left to call on. A found phone still holds its cell, which comes out and powers small devices."
     }
   },
   "lights": {

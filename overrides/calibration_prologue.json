@@ -1,0 +1,208 @@
+[
+  {
+    "//": "AIR calibration of 10.10.2026. Two things CDDA does not have. (1) Crude solder: tin ware or scrap tin melted with lead over an open fire in a crucible or a can, fluxed with rosin or raw pine resin and poured into strips. No swage, no chemistry set, no forge; less comes out than from the proper recipe. (2) An engine-driven generator: a small engine belted to a salvaged alternator on a frame of pipe, with a can for a tank. It is a generator for the camp's batteries (game-data/camp-power.json `generators`)."
+  },
+  {
+    "type": "recipe",
+    "result": "solder_wire",
+    "id_suffix": "prologue_crude",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "charges": 40,
+    "qualities": [
+      {
+        "id": "HAMMER",
+        "level": 1
+      }
+    ],
+    "tools": [
+      [
+        [
+          "fire",
+          -1
+        ]
+      ],
+      [
+        [
+          "crucible_clay",
+          -1
+        ],
+        [
+          "crucible",
+          -1
+        ],
+        [
+          "can_food",
+          -1
+        ]
+      ]
+    ],
+    "components": [
+      [
+        [
+          "tin_cup",
+          2
+        ],
+        [
+          "tin_plate",
+          2
+        ],
+        [
+          "bowl_pewter",
+          2
+        ],
+        [
+          "scrap_tin",
+          8
+        ],
+        [
+          "tin",
+          25
+        ]
+      ],
+      [
+        [
+          "lead",
+          15
+        ]
+      ],
+      [
+        [
+          "rosin",
+          1
+        ],
+        [
+          "pine_resin",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "engine_generator_prologue",
+    "copy-from": "portable_generator",
+    "name": {
+      "str": "engine-driven generator"
+    },
+    "description": "A small engine bolted to a frame of pipe and belted to a car's alternator, with a can strapped on for a tank.  Rough, loud and thirsty, but it turns fuel into charge for a bank of batteries.",
+    "weight": "34 kg",
+    "volume": "60 L",
+    "price": "120 USD",
+    "price_postapoc": "15 USD"
+  },
+  {
+    "type": "recipe",
+    "result": "engine_generator_prologue",
+    "activity_level": "MODERATE_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "mechanics",
+    "difficulty": 2,
+    "skills_required": [
+      "fabrication",
+      1
+    ],
+    "time": "3 h",
+    "autolearn": true,
+    "qualities": [
+      {
+        "id": "WRENCH",
+        "level": 2
+      },
+      {
+        "id": "SCREW",
+        "level": 1
+      },
+      {
+        "id": "HAMMER",
+        "level": 2
+      }
+    ],
+    "components": [
+      [
+        [
+          "alternator_car",
+          1
+        ],
+        [
+          "alternator_truck",
+          1
+        ],
+        [
+          "alternator_motorbike",
+          1
+        ]
+      ],
+      [
+        [
+          "1cyl_combustion",
+          1
+        ],
+        [
+          "1cyl_combustion_small",
+          1
+        ],
+        [
+          "1cyl_combustion_med",
+          1
+        ],
+        [
+          "1cyl_combustion_large",
+          1
+        ],
+        [
+          "v2_combustion",
+          1
+        ],
+        [
+          "i4_combustion",
+          1
+        ]
+      ],
+      [
+        [
+          "drivebelt",
+          1
+        ],
+        [
+          "rope_6",
+          2
+        ]
+      ],
+      [
+        [
+          "pipe",
+          4
+        ]
+      ],
+      [
+        [
+          "jerrycan",
+          1
+        ],
+        [
+          "metal_tank_little",
+          1
+        ]
+      ],
+      [
+        [
+          "cable",
+          20
+        ]
+      ],
+      [
+        [
+          "nuts_bolts",
+          8
+        ]
+      ]
+    ]
+  }
+]

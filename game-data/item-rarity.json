@@ -31,25 +31,41 @@
     "pools": {
       "uncommon": [
         "sweater",
-        "pan",
-        "knife_small",
         "manual_fabrication",
         "pocket_survival",
-        "rollmat"
+        "rollmat",
+        "multitool",
+        "funnel",
+        "jerrycan",
+        "hose",
+        "mp3"
       ],
       "rare": [
         "wash_kit",
         "electric_lantern",
-        "welder",
-        "welding_kit",
-        "royal_jelly"
+        "royal_jelly",
+        "pur_tablets",
+        {
+          "id": "welder",
+          "weight": 0.1
+        },
+        {
+          "id": "welding_kit",
+          "weight": 0.1
+        }
       ],
       "epic": [
-        "solar_panel",
+        {
+          "id": "solar_panel",
+          "weight": 0.5
+        },
         "multimeter",
         "hotplate",
         "water_purifier",
-        "chemistry_set",
+        {
+          "id": "chemistry_set",
+          "weight": 0.5
+        },
         "garnet",
         "amethyst"
       ],
@@ -61,6 +77,7 @@
         "gold_watch"
       ]
     },
-    "//": "Independent per-tier floor rolls only when normal exploration produced none of that tier. Deliberately bypass per-item availability gates. Classifications remain based on baseline sources, so the bonus cannot reclassify its own pool."
+    "//": "Independent per-tier floor rolls only when normal exploration produced none of that tier. Deliberately bypass per-item availability gates. Classifications remain based on baseline sources, so the bonus cannot reclassify its own pool.",
+    "//weights": "AIR (10.10.2026): a pool row is an id, or { id, weight }. The arc welder and the welding kit were one find in five of every rare floor roll, about one explored hex in twenty-five; at a tenth of a share they are one in two hundred. The solar panel and the chemistry set have half a share."
   }
 }

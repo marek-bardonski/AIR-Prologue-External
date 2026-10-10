@@ -1038,6 +1038,8 @@
     "recipe:wheel_wide",
     "recipe:wheel_wide_or",
     "recipe:wheel_motorbike",
-    "recipe:wheel_motorbike_or"
+    "recipe:wheel_motorbike_or",
+    "recipe:solder_wire:prologue_crude",
+    "recipe:engine_generator_prologue"
   ]
 }

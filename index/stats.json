@@ -1,6 +1,6 @@
 {
-  "files": 3412,
-  "objects": 58128,
+  "files": 3413,
+  "objects": 58131,
   "duplicates": 633,
   "byDomain": {
     "achievement": 221,
@@ -8,7 +8,7 @@
     "ammo_effect": 82,
     "anatomy": 2,
     "spell": 942,
-    "item": 11717,
+    "item": 11718,
     "enchantment": 71,
     "relic_procgen_data": 7,
     "ascii_art": 399,
@@ -60,7 +60,7 @@
     "item_action": 206,
     "item_category": 36,
     "ammo_type": 168,
-    "recipe": 6138,
+    "recipe": 6140,
     "migration": 639,
     "limb_score": 15,
     "loot_zone": 64,
@@ -131,5 +131,5 @@
     "mod_info": 1,
     "region_overlay": 1
   },
-  "generatedAt": "2026-10-10T17:45:34.909Z"
+  "generatedAt": "2026-10-10T19:56:18.320Z"
 }

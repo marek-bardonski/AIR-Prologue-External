@@ -30,6 +30,10 @@
       "watts": 10000,
       "fuelMlPerKwh": 350,
       "fuelItem": "diesel"
+    },
+    "engine_generator_prologue": {
+      "watts": 1200,
+      "fuelMlPerKwh": 800
     }
   },
   "//appliances": "Corded (link_up) tools and appliances and their draw in watts. 06.10.2026: the washing machines draw CDDA's 400 W; the water heaters' 1500 and 2000 W are the Prologue's own figures.",

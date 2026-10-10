@@ -137,6 +137,7 @@
     "drive": "NO_EXERCISE",
     "cycle": "MODERATE_EXERCISE",
     "vehicle_work": "LIGHT_EXERCISE",
+    "vehicle_idle": "NO_EXERCISE",
     "village_priority": "NO_EXERCISE",
     "village_care": "NO_EXERCISE",
     "autodoc_install": "NO_EXERCISE",

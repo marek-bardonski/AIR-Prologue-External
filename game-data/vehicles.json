@@ -1,6 +1,42 @@
 {
   "//": "Part operations and fault fixes are derived verbatim in meaning from the attributed CDDA JSON. Spawn odds, hex speeds, fuel-per-hex, terrain and wear are AIR adaptations, not CDDA driving physics. A zero-health part must be removed and replaced.",
-  "roadChance": 0.035,
+  "roadChance": 0.105,
+  "//found": "AIR (10.10.2026): the state of a vehicle found on an old road. A slot is fitted with its own `spawn` chance (a required one with `present.required`, or its role's own row); a fitted part is whole with the `intact` chance of its role (else `intact.default`) and then has a condition drawn from `health`; otherwise it is there but destroyed, to be taken off and replaced. Two finds and some repairs make one that runs. `fuel`: how often there is something left in a whole tank, and what share of its size. `batteryCharge`: the share of its capacity a fitted battery still holds.",
+  "found": {
+    "present": {
+      "required": 0.97,
+      "frame": 1,
+      "tank": 1,
+      "wheel": 1,
+      "battery": 1,
+      "alternator": 1
+    },
+    "intact": {
+      "default": 0.66,
+      "frame": 1,
+      "tank": 1,
+      "wheel": 0.85,
+      "battery": 1,
+      "alternator": 1
+    },
+    "health": [
+      0.4,
+      0.9
+    ],
+    "fuel": {
+      "chance": 0.7,
+      "fraction": [
+        0.005,
+        0.06
+      ]
+    },
+    "batteryCharge": [
+      0.1,
+      0.5
+    ]
+  },
+  "//idle": "AIR (10.10.2026): running a parked engine to charge. A working alternator gives its `fit.watts`; the engine burns `idleFuelPerHour` charges of its fuel an hour, times its own `fit.fuel` share. The fitted battery fills first; at the camp what is left over goes to the camp's batteries.",
+  "idleFuelPerHour": 800,
   "fuelItem": "gasoline",
   "fuelCapacity": 60000,
   "fuelPerHex": {
@@ -2137,7 +2173,8 @@
           "moto",
           "car"
         ],
-        "kjPerHex": 5
+        "kjPerHex": 5,
+        "watts": 600
       }
     },
     "alternator_truck": {
@@ -2343,7 +2380,8 @@
         "mounts": [
           "car"
         ],
-        "kjPerHex": 8
+        "kjPerHex": 8,
+        "watts": 900
       }
     },
     "tank_small": {
@@ -7258,7 +7296,8 @@
         "mounts": [
           "cycle"
         ],
-        "kjPerHex": 1
+        "kjPerHex": 1,
+        "watts": 60
       }
     },
     "alternator_motorbike": {
@@ -7390,7 +7429,8 @@
         "mounts": [
           "moto"
         ],
-        "kjPerHex": 3
+        "kjPerHex": 3,
+        "watts": 300
       }
     },
     "hdframe": {
