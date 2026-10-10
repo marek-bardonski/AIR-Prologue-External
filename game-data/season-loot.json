@@ -72,7 +72,8 @@
   },
   "preservation": {
     "//": "Cold keeps food. Food and carcasses age at the rate for the temperature of the place they lie (points in between are read on the line between the two nearest): the ground or a store takes the hex's air, the pack is kept warm by the body (never under packMinC). Below freezeBelowC for freezeMinutes, food freezes and must thaw (thawAboveC for thawMinutes, or a burning hearth on the hex) before it can be eaten. Water in a vessel freezes too.",
-    "rateByC": [[0, 0], [4, 0.25], [10, 0.5], [20, 1]],
+    "//rateByC": "Over 20 degrees food turns faster than its shelf life says (10.10.2026): the summer's heat is a rate above 1, flat beyond the last point. A cellar or a cold box is what answers it.",
+    "rateByC": [[0, 0], [4, 0.25], [10, 0.5], [20, 1], [30, 2.5]],
     "packMinC": 10,
     "freezeBelowC": 0,
     "freezeMinutes": 60,

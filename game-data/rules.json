@@ -418,7 +418,12 @@
     "awakePerHourPerPart": 0.25,
     "asleepPerHourPerPart": 1.0,
     "bandagedMultiplier": 2.0,
-    "splintDays": 7
+    "splintDays": 7,
+    "//fragile": "A limb about to break is said once behind a held button (Health.fragileParts): at atOrBelowHp whatever the cause, or at bleedingAtOrBelowHp while it still bleeds.",
+    "fragile": {
+      "atOrBelowHp": 1,
+      "bleedingAtOrBelowHp": 3
+    }
   },
   "loot": {
     "clearedTileBonusRolls": 2,
