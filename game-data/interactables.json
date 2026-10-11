@@ -1233,7 +1233,7 @@
         },
         {
           "item": "toaster",
-          "chance": 0.08
+          "chance": 0.24
         },
         {
           "item": "ceramic_mug",
@@ -1389,6 +1389,10 @@
           "item": "cell_phone",
           "chance": 0.22,
           "found": true
+        },
+        {
+          "item": "office_holepunch",
+          "chance": 0.15
         },
         {
           "item": "battery_charger",

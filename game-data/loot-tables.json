@@ -3743,7 +3743,7 @@
         },
         {
           "item": "alarmclock",
-          "weight": 1,
+          "weight": 2,
           "count": [
             1,
             1
@@ -26460,7 +26460,7 @@
         },
         {
           "item": "can_drink",
-          "weight": 4,
+          "weight": 24,
           "count": [
             1,
             2
@@ -28421,7 +28421,7 @@
         },
         {
           "item": "beer",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -28434,7 +28434,7 @@
         },
         {
           "item": "belgian_ale",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -28499,7 +28499,7 @@
         },
         {
           "item": "drink_hard_seltzer",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -28512,7 +28512,7 @@
         },
         {
           "item": "european_pilsner",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -28551,7 +28551,7 @@
         },
         {
           "item": "imperial_stout",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -28564,7 +28564,7 @@
         },
         {
           "item": "india_pale_ale",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -28603,7 +28603,7 @@
         },
         {
           "item": "pale_ale",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -28694,7 +28694,7 @@
         },
         {
           "item": "stout",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -29979,7 +29979,7 @@
         },
         {
           "item": "crispycran",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -30031,7 +30031,7 @@
         },
         {
           "item": "orangesoda",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30057,7 +30057,7 @@
         },
         {
           "item": "purple_drink",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30070,7 +30070,7 @@
         },
         {
           "item": "rootbeer",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30096,7 +30096,7 @@
         },
         {
           "item": "sparkling",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30109,7 +30109,7 @@
         },
         {
           "item": "sparkling_peach",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30122,7 +30122,7 @@
         },
         {
           "item": "sparkling_pomegranate",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30187,7 +30187,7 @@
         },
         {
           "item": "zerocola",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30200,7 +30200,7 @@
         },
         {
           "item": "zeroorange",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30213,7 +30213,7 @@
         },
         {
           "item": "zerotropical",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30226,7 +30226,7 @@
         },
         {
           "item": "colamdew",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30239,7 +30239,7 @@
         },
         {
           "item": "creamsoda",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30252,7 +30252,7 @@
         },
         {
           "item": "spezi",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30265,7 +30265,7 @@
         },
         {
           "item": "zeromdew",
-          "weight": 0.5,
+          "weight": 3,
           "count": [
             1,
             1
@@ -30450,7 +30450,7 @@
         },
         {
           "item": "energy_drink",
-          "weight": 1,
+          "weight": 6,
           "count": [
             1,
             1
@@ -30463,7 +30463,7 @@
         },
         {
           "item": "cola",
-          "weight": 2,
+          "weight": 12,
           "count": [
             1,
             1
@@ -30785,7 +30785,7 @@
         },
         {
           "item": "V8",
-          "weight": 0.06,
+          "weight": 0.36,
           "count": [
             1,
             1

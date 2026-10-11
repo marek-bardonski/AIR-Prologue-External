@@ -194,5 +194,9 @@
     "label": "Ate from a carcass",
     "damagePerBite": 1,
     "bites": { "tiny": 1, "small": 2, "medium": 3, "large": 4, "huge": 6 }
+  },
+  "emptyTins": {
+    "//": "AIR (11.10.2026): a shop-tinned food eaten loose leaves its tin (the food's own container) behind, beside the survivor's other things or on the ground where it lay. Only the foods listed. These are steel tins: taken apart they give steel scrap, never aluminium (that is the drink can, which already stays behind when emptied). The rule does not know where a tin of beans came from, so beans put up at home in a jar leave a tin too.",
+    "foods": [ "can_beans", "can_corn", "can_spam", "can_sardine", "can_tuna", "can_tomato", "can_peach", "can_pineapple", "can_clams", "can_salmon", "can_chicken", "can_chowder", "can_cheese", "ravioli", "pork_beans", "chili", "brown_bread", "catfood", "dogfood" ]
   }
 }
