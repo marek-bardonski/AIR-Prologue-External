@@ -209,7 +209,9 @@
       "EXPLOSIVE",
       "FIRESTARTER"
     ],
-    "tinderMaxGrams": 100
+    "tinderMaxGrams": 100,
+    "//maxBurnMinutes": "Prologue balance (11.10.2026): the most burning time a hearth holds at once; feeding past it is refused (home/Fuel.js refuel), and the Fuel bar on the Home panel is drawn against it.",
+    "maxBurnMinutes": 2880
   },
   "salvage": {
     "yield": 0.75,
