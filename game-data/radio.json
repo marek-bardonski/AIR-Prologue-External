@@ -1,9 +1,8 @@
 {
-  "//": "The radio road to other people. Original Prologue numbers; the ids name whitelisted things. A receiver with a charged battery is searched across the bands for searchMinutes in all (the time is kept between sittings); once the frequency is found the broadcast itself only comes at broadcastHours, and hearing it once ends the radio's part in the story. The village is placed once per run, villageDistance hexes from home, on one of villageBiomes.",
+  "//": "The radio road to other people. Original Prologue numbers; the ids name whitelisted things. Whoever is listening to a powered receiver when one of broadcastHours passes hears the broadcast, however long they have listened; hearing it once ends the radio's part in the story. The village is placed once per run, villageDistance hexes from home, on one of villageBiomes.",
   "receivers": [
     "radio"
   ],
-  "searchMinutes": 720,
   "broadcastHours": [
     0,
     12
