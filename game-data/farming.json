@@ -362,9 +362,10 @@
     ]
   },
   "fertilizers": {
-    "//": "Power feeds the growth speed and the yield bands; one unit covers plantsPerUnit plants, and it is used up after lastsDays, after which the bed can be fed again.",
+    "//": "Power feeds the growth speed and the yield bands; one unit covers plantsPerUnit plants, and it is used up after lastsDays. Prologue (11.10.2026): the bed can be fed again as soon as the feed bar is under refeedBelow of full; the new feeding replaces what was left and starts a full lastsDays again.",
     "plantsPerUnit": 5,
     "lastsDays": 10,
+    "refeedBelow": 0.8,
     "power": {
       "fertilizer_commercial": 1,
       "meal_bone": 0.7,
