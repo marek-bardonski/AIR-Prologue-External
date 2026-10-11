@@ -1,6 +1,6 @@
 {
   "files": 3413,
-  "objects": 58131,
+  "objects": 58132,
   "duplicates": 633,
   "byDomain": {
     "achievement": 221,
@@ -124,12 +124,12 @@
     "event_transformation": 161,
     "tool_quality": 92,
     "widget": 1256,
-    "uncraft": 1350,
+    "uncraft": 1351,
     "vehicle_part_category": 12,
     "weapon_category": 25,
     "magic_type": 1,
     "mod_info": 1,
     "region_overlay": 1
   },
-  "generatedAt": "2026-10-10T19:56:18.320Z"
+  "generatedAt": "2026-10-11T17:12:17.255Z"
 }

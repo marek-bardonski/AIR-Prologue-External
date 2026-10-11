@@ -204,5 +204,14 @@
         ]
       ]
     ]
+  },
+  {
+    "//": "AIR (11.10.2026): the small food tin had no way apart, while the medium one hammers flat into a piece of scrap. Now it does too, so a tin left after a meal (game-data/consume.json emptyTins) is worth keeping.",
+    "result": "can_food",
+    "type": "uncraft",
+    "activity_level": "MODERATE_EXERCISE",
+    "time": "12 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "scrap", 1 ] ] ]
   }
 ]
