@@ -1,8 +1,12 @@
 {
   "source": "Appliance draws are the CDDA 0.I link_up charge_rate (or power_draw where the tool has one) of each item; the generator's output is the CDDA appliance part's epower. The bank, the inverter's rating and losses, fuel use and every other number here are Prologue balance.",
-  "//": "Camp power (game repo src/game/electricity/CampPower.js). Batteries set down at the camp (its ground or its storage) whose electricity.json profile carries bank.flag form the camp's battery bank. A corded appliance listed under appliances works only at the camp, only with an inverter there, and only while the bank can pay for it: watts x minutes of work (divided by the inverter's efficiency), plus any CDDA tool charges (1 charge = 1 kJ). An appliance with its own battery fitted (an electricity.json device profile) runs off that battery instead, anywhere. Solar panels (lying on the camp's ground or built into the solar array) and running generators refill the bank.",
+  "//": "Camp power (game repo src/game/electricity/CampPower.js). At the camp everything within reach is on the grid, nothing is plugged in by hand: batteries whose electricity.json profile carries bank.flag form the battery bank whether carried, on the camp's ground or in its storage; a battery charger, an inverter and the corded appliances under `appliances` count the same way. A load at or under inverter.neededAboveWatts runs straight off the bank (12 V); above it the load needs the inverter: watts x minutes of work divided by the inverter's efficiency, plus any CDDA tool charges (1 charge = 1 kJ). A battery tool at the camp runs off the supply too, its own cell only as a fallback. Solar panels (lying on the camp's ground or built into the solar array) and running generators refill the bank; a charger at the camp fills the small cells by itself, the survivor's own first.",
   "bank": {
     "flag": "RECHARGE"
+  },
+  "//inverter": "neededAboveWatts (Prologue balance, 11.10.2026): a load at or under it is a 12 V thing and runs straight off the bank with no inverter and no loss (chargers, the soldering iron, sealers, a fan, small fridges, the water purifier, every battery tool on the supply); above it the load is mains current and needs the inverter. maxWatts: the most an inverter delivers at once (an appliance that draws more cannot run); efficiency: the share of the battery's energy that reaches the appliance.",
+  "inverter": {
+    "neededAboveWatts": 150
   },
   "//inverters": "maxWatts: the most it delivers at once (an appliance that draws more cannot run); efficiency: the share of the battery's energy that reaches the appliance.",
   "inverters": {
