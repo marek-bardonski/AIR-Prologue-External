@@ -19,7 +19,13 @@
       "forest",
       "hills"
     ],
-    "population": 12
+    "population": 12,
+    "//joy": "12.10.2026: the first ride down, once: a mood of `mood` (stored units, shown times practice.json morale.scale) that lasts `days` and fades over their second half, and the mindset track lifted by `mindset` at once.",
+    "joy": {
+      "mood": 25,
+      "days": 6,
+      "mindset": 0.25
+    }
   },
   "//places": "Pinned story places, one of each per run, placed like the village: 'distance' hexes from home (or from the village with around: 'village') on one of 'biomes', on ground the survivor has not seen. placeGap keeps them apart. Names are what the HUD pointer calls them.",
   "placeGap": 3,

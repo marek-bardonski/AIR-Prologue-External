@@ -150,7 +150,8 @@
     "wash": "MODERATE_EXERCISE",
     "warm_up": "LIGHT_EXERCISE",
     "site_work": "LIGHT_EXERCISE",
-    "site_pick": "LIGHT_EXERCISE"
+    "site_pick": "LIGHT_EXERCISE",
+    "panic": "NO_EXERCISE"
   },
   "thirstMood": {
     "//": "Prologue rule: thirst wears the mood only once the body's water reserve (waterReserve) has begun to fall, never while it is full, however empty the water bar. byReserve rows are read from the first whose `below` (share of the reserve) the reserve is under, strongest last; moralePerHour sinks the entry, never below the row's moraleFloor (stored units; shown times practice.json morale.scale). Once the reserve is full again it lingers fadeHours, fading over the second half.",
@@ -755,7 +756,7 @@
     ]
   },
   "starvation": {
-    "//": "What a body does as its reserve runs out, by needs.kcal / healthyKcal. moralePerHour sinks the hunger mood, never below the stage's moraleFloor (both stored units; shown times practice.json morale.scale). staminaCapPercent is the highest share of the bar stamina recovers to from that stage on (worse stages inherit it). Each stage is entered once; the effects are set by src/game/survival/Starvation.js and undone when the survivor eats their way back up.",
+    "//": "What a body does as its reserve runs out, by needs.kcal / healthyKcal. moralePerHour sinks the hunger mood, never below the stage's moraleFloor (both stored units; shown times practice.json morale.scale). staminaCapPercent is the highest share of the bar stamina recovers to from that stage on (worse stages inherit it). Each stage is entered once; the effects are set by src/game/survival/Starvation.js and undone when the survivor eats their way back up. 12.10.2026: a malnourished body gets its breath back to half the bar and no further (the bar itself is whole, so the HUD's hatched end shows exactly that); the bar shortens only from wasting on, and those two figures were lowered so that the deeper stages reach what they reached before.",
     "hysteresis": 0.02,
     "refeeding": {
       "//": "Coming back too fast after weeks of nothing is its own illness: a small meal is all a wasted body can take in an hour.",
@@ -784,7 +785,7 @@
         "at": 0.5,
         "label": "Malnourished",
         "description": "You are running on nothing. Cuts turn bad and stay bad, and standing up too fast puts spots in your eyes.",
-        "staminaMaxPercent": 30,
+        "staminaCapPercent": 50,
         "moralePerHour": -1,
         "moraleFloor": -8,
         "focusPercent": 20,
@@ -799,7 +800,7 @@
         "at": 0.25,
         "label": "Wasting",
         "description": "There is nothing left to burn but you. Wounds do not close, and heavy work puts you on the ground.",
-        "staminaMaxPercent": 50,
+        "staminaMaxPercent": 25,
         "moralePerHour": -2,
         "moraleFloor": -15,
         "focusPercent": 35,
@@ -817,7 +818,7 @@
         "at": 0.1,
         "label": "Organs failing",
         "description": "Your body has started taking itself apart. Heart, liver, kidneys: this is what kills before the reserve ever reaches zero.",
-        "staminaMaxPercent": 70,
+        "staminaMaxPercent": 55,
         "moralePerHour": -4,
         "moraleFloor": -25,
         "focusPercent": 50,
