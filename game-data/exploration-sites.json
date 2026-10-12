@@ -1,5 +1,5 @@
 {
-  "//": "Interiors (original Prologue numbers). walkMinutes is a step from one room to the next; a walk across several open rooms is that many steps. bashMinutes x lock level / hammer quality is a long job, and only a wooden door gives way. A security door has no keyhole: it opens from its terminal, which locks for lockoutMinutes after four wrong words. Every room rolls for an enemy when it is first entered and again when it is searched, on its own table or else the tile's, with the chance of a full exploration of the tile. 'pick' (12.10.2026): the lock's sweet spot is tolerance degrees either side of its angle (base - perLevel x lock level, never under min, + perSkill x the skill, + perToolQuality for each point of the tool above 1 up to toolMax); within hint.reach degrees of it (reach + perLevel x lock level + perSkill x the skill, never under min) the cylinder turns part of the way and so says how near the pick is, beyond that it barely moves; every try that meets resistance wears the pick by wearPerProbe (base + perSkill x the skill, never under min), and forcing it wears it more. Opening a lock practises the skill by xpPerLevel x the lock's level, a failed try by xpProbe.",
+  "//": "Interiors (original Prologue numbers). walkMinutes is a step from one room to the next; a walk across several open rooms is that many steps. bashMinutes x lock level / hammer quality is a long job, and only a wooden door gives way. A security door has no keyhole: it opens from its terminal, which locks for lockoutMinutes after four wrong words. Every room rolls for an enemy when it is first entered and again when it is searched, on its own table or else the tile's, with the chance of a full exploration of the tile. 'pick' (13.10.2026): opening a lock is the player's own skill, and nothing of the survivor's changes the check. The lock's sweet spot is tolerance degrees either side of its angle (base - perLevel x lock level, never under min, + perToolQuality for each point of the tool above 1 up to toolMax); within hint reach degrees of it (reach + perLevel x lock level, never under min) the cylinder turns part of the way, and so shows and sounds how near the pick is; beyond that it barely moves ('floor' degrees). Every try that meets resistance wears the pick by wearPerProbe, and forcing it wears it more. The devices skill only adds clues ('clues'): from sideAt it tells which way the pins sit, from arcAt it marks an arc of the dial that holds the spot, arcDegrees either side at first and arcPerSkill narrower for each level beyond, never under arcMin. Working a lock trains the skill by the minute, 'training.timesReading' times as fast as reading a plain book of 'training.book' would.",
   "walkMinutes": 2,
   "searchMinutes": 15,
   "pickMinutes": 8,
@@ -22,24 +22,30 @@
       "base": 8,
       "perLevel": 2,
       "min": 1.5,
-      "perSkill": 0.5,
       "perToolQuality": 0.75,
       "toolMax": 3
     },
     "hint": {
       "reach": 30,
       "perLevel": -4,
-      "perSkill": 4,
       "min": 10,
       "floor": 6
     },
-    "wearPerProbe": {
-      "base": 0.7,
-      "perSkill": -0.1,
-      "min": 0.08
+    "wearPerProbe": 0.4,
+    "clues": {
+      "sideAt": 2,
+      "arcAt": 4,
+      "arcDegrees": 40,
+      "arcPerSkill": -6,
+      "arcMin": 10
     },
-    "xpPerLevel": 40,
-    "xpProbe": 3
+    "training": {
+      "timesReading": 3,
+      "book": {
+        "minutes": 30,
+        "intelligence": 8
+      }
+    }
   },
   "profiles": {
     "laboratory": {
@@ -1296,6 +1302,5 @@
         }
       ]
     }
-  },
-  "layoutVersion": 2
+  }
 }
