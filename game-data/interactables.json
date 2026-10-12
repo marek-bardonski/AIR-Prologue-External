@@ -2099,6 +2099,49 @@
         ]
       ]
     },
+    "clinic_dispensary": {
+      "name": "Dispensary cabinet",
+      "kind": "search",
+      "minutes": 10,
+      "uses": 1,
+      "//": "AIR (12.10.2026): the clinic's own drug cabinet, each row on its own chance. Original Prologue numbers, set so that three clinics searched through give the village's medical work (village-quests.json q_medic: six doses, eight dressings) at least four times in five; tests/quest-medic-clinics.test.mjs in the game repo holds them to it.",
+      "items": [
+        {
+          "item": "weak_antibiotic",
+          "chance": 0.6,
+          "charges": [
+            2,
+            4
+          ],
+          "found": true
+        },
+        {
+          "item": "antibiotics",
+          "chance": 0.45,
+          "charges": [
+            2,
+            4
+          ],
+          "found": true
+        },
+        {
+          "item": "bandages",
+          "chance": 0.9,
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "item": "medical_gauze",
+          "chance": 0.7,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
     "railway_depot_supplies": {
       "name": "Depot freight locker",
       "kind": "deconstruct",

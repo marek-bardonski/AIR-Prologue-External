@@ -844,6 +844,11 @@
               "table",
               1,
               1
+            ],
+            [
+              "clinic_dispensary",
+              1,
+              1
             ]
           ]
         }

@@ -304,6 +304,23 @@
       "roadWeight": 2,
       "outsideRegions": true,
       "spacing": 2
+    },
+    "//village_clinic": "AIR (12.10.2026): 'aroundVillage' with 'count' stands exactly that many of the place within 'maxDistance' hexes of the survivor village (never nearer to it than 'minFromPlace'), on the best-ranked hexes, with no dice per hex: the village's medical work sends the survivor to clinics, and the weighted sites leave the nearest ones days apart. Last in the list, so nothing placed before it moves.",
+    "village_clinic": {
+      "terrain": "medical_clinic",
+      "aroundVillage": true,
+      "minFromPlace": 3,
+      "maxDistance": 9,
+      "count": 4,
+      "minDistance": 5,
+      "biomes": [
+        "field",
+        "forest",
+        "hills"
+      ],
+      "preserveKnown": true,
+      "outsideRegions": true,
+      "spacing": 2
     }
   },
   "legacyRadius": 25,

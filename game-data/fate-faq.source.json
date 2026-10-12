@@ -429,6 +429,10 @@
           "a": "The medical clinic by the road, house bathrooms and kitchens. Willow bark chewed raw eases pain in a pinch."
         },
         {
+          "q": "Where do I find antibiotics?",
+          "a": "A clinic's dispensary cabinet is the place: it stands apart from the supply lockers, opens without tools and more often than not holds a few doses, with bandages and gauze beside them. A house's bathroom cabinet has some now and then, rarely. Nobody sells them and no recipe makes them."
+        },
+        {
           "q": "I found dirty, torn clothes. Can I make bandages from them?",
           "a": "Yes. Clothes lost in the open, in wrecks and in ruins come dirty and torn: they go into no recipe as they are, a torn garment cannot be worn, and a dirty one can be worn only at a standing cost to your mood for as long as it is on you. Take them apart and the cloth comes out dirty; wash it and it is ordinary cloth again, good for makeshift bandages. Washing wants water and soap with a washboard or a washing kit, or a pot of water boiled over a fire, which needs no soap but more water, more time and fuel. Cloth that is tainted rather than merely dirty, from remains and the worst ruins, cannot be washed at all: what is taken from it is lost. Clothes found in houses, shops and clinics are clean."
         }
