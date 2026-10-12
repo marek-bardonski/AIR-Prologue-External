@@ -827,6 +827,10 @@
     "medical_clinic": {
       "name": "Medical clinic",
       "danger": 3,
+      "dangerRange": [
+        0,
+        3
+      ],
       "passable": true,
       "variants": [
         {

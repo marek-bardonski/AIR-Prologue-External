@@ -305,19 +305,17 @@
       "outsideRegions": true,
       "spacing": 2
     },
-    "//village_clinic": "AIR (12.10.2026): 'aroundVillage' with 'count' stands exactly that many of the place within 'maxDistance' hexes of the survivor village (never nearer to it than 'minFromPlace'), on the best-ranked hexes, with no dice per hex: the village's medical work sends the survivor to clinics, and the weighted sites leave the nearest ones days apart. Last in the list, so nothing placed before it moves.",
-    "village_clinic": {
+    "//clinic_floor": "AIR (12.10.2026): 'atLeast' tops the world up to that many of the terrain, counting the weighted sites: a world whose sites rolled fewer gets the rest on the best-ranked hexes that could have held one (the site's own biomes, 'near' and 'minDistance'), with no dice per hex and only beyond 'legacyRadius'. The village's medical work sends the survivor to four clinics. Last in the list, so nothing placed before it moves.",
+    "clinic_floor": {
       "terrain": "medical_clinic",
-      "aroundVillage": true,
-      "minFromPlace": 3,
-      "maxDistance": 9,
-      "count": 4,
+      "atLeast": 4,
       "minDistance": 5,
       "biomes": [
         "field",
         "forest",
         "hills"
       ],
+      "near": "road",
       "preserveKnown": true,
       "outsideRegions": true,
       "spacing": 2
