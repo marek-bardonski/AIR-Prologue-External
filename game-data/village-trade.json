@@ -137,6 +137,16 @@
             2,
             5
           ]
+        },
+        {
+          "item": "9mm",
+          "price": 4,
+          "tier": "common",
+          "unit": 10,
+          "count": [
+            2,
+            5
+          ]
         }
       ],
       "pool": [
@@ -613,6 +623,39 @@
             4
           ],
           "weight": 3
+        },
+        {
+          "item": "22_lr",
+          "price": 3,
+          "tier": "common",
+          "unit": 20,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "shot_bird",
+          "price": 4,
+          "tier": "uncommon",
+          "unit": 5,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "38_special",
+          "price": 5,
+          "tier": "uncommon",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
         }
       ],
       "rare": [
@@ -1876,6 +1919,83 @@
             1
           ],
           "weight": 3
+        },
+        {
+          "item": "9mmfmj",
+          "price": 6,
+          "tier": "uncommon",
+          "unit": 10,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "shot_00",
+          "price": 6,
+          "tier": "uncommon",
+          "unit": 5,
+          "count": [
+            1,
+            4
+          ],
+          "weight": 3
+        },
+        {
+          "item": "45_acp",
+          "price": 7,
+          "tier": "uncommon",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "223",
+          "price": 10,
+          "tier": "rare",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "762_m87",
+          "price": 10,
+          "tier": "rare",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "shot_slug",
+          "price": 10,
+          "tier": "rare",
+          "unit": 5,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "9mmP",
+          "price": 10,
+          "tier": "rare",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
         }
       ],
       "rare": [
@@ -2125,6 +2245,56 @@
             1
           ],
           "weight": 3
+        },
+        {
+          "item": "model_10_revolver",
+          "price": 85,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "glock_19",
+          "price": 110,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "ruger_1022",
+          "price": 95,
+          "tier": "epic",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "remington_870",
+          "price": 140,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "glockmag",
+          "price": 30,
+          "tier": "epic",
+          "count": [
+            1,
+            2
+          ],
+          "weight": 1
         }
       ]
     },
@@ -3170,6 +3340,50 @@
             1
           ],
           "weight": 3
+        },
+        {
+          "item": "9mmP2",
+          "price": 25,
+          "tier": "epic",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "556",
+          "price": 28,
+          "tier": "epic",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "308",
+          "price": 28,
+          "tier": "epic",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
+        },
+        {
+          "item": "762_51",
+          "price": 30,
+          "tier": "epic",
+          "unit": 10,
+          "count": [
+            1,
+            3
+          ],
+          "weight": 2
         }
       ],
       "rare": [
@@ -3272,6 +3486,46 @@
             1
           ],
           "weight": 3
+        },
+        {
+          "item": "mossberg_500",
+          "price": 170,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "aksemi",
+          "price": 220,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "mp_15",
+          "price": 260,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
+        },
+        {
+          "item": "m1a",
+          "price": 300,
+          "tier": "legendary",
+          "count": [
+            1,
+            1
+          ],
+          "weight": 1
         }
       ]
     }
@@ -3300,5 +3554,6 @@
       "minPrice": 60
     }
   },
-  "//staples": "AIR (10.10.2026): 'staples' are on a merchant's shelf every day, beside the rolled places: plain things a survivor cannot do without and can hardly find (flour, sugar, cooking oil, yeast, seed potatoes and onions, soap, solder). They take no place from 'slots', restock each morning like the rest, and a staple is never also rolled from the pool that day."
+  "//staples": "AIR (10.10.2026): 'staples' are on a merchant's shelf every day, beside the rolled places: plain things a survivor cannot do without and can hardly find (flour, sugar, cooking oil, yeast, seed potatoes and onions, soap, solder). They take no place from 'slots', restock each morning like the rest, and a staple is never also rolled from the pool that day.",
+  "//arms": "AIR (13.10.2026): rounds and guns go by the door they stand behind. Mara's stores (access 1) keep 9 mm as a staple and small-game rounds in the pool; Anselm's workshop (access 2) the service calibres, and now and then a sidearm, a small rifle or a shotgun among its rare places; Juno's archive (access 3) the best rounds, and rarely a rifle. A round is priced by the box ('unit' rounds); a gun is sold empty."
 }
