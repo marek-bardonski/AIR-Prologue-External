@@ -2108,10 +2108,14 @@
       "reacquireShare": 0.6
     },
     "stealth": {
-      "//open": "13.10.2026: a survivor who saw it first (opening.stealth) draws back unseen before the fight: openSteps steps an action, each one an openNoticeChance of being noticed, until openTo steps (or the edge of what the ground lets be seen).",
+      "//open": "13.10.2026: a survivor who saw it first (opening.stealth) draws back unseen before the fight, openSteps steps an action, until openTo steps (or the edge of what the ground lets be seen). It is slow: the whole way from contact to openTo takes openMinutes, so a start already some steps off takes that much less. Every step costs openStaminaPerStep stamina and is a chance of being noticed: openNoticeChance, less openNoticePerSurvival for each level of survival, never under openNoticeMin. Noticed, the gap won so far is held.",
       "openTo": 16,
-      "openSteps": 3,
-      "openNoticeChance": 0.08,
+      "openSteps": 1,
+      "openNoticeChance": 0.03,
+      "openNoticePerSurvival": 0.003,
+      "openNoticeMin": 0.005,
+      "openMinutes": 120,
+      "openStaminaPerStep": 3,
       "extraCost": 200,
       "noticeChance": 0.2,
       "closeNoticeChance": 0.4,
