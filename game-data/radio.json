@@ -7,7 +7,7 @@
     0,
     12
   ],
-  "//buildSteps": "13.10.2026: the way to a working radio as ordered optional goals in the Quests panel (game RadioGoals.js): one unfinished step at a time, a step counts as done once it or any later one is. Conditions: count (id, count within reach or stored at camp), quality, skill, tool (any tool the named recipe asks for), recipe (known), parts (every component of the named recipe at hand), receiver (a radio from `receivers`), heard, all / any.",
+  "//buildSteps": "13.10.2026: the way to a working radio as ordered optional goals in the Quests panel (game RadioGoals.js): the first unfinished step is shown. A step is done while its own condition holds, once the radio exists or the broadcast was heard, or once a step named in its closedBy holds (for what practice uses up or outgrows: the scrap, the first level). A tool that is lost reopens its step. Conditions: count (id, count within reach or stored at camp), quality, skill, tool (any tool the named recipe asks for), recipe (known), parts (every component of the named recipe at hand), receiver (a radio from `receivers`), heard, all / any.",
   "buildSteps": [
     {
       "id": "scrap",
@@ -17,7 +17,11 @@
         "kind": "count",
         "id": "e_scrap",
         "count": 2
-      }
+      },
+      "closedBy": [
+        "electronics1",
+        "electronics2"
+      ]
     },
     {
       "id": "screw",
@@ -37,7 +41,10 @@
         "kind": "skill",
         "id": "electronics",
         "level": 1
-      }
+      },
+      "closedBy": [
+        "electronics2"
+      ]
     },
     {
       "id": "solder",
@@ -79,11 +86,25 @@
     },
     {
       "id": "parts",
-      "title": "Radio 6: gather the parts",
-      "summary": "Everything the radio is made of, within reach or stored at camp. Old radios, cars and antennas give most of it when taken apart.",
+      "title": "Radio 6: gather the parts and the tools",
+      "summary": "Everything the radio is made of and everything it is built with, within reach or stored at camp. Old radios, cars and antennas give most of the parts when taken apart; flashlights, players and coffee makers hold solder and circuits.",
       "condition": {
-        "kind": "parts",
-        "recipe": "recipe:radio"
+        "kind": "all",
+        "of": [
+          {
+            "kind": "parts",
+            "recipe": "recipe:radio"
+          },
+          {
+            "kind": "tool",
+            "recipe": "recipe:radio"
+          },
+          {
+            "kind": "quality",
+            "id": "SCREW",
+            "level": 1
+          }
+        ]
       }
     },
     {
