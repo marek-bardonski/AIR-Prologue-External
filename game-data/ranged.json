@@ -33,7 +33,7 @@
       "home": -5
     }
   },
-  "//opening": "13.10.2026: how a meeting opens, two rolls of their own. contactChance less contactPerSurvival for each level of survival: it is on the survivor at once (0 steps). stealthChance plus stealthPerSurvival for each level: the survivor saw it first and may draw back unseen (hunting.stealth). Not rolled for something that caught the survivor by surprise or was already fought.",
+  "//opening": "13.10.2026: how a meeting opens, two rolls of their own. contactChance less contactPerSurvival for each level of survival: it is on the survivor at once (0 steps). stealthChance plus stealthPerSurvival for each level: the survivor saw it first and may draw back unseen (hunting.stealth). Rolled for every first meeting, also one that came upon the survivor at work (seen first is then not surprised); not for something already fought or found standing over a fallen survivor.",
   "opening": {
     "contactChance": 0.5,
     "contactPerSurvival": 0.05,
