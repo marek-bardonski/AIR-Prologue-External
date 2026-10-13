@@ -7,6 +7,102 @@
     0,
     12
   ],
+  "//buildSteps": "13.10.2026: the way to a working radio as ordered optional goals in the Quests panel (game RadioGoals.js): one unfinished step at a time, a step counts as done once it or any later one is. Conditions: count (id, count within reach or stored at camp), quality, skill, tool (any tool the named recipe asks for), recipe (known), parts (every component of the named recipe at hand), receiver (a radio from `receivers`), heard, all / any.",
+  "buildSteps": [
+    {
+      "id": "scrap",
+      "title": "Radio 1: collect electronic scrap",
+      "summary": "Take broken electronics apart (a television, a phone, a microwave, a wrecked robot) or search houses, shops and workshops. Keep a few pieces: practice uses them up.",
+      "condition": {
+        "kind": "count",
+        "id": "e_scrap",
+        "count": 2
+      }
+    },
+    {
+      "id": "screw",
+      "title": "Radio 2: a tool that turns screws",
+      "summary": "Find or make anything with Screw driving 1: a screwdriver, a pocket knife with one, a multitool.",
+      "condition": {
+        "kind": "quality",
+        "id": "SCREW",
+        "level": 1
+      }
+    },
+    {
+      "id": "electronics1",
+      "title": "Radio 3: learn electronics, level 1",
+      "summary": "In Crafting, open the practice recipes and run electronics salvage until the skill reaches 1. It needs the scrap and the screw tool. A book on electronics teaches the same; a good mood keeps focus up, and focus is what you learn with.",
+      "condition": {
+        "kind": "skill",
+        "id": "electronics",
+        "level": 1
+      }
+    },
+    {
+      "id": "solder",
+      "title": "Radio 4: a soldering iron and solder",
+      "summary": "Find a soldering iron (or a repair kit that solders) and solder wire: workshops, garages and electronics shops have them. The iron needs power: a charged battery.",
+      "condition": {
+        "kind": "all",
+        "of": [
+          {
+            "kind": "tool",
+            "recipe": "recipe:radio"
+          },
+          {
+            "kind": "count",
+            "id": "solder_wire",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "electronics2",
+      "title": "Radio 5: learn electronics, level 2",
+      "summary": "Practise electronics soldering (cable, scrap and solder), or read on. At level 2 you know how a radio is put together.",
+      "condition": {
+        "kind": "any",
+        "of": [
+          {
+            "kind": "skill",
+            "id": "electronics",
+            "level": 2
+          },
+          {
+            "kind": "recipe",
+            "recipe": "recipe:radio"
+          }
+        ]
+      }
+    },
+    {
+      "id": "parts",
+      "title": "Radio 6: gather the parts",
+      "summary": "Everything the radio is made of, within reach or stored at camp. Old radios, cars and antennas give most of it when taken apart.",
+      "condition": {
+        "kind": "parts",
+        "recipe": "recipe:radio"
+      }
+    },
+    {
+      "id": "build",
+      "title": "Radio 7: build the radio",
+      "summary": "Open Crafting and build it. Pin the recipe to see what is still missing.",
+      "condition": {
+        "kind": "receiver"
+      }
+    },
+    {
+      "id": "listen",
+      "title": "Radio 8: power it and listen",
+      "summary": "Put a charged battery in the radio and use it. The broadcast is only on the air at certain hours: try again later if you hear nothing.",
+      "condition": {
+        "kind": "heard"
+      }
+    }
+  ],
   "listenWatts": 0.08,
   "village": {
     "terrain": "village",
