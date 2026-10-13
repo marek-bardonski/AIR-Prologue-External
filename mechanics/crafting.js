@@ -44,6 +44,24 @@ export function craftFailure(roll, c, normal, uniform) {
   return { protect: Math.min(1, success), progressLoss: Math.max(0, Math.min(1, exponential * (1 - success))), maxComponentLoss: c.maxComponentLoss };
 }
 
+/**
+ * The chance a whole job ends with at least one component destroyed: a setback has to fall inside it (`failZ`), and
+ * the severity's `protect` has to fail on at least one of its trials. Read off `craftFailure` and
+ * `destroyedComponents` below: the protect share is a clipped normal, summed here over its range.
+ * `entries` is how many component entries the job holds; `normalCdf` is the caller's.
+ */
+export function componentLossChance(roll, entries, c, normalCdf) {
+  if (!(entries > 0)) return 0;
+  const trials = Math.max(1, Math.floor(entries * c.maxComponentLoss)), sd = roll.sd * c.failureStddevMultiplier;
+  let kept = 0, weight = 0;
+  for (let i = 0; i < 400; i++) {
+    const z = -5 + (i + .5) / 40, w = Math.exp(-z * z / 2);
+    kept += w * Math.min(1, Math.max(0, roll.center + z * sd)) ** trials;
+    weight += w;
+  }
+  return normalCdf(roll.failZ) * (1 - kept / weight);
+}
+
 /** The minutes of progress a setback of this severity undoes, on the source's fixed-point progress counter. After src/crafting.cpp `item::handle_craft_failure`. */
 export function progressLost(progress, minutes, severity, c) {
   const counter = Math.trunc(progress / minutes * c.progressScale);
