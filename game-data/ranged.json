@@ -33,6 +33,13 @@
       "home": -5
     }
   },
+  "//opening": "13.10.2026: how a meeting opens, two rolls of their own. contactChance less contactPerSurvival for each level of survival: it is on the survivor at once (0 steps). stealthChance plus stealthPerSurvival for each level: the survivor saw it first and may draw back unseen (hunting.stealth). Not rolled for something that caught the survivor by surprise or was already fought.",
+  "opening": {
+    "contactChance": 0.5,
+    "contactPerSurvival": 0.05,
+    "stealthChance": 0.5,
+    "stealthPerSurvival": 0.05
+  },
   "movement": {
     "//": "Move-point cost of one player action, and how many steps it is worth. Steps per action scale with the depth of the field, so crossing it still takes a handful of actions and a melee survivor is not made to walk for minutes.",
     "walkCost": 60,
@@ -2101,6 +2108,10 @@
       "reacquireShare": 0.6
     },
     "stealth": {
+      "//open": "13.10.2026: a survivor who saw it first (opening.stealth) draws back unseen before the fight: openSteps steps an action, each one an openNoticeChance of being noticed, until openTo steps (or the edge of what the ground lets be seen).",
+      "openTo": 16,
+      "openSteps": 3,
+      "openNoticeChance": 0.08,
       "extraCost": 200,
       "noticeChance": 0.2,
       "closeNoticeChance": 0.4,
