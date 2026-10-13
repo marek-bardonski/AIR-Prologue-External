@@ -72,6 +72,8 @@
       "village": { "windShelter": 0.95, "insulation": 0.6, "rainCover": 1, "hearthC": 18 },
       "laboratory": { "windShelter": 1, "insulation": 0.6, "rainCover": 1 }
     },
+    "//underground": "13.10.2026: down in the laboratory's floors (run.lab.inside) the survivor is under rock and concrete: no wind, no rain or sleet, and the plant's own chilled air whatever the season above. Standing at its door on the surface is still the open hex.",
+    "underground": { "windShelter": 1, "insulation": 0.95, "rainCover": 1, "hearthC": 12 },
     "//carried": "A tent or tarp in the pack or on the ground is pitched for the night: shelter while asleep only.",
     "carried": {
       "large_tent_kit": { "windShelter": 0.95, "insulation": 0.3, "rainCover": 1 },
