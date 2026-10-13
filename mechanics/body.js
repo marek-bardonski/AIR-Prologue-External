@@ -183,7 +183,7 @@ export function dressing(healing, { skill, basicWoundCare, expertWoundCare }, c)
   const a = healing || {}, bonus = (basicWoundCare ? 1 : 0) + (expertWoundCare ? 2 : 0);
   return {
     quality: Math.max(1, Math.min(c.maxIntensity, Math.round((a.bandages_power || 0) + (a.bandages_scaling ?? c.defaultScaling * (a.bandages_power || 0)) * (skill + bonus)))),
-    bleed: Math.round((a.bleed || 0) * (skill / 2 + bonus)),
+    bleed: Math.round((a.bleed || 0) * Math.max(c.untrainedHands, skill / 2 + bonus)),
     minutes: Math.max(.01, (a.move_cost || c.movesPerMinute) / c.movesPerMinute / (basicWoundCare ? 2 : 1) / (expertWoundCare ? 2 : 1)),
   };
 }

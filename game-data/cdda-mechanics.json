@@ -2512,6 +2512,8 @@
     "maxIntensity": 16,
     "maxEffectiveIntensity": 8,
     "bleedGateMultiplier": 3,
+    "//untrainedHands": "The Prologue's own (13.10.2026): proficiencies are gone, so hands with no first aid at all still stop this share of a dressing's bleed figure. A level of first aid counts 0.5, as before; the larger of the two is used.",
+    "untrainedHands": 0.4,
     "healingPerDayPerIntensity": 2,
     "headMultiplier": 0.5,
     "torsoMultiplier": 1.5
