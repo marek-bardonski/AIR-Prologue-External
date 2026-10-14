@@ -10,7 +10,7 @@ JavaScript. CDDA's code is CC BY-SA 3.0 like its data, so these restatements liv
   rule moves several quantities at once, a plain object to update), the matching block of a `game-data/` table as
   `c`, and a random source when the rule rolls.
 - Each function names the CDDA function it follows in its comment. The numbers stay in the `game-data/` tables
-  (`cdda-mechanics.json`, `sustenance.json`, `practice.json`, `animal-loot.json`, `durability.json`,
+  (`cdda-mechanics.json` (its `limbs` block too), `sustenance.json`, `practice.json`, `animal-loot.json`, `durability.json`,
   `firestarters.json`), which cite their sources too.
 
 | File | Rules | CDDA source |
@@ -21,3 +21,4 @@ JavaScript. CDDA's code is CC BY-SA 3.0 like its data, so these restatements liv
 | `body.js` | reserves and metabolism, the stomach, hunger effects, thirst, sleep, pain, mending and dressings | `character.cpp`, `character_body.cpp`, `stomach.cpp`, `consumption.cpp`, `avatar.cpp`, `suffer.cpp`, `iuse_actor.cpp` |
 | `bionics.js` | the surgeon's number and the chance of an operation, how long it takes, what a failed installation or removal does, the metabolic and sensory-dulling implants and the repair nanobots | `bionics.cpp` |
 | `explosions.js` | the blast's force by distance and what it does to a monster or a person, fire left by a burning blast, noise, safe range, the shrapnel cloud (Gurney speed, drag, thinning, bullet damage, Poisson hits), the flashbang, the lit bottle and the incendiary grenade | `explosion.cpp`, `iuse.cpp` |
+| `limbs.js` | what encumbrance does to the body's work: a part's encumbered share of a limb score, the scores summed over the body, and the modifiers read from them (melee and thrown move cost, the melee roll, dodging, move cost, reloading, aiming) | `bodypart.cpp`, `character.cpp`, `character_modifier.cpp`, `data/json/body_parts.json`, `data/json/character_modifiers.json` |

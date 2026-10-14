@@ -7,3 +7,4 @@ export * as morale from './morale.js';
 export * as body from './body.js';
 export * as bionics from './bionics.js';
 export * as explosions from './explosions.js';
+export * as limbs from './limbs.js';

@@ -2664,5 +2664,57 @@
         "blood_analysis_description": "Wintergreen Oil"
       }
     }
+  },
+  "limbs": {
+    "//": "What encumbrance does, part by part (14.10.2026): every part carries shares of the body's scores, encumbrance on the part lowers its shares, and each kind of work reads the scores it needs. Hands are manipulation and grip, so gloves slow reloading, drawing and aiming, not a swing; the chest and arms are balance, so they slow a swing or a throw, spoil the melee roll and the dodge; legs and feet are speed and footing, so they slow every step. Nothing here touches stealth.",
+    "source": "Cataclysm-DDA 0.I data/json/body_parts.json limb_scores; data/json/character_modifiers.json; src/bodypart.cpp bodypart::encumb_adjusted_limb_value; src/character_modifier.cpp limb_run_cost_modifier",
+    "encumbrance": {
+      "constant": 19,
+      "divisor": 3,
+      "threshold": 0,
+      "limit": 100
+    },
+    "scores": {
+      "balance": {
+        "torso": 0.7,
+        "arm_l": 0.15,
+        "arm_r": 0.15
+      },
+      "manip": {
+        "hand_l": 0.5,
+        "hand_r": 0.5
+      },
+      "grip": {
+        "hand_l": 0.5,
+        "hand_r": 0.5
+      },
+      "lift": {
+        "arm_l": 0.5,
+        "arm_r": 0.5
+      },
+      "move_speed": {
+        "leg_l": 0.5,
+        "leg_r": 0.5
+      },
+      "footing": {
+        "foot_l": 0.5,
+        "foot_r": 0.5
+      }
+    },
+    "modifiers": {
+      "//": "meleeMoveMax, meleeRollMin, dodgeBalanceWeight, aimWeights and the aim bounds are CDDA's; moveMax and manipMax stand in for its open-ended move cost and are Prologue's.",
+      "meleeMoveMax": 3,
+      "meleeRollMin": 0.2,
+      "dodgeBalanceWeight": 1.5,
+      "moveMax": 10,
+      "manipMax": 10,
+      "aimWeights": {
+        "grip": 0.2,
+        "manip": 0.2,
+        "lift": 0.6
+      },
+      "aimMin": 0.1,
+      "aimMax": 1
+    }
   }
 }

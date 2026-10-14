@@ -2496,7 +2496,6 @@
     "drawMoves": 120,
     "useMoves": 25,
     "careMoves": 45,
-    "encumbrancePerPoint": 0.02,
     "holsterFactor": 0.125,
     "packMovesPerLitre": 3,
     "useFromPackShare": 0.5,
